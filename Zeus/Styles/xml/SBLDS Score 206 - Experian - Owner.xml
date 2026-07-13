@@ -1,0 +1,119 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\SBI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+<CompletionCode>0000</CompletionCode> 
+<ReferenceId>user1abc001</ReferenceId> 
+<Products xmlns="http://www.experian.com/ARFResponse">
+<Intelliscore>
+<InputSummary>
+<SubscriberNumber>563736</SubscriberNumber> 
+<InquiryTransactionNumber>C602507152</InquiryTransactionNumber> 
+<CPUVersion>CPU006</CPUVersion> 
+<Inquiry>NARQ/EXPERIAN;CA-/ORANGE CA 92868/MC-000206/IR/V-000777/OWNR-GOGGIN,ARLENE;CA-9840 S DELMONTE BLVD/STREETSBORO OH 44241</Inquiry> 
+</InputSummary>
+<BusinessNameAndAddress>
+<ExperianFileNumber>C00453224</ExperianFileNumber> 
+<ProfileType code="SBI" /> 
+<ProfileDate>20080116</ProfileDate> 
+<ProfileTime>21:21:04</ProfileTime> 
+<TerminalNumber>-AC2</TerminalNumber> 
+<FileEstablishDate>19770100</FileEstablishDate> 
+<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag> 
+<BusinessName>EXPERIAN</BusinessName> 
+<StreetAddress>475 ANTON BLVD</StreetAddress> 
+<City>COSTA MESA</City> 
+<State>CA</State> 
+<Zip>92626</Zip> 
+<PhoneNumber>714-830-7000</PhoneNumber> 
+<SIC code="7323">CREDIT REPORTING</SIC> 
+</BusinessNameAndAddress>
+<ProprietorNameAndAddress>
+<ProfileType code="SBI" /> 
+<ProfileTime>21:21:04</ProfileTime> 
+<ProprietorName>ARLENE GOGGIN</ProprietorName> 
+<StreetAddress>9840 S DELMONTE BLVD</StreetAddress> 
+<City>STREETSBORO</City> 
+<State>OH</State> 
+<Zip>44241</Zip> 
+<SSN>999990000</SSN> 
+</ProprietorNameAndAddress>
+<CustomHeader code="H">THE OBJECTIVE OF THE LEASE DECISION SCORE IS TO PREDICT SERIOUSLY</CustomHeader> 
+<CustomHeader code="H">DEROGATORY PAYMENT BEHAVIOR. POSSIBLE SCORE RANGE FROM 0 TO 100,</CustomHeader> 
+<CustomHeader code="H">WHERE 0 IS A HIGH RISK AND 100 IS A LOW RISK. POSSIBLE SCORE CLASS</CustomHeader> 
+<CustomHeader code="H">RANGE FROM 1 TO 5, WHERE 1 IS VERY LOW RISK AND 5 IS AN EXTREME RISK.</CustomHeader> 
+<IntelliscoreScoreInformation>
+<PubliclyHeldCompany code="N" /> 
+<LimitedProfile code="N" /> 
+<Filler>01</Filler> 
+<ScoreInfo>
+<Score>0000005069</Score> 
+</ScoreInfo>
+<ProfileNumber>I602507152</ProfileNumber> 
+<ModelInformation>
+<ModelCode>000206</ModelCode> 
+<ModelTitle>SMALL BUSINESS LEASE DECISION</ModelTitle> 
+<CustomModelCode>01</CustomModelCode> 
+</ModelInformation>
+<PercentileRanking>025</PercentileRanking> 
+<Action>SCORECLASS = 4A HIGH RISK</Action> 
+</IntelliscoreScoreInformation>
+<ScoreFactors>
+<ScoreFactor code="0093">HIGH NUMBER OF BUSINESS INQUIRIES IN LAST 9 MONTHS</ScoreFactor> 
+<ScoreFactor code="0300">INSTABILITY OF COMMERCIAL PAYMENTS MEASURED BY DBT OVER 5QTR</ScoreFactor> 
+<ScoreFactor code="0073">PRESENCE OF DEROGATORY PUBLIC RECORD INFO ON BUSINESS</ScoreFactor> 
+<ScoreFactor code="0216">NO EVIDENCE OF OPEN REAL ESTATE TRADE FOR PRINCIPAL</ScoreFactor> 
+</ScoreFactors>
+<KeyModelElements>
+<DaysBeyondTerms>011</DaysBeyondTerms> 
+<HighestDBTInPast5Quarters>056</HighestDBTInPast5Quarters> 
+<MonthlyAverageDBT>013</MonthlyAverageDBT> 
+<AllAccounts>
+<TotalActiveTradePaymentRecords>059</TotalActiveTradePaymentRecords> 
+<AccountBalance>00084300</AccountBalance> 
+</AllAccounts>
+<TotalCreditAmount>00215000</TotalCreditAmount> 
+<BankruptcyLines>000</BankruptcyLines> 
+<JudgmentLiensCollectionLines>023</JudgmentLiensCollectionLines> 
+<OriginalUCCFilings>102</OriginalUCCFilings> 
+<LegalAmountTotal>000029566</LegalAmountTotal> 
+<Past9MonthsInquiries>010</Past9MonthsInquiries> 
+<YearsInFile>031</YearsInFile> 
+<SIC code="7323">CREDIT REPORTING</SIC> 
+<BankAccountsIndicator>000</BankAccountsIndicator> 
+</KeyModelElements>
+<SmallBusinessKeyModelElements>
+<ProprietorFirstName>ARLENE</ProprietorFirstName> 
+<ProprietorSurname>GOGGIN</ProprietorSurname> 
+<TotalTrades>
+<Count>002</Count> 
+<BalanceAmount>00000018</BalanceAmount> 
+</TotalTrades>
+<MonthlyObligation>00000000</MonthlyObligation> 
+<Trades30PlusDPD>000</Trades30PlusDPD> 
+<TradeStatus>
+<Code>012</Code> 
+<Comment>PAID SATIS</Comment> 
+</TradeStatus>
+<RevolvingTrades>
+<Count>000</Count> 
+<BalanceAmount>00000000</BalanceAmount> 
+</RevolvingTrades>
+<RealEstateBalance>00000000</RealEstateBalance> 
+<RevolvingTrades70PercentBTL>000</RevolvingTrades70PercentBTL> 
+<OldestTradeOpenDate>397</OldestTradeOpenDate> 
+<LegalData>
+<Count>00000000</Count> 
+<BalanceAmount>00000000</BalanceAmount> 
+</LegalData>
+<CollectionData>
+<Count>00000000</Count> 
+<BalanceAmount>00000000</BalanceAmount> 
+</CollectionData>
+<BankruptcyCount>00000000</BankruptcyCount> 
+<PercentCurrentOutstandingBalance>00010000</PercentCurrentOutstandingBalance> 
+<OpenRevolvingPercentOfCreditLimit>00000</OpenRevolvingPercentOfCreditLimit> 
+</SmallBusinessKeyModelElements>
+<BillingIndicator code="F">Full Charge</BillingIndicator> 
+</Intelliscore>
+</Products>
+</NetConnectResponse>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<BalanceSheetMap>
+		<mapelement key="CashandEquivalent">Cash and equivalent</mapelement>
+		<mapelement key="ReceivablesNet">Receivables - net</mapelement>
+		<mapelement key="Inventory">Inventory</mapelement>
+		<mapelement key="OtherCurrentAssets">Other current assets</mapelement>
+		<mapelement key="TotalCurrentAssets" cssClass="summary">Total current assets</mapelement>
+		<mapelement key="FixedAssets">Fixed assets - net</mapelement>
+		<mapelement key="Investments">Investments</mapelement>
+		<mapelement key="OtherAssets">Other assets</mapelement>
+		<mapelement key="TotalAssets" cssClass="summary">Total assets</mapelement>
+		<mapelement key="DebtDuein1Year">Debt due in 1 year</mapelement>
+		<mapelement key="NotesPayable">Notes payable</mapelement>
+		<mapelement key="AccountsPayable">Accounts payable</mapelement>
+		<mapelement key="TaxesPayable">Taxes payable</mapelement>
+		<mapelement key="OtherCurrentLiabilities">Other current liabilities</mapelement>
+		<mapelement key="TotalCurrentLiabilities" cssClass="summary">Total current liabilities</mapelement>
+		<mapelement key="LongTermDebt">Long term debt</mapelement>
+		<mapelement key="OtherLiabilities">Other liabilities</mapelement>
+		<mapelement key="NetWorth">Net worth</mapelement>
+		<mapelement key="TotalLiabilitiesandNetWorth" cssClass="summary">Total liab. and net worth</mapelement>
+	</BalanceSheetMap>
+	<OperatingStatementMap>
+		<mapelement key="NetSales">Net sales</mapelement>
+		<mapelement key="CostofGoodsSold">Cost of goods sold</mapelement>
+		<mapelement key="GrossIncomeonSales">Gross income on sales</mapelement>
+		<mapelement key="Expenses">Expenses</mapelement>
+		<mapelement key="Pre-TaxIncome">Pre-tax income</mapelement>
+		<mapelement key="Taxes">Taxes</mapelement>
+		<mapelement key="AfterTaxes">After tax income</mapelement>
+		<mapelement key="ExtraordinaryIncome">Extraord. inc. &amp; discont'd ops</mapelement>
+		<mapelement key="NetIncome">Net income</mapelement>
+	</OperatingStatementMap>
+	<CriticalData>
+		<mapelement key="NetWorth">Net worth</mapelement>
+		<mapelement key="NetWorkingCapital">Net working capital</mapelement>
+		<mapelement key="CurrentRatio">Current ratio (times)</mapelement>
+		<mapelement key="TotalDebttoTangibleNetWorth" cssClass="summary">% Total debt to n.w.</mapelement>
+		<mapelement key="CurrentDebttoTangibleNetWorth">% Current debt to n.w.</mapelement>
+		<mapelement key="AfterTaxIncometoTangibleNetWorth">% After tax inc. to n.w.</mapelement>
+		<mapelement key="AfterTaxIncometoNetSales">% After tax inc. to net sales</mapelement>
+		<mapelement key="NetSalestoInventory">Net sales to inventory (times)</mapelement>
+		<mapelement key="CostofGoodsSoldtoInventory">CGS to inventory (times)</mapelement>
+		<mapelement key="AverageDaysSalesOutstanding">Avg. days sales outstanding (days)</mapelement>
+	</CriticalData>
+</root>

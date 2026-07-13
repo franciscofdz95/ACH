@@ -1,0 +1,969 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CIBPR.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CIBPR</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>998709</SubscriberNumber>
+				<InquiryTransactionNumber>C906332965</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/800914633/MC-000210/UCC/IR/BP/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>800914633</ExperianFileNumber>
+				<ProfileType code="SCORE     ">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20080305</ProfileDate>
+				<ProfileTime>17:09:42</ProfileTime>
+				<TerminalNumber>-ANJ</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>CROCKER INDUSTRIES                      </BusinessName>
+				<StreetAddress>100 MAIN ST                   </StreetAddress>
+				<City>PHOENIX                     </City>
+				<State>AZ</State>
+				<Zip>85032</Zip>
+				<PhoneNumber>602-555-1234</PhoneNumber>
+				<SIC code="2043">CEREAL BREAKFAST FOODS                </SIC>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>001</TaxLienCount>
+				<EarliestTaxLienDate>20060801</EarliestTaxLienDate>
+				<MostRecentTaxLienDate>20060801</MostRecentTaxLienDate>
+				<JudgmentCount>003</JudgmentCount>
+				<EarliestJudgmentDate>20021016</EarliestJudgmentDate>
+				<MostRecentJudgmentDate>20050302</MostRecentJudgmentDate>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00002964</LegalBalance>
+				<UCCFilings>008</UCCFilings>
+				<UCCDerogatoryCount>004</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00049000</AllTradelineBalance>
+				<AllTradelineCount>005</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+				<CurrentDBT>000</CurrentDBT>
+				<EarliestUCCDate>20051120</EarliestUCCDate>
+				<MostRecentUCCDate>20061207</MostRecentUCCDate>
+				<BankruptcyFlag>Y</BankruptcyFlag>
+				<JudgmentFlag>Y</JudgmentFlag>
+			</ExecutiveElements>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20070100</DateReported>
+				<DateLastActivity>20040100</DateLastActivity>
+				<Terms>NET EOM</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00015000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00015000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>PROMPT    </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>BANK      </BusinessCategory>
+				<DateReported>20070100</DateReported>
+				<DateLastActivity>20031100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00025000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00022000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>009</DBT60>
+				<DBT90>091</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>30 DYS SLO</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="=">Pays the Same</PaymentIndicator>
+				<BusinessCategory>COMMUN EQP</BusinessCategory>
+				<DateReported>20070100</DateReported>
+				<DateLastActivity>20040100</DateLastActivity>
+				<Terms>NET10TH</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00005000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00003500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>014</CurrentPercentage>
+				<DBT30>029</DBT30>
+				<DBT60>057</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>PAYING DEL</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="=">Pays the Same</PaymentIndicator>
+				<BusinessCategory>GENERAL   </BusinessCategory>
+				<DateReported>20060400</DateReported>
+				<DateLastActivity>20020400</DateLastActivity>
+				<Terms>NET PRX</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00011000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00004500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>089</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>011</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>NOT PAY AA</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="-">Pays Slower</PaymentIndicator>
+				<BusinessCategory>PRNTG&amp;PUBL</BusinessCategory>
+				<DateReported>20070100</DateReported>
+				<DateLastActivity>20031000</DateLastActivity>
+				<Terms>NET PRX</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00004000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00004000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<Comments>PAYS-SLOW </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<Bankruptcy>
+				<DateFiled>20060404</DateFiled>
+				<LegalType code="01">BANKRUPTCY</LegalType>
+				<LegalAction code="22">CHAPTER 7  DISMISSED</LegalAction>
+				<DocumentNumber>0000000009803629</DocumentNumber>
+				<LiabilityAmount>000000000</LiabilityAmount>
+				<AssetAmount>000123123</AssetAmount>
+				<ExemptAmount>000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20001030</DateFiled>
+				<LegalType code="01">BANKRUPTCY</LegalType>
+				<LegalAction code="22">CHAPTER 7  DISMISSED</LegalAction>
+				<DocumentNumber>0000000009803629</DocumentNumber>
+				<LiabilityAmount>000000000</LiabilityAmount>
+				<AssetAmount>000000000</AssetAmount>
+				<ExemptAmount>000000000</ExemptAmount>
+			</Bankruptcy>
+			<TaxLien>
+				<DateFiled>20060801</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>01JK7182        </DocumentNumber>
+				<FilingLocation>FRANKLIN COUNTY COMM</FilingLocation>
+				<LiabilityAmount>000001058</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20060302</DateFiled>
+				<LegalType code="05">JUDGMENT</LegalType>
+				<LegalAction code="10">SATISFIED</LegalAction>
+				<DocumentNumber>55555555        </DocumentNumber>
+				<FilingLocation>WAUKESHA COUNTY RECO</FilingLocation>
+				<LiabilityAmount>000000010</LiabilityAmount>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20050302</DateFiled>
+				<LegalType code="05">JUDGMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>55555555        </DocumentNumber>
+				<FilingLocation>WAUKESHA COUNTY RECO</FilingLocation>
+				<LiabilityAmount>000000010</LiabilityAmount>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20030130</DateFiled>
+				<LegalType code="05">JUDGMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>00006432        </DocumentNumber>
+				<FilingLocation>PHOENIX JUST COURT  </FilingLocation>
+				<LiabilityAmount>000001277</LiabilityAmount>
+				<PlaintiffName>PHILLIP BROWN                      </PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20021016</DateFiled>
+				<LegalType code="05">JUDGMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>000060815071    </DocumentNumber>
+				<FilingLocation>SCOTTSDALE PRECINCT </FilingLocation>
+				<LiabilityAmount>000000619</LiabilityAmount>
+				<PlaintiffName>LOUISA GRAY                        </PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<UCCFilings>
+				<DateFiled>20061207</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>OH00078736313   </DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO   </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>NATIONAL CREDIT CORPORATION NJ NJ PARSIPPANY 07054          </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20061019</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>22113040 0      </DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE O</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4">EQUIP</Collateral>
+					<Collateral code="9">AFTER ACQUIRED PROP</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>EMPIRE BUSINESS CREDIT, LLC IL CHICAGO 60606 151 NORTH CENT </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20060908</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>OH00069165413   </DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO   </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>NEW ENGLAND TECHNOLOGY ASSOCIATES MA BOSTON 02210 176 SOUTH </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20060227</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>OH00054892352   </DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO   </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>EMPIRE BUSINESS CREDIT, LLC IL CHICAGO 60606 151 NORTH CREN </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20060130</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>4077177 8       </DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE O</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4">EQUIP</Collateral>
+					<Collateral code="9">AFTER ACQUIRED PROP</Collateral>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>NEW ENGLAND TECHNOLOGY ASSOCIATES MA BOSTON 02210 176 SOUTH </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20051205</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>3046189 3       </DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE O</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4">EQUIP</Collateral>
+					<Collateral code="9">AFTER ACQUIRED PROP</Collateral>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>UNITED BUSINESS EQUIPMENT COMPANY NJ MONTVALE 07645 6359 WE </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20051120</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>200232560240    </DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4">EQUIP</Collateral>
+					<Collateral code="5">FURN &amp; FIX</Collateral>
+					<Collateral code="9">AFTER ACQUIRED PROP</Collateral>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>JONATHAN RUIZ CA COSTA MESA 92626 PO BOX 33213              </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20051120</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>200235C0404     </DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>JONATHAN RUIZ CA COSTA MESA 92626 PO BOX 33213              </SecuredParty>
+			</UCCFilings>
+			<CommercialBankInformation>
+				<InstitutionType>BANK      </InstitutionType>
+				<Relationship code="2">LINE OF CREDIT</Relationship>
+				<InstitutionName>MESA VALLEY BANK              </InstitutionName>
+				<Address>400 CAMELBACK LOOP            PHOENIX             AZ85012   </Address>
+				<Phone>0000000800</Phone>
+				<ProfileDate>20060706</ProfileDate>
+				<OpenDate>19980824</OpenDate>
+				<CloseDate>00000000</CloseDate>
+				<AccountRating code="G">GENERALLY SATISFACTORY</AccountRating>
+				<BalanceRange code=" ">Not Available</BalanceRange>
+				<FiguresInBalance code="0"/>
+				<BalanceAmount>00000000000</BalanceAmount>
+			</CommercialBankInformation>
+			<CommercialBankInformation>
+				<InstitutionType>FINANCE   </InstitutionType>
+				<Relationship code="7">ASSET BASED LOAN</Relationship>
+				<InstitutionName>GOLIATH ACCEPTANCE CORP       </InstitutionName>
+				<Address>7300 E OCEAN BLVD             LONG BEACH          CA90803   </Address>
+				<Phone>0000000888</Phone>
+				<ProfileDate>20060706</ProfileDate>
+				<OpenDate>20021114</OpenDate>
+				<CloseDate>00000000</CloseDate>
+				<AccountRating code="S">SATISFACTORY</AccountRating>
+				<BalanceRange code=" ">Not Available</BalanceRange>
+				<FiguresInBalance code="0"/>
+				<BalanceAmount>00000000000</BalanceAmount>
+			</CommercialBankInformation>
+			<DemographicInformation>
+				<PrimarySICCode>2043</PrimarySICCode>
+				<SICDescription>CEREAL BREAKFAST FOODS            </SICDescription>
+				<YearsInBusinessIndicator code=" ">Not Available</YearsInBusinessIndicator>
+				<YearsInBusinessOrLowRange>000</YearsInBusinessOrLowRange>
+				<HighRangeYears>000</HighRangeYears>
+				<SalesIndicator code=" ">Not Available</SalesIndicator>
+				<SalesRevenueOrLowRange>000000000000</SalesRevenueOrLowRange>
+				<HighRangeOfSales>000000000000</HighRangeOfSales>
+				<ProfitLossIndicator code=" ">Not Available</ProfitLossIndicator>
+				<ProfitLossCode code=" "/>
+				<ProfitAmountOrLowRange>000000000000</ProfitAmountOrLowRange>
+				<HighRangeOfProfit>000000000000</HighRangeOfProfit>
+				<NetWorthIndicator code=" ">Not Available</NetWorthIndicator>
+				<NetWorthAmountOrLowRange>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</NetWorthAmountOrLowRange>
+				<HighRangeOrNetWorth>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</HighRangeOrNetWorth>
+				<EmployeeIndicator code=" ">Not Available</EmployeeIndicator>
+				<EmployeeSizeOrLowRange>000000000</EmployeeSizeOrLowRange>
+				<HighEmployeeRange>000000000</HighEmployeeRange>
+				<InBuildingDate>00000000</InBuildingDate>
+				<BuildingSize>0000000</BuildingSize>
+				<BuildingOwnership code=" "/>
+				<Ownership code=" "/>
+				<Location code=" ">Not Available</Location>
+				<BusinessType code=" ">Not Available</BusinessType>
+				<CustomerCount>0000000</CustomerCount>
+				<DateFounded>00000000</DateFounded>
+			</DemographicInformation>
+			<Inquiry>
+				<InquiryBusinessCategory>BANK      </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>BUREAU    </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>004</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>005</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>COMMUN SVC</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>CREDTUNION</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>ELEC DISTR</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>EQUIP LEAS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>FINCL SVCS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>009</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>010</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>011</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>017</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>029</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>013</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>006</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>014</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>GENERAL   </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>009</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>008</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>005</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>008</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>005</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>004</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TELECOM   </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>004</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TRANSPORTN</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TOTALS    </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20080300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20080100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>027</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<ConsumerStatement>
+				<Type code="  "/>
+				<DateReported>20070130</DateReported>
+				<Text>BUSINESS REQUESTS CONTACT PRIOR TO GRANTING CREDIT</Text>
+			</ConsumerStatement>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>03        </Filler>
+				<ScoreInfo>
+					<Score>0000001254</Score>
+				</ScoreInfo>
+				<ModelInformation>
+					<ModelCode>000210</ModelCode>
+					<ModelTitle>COMMERCIAL ALL-INDUSTRY II              </ModelTitle>
+					<CustomModelCode>03</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>007</PercentileRanking>
+				<Action>        HIGH RISK                               </Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="013 ">NUMBER OF DEROGATORY PUBLIC RECORD ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="021 ">LACK OF RECENTLY REPORTED TRADES                            </ScoreFactor>
+				<ScoreFactor code="026 ">BALANCES ON DELINQUENT OR DEROGATORY ACCOUNTS               </ScoreFactor>
+				<ScoreFactor code="001 ">BALANCE ON DELINQUENT ACCOUNTS                              </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<BankruptcyFilings>000</BankruptcyFilings>
+				<BankruptcyFilingsBalance>0000000000000</BankruptcyFilingsBalance>
+				<CollectionsCount>0000</CollectionsCount>
+				<CollectionsCountLast24Months>000</CollectionsCountLast24Months>
+				<EstablishedDate>19770101</EstablishedDate>
+				<OriginalJudgmentsCount>003</OriginalJudgmentsCount>
+				<OriginalJudgmentsAmount>000001906</OriginalJudgmentsAmount>
+				<SicCode>2043</SicCode>
+				<RegularTradesBalanceCurrentQuarter>00000000</RegularTradesBalanceCurrentQuarter>
+				<RegularTradesBalance1QuarterPrior>00000000</RegularTradesBalance1QuarterPrior>
+				<RegularTradesBalance2QuartersPrior>00000000</RegularTradesBalance2QuartersPrior>
+				<RegularTradesBalance3QuartersPrior>00000000</RegularTradesBalance3QuartersPrior>
+				<RegularTradesBalance4QuartersPrior>00000000</RegularTradesBalance4QuartersPrior>
+				<DBTRegularTrades>000</DBTRegularTrades>
+				<DBTRegularTradesCurrentMonth>000</DBTRegularTradesCurrentMonth>
+				<DBTRegularTrades1MonthPrior>000</DBTRegularTrades1MonthPrior>
+				<DBTRegularTrades2MonthsPrior>000</DBTRegularTrades2MonthsPrior>
+				<DBTRegularTrades3MonthsPrior>000</DBTRegularTrades3MonthsPrior>
+				<DBTRegularTrades4MonthsPrior>000</DBTRegularTrades4MonthsPrior>
+				<DBTRegularTrades5MonthsPrior>000</DBTRegularTrades5MonthsPrior>
+				<TotalTradesCount>005</TotalTradesCount>
+				<TotalAccountBalance>00049000</TotalAccountBalance>
+				<MaximumBalanceLast12Months>0000000025000</MaximumBalanceLast12Months>
+				<OriginalTaxLiensCount>001</OriginalTaxLiensCount>
+				<OriginalTaxLiensAmount>000001058</OriginalTaxLiensAmount>
+				<OriginalUCCFilingsCount>00008</OriginalUCCFilingsCount>
+				<DerogUCCFilingsCount>004</DerogUCCFilingsCount>
+			</KeyModelElements>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

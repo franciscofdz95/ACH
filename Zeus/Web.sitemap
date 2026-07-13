@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="~/SecureHomeForms/Default.aspx" title="Home"  description="" />
+        <siteMapNode url="~/SecureMerchantManagementForms/frmMerchantSearch.aspx" title="Merchant"  description="">
+			<siteMapNode url="~/SecureMerchantManagementForms/frmMerchantProfile.aspx" title="Merchant Profile"  description=""/>
+		</siteMapNode>
+		<siteMapNode url="~/SecureLeadForms/frmLeads.aspx" title="Sales"  description="" >
+			<siteMapNode url="~/SecureLeadForms/frmLeadsDetail.aspx" title="Leads Detail"  description="" />
+			<siteMapNode url="~/SecureLeadForms/frmAssignLeads.aspx" title="Assign Leads"  description="" />
+
+			<siteMapNode url="~/SecureLeadForms/frmNotes.aspx" title="Notes"  description="" />
+			<siteMapNode url="~/SecureLeadForms/frmAppointments.aspx" title="Appointments"  description="" />
+			<siteMapNode url="~/SecureLeadForms/frmCommunications.aspx" title="Email"  description="" />
+			<siteMapNode url="" title="Reports"  description="">
+				<siteMapNode url="~/SecureLeadForms/frmReports2.aspx?Report=LeadsByStatus" title="Leads By Status"  description="" />
+				<siteMapNode url="~/SecureLeadForms/frmReports2.aspx?Report=LeadsByAgent" title="Leads By Agent"  description="" />
+				<siteMapNode url="~/SecureLeadForms/frmReports2.aspx?Report=LeadsBySource" title="Leads By Source"  description="" />
+			</siteMapNode>
+		</siteMapNode>
+		
+		<siteMapNode url="~/SecureAgentManagementForms/frmAgent.aspx" title="Agent"  description=""/>				
+		<siteMapNode url="~/SecureAdminForms/frmAddUser.aspx" title="Admin"  description="" />
+	</siteMapNode>
+</siteMap>

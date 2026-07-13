@@ -1,0 +1,1285 @@
+<?xml version="1.0" standalone="no"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>ITP</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<IndustryTradeProfile>
+			<InputSummary>
+				<SubscriberNumber>997193</SubscriberNumber>
+				<InquiryTransactionNumber>C307396799</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/784051483/ITP/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>783909326</ExperianFileNumber>
+				<ProfileType code="ITP       "/>
+				<ProfileDate>20100311</ProfileDate>
+				<ProfileTime>12:52:01</ProfileTime>
+				<TerminalNumber>-AMT</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>SYSCO CORP                              </BusinessName>
+				<StreetAddress>1390 ENCLAVE PKWY             </StreetAddress>
+				<City>HOUSTON                     </City>
+				<State>TX</State>
+				<Zip>77077</Zip>
+				<ZipExtension>2025</ZipExtension>
+				<PhoneNumber>304-584-1390</PhoneNumber>
+				<SIC code="5812">RESTAURANTS                           </SIC>
+			</BusinessNameAndAddress>
+			<IndustryTradeGroup>
+				<TransactionID>G307396799</TransactionID>
+				<GroupID>160</GroupID>
+				<GroupName>NATIONAL FOOD SVS-30 DAY AGING(#160)</GroupName>
+				<GroupDBT>000</GroupDBT>
+				<IndustryDBT>009</IndustryDBT>
+			</IndustryTradeGroup>
+			<IndustryTradeGroup>
+				<TransactionID>G307396799</TransactionID>
+				<GroupID>161</GroupID>
+				<GroupName>NATIONAL FOOD SVS-7 DAY AGING(#161)</GroupName>
+				<GroupDBT>000</GroupDBT>
+				<IndustryDBT>009</IndustryDBT>
+			</IndustryTradeGroup>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>BUREAU    </BusinessCategory>
+				<DateReported>20100104</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00066300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00066300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>050</CurrentPercentage>
+				<DBT30>050</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 30 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD      </BusinessCategory>
+				<DateReported>20100228</DateReported>
+				<Terms>NET 10 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD      </BusinessCategory>
+				<DateReported>20070602</DateReported>
+				<DateLastActivity>20070200</DateLastActivity>
+				<Terms>NET 21 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>100</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 89 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20080329</DateReported>
+				<DateLastActivity>20080300</DateLastActivity>
+				<Terms>CASH   </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00009600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00006900</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>100</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20090900</DateLastActivity>
+				<Terms>NET 7  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00026700</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00011600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20070400</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00001400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<Comments>CUST 23 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20091100</DateLastActivity>
+				<Terms>NET 10 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00008100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>100</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20040600</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00003900</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 15 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20080400</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00088500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00021000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>031</CurrentPercentage>
+				<DBT30>065</DBT30>
+				<DBT60>003</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>001</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00005900</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>004</CurrentPercentage>
+				<DBT30>054</DBT30>
+				<DBT60>023</DBT60>
+				<DBT90>003</DBT90>
+				<DBT90Plus>016</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20090425</DateReported>
+				<DateLastActivity>20090400</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00023600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00001300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000700</Amount>
+				</AccountBalance>
+				<CurrentPercentage>052</CurrentPercentage>
+				<DBT30>032</DBT30>
+				<DBT60>016</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>COD    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00002300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>012</DBT30>
+				<DBT60>005</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>083</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20090725</DateReported>
+				<DateLastActivity>20041000</DateLastActivity>
+				<Terms>NET 14 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00006100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>100</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20070630</DateReported>
+				<DateLastActivity>20070600</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20091200</DateLastActivity>
+				<Terms>NET 7  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00003800</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<Comments>CUST 21 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20091226</DateReported>
+				<DateLastActivity>20090400</DateLastActivity>
+				<Terms>COD    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000700</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20040200</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00526900</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00092000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>050</DBT30>
+				<DBT60>017</DBT60>
+				<DBT90>015</DBT90>
+				<DBT90Plus>018</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20091024</DateReported>
+				<DateLastActivity>20090900</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00011600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00007300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>100</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>NET 14 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00014500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20081100</DateLastActivity>
+				<Terms>NET 7  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00020400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00008900</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00087300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>065</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>007</DBT60>
+				<DBT90>028</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 13 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20090523</DateReported>
+				<DateLastActivity>20090200</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00001000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>100</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100123</DateReported>
+				<DateLastActivity>20080700</DateLastActivity>
+				<Terms>N10 EOM</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00028500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00007800</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>014</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>086</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20081227</DateReported>
+				<DateLastActivity>20080600</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD      </BusinessCategory>
+				<DateReported>20070602</DateReported>
+				<DateLastActivity>20070200</DateLastActivity>
+				<Terms>NET21  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<Comments>CUST 89 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20040600</DateLastActivity>
+				<Terms>NET 7  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000041</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20070428</DateReported>
+				<DateLastActivity>20070400</DateLastActivity>
+				<Terms>RL1WM  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000158</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<Comments>CUST 11 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20030600</DateLastActivity>
+				<Terms>WKLY   </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000887</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>019</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>081</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20070526</DateReported>
+				<DateLastActivity>20070400</DateLastActivity>
+				<Terms>R2WDF  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000047</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>100</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 20 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20070526</DateReported>
+				<DateLastActivity>20060900</DateLastActivity>
+				<Terms>NET10  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00007317</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00009100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>005</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>006</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>089</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20040600</DateLastActivity>
+				<Terms>SM010  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00001237</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<Comments>CUST 10 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>19960500</DateLastActivity>
+				<Terms>NET07  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00010455</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00004100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 15 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20070526</DateReported>
+				<DateLastActivity>20070500</DateLastActivity>
+				<Terms>CODOP  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00019089</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001700</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 10 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20041100</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000430</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20041100</DateLastActivity>
+				<Terms>NET14  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00075425</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>037</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>063</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20041100</DateLastActivity>
+				<Terms>NET07  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00038006</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000600</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>100</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20041000</DateLastActivity>
+				<Terms>COD    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00003250</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20040200</DateLastActivity>
+				<Terms>1MO10  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00032315</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00021200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>032</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>013</DBT90>
+				<DBT90Plus>055</DBT90Plus>
+				<Comments>CUST  7 YR</Comments>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20040600</DateLastActivity>
+				<Terms>RL3WF  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00038336</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>028</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>072</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20031000</DateLastActivity>
+				<Terms>1MO25  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00003414</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20070526</DateReported>
+				<DateLastActivity>20070500</DateLastActivity>
+				<Terms>NET14  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00014964</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00004000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20071128</DateReported>
+				<DateLastActivity>20040600</DateLastActivity>
+				<Terms>COD    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000456</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20070526</DateReported>
+				<DateLastActivity>20051100</DateLastActivity>
+				<Terms>10EOM  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00008582</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00005000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code="0"/>
+				<NewlyReportedIndicator code="N"/>
+			</TradePaymentExperiences>
+			<PaymentTotals>
+				<NewlyReportedTradeLines>
+					<NumberOfLines>000</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</NewlyReportedTradeLines>
+				<ContinouslyReportedTradeLines>
+					<NumberOfLines>000</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</ContinouslyReportedTradeLines>
+				<CombinedTradeLines>
+					<NumberOfLines>000</NumberOfLines>
+					<DBT>030</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00898600</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00206300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>025</CurrentPercentage>
+					<DBT30>046</DBT30>
+					<DBT60>008</DBT60>
+					<DBT90>007</DBT90>
+					<DBT90Plus>014</DBT90Plus>
+				</CombinedTradeLines>
+			</PaymentTotals>
+			<PaymentTrends>
+				<CurrentMonth>
+					<Date>20100200</Date>
+					<DBT>030</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00204800</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>025</CurrentPercentage>
+					<DBT30>046</DBT30>
+					<DBT60>008</DBT60>
+					<DBT90>007</DBT90>
+					<DBT90Plus>014</DBT90Plus>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20100100</Date>
+					<DBT>046</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00124100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>041</CurrentPercentage>
+					<DBT30>005</DBT30>
+					<DBT60>007</DBT60>
+					<DBT90>023</DBT90>
+					<DBT90Plus>024</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20091200</Date>
+					<DBT>051</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00223100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>021</CurrentPercentage>
+					<DBT30>018</DBT30>
+					<DBT60>016</DBT60>
+					<DBT90>022</DBT90>
+					<DBT90Plus>023</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20091100</Date>
+					<DBT>024</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00205500</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>044</CurrentPercentage>
+					<DBT30>034</DBT30>
+					<DBT60>002</DBT60>
+					<DBT90>010</DBT90>
+					<DBT90Plus>010</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20091000</Date>
+					<DBT>037</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00165300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>047</CurrentPercentage>
+					<DBT30>018</DBT30>
+					<DBT60>003</DBT60>
+					<DBT90>003</DBT90>
+					<DBT90Plus>029</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090900</Date>
+					<DBT>040</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00206000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>030</CurrentPercentage>
+					<DBT30>030</DBT30>
+					<DBT60>008</DBT60>
+					<DBT90>005</DBT90>
+					<DBT90Plus>027</DBT90Plus>
+				</PriorMonth>
+			</PaymentTrends>
+			<PaymentTrends>
+				<CurrentMonth>
+					<Date>20090800</Date>
+					<DBT>023</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00134800</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>024</CurrentPercentage>
+					<DBT30>056</DBT30>
+					<DBT60>008</DBT60>
+					<DBT90>005</DBT90>
+					<DBT90Plus>007</DBT90Plus>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20090700</Date>
+					<DBT>047</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00071200</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>040</CurrentPercentage>
+					<DBT30>005</DBT30>
+					<DBT60>019</DBT60>
+					<DBT90>002</DBT90>
+					<DBT90Plus>034</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090600</Date>
+					<DBT>035</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00365900</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>010</CurrentPercentage>
+					<DBT30>046</DBT30>
+					<DBT60>027</DBT60>
+					<DBT90>007</DBT90>
+					<DBT90Plus>010</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090500</Date>
+					<DBT>000</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090400</Date>
+					<DBT>000</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090300</Date>
+					<DBT>000</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+			</PaymentTrends>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</IndustryTradeProfile>
+	</Products>
+</NetConnectResponse>

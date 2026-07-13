@@ -1,0 +1,3213 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\premierprofile\PPR.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>PPR INQF Experian</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<PremierProfile>
+			<InputSummary>
+				<SubscriberNumber>997193</SubscriberNumber>
+				<InquiryTransactionNumber>C309192566</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Comments>PPR INQF PROD - EXPERIAN</Comments>
+				<Inquiry>INQF/796744203/BUSP/CUST-EXPERIAN TS/M-PPR INQF PROD - EXPERIAN/V-000123</Inquiry>
+			</InputSummary>
+			<ExpandedCreditSummary>
+				<BankruptcyFilingCount>0000</BankruptcyFilingCount>
+				<TaxLienFilingCount>0000</TaxLienFilingCount>
+				<JudgmentFilingCount>0004</JudgmentFilingCount>
+				<OldestJudgmentDate>20060605</OldestJudgmentDate>
+				<MostRecentJudgmentDate>20110124</MostRecentJudgmentDate>
+				<CollectionCount>0003</CollectionCount>
+				<CollectionBalance>00000003075</CollectionBalance>
+				<CollectionCountPast24Months>0000</CollectionCountPast24Months>
+				<LegalBalance>00000006100</LegalBalance>
+				<UCCFilings>0018</UCCFilings>
+				<UCCDerogCount>0000</UCCDerogCount>
+				<CurrentAccountBalance>00000230600</CurrentAccountBalance>
+				<CurrentTradelineCount>0018</CurrentTradelineCount>
+				<MonthlyAverageDBT>002</MonthlyAverageDBT>
+				<HighestDBT6Months>004</HighestDBT6Months>
+				<HighestDBT5Quarters>006</HighestDBT5Quarters>
+				<ActiveTradelineCount>0017</ActiveTradelineCount>
+				<AllTradelineBalance>00000244600</AllTradelineBalance>
+				<AllTradelineCount>0034</AllTradelineCount>
+				<AverageBalance5Quarters>00000192580</AverageBalance5Quarters>
+				<SingleHighCredit>00000124400</SingleHighCredit>
+				<LowBalance6Months>00000185400</LowBalance6Months>
+				<HighBalance6Months>00000353900</HighBalance6Months>
+				<OldestCollectionDate>20070700</OldestCollectionDate>
+				<MostRecentCollectionDate>20100300</MostRecentCollectionDate>
+				<CurrentDBT>003</CurrentDBT>
+				<OldestUCCFilingDate>20030828</OldestUCCFilingDate>
+				<MostRecentUCCFilingDate>20110331</MostRecentUCCFilingDate>
+				<JudgmentFlag>Y</JudgmentFlag>
+				<TaxLienFlag>Y</TaxLienFlag>
+				<TradeCollectionCount>0037</TradeCollectionCount>
+				<TradeCollectionBalance>00000247675</TradeCollectionBalance>
+				<OpenCollectionCount>0001</OpenCollectionCount>
+				<OpenCollectionBalance>00000000320</OpenCollectionBalance>
+				<OFACMatch code=" ">No match to OFAC is performed</OFACMatch>
+				<VictimStatement code="N">This business does not have a Victim statement</VictimStatement>
+				<CommercialFraudRiskIndicatorCount>0000</CommercialFraudRiskIndicatorCount>
+			</ExpandedCreditSummary>
+			<ExpandedBusinessNameAndAddress>
+				<ExperianBIN>796744203</ExperianBIN>
+				<ProfileType code="BUSP">Business Premier Profile</ProfileType>
+				<ProfileDate>20120730</ProfileDate>
+				<ProfileTime>13:23:47</ProfileTime>
+				<TerminalNumber>-AOZ</TerminalNumber>
+				<BusinessName>EXPERIAN INFORMATION SOLUTIONS, INC</BusinessName>
+				<StreetAddress>475 ANTON BLVD</StreetAddress>
+				<City>COSTA MESA</City>
+				<State>CA</State>
+				<Zip>92626</Zip>
+				<ZipExtension>7037</ZipExtension>
+				<PhoneNumber>714-830-7000</PhoneNumber>
+				<TaxID>XXXXX4319</TaxID>
+				<WebsiteURL>www.experian.com</WebsiteURL>
+				<LegalName>
+					<LegalBusinessName>EXPERIAN INFORMATION SOLUTIONS, INC.</LegalBusinessName>
+				</LegalName>
+				<CorporateLink>
+					<CorporateLinkageIndicator>Y</CorporateLinkageIndicator>
+				</CorporateLink>
+			</ExpandedBusinessNameAndAddress>
+			<DoingBusinessAs>
+				<DBAName>EXPERIAN MARKETING SOLUTIONS, INC</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>EXPERIAN DATA</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>EXPERIAN DATA CORP</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>EXPERIAN CREDIT SOLUTIONS INC</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>EXPERIAN CREDIT NOTFCTN SERV INC</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>EXPERIAN CREDIT NOTIFICATION SERVICES INC</DBAName>
+			</DoingBusinessAs>
+			<ExecutiveSummary>
+				<BusinessDBT code="003">Good Risk. 80% of businesses fall into this range</BusinessDBT>
+				<PredictedDBT>003</PredictedDBT>
+				<PredictedDBTDate>20120926</PredictedDBTDate>
+				<IndustryDBT>014</IndustryDBT>
+				<AllIndustryDBT>010</AllIndustryDBT>
+				<LowestTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000185400</Amount>
+				</LowestTotalAccountBalance>
+				<HighestTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000353900</Amount>
+				</HighestTotalAccountBalance>
+				<CurrentTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000234600</Amount>
+				</CurrentTotalAccountBalance>
+				<HighCreditAmountExtended>00000124400</HighCreditAmountExtended>
+				<MedianCreditAmountExtended>00000007200</MedianCreditAmountExtended>
+				<IndustryPaymentComparison code="F">Has paid sooner than 50% of similar businesses</IndustryPaymentComparison>
+				<PaymentTrendIndicator code="S">Stable</PaymentTrendIndicator>
+				<IndustryDescription>CREDIT RPT &amp; COLLECT</IndustryDescription>
+				<CommonTerms>NET 30 </CommonTerms>
+				<CommonTerms2>CONTRCT</CommonTerms2>
+				<CommonTerms3>REVOLVE</CommonTerms3>
+			</ExecutiveSummary>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20100300</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000320</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>4842424000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="06">Closed, Uncollected</AccountStatus>
+				<DatePlacedForCollection>20080800</DatePlacedForCollection>
+				<DateClosed>20090700</DateClosed>
+				<AmountPlacedForCollection>00001197</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CMAC COLLECTION ACCOUNTS</AgencyName>
+					<PhoneNumber>8189725300</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="07">Closed, Out of Business</AccountStatus>
+				<DatePlacedForCollection>20070700</DatePlacedForCollection>
+				<DateClosed>20070900</DateClosed>
+				<AmountPlacedForCollection>00001558</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>COFACE COLLECTIONS NORTH AMERICA, I</AgencyName>
+					<PhoneNumber>8005096060</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>ACCT SVCS</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00070000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00023000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>062</CurrentPercentage>
+				<DBT30>038</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>ADVERTISNG</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>AIR TRANS</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>OTHER  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00010500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00004400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>073</CurrentPercentage>
+				<DBT30>027</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>BUREAU</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20120600</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00023500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002900</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 19 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>CERAMICS</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>COMMUNICTN</BusinessCategory>
+				<DateReported>20120400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00124400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00124400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>096</CurrentPercentage>
+				<DBT30>004</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>COMMUN SVC</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00001100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>098</CurrentPercentage>
+				<DBT30>002</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>COMPUTERS</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20051100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>DP SERVCS</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20110800</DateLastActivity>
+				<Terms>0000000</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  9 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FRGHT FWRD</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>OTHER  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00004000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00004000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>100</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code="Y"/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>MACHINERY</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20081000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>OFFC EQUIP</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20100300</DateLastActivity>
+				<Terms>REVOLVE</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CHARGE OFF</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PACKAGING</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20111200</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 20 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PERSNLSVCS</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20060300</DateLastActivity>
+				<Terms>ROI    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>RESTR SUPL</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20120300</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>TEMP HELP</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20120700</DateLastActivity>
+				<Terms>ROI    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00089600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00074600</Amount>
+				</AccountBalance>
+				<CurrentPercentage>063</CurrentPercentage>
+				<DBT30>037</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>TRANSPORTN</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 15 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>TRANSPORTN</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>ADVERTISNG</BusinessCategory>
+				<DateReported>20110800</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00002900</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>AIR TRANS</BusinessCategory>
+				<DateReported>20090700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 17 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>BANK CARD</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>REVOLVE</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00008200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>COMPUTERS</BusinessCategory>
+				<DateReported>20110500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>CRED CARD</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20120600</DateLastActivity>
+				<Terms>REVOLVE</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00005800</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>DP EQUIP</BusinessCategory>
+				<DateReported>20110700</DateReported>
+				<DateLastActivity>20051000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00002600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>ELEC EQUIP</BusinessCategory>
+				<DateReported>20100600</DateReported>
+				<DateLastActivity>20100600</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00010200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00003000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20100100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  6 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20100800</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>SPECIAL</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20100200</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00007300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001900</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>GENERAL</BusinessCategory>
+				<DateReported>20090900</DateReported>
+				<DateLastActivity>20060100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>MISC MANUF</BusinessCategory>
+				<DateReported>20110900</DateReported>
+				<DateLastActivity>20110900</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00007200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002600</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>NEWSPAPERS</BusinessCategory>
+				<DateReported>20100200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>SAFTY PROD</BusinessCategory>
+				<DateReported>20110400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  3 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>SERV ASSOC</BusinessCategory>
+				<DateReported>20091000</DateReported>
+				<DateLastActivity>20040700</DateLastActivity>
+				<Terms>NET10TH</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>WAREHOUSE</BusinessCategory>
+				<DateReported>20110700</DateReported>
+				<DateLastActivity>20000800</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>ACCTCLOSED</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<PaymentTotals>
+				<NewlyReportedTradeLines>
+					<NumberOfLines>0001</NumberOfLines>
+					<DBT>015</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000004000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000004000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>100</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</NewlyReportedTradeLines>
+				<ContinouslyReportedTradeLines>
+					<NumberOfLines>0017</NumberOfLines>
+					<DBT>003</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000319900</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000230600</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>082</CurrentPercentage>
+					<DBT30>018</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</ContinouslyReportedTradeLines>
+				<CombinedTradeLines>
+					<NumberOfLines>0018</NumberOfLines>
+					<DBT>003</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000323900</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000234600</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>080</CurrentPercentage>
+					<DBT30>020</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</CombinedTradeLines>
+				<AdditionalTradeLines>
+					<NumberOfLines>0016</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000044200</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000010000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>100</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</AdditionalTradeLines>
+				<TradeLines>
+					<NumberOfLines>0034</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000368100</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000244600</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>081</CurrentPercentage>
+					<DBT30>019</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</TradeLines>
+			</PaymentTotals>
+			<PaymentTrends>
+				<CurrentMonth>
+					<Date>20120700</Date>
+					<DBT>003</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000230600</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>082</CurrentPercentage>
+					<DBT30>018</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20120700</Date>
+					<DBT>003</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000231900</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>082</CurrentPercentage>
+					<DBT30>018</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120600</Date>
+					<DBT>002</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000265100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>085</CurrentPercentage>
+					<DBT30>015</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120500</Date>
+					<DBT>003</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000254800</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>081</CurrentPercentage>
+					<DBT30>019</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120400</Date>
+					<DBT>001</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000353900</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>092</CurrentPercentage>
+					<DBT30>008</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120300</Date>
+					<DBT>004</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000185400</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>092</CurrentPercentage>
+					<DBT30>001</DBT30>
+					<DBT60>005</DBT60>
+					<DBT90>001</DBT90>
+					<DBT120>001</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120200</Date>
+					<DBT>004</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000245300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>079</CurrentPercentage>
+					<DBT30>018</DBT30>
+					<DBT60>003</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</PriorMonth>
+			</PaymentTrends>
+			<IndustryPaymentTrends>
+				<SIC>274</SIC>
+				<CurrentMonth>
+					<Date>20120700</Date>
+					<DBT>017</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000019349</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>071</CurrentPercentage>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20120600</Date>
+					<DBT>016</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000019176</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>074</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120500</Date>
+					<DBT>016</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000018466</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>073</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120400</Date>
+					<DBT>016</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000018389</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>073</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120300</Date>
+					<DBT>016</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000019257</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>072</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120200</Date>
+					<DBT>016</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000018287</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>075</CurrentPercentage>
+				</PriorMonth>
+			</IndustryPaymentTrends>
+			<QuarterlyPaymentTrends>
+				<MostRecentQuarter>
+					<DBT>003</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000225900</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>081</CurrentPercentage>
+					<DBT30>019</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<QuarterWithinYear code="2">Second quarter (Apr, May &amp; Jun)</QuarterWithinYear>
+					<YearOfQuarter>20120000</YearOfQuarter>
+				</MostRecentQuarter>
+				<PriorQuarter>
+					<DBT>001</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000242600</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>091</CurrentPercentage>
+					<DBT30>009</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<QuarterWithinYear code="1">First quarter (Jan, Feb &amp; Mar)</QuarterWithinYear>
+					<YearOfQuarter>20120000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000220000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>081</CurrentPercentage>
+					<DBT30>013</DBT30>
+					<DBT60>003</DBT60>
+					<DBT90>003</DBT90>
+					<DBT120>000</DBT120>
+					<QuarterWithinYear code="4">Fourth quarter (Oct, Nov &amp; Dec)</QuarterWithinYear>
+					<YearOfQuarter>20110000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>003</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000160100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>081</CurrentPercentage>
+					<DBT30>018</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear>
+					<YearOfQuarter>20110000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000114300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>073</CurrentPercentage>
+					<DBT30>023</DBT30>
+					<DBT60>002</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>002</DBT120>
+					<QuarterWithinYear code="2">Second quarter (Apr, May &amp; Jun)</QuarterWithinYear>
+					<YearOfQuarter>20110000</YearOfQuarter>
+				</PriorQuarter>
+			</QuarterlyPaymentTrends>
+			<TaxLien>
+				<DateFiled>20110428</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>E016073552W0011</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF NEW YORK</Owner>
+				<LiabilityAmount>00000412669</LiabilityAmount>
+			</TaxLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20110124</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>10M08582</DocumentNumber>
+				<FilingLocation>LOS ANGELES MUNICIPAL COURT</FilingLocation>
+				<LiabilityAmount>00000000500</LiabilityAmount>
+				<PlaintiffName>RAMON A FERRERA</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20100503</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>09CESC03036</DocumentNumber>
+				<FilingLocation>CONSOLIDATED FRESNO MUNICIPAL COURT</FilingLocation>
+				<LiabilityAmount>00000003715</LiabilityAmount>
+				<PlaintiffName>JOHN DANCER CORPORATION OF CALIFORN</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20080716</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>VS08367992</DocumentNumber>
+				<FilingLocation>LIVERMORE-PLEASANTON DUBLIN MUNICIPAL CT</FilingLocation>
+				<LiabilityAmount>00000003000</LiabilityAmount>
+				<PlaintiffName>JOHN A SCHUSTER</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20080512</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>VS08367992</DocumentNumber>
+				<FilingLocation>LIVERMORE-PLEASANTON DUBLIN MUNICIPAL CT</FilingLocation>
+				<LiabilityAmount>00000003000</LiabilityAmount>
+				<PlaintiffName>JOHN A SCHUSTER</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20070816</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>06053522</DocumentNumber>
+				<FilingLocation>DELAWARE CTY CRT</FilingLocation>
+				<LiabilityAmount>00000002500</LiabilityAmount>
+				<PlaintiffName>JULES FALCONE</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20060605</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SN36751</DocumentNumber>
+				<FilingLocation>NORTH COUNTY MUNICIPAL COURT</FilingLocation>
+				<LiabilityAmount>00000000100</LiabilityAmount>
+				<PlaintiffName>KELLY S FELIX</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<UCCFilingsSummaryCounts>
+				<UCCFilingsTotal>00067</UCCFilingsTotal>
+				<MostRecent6Months>
+					<StartDate>20120701</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</MostRecent6Months>
+				<Previous6Months>
+					<StartDate>20120101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20110701</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20110101</StartDate>
+					<FilingsTotal>002</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>004</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20100701</StartDate>
+					<FilingsTotal>001</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>012</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20100701</StartDate>
+					<FilingsTotal>015</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>003</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>004</ContinuationsTotal>
+					<AmendedAndAssignedTotal>026</AmendedAndAssignedTotal>
+				</Previous6Months>
+			</UCCFilingsSummaryCounts>
+			<UCCFilings>
+				<DateFiled>20110331</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>016138401</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110717</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009121031</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>016138401</DocumentNumber>
+					<DateFiled>20110331</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110818</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009127342</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>016138401</DocumentNumber>
+					<DateFiled>20110331</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110717</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009121030</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>016138401</DocumentNumber>
+					<DateFiled>20110331</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110331</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="03">Assigned</LegalAction>
+				<DocumentNumber>009102093</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="03">ASSIGNED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>016138401</DocumentNumber>
+					<DateFiled>20110331</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>MOHAMMED, RIYAZUDDIN: IL CHICAGO 60607 HARRISON-433 GENERAL</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110225</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00148409518</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<SecuredParty>IBM CREDIT LLC NY ARMONK 10504 1 NORTH CASTLE DRIVE</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100927</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>015626992</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110815</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009126551</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110721</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009122153</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110712</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009120071</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20111018</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009139220</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110601</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009113305</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110918</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009132782</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="H ">Real Property</Collateral>
+					<Collateral code="Q ">Vehicles</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110515</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009110439</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110508</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009109055</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110610</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009115308</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20110501</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009107454</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20101103</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009075307</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>PARKER, MARK IL MONEE 60449 P.O. BOX 277</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20111008</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>009137155</DocumentNumber>
+				<FilingLocation>ILLINOIS SECRETARY O</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="H ">Real Property</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>IL</FilingState>
+					<DocumentNumber>015626992</DocumentNumber>
+					<DateFiled>20100927</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100615</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201016639318</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="H ">Real Property</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009350832</DocumentNumber>
+					<DateFiled>20100615</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>JOSEPH ANTHONY RICCO</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100310</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201006982042</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="H ">Real Property</Collateral>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="5 ">Furn &amp; Fix</Collateral>
+					<Collateral code="6 ">Inventory</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20100310</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100304</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201006369584</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="1 ">Accts Rec</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009351867</DocumentNumber>
+					<DateFiled>20100304</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>ALEXEY ANANKO</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100218</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201004938744</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20100218</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEVIN KENT KAISER WA FEDERAL WAY 98023 3733 SW 319TH ST.</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100212</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201004326817</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009350832</DocumentNumber>
+					<DateFiled>20100212</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>JOSEPH ANTHONY RICCO WA SEATTLE 98105 C/P DJ WILSON, NOTARY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100208</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201003911700</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009351867</DocumentNumber>
+					<DateFiled>20100208</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>REGIONAL TRUSTEE SERVICES CORP. WA SEATTLE 98104 616 1ST AVE</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100129</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201002990027</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20100129</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100121</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>201002168723</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="H ">Real Property</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>MICHAEL MING KIN CHAU HI HONOLULU 96822 1400 PENSACOLA STREE</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100119</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>107220284329</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100129</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>1072214535</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>CA</FilingState>
+					<DocumentNumber>1072202843</DocumentNumber>
+					<DateFiled>20100119</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100728</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="08">Terminated</LegalAction>
+				<DocumentNumber>1072403849</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>CA</FilingState>
+					<DocumentNumber>1072202843</DocumentNumber>
+					<DateFiled>20100119</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>HEMENDRA NAIKER CA HAYWARD 94541 22835 MONO ST.</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100114</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201001452663</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009350832</DocumentNumber>
+					<DateFiled>20100114</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091229</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>200936413626</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091216</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>200935186743</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100113</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201001347945</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="1 ">Accts Rec</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009351867</DocumentNumber>
+					<DateFiled>20091216</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>ALEXEY ANANKO WA SEATTLE 98105 C/O DJ WILSON, NOTARY PUBLIC</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091215</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>200935083202</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090930</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>097210227393</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091201</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>0972160310</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>CA</FilingState>
+					<DocumentNumber>0972102273</DocumentNumber>
+					<DateFiled>20090930</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>DAMIAN JOEL LEE WV GLENVILLE 26351 IN CARE OF: P.O. BOX 6000</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080211</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>20080013112K</DocumentNumber>
+				<FilingLocation>SEC OF STATE N CAROL</FilingLocation>
+				<SecuredParty>OXALA HOLDINGS INTERNATIONAL, LLC NC FAYETTEVILLE 28311 3771</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080128</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00123305933</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<SecuredParty>IBM CREDIT LLC NY ARMONK 10504 1 NORTH CASTLE DRIVE</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071218</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00122107144</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<SecuredParty>CIT TECHNOLOGIES CORPORATION MI BLOOMFIELD HILLS 48302 2285</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071210</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>20073441160</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<SecuredParty>PARK NATIONAL BANK IL OAK PARK 60302 28 W. MADISON</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071210</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00121860977</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20081027</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="08">Terminated</LegalAction>
+				<DocumentNumber>20083010210</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>OH</FilingState>
+					<DocumentNumber>OH00121860</DocumentNumber>
+					<DateFiled>20071210</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>PARK NATIONAL BANK IL OAK PARK 60302 28 W. MADISON</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20050311</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00087180932</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20030828</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00067892351</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040108</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00072656843</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20050920</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>OH00093420314</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<SecuredParty>BANC OF AMERICA LEASING &amp; CAPITAL, LLC IL CHICAGO 60697 231</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100217</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201004938744</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100128</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201002990027</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100308</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201006982042</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100611</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201016535290</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100205</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>20100009778F</DocumentNumber>
+				<FilingLocation>SEC OF STATE N CAROL</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>NC</FilingState>
+					<DocumentNumber>2008001311</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201001347945</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009351867</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091228</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>200936309851</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009351867</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100205</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201003911700</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009351867</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100303</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201006369584</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009351867</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100113</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201001452663</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009350832</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100614</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>201016639318</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009350832</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>REGIONAL TRUSTEE SERVICES CORP. WA SEATTLE 98104 616 1ST AVE</SecuredParty>
+				<Assignee>JOSEPH ANTHONY RICCO / GRANTOR/TRUSTOR/S</Assignee>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080729</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>20080069320A</DocumentNumber>
+				<FilingLocation>SEC OF STATE N CAROL</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>NC</FilingState>
+					<DocumentNumber>2008001311</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080729</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>20080069319K</DocumentNumber>
+				<FilingLocation>SEC OF STATE N CAROL</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>NC</FilingState>
+					<DocumentNumber>2008001311</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080729</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>20080069317H</DocumentNumber>
+				<FilingLocation>SEC OF STATE N CAROL</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="5 ">Furn &amp; Fix</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>NC</FilingState>
+					<DocumentNumber>2008001311</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>OXALA HOLDINGS INTERNATIONAL, LLC NC FAYETTEVILLE 28311 3771</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090207</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>20090010211H</DocumentNumber>
+				<FilingLocation>SEC OF STATE N CAROL</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>NC</FilingState>
+					<DocumentNumber>2008001311</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100611</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="08">Terminated</LegalAction>
+				<DocumentNumber>201016230539</DocumentNumber>
+				<FilingLocation>SEC OF STATE WASHING</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>WA</FilingState>
+					<DocumentNumber>2009364136</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080617</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>20081690078</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>OH</FilingState>
+					<DocumentNumber>OH00067892</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>FLEET BUSINESS CREDIT LLC IL CHICAGO 60606 ONE SOUTH WACKER</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20081008</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>20082820260</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>OH</FilingState>
+					<DocumentNumber>OH00072656</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>STORAGETEK FINANCIAL SERVICES CORPORATIO CO SUPERIOR 80027 1</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091221</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>20093550104</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>OH</FilingState>
+					<DocumentNumber>OH00087180</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>BANC OF AMERICA LEASING &amp; CAPITAL, LLC IL CHICAGO 60606 ONE</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100707</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>20101880317</DocumentNumber>
+				<FilingLocation>SEC OF STATE OHIO</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>OH</FilingState>
+					<DocumentNumber>OH00093420</DocumentNumber>
+					<DateFiled>20010101</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>VICTOR               NICHOLS</Name>
+				<Title>CEO</Title>
+			</KeyPersonnelExecutiveInformation>
+			<CorporateLinkage>
+				<LinkageRecordType code="1">Ultimate Parent</LinkageRecordType>
+				<LinkageRecordBIN>924502359</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN PLC</LinkageCompanyName>
+				<LinkageCompanyCity>DUBLIN</LinkageCompanyCity>
+				<LinkageCountryCode>IRL</LinkageCountryCode>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="2">Parent/Headquarters</LinkageRecordType>
+				<LinkageRecordBIN>930041814</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN HOLDINGS INC</LinkageCompanyName>
+				<LinkageCompanyCity>COSTA MESA</LinkageCompanyCity>
+				<LinkageCompanyState>CA</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>475 ANTON BLVD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>735424173</LinkageRecordBIN>
+				<LinkageCompanyName>RENTBUREAU, LLC</LinkageCompanyName>
+				<LinkageCompanyCity>ATLANTA</LinkageCompanyCity>
+				<LinkageCompanyState>GA</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>3340 PEACHTREE RD  NE</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>704671061</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>RUTLAND</LinkageCompanyCity>
+				<LinkageCompanyState>VT</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>155 SEWARD RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>710128696</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>YONKERS</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>14 SKYWOOD CT</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>715662401</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>WASHINGTON</LinkageCompanyCity>
+				<LinkageCompanyState>DC</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>1401 K ST  NW STE  501</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>716804225</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>HIGHLAND</LinkageCompanyCity>
+				<LinkageCompanyState>MD</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>6570 PRESTWICK DR</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>728373158</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>WEST COLUMBIA</LinkageCompanyCity>
+				<LinkageCompanyState>SC</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>708 HOOKSEN CIR</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>740118564</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>ORLANDO</LinkageCompanyCity>
+				<LinkageCompanyState>FL</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>1910 GERDA TER</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>772970441</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>ALLEN</LinkageCompanyCity>
+				<LinkageCompanyState>TX</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>601 EXPERIAN PKWY</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>775932800</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>OVERLAND PARK</LinkageCompanyCity>
+				<LinkageCompanyState>KS</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>9200 INDIAN CREEK PKWY STE  567</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>775932820</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>ALLEN</LinkageCompanyCity>
+				<LinkageCompanyState>TX</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>611 EXPERIAN PKWY</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>776661461</LinkageRecordBIN>
+				<LinkageCompanyName>EXPERIAN INFORMATION SOLUTIONS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>OWASSO</LinkageCompanyCity>
+				<LinkageCompanyState>OK</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>7910 N  126TH EAST AVE</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<BusinessFacts>
+				<FileEstablishedDate>19770100</FileEstablishedDate>
+				<FileEstablishedFlag code="P">Business was added prior to Jan 1977</FileEstablishedFlag>
+				<BusinessTypeIndicator code="C">Corporation</BusinessTypeIndicator>
+				<YearsInBusinessIndicator code="F">Over 10 Years</YearsInBusinessIndicator>
+				<YearsInBusiness>0047</YearsInBusiness>
+				<SalesIndicator code=" ">Not Available</SalesIndicator>
+				<SalesRevenue>000000000000</SalesRevenue>
+				<EmployeeSizeIndicator code="I">Over 1000</EmployeeSizeIndicator>
+				<EmployeeSize>000001500</EmployeeSize>
+				<PublicIndicator code=" ">Not Available</PublicIndicator>
+				<NonProfitIndicator code="P">Profit</NonProfitIndicator>
+			</BusinessFacts>
+			<SICCodes>
+				<SIC code="2741">MISCELLANEOUS PUBLISHING</SIC>
+			</SICCodes>
+			<SICCodes>
+				<SIC code="2759">COMMERCIAL PRINTING, NEC</SIC>
+			</SICCodes>
+			<SICCodes>
+				<SIC code="7359">EQUIPMENT RENTAL &amp; LEASING, NEC</SIC>
+			</SICCodes>
+			<NAICSCodes>
+				<NAICS code="511000">Publishing Industries (except Internet)</NAICS>
+			</NAICSCodes>
+			<NAICSCodes>
+				<NAICS code="323119">Other Commercial Printing</NAICS>
+			</NAICSCodes>
+			<NAICSCodes>
+				<NAICS code="532490">Other Commercial and Industrial Machinery and Equipment Rental and Leasing</NAICS>
+			</NAICSCodes>
+			<Competitors>
+				<CompetitorName>Equifax Inc.</CompetitorName>
+			</Competitors>
+			<CommercialFraudShieldSummary>
+				<MatchingBusinessIndicator code="P">Primary Business</MatchingBusinessIndicator>
+				<BusinessBIN>796744203</BusinessBIN>
+				<ActiveBusinessIndicator code="A">Active</ActiveBusinessIndicator>
+				<OFACMatchCode code="01">No Match Found</OFACMatchCode>
+				<BusinessVictimStatementIndicator code="N">No statement Present</BusinessVictimStatementIndicator>
+				<BusinessRiskTriggersIndicator code="N">Risk Trigger Not Present</BusinessRiskTriggersIndicator>
+				<NameAddressVerificationIndicator code="Y">Verification Performed</NameAddressVerificationIndicator>
+			</CommercialFraudShieldSummary>
+			<Inquiry>
+				<InquiryBusinessCategory>ADV MEDIA</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>AUTOMOTIVE</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>004</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>004</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>006</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>002</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>BANK</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>004</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>007</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>006</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>005</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>002</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>BLDG MATRL</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>BUREAU</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>BUS SERVCS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>COMPUTERS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>CREDTUNION</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>002</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>ELEC SUPLR</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>005</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>003</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>EQUIPMENT</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>EQUIP LEAS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>FINCL SVCS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>GENERAL</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>HOTEL</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>INSURANCE</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>PERSNLSVCS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>004</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>004</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>005</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TELECOM</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>003</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TRANSPORTN</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>UTILITY</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TOTALS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>019</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>018</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>023</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>016</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>015</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>020</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>011</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>009</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>014</Count>
+				</InquiryCount>
+			</Inquiry>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>3</Filler>
+				<ScoreInfo>
+					<Score>0000002900</Score>
+				</ScoreInfo>
+				<ProfileNumber>I309192566</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000223</ModelCode>
+					<ModelTitle>FINANCIAL STABILITY RISK</ModelTitle>
+				</ModelInformation>
+				<PercentileRanking>028</PercentileRanking>
+				<Action>TEST LOW-MEDIUM RISK</Action>
+				<RiskClass>3</RiskClass>
+			</IntelliscoreScoreInformation>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>01</Filler>
+				<ScoreInfo>
+					<Score>0000004400</Score>
+				</ScoreInfo>
+				<ModelInformation>
+					<ModelCode>000215</ModelCode>
+					<ModelTitle>INTELLISCORE PLUS (SCORE ONLY)</ModelTitle>
+					<CustomModelCode>01</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>043</PercentileRanking>
+				<Action>MEDIUM RISK</Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="001 ">NUMBER OF COMMERCIAL COLLECTION ACCOUNTS</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="004 ">RISK ASSOCIATED WITH THE COMPANY'S INDUSTRY SECTOR</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="005 ">NUMBER OF COMMERCIAL DEROGATORY PUBLIC RECORDS</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="002 ">RISK ASSOCIATED WITH THE BUSINESS TYPE</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="035 ">NUMBER OF CURRENT COMMERCIAL ACCOUNTS</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="095 ">PERCENT OF SERIOUSLY DELINQUENT COMMERCIAL ACCOUNTS</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="123 ">UNPAID COMMERCIAL COLLECTION ACCOUNTS</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="097 ">PERCENT OF DELINQUENT COMMERCIAL ACCOUNTS</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreTrendsCreditLimit>
+				<CreditLimitAmount>00000175000</CreditLimitAmount>
+				<MostRecentQuarter>
+					<Quarter>APR-JUN</Quarter>
+					<Score>052</Score>
+				</MostRecentQuarter>
+				<PriorQuarter>
+					<Quarter>JAN-MAR</Quarter>
+					<Score>056</Score>
+				</PriorQuarter>
+				<PriorQuarter>
+					<Quarter>OCT-DEC</Quarter>
+					<Score>051</Score>
+				</PriorQuarter>
+				<PriorQuarter>
+					<Quarter>JUL-SEP</Quarter>
+					<Score>047</Score>
+				</PriorQuarter>
+			</ScoreTrendsCreditLimit>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</PremierProfile>
+	</Products>
+</NetConnectResponse>

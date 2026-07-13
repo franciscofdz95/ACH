@@ -1,0 +1,13 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPageSales.master" AutoEventWireup="true"
+    CodeFile="frmLeadQueues.aspx.cs" Inherits="SecureLeadForms_frmLeadQueues" Title="Untitled Page" %>
+
+<%@ Register Src="../UserControls/wucLeadsQueue.ascx" TagName="wucLeadsQueue" TagPrefix="uc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div id="contentpage">
+        <uc1:wucLeadsQueue ID="WucSalesAssigned" runat="server" />
+
+        <uc1:wucLeadsQueue ID="WucSalesInCommunication" runat="server" />
+        <uc1:wucLeadsQueue ID="WucSalesFileInReview" runat="server" />
+
+    </div>
+</asp:Content>

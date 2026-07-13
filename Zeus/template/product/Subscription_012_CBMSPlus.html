@@ -1,0 +1,67 @@
+﻿<table width="800">
+    <tr>
+        <td colspan="2">
+            <img src="[[headerimage]]" alt="[[headertext]]" /></td>
+    </tr>
+    <tr>
+        <td width="664">
+            <br />
+            <span style="font-size: 22.0pt; color: #024C8B; font-family: ''Century Gothic'',''sans-serif''">Product Subscription Acknowledgement</span><br />
+            <br />
+        </td>
+        <td rowspan="2" width="136">
+            <img src="http://zeus.paysafe.com/images/blue_checkmark.png" alt="Subscribed" width="136" /></td>
+    </tr>
+    <tr>
+        <td width="664">
+            <table border="0" cellspacing="6" style="border: solid 1px #024C8B">
+                <tr>
+                    <td><span style="color: #024C8B; font-family: ''Century Gothic'',''sans-serif''">Date: </span><span style="font-family: ''Century Gothic'',''sans-serif''">[[Date]]</span></td>
+                </tr>
+                <tr>
+                    <td><span style="color: #024C8B; font-family: ''Century Gothic'',''sans-serif''">Notice Type: </span><span style="font-family: ''Century Gothic'',''sans-serif''">[[NoticeType]]</span></td>
+                </tr>
+                <tr>
+                    <td><span style="color: #024C8B; font-family: ''Century Gothic'',''sans-serif''">Legal Name: </span><span style="font-family: ''Century Gothic'',''sans-serif''">[[LegalName]]</span></td>
+                </tr>
+                <tr>
+                    <td><span style="color: #024C8B; font-family: ''Century Gothic'',''sans-serif''">Merchant DBA: </span><span style="font-family: ''Century Gothic'',''sans-serif''">[[DBA]]</span></td>
+                </tr>
+                <tr>
+                    <td><span style="color: #024C8B; font-family: ''Century Gothic'',''sans-serif''">Bank: </span><span style="font-family: ''Century Gothic'',''sans-serif''">[[Bank]]</span></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td width="800" colspan="2">
+            <br />
+            <p><span style="color: #024C8B; font-family: ''Century Gothic'',''sans-serif''">You have successfully enrolled into [[ProductName]]. You will receive a welcome call from our team within the next 24 hours to complete your product set up and answer any questions you may have. </span></p>
+            <p>
+                <center><span style="color:#024C8B;font-family:''Century Gothic'',''sans-serif''"> <b>Thank you for choosing [[CompanyName]].</b></span> </center>
+            </p>
+            <hr />
+            <p><span style="font-size: 9.0pt; color: #ababab; font-family: ''Century Gothic'',''sans-serif''">This is an auto generated alert. Do not respond to this email. For more information regarding this alert call Customer Service at [[RMPhoneNumber]]. Please visit [[ApexURL]] to view your current alert settings or to make any adjustments. </span></p>
+        </td>
+    </tr>
+</table>
+
+<!--
+    <span style='font-size:22.0pt;font-family:"Century Gothic","sans-serif";color:#024C8B'>
+    These are the template fields:
+
+headerimage   
+headertext 
+Date
+NoticeType
+LegalName
+DBA
+Bank
+ProductName
+CompanyName
+RMPhoneNumber
+ApexURL
+
+    note from tol: you can find these templates in the EmailTemplate table. i've included them in the project here to update them easier. otherwise you'd need to get the unformated versom from sql, format it, modify it, then strip out newlines again and spacing and escape again.
+
+-->

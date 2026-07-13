@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businesssummary\BSUM.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BSUM</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessSummary>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508767</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/CITIGROUP;CA-399 PARK AVE/NEW YORK NY 10043/BSUM/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>N02836193</ExperianFileNumber>
+				<ProfileType code="SUMMARY   "/>
+				<ProfileDate>20080212</ProfileDate>
+				<ProfileTime>11:20:55</ProfileTime>
+				<TerminalNumber>-ADQ</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>CITIGROUP, INC.                         </BusinessName>
+				<StreetAddress>399 PARK AVE.                 </StreetAddress>
+				<City>NEW YORK                    </City>
+				<State>NY</State>
+				<Zip>10043</Zip>
+				<PhoneNumber>212-559-1000</PhoneNumber>
+				<SIC code="6021">NATIONAL BANKS                        </SIC>
+			</BusinessNameAndAddress>
+			<BusinessSummary>
+				<RiskCategory code="S">Serious Risk</RiskCategory>
+				<NumberOfTradeLines>00066</NumberOfTradeLines>
+				<JudgmentFlag code="Y">This business has judgment filing(s)</JudgmentFlag>
+				<TaxLienFlag code="Y">This business has tax lien filings(s)</TaxLienFlag>
+				<BankruptcyFlag code="N"/>
+				<UCCFilingsFlag code="Y">This business has UCC filing(s)</UCCFilingsFlag>
+				<CollectionFlag code="Y">This business has collection filing(s)</CollectionFlag>
+				<BankFlag code="Y">This business has bank data</BankFlag>
+				<CorporateFilingStatus code="005"/>
+				<DateOfIncorporation>19610508</DateOfIncorporation>
+				<KeyPersonnel1>CHARLES  PRINCE CEO                               </KeyPersonnel1>
+				<KeyPersonnel2>SALLIE L KRAWCHECK CFO                            </KeyPersonnel2>
+				<KeyPersonnel3>MICHAEL  SCHLEIN HUMN RSRCS                       </KeyPersonnel3>
+				<NumberOfEmployees>0290500</NumberOfEmployees>
+				<TransactionNumber>Q602508767</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</BusinessSummary>
+	</Products>
+</NetConnectResponse>

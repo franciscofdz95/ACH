@@ -1,0 +1,2066 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\SBCS\SBCS.xslt"?>
+<BISResponse xmlns="http://www.experian.com/BISResponse">
+	<CompletionCode>0000</CompletionCode>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<SmallBusinessCreditShare>
+			<InputSummary>
+				<SubscriberNumber>998709</SubscriberNumber>
+				<InquiryTransactionNumber>C906384922</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/700000001/SBCS/V-000777/MC-000219/IR/BP</Inquiry>
+			</InputSummary>
+			<SBCSBusinessNameAndAddress>
+				<ExperianBIN>700000001</ExperianBIN>
+				<ProfileType code="SCORE ">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20100216</ProfileDate>
+				<ProfileTime>18:03:29</ProfileTime>
+				<TerminalNumber>-AMV</TerminalNumber>
+				<FileEstablishDate>19900600</FileEstablishDate>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>POCUMTUCK VALLEY MEMORIAL ASSN          </BusinessName>
+				<StreetAddress>10 MEMORIAL ST                </StreetAddress>
+				<City>DEERFIELD                   </City>
+				<State>MA</State>
+				<Zip>01342</Zip>
+				<ZipExtension>5004</ZipExtension>
+				<PhoneNumber>413-774-7476</PhoneNumber>
+				<SIC>
+					<SICIndicator>P</SICIndicator>
+					<SICCode code="841201  "/>
+				</SIC>
+				<SIC>
+					<SICIndicator>A</SICIndicator>
+					<SICCode code="84120000">Museums &amp; Art Galleries   </SICCode>
+				</SIC>
+				<CorporateInfo>
+					<StateOfOrigin code="MA">Massachusetts</StateOfOrigin>
+					<DateIncorporated>18700509</DateIncorporated>
+					<StatusFlag code="A">Active</StatusFlag>
+				</CorporateInfo>
+			</SBCSBusinessNameAndAddress>
+			<SBCSExecutiveElements>
+				<BankruptcyFilingCount>00000</BankruptcyFilingCount>
+				<TaxLienCount>00000</TaxLienCount>
+				<JudgmentCount>00000</JudgmentCount>
+				<CollectionCount>00000</CollectionCount>
+				<CollectionCountPast24Months>00000</CollectionCountPast24Months>
+				<LegalBalance>00000000000</LegalBalance>
+				<UCCFilings>00002</UCCFilings>
+				<UCCDerogatoryCount>00002</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000003609</CurrentAccountBalance>
+				<CurrentTradelineCount>00008</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>  0</HighestDBT6Months>
+				<HighestDBT5Quarters>  0</HighestDBT5Quarters>
+				<ActiveTradelineCount>00008</ActiveTradelineCount>
+				<AllTradelineBalance>00000003609</AllTradelineBalance>
+				<AllTradelineCount>00009</AllTradelineCount>
+				<AverageBalance5Quarters>00000000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000002263</SingleLineHighCredit>
+				<LowBalance6Months>00000000100</LowBalance6Months>
+				<HighBalance6Months>00000002286</HighBalance6Months>
+				<CurrentDBT>000</CurrentDBT>
+				<YearofIncorporation>18700509</YearofIncorporation>
+				<EarliestUCCDate>20081121</EarliestUCCDate>
+				<MostRecentUCCDate>20081121</MostRecentUCCDate>
+				<AdditionalDataVariables>
+					<HighestDBTEver>031</HighestDBTEver>
+					<WorstNonFinancialTradePerformanceEver code="3">61-90 days past the due date</WorstNonFinancialTradePerformanceEver>
+					<WorstFinancialTradePerformanceEver code="3">61-90 days past the due date</WorstFinancialTradePerformanceEver>
+					<NbrOfFinancialTradesGreaterThan100Utilized>00000</NbrOfFinancialTradesGreaterThan100Utilized>
+					<NbrOfAccountsCurrentlyDelinquent>00000</NbrOfAccountsCurrentlyDelinquent>
+					<InquiriesPrevious6Months>00000</InquiriesPrevious6Months>
+					<InquiriesPrevious12Months>00001</InquiriesPrevious12Months>
+					<SBCSNumberOfTradeLines>00000</SBCSNumberOfTradeLines>
+					<SBCSTotalBalance>00000000000</SBCSTotalBalance>
+					<SBCSCreditLimit>00000000000</SBCSCreditLimit>
+				</AdditionalDataVariables>
+			</SBCSExecutiveElements>
+			<SBCSKeyMetrics>
+				<RevolvingAccounts>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+				</RevolvingAccounts>
+				<AllAccountsTotal>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+				</AllAccountsTotal>
+				<FinancialAccounts>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+				</FinancialAccounts>
+				<PaymentStatus>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+					<Status code=" "/>
+				</PaymentStatus>
+				<DBTHistory>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+					<DBT>000</DBT>
+				</DBTHistory>
+				<AllTrades>
+					<TotalCurrentBalance>00000000000</TotalCurrentBalance>
+					<TotalCurrentCreditLimitOrLoanAmount>00000000000</TotalCurrentCreditLimitOrLoanAmount>
+					<TotalAccountPercentageUsed>000</TotalAccountPercentageUsed>
+				</AllTrades>
+				<RevolvingTrades>
+					<TotalCurrentBalance>00000000000</TotalCurrentBalance>
+					<TotalCurrentCreditLimitOrLoanAmount>00000000000</TotalCurrentCreditLimitOrLoanAmount>
+					<CurrentPercentageUsed>000</CurrentPercentageUsed>
+				</RevolvingTrades>
+				<FinancialTrades>
+					<TotalCurrentBalance>00000000000</TotalCurrentBalance>
+					<TotalCurrentCreditLimitOLoanAmount>00000000000</TotalCurrentCreditLimitOLoanAmount>
+					<TotalAccountPercentageUsed>000</TotalAccountPercentageUsed>
+				</FinancialTrades>
+				<CurrentDate>20100200</CurrentDate>
+			</SBCSKeyMetrics>
+			<SBCSExecutiveSummary>
+				<BusinessDBT code="000"/>
+				<PredictedDBT>001</PredictedDBT>
+				<PredictedDBTDate>20100414</PredictedDBTDate>
+				<AllIndustryDBT>008</AllIndustryDBT>
+				<LowestTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000100</Amount>
+				</LowestTotalAccountBalance>
+				<HighestTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000002286</Amount>
+				</HighestTotalAccountBalance>
+				<CurrentTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000003609</Amount>
+				</CurrentTotalAccountBalance>
+				<HighCreditAmountExtended>00000002263</HighCreditAmountExtended>
+				<MedianCreditAmountExtended>00000000000</MedianCreditAmountExtended>
+				<IndustryPaymentComparison code=" "/>
+				<PaymentTrendIndicator code="S">Are Stable</PaymentTrendIndicator>
+			</SBCSExecutiveSummary>
+			<SBCSPaymentTotals>
+				<NewlyReportedTradeLines>
+					<NumberOfLines>0000</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+				</NewlyReportedTradeLines>
+				<ContinuouslyReportedTradeLines>
+					<NumberOfLines>0008</NumberOfLines>
+					<DBT>000</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000003864</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000003609</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>100</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+				</ContinuouslyReportedTradeLines>
+				<CombinedTradeLines>
+					<NumberOfLines>0008</NumberOfLines>
+					<DBT>000</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000003864</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000003609</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>100</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+				</CombinedTradeLines>
+				<AdditionalTradeLines>
+					<NumberOfLines>0001</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+				</AdditionalTradeLines>
+			</SBCSPaymentTotals>
+			<IndustryPaymentTrends>
+				<SIC>841</SIC>
+				<CurrentMonth>
+					<Date>20100100</Date>
+					<DBT>008</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000007923</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>084</CurrentPercentage>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20091200</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000008350</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>085</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20091100</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000008597</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>085</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20091000</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000008679</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>084</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090900</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000009022</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>086</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090800</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000009009</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>086</CurrentPercentage>
+				</PriorMonth>
+			</IndustryPaymentTrends>
+			<SBCSFinancialSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="C">Commercial Credit Card</AccountCategory>
+					<NumberOfTradeLines>0000</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="I">Installment / Term Loan</AccountCategory>
+					<NumberOfTradeLines>0001</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000070</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000001357</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000048</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code="+">More than amount reported</Modifier>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="R">Line of Credit / Revolving Loan</AccountCategory>
+					<NumberOfTradeLines>0000</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="L">Commercial Lease</AccountCategory>
+					<NumberOfTradeLines>0001</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000001357</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="O">Other</AccountCategory>
+					<NumberOfTradeLines>0000</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="T">Financial Line Totals</AccountCategory>
+					<NumberOfTradeLines>0002</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000070</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000002714</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000048</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code="+">More than amount reported</Modifier>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+			</SBCSFinancialSummary>
+			<SBCSTradeData>
+				<RecordType code="F">Financial Trades</RecordType>
+				<FinancialTradeSubClassification code="L">Commercial Lease</FinancialTradeSubClassification>
+				<BusinessCategory>LEASING   </BusinessCategory>
+				<DateReported>20090131</DateReported>
+				<Terms>CONTRCT</Terms>
+				<PaymentStatusCode code="- ">No data reported</PaymentStatusCode>
+				<PaymentHistoryProfile>-----------CCCCC00CC-CC0C00CC--C000 </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>           1392</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>F</TradeClassificationCode>
+					<TradeSubClassCode>L</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="F">Financial Trades</RecordType>
+				<FinancialTradeSubClassification code="I">Installment / Term Loan</FinancialTradeSubClassification>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20090801</DateReported>
+				<DateLastActivity>20090700</DateLastActivity>
+				<Terms>NET    </Terms>
+				<PaymentStatusCode code="- ">No data reported</PaymentStatusCode>
+				<PaymentHistoryProfile>-----C1-1--CC1CC0CCC00-000132       </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000001357</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000070</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000022</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000048</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    2329</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20070830</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<MonthlyPayment>
+					<Modifier code="+">More than amount reported</Modifier>
+					<Amount>00000000000</Amount>
+				</MonthlyPayment>
+				<TradeLinkKey>
+					<TradeClassificationCode>F</TradeClassificationCode>
+					<TradeSubClassCode>I</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>ADVERTISNG</BusinessCategory>
+				<DateReported>20100204</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentFrequency code="U">Unknown</PaymentFrequency>
+				<PaymentStatusCode code="C ">Current</PaymentStatusCode>
+				<PaymentHistoryProfile>CCCCC-C--CC----CC-C-CC-CCCC-CCCC    </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000174</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000174</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                4969</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20030819</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>U</SecuredIndicator>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="U">Unknown</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>COMPUTERS </BusinessCategory>
+				<DateReported>20100202</DateReported>
+				<PaymentStatusCode code="C ">Current</PaymentStatusCode>
+				<PaymentHistoryProfile>CCC0C                               </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000045</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000045</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000045</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                              6220</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20090901</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 01 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00002</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>PACKAGING </BusinessCategory>
+				<DateReported>20100202</DateReported>
+				<DateLastActivity>20081100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>00000-0000000C                      </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000100</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000100</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    3293</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20081201</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 02 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00003</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>COMPUTERS </BusinessCategory>
+				<DateReported>20100131</DateReported>
+				<DateLastActivity>20090302</DateLastActivity>
+				<LastActivityType code="P">Payment</LastActivityType>
+				<Terms>CREDIT </Terms>
+				<PaymentFrequency code="M">Monthly</PaymentFrequency>
+				<TermsDuration>AR  </TermsDuration>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>0000CC32----C1CCC1CCC0-1CC1CC0-C    </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000001307</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000778</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000020000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000778</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    5818</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<DateOpened>20040521</DateOpened>
+				<DateClosed>20090730</DateClosed>
+				<ReasonClosed code="02">Account closed at credit grantors request</ReasonClosed>
+				<DateOfLastPayment>20090302</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>N</SecuredIndicator>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="A">Active</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00004</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>OFFC SUPPL</BusinessCategory>
+				<DateReported>20100131</DateReported>
+				<DateLastActivity>20100124</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<PaymentFrequency code="M">Monthly</PaymentFrequency>
+				<TermsDuration>AR  </TermsDuration>
+				<PaymentStatusCode code="C">Current</PaymentStatusCode>
+				<PaymentHistoryProfile>CCCCCC1C----CC1CCCCCCC-1CCC1CC-C    </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000002263</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000002512</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000004000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000002512</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    8105</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>19970301</DateOpened>
+				<DateOfLastPayment>20100124</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>N</SecuredIndicator>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="A">Active</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00005</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>CERAMICS  </BusinessCategory>
+				<DateReported>20091231</DateReported>
+				<Terms>NET30  </Terms>
+				<PaymentStatusCode code="- ">No data reported</PaymentStatusCode>
+				<PaymentHistoryProfile>00-00000-00000000000-000000         </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    1913</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20031103</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00006</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>PLBG SUPLR</BusinessCategory>
+				<DateReported>20091231</DateReported>
+				<DateLastActivity>20090700</DateLastActivity>
+				<Terms>2/10N30</Terms>
+				<PaymentStatusCode code="- ">No data reported</PaymentStatusCode>
+				<PaymentHistoryProfile>00001C00-0-00000       </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    7469</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20080930</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00007</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>LUMBR&amp;WOOD</BusinessCategory>
+				<DateReported>20091130</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="- ">No data reported</PaymentStatusCode>
+				<PaymentHistoryProfile>-00CC01C-1-0000CCC0--C0000CC0C-CC00 </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    5585</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20021130</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00008</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20080730</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="- ">No data reported</PaymentStatusCode>
+				<PaymentHistoryProfile>-----------------00-0-000</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                   4255</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOpened>20030328</DateOpened>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 05 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<UCCFilingsSummaryCounts>
+				<UCCFilingsTotal>00002</UCCFilingsTotal>
+				<MostRecent6Months>
+					<StartDate>20100101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</MostRecent6Months>
+				<Previous6Months>
+					<StartDate>20090701</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20090101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20080701</StartDate>
+					<FilingsTotal>002</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>002</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20080101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20080101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+			</UCCFilingsSummaryCounts>
+			<SBCSUCCFilings>
+				<DateFiled>20081121</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>200869721300            </DocumentNumber>
+				<FilingLocation>SEC OF STATE MASSACHUSETTS              </FilingLocation>
+				<CollateralCodes>
+					<Collateral code="H ">Real Property</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="5 ">Furn &amp; Fix</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>200869721300    </DocumentNumber>
+					<DateFiled>20081121</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GREENFIELD SAVINGS BANK MA GREENFIELD 01302 400 MAIN STREET,</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20081121</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>200869721490            </DocumentNumber>
+				<FilingLocation>SEC OF STATE MASSACHUSETTS              </FilingLocation>
+				<CollateralCodes>
+					<Collateral code="Q ">Vehicles</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+					<Collateral code="1 ">Accts Rec</Collateral>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="5 ">Furn &amp; Fix</Collateral>
+					<Collateral code="6 ">Inventory</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>200869721490            </DocumentNumber>
+					<DateFiled>20081121</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GREENFIELD SAVINGS BANK MA GREENFIELD 01302 400 MAIN STREET,</SecuredParty>
+			</SBCSUCCFilings>
+			<CorporateInformation>
+				<StateOfOrigin>MA</StateOfOrigin>
+				<OriginalFilingDate>00000000</OriginalFilingDate>
+				<RecentFilingDate>00000000</RecentFilingDate>
+				<IncorporatedDate>18700509</IncorporatedDate>
+				<BusinessType code="I">Incorporated</BusinessType>
+				<StatusFlag code="A">Active</StatusFlag>
+				<ProfitFlag code="N">Non-profit</ProfitFlag>
+				<CharterNumber>042147607 </CharterNumber>
+			</CorporateInformation>
+			<DemographicInformation>
+				<PrimarySICCode>8412</PrimarySICCode>
+				<SecondarySICCode>8231</SecondarySICCode>
+				<SecondarySICDescription>Public Library        </SecondarySICDescription>
+				<AdditionalSICCodes>
+					<SICCode>5999</SICCode>
+				</AdditionalSICCodes>
+				<YearsInBusinessIndicator code="1">Actual Amount Provided</YearsInBusinessIndicator>
+				<YearsInBusinessOrLowRange>006</YearsInBusinessOrLowRange>
+				<HighRangeYears>000</HighRangeYears>
+				<SalesIndicator code="0">Data Provided As Range</SalesIndicator>
+				<SalesRevenueOrLowRange>000001000000</SalesRevenueOrLowRange>
+				<HighRangeOfSales>000004999999</HighRangeOfSales>
+				<ProfitLossIndicator code=" ">Not Available</ProfitLossIndicator>
+				<ProfitLossCode code=" "/>
+				<ProfitAmountOrLowRange>000000000000</ProfitAmountOrLowRange>
+				<HighRangeOfProfit>000000000000</HighRangeOfProfit>
+				<NetWorthIndicator code=" ">Not Available</NetWorthIndicator>
+				<NetWorthAmountOrLowRange>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</NetWorthAmountOrLowRange>
+				<HighRangeOrNetWorth>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</HighRangeOrNetWorth>
+				<EmployeeIndicator code="1">Actual Amount Provided</EmployeeIndicator>
+				<EmployeeSizeOrLowRange>000000020</EmployeeSizeOrLowRange>
+				<HighEmployeeRange>000000000</HighEmployeeRange>
+				<InBuildingDate>00000000</InBuildingDate>
+				<BuildingSize>0000000</BuildingSize>
+				<BuildingOwnership code=" "/>
+				<Ownership code=" "/>
+				<Location code=" ">Not Available</Location>
+				<BusinessType code=" ">Not Available</BusinessType>
+				<CustomerCount>0000000</CustomerCount>
+				<DateFounded>00000000</DateFounded>
+			</DemographicInformation>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>TIMOTHY              NEUMANN                                     </Name>
+				<Title>EXECUTIVE           </Title>
+			</KeyPersonnelExecutiveInformation>
+			<SBCSInquiry>
+				<InquiryBusinessCategory>LEASING   </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20100200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20100100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20091200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20091100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20091000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</SBCSInquiry>
+			<SBCSInquiry>
+				<InquiryBusinessCategory>T O T A L </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20100200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20100100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20091200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20091100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20091000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20090300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</SBCSInquiry>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code=" "/>
+				<LimitedProfile code="N"/>
+				<Filler>06        </Filler>
+				<ScoreInfo>
+					<Score>0000003000</Score>
+				</ScoreInfo>
+				<ProfileNumber>I906384922</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000219</ModelCode>
+					<CustomModelCode>06</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>000</PercentileRanking>
+				<Action>        MEDIUM-HIGH RISK        </Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="257 ">WORST STATUS ON A COMM FINANCIAL ACCOUNT IN PAST 12 MONTHS  </ScoreFactor>
+				<ScoreFactor code="259 ">AVERAGE AGE OF ALL FINANCIAL ACCOUNTS                       </ScoreFactor>
+				<ScoreFactor code="224 ">WORST STATUS ON A COMM FINANCIAL ACCOUNT,CURRENT OR PAST    </ScoreFactor>
+				<ScoreFactor code="239 ">NUMBER OF RECENTLY ACTIVE ACCOUNTS                          </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<TotalAgedTradesNoInfoLast4Months>00003</TotalAgedTradesNoInfoLast4Months>
+				<WeightedDBTAgedTradesNoInfoLast4>00000</WeightedDBTAgedTradesNoInfoLast4>
+				<CommercialBankAccounts>00000</CommercialBankAccounts>
+				<BankruptcyFilingsLast24Months>00000</BankruptcyFilingsLast24Months>
+				<CollectionsCount>00000</CollectionsCount>
+				<CollectionsCountLast12Months>00000</CollectionsCountLast12Months>
+				<AmountPlacedCollectionTrades>00000</AmountPlacedCollectionTrades>
+				<MostRecentCollectionTradeAge>00000</MostRecentCollectionTradeAge>
+				<InquiriesCountLast9Months>00001</InquiriesCountLast9Months>
+				<InquiriesCountLast6Months>00000</InquiriesCountLast6Months>
+				<JudgmentsAmountLast24Months>0000000000000</JudgmentsAmountLast24Months>
+				<LegalFilingsCount>00000</LegalFilingsCount>
+				<LeasingTradesMaximumRemainingBalance>0000000000000</LeasingTradesMaximumRemainingBalance>
+				<OldestPublicRecordAge>00000</OldestPublicRecordAge>
+				<MonthsOnFile>0236</MonthsOnFile>
+				<TradesCountContract>00001</TradesCountContract>
+				<UCCFilingsCountSummary>00002</UCCFilingsCountSummary>
+				<OpenUCCFilingsCountLast24Months>00002</OpenUCCFilingsCountLast24Months>
+				<Original5YearUCCFilingsCountLast24>00002</Original5YearUCCFilingsCountLast24>
+				<ActiveTradesCtPast12>00008</ActiveTradesCtPast12>
+				<CombTradesWorstDlqCurrentBal>0000000002000</CombTradesWorstDlqCurrentBal>
+				<LegalFilingsCtPast12Mos>00000</LegalFilingsCtPast12Mos>
+				<AllTradesTotalCt>00011</AllTradesTotalCt>
+				<EmployeeSize1To25Flag>0</EmployeeSize1To25Flag>
+				<DerogLegalItems>00002</DerogLegalItems>
+				<TotalBankcruptciesTaxLiensJudgementsFiled>00000</TotalBankcruptciesTaxLiensJudgementsFiled>
+				<TotalTradesAndLeases>0000000000011</TotalTradesAndLeases>
+				<PctTotaltradesWithVariedTermsToTotalTrades>000000000000000000</PctTotaltradesWithVariedTermsToTotalTrades>
+				<TotalTradesDBTGreaterThanZeroAsPctOfTotalNumberOfAllTrades>000000000000000000</TotalTradesDBTGreaterThanZeroAsPctOfTotalNumberOfAllTrades>
+				<TotalAcctBalAsPctOfTotalHighCreditBal>000000000000000011</TotalAcctBalAsPctOfTotalHighCreditBal>
+				<TotalTrades>00011</TotalTrades>
+				<TotalOpenTrades>00010</TotalOpenTrades>
+				<TotalClosedTrades>00001</TotalClosedTrades>
+				<TotalTradesZeroBalLast12Months>00000</TotalTradesZeroBalLast12Months>
+				<TotalPaidTrades>00002</TotalPaidTrades>
+				<TotalClosedTradesBalGreaterThanZero>00000</TotalClosedTradesBalGreaterThanZero>
+				<TotalTradesOpenedLast6Months>00001</TotalTradesOpenedLast6Months>
+				<TotalTradesOpenedLast12Months>00001</TotalTradesOpenedLast12Months>
+				<TotalTradesClosedLast6Months>00001</TotalTradesClosedLast6Months>
+				<TotalOpenClosedTradesAmtPastDueBeyondTermDerogLast6Months>00001</TotalOpenClosedTradesAmtPastDueBeyondTermDerogLast6Months>
+				<TotalTrades1To30DBTLast6Months>00001</TotalTrades1To30DBTLast6Months>
+				<TotalTrades31PlusDBTDerogLast6Months>00000</TotalTrades31PlusDBTDerogLast6Months>
+				<TotalTrades61PlusDBTDerogLast6Months>00000</TotalTrades61PlusDBTDerogLast6Months>
+				<TotalTrades91PlusDBTDerogLast6Months>00000</TotalTrades91PlusDBTDerogLast6Months>
+				<TotalTrades121PlusDBTDerogLast6Months>00000</TotalTrades121PlusDBTDerogLast6Months>
+				<TotalTradesNeverReportedBeyondTermOrDerogStatus>00006</TotalTradesNeverReportedBeyondTermOrDerogStatus>
+				<TotalTradesMaxDBT30DaysLast36Months>00003</TotalTradesMaxDBT30DaysLast36Months>
+				<TotalTradesEver31PlusDBT>00002</TotalTradesEver31PlusDBT>
+				<TotalTradesMaxDBTEver60Days>00000</TotalTradesMaxDBTEver60Days>
+				<TotalTradesEver61PlusDBT>00002</TotalTradesEver61PlusDBT>
+				<TotalTradesMaxDBTEver90Days>00002</TotalTradesMaxDBTEver90Days>
+				<TotalTradesDerogStatusEver>00000</TotalTradesDerogStatusEver>
+				<TotalTradesDerogStatusEverLast12Months>00000</TotalTradesDerogStatusEverLast12Months>
+				<TotalTradesDerogStatusEverLast24Months>00000</TotalTradesDerogStatusEverLast24Months>
+			</KeyModelElements>
+			<KeyModelElements>
+				<TradesOpened3To12MonthsNoDelinqDerogLast3Months>00001</TradesOpened3To12MonthsNoDelinqDerogLast3Months>
+				<TradesOpened1to3MonthsNoDelinqDerogLast3Months>00008</TradesOpened1to3MonthsNoDelinqDerogLast3Months>
+				<TradesOpened6To18MonthsNoDelinqDerogLast6Months>00002</TradesOpened6To18MonthsNoDelinqDerogLast6Months>
+				<TradesOpened1To6MonthsNoDelinqDerogLast6Months>00007</TradesOpened1To6MonthsNoDelinqDerogLast6Months>
+				<TradesOpened12To24MonthsNoDelinqDerogLast12Months>00001</TradesOpened12To24MonthsNoDelinqDerogLast12Months>
+				<TradesOpened1To12MonthsNoDelinqDerogLast12Months>00003</TradesOpened1To12MonthsNoDelinqDerogLast12Months>
+				<TradesOpened1To12MonthsMax1To30DayDelinqLast12Months>00004</TradesOpened1To12MonthsMax1To30DayDelinqLast12Months>
+				<TradesOpened1To3MonthsMax31To60DayDelinqLast3Months>00000</TradesOpened1To3MonthsMax31To60DayDelinqLast3Months>
+				<TradesOpened1To6MonthsMax31To60DayDelinqLast6Months>00000</TradesOpened1To6MonthsMax31To60DayDelinqLast6Months>
+				<TradesOpened1To12MonthsMax31To60DayDelinqLast12Months>00000</TradesOpened1To12MonthsMax31To60DayDelinqLast12Months>
+				<TradesOpened1To3MonthsMax61To90DayDelinqLast3Months>00000</TradesOpened1To3MonthsMax61To90DayDelinqLast3Months>
+				<TradesOpened1To12MonthsMax61To90DayDelinqLast12Months>00001</TradesOpened1To12MonthsMax61To90DayDelinqLast12Months>
+				<TradesOpened6To18Months91DayDelinqLast6Months>00000</TradesOpened6To18Months91DayDelinqLast6Months>
+				<TradesOpened1To6Months91DayDelinqLast6Months>00000</TradesOpened1To6Months91DayDelinqLast6Months>
+				<TradesOpened12To24Months91DayDelinqLast12Months>00000</TradesOpened12To24Months91DayDelinqLast12Months>
+				<TradesOpened1To3MonthsDerogLast3Months>00000</TradesOpened1To3MonthsDerogLast3Months>
+				<TradesOpened1To12MonthsDerogLast12Months>00000</TradesOpened1To12MonthsDerogLast12Months>
+				<TradesOpenedLast6MonthsNoDelinqEverLifeOfTrade>00001</TradesOpenedLast6MonthsNoDelinqEverLifeOfTrade>
+				<TradesOpened1To12MonthsMax1To30DayDelinqEverLifeOfTrade>00000</TradesOpened1To12MonthsMax1To30DayDelinqEverLifeOfTrade>
+				<TradesOpened1To12Months91PlusDelinqEverLifeOfTrade>00000</TradesOpened1To12Months91PlusDelinqEverLifeOfTrade>
+				<OpenTradesDBTWorseRecent6MonthsThenPrevious6Months>00000</OpenTradesDBTWorseRecent6MonthsThenPrevious6Months>
+				<OpenTradesDBTWorseRecent12MonthsThenPrevious12Months>00000</OpenTradesDBTWorseRecent12MonthsThenPrevious12Months>
+				<TradesWithOpenAndClosedCollectionStatus>00000</TradesWithOpenAndClosedCollectionStatus>
+				<TotalOutstandingBalAllOpenTradesLast6Months>00000002084</TotalOutstandingBalAllOpenTradesLast6Months>
+				<AvgOutstandingBalAllOpenTradesLast6Months>00000000298</AvgOutstandingBalAllOpenTradesLast6Months>
+				<ActualPaymentAllOpenTradesLast6Months>00000000000</ActualPaymentAllOpenTradesLast6Months>
+				<AvgActualPaymentAllOpenTradesLast6Months>00000000000</AvgActualPaymentAllOpenTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtAllOpenTradesLast6Months>00000010012</TotalCreditLimitHiCreditLoanAmtAllOpenTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtAllOpenTradesLast6Months>00000010012</TotalCreditLimitHiCreditLoanAmtAllOpenTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenTradesLast6Months>02081</OverallBalToLimitRatioAllOpenTradesLast6Months>
+				<OpenTradesAvgCreditUtilHigherRecent12MonthsThenPrevious12Months>00000</OpenTradesAvgCreditUtilHigherRecent12MonthsThenPrevious12Months>
+				<WorstStatusEverTrade>3 </WorstStatusEverTrade>
+				<WorstStatusEverTradeLast12MonthsReported12Months>3 </WorstStatusEverTradeLast12MonthsReported12Months>
+				<WorstStatusEverTradeLast24MonthsReported24Months>3 </WorstStatusEverTradeLast24MonthsReported24Months>
+				<WorstStatusEverTradeOpenedLast36Months>3 </WorstStatusEverTradeOpenedLast36Months>
+				<AvgNumberTimes31DBTTradesLast12Months>00022</AvgNumberTimes31DBTTradesLast12Months>
+				<AvgNumberTimes61DBTTradesLast12Months>00011</AvgNumberTimes61DBTTradesLast12Months>
+				<AvgNumberTimes91DBTTradesLast12Months>00000</AvgNumberTimes91DBTTradesLast12Months>
+				<WorstPresentStatusOpenTrade>0</WorstPresentStatusOpenTrade>
+				<WorstPresentStatusOpenTradesOpened24Months>0</WorstPresentStatusOpenTradesOpened24Months>
+				<AgeOldestTrade>00000</AgeOldestTrade>
+				<AgeRecentlyOpenedTrade>00005</AgeRecentlyOpenedTrade>
+				<AvgAgeAllTrades>00064</AvgAgeAllTrades>
+				<MonthsSinceRecent31PlusDBTAnyTrade>00007</MonthsSinceRecent31PlusDBTAnyTrade>
+				<MonthsSinceRecent31to60DBTAnyTrade>00008</MonthsSinceRecent31to60DBTAnyTrade>
+				<MonthsSinceRecent61PlusDBTAnyTrade>00007</MonthsSinceRecent61PlusDBTAnyTrade>
+				<MonthsSinceRecent61to90PlusDBTAnyTrade>00007</MonthsSinceRecent61to90PlusDBTAnyTrade>
+				<MonthsSinceRecent91PlusDBTAnyTrade>00000</MonthsSinceRecent91PlusDBTAnyTrade>
+				<MonthsSinceRecentDerogStatusAnyTrade>00000</MonthsSinceRecentDerogStatusAnyTrade>
+				<PctOfTradesNeverReportedDelinqOrDerog>05455</PctOfTradesNeverReportedDelinqOrDerog>
+				<PctOfTradesEverReported30DBT>02727</PctOfTradesEverReported30DBT>
+				<PctOfTradesEverReported60DBT>00000</PctOfTradesEverReported60DBT>
+				<PctOfTradesEverReported90DBT>01818</PctOfTradesEverReported90DBT>
+				<PctOfTradesEverReported91PlusDBT>00000</PctOfTradesEverReported91PlusDBT>
+				<PctOfTradesEverReportedDerogStatus>00000</PctOfTradesEverReportedDerogStatus>
+				<PctTotalTradesOpen>09091</PctTotalTradesOpen>
+				<TotalTradeBalLast3Months>00000002084</TotalTradeBalLast3Months>
+				<TradesOpened1To30DaysNeverPaid>00011</TradesOpened1To30DaysNeverPaid>
+				<TotalBalTradesOpened1to30DaysNeverPaid>00000003679</TotalBalTradesOpened1to30DaysNeverPaid>
+				<TradesOpened1To3MonthsWeightedDBTZeroLast3Months>00008</TradesOpened1To3MonthsWeightedDBTZeroLast3Months>
+			</KeyModelElements>
+			<KeyModelElements>
+				<TradesOpened6To18MonthsWeightedDBTZeroLast6Months>00002</TradesOpened6To18MonthsWeightedDBTZeroLast6Months>
+				<TradesOpened1To6MonthsWeightedDBTZeroLast6Months>00007</TradesOpened1To6MonthsWeightedDBTZeroLast6Months>
+				<TradesOpened12To24MonthsWeightedDBTZeroLast12Months>00001</TradesOpened12To24MonthsWeightedDBTZeroLast12Months>
+				<TradesOpened1To12MonthsWeightedDBTZeroLast12Months>00004</TradesOpened1To12MonthsWeightedDBTZeroLast12Months>
+				<TradesOpened1To6MonthsWeightedDBT61PlusLast6Months>00000</TradesOpened1To6MonthsWeightedDBT61PlusLast6Months>
+				<TradesOpened1To12MonthsWeightedDBT61PlusLast12Months>00000</TradesOpened1To12MonthsWeightedDBT61PlusLast12Months>
+				<WeightedDBTTradesOpened3To15Months>00000</WeightedDBTTradesOpened3To15Months>
+				<WeightedDBTTradesOpened1To3Months>00000</WeightedDBTTradesOpened1To3Months>
+				<WeightedDBTTradesOpened6To18Months>00000</WeightedDBTTradesOpened6To18Months>
+				<WeightedDBTTradesOpened1To6Months>00000</WeightedDBTTradesOpened1To6Months>
+				<WeightedDBTTradesOpened12To24Months>00000</WeightedDBTTradesOpened12To24Months>
+				<WeightedDBTTradesOpened1To12Months>00000</WeightedDBTTradesOpened1To12Months>
+				<TotalChargeOffAmtTrades>00000000000</TotalChargeOffAmtTrades>
+				<AvgChargeOffAmtTrades>00000000000</AvgChargeOffAmtTrades>
+				<AvgMonthsToChargeOffAllTrades>00000</AvgMonthsToChargeOffAllTrades>
+				<TotalOutstandingBalAllTradesLast12Months>00000002126</TotalOutstandingBalAllTradesLast12Months>
+				<TotalOutstandingBalAllTradesLast24Months>00000002325</TotalOutstandingBalAllTradesLast24Months>
+				<TotalOutstandingBalAllTradesLast36Months>00000002325</TotalOutstandingBalAllTradesLast36Months>
+				<AgeMostRecentNonOriginalBankruptcyAction>00000</AgeMostRecentNonOriginalBankruptcyAction>
+				<TotalAmtPlacedOpenClosedUnpaidCollections>00000000000</TotalAmtPlacedOpenClosedUnpaidCollections>
+				<TotalAmtPlacedOpenClosedAllCollections>00000000000</TotalAmtPlacedOpenClosedAllCollections>
+				<AgeMostRecentCollectionTrade>00000</AgeMostRecentCollectionTrade>
+				<AgeMostRecentOpenCollectionTrade>00000</AgeMostRecentOpenCollectionTrade>
+				<PctTotalAmtPlacedUnpaidCollectionsToTotalTradeBal>00000</PctTotalAmtPlacedUnpaidCollectionsToTotalTradeBal>
+				<PctTotalOpenCollectionsToTotalCollections>00000</PctTotalOpenCollectionsToTotalCollections>
+				<PctTotalOpenCollectionsToTotalTrades>00000</PctTotalOpenCollectionsToTotalTrades>
+				<PctTotalOpenClosedUnpaidCollectionsToTotalCollections>00000</PctTotalOpenClosedUnpaidCollectionsToTotalCollections>
+				<SBCSEmployeeSizeCode>D</SBCSEmployeeSizeCode>
+				<EmployeeSize1To5Flag>0</EmployeeSize1To5Flag>
+				<CreditEstablishDate>19900630</CreditEstablishDate>
+				<SalesAmountCode>C</SalesAmountCode>
+				<AgeSinceBusinessFirstAdded>00236</AgeSinceBusinessFirstAdded>
+				<TotalCommercialCreditCardTrades>00000</TotalCommercialCreditCardTrades>
+				<TotalCommercialCreditCardTradesZeroBalLast12Months>00000</TotalCommercialCreditCardTradesZeroBalLast12Months>
+				<TotalClosedCommercialCreditCardTradesBalGreaterThanZero>00000</TotalClosedCommercialCreditCardTradesBalGreaterThanZero>
+				<TotalPaidCommercialCreditCardTradesLast6Months>00000</TotalPaidCommercialCreditCardTradesLast6Months>
+				<TotalCommercialCreditCardTradesOpenedLast6Months>00000</TotalCommercialCreditCardTradesOpenedLast6Months>
+				<TotalCommercialCreditCardTradesOpenedLast12Months>00000</TotalCommercialCreditCardTradesOpenedLast12Months>
+				<TotalCommercialCreditCardTradesOpenedLast24Months>00000</TotalCommercialCreditCardTradesOpenedLast24Months>
+				<TotalOpenClosedCommercialCreditCardTradesDerogLast6Months>00000</TotalOpenClosedCommercialCreditCardTradesDerogLast6Months>
+				<TotalCommercialCreditCardTradesCurrentZeroDBTLast6Months>00000</TotalCommercialCreditCardTradesCurrentZeroDBTLast6Months>
+				<TotalCommercialCreditCardTradesNeverDerogStatus>00000</TotalCommercialCreditCardTradesNeverDerogStatus>
+				<TotalCommercialCreditCardTradesEver31DBT>00000</TotalCommercialCreditCardTradesEver31DBT>
+				<TotalCommercialCreditCardTradesEver91DBT>00000</TotalCommercialCreditCardTradesEver91DBT>
+				<TotalCommercialCreditCardTradesBankruptcyStatusLast24Months>00000</TotalCommercialCreditCardTradesBankruptcyStatusLast24Months>
+				<TotalCommercialCreditCardTradesOpened1to3MonthsNoDerogLast3Months>00000</TotalCommercialCreditCardTradesOpened1to3MonthsNoDerogLast3Months>
+				<TotalCommercialCreditCardTradesOpened1to12MonthsNoDerogLast12Months>00000</TotalCommercialCreditCardTradesOpened1to12MonthsNoDerogLast12Months>
+				<TotalCommercialCreditCardTradesOpened1To6MonthsDerogLast6Months>00000</TotalCommercialCreditCardTradesOpened1To6MonthsDerogLast6Months>
+				<TotalOutstandingBalOpenCommercialCreditCardTradesLast6Months>00000000000</TotalOutstandingBalOpenCommercialCreditCardTradesLast6Months>
+				<AvgOutstandingBalOpenCommercialCreditCardTradesLast6Months>00000000000</AvgOutstandingBalOpenCommercialCreditCardTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenCommercialCreditCardTradesLast6Months>00000000000</TotalCreditLimitHiCreditLoanAmtOpenCommercialCreditCardTradesLast6Months>
+			</KeyModelElements>
+			<KeyModelElements>
+				<OverallBalToLimitRatioOpenCommercialCreditCardTradesLast6Months>00000</OverallBalToLimitRatioOpenCommercialCreditCardTradesLast6Months>
+				<AvgTimesOver31DBTCommercialCreditCardTradesLast12Months>00000</AvgTimesOver31DBTCommercialCreditCardTradesLast12Months>
+				<AvgTimesOver91DBTCommercialCreditCardTradesLast12Months>00000</AvgTimesOver91DBTCommercialCreditCardTradesLast12Months>
+				<AgeOldestCommercialCreditCardTrade>00000</AgeOldestCommercialCreditCardTrade>
+				<AgeMostRecentlyOpenedCommercialCreditCardTrade>00000</AgeMostRecentlyOpenedCommercialCreditCardTrade>
+				<AvgAgeAllCommercialCreditCardTrades>00000</AvgAgeAllCommercialCreditCardTrades>
+				<MonthsSinceRecent31PlusDBTCommercialCreditCardTrade>00000</MonthsSinceRecent31PlusDBTCommercialCreditCardTrade>
+				<MonthsSinceRecent31to60DBTCommercialCreditCardTrade>00000</MonthsSinceRecent31to60DBTCommercialCreditCardTrade>
+				<MonthsSinceRecent61PlusDBTCommercialCreditCardTrade>00000</MonthsSinceRecent61PlusDBTCommercialCreditCardTrade>
+				<MonthsSinceRecent61to90DBTCommercialCreditCardTrade>00000</MonthsSinceRecent61to90DBTCommercialCreditCardTrade>
+				<MonthsSinceRecent91PlusDBTCommercialCreditCardTrade>00000</MonthsSinceRecent91PlusDBTCommercialCreditCardTrade>
+				<MonthsSinceRecentDerogStatusCommercialCreditCardTrade>00000</MonthsSinceRecentDerogStatusCommercialCreditCardTrade>
+				<PctTotalCommercialCreditCardTradesOpen>00000</PctTotalCommercialCreditCardTradesOpen>
+				<PctTotalOpenCommercialCreditCardTradesToTotalOpenTrades>00000</PctTotalOpenCommercialCreditCardTradesToTotalOpenTrades>
+				<PctTotalCommercialCreditCardTradesToTotalTrades>00000</PctTotalCommercialCreditCardTradesToTotalTrades>
+				<TotalCommercialCreditCardTradeBalLast3Months>00000000000</TotalCommercialCreditCardTradeBalLast3Months>
+				<PctTotalCommercialCreditCardBalToTotalTradeBalLast3Months>00000</PctTotalCommercialCreditCardBalToTotalTradeBalLast3Months>
+				<CommercialCreditCardTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>00000</CommercialCreditCardTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>
+				<WeightedDBTTradesIOpenedLast6Months>00000</WeightedDBTTradesIOpenedLast6Months>
+				<TotalChargeOffAmtCommercialCreditCardTrades>00000000000</TotalChargeOffAmtCommercialCreditCardTrades>
+				<TotalChargeOffAmtCommercialCreditCardTrades>00000000000</TotalChargeOffAmtCommercialCreditCardTrades>
+				<AvgChargeOffAmtCommercialCreditCardTrades>00000000000</AvgChargeOffAmtCommercialCreditCardTrades>
+				<AvgMonthsToChargeOffCommercialCreditCardTrades>00000</AvgMonthsToChargeOffCommercialCreditCardTrades>
+				<TotalPaidCommercialChargeCardTradesLast6Months>00000</TotalPaidCommercialChargeCardTradesLast6Months>
+				<TotalOpenClosedCommercialChargeCardTradesDerogLast6Months>00000</TotalOpenClosedCommercialChargeCardTradesDerogLast6Months>
+				<TotalCommercialChargeCardTradesPresently91PlusDBTDerogLast6Months>00000</TotalCommercialChargeCardTradesPresently91PlusDBTDerogLast6Months>
+				<TotalCommercialChargeCardTradesEver31DBT>00000</TotalCommercialChargeCardTradesEver31DBT>
+				<CommercialChargeCardTradesOpened1To3MonthsNoDelinqDerogLast3Months>00000</CommercialChargeCardTradesOpened1To3MonthsNoDelinqDerogLast3Months>
+				<CommercialChargeCardTradesOpened6To18MonthsNoDelinqDerogLast6Months>00000</CommercialChargeCardTradesOpened6To18MonthsNoDelinqDerogLast6Months>
+				<OpenCommercialChargeCardTradesDBTWorseRecent6MonthsThenPrevious6Months>00000</OpenCommercialChargeCardTradesDBTWorseRecent6MonthsThenPrevious6Months>
+				<OpenCommercialChargeCardTradesDBTWorseRecent12MonthsThenPrevious12Months>00000</OpenCommercialChargeCardTradesDBTWorseRecent12MonthsThenPrevious12Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenCommercialChargeCardTradesLast6Months>00000000000</TotalCreditLimitHiCreditLoanAmtOpenCommercialChargeCardTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenCommercialChargeCardTradesLast6Months>00000</OverallBalToLimitRatioAllOpenCommercialChargeCardTradesLast6Months>
+				<AvgTimesOver31DBTCommercialChargeCardTradesLast12Months>00000</AvgTimesOver31DBTCommercialChargeCardTradesLast12Months>
+				<AvgAgeCommercialChargeCardTrades>00000</AvgAgeCommercialChargeCardTrades>
+				<MonthsMostRecent31PlusDBTCommercialChargeCardTrade>00000</MonthsMostRecent31PlusDBTCommercialChargeCardTrade>
+				<MonthsMostRecent61PlusDBTCommercialChargeCardTrade>00000</MonthsMostRecent61PlusDBTCommercialChargeCardTrade>
+				<PctTotalCommercialChargeCardTradesNeverReportedDelinqDerog>00000</PctTotalCommercialChargeCardTradesNeverReportedDelinqDerog>
+				<PctTotalCommercialChargeCardTradesEverReported60DBT>00000</PctTotalCommercialChargeCardTradesEverReported60DBT>
+				<PctTotalOpenCommercialChargeCardTradesToTotalOpenTrades>00000</PctTotalOpenCommercialChargeCardTradesToTotalOpenTrades>
+				<TotalCommercialChargeCardTradeBalLast3Months>00000000000</TotalCommercialChargeCardTradeBalLast3Months>
+				<PctTotalCommercialChargeCardBalToTotalTradeBalForTradesLast3Months>00000</PctTotalCommercialChargeCardBalToTotalTradeBalForTradesLast3Months>
+				<CommercialChargeCardTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>00000</CommercialChargeCardTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>
+				<TotalInstallmentLoanTradesCurrentLast6Months>00000</TotalInstallmentLoanTradesCurrentLast6Months>
+				<TotalInstallmentLoanTradesNeverLaterOrDerogStatus>00000</TotalInstallmentLoanTradesNeverLaterOrDerogStatus>
+				<InstallmentLoanTradesOpened1To3MonthsNoDelinqDerogLast3Months>00000</InstallmentLoanTradesOpened1To3MonthsNoDelinqDerogLast3Months>
+				<InstallmentLoanTradesOpened6To18MonthsNoDelinqDerogLast6Months>00000</InstallmentLoanTradesOpened6To18MonthsNoDelinqDerogLast6Months>
+				<InstallmentLoanTradesOpened1To6MonthsNoDelinqDerogLast6Months>00000</InstallmentLoanTradesOpened1To6MonthsNoDelinqDerogLast6Months>
+				<InstallmentLoanTradesOpened12To24MonthsNoDelinqDerogLast12Months>00000</InstallmentLoanTradesOpened12To24MonthsNoDelinqDerogLast12Months>
+				<InstallmentLoanTradesOpened1To12MonthsNoDelinqDerogLast12Months>00000</InstallmentLoanTradesOpened1To12MonthsNoDelinqDerogLast12Months>
+				<InstallmentLoanTradesOpened1To12MonthsNoDelinqEverLifeOfTrade>00000</InstallmentLoanTradesOpened1To12MonthsNoDelinqEverLifeOfTrade>
+				<OutstandingBalAllOpenInstallmentLoanTradesLast6Months>00000000000</OutstandingBalAllOpenInstallmentLoanTradesLast6Months>
+				<AvgOutstandingBalAllOpenInstallmentLoanTradesLast6Months>00000000000</AvgOutstandingBalAllOpenInstallmentLoanTradesLast6Months>
+				<TotalActualPaymentAllOpenInstallmentLoanTradesLast6Months>00000000000</TotalActualPaymentAllOpenInstallmentLoanTradesLast6Months>
+			</KeyModelElements>
+			<KeyModelElements>
+				<AvgeActualPaymentAllOpenInstallmentLoanTradeLast6Months>00000000000</AvgeActualPaymentAllOpenInstallmentLoanTradeLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenInstallmentLoanTradesLast6Months>00000000000</TotalCreditLimitHiCreditLoanAmtOpenInstallmentLoanTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenInstallmentLoanTradesLast6Months>00000</OverallBalToLimitRatioAllOpenInstallmentLoanTradesLast6Months>
+				<PctTotalInstallmentLoanTradesNeverReportedDelinqDerog>00000</PctTotalInstallmentLoanTradesNeverReportedDelinqDerog>
+				<TotalInstallmentLoanTradeBalLast3Months>00000000000</TotalInstallmentLoanTradeBalLast3Months>
+				<PctTotalInstallmentLoanBalToTotalFinancialTradeBalForTradesLast3Months>00000</PctTotalInstallmentLoanBalToTotalFinancialTradeBalForTradesLast3Months>
+				<PctTotalInstallmentLoanBalToTotalTradeBalForTradesLast3Months>00000</PctTotalInstallmentLoanBalToTotalTradeBalForTradesLast3Months>
+				<InstallmentLoanTradesOpened1To3MonthsWeightedDBT0Last3Months>00000</InstallmentLoanTradesOpened1To3MonthsWeightedDBT0Last3Months>
+				<InstallmentLoanTradesOpened6To18MonthsWeightedDBT0Last6Months>00000</InstallmentLoanTradesOpened6To18MonthsWeightedDBT0Last6Months>
+				<InstallmentLoanTradesOpened1To6MonthsWeightedDBT0Last6Months>00000</InstallmentLoanTradesOpened1To6MonthsWeightedDBT0Last6Months>
+				<InstallmentLoanTradesOpened12To24MonthsWeightedDBT0Last12Months>00000</InstallmentLoanTradesOpened12To24MonthsWeightedDBT0Last12Months>
+				<InstallmentLoanTradesOpened1To12MonthsWeightedDBT0Last12Months>00000</InstallmentLoanTradesOpened1To12MonthsWeightedDBT0Last12Months>
+				<InstallmentLoanTradesOpened1To12MonthsWeightedDBT0LifeOfTrade>00000</InstallmentLoanTradesOpened1To12MonthsWeightedDBT0LifeOfTrade>
+				<TotalCommercialLeaseTrades>00001</TotalCommercialLeaseTrades>
+				<TotalPaidCommercialLeaseTrades>00000</TotalPaidCommercialLeaseTrades>
+				<TotalOpenCommercialLeaseTradesLast6Months>00000</TotalOpenCommercialLeaseTradesLast6Months>
+				<TotalPaidCommercialLeaseTradesLast6Months>00000</TotalPaidCommercialLeaseTradesLast6Months>
+				<TotalCommercialLeaseTradesOpenedLast24Months>00000</TotalCommercialLeaseTradesOpenedLast24Months>
+				<TotalOpenClosedCommercialLeaseTradesDerogLast6Months>00000</TotalOpenClosedCommercialLeaseTradesDerogLast6Months>
+				<TotalOpenCommercialLeaseTradesDerogLast6Months>00001</TotalOpenCommercialLeaseTradesDerogLast6Months>
+				<TotalCommercialLeaseTradesCurrentZeroDBTLast6Months>00000</TotalCommercialLeaseTradesCurrentZeroDBTLast6Months>
+				<TotalCommercialLeaseTrades61PlusDBTLast6Months>00000</TotalCommercialLeaseTrades61PlusDBTLast6Months>
+				<TotalCommercialLeaseTradesNeverDerogStatus>00001</TotalCommercialLeaseTradesNeverDerogStatus>
+				<TotalCommercialLeaseTradesEver31DBT>00000</TotalCommercialLeaseTradesEver31DBT>
+				<TotalCommercialLeaseTradesEver61DBT>00000</TotalCommercialLeaseTradesEver61DBT>
+				<TotalCommercialLeaseTradesEver91DBT>00000</TotalCommercialLeaseTradesEver91DBT>
+				<CommercialLeaseTradesOpened1To12MonthsNoDelinqDerogLast12Months>00000</CommercialLeaseTradesOpened1To12MonthsNoDelinqDerogLast12Months>
+				<CommercialLeaseTradesOpened1To3Months91DayDelinqLast3Months>00000</CommercialLeaseTradesOpened1To3Months91DayDelinqLast3Months>
+				<CommercialLeaseTradesOpened1To12Months91DayDelinqLast12Months>00000</CommercialLeaseTradesOpened1To12Months91DayDelinqLast12Months>
+				<CommercialLeaseTradesOpened1To3MonthsDerogLast3Months>00000</CommercialLeaseTradesOpened1To3MonthsDerogLast3Months>
+				<CommercialLeaseTradesOpened1To12MonthsNoDelinqEverLifeOfTrade>00000</CommercialLeaseTradesOpened1To12MonthsNoDelinqEverLifeOfTrade>
+				<TotalOpenCommercialLeaseTradesAvgDBTWorseRecent6MonthsThenPrevious6Months>00000</TotalOpenCommercialLeaseTradesAvgDBTWorseRecent6MonthsThenPrevious6Months>
+				<TotalOpenCommercialLeaseTradesAvgDBTWorseRecent12MonthsThenPrevious12Months>00000</TotalOpenCommercialLeaseTradesAvgDBTWorseRecent12MonthsThenPrevious12Months>
+				<TotalOutstandingBalOpenCommercialLeaseTradesLast6Months>00000000000</TotalOutstandingBalOpenCommercialLeaseTradesLast6Months>
+				<AvgOutstandingBalOpenCommercialLeaseTradesLast6Months>00000000000</AvgOutstandingBalOpenCommercialLeaseTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenCommercialLeaseTradesLast6Months>00000000000</TotalCreditLimitHiCreditLoanAmtOpenCommercialLeaseTradesLast6Months>
+				<OverallBalToLimitRatioOpenCommercialLeaseTradesLast6Months>00000</OverallBalToLimitRatioOpenCommercialLeaseTradesLast6Months>
+				<WorstStatusEverCommercialLeaseTrade>C </WorstStatusEverCommercialLeaseTrade>
+				<WorstStatusEverCommercialLeaseTradesLast24MonthsReportedLast24Months>C </WorstStatusEverCommercialLeaseTradesLast24MonthsReportedLast24Months>
+				<AvgTimesOver31DBTCommercialLeaseTradesLast12Months>00000</AvgTimesOver31DBTCommercialLeaseTradesLast12Months>
+				<AvgTimesOver61DBTCommercialLeaseTradesLast12Months>00000</AvgTimesOver61DBTCommercialLeaseTradesLast12Months>
+				<AvgTimesOver91DBTCommercialLeaseTradesLast12Months>00000</AvgTimesOver91DBTCommercialLeaseTradesLast12Months>
+				<WorstPresentStatusOpenCommercialLeaseTrade>0</WorstPresentStatusOpenCommercialLeaseTrade>
+				<WorstPresentStatusOpenCommercialLeaseTradesOpened24Months>0</WorstPresentStatusOpenCommercialLeaseTradesOpened24Months>
+				<AgeMostRecentlyOpenedCommercialLeaseTrade>00005</AgeMostRecentlyOpenedCommercialLeaseTrade>
+				<AvgAgeAllCommercialLeaseTrades>00087</AvgAgeAllCommercialLeaseTrades>
+				<MonthsSinceRecent31PlusDBTCommercialLeaseTrade>00000</MonthsSinceRecent31PlusDBTCommercialLeaseTrade>
+				<MonthsSinceRecent61to90DBTCommercialLeaseTrade>00000</MonthsSinceRecent61to90DBTCommercialLeaseTrade>
+				<MonthsSinceRecent91PlusDBTCommercialLeaseTrade>00000</MonthsSinceRecent91PlusDBTCommercialLeaseTrade>
+				<MonthsSinceRecentDerogStatusCommercialLeaseTrade>00000</MonthsSinceRecentDerogStatusCommercialLeaseTrade>
+				<PctTotalCommercialLeaseTradesNeverReportedDelinqDerog>10000</PctTotalCommercialLeaseTradesNeverReportedDelinqDerog>
+				<PctTotalOpenCommercialLeaseTradesToTotalOpenTrades>01000</PctTotalOpenCommercialLeaseTradesToTotalOpenTrades>
+				<PctTotalCommercialLeaseTradesToTotalTrades>00009</PctTotalCommercialLeaseTradesToTotalTrades>
+				<PctTotalCommercialLeaseTradesToTotalFinancialTrades>00000</PctTotalCommercialLeaseTradesToTotalFinancialTrades>
+				<TotalCommercialLeaseTradeaBalLast3Months>00000000000</TotalCommercialLeaseTradeaBalLast3Months>
+				<PctTotalCommercialLeaseBalToTotalFinancialTradeBalTradesLast3Months>00000</PctTotalCommercialLeaseBalToTotalFinancialTradeBalTradesLast3Months>
+				<PctTotalCommercialLeaseBalToTotalTradeBalTradesLast3Months>00000</PctTotalCommercialLeaseBalToTotalTradeBalTradesLast3Months>
+				<CommercialLeaseTradesOpened1To3MonthsWeightedDBT61PlusDaysLast3Months>00000</CommercialLeaseTradesOpened1To3MonthsWeightedDBT61PlusDaysLast3Months>
+			</KeyModelElements>
+			<KeyModelElements>
+				<CommercialLeaseTradesOpened1To6MonthsWeightedDBT61PlusDaysLast6Months>00000</CommercialLeaseTradesOpened1To6MonthsWeightedDBT61PlusDaysLast6Months>
+				<WeightedDBTTradesOpenedLast3Months>00000</WeightedDBTTradesOpenedLast3Months>
+				<WeightedDBTTradesOpenedLast6To18Months>00000</WeightedDBTTradesOpenedLast6To18Months>
+				<WeightedDBTTradesOpenedLast12To24Months>00000</WeightedDBTTradesOpenedLast12To24Months>
+				<TotalRetailCreditCardTrades>00002</TotalRetailCreditCardTrades>
+				<TotalPaidRetailCreditCardTrades>00001</TotalPaidRetailCreditCardTrades>
+				<TotalClosedRetailCreditCardTradesBalGreaterThanZero>00000</TotalClosedRetailCreditCardTradesBalGreaterThanZero>
+				<TotalRetailCreditCardTradesOpenedLast6Months>00000</TotalRetailCreditCardTradesOpenedLast6Months>
+				<TotalRetailCreditCardTradesOpenedLast12Months>00000</TotalRetailCreditCardTradesOpenedLast12Months>
+				<TotalRetailCreditCardTradesOpenedLast36Months>00000</TotalRetailCreditCardTradesOpenedLast36Months>
+				<TotalOpenClosedRetailCreditCardTradesDerogLast6Months>00000</TotalOpenClosedRetailCreditCardTradesDerogLast6Months>
+				<TotalRetailCreditCardTradesCurrentZeroDBTLast6Months>00002</TotalRetailCreditCardTradesCurrentZeroDBTLast6Months>
+				<TotalRetailCreditCardTrades1To30DBTLast6Months>00000</TotalRetailCreditCardTrades1To30DBTLast6Months>
+				<TotalRetailCreditCardTrades31PlusDBTDerogLast6Months>00000</TotalRetailCreditCardTrades31PlusDBTDerogLast6Months>
+				<TotalRetailCreditCardTrades61PlusDBTDerogLast6Months>00000</TotalRetailCreditCardTrades61PlusDBTDerogLast6Months>
+				<TotalRetailCreditCardTrades91PlusDBTDerogLast6Months>00000</TotalRetailCreditCardTrades91PlusDBTDerogLast6Months>
+				<TotalRetailCreditCardTrades121PlusDBTDerogLast6Months>00000</TotalRetailCreditCardTrades121PlusDBTDerogLast6Months>
+				<TotalRetailCreditCardTrades151PlusDBTDerogLast6Months>00000</TotalRetailCreditCardTrades151PlusDBTDerogLast6Months>
+				<TotalRetailCreditCardTrades181PlusDBTDerogLast6Months>00000</TotalRetailCreditCardTrades181PlusDBTDerogLast6Months>
+				<TotalRetailCreditCardTradesNeverDerogStatus>00000</TotalRetailCreditCardTradesNeverDerogStatus>
+				<TotalRetailCreditCardTradesEver31DBT>00001</TotalRetailCreditCardTradesEver31DBT>
+				<TotalRetailCreditCardTradesEver61DBT>00001</TotalRetailCreditCardTradesEver61DBT>
+				<TotalRetailCreditCardTradesMaxDBTEver90Days>00001</TotalRetailCreditCardTradesMaxDBTEver90Days>
+				<TotalRetailCreditCardTradesMaxDBTEver120Days>00000</TotalRetailCreditCardTradesMaxDBTEver120Days>
+				<TotalRetailCreditCardTradesDerogStatusEver>00000</TotalRetailCreditCardTradesDerogStatusEver>
+				<TotalRetailCreditCardTradesDerogStatusEverLast6Months>00000</TotalRetailCreditCardTradesDerogStatusEverLast6Months>
+				<TotalRetailCreditCardTradesDerogStatusEverLast12Months>00000</TotalRetailCreditCardTradesDerogStatusEverLast12Months>
+				<TotalRetailCreditCardTradesDerogStatusEverLast24Months>00000</TotalRetailCreditCardTradesDerogStatusEverLast24Months>
+				<TotalRetailCreditCardTradesBankruptcyLast24Months>00000</TotalRetailCreditCardTradesBankruptcyLast24Months>
+				<RetailCreditCardTradesOpened1to3MonthsNoDelinqDerogLast3Months>00002</RetailCreditCardTradesOpened1to3MonthsNoDelinqDerogLast3Months>
+				<RetailCreditCardTradesOpened1to6MonthsNoDelinqDerogLast6Months>00002</RetailCreditCardTradesOpened1to6MonthsNoDelinqDerogLast6Months>
+				<RetailCreditCardTradesOpened1to12MonthsNoDelinqDerogLast12Months>00000</RetailCreditCardTradesOpened1to12MonthsNoDelinqDerogLast12Months>
+				<RetailCreditCardTradesOpened1To6MonthsDerogLast6Months>00000</RetailCreditCardTradesOpened1To6MonthsDerogLast6Months>
+				<RetailCreditCardTradesOpened1To12MonthsDerogLast12Months>00000</RetailCreditCardTradesOpened1To12MonthsDerogLast12Months>
+				<RetailCreditCardTradesOpenedLast6MonthsNoDelinqEverLifeOfTrade>00000</RetailCreditCardTradesOpenedLast6MonthsNoDelinqEverLifeOfTrade>
+				<RetailCreditCardTradesOpenedLast12MonthsNoDelinqEverLifeOfTrade>00000</RetailCreditCardTradesOpenedLast12MonthsNoDelinqEverLifeOfTrade>
+				<TotalRetailCreditCardTradesOpenClosedCollectionStatus>00000</TotalRetailCreditCardTradesOpenClosedCollectionStatus>
+				<TotalOutstandingBalOpenRetailCreditCardTradesLast6Months>00000001732</TotalOutstandingBalOpenRetailCreditCardTradesLast6Months>
+				<AvgOutstandingBalOpenRetailCreditCardTradesLast6Months>00000000000</AvgOutstandingBalOpenRetailCreditCardTradesLast6Months>
+				<ActualPaymentAllOpenRetailCreditCardTradesLast6Months>00000001732</ActualPaymentAllOpenRetailCreditCardTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenRetailCreditCardTradesLast6Months>00000006000</TotalCreditLimitHiCreditLoanAmtOpenRetailCreditCardTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenRetailCreditCardTradesLast6Months>02886</OverallBalToLimitRatioAllOpenRetailCreditCardTradesLast6Months>
+				<WorstStatusEverRetailCreditCardTrade>3 </WorstStatusEverRetailCreditCardTrade>
+				<WorstStatusEverRetailCreditCardTradeLast12MonthsReported12Months>3 </WorstStatusEverRetailCreditCardTradeLast12MonthsReported12Months>
+				<WorstStatusEverRetailCreditCardTradeLast24MonthsReported24Months>3 </WorstStatusEverRetailCreditCardTradeLast24MonthsReported24Months>
+				<AvgNumberTimes31DBTRetailCreditCardTradesLast12Months>00100</AvgNumberTimes31DBTRetailCreditCardTradesLast12Months>
+				<AvgNumberTimes61DBTRetailCreditCardTradesLast12Months>00050</AvgNumberTimes61DBTRetailCreditCardTradesLast12Months>
+				<AvgNumberTimes91DBTRetailCreditCardTradesLast12Months>00000</AvgNumberTimes91DBTRetailCreditCardTradesLast12Months>
+				<WorstPresentStatusOpenRetailCreditCardTrade>0</WorstPresentStatusOpenRetailCreditCardTrade>
+				<WorstPresentStatusOpenRetailCreditCardTradesOpened24Months>0</WorstPresentStatusOpenRetailCreditCardTradesOpened24Months>
+				<AgeOldestRetailCreditCardTrade>00000</AgeOldestRetailCreditCardTrade>
+				<AgeRecentlyOpenedRetailCreditCardTrade>00005</AgeRecentlyOpenedRetailCreditCardTrade>
+				<AvgAgeAllRetailCreditCardTrades>00112</AvgAgeAllRetailCreditCardTrades>
+				<MonthsSinceRecent31PlusDBTAnyRetailCreditCardTrade>00007</MonthsSinceRecent31PlusDBTAnyRetailCreditCardTrade>
+				<MonthsSinceRecent31to60DBTAnyRetailCreditCardTrade>00008</MonthsSinceRecent31to60DBTAnyRetailCreditCardTrade>
+				<MonthsSinceRecent61PlusDBTAnyRetailCreditCardTrade>00007</MonthsSinceRecent61PlusDBTAnyRetailCreditCardTrade>
+				<MonthsSinceRecent61to90DBTAnyRetailCreditCardTrade>00007</MonthsSinceRecent61to90DBTAnyRetailCreditCardTrade>
+				<MonthsSinceRecent91PlusDBTAnyRetailCreditCardTrade>00000</MonthsSinceRecent91PlusDBTAnyRetailCreditCardTrade>
+				<MonthsSinceRecentDerogStatusAnyRetailCreditCardTrade>00000</MonthsSinceRecentDerogStatusAnyRetailCreditCardTrade>
+			</KeyModelElements>
+			<KeyModelElements>
+				<PctOfRetailCreditCardTradesNeverReportedDelinqOrDerog>00000</PctOfRetailCreditCardTradesNeverReportedDelinqOrDerog>
+				<PctOfRetailCreditCardTradesEverReported60DBT>00000</PctOfRetailCreditCardTradesEverReported60DBT>
+				<PctOfRetailCreditCardTradesEverReported91PlusDBT>00000</PctOfRetailCreditCardTradesEverReported91PlusDBT>
+				<PctOfRetailCreditCardTradesEverReportedDerogStatus>00000</PctOfRetailCreditCardTradesEverReportedDerogStatus>
+				<PctTotalRetailCreditCardTradesOpen>00000</PctTotalRetailCreditCardTradesOpen>
+				<PctTotalOpenRetailCreditCardTradesToTotalOpenTrades>01000</PctTotalOpenRetailCreditCardTradesToTotalOpenTrades>
+				<PctTotalOpenRetailCreditCardTradesToTotalOpenFinancialTrades>02500</PctTotalOpenRetailCreditCardTradesToTotalOpenFinancialTrades>
+				<PctTotalRetailCreditCardTradesToTotalTrades>00018</PctTotalRetailCreditCardTradesToTotalTrades>
+				<PctTotalRetailCreditCardTradesToTotalFinancialTrades>00000</PctTotalRetailCreditCardTradesToTotalFinancialTrades>
+				<TotalRetailCreditCardTradeBalLast3Months>00000001732</TotalRetailCreditCardTradeBalLast3Months>
+				<PctTotalRetailCreditCardBalToTotalFinancialTradeBalLast3Months>08877</PctTotalRetailCreditCardBalToTotalFinancialTradeBalLast3Months>
+				<PctTotalRetailCreditCardBalToTotalTradeBalLast3Months>00000</PctTotalRetailCreditCardBalToTotalTradeBalLast3Months>
+				<RetailCreditCardTradesOpened1To30DaysNeverPaid>00002</RetailCreditCardTradesOpened1To30DaysNeverPaid>
+				<TotalBalRetailCreditCardTradesOpened1to30DaysNeverPaid>00000003290</TotalBalRetailCreditCardTradesOpened1to30DaysNeverPaid>
+				<RetailCreditCardTradesOpened1To3MonthsWeightedDBTZeroLast3Months>00002</RetailCreditCardTradesOpened1To3MonthsWeightedDBTZeroLast3Months>
+				<RetailCreditCardTradesOpened1To6MonthsWeightedDBTZeroLast6Months>00002</RetailCreditCardTradesOpened1To6MonthsWeightedDBTZeroLast6Months>
+				<RetailCreditCardTradesOpened1To12MonthsWeightedDBTZeroLast12Months>00001</RetailCreditCardTradesOpened1To12MonthsWeightedDBTZeroLast12Months>
+				<WeightedDBTTradesLast3Months>00000</WeightedDBTTradesLast3Months>
+				<WeightedDBTTradesLast6To18Months>00000</WeightedDBTTradesLast6To18Months>
+				<WeightedDBTTradesLast6Months>00000</WeightedDBTTradesLast6Months>
+				<WeightedDBTTradesLast12To14Months>00000</WeightedDBTTradesLast12To14Months>
+				<WeightedDBTTradesLast12Months>00000</WeightedDBTTradesLast12Months>
+				<TotalChargeOffAmtRetailCreditCardTrades>00000000000</TotalChargeOffAmtRetailCreditCardTrades>
+				<AvgChargeOffAmtRetailCreditCardTrades>00000000000</AvgChargeOffAmtRetailCreditCardTrades>
+				<AvgMonthsToChargeOffRetailCreditCardTrades>00000</AvgMonthsToChargeOffRetailCreditCardTrades>
+				<TotalRevolvingLoanTradesZeroBalLast12Months>00000</TotalRevolvingLoanTradesZeroBalLast12Months>
+				<TotalPaidRevolvingLoanTrades>00000</TotalPaidRevolvingLoanTrades>
+				<TotalRevolvingLoanTradesOpenedLast36Months>00001</TotalRevolvingLoanTradesOpenedLast36Months>
+				<TotalRevolvingLoanTradesCurrentZeroDBTLast6Months>00001</TotalRevolvingLoanTradesCurrentZeroDBTLast6Months>
+				<TotalRevolvingLoanTradesNeverDerogStatus>00001</TotalRevolvingLoanTradesNeverDerogStatus>
+				<TotalRevolvingLoanTradesEver31DBT>00000</TotalRevolvingLoanTradesEver31DBT>
+				<RevolvingLoanTradesOpened1To12MonthsNoDelinqDerogLast12Months>00000</RevolvingLoanTradesOpened1To12MonthsNoDelinqDerogLast12Months>
+				<RevolvingLoanTradesOpened1To3MonthsMax1To30DayDelinqLast3Months>00000</RevolvingLoanTradesOpened1To3MonthsMax1To30DayDelinqLast3Months>
+				<OpenRevolvingLoanTradesDBTWorseRecent12MonthsThenPrevious12Months>00000</OpenRevolvingLoanTradesDBTWorseRecent12MonthsThenPrevious12Months>
+				<AvgOutstandingBalAllOpenRevolvingLoanTradesLast6Months>00000000219</AvgOutstandingBalAllOpenRevolvingLoanTradesLast6Months>
+				<ActualPaymentAllOpenRevolvingLoanTradesLast6Months>00000000219</ActualPaymentAllOpenRevolvingLoanTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtAllOpenRevolvingLoanTradesLast6Months>00000003418</TotalCreditLimitHiCreditLoanAmtAllOpenRevolvingLoanTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenRevolvingLoanTradesLast6Months>00640</OverallBalToLimitRatioAllOpenRevolvingLoanTradesLast6Months>
+				<OpenRevolvingLoanTradesAvgCreditUtilHigherRecent12MonthsThenPrevious12Months>00000</OpenRevolvingLoanTradesAvgCreditUtilHigherRecent12MonthsThenPrevious12Months>
+				<AvgNumberTimes31DBTRevolvingLoanTradesLast12Months>00000</AvgNumberTimes31DBTRevolvingLoanTradesLast12Months>
+				<AgeOldestRevolvingLoanTrade>00000</AgeOldestRevolvingLoanTrade>
+				<MonthsSinceRecent31to60DBTAnyRevolvingLoanTrade>00000</MonthsSinceRecent31to60DBTAnyRevolvingLoanTrade>
+				<MonthsSinceRecent61to90DBTAnyRevolvingLoanTrade>00000</MonthsSinceRecent61to90DBTAnyRevolvingLoanTrade>
+				<MonthsSinceRecent91PlusDBTAnyRevolvingLoanTrade>00000</MonthsSinceRecent91PlusDBTAnyRevolvingLoanTrade>
+				<PctOfRevolvingLoanTradesNeverReportedDelinqOrDerog>10000</PctOfRevolvingLoanTradesNeverReportedDelinqOrDerog>
+				<PctTotalRevolvingLoanBalToTotalTradeBalLast3Months>00000</PctTotalRevolvingLoanBalToTotalTradeBalLast3Months>
+				<WeightedDBTRevolvingLoanTradesOpened3To15Months>00000</WeightedDBTRevolvingLoanTradesOpened3To15Months>
+				<WeightedDBTRevolvingLoanTradesOpened6To18Months>00000</WeightedDBTRevolvingLoanTradesOpened6To18Months>
+				<TotalFinancialTrades>00005</TotalFinancialTrades>
+				<TotalFinancialTradesZeroBalLast12Months>00000</TotalFinancialTradesZeroBalLast12Months>
+				<TotalPaidFinancialTrades>00001</TotalPaidFinancialTrades>
+				<TotalOpenFinancialTradesLast6Months>00002</TotalOpenFinancialTradesLast6Months>
+				<TotalClosedFinancialTradesBalGreaterThanZero>00000</TotalClosedFinancialTradesBalGreaterThanZero>
+				<TotalPaidFinancialTradesLast6Months>00001</TotalPaidFinancialTradesLast6Months>
+				<TotalFinancialTradesOpenedLast24Months>00001</TotalFinancialTradesOpenedLast24Months>
+				<TotalClosedFinancialTradesLast6Months>00001</TotalClosedFinancialTradesLast6Months>
+				<TotalOpenClosedFinancialTradesAmtPastDueBeyondTermDerogLast6Months>00000</TotalOpenClosedFinancialTradesAmtPastDueBeyondTermDerogLast6Months>
+			</KeyModelElements>
+			<KeyModelElements>
+				<TotalOpenFinancialTradesAmtPastDueBeyondTermDerogLast6Months>00004</TotalOpenFinancialTradesAmtPastDueBeyondTermDerogLast6Months>
+				<TotalFinancialTradesCurrentZeroDBTLast6Months>00003</TotalFinancialTradesCurrentZeroDBTLast6Months>
+				<TotalFinancialTrades1To30DBTLast6Months>00000</TotalFinancialTrades1To30DBTLast6Months>
+				<TotalFinancialTrades31PlusDBTDerogLast6Months>00000</TotalFinancialTrades31PlusDBTDerogLast6Months>
+				<TotalFinancialTrades61PlusDBTDerogLast6Months>00000</TotalFinancialTrades61PlusDBTDerogLast6Months>
+				<TotalFinancialTrades91PlusDBTDerogLast6Months>00000</TotalFinancialTrades91PlusDBTDerogLast6Months>
+				<TotalFinancialTrades121PlusDBTDerogLast6Months>00000</TotalFinancialTrades121PlusDBTDerogLast6Months>
+				<TotalFinancialTrades151PlusDBTDerogLast6Months>00000</TotalFinancialTrades151PlusDBTDerogLast6Months>
+				<TotalFinancialTrades181PlusDBTDerogLast6Months>00000</TotalFinancialTrades181PlusDBTDerogLast6Months>
+				<TotalFinancialTradesNeverReportedBeyondTermOrDerogStatus>00002</TotalFinancialTradesNeverReportedBeyondTermOrDerogStatus>
+				<TotalFinancialTradesMaxDBTEver30Days>00001</TotalFinancialTradesMaxDBTEver30Days>
+				<TotalFinancialTradesEver31PlusDBT>00002</TotalFinancialTradesEver31PlusDBT>
+				<TotalFinancialTradesMaxDBTEver60Days>00000</TotalFinancialTradesMaxDBTEver60Days>
+				<TotalFinancialTradesEver61PlusDBT>00002</TotalFinancialTradesEver61PlusDBT>
+				<TotalFinancialTradesMaxDBTEver90Days>00002</TotalFinancialTradesMaxDBTEver90Days>
+				<TotalFinancialTradesEver91PlusDBT>00000</TotalFinancialTradesEver91PlusDBT>
+				<TotalFinancialTradesDerogStatusEver>00000</TotalFinancialTradesDerogStatusEver>
+				<TotalFinancialTradesDerogStatusEverLast6Months>00000</TotalFinancialTradesDerogStatusEverLast6Months>
+				<TotalFinancialTradesDerogStatusEverLast12Months>00000</TotalFinancialTradesDerogStatusEverLast12Months>
+				<TotalFinancialTradesDerogStatusEverLast24Months>00000</TotalFinancialTradesDerogStatusEverLast24Months>
+				<TotalFinancialTradesBankruptcyLast24Months>00000</TotalFinancialTradesBankruptcyLast24Months>
+				<FinancialTradesOpened1to3MonthsNoDelinqDerogLast3Months>00003</FinancialTradesOpened1to3MonthsNoDelinqDerogLast3Months>
+				<FinancialTradesOpened6to18MonthsNoDelinqDerogLast6Months>00001</FinancialTradesOpened6to18MonthsNoDelinqDerogLast6Months>
+				<FinancialTradesOpened1to6MonthsNoDelinqDerogLast6Months>00003</FinancialTradesOpened1to6MonthsNoDelinqDerogLast6Months>
+				<FinancialTradesOpened12to24MonthsNoDelinqDerogLast12Months>00000</FinancialTradesOpened12to24MonthsNoDelinqDerogLast12Months>
+				<FinancialTradesOpened1to12MonthsNoDelinqDerogLast12Months>00000</FinancialTradesOpened1to12MonthsNoDelinqDerogLast12Months>
+				<FinancialTradesOpened3To12MonthsMax1To30DayDelinqLast3Months>00000</FinancialTradesOpened3To12MonthsMax1To30DayDelinqLast3Months>
+				<FinancialTradesOpened1To3MonthsMax1To30DayDelinqLast3Months>00000</FinancialTradesOpened1To3MonthsMax1To30DayDelinqLast3Months>
+				<FinancialTradesOpened1To3MonthsMax31To60DayDelinqLast3Months>00000</FinancialTradesOpened1To3MonthsMax31To60DayDelinqLast3Months>
+				<FinancialTradesOpened1To6MonthsMax31To60DayDelinqLast6Months>00000</FinancialTradesOpened1To6MonthsMax31To60DayDelinqLast6Months>
+				<FinancialTradesOpened1To12MonthsMax31To60DayDelinqLast12Months>00000</FinancialTradesOpened1To12MonthsMax31To60DayDelinqLast12Months>
+				<FinancialTradesOpened1To3MonthsMax91PlusDayDelinqLast3Months>00000</FinancialTradesOpened1To3MonthsMax91PlusDayDelinqLast3Months>
+				<FinancialTradesOpened1To6MonthsMax91PlusDayDelinqLast6Months>00000</FinancialTradesOpened1To6MonthsMax91PlusDayDelinqLast6Months>
+				<FinancialTradesOpened1To12MonthsMax91PlusDayDelinqLast12Months>00000</FinancialTradesOpened1To12MonthsMax91PlusDayDelinqLast12Months>
+				<FinancialTradesOpened1To3MonthsDerogLast3Months>00000</FinancialTradesOpened1To3MonthsDerogLast3Months>
+				<FinancialTradesOpened6To18MonthsDerogLast6Months>00000</FinancialTradesOpened6To18MonthsDerogLast6Months>
+				<FinancialTradesOpened1To6MonthsDerogLast6Months>00000</FinancialTradesOpened1To6MonthsDerogLast6Months>
+				<FinancialTradesOpened12To24MonthsDerogLast12Months>00000</FinancialTradesOpened12To24MonthsDerogLast12Months>
+				<FinancialTradesOpened1To12MonthsDerogLast12Months>00000</FinancialTradesOpened1To12MonthsDerogLast12Months>
+				<FinancialTradesOpenedLast6MonthsNoDelinqEverLifeOfTrade>00001</FinancialTradesOpenedLast6MonthsNoDelinqEverLifeOfTrade>
+				<FinancialTradesOpenedLast12MonthsNoDelinqEverLifeOfTrade>00000</FinancialTradesOpenedLast12MonthsNoDelinqEverLifeOfTrade>
+				<OpenFinancialTradesDBTWorseRecent6MonthsThenPrevious6Months>00000</OpenFinancialTradesDBTWorseRecent6MonthsThenPrevious6Months>
+				<OpenFinancialTradesAvgDBTWorseRecent6MonthsThenPrevious6Months>00000</OpenFinancialTradesAvgDBTWorseRecent6MonthsThenPrevious6Months>
+				<OpenFinancialTradesDBTWorseRecent12MonthsThenPrevious12Months>00000</OpenFinancialTradesDBTWorseRecent12MonthsThenPrevious12Months>
+				<OpenFinancialTradesAvgDBTWorseRecent12MonthsThenPrevious12Months>00000</OpenFinancialTradesAvgDBTWorseRecent12MonthsThenPrevious12Months>
+				<FinancialTradesWithOpenAndClosedCollectionStatus>00000</FinancialTradesWithOpenAndClosedCollectionStatus>
+				<FinancialTotalOutstandingBalAllOpenTradesLast6Months>00000001951</FinancialTotalOutstandingBalAllOpenTradesLast6Months>
+				<AvgOutstandingBalAllOpenFinancialTradesLast6Months>00000000976</AvgOutstandingBalAllOpenFinancialTradesLast6Months>
+				<ActualPaymentAllOpenFinancialTradesLast6Months>00000001951</ActualPaymentAllOpenFinancialTradesLast6Months>
+				<AvgActualPaymentAllOpenFinancialTradesLast6Months>00000000976</AvgActualPaymentAllOpenFinancialTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtAllOpenFinancialTradesLast6Months>00000009418</TotalCreditLimitHiCreditLoanAmtAllOpenFinancialTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenFinancialTradesLast6Months>02071</OverallBalToLimitRatioAllOpenFinancialTradesLast6Months>
+				<WorstStatusEverFinancialTrade>3 </WorstStatusEverFinancialTrade>
+				<WorstStatusEverFinancialTradeLast12MonthsReported12Months>3 </WorstStatusEverFinancialTradeLast12MonthsReported12Months>
+				<WorstStatusEverFinancialTradeLast24MonthsReported24Months>3 </WorstStatusEverFinancialTradeLast24MonthsReported24Months>
+				<WorstStatusEverFinancialTradeOpenedLast36Months>3 </WorstStatusEverFinancialTradeOpenedLast36Months>
+				<AvgNumberTimes31DBTFinancialTradesLast12Months>00050</AvgNumberTimes31DBTFinancialTradesLast12Months>
+			</KeyModelElements>
+			<KeyModelElements>
+				<AvgNumberTimes61DBTFinancialTradesLast12Months>00025</AvgNumberTimes61DBTFinancialTradesLast12Months>
+				<AvgNumberTimes91DBTFinancialTradesLast12Months>00000</AvgNumberTimes91DBTFinancialTradesLast12Months>
+				<WorstPresentStatusOpenFinancialTrade>0</WorstPresentStatusOpenFinancialTrade>
+				<WorstPresentStatusOpenFinancialTradesOpened24Months>0</WorstPresentStatusOpenFinancialTradesOpened24Months>
+				<AgeOldestFinancialTrade>00000</AgeOldestFinancialTrade>
+				<AgeRecentlyOpenedFinancialTrade>00005</AgeRecentlyOpenedFinancialTrade>
+				<AvgAgeAllFinancialTrades>00069</AvgAgeAllFinancialTrades>
+				<MonthsSinceRecent31PlusDBTAnyFinancialTrade>00007</MonthsSinceRecent31PlusDBTAnyFinancialTrade>
+				<MonthsSinceRecent31to60DBTAnyFinancialTrade>00008</MonthsSinceRecent31to60DBTAnyFinancialTrade>
+				<MonthsSinceRecent61PlusDBTAnyFinancialTrade>00007</MonthsSinceRecent61PlusDBTAnyFinancialTrade>
+				<MonthsSinceRecent61to90PlusDBTAnyFinancialTrade>00007</MonthsSinceRecent61to90PlusDBTAnyFinancialTrade>
+				<MonthsSinceRecent91PlusDBTAnyFinancialTrade>00000</MonthsSinceRecent91PlusDBTAnyFinancialTrade>
+				<MonthsSinceRecentDerogStatusAnyFinancialTrade>00000</MonthsSinceRecentDerogStatusAnyFinancialTrade>
+				<PctOfFinancialTradesNeverReportedDelinqOrDerog>04000</PctOfFinancialTradesNeverReportedDelinqOrDerog>
+				<PctOfFinancialTradesEverReported60DBT>00000</PctOfFinancialTradesEverReported60DBT>
+				<PctOfFinancialTradesEverReported90DBT>04000</PctOfFinancialTradesEverReported90DBT>
+				<PctOfFinancialTradesEverReported91PlusDBT>00000</PctOfFinancialTradesEverReported91PlusDBT>
+				<PctOfFinancialTradesEverReportedDerogStatus>00000</PctOfFinancialTradesEverReportedDerogStatus>
+				<PctOfTotalFinancialTradesToTotalAllTrades>00045</PctOfTotalFinancialTradesToTotalAllTrades>
+				<TotalFinancialTradeBalLast3Months>00000001951</TotalFinancialTradeBalLast3Months>
+				<PctTotalFinancialBalToTotalTradeBalLast3Months>00000</PctTotalFinancialBalToTotalTradeBalLast3Months>
+				<FinancialTradesOpened1To30DaysNeverPaid>00005</FinancialTradesOpened1To30DaysNeverPaid>
+				<TotalBalFinancialTradesOpened1to30DaysNeverPaid>00000003405</TotalBalFinancialTradesOpened1to30DaysNeverPaid>
+				<FinancialTradesOpened1To6MonthsWeightedDBTZeroLast6Months>00003</FinancialTradesOpened1To6MonthsWeightedDBTZeroLast6Months>
+				<FinancialTradesOpened12To24MonthsWeightedDBTZeroLast12Months>00000</FinancialTradesOpened12To24MonthsWeightedDBTZeroLast12Months>
+				<FinancialTradesOpened1To12MonthsWeightedDBTZeroLast12Months>00001</FinancialTradesOpened1To12MonthsWeightedDBTZeroLast12Months>
+				<FinancialTradesOpened1To3MonthsWeightedDBT1To30DaysLast3Months>00000</FinancialTradesOpened1To3MonthsWeightedDBT1To30DaysLast3Months>
+				<FinancialTradesOpened1To3MonthsWeightedDBT61PlusLast3Months>00000</FinancialTradesOpened1To3MonthsWeightedDBT61PlusLast3Months>
+				<FinancialTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>00000</FinancialTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>
+				<FinancialTradesOpened1To12MonthsWeightedDBT0LifeOfTrade>00001</FinancialTradesOpened1To12MonthsWeightedDBT0LifeOfTrade>
+				<WeightedDBTFinancialTradesOpened3To15Months>00000</WeightedDBTFinancialTradesOpened3To15Months>
+				<WeightedDBTFinancialTradesOpened1To3Months>00000</WeightedDBTFinancialTradesOpened1To3Months>
+				<WeightedDBTFinancialTradesOpened6To18Months>00000</WeightedDBTFinancialTradesOpened6To18Months>
+				<WeightedDBTFinancialTradesOpened1To6Months>00000</WeightedDBTFinancialTradesOpened1To6Months>
+				<WeightedDBTFinancialTradesOpened12To24Months>00000</WeightedDBTFinancialTradesOpened12To24Months>
+				<WeightedDBTFinancialTradesOpened1To12Months>00000</WeightedDBTFinancialTradesOpened1To12Months>
+				<TotalChargeOffAmtFinancialTrades>00000000000</TotalChargeOffAmtFinancialTrades>
+				<AvgChargeOffAmtFinancialTrades>00000000000</AvgChargeOffAmtFinancialTrades>
+				<AvgMonthsToChargeOffFinancialTrades>00000</AvgMonthsToChargeOffFinancialTrades>
+				<TotalInquiriesLast3MonthsForCreditCardCreditPurposes.>00000</TotalInquiriesLast3MonthsForCreditCardCreditPurposes.>
+				<TotalInquiriesLast6MonthsForCreditCardCreditPurposes.>00000</TotalInquiriesLast6MonthsForCreditCardCreditPurposes.>
+				<TotalInquiriesLast12MonthsForCreditCardCreditPurposes.>00000</TotalInquiriesLast12MonthsForCreditCardCreditPurposes.>
+				<TotalInquiriesLast24MonthsForCreditCardCreditPurposes.>00000</TotalInquiriesLast24MonthsForCreditCardCreditPurposes.>
+				<TotalInquiriesLast3MonthsForNonFinancialCreditPurposes.>00000</TotalInquiriesLast3MonthsForNonFinancialCreditPurposes.>
+				<TotalAmtJudgmentFiledLast12MonthsExclusions>00000000000</TotalAmtJudgmentFiledLast12MonthsExclusions>
+				<TotalAmtJudgmentFiledLast24MonthsExclusions>00000000000</TotalAmtJudgmentFiledLast24MonthsExclusions>
+				<TotalAmtJudgmentFiledLast6MonthsExclusions>00000000000</TotalAmtJudgmentFiledLast6MonthsExclusions>
+				<TotalLiabilityAmtJudgmentsInclusionsLast24Months>00000000000</TotalLiabilityAmtJudgmentsInclusionsLast24Months>
+				<TotalLiabilityAmtNonFiledJudgment>00000000000</TotalLiabilityAmtNonFiledJudgment>
+				<AgeMostRecentFiledJudgment>00000</AgeMostRecentFiledJudgment>
+				<AgeMostRecentNonFiledJudgment>00000</AgeMostRecentNonFiledJudgment>
+				<PctTotalJudgmentAmLast12MonthsToTotalBalAllTrades>00000</PctTotalJudgmentAmLast12MonthsToTotalBalAllTrades>
+				<PctTotalJudgmentAmLast24MonthsToTotalBalAllTrades>00000</PctTotalJudgmentAmLast24MonthsToTotalBalAllTrades>
+				<PctTotalJudgmentAmLast6MonthsToTotalBalAllTrades>00000</PctTotalJudgmentAmLast6MonthsToTotalBalAllTrades>
+				<TotalB2BTrades>00006</TotalB2BTrades>
+			</KeyModelElements>
+			<KeyModelElements>
+				<TotalB2BTradesOpenedLast6Months>00000</TotalB2BTradesOpenedLast6Months>
+				<TotalB2BTradesPresently31PlusDBTDerogLast6Months>00000</TotalB2BTradesPresently31PlusDBTDerogLast6Months>
+				<TotalB2BTradesMaxDBTEver30Days>00002</TotalB2BTradesMaxDBTEver30Days>
+				<TotalOpenB2BTradesAvgDBTWorseRecent6MonthsThenPrevious6Months>00000</TotalOpenB2BTradesAvgDBTWorseRecent6MonthsThenPrevious6Months>
+				<AvgOutstandingBalAllOpenB2BTradesLast6Months>00000000027</AvgOutstandingBalAllOpenB2BTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenB2BTradesLast6Months>00000000594</TotalCreditLimitHiCreditLoanAmtOpenB2BTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenB2BTradesLast6Months>02239</OverallBalToLimitRatioAllOpenB2BTradesLast6Months>
+				<WorstStatusB2BTrade>1 </WorstStatusB2BTrade>
+				<AvgTimes31DBTB2BTrades12Months>00000</AvgTimes31DBTB2BTrades12Months>
+				<AvgTimes91DBTB2BTrades12Months>00000</AvgTimes91DBTB2BTrades12Months>
+				<AgeOldestB2BTrade>00000</AgeOldestB2BTrade>
+				<AvgAgeB2BTrades>00059</AvgAgeB2BTrades>
+				<MonthsMostRecent31DBTB2BTrade>00000</MonthsMostRecent31DBTB2BTrade>
+				<MonthsMostRecent61DBTB2BTrade>00000</MonthsMostRecent61DBTB2BTrade>
+				<MonthsMostRecent91DBTB2BTrade>00000</MonthsMostRecent91DBTB2BTrade>
+				<PctTotalB2BTradesNeverReportedDelinqDerog>06667</PctTotalB2BTradesNeverReportedDelinqDerog>
+				<PctOfB2BTradesEverReported30DBT>03333</PctOfB2BTradesEverReported30DBT>
+				<PctOfB2BTradesEverReported91PlusDBT>00000</PctOfB2BTradesEverReported91PlusDBT>
+				<PctTotalOpenB2BTradesToTotalOpenTrades>06000</PctTotalOpenB2BTradesToTotalOpenTrades>
+				<PctTotalB2BTradesToTotalTrades>00054</PctTotalB2BTradesToTotalTrades>
+				<TotalB2BTradeBalLast3Months>00000000133</TotalB2BTradeBalLast3Months>
+				<PctTotalB2BBalToTotalTradeBalLast3Months>00638</PctTotalB2BBalToTotalTradeBalLast3Months>
+				<B2BTradesOpened1To3MonthsWeightedDBT1To30DaysLast3Months>00000</B2BTradesOpened1To3MonthsWeightedDBT1To30DaysLast3Months>
+				<B2BTradesOpened1To3MonthsWeightedDBT61PlusLast3Months>00000</B2BTradesOpened1To3MonthsWeightedDBT61PlusLast3Months>
+				<B2BTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>00000</B2BTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>
+				<WeightedDBTB2BTradesOpened1To3Months>00000</WeightedDBTB2BTradesOpened1To3Months>
+				<WeightedDBTB2BTradesOpened12To24Months>00000</WeightedDBTB2BTradesOpened12To24Months>
+				<WeightedDBTB2BTradesOpened1To12Months>00000</WeightedDBTB2BTradesOpened1To12Months>
+				<TotalNonFinancialTrades>00006</TotalNonFinancialTrades>
+				<TotalClosedNonFinancialTrades>00000</TotalClosedNonFinancialTrades>
+				<TotalNonFinancialTradesOpenedLast6Months>00000</TotalNonFinancialTradesOpenedLast6Months>
+				<TotalNonFinancialTradesOpenedLast36Months>00002</TotalNonFinancialTradesOpenedLast36Months>
+				<TotalClosedNonFinancialTradesLast6Months>00000</TotalClosedNonFinancialTradesLast6Months>
+				<TotalNonFinancialTrades31PlusDBTDerogLast6Months>00000</TotalNonFinancialTrades31PlusDBTDerogLast6Months>
+				<TotalNonFinancialTrades91PlusDBTDerogLast6Months>00000</TotalNonFinancialTrades91PlusDBTDerogLast6Months>
+				<TotalNonFinancialTradesNeverReportedBeyondTermOrDerogStatus>00004</TotalNonFinancialTradesNeverReportedBeyondTermOrDerogStatus>
+				<TotalNonFinancialTradesMaxDBTEver30Days>00002</TotalNonFinancialTradesMaxDBTEver30Days>
+				<NonFinancialTradesOpened1To3MonthsMax31To60DayDelinqLast3Months>00000</NonFinancialTradesOpened1To3MonthsMax31To60DayDelinqLast3Months>
+				<NonFinancialTradesOpened1To12MonthsDerogLast12Months>00000</NonFinancialTradesOpened1To12MonthsDerogLast12Months>
+				<NonFinancialTradesOpened1To12Months91PlusDelinqEverLifeOfTrade>00000</NonFinancialTradesOpened1To12Months91PlusDelinqEverLifeOfTrade>
+				<AvgOutstandingBalAllOpenNonFinancialTradesLast6Months>00000000027</AvgOutstandingBalAllOpenNonFinancialTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtAllOpenNonFinancialTradesLast6Months>00000000594</TotalCreditLimitHiCreditLoanAmtAllOpenNonFinancialTradesLast6Months>
+				<OverallBalToLimitRatioAllOpenNonFinancialTradesLast6Months>02239</OverallBalToLimitRatioAllOpenNonFinancialTradesLast6Months>
+				<OpenNonFinancialTradesAvgCreditUtilHigherRecent6MonthsThenPrevious6Months>00000</OpenNonFinancialTradesAvgCreditUtilHigherRecent6MonthsThenPrevious6Months>
+				<OpenNonFinancialTradesAvgCreditUtilHigherRecent12MonthsThenPrevious12Months>00000</OpenNonFinancialTradesAvgCreditUtilHigherRecent12MonthsThenPrevious12Months>
+				<WorstStatusEverNonFinancialTrade>1 </WorstStatusEverNonFinancialTrade>
+				<WorstStatusEverNonFinancialTradeLast12MonthsReported12Months>1 </WorstStatusEverNonFinancialTradeLast12MonthsReported12Months>
+				<WorstStatusEverNonFinancialTradeLast24MonthsReported24Months>1 </WorstStatusEverNonFinancialTradeLast24MonthsReported24Months>
+				<WorstStatusEverNonFinancialTradeOpenedLast36Months>1 </WorstStatusEverNonFinancialTradeOpenedLast36Months>
+				<AvgNumberTimes31DBTNonFinancialTradesLast12Months>00000</AvgNumberTimes31DBTNonFinancialTradesLast12Months>
+				<AvgNumberTimes61DBTNonFinancialTradesLast12Months>00000</AvgNumberTimes61DBTNonFinancialTradesLast12Months>
+				<AgeOldestNonFinancialTrade>00000</AgeOldestNonFinancialTrade>
+				<AgeRecentlyOpenedNonFinancialTrade>00005</AgeRecentlyOpenedNonFinancialTrade>
+				<AvgAgeAllNonFinancialTrades>00059</AvgAgeAllNonFinancialTrades>
+				<MonthsSinceRecent31PlusDBTAnyNonFinancialTrade>00000</MonthsSinceRecent31PlusDBTAnyNonFinancialTrade>
+				<MonthsSinceRecent31to60DBTAnyNonFinancialTrade>00000</MonthsSinceRecent31to60DBTAnyNonFinancialTrade>
+				<MonthsSinceRecent61PlusDBTAnyNonFinancialTrade>00000</MonthsSinceRecent61PlusDBTAnyNonFinancialTrade>
+				<MonthsSinceRecent91PlusDBTAnyNonFinancialTrade>00000</MonthsSinceRecent91PlusDBTAnyNonFinancialTrade>
+				<PctOfNonFinancialTradesNeverReportedDelinqOrDerog>06667</PctOfNonFinancialTradesNeverReportedDelinqOrDerog>
+			</KeyModelElements>
+			<KeyModelElements>
+				<PctOfNonFinancialTradesEverReported30DBT>03333</PctOfNonFinancialTradesEverReported30DBT>
+				<PctOfNonFinancialTradesEverReported91PlusDBT>00000</PctOfNonFinancialTradesEverReported91PlusDBT>
+				<PctOfNonFinancialTradesEverReportedDerogStatus>00000</PctOfNonFinancialTradesEverReportedDerogStatus>
+				<PctTotalNonFinancialTradesOpen>10000</PctTotalNonFinancialTradesOpen>
+				<PctTotalOpenNonFinancialTradesToTotalOpenTrades>06000</PctTotalOpenNonFinancialTradesToTotalOpenTrades>
+				<TotalNonFinancialTradeBalLast3Months>00000000133</TotalNonFinancialTradeBalLast3Months>
+				<PctTotalNonFinancialBalToTotalTradeBalLast3Months>00638</PctTotalNonFinancialBalToTotalTradeBalLast3Months>
+				<NonFinancialTradesOpened1To3MonthsWeightedDBT61PlusLast3Months>00000</NonFinancialTradesOpened1To3MonthsWeightedDBT61PlusLast3Months>
+				<NonFinancialTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>00000</NonFinancialTradesOpened1To12MonthsWeightedDBT61PlusLast12Months>
+				<WeightedDBTNonFinancialTradesOpened3To15Months>00000</WeightedDBTNonFinancialTradesOpened3To15Months>
+				<WeightedDBTNonFinancialTradesOpened1To3Months>00000</WeightedDBTNonFinancialTradesOpened1To3Months>
+				<WeightedDBTNonFinancialTradesOpened12To24Months>00000</WeightedDBTNonFinancialTradesOpened12To24Months>
+				<TotalOpenTelecomTrades>00000</TotalOpenTelecomTrades>
+				<TotalTelecomTradesZeroBalLast12Months>00000</TotalTelecomTradesZeroBalLast12Months>
+				<TotalPaidTelecomTradesLast6Months>00000</TotalPaidTelecomTradesLast6Months>
+				<TotalTelecomTradesOpenedLast12Months>00000</TotalTelecomTradesOpenedLast12Months>
+				<TotalTelecomTradesOpenedLast24Months>00000</TotalTelecomTradesOpenedLast24Months>
+				<TotalOpenClosedTelecomTradesDerogLast6Months>00000</TotalOpenClosedTelecomTradesDerogLast6Months>
+				<TotalTelecomTradesCurrentZeroDBTLast6Months>00000</TotalTelecomTradesCurrentZeroDBTLast6Months>
+				<TotalTelecomTrades61PlusDBTLast6Months>00000</TotalTelecomTrades61PlusDBTLast6Months>
+				<TotalTelecomTradesEver61DBT>00000</TotalTelecomTradesEver61DBT>
+				<TelecomTradesOpened1To12MonthsNoDelinqDerogLast12Months>00000</TelecomTradesOpened1To12MonthsNoDelinqDerogLast12Months>
+				<AvgOutstandingBalOpenTelecomTradesLast6Months>00000000000</AvgOutstandingBalOpenTelecomTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenTelecomTradesLast6Months>00000000000</TotalCreditLimitHiCreditLoanAmtOpenTelecomTradesLast6Months>
+				<OverallBalToLimitRatioOpenTelecomTradesLast6Months>00000</OverallBalToLimitRatioOpenTelecomTradesLast6Months>
+				<AvgTimesOver91DBTTelecomTradesLast12Months>00000</AvgTimesOver91DBTTelecomTradesLast12Months>
+				<AgeMostRecentlyOpenedTelecomTrade>00000</AgeMostRecentlyOpenedTelecomTrade>
+				<MonthsSinceRecent31PlusDBTTelecomTrade>00000</MonthsSinceRecent31PlusDBTTelecomTrade>
+				<MonthsSinceRecent61PlusDBTTelecomTrade>00000</MonthsSinceRecent61PlusDBTTelecomTrade>
+				<MonthsSinceRecent91PlusDBTTelecomTrade>00000</MonthsSinceRecent91PlusDBTTelecomTrade>
+				<MonthsSinceRecentDerogStatusAnyTelecomTrade>00000</MonthsSinceRecentDerogStatusAnyTelecomTrade>
+				<PctOfTelecomTradesNeverReportedDelinqOrDerog>00000</PctOfTelecomTradesNeverReportedDelinqOrDerog>
+				<PctOfTelecomTradesEverReported30DBT>00000</PctOfTelecomTradesEverReported30DBT>
+				<PctOfTelecomTradesEverReported60DBT>00000</PctOfTelecomTradesEverReported60DBT>
+				<PctTotalTelecomTradesOpen>00000</PctTotalTelecomTradesOpen>
+				<PctTotalOpenTelecomTradesToTotalOpenTrades>00000</PctTotalOpenTelecomTradesToTotalOpenTrades>
+				<PctTotalTelecomTradesToTotalTrades>00000</PctTotalTelecomTradesToTotalTrades>
+				<TotalTelecomTradeBalLast3Months>00000000000</TotalTelecomTradeBalLast3Months>
+				<PctTotalTelecomBalToTotalTradeBalLast3Months>00000</PctTotalTelecomBalToTotalTradeBalLast3Months>
+				<WeightedDBTTelecomTradesOpened3To15Months>00000</WeightedDBTTelecomTradesOpened3To15Months>
+				<WeightedDBTTelecomTradesOpened1To3Months>00000</WeightedDBTTelecomTradesOpened1To3Months>
+				<WeightedDBTTelecomTradesOpened12To24Months>00000</WeightedDBTTelecomTradesOpened12To24Months>
+				<TotalOpenClosedUtilityTradesDerogLast6Months>00000</TotalOpenClosedUtilityTradesDerogLast6Months>
+				<TotalUtilityTradesCurrentZeroDBTLast6Months>00000</TotalUtilityTradesCurrentZeroDBTLast6Months>
+				<AvgOutstandingBalOpenUtilityTradesLast6Months>00000000000</AvgOutstandingBalOpenUtilityTradesLast6Months>
+				<TotalCreditLimitHiCreditLoanAmtOpenUtilityTradesLast6Months>00000000000</TotalCreditLimitHiCreditLoanAmtOpenUtilityTradesLast6Months>
+				<OverallBalToLimitRatioOpenUtilityTradesLast6Months>00000</OverallBalToLimitRatioOpenUtilityTradesLast6Months>
+				<AgeMostRecentlyOpenedUtilityTrade>00000</AgeMostRecentlyOpenedUtilityTrade>
+				<PctOfUtilityTradesNeverReportedDelinqOrDerog>00000</PctOfUtilityTradesNeverReportedDelinqOrDerog>
+				<PctOfUtilityTradesEverReported30DBT>00000</PctOfUtilityTradesEverReported30DBT>
+				<PctTotalUtilityTradesOpen>00000</PctTotalUtilityTradesOpen>
+				<PctTotalOpenUtilityTradesToTotalOpenTrades>00000</PctTotalOpenUtilityTradesToTotalOpenTrades>
+				<PctTotalUtilityBalToTotalTradeBalLast3Months>00000</PctTotalUtilityBalToTotalTradeBalLast3Months>
+				<TotalAmtTaxLienFiledLast12MonthsExclusions>00000000000</TotalAmtTaxLienFiledLast12MonthsExclusions>
+				<TotalAmtTaxLienFiledLast24MonthsExclusions>00000000000</TotalAmtTaxLienFiledLast24MonthsExclusions>
+				<AgeMostRecentTaxLineFiled>00000</AgeMostRecentTaxLineFiled>
+			</KeyModelElements>
+			<KeyModelElements>
+				<PctTotalTaxLienAmtFiledLast12MonthsToTotalBal>00000</PctTotalTaxLienAmtFiledLast12MonthsToTotalBal>
+				<PctTotalTaxLienAmtFiledLast24MonthsToTotalBal>00000</PctTotalTaxLienAmtFiledLast24MonthsToTotalBal>
+				<PctTotalTaxLienAmtFiledLast6MonthsToTotalBal>00000</PctTotalTaxLienAmtFiledLast6MonthsToTotalBal>
+			</KeyModelElements>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</SmallBusinessCreditShare>
+	</Products>
+</BISResponse>

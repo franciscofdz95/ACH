@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageCompliance.master.cs" Inherits="MasterPageCompliance" %>
+
+
+<%@ Register Src="UserControls/wucMessage.ascx" TagName="wucMessage" TagPrefix="uc1" %>
+<%@ Register Src="UserControls/wucTopMenu.ascx" TagName="wucTopMenu" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/wucFooter.ascx" TagName="wucFooter" TagPrefix="uc3" %>
+<%@ Register Src="UserControls/wucCommonScripts.ascx" TagName="wucCommonScripts"
+    TagPrefix="uc4" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Compliance</title>
+    <uc4:wucCommonScripts ID="wucCommonScripts1" runat="server" />
+</head>
+<body>
+     <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+        
+        
+    <uc2:wucTopMenu ID="wucTopMenu1" TopMenuSelect="Compliance" runat="server" />
+    <table id='zeuslayout' cellpadding="2px" >
+        <tr>
+            <td class='zleft' style="width: 130px;">
+                <div id="menuside">
+                    <asp:Panel ID="pnlSideMenu" CssClass="rounded" runat="server">
+                        <%--START: Replace CRM to TPP for PXP-8417 by Ali Khan --%>
+                         <ul>
+                            <li>
+                                <asp:HyperLink ID="lnkSearchCRM" NavigateUrl="~/SecureComplianceForms/frmCRMVendorSetupSearch.aspx"
+                                    runat="server">Search TPP</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="lnkCRMDetails" NavigateUrl="~/SecureComplianceForms/frmCRMVendorSetupDetail.aspx?Adding=false"
+                                    runat="server">TPP Details</asp:HyperLink></li>
+                        </ul>
+                        <%--END: Replace CRM to TPP for PXP-8417 by Ali Khan --%>
+                    </asp:Panel>
+                </div>
+            </td>
+            <td class='zmiddle'>
+                <uc1:wucMessage ID="WucMessage1" runat="server" />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+           <%-- <td class='zright'>
+                <asp:Panel runat="server" ID="pnlRecent">
+                    <fieldset style="width: 320px;">
+                        <legend>Recently Accessed Tickets</legend>
+                        <asp:Literal runat="server" ID="litRecent"></asp:Literal>
+                    </fieldset>
+                </asp:Panel>
+                <asp:Panel runat="server" ID="pnlLastViewed">
+                    <fieldset style="width: 320px;">
+                        <legend>Others Who Have Viewed</legend>
+                        <asp:Literal runat="server" ID="litUsers"></asp:Literal>
+                    </fieldset>
+                </asp:Panel>
+            </td>--%>
+        </tr>
+    </table>
+    <uc3:wucFooter ID="wucFooter1" runat="server" />
+    </form>
+</body>
+</html>

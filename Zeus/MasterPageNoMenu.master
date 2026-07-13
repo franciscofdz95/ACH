@@ -1,0 +1,23 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPageNoMenu" CodeBehind="MasterPageNoMenu.master.cs" %>
+
+<%@ Register Src="UserControls/wucFooter.ascx" TagName="wucFooter" TagPrefix="uc1" %>
+<%@ Register src="UserControls/wucTopMenu.ascx" tagname="wucTopMenu" tagprefix="uc2" %>
+<%@ Register src="UserControls/wucCommonScripts.ascx" tagname="wucCommonScripts" tagprefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Zeus</title>
+     <uc3:wucCommonScripts ID="wucCommonScripts1" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <uc2:wucTopMenu ID="wucTopMenu2" runat="server" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <uc1:wucFooter ID="wucFooter1" runat="server" />
+    </form>
+</body>
+</html>

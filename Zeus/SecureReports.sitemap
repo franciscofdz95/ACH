@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/SecureReports/frmReports.aspx" title="Reports"  description="Reports">
+        <siteMapNode url="~/SecureReports/frmAchInvoiceReport.aspx" title="ACH Invoice Report"  description="ACH Invoice Report" />
+        <siteMapNode url="~/SecureReports/frmAchReturnReport.aspx" title="ACH Return Report"  description="ACH Return Report" />
+    </siteMapNode>
+</siteMap>

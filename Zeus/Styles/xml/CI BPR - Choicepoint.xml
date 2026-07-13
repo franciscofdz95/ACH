@@ -1,0 +1,2843 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CIBPR.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CIBPR</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602540343</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/CHOICEPOINT;CA-1000 ALDERMAN DR/ALPHARETTA GA 30005/MC-000210/UCC/IR/BP/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>G11034504</ExperianFileNumber>
+				<ProfileType code="SCORE     ">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20080229</ProfileDate>
+				<ProfileTime>17:41:24</ProfileTime>
+				<TerminalNumber>-ADE</TerminalNumber>
+				<FileEstablishDate>19970800</FileEstablishDate>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>CHOICEPOINT                             </BusinessName>
+				<StreetAddress>1000 ALDERMAN DR              </StreetAddress>
+				<City>ALPHARETTA                  </City>
+				<State>GA</State>
+				<Zip>30005</Zip>
+				<PhoneNumber>877-317-5000</PhoneNumber>
+				<SIC code="7374">COMPUTER PROCESSING &amp; DATA SVCS       </SIC>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>008</TaxLienCount>
+				<EarliestTaxLienDate>20010829</EarliestTaxLienDate>
+				<MostRecentTaxLienDate>20060117</MostRecentTaxLienDate>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>002</CollectionCount>
+				<LegalBalance>00280782</LegalBalance>
+				<UCCFilings>016</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>04371000</CurrentAccountBalance>
+				<CurrentTradelineCount>015</CurrentTradelineCount>
+				<MonthlyAverageDBT>007</MonthlyAverageDBT>
+				<HighestDBT6Months>008</HighestDBT6Months>
+				<HighestDBT5Quarters>008</HighestDBT5Quarters>
+				<ActiveTradelineCount>015</ActiveTradelineCount>
+				<AllTradelineBalance>04729200</AllTradelineBalance>
+				<AllTradelineCount>041</AllTradelineCount>
+				<AverageBalance5Quarters>02993760</AverageBalance5Quarters>
+				<SingleLineHighCredit>04304400</SingleLineHighCredit>
+				<LowBalance6Months>03666400</LowBalance6Months>
+				<HighBalance6Months>04371300</HighBalance6Months>
+				<EarliestCollectionDate>20070700</EarliestCollectionDate>
+				<MostRecentCollectionDate>20071000</MostRecentCollectionDate>
+				<CurrentDBT>007</CurrentDBT>
+				<EarliestUCCDate>20040708</EarliestUCCDate>
+				<MostRecentUCCDate>20070525</MostRecentUCCDate>
+				<TaxLienFlag>Y</TaxLienFlag>
+			</ExecutiveElements>
+			<ExecutiveSummary>
+				<BusinessDBT code="007"/>
+				<PredictedDBT>007</PredictedDBT>
+				<PredictedDBTDate>20080219</PredictedDBTDate>
+				<IndustryDBT>006</IndustryDBT>
+				<AllIndustryDBT>007</AllIndustryDBT>
+				<LowestTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>03666400</Amount>
+				</LowestTotalAccountBalance>
+				<HighestTotalAccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>04371300</Amount>
+				</HighestTotalAccountBalance>
+				<CurrentTotalAccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>04371000</Amount>
+				</CurrentTotalAccountBalance>
+				<HighCreditAmountExtended>04304400</HighCreditAmountExtended>
+				<MedianCreditAmountExtended>00009600</MedianCreditAmountExtended>
+				<IndustryPaymentComparison code="S">Pays the same</IndustryPaymentComparison>
+				<PaymentTrendIndicator code="S">Stable</PaymentTrendIndicator>
+				<IndustryDescription>DATA PROCESS SVCS   </IndustryDescription>
+				<CommonTerms>NET 30 </CommonTerms>
+				<CommonTerms2>CREDIT </CommonTerms2>
+				<CommonTerms3>0000000</CommonTerms3>
+			</ExecutiveSummary>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20070700</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000088</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES     </AgencyName>
+					<PhoneNumber>0000000000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="03">Paid in Full</AccountStatus>
+				<DatePlacedForCollection>20071000</DatePlacedForCollection>
+				<DateClosed>20071000</DateClosed>
+				<AmountPlacedForCollection>00000000</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>FIDELITY NATIONAL CREDIT SERVI     </AgencyName>
+					<PhoneNumber>8006489341</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>ADVERTISNG</BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  4 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20071000</DateReported>
+				<DateLastActivity>20070700</DateLastActivity>
+				<Terms>0000000</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00038500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00018200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>071</CurrentPercentage>
+				<DBT30>023</DBT30>
+				<DBT60>006</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 19 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>BUREAU    </BusinessCategory>
+				<DateReported>20070900</DateReported>
+				<DateLastActivity>20070900</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>04304400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>04304400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>055</CurrentPercentage>
+				<DBT30>045</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 15 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>COMPUTERS </BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code="=">Pays the Same</PaymentIndicator>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20071100</DateReported>
+				<DateLastActivity>20071100</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00044600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00044600</Amount>
+				</AccountBalance>
+				<CurrentPercentage>037</CurrentPercentage>
+				<DBT30>063</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>20071200</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>SATSFTRY  </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FREIGHT   </BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>20070900</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>INDUS MACH</BusinessCategory>
+				<DateReported>20071100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>OPTIC SUPL</BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>N30    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code="-">Pays Slower</PaymentIndicator>
+				<BusinessCategory>PACKAGING </BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>20071100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>100</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  2 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>PERSNLSVCS</BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>20071200</DateLastActivity>
+				<Terms>ROI    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00005600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00002300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>SAFTY PROD</BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code="=">Pays the Same</PaymentIndicator>
+				<BusinessCategory>TELECOM   </BusinessCategory>
+				<DateReported>20071200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00017900</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00001300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>049</CurrentPercentage>
+				<DBT30>024</DBT30>
+				<DBT60>022</DBT60>
+				<DBT90>005</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>DISPUTE   </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>UTILITY   </BusinessCategory>
+				<DateReported>20071100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>WAREHOUSE </BusinessCategory>
+				<DateReported>20071100</DateReported>
+				<DateLastActivity>20070500</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00009600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>ACCTCLOSED</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>ADVERTISNG</BusinessCategory>
+				<DateReported>20061200</DateReported>
+				<DateLastActivity>20061100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="=">Pays the Same</PaymentIndicator>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20061100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00024800</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00020700</Amount>
+				</AccountBalance>
+				<CurrentPercentage>065</CurrentPercentage>
+				<DBT30>016</DBT30>
+				<DBT60>001</DBT60>
+				<DBT90>012</DBT90>
+				<DBT90Plus>006</DBT90Plus>
+				<Comments>CIA       </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>BUS SERVCS</BusinessCategory>
+				<DateReported>20060500</DateReported>
+				<DateLastActivity>20060500</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>BUS SERVCS</BusinessCategory>
+				<DateReported>20070300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 7  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>CELLUL/PAG</BusinessCategory>
+				<DateReported>20051200</DateReported>
+				<DateLastActivity>20051000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>PIF-CHGOFF</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>CELLUL/PAG</BusinessCategory>
+				<DateReported>20060100</DateReported>
+				<DateLastActivity>20060100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  1 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>CELLUL/PAG</BusinessCategory>
+				<DateReported>20060900</DateReported>
+				<DateLastActivity>20060800</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  5 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>COMPUTERS </BusinessCategory>
+				<DateReported>20050500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 37 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="-">Pays Slower</PaymentIndicator>
+				<BusinessCategory>COMPUTERS </BusinessCategory>
+				<DateReported>20050700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00028100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000800</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>024</DBT30>
+				<DBT60>016</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>060</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="-">Pays Slower</PaymentIndicator>
+				<BusinessCategory>COMPUTERS </BusinessCategory>
+				<DateReported>20060500</DateReported>
+				<DateLastActivity>20060400</DateLastActivity>
+				<Terms>0000000</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00373100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00285400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>061</DBT30>
+				<DBT60>038</DBT60>
+				<DBT90>001</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>DP EQUIP  </BusinessCategory>
+				<DateReported>20070600</DateReported>
+				<DateLastActivity>20040600</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>DP SERVCS </BusinessCategory>
+				<DateReported>20060400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>0000000</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  2 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>ELEC SUPLR</BusinessCategory>
+				<DateReported>20051100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>N10PRXO</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20060300</DateReported>
+				<DateLastActivity>20060300</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>SATSFTRY  </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>GENERAL   </BusinessCategory>
+				<DateReported>20060400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="=">Pays the Same</PaymentIndicator>
+				<BusinessCategory>GENERAL   </BusinessCategory>
+				<DateReported>20050200</DateReported>
+				<DateLastActivity>20041000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  4 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>INDUS MACH</BusinessCategory>
+				<DateReported>20060700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>LEASING   </BusinessCategory>
+				<DateReported>20060400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  2 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>LEASING   </BusinessCategory>
+				<DateReported>20071100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00016200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00013400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>092</CurrentPercentage>
+				<DBT30>008</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>MED EQUIP </BusinessCategory>
+				<DateReported>20060700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>MISC MANUF</BusinessCategory>
+				<DateReported>20051000</DateReported>
+				<DateLastActivity>20050800</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00007700</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="-">Pays Slower</PaymentIndicator>
+				<BusinessCategory>MOTR TRANS</BusinessCategory>
+				<DateReported>20051200</DateReported>
+				<DateLastActivity>20051200</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00003200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00003200</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>060</DBT30>
+				<DBT60>040</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="-">Pays Slower</PaymentIndicator>
+				<BusinessCategory>OFFC EQUIP</BusinessCategory>
+				<DateReported>20060600</DateReported>
+				<DateLastActivity>20060600</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00945500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>100</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  5 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>SPORT GDS </BusinessCategory>
+				<DateReported>20060900</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>ROI    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>TEMP HELP </BusinessCategory>
+				<DateReported>20060800</DateReported>
+				<DateLastActivity>20060900</DateLastActivity>
+				<Terms>ROI    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00075400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00004700</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>100</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<PaymentIndicator code="+">Pays Faster</PaymentIndicator>
+				<BusinessCategory>TEMP HELP </BusinessCategory>
+				<DateReported>20070100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00029400</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00029400</Amount>
+				</AccountBalance>
+				<CurrentPercentage>048</CurrentPercentage>
+				<DBT30>029</DBT30>
+				<DBT60>014</DBT60>
+				<DBT90>008</DBT90>
+				<DBT90Plus>001</DBT90Plus>
+				<Comments>CUST 10 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<PaymentTotals>
+				<NewlyReportedTradeLines>
+					<NumberOfLines>000</NumberOfLines>
+					<DBT>000</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</NewlyReportedTradeLines>
+				<ContinouslyReportedTradeLines>
+					<NumberOfLines>015</NumberOfLines>
+					<DBT>007</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04420900</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04371000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>055</CurrentPercentage>
+					<DBT30>045</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</ContinouslyReportedTradeLines>
+				<CombinedTradeLines>
+					<NumberOfLines>015</NumberOfLines>
+					<DBT>007</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04420900</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04371000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>055</CurrentPercentage>
+					<DBT30>045</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</CombinedTradeLines>
+			</PaymentTotals>
+			<PaymentTrends>
+				<CurrentMonth>
+					<Date>20071200</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04371300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>055</CurrentPercentage>
+					<DBT30>045</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20071100</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04367100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>055</CurrentPercentage>
+					<DBT30>045</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20071000</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04348900</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>055</CurrentPercentage>
+					<DBT30>045</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20070900</Date>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>03666400</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>051</CurrentPercentage>
+					<DBT30>049</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20070800</Date>
+					<DBT>008</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04161300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>047</CurrentPercentage>
+					<DBT30>052</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20070700</Date>
+					<DBT>008</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04282100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>046</CurrentPercentage>
+					<DBT30>053</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+				</PriorMonth>
+			</PaymentTrends>
+			<IndustryPaymentTrends>
+				<SIC>737</SIC>
+				<CurrentMonth>
+					<Date>20071200</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000015341</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>083</CurrentPercentage>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20071100</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000015192</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>086</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20071000</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000014412</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>086</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20070900</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000014747</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>086</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20070800</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000014472</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>086</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20070700</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>00000013920</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>084</CurrentPercentage>
+				</PriorMonth>
+			</IndustryPaymentTrends>
+			<QuarterlyPaymentTrends>
+				<MostRecentQuarter>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>04057800</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>051</CurrentPercentage>
+					<DBT30>049</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+					<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear>
+					<YearOfQuarter>20070000</YearOfQuarter>
+				</MostRecentQuarter>
+				<PriorQuarter>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>03600100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>057</CurrentPercentage>
+					<DBT30>043</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+					<QuarterWithinYear code="2">Second quarter (Apr, May &amp; Jun)</QuarterWithinYear>
+					<YearOfQuarter>20070000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>001</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>02195300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>094</CurrentPercentage>
+					<DBT30>005</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+					<QuarterWithinYear code="1">First quarter (Jan, Feb &amp; Mar)</QuarterWithinYear>
+					<YearOfQuarter>20070000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>007</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>03885200</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>055</CurrentPercentage>
+					<DBT30>045</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+					<QuarterWithinYear code="4">Fourth quarter (Oct, Nov &amp; Dec)</QuarterWithinYear>
+					<YearOfQuarter>20060000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>001</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" ">Not Applicable</Modifier>
+						<Amount>01230400</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>094</CurrentPercentage>
+					<DBT30>005</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>000</DBT90>
+					<DBT90Plus>000</DBT90Plus>
+					<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear>
+					<YearOfQuarter>20060000</YearOfQuarter>
+				</PriorQuarter>
+			</QuarterlyPaymentTrends>
+			<TaxLien>
+				<DateFiled>20060516</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="07">RELEASED</LegalAction>
+				<DocumentNumber>37205C          </DocumentNumber>
+				<FilingLocation>HINDS COUNTY CIRCUIT</FilingLocation>
+				<LiabilityAmount>000064202</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20060117</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>37205C          </DocumentNumber>
+				<FilingLocation>HINDS COUNTY CIRCUIT</FilingLocation>
+				<LiabilityAmount>000036804</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20041119</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>200400040782    </DocumentNumber>
+				<FilingLocation>SCOTT COUNTY COURT  </FilingLocation>
+				<LiabilityAmount>000000338</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20020510</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="07">RELEASED</LegalAction>
+				<DocumentNumber>20020393050     </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000215900</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20020205</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="07">RELEASED</LegalAction>
+				<DocumentNumber>BK9731PG634     </DocumentNumber>
+				<FilingLocation>FULTON COUNTY SPR CO</FilingLocation>
+				<LiabilityAmount>000000855</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20011008</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>BK9622PG244     </DocumentNumber>
+				<FilingLocation>FULTON COUNTY SPR CO</FilingLocation>
+				<LiabilityAmount>000000855</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20010829</DateFiled>
+				<LegalType code="03">STATE TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>20010603357     </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000215900</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20041103</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="07">RELEASED</LegalAction>
+				<DocumentNumber>2004000990441   </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000000966</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20041103</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="07">RELEASED</LegalAction>
+				<DocumentNumber>2004000990474   </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000002897</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20041103</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="07">RELEASED</LegalAction>
+				<DocumentNumber>2004000990489   </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000022867</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20041012</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>200400912219    </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000000966</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20041012</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>200400917189    </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000002897</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20041012</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>200400920352    </DocumentNumber>
+				<FilingLocation>ORANGE COUNTY RECORD</FilingLocation>
+				<LiabilityAmount>000022867</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20030128</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="07">RELEASED</LegalAction>
+				<DocumentNumber>2003020267      </DocumentNumber>
+				<FilingLocation>SAN MATEO COUNTY REC</FilingLocation>
+				<LiabilityAmount>000000155</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20021118</DateFiled>
+				<LegalType code="04">COUNTY TAX</LegalType>
+				<LegalAction code="06">LIEN</LegalAction>
+				<DocumentNumber>2002237499      </DocumentNumber>
+				<FilingLocation>SAN MATEO COUNTY REC</FilingLocation>
+				<LiabilityAmount>000000155</LiabilityAmount>
+				<TaxLienDescription code=" "/>
+			</TaxLien>
+			<UCCFilings>
+				<DateFiled>20070525</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>00707010587     </DocumentNumber>
+				<FilingLocation>BARROW COUNTY SUPERI</FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>PITNEY BOWES GLOBAL FINANCIAL SERVICES L CT SHELTON 06484 27</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20061212</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>06006015022     </DocumentNumber>
+				<FilingLocation>FULTON SPR COURT    </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>BNP PARIBAS LEASING CORPORATION TX DALLAS 75251 12201 MERIT </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20061208</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>05806002380     </DocumentNumber>
+				<FilingLocation>FORSYTH SPR COURT   </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>BNP PARIBAS LEASING CORPORATION TX DALLAS 75251 12201 MERIT </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20061030</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>00706019681     </DocumentNumber>
+				<FilingLocation>BARROW COUNTY SUPERI</FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>OCE FINANCIAL SERVICES, INC. IL CHICAGO 60656 5450 NORTH CUM</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20061002</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="03">ASSIGNED</LegalAction>
+				<DocumentNumber>06006012017     </DocumentNumber>
+				<FilingLocation>FULTON SPR COURT    </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="03">ASSIGNED</LegalAction>
+					<FilingState>GA</FilingState>
+					<DocumentNumber>0600601201      </DocumentNumber>
+					<DateFiled>20061002</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>CHOICEPOINT CAPITAL INC. DE WILMINGTON 19801 300 DELAWARE AV</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20060519</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>00706008986     </DocumentNumber>
+				<FilingLocation>BARROW COUNTY SUPERI</FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>OCE FINANCIAL SERVICES, INC. IL CHICAGO 60656 5450 NORTH CUM</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20051222</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>06005015697     </DocumentNumber>
+				<FilingLocation>FULTON SPR COURT    </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>NOBLE SYSTEMS CORPORATION GA ATLANTA 30319 4151 ASHFORD DUNW</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20050404</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>00705005025     </DocumentNumber>
+				<FilingLocation>BARROW COUNTY SUPERI</FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>PITNEY BOWES CREDIT CORPORATION CT SHELTON 06484 27 WATERVIE</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20050112</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>2005001426-5    </DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE O</FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>CHOICEPOINT GA ALPHARETTA 30002 1000 ALDERMAN DRIVE         </SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041216</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>200414392831    </DocumentNumber>
+				<FilingLocation>SEC OF STATE MINNESO</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>CHOICEPOINT ONLINE TESTING CORPORATION GA ATLANTA 30309 1600</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041216</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>200414397557    </DocumentNumber>
+				<FilingLocation>SEC OF STATE MINNESO</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>CHOICEPOINT ONLINE TESTING CORPORATION GA ATLANTA 30309 1600</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041204</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>2004F132663     </DocumentNumber>
+				<FilingLocation>SEC OF STATE COLORAD</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041204</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>20042353516     </DocumentNumber>
+				<FilingLocation>SEC OF STATE MICHIGA</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0">UNDEFINED</Collateral>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041206</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="03">ASSIGNED</LegalAction>
+				<DocumentNumber>06004015309     </DocumentNumber>
+				<FilingLocation>FULTON SPR COURT    </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="03">ASSIGNED</LegalAction>
+					<FilingState>GA</FilingState>
+					<DocumentNumber>0600401519      </DocumentNumber>
+					<DateFiled>20041202</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>CHOICEPOINT CAPITAL INC. DE WILMINGTON 19801 300 DELAWARE AV</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040708</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>092727628       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040708</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>092727644       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040708</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>092727652       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040708</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="01">FILED</LegalAction>
+				<DocumentNumber>092727769       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20070507</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="08">TERMINATED</LegalAction>
+				<DocumentNumber>095411723       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>KS</FilingState>
+					<DocumentNumber>092727628       </DocumentNumber>
+					<DateFiled>20040708</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20070507</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="08">TERMINATED</LegalAction>
+				<DocumentNumber>095411715       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>KS</FilingState>
+					<DocumentNumber>092727644       </DocumentNumber>
+					<DateFiled>20040708</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20070507</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="08">TERMINATED</LegalAction>
+				<DocumentNumber>095411707       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>KS</FilingState>
+					<DocumentNumber>092727652       </DocumentNumber>
+					<DateFiled>20040708</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040721</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="08">TERMINATED</LegalAction>
+				<DocumentNumber>092758590       </DocumentNumber>
+				<FilingLocation>SEC OF STATE KANSAS </FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>KS</FilingState>
+					<DocumentNumber>092727769       </DocumentNumber>
+					<DateFiled>20040708</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040618</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="08">TERMINATED</LegalAction>
+				<DocumentNumber>22422507        </DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+					<Collateral code=" "/>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="08">TERMINATED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>22422507        </DocumentNumber>
+					<DateFiled>20040618</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>XML TESTING CORPORATION GA ALPHARETTA 30005 1000 ALDERMAN DR</SecuredParty>
+			</UCCFilings>
+			<LeasingInformation>
+				<LeasingName>LEASING SERVICES                        </LeasingName>
+				<CityAndState>CEDAR RAPIDS,                           </CityAndState>
+				<Zip>524060609</Zip>
+				<PhoneNumber>3193658000</PhoneNumber>
+				<LeaseCommencementDate>20041200</LeaseCommencementDate>
+				<OriginalLeaseAmount>000000013680</OriginalLeaseAmount>
+				<LeaseCloseDate>00000000</LeaseCloseDate>
+				<LeaseTerm>048 </LeaseTerm>
+				<PaymentsPerYear>012</PaymentsPerYear>
+				<PaymentInterval code="1">Monthly</PaymentInterval>
+				<PaymentType code="1">Fixed</PaymentType>
+				<CurrentDueDate>00000000</CurrentDueDate>
+				<ScheduledAmountDue>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000285</Amount>
+				</ScheduledAmountDue>
+				<CurrentBalanceAmount>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</CurrentBalanceAmount>
+				<NumberOfPaymentsOverdue>000</NumberOfPaymentsOverdue>
+				<PaymentOverdueAmount>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</PaymentOverdueAmount>
+				<TotalRemainingBalance>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000002565</Amount>
+				</TotalRemainingBalance>
+				<NumberOfCurrentPayments>000</NumberOfCurrentPayments>
+				<NumberOfLatePayments>000</NumberOfLatePayments>
+				<DaysLate30>006</DaysLate30>
+				<DaysLate60>000</DaysLate60>
+				<DaysLate90>000</DaysLate90>
+				<DaysLate90Plus>000</DaysLate90Plus>
+				<CurrentPaymentAmount>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</CurrentPaymentAmount>
+				<TotalLatePaymentAmount>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</TotalLatePaymentAmount>
+				<Amount30DaysLate>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</Amount30DaysLate>
+				<Amount60DaysLate>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</Amount60DaysLate>
+				<Amount90DaysLate>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</Amount90DaysLate>
+				<Amount90PlusDaysLate>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</Amount90PlusDaysLate>
+				<LeaseProductType>OFFICE EQUP    </LeaseProductType>
+				<LeaseType>OPERATING </LeaseType>
+				<LeaseExtractDate>20071217</LeaseExtractDate>
+			</LeasingInformation>
+			<DemographicInformation>
+				<PrimarySICCode>7374</PrimarySICCode>
+				<SICDescription>COMPUTER PROCESSING &amp; DATA SVCS   </SICDescription>
+				<YearsInBusinessIndicator code=" ">Not Available</YearsInBusinessIndicator>
+				<YearsInBusinessOrLowRange>000</YearsInBusinessOrLowRange>
+				<HighRangeYears>000</HighRangeYears>
+				<SalesIndicator code="1">Actual Amount Provided</SalesIndicator>
+				<SalesRevenueOrLowRange>001057900000</SalesRevenueOrLowRange>
+				<HighRangeOfSales>000000000000</HighRangeOfSales>
+				<ProfitLossIndicator code=" ">Not Available</ProfitLossIndicator>
+				<ProfitLossCode code=" "/>
+				<ProfitAmountOrLowRange>000000000000</ProfitAmountOrLowRange>
+				<HighRangeOfProfit>000000000000</HighRangeOfProfit>
+				<NetWorthIndicator code=" ">Not Available</NetWorthIndicator>
+				<NetWorthAmountOrLowRange>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</NetWorthAmountOrLowRange>
+				<HighRangeOrNetWorth>
+					<Modifier code=" ">Not Applicable</Modifier>
+					<Amount>00000000000</Amount>
+				</HighRangeOrNetWorth>
+				<EmployeeIndicator code="1">Actual Amount Provided</EmployeeIndicator>
+				<EmployeeSizeOrLowRange>000005325</EmployeeSizeOrLowRange>
+				<HighEmployeeRange>000000000</HighEmployeeRange>
+				<InBuildingDate>00000000</InBuildingDate>
+				<BuildingSize>0000000</BuildingSize>
+				<BuildingOwnership code=" "/>
+				<Ownership code=" "/>
+				<Location code=" ">Not Available</Location>
+				<BusinessType code="F"/>
+				<CustomerCount>0000000</CustomerCount>
+				<DateFounded>00000000</DateFounded>
+			</DemographicInformation>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>DEREK               VSMITH                                       </Name>
+				<Title>CHAIRMAN            </Title>
+			</KeyPersonnelExecutiveInformation>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>DOUGLAS             CCURLING                                     </Name>
+				<Title>PRESIDENT           </Title>
+			</KeyPersonnelExecutiveInformation>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>DAVID               TLEE                                         </Name>
+				<Title>EXEC VP             </Title>
+			</KeyPersonnelExecutiveInformation>
+			<Inquiry>
+				<InquiryBusinessCategory>CRED CARD </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>DP SERVCS </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>EQUIP LEAS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>FACTOR    </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>FINANCE   </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>GENERAL   </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>NEWSPAPERS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>PETRO&amp;COAL</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TOTALS    </InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20071200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071100</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20071000</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070900</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070500</Date>
+					<Count>002</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20070400</Date>
+					<Count>002</Count>
+				</InquiryCount>
+			</Inquiry>
+			<StandardAndPoorsText>
+				<Text>     BALANCE SHEET FOR FISCAL YEAR ENDING DEC 31                                </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>     DATA CURRENT THROUGH 03-20-07  ($THOUSANDS)                                </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>                                       2006        2005        2004             </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>CASH AND EQUIVALENT                       NA      21,337       1,577            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>RECEIVABLES - NET                          0     218,289     186,629            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>INVENTORY                                 NA           0           0            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>OTHER CURRENT ASSETS                       0      32,612      30,171            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>TOTAL CURRENT ASSETS                      NA     272,238     218,377            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>FIXED ASSETS - NET                        NA      73,518      68,224            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>INVESTMENTS                                0           0           0            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>OTHER ASSETS                               0   1,117,220   1,000,875            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>TOTAL ASSETS                              NA   1,462,976   1,287,476            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>DEBT DUE IN 1 YEAR                        NA      50,022      50,083            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>NOTES PAYABLE                              0           0           0            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>ACCOUNTS PAYABLE                          NA      45,212      39,421            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>TAXES PAYABLE                             NA       6,861           0            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>OTHER CURRENT LIABILITIES                 NA     168,489     134,164            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>TOTAL CURRENT LIABILITIES                 NA     270,584     223,668            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>LONG TERM DEBT                            NA      80,035          17            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>OTHER LIABILITIES                          0      91,483      80,132            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>NET WORTH                                  0   1,020,874     983,659            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>TOTAL LIAB AND NET WORTH                  NA   1,462,976   1,287,476            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>  OPERATING STATEMENT FOR FISCAL YEAR ENDING DEC 31 (&amp;THOUSANDS)                </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>  DATA CURRENT THROUGH 03-20-07                    2006        2005        2004 </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>NET SALES                                             NA   1,057,914     918,713</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>COST OF GOODS SOLD                                    NA     541,970     470,948</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>GROSS INCOME ON SALES                                  0     515,944     447,765</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>EXPENSES                                               0     283,312     208,935</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>PRE-TAX INCOME                                         0     232,632     238,830</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>TAXES                                                 NA      91,976      90,875</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>AFTER TAX INCOME                                      NA     140,656     147,955</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>EXTRAORD INC &amp; DISCNTD  OPS                           NA           0           0</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>NET INCOME                                            NA     140,656     147,955</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>  CRITICAL DATA AND RATIOS FOR FISCAL YEAR ENDING DEC 31 ($THOUSANDS)           </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>  DATA CURRENT THROUGH 03-20-07     INDUSTRY       2006        2005        2004 </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>TANGIBLE NET WORTH                  AVERAGES           0      16,340      67,289</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>NET WORKING CAPITAL                 SIC 6411           0       1,654      -5,291</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>CURRENT RATIO(TIMES)                      .0         1.0          .9          .0</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>% TOTAL DEBT TO TANG NW                   .0     2,705.6       451.5            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>% CURRENT DEBT TO TANG NW                 .0     1,655.9       332.3            </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>% AFTER TAX INC TO TANG NW                .0       860.8       219.8          .0</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>% AFTER TAX INC TO NET SALES              .0        13.2        16.1          .0</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>NET SALES TO INVENTORY (TIMES)            .0          .0          .0          .0</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>CGS TO INVENTORY (TIMES)                  .0          .0          .0          .0</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>AVG DAYS SALES OUTSTNDNG(DAYS)            .0          .0          .0          .0</Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>AUDITOR OPINION                                                                 </Text>
+			</StandardAndPoorsText>
+			<StandardAndPoorsText>
+				<Text>-NOT AVAILABLE                                                                  </Text>
+			</StandardAndPoorsText>
+			<CustomHeader code="H">THE OBJECTIVE OF THE EXPERIAN INTELLISCORE MODEL IS TO PREDICT                  </CustomHeader>
+			<CustomHeader code="H">SERIOUSLY DEROGATORY PAYMENT BEHAVIOR.  SCORES RANGE FROM 0 TO 100              </CustomHeader>
+			<CustomHeader code="H">WHERE 0 REPRESENTS A HIGH RISK AND 100 REPRESENTS A LOW RISK.                   </CustomHeader>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="Y">Profile may contain data which for other businesses would be considered derogatory. Use caution in applying score.</PubliclyHeldCompany>
+				<LimitedProfile code="N"/>
+				<Filler>03        </Filler>
+				<ScoreInfo>
+					<Score>0000001611</Score>
+				</ScoreInfo>
+				<ModelInformation>
+					<ModelCode>000210</ModelCode>
+					<ModelTitle>COMMERCIAL ALL-INDUSTRY II              </ModelTitle>
+					<CustomModelCode>03</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>008</PercentileRanking>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="013 ">NUMBER OF DEROGATORY PUBLIC RECORD ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="016 ">NUMBER OF RECENT COLLECTION ACCOUNTS                        </ScoreFactor>
+				<ScoreFactor code="027 ">PRESENCE OF DELINQUENT ACCOUNTS                             </ScoreFactor>
+				<ScoreFactor code="018 ">NUMBER OF DELINQUENT OR DEROGATORY ACCOUNTS                 </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<TotalAgedTrades>00024</TotalAgedTrades>
+				<TotalAgedTradesNoInfoLast4Months>00025</TotalAgedTradesNoInfoLast4Months>
+				<BalanceAgedTradesNoInfoLast4Months>0000000344800</BalanceAgedTradesNoInfoLast4Months>
+				<WeightedDBTAgedTradesNoInfoLast4Months>0000000000026</WeightedDBTAgedTradesNoInfoLast4Months>
+				<MaximumDBTAgedTradesNoInfoLast4Months>00075</MaximumDBTAgedTradesNoInfoLast4Months>
+				<CommercialBankAccounts>000</CommercialBankAccounts>
+				<CommercialBankAccountsPast6Months>00000</CommercialBankAccountsPast6Months>
+				<CommercialBankAccountsPast12Months>00000</CommercialBankAccountsPast12Months>
+				<NewestCommercialBankAccountAge>00000</NewestCommercialBankAccountAge>
+				<OldestCommercialBankAccountAge>00000</OldestCommercialBankAccountAge>
+				<CommercialBankAccountsAverageAge>000000000</CommercialBankAccountsAverageAge>
+				<AssetBasedCommercialBankAccounts>00000</AssetBasedCommercialBankAccounts>
+				<BankLoanAccounts>00000</BankLoanAccounts>
+				<CommercialBankAccountsBalance>0000000000000</CommercialBankAccountsBalance>
+				<CommercialBankAccountsBalancePast6Months>0000000000000</CommercialBankAccountsBalancePast6Months>
+				<CommercialBankAccountsBalancePast12Months>0000000000000</CommercialBankAccountsBalancePast12Months>
+				<BankruptcyFilings>000</BankruptcyFilings>
+				<BankruptcyFilingsLast24Months>000</BankruptcyFilingsLast24Months>
+				<NonFiledBankruptcyActions>00000</NonFiledBankruptcyActions>
+				<OpenBankruptcyFilingsLast24Months>000</OpenBankruptcyFilingsLast24Months>
+				<BankruptcyFilingsBalance>0000000000000</BankruptcyFilingsBalance>
+				<BankruptcyFilingsBalanceLast24Months>0000000000000</BankruptcyFilingsBalanceLast24Months>
+				<NonFiledBankruptcyActionsBalance>0000000000000</NonFiledBankruptcyActionsBalance>
+				<MostRecentBankruptcyFilingAge>00000</MostRecentBankruptcyFilingAge>
+				<MostRecentNonFiledBankruptcyActionAge>00000</MostRecentNonFiledBankruptcyActionAge>
+				<BusinessTypeCode>F</BusinessTypeCode>
+				<CollectionsCount>0002</CollectionsCount>
+				<CollectionsCountLast12Months>00002</CollectionsCountLast12Months>
+				<CollectionsCountLast24Months>002</CollectionsCountLast24Months>
+				<OpenCollectionsCount>0001</OpenCollectionsCount>
+				<AmountPlacedCollectionTrades>00000088</AmountPlacedCollectionTrades>
+				<AmountCollectedCollectionTrades>0000000000000</AmountCollectedCollectionTrades>
+				<AmountCollectedOpenCollectionTrades>0000000000000</AmountCollectedOpenCollectionTrades>
+				<MaximumAmountCollectedCollectionTrade>0000000000000</MaximumAmountCollectedCollectionTrade>
+				<MostRecentCollectionTradeAge>00004</MostRecentCollectionTradeAge>
+				<MostRecentOpenCollectionTradeAge>00007</MostRecentOpenCollectionTradeAge>
+				<CombinedTrades0PlusDBT>00005</CombinedTrades0PlusDBT>
+				<CombinedTrades30PlusDBT>00000</CombinedTrades30PlusDBT>
+				<CombinedTrades60PlusDBT>00000</CombinedTrades60PlusDBT>
+				<CombinedTrades90PlusDBT>00000</CombinedTrades90PlusDBT>
+				<CombinedTradesBalance>0000004371000</CombinedTradesBalance>
+				<CombinedTradesDBT>00007</CombinedTradesDBT>
+				<EmployeeSizeCode/>
+				<EstablishedDate>19970816</EstablishedDate>
+				<DBTUnkownComparedToAverage>00003</DBTUnkownComparedToAverage>
+				<DBTLowerThanAverage>004</DBTLowerThanAverage>
+				<DBTHigherThanAverage>00001</DBTHigherThanAverage>
+				<DBTSameAsAverage>00002</DBTSameAsAverage>
+				<InquiriesCountLast9Months>009</InquiriesCountLast9Months>
+				<InquiriesCountLast6Months>00005</InquiriesCountLast6Months>
+				<InquiriesCountLast3Months>00002</InquiriesCountLast3Months>
+				<OriginalJudgmentsCount>000</OriginalJudgmentsCount>
+				<JudgmentsCountLast24Months>000</JudgmentsCountLast24Months>
+				<NonFiledJudgmentActionsCount>00000</NonFiledJudgmentActionsCount>
+				<OriginalJudgmentsAmount>000000000</OriginalJudgmentsAmount>
+				<JudgmentsAmountLast24Months>000000000</JudgmentsAmountLast24Months>
+				<NonFiledJudgmentActionsAmount>0000000000000</NonFiledJudgmentActionsAmount>
+				<MostRecentJudgmentAge>00000</MostRecentJudgmentAge>
+				<MostRecentNonFiledJudgmentActionAge>00000</MostRecentNonFiledJudgmentActionAge>
+				<LegalFilingsCount>00008</LegalFilingsCount>
+				<LeasingTradesCount>001</LeasingTradesCount>
+				<VariableLeasingTradesCount>000</VariableLeasingTradesCount>
+			</KeyModelElements>
+			<KeyModelElements>
+				<LeasingTradesWithPeriodicalPayments>00000</LeasingTradesWithPeriodicalPayments>
+				<LeasingTradesWithSatisfactoryPayments>00000</LeasingTradesWithSatisfactoryPayments>
+				<LeasingTradesWithSlowPayments>000</LeasingTradesWithSlowPayments>
+				<VehicleLeasingTradesCount>00000</VehicleLeasingTradesCount>
+				<EquipmentLeasingTradesCount>00001</EquipmentLeasingTradesCount>
+				<FinanceLeasingTradesCount>00001</FinanceLeasingTradesCount>
+				<LeasingTrades1To12Months>00000</LeasingTrades1To12Months>
+				<LeasingTrades13To24Months>00000</LeasingTrades13To24Months>
+				<LeasingTrades25To60Months>00001</LeasingTrades25To60Months>
+				<LeasingTrades60PlusMonths>00000</LeasingTrades60PlusMonths>
+				<LeasingTradesWithScheduledExcludeLate>00001</LeasingTradesWithScheduledExcludeLate>
+				<LeasingTradesWithScheduledIncludeLate>00000</LeasingTradesWithScheduledIncludeLate>
+				<LeasingTradesWithOutstandingAmount>00000</LeasingTradesWithOutstandingAmount>
+				<LeasingTradesWithRemainingBalance>00001</LeasingTradesWithRemainingBalance>
+				<LeasingTradesOnTime>00000</LeasingTradesOnTime>
+				<LeasingTrades1To30DaysLate>00000</LeasingTrades1To30DaysLate>
+				<LeasingTrades31To60DaysLate>00000</LeasingTrades31To60DaysLate>
+				<LeasingTrades61To90DaysLate>00000</LeasingTrades61To90DaysLate>
+				<LeasingTrades91PlusDaysLate>00000</LeasingTrades91PlusDaysLate>
+				<LeasingTradesOriginalAmount>0000000013680</LeasingTradesOriginalAmount>
+				<LeasingTradesScheduledAmountExcludeLate>0000000000285</LeasingTradesScheduledAmountExcludeLate>
+				<LeasingTradesScheduledAmountIncludeLate>0000000000000</LeasingTradesScheduledAmountIncludeLate>
+				<LeasingTradesOutstandingAmount>0000000000000</LeasingTradesOutstandingAmount>
+				<LeasingTradesRemainingBalance>0000000002565</LeasingTradesRemainingBalance>
+				<LeasingTradesLatePaymentsCount>0000</LeasingTradesLatePaymentsCount>
+				<LeasingTradesCurrentPaymentsCount>0000</LeasingTradesCurrentPaymentsCount>
+				<LeasingTradesOutstandingPaymentsCount>00000</LeasingTradesOutstandingPaymentsCount>
+				<LeasingTradeMaximumOriginalAmount>0000000013680</LeasingTradeMaximumOriginalAmount>
+				<LeasingTradesMaximumScheduledAmountExcludeLate>0000000000285</LeasingTradesMaximumScheduledAmountExcludeLate>
+				<LeasingTradesMaximumScheduledAmountIncludeLate>0000000000000</LeasingTradesMaximumScheduledAmountIncludeLate>
+				<LeasingTradesMaximumRemainingBalance>0000000002565</LeasingTradesMaximumRemainingBalance>
+				<NewTradesCount>000</NewTradesCount>
+				<NewTradesBalance>00000000</NewTradesBalance>
+				<NewTradesDBT>00000</NewTradesDBT>
+				<NewTradeMaximumDBT>00000</NewTradeMaximumDBT>
+				<NewTradesMaskedToHighestRatio>00000</NewTradesMaskedToHighestRatio>
+				<OtherTradesCount>002</OtherTradesCount>
+				<OtherTradesCountLast4Months>001</OtherTradesCountLast4Months>
+				<OtherTradesMaskedBalanceLast4Months>0000000013400</OtherTradesMaskedBalanceLast4Months>
+				<AverageDBTOtherTradesLast4Months>00000001</AverageDBTOtherTradesLast4Months>
+				<MaximumDBTOtherTradesLast4Months>00000001</MaximumDBTOtherTradesLast4Months>
+				<OtherTradesMaskedToHighestRatio>00082</OtherTradesMaskedToHighestRatio>
+				<SicCode>7374</SicCode>
+				<AllTradesMaskedToHighestRatio>00098</AllTradesMaskedToHighestRatio>
+				<OwnershipCode/>
+				<MostRecentPublicRecordAge>00000</MostRecentPublicRecordAge>
+				<OldestPublicRecordAge>00000</OldestPublicRecordAge>
+				<PublicRecordsAverageAge>0000</PublicRecordsAverageAge>
+				<RegularTradesCount>015</RegularTradesCount>
+				<RegularTradesBalance>04371000</RegularTradesBalance>
+				<RegularTradesBalanceCurrentMonth>04371300</RegularTradesBalanceCurrentMonth>
+				<RegularTradesBalance1MonthPrior>04367100</RegularTradesBalance1MonthPrior>
+				<RegularTradesBalance2MonthsPrior>04348900</RegularTradesBalance2MonthsPrior>
+				<RegularTradesBalance3MonthsPrior>03666400</RegularTradesBalance3MonthsPrior>
+				<RegularTradesBalance4MonthsPrior>04161300</RegularTradesBalance4MonthsPrior>
+				<RegularTradesBalance5MonthsPrior>04282100</RegularTradesBalance5MonthsPrior>
+				<RegularTradesAverageBalanceCurrent>0000002165576</RegularTradesAverageBalanceCurrent>
+				<RegularTradesAverageBalance1To30DBT>0000002019868</RegularTradesAverageBalance1To30DBT>
+				<RegularTradesAverageBalance31To60DBT>0000000014072</RegularTradesAverageBalance31To60DBT>
+				<RegularTradesAverageBalance61To90DBT>00000000</RegularTradesAverageBalance61To90DBT>
+			</KeyModelElements>
+			<KeyModelElements>
+				<RegularTradesAverageBalance91PlusDBT>00000000</RegularTradesAverageBalance91PlusDBT>
+				<RegularTradesBalanceCurrentQuarter>04057800</RegularTradesBalanceCurrentQuarter>
+				<RegularTradesBalance1QuarterPrior>03600100</RegularTradesBalance1QuarterPrior>
+				<RegularTradesBalance2QuartersPrior>02195300</RegularTradesBalance2QuartersPrior>
+				<RegularTradesBalance3QuartersPrior>03885200</RegularTradesBalance3QuartersPrior>
+				<RegularTradesBalance4QuartersPrior>01230400</RegularTradesBalance4QuartersPrior>
+				<DBTRegularTrades>007</DBTRegularTrades>
+				<DBTRegularTradesCurrentMonth>007</DBTRegularTradesCurrentMonth>
+				<DBTRegularTrades1MonthPrior>007</DBTRegularTrades1MonthPrior>
+				<DBTRegularTrades2MonthsPrior>007</DBTRegularTrades2MonthsPrior>
+				<DBTRegularTrades3MonthsPrior>007</DBTRegularTrades3MonthsPrior>
+				<DBTRegularTrades4MonthsPrior>008</DBTRegularTrades4MonthsPrior>
+				<DBTRegularTrades5MonthsPrior>008</DBTRegularTrades5MonthsPrior>
+				<MaximumDBTRegularTrade>00017</MaximumDBTRegularTrade>
+				<DBTRegularTradesCurrentQuarter>007</DBTRegularTradesCurrentQuarter>
+				<DBTRegularTrades1QuarterPrior>006</DBTRegularTrades1QuarterPrior>
+				<DBTRegularTrades2QuartersPrior>001</DBTRegularTrades2QuartersPrior>
+				<DBTRegularTrades3QuartersPrior>007</DBTRegularTrades3QuartersPrior>
+				<DBTRegularTrades4QuartersPrior>001</DBTRegularTrades4QuartersPrior>
+				<RegularTradesCountCurrent>004</RegularTradesCountCurrent>
+				<RegularTradesCount1To30DBT>00003</RegularTradesCount1To30DBT>
+				<RegularTradesCount31To60DBT>001</RegularTradesCount31To60DBT>
+				<RegularTradesCount61To90DBT>001</RegularTradesCount61To90DBT>
+				<RegularTradesCount91PlusDBT>000</RegularTradesCount91PlusDBT>
+				<RegularTradesCountDerog>000</RegularTradesCountDerog>
+				<DBTChangeRegularTrades6MonthsPrior sign=" ">00000</DBTChangeRegularTrades6MonthsPrior>
+				<DBTChangeRegularTrades5QuartersPrior sign=" ">00001</DBTChangeRegularTrades5QuartersPrior>
+				<RegularTradesMaskedToHighestRatio>00098</RegularTradesMaskedToHighestRatio>
+				<BadTradesCount>002</BadTradesCount>
+				<BadTradesMaskedBalance>0000000000900</BadTradesMaskedBalance>
+				<GoodTradesCount>008</GoodTradesCount>
+				<GoodTradesMaskedBalance>0000004359500</GoodTradesMaskedBalance>
+				<IndeterminateTradesCount>00007</IndeterminateTradesCount>
+				<TotalTradesCount>041</TotalTradesCount>
+				<TotalActiveTradesCount>020</TotalActiveTradesCount>
+				<TradesCountBalanceToLoan70Plus>003</TradesCountBalanceToLoan70Plus>
+				<TotalTradesCountLast6Months>00016</TotalTradesCountLast6Months>
+				<TotalTradesCountLast12Months>00018</TotalTradesCountLast12Months>
+				<ActiveTradesCountLast6Months>006</ActiveTradesCountLast6Months>
+				<ActiveTradesCountLast12Months>008</ActiveTradesCountLast12Months>
+				<MostRecentTradeAge>0002</MostRecentTradeAge>
+				<OldestTradeAge>00036</OldestTradeAge>
+				<TradesAverageAge>00014</TradesAverageAge>
+				<TradesCountDBT0Plus>013</TradesCountDBT0Plus>
+				<TradesCountDBT30Plus>00002</TradesCountDBT30Plus>
+				<TradesCountDBT60Plus>00002</TradesCountDBT60Plus>
+				<TradesCountDBT90Plus>000</TradesCountDBT90Plus>
+				<TotalAccountBalance>04729200</TotalAccountBalance>
+				<HighCreditBalance>05925900</HighCreditBalance>
+				<MaximumBalanceCurrent>0000002367420</MaximumBalanceCurrent>
+				<MaximumBalance1To30DBT>01936980</MaximumBalance1To30DBT>
+				<MaximumBalance31To60DBT>00108452</MaximumBalance31To60DBT>
+				<MaximumBalance61To90DBT>00002854</MaximumBalance61To90DBT>
+				<MaximumBalance91PlusDBT>0000000001242</MaximumBalance91PlusDBT>
+				<AccountBalanceCurrent>0000002440176</AccountBalanceCurrent>
+				<AccountBalance1To30DBT>0000002163592</AccountBalance1To30DBT>
+				<AccountBalance31To60DBT>00115561</AccountBalance31To60DBT>
+				<AccountBalance61To90DBT>00007855</AccountBalance61To90DBT>
+				<AccountBalance91PlusDBT>00002016</AccountBalance91PlusDBT>
+				<MonthsOnFile>0126</MonthsOnFile>
+				<MaximumBalanceLast12Months>0000004304400</MaximumBalanceLast12Months>
+				<TradesCountMaskedBalanceGreaterThanHighCredit>00006</TradesCountMaskedBalanceGreaterThanHighCredit>
+				<TradesCountNet30>021</TradesCountNet30>
+				<TradesCountNet60>00001</TradesCountNet60>
+				<TradesCountNet61Plus>00000</TradesCountNet61Plus>
+			</KeyModelElements>
+			<KeyModelElements>
+				<TradesCountCash>00004</TradesCountCash>
+				<TradesCountContract>00005</TradesCountContract>
+				<TradesCountRevolvingCredit>002</TradesCountRevolvingCredit>
+				<TradesCountVaried>005</TradesCountVaried>
+				<TradesCountOther>00003</TradesCountOther>
+				<OriginalTaxLiensCount>008</OriginalTaxLiensCount>
+				<TaxLiensCountLast24Months>000</TaxLiensCountLast24Months>
+				<NonFiledTaxLiensCount>00007</NonFiledTaxLiensCount>
+				<OriginalTaxLiensAmount>000280782</OriginalTaxLiensAmount>
+				<TaxLiensAmountLast24Months>0000000000000</TaxLiensAmountLast24Months>
+				<NonFiledTaxLiensAmount>0000000307842</NonFiledTaxLiensAmount>
+				<MostRecentTaxLienAge>00025</MostRecentTaxLienAge>
+				<MostRecentNonFiledTaxLienAge>00021</MostRecentNonFiledTaxLienAge>
+				<ActiveTradesCountZeroBalance>00003</ActiveTradesCountZeroBalance>
+				<TradesCountZeroBalance>00024</TradesCountZeroBalance>
+				<UCCFilingsCountDetail>00023</UCCFilingsCountDetail>
+				<UCCFilingsCountSummary>023</UCCFilingsCountSummary>
+				<OpenUCCFilingsCountLast24Months>009</OpenUCCFilingsCountLast24Months>
+				<Original5YearUCCFilingsCountLast24Months>00005</Original5YearUCCFilingsCountLast24Months>
+				<OriginalUCCFilingsCount>00016</OriginalUCCFilingsCount>
+				<Original5YearUCCFilingsCount>00016</Original5YearUCCFilingsCount>
+				<UCCFilingsCountAmended>00000</UCCFilingsCountAmended>
+				<UCCFilingsCountAssigned>00002</UCCFilingsCountAssigned>
+				<UCCFilingsCountPatialRelease>00000</UCCFilingsCountPatialRelease>
+				<UCCFilingsCountFullRelease>00000</UCCFilingsCountFullRelease>
+				<UCCFilingsCountReleased>00000</UCCFilingsCountReleased>
+				<UCCFilingsCountTerminated>00005</UCCFilingsCountTerminated>
+				<UCCFilingsCountContinued>00000</UCCFilingsCountContinued>
+				<Original10YearUCCFilingsCount>00000</Original10YearUCCFilingsCount>
+				<DerogUCCFilingsCount>000</DerogUCCFilingsCount>
+				<DerogUCCFilingsCountLast24Months>00000</DerogUCCFilingsCountLast24Months>
+			</KeyModelElements>
+			<CustomFooter code="F">TERMS:_________________________  CREDIT LIMIT:________________________          </CustomFooter>
+			<CustomFooter code="F">COMMENTS:______________________  SIGNATURE:___________________________          </CustomFooter>
+			<CustomFooter code="F">DPL#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">PAM#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">CCID#____________________                                                       </CustomFooter>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

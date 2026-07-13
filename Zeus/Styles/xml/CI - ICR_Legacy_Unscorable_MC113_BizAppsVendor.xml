@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>user1abc001</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>997193</SubscriberNumber>
+				<InquiryTransactionNumber>C307774660</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/T02996577/MC-000113/IR/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>T02996577</ExperianFileNumber>
+				<ProfileType code="SCORE">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20071212</ProfileDate>
+				<ProfileTime>21:12:27</ProfileTime>
+				<TerminalNumber>-ARA</TerminalNumber>
+				<FileEstablishDate>19950100</FileEstablishDate>
+				<FileEstablishFlag code=""/>
+				<BusinessName>ICR INVESTMENTS</BusinessName>
+				<StreetAddress>363 N SAM HOUSTON PKWY E</StreetAddress>
+				<City>HOUSTON</City>
+				<State>TX</State>
+				<Zip>77060</Zip>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00000000</AllTradelineBalance>
+				<AllTradelineCount>000</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+				<TaxID>001107226</TaxID>
+			</ExecutiveElements>
+			<CorporateInformation>
+				<StateOfOrigin>TX</StateOfOrigin>
+				<OriginalFilingDate>19880727</OriginalFilingDate>
+				<RecentFilingDate>00000000</RecentFilingDate>
+				<IncorporatedDate>00000000</IncorporatedDate>
+				<BusinessType code="I">Incorporated</BusinessType>
+				<StatusFlag code="A">Active</StatusFlag>
+				<ProfitFlag code="P">Profit</ProfitFlag>
+				<CharterNumber>0108439600</CharterNumber>
+				<FederalTaxID>001107226</FederalTaxID>
+				<StateTaxID>30011072268</StateTaxID>
+				<AgentInformation>
+					<Name>CT CORPORATION SYSTEM</Name>
+					<StreetAddress>350 N SAINT PAUL ST</StreetAddress>
+					<City>DALLAS</City>
+					<State>TX</State>
+				</AgentInformation>
+			</CorporateInformation>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="Y">Profile response is Limited and therefore not scored. Business profile segments will be returned.</LimitedProfile>
+				<Filler>00</Filler>
+			</IntelliscoreScoreInformation>
+			<BillingIndicator code="A">Access Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

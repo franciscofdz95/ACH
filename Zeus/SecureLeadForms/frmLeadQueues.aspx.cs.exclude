@@ -1,0 +1,42 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class SecureLeadForms_frmLeadQueues : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!this.IsPostBack)
+        {
+            Hashtable prms = new Hashtable();
+            prms.Add("@Statusuid", "CA64EB30-8BCC-41E5-B36E-C7948BF6A4D9");
+            prms.Add("@AgentUID", "A3FF39A6-9105-4365-BF5A-B394F06B55E9");
+            prms.Add("@Username", "mnguyen");
+            WucSalesAssigned.SetDataSource(prms, "Assigned");
+
+
+            prms = new Hashtable();
+            prms.Add("@Statusuid", "14CC41A5-5047-420E-AF45-A56DF6BC796B");
+            prms.Add("@AgentUID", "A3FF39A6-9105-4365-BF5A-B394F06B55E9");
+            prms.Add("@Username", "mnguyen");
+            WucSalesInCommunication.SetDataSource(prms, "In Communication");
+
+            prms = new Hashtable();
+            prms.Add("@Statusuid", "71371612-989D-4E88-B8F8-2EDEB1511CEB");
+            prms.Add("@AgentUID", "A3FF39A6-9105-4365-BF5A-B394F06B55E9");
+            prms.Add("@Username", "mnguyen");
+            WucSalesFileInReview.SetDataSource(prms, "File in Review");
+
+
+            
+            
+        }
+    }
+}

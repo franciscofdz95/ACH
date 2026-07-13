@@ -1,0 +1,211 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPageMerchant" CodeBehind="MasterPageMerchant.master.cs" %>
+
+<%@ Register Src="UserControls/wucMessage.ascx" TagName="wucMessage" TagPrefix="uc1" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+
+<%@ Register Src="UserControls/wucTopMenu.ascx" TagName="wucTopMenu" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/wucCommonScripts.ascx" TagName="wucCommonScripts"
+    TagPrefix="uc3" %>
+<%@ Register Src="UserControls/wucFooter.ascx" TagName="wucFooter" TagPrefix="uc4" %>
+<%@ Register Src="UserControls/SidePanel/wucLastTicketsMerchant.ascx" TagName="wucLastTicketsMerchant"
+    TagPrefix="uc6" %>
+<%@ Register Src="UserControls/SidePanel/wucQuickMerchantSearch.ascx" TagName="wucQuickMerchantSearch"
+    TagPrefix="uc7" %>
+<%@ Register Src="UserControls/SidePanel/wucRecentlyAccessedMerchants.ascx" TagName="wucRecentlyAccessedMerchants"
+    TagPrefix="uc8" %>
+<%@ Register Src="UserControls/SidePanel/wucMerchantUserAccess.ascx" TagName="wucMerchantUserAccess"
+    TagPrefix="uc9" %>
+<%@ Register Src="UserControls/SidePanel/wucLastNotesMerchant.ascx" TagName="wucLastNotesMerchant" TagPrefix="uc10" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Merchants</title>
+    <uc3:wucCommonScripts ID="wucCommonScripts1" runat="server" />
+    <asp:ContentPlaceHolder ID="HeadPlaceHolder" runat="server" />
+    <style type="text/css">
+    .hideGridColumn
+     { 
+          display: none; 
+
+     }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!--PXP-8982:Ajax panel implementation by Sanidhya-->
+        <asp:ScriptManager ID="ScriptManager1" runat="server"  EnablePartialRendering="true">
+        </asp:ScriptManager>
+        <uc2:wucTopMenu ID="wucTopMenu1" TopMenuSelect="Merchants" runat="server" />
+        <table id='zeuslayout'>
+            <tr>
+                <td class='zleft'>
+                    <div id="menuside">
+                        <asp:Panel ID="pnlSideMenu" CssClass="rounded" runat="server">
+                            <ul>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabSearch" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantSearch.aspx"
+                                        runat="server">Search</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabProfile" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantProfile.aspx"
+                                        runat="server">Profile</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabFees" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantFees.aspx"
+                                        runat="server">Fees</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabOwners" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantOwners.aspx"
+                                        runat="server">Owners</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabACHProfile" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantACH.aspx"
+                                        runat="server">ACH/DD</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabUnderwriting" NavigateUrl="~/SecureMerchantManagementForms/frmUnderwriting.aspx"
+                                        runat="server">Credit</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabPending" NavigateUrl="~/SecureMerchantManagementForms/frmUnderwritingPending.aspx"
+                                        runat="server">Conditions</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantCompliance" runat="server" NavigateUrl="~/SecureMerchantManagementForms/frmCompliance.aspx">Website Review</asp:HyperLink>
+                                </li>
+                                 <li>
+                                    <asp:HyperLink ID="lnkMerchantCollections" runat="server" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantCollections.aspx">Collections</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabRisk" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantRisk.aspx"
+                                        runat="server">Risk</asp:HyperLink>
+                                </li>
+                                <%--<li>
+                                <asp:HyperLink ID="lnkMerchantTabFraudXP" NavigateUrl="~/SecureMerchantManagementForms/frmFraudXP.aspx"
+                                    runat="server">FraudXP</asp:HyperLink>
+                            </li>--%>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantProducts" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantProducts.aspx"
+                                        runat="server">Products</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabDeployment" NavigateUrl="~/SecureMerchantManagementForms/frmDeployment.aspx"
+                                        runat="server">Deployment</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabStatements" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantStatements.aspx"
+                                        runat="server">Statements</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabInvoicing" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantInvoicing.aspx"
+                                        runat="server">Invoicing</asp:HyperLink>
+                                </li>
+
+                                <%-- sedavelli : Commenting out the page instead of removing it from the code, as this page is no longer required.
+                               <li>
+                                <asp:HyperLink ID="lnkMerchantTabServices" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantCategories.aspx"
+                                    runat="server">Services</asp:HyperLink>
+                            </li>--%>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabNotes" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantNotes.aspx"
+                                        runat="server">Notes</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabEmails" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantEmails.aspx"
+                                        runat="server">Emails</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabHistory" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantHistory.aspx"
+                                        runat="server">History</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabCorporateAccounts" NavigateUrl="~/SecureMerchantManagementForms/frmCorporateAccounts.aspx"
+                                        runat="server">Linked Accounts</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabDocuments" runat="server" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantDocuments.aspx">Documents</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantTabPci" runat="server" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantPCI.aspx">PCI</asp:HyperLink>
+                                </li>
+                                <%--<li>
+                                    <asp:HyperLink ID="lnkMerchantTabFirstTeam" runat="server" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantFirstTeam.aspx">Premier Services</asp:HyperLink>
+                                </li>--%>
+                                <li>
+                                    <asp:HyperLink ID="lnkMerchantAlerts" runat="server" NavigateUrl="~/SecureMerchantManagementForms/frmMerchantAlerts.aspx">Alerts</asp:HyperLink>
+                                </li>
+                                <%--  <li>
+                                <asp:HyperLink ID="lnkBack" runat="server">Back To Queue</asp:HyperLink>
+                            </li>--%>
+                                <li>
+                                    <hr />
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="interlinkPxp" OnClick="interlinkPxp_Click" runat="server" Text="Open PaymentXP"
+                                        CausesValidation="False"></asp:LinkButton>
+                                </li>
+                                <li>
+                                    <asp:LinkButton ID="interlinkInsight" OnClick="interlinkInsight_Click" runat="server"
+                                        Text="Open Insight" CausesValidation="False"></asp:LinkButton>
+                                </li>
+                            </ul>
+                        </asp:Panel>
+                    </div>
+
+                   <asp:ContentPlaceHolder ID="cphLeftBottom" runat="server"></asp:ContentPlaceHolder>
+                </td>
+                <td class='zmiddle'>
+                    <div id="content">
+                        <asp:Panel ID="pnlMasterTable" runat="server" Visible="False">
+                            <div id="mastertable">
+                                <asp:Panel ID="pnlFirstTeam" runat="server" Height="" Width="">
+                                    <fieldset class="dialog" style="height: 100px">
+                                        <legend>Premier Services</legend>
+                                        <div style="overflow-x: auto; overflow-y; width: 100%; height: 75px;">
+                                            <asp:Label ID="FirstTeamNotes" runat="server" ForeColor="#ce0000" Text=""></asp:Label>
+                                            <asp:TextBox ID="FirstTeamNotesEdit" runat="server" Height="65px" MaxLength="255"
+                                                TextMode="MultiLine" Width="99%" Text=""></asp:TextBox>
+                                        </div>
+                                    </fieldset>
+                                </asp:Panel>
+                                <asp:Panel ID="pnlAgentMemo" runat="server" Height="" Width="">
+                                    <fieldset class="dialog" style="height: 100px;">
+                                        <legend>Agent Memo</legend>
+                                        <div style="overflow-x: auto; overflow-y; width: 100%; height: 75px;">
+                                            <asp:Label ID="AgentMemo" runat="server" ForeColor="#ce0000" Text=""></asp:Label>
+                                        </div>
+                                    </fieldset>
+                                </asp:Panel>
+                                <asp:Panel ID="pnlMerchantMemo" runat="server" Height="" Width="">
+                                    <fieldset class="dialog" style="height: 100px">
+                                        <legend>Merchant Memo</legend>
+                                        <div style="overflow-x: auto; overflow-y; width: 100%; height: 75px;">
+                                             <asp:Label ID="UWSalesFNotes" runat="server" ForeColor="#ce0000" Text=""></asp:Label>
+                                            <asp:Label ID="UWNotes" runat="server" ForeColor="#ce0000" Text=""></asp:Label>
+                                            <asp:TextBox ID="UWNotesEdit" runat="server" Height="65px" MaxLength="255" TextMode="MultiLine"
+                                                Width="99%" Text=""></asp:TextBox>
+                                        </div>
+                                    </fieldset>
+                                </asp:Panel>
+                            </div>
+                            <div style="clear: both;">
+                                &nbsp;
+                            </div>
+                        </asp:Panel>
+                        <uc1:wucMessage ID="WucMessage1" runat="server" />
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+                <td class='zright'>
+                    <uc8:wucRecentlyAccessedMerchants ID="wucRecentlyAccessedMerchants1" runat="server" />
+                    <uc7:wucQuickMerchantSearch ID="wucQuickMerchantSearch1" runat="server" />
+                    <uc6:wucLastTicketsMerchant ID="wucLastTicketsMerchant1" runat="server" />
+                    <uc10:wucLastNotesMerchant ID="wucLastNotesMerchant1" runat="server" />
+                </td>
+            </tr>
+        </table>
+        <uc4:wucFooter ID="wucFooter1" runat="server" />
+    </form>
+</body>
+</html>

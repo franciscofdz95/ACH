@@ -1,0 +1,102 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPageSales" CodeBehind="MasterPageSales.master.cs" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Src="UserControls/wucTopMenu.ascx" TagName="wucTopMenu" TagPrefix="uc1" %>
+<%@ Register Src="UserControls/wucFooter.ascx" TagName="wucFooter" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/wucCommonScripts.ascx" TagName="wucCommonScripts"
+    TagPrefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Sales</title>
+    <uc3:wucCommonScripts ID="wucCommonScripts1" runat="server" />
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <uc1:wucTopMenu ID="wucTopMenu1" TopMenuSelect="Sales" runat="server" />
+        <table id='zeuslayout'>
+            <tr>
+               
+                <td class='zleft'>
+                    <div id="menuside">
+                        <asp:Panel ID="pnlSideMenu" CssClass="rounded" runat="server">
+                            <ul>
+                                <li>
+                                    <asp:HyperLink ID="lnkLeadQueues" NavigateUrl="~/SecureLeadForms/frmLeadQueues.aspx"
+                                        runat="server">Status Queues</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkSearchLeads" NavigateUrl="~/SecureLeadForms/frmLeads.aspx"
+                                        runat="server">Search Leads</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkLeadDetails" NavigateUrl="~/SecureLeadForms/frmLeadsDetail.aspx"
+                                        runat="server">Lead Details</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink ID="lnkAssignLeads" NavigateUrl="~/SecureLeadForms/frmAssignLeads.aspx"
+                                        runat="server" Visible="true">Assign Leads</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkHistory" NavigateUrl="~/SecureLeadForms/frmLeadsHistory.aspx"
+                                        runat="server">History</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkEmail" NavigateUrl="~/SecureLeadForms/frmCommunications.aspx"
+                                        runat="server" Visible="false">Email</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkLeadReports" NavigateUrl="~/SecureLeadForms/frmLeadReports.aspx"
+                                        runat="server" Visible="true">Reports</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkLeadDocuments" NavigateUrl="~/SecureLeadForms/frmLeadDocuments.aspx"
+                                        runat="server" Visible="true">Documents</asp:HyperLink>
+                                </li>
+                            </ul>
+                        </asp:Panel>
+                    </div>
+                </td>
+                <td class='zmiddle'>
+                    <div id="content">
+                        <asp:Panel ID="pnlMasterTable" runat="server" Visible="False">
+                            <div id="mastertable">
+                                <asp:Panel ID="pnlAgentMemo" runat="server" Height="" Width="97%">
+                                    <fieldset class="dialog" style="height: 100px;">
+                                        <legend>Agent Memo</legend>
+                                        <div style="overflow-x: auto; overflow-y; width: 100%; height: 75px;">
+                                            <asp:Label ID="AgentMemo" runat="server" ForeColor="#ce0000" Text=""></asp:Label>
+                                        </div>
+                                    </fieldset>
+                                </asp:Panel>
+                                
+                            </div>
+                            <div style="clear: both;">
+                                &nbsp;
+                            </div>
+                        </asp:Panel>
+                       
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class='zright' style="padding-right:10px;">                    
+                    <asp:Panel runat="server" ID="pnlRecent">
+                        <fieldset style="width: 320px;">
+                            <legend>Recently Accessed Leads</legend>
+                            <asp:Literal runat="server" ID="litRecent"></asp:Literal>
+                        </fieldset>
+                    </asp:Panel>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+        <uc2:wucFooter ID="wucFooter1" runat="server" />
+    </form>
+</body>
+</html>

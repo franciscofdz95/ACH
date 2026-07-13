@@ -1,0 +1,310 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\cfi\CFI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CFI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<CommercialFraudInsight>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508604</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Comments>BUS ALL FIELDS TEST</Comments>
+				<Inquiry>NARQ/CADILLAC JACKS;CA-1402 E SOUTH MOUNTAIN AVE/PHOENIX AZ 85042/TID-1;116024231/PH-6022434231/BN-CADILLAC JACKS;3/CA-12798 RANCHO PENASQUITOS BLVD/SAN DIEGO CA 92129/M-BUS ALL FIELDS TEST/V-000777;01/USRID-BISQA8801</Inquiry>
+			</InputSummary>
+			<GeneralSummary type="Business" ident="B1A1">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-2BZ-CHLXZ333</AuditNbr>
+				<ResponseType>B1A1</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B1A1">
+				<AddrCode>BM</AddrCode>
+				<AddrMsg>Match to business name - mixed use address</AddrMsg>
+				<PhnCode>BB</PhnCode>
+				<PhnMsg>Match to business name and address - business phone</PhnMsg>
+				<AddrTypeCode>X </AddrTypeCode>
+				<AddrTypeMsg>Mixed use</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode/>
+				<AddrUnitMismatchMsg>Data not available</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>1 </OFACCode>
+				<OFACMsg>No match</OFACMsg>
+				<TaxIDCode>U </TaxIDCode>
+				<TaxIDMsg>Tax ID unverifiable - not in database</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B1A1">
+				<AddrCode>YA</AddrCode>
+				<AddrMsg>A high-risk business was identified at this address</AddrMsg>
+				<PhnCode>YP</PhnCode>
+				<PhnMsg>A high-risk business was identified for the address at this phone</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B1A1">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0001</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0001</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>01</AddrBusRecs>
+				<AddrHiRiskCodes>01</AddrHiRiskCodes>
+				<AddrHiRiskDescs>01</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>01</PhnBusRecs>
+				<PhnHiRiskCodes>01</PhnHiRiskCodes>
+				<PhnHiRiskDescs>01</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>00</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>02</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B1A1"/>
+			<StdAddr type="Business" ident="B1A1">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+				<City>PHOENIX</City>
+				<State>AZ</State>
+				<Zip>85042</Zip>
+				<Zip4>7925</Zip4>
+			</StdAddr>
+			<BusAddr type="Business" ident="B1A1">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+				<City>PHOENIX</City>
+				<State>AZ</State>
+				<Zip>85042</Zip>
+				<Zip4>7925</Zip4>
+				<AreaCode>602</AreaCode>
+				<PhnNbr>2434231</PhnNbr>
+			</BusAddr>
+			<AddrHiRiskCodes type="Business" ident="B1A1">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+				<City>PHOENIX</City>
+				<State>AZ</State>
+				<Zip>85042</Zip>
+				<Zip4>7925</Zip4>
+				<AreaCode>602</AreaCode>
+				<PhnNbr>2434231</PhnNbr>
+			</AddrHiRiskCodes>
+			<AddrHiRiskDescs type="Business" ident="B1A1">
+				<HighRiskDesc>Bars &amp; Lounges</HighRiskDesc>
+			</AddrHiRiskDescs>
+			<BusPhn type="Business" ident="B1A1">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+				<City>PHOENIX</City>
+				<State>AZ</State>
+				<Zip>85042</Zip>
+				<Zip4>7925</Zip4>
+				<AreaCode>602</AreaCode>
+				<PhnNbr>2434231</PhnNbr>
+			</BusPhn>
+			<PhnHiRiskCodes type="Business" ident="B1A1">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+				<City>PHOENIX</City>
+				<State>AZ</State>
+				<Zip>85042</Zip>
+				<Zip4>7925</Zip4>
+				<AreaCode>602</AreaCode>
+				<PhnNbr>2434231</PhnNbr>
+			</PhnHiRiskCodes>
+			<PhnHiRiskDescs type="Business" ident="B1A1">
+				<HighRiskDesc>Bars &amp; Lounges</HighRiskDesc>
+			</PhnHiRiskDescs>
+			<ValidationDetail type="Business" ident="B1A1">
+				<OFACValidationResult>1 </OFACValidationResult>
+			</ValidationDetail>
+			<ProfileContinuation>
+				<ContinuationAction>008</ContinuationAction>
+			</ProfileContinuation>
+			<GeneralSummary type="Business" ident="B1A2">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-2BZ-CHMD8B33</AuditNbr>
+				<ResponseType>B1A2</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B1A2">
+				<AddrCode>UR</AddrCode>
+				<AddrMsg>Address residential - name match unavailable (Name/Address no match to primary residential database, but address can be classified as residential)</AddrMsg>
+				<PhnCode>DB</PhnCode>
+				<PhnMsg>Match to business name - business address</PhnMsg>
+				<AddrTypeCode>O </AddrTypeCode>
+				<AddrTypeMsg>Office building</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode>MU</AddrUnitMismatchCode>
+				<AddrUnitMismatchMsg>Unit number is missing - expected at this address</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>12</OFACCode>
+				<OFACMsg>Match to company address only</OFACMsg>
+				<TaxIDCode>U </TaxIDCode>
+				<TaxIDMsg>Tax ID unverifiable - not in database</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B1A2">
+				<AddrCode>N </AddrCode>
+				<AddrMsg>No address high-risk information found</AddrMsg>
+				<PhnCode>YP</PhnCode>
+				<PhnMsg>A high-risk business was identified for the address at this phone</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B1A2">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0000</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0001</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>00</AddrBusRecs>
+				<AddrHiRiskCodes>00</AddrHiRiskCodes>
+				<AddrHiRiskDescs>00</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>01</PhnBusRecs>
+				<PhnHiRiskCodes>01</PhnHiRiskCodes>
+				<PhnHiRiskDescs>01</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>01</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>02</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B1A2"/>
+			<StdAddr type="Business" ident="B1A2">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>12798 RANCHO PENASQUITOS BLVD</Addr>
+				<City>SAN DIEGO</City>
+				<State>CA</State>
+				<Zip>92129</Zip>
+				<Zip4>2950</Zip4>
+			</StdAddr>
+			<BusPhn type="Business" ident="B1A2">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+				<City>PHOENIX</City>
+				<State>AZ</State>
+				<Zip>85042</Zip>
+				<Zip4>7925</Zip4>
+				<AreaCode>602</AreaCode>
+				<PhnNbr>2434231</PhnNbr>
+			</BusPhn>
+			<PhnHiRiskCodes type="Business" ident="B1A2">
+				<BusName>CADILLAC JACKS</BusName>
+				<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+				<City>PHOENIX</City>
+				<State>AZ</State>
+				<Zip>85042</Zip>
+				<Zip4>7925</Zip4>
+				<AreaCode>602</AreaCode>
+				<PhnNbr>2434231</PhnNbr>
+			</PhnHiRiskCodes>
+			<PhnHiRiskDescs type="Business" ident="B1A2">
+				<HighRiskDesc>Bars &amp; Lounges</HighRiskDesc>
+			</PhnHiRiskDescs>
+			<ValidationDetail type="Business" ident="B1A2">
+				<OFACValidationResult>12</OFACValidationResult>
+			</ValidationDetail>
+			<OFACDetail type="Business" ident="B1A2">
+				<OFACDesc>HOLY LAND FOUNDATION FOR RELIEF AND DEVELOPMENT (f.k.a. OCCUPIED LAND FUND), 525 International Parkway, Suite 509, Richardson, TX 75081, United States; P.O. Box 832390, Richardson, TX 75083, United States; 9250 S. Harlem Avenue, Bridgeview, IL, United States; 345 E. Railway Avenue, Paterson, NJ 07503, United States; Hebron, West Bank; Gaza Strip, undetermined; 12798 Rancho Penasquitos Blvd., Suite F, San Diego, CA 92128, United States; Jenin, West Bank; Shurta Street, 'Amira al-Ramuna, 4th Floor</OFACDesc>
+			</OFACDetail>
+			<OFACDetail type="Business" ident="B1A2">
+				<OFACDesc>, Ramallah, West Bank; US FEIN 95-4227517; and other locations within the United States [SDT| [SDGT|</OFACDesc>
+			</OFACDetail>
+			<HistoricalValidation>
+				<AppID>602508602</AppID>
+				<CreationDate>20080207</CreationDate>
+				<SubCode>563736</SubCode>
+				<UserID>GREG.GUNAJI</UserID>
+				<RegionID>2</RegionID>
+				<PreviousBusinessApplicant>
+					<BusName>CADILLAC JACKS</BusName>
+					<TaxID>116024231</TaxID>
+					<PrimaryAddress>
+						<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+						<City>PHOENIX</City>
+						<State>AZ</State>
+						<Zip>85042</Zip>
+					</PrimaryAddress>
+					<AlternateAddress>
+						<Addr>12798 RANCHO PENASQUITOS BLVD</Addr>
+						<City>SAN DIEGO</City>
+						<State>CA</State>
+						<Zip>92129</Zip>
+					</AlternateAddress>
+					<Phone>
+						<PhnNbr>6022434231</PhnNbr>
+					</Phone>
+				</PreviousBusinessApplicant>
+				<MatchIndicators>
+					<BusNameMatch>Y</BusNameMatch>
+					<BusAddrMatch>Y</BusAddrMatch>
+					<AlternateNameMatch>N</AlternateNameMatch>
+					<AlternateAddrMatch>Y</AlternateAddrMatch>
+					<BusPhnNbrMatch>Y</BusPhnNbrMatch>
+					<TaxIDMatch>Y</TaxIDMatch>
+					<BPNameMatch>N</BPNameMatch>
+					<BPAddrMatch>N</BPAddrMatch>
+					<BPSSNMatch>N</BPSSNMatch>
+					<BPPhnNbrMatch>N</BPPhnNbrMatch>
+					<SecondaryBPNameMatch>N</SecondaryBPNameMatch>
+					<SecondaryBPAddrMatch>N</SecondaryBPAddrMatch>
+					<SecondaryBPSSNMatch>N</SecondaryBPSSNMatch>
+					<SecondaryBPPhnNbrMatch>N</SecondaryBPPhnNbrMatch>
+					<AddlAddrMatch>N</AddlAddrMatch>
+				</MatchIndicators>
+			</HistoricalValidation>
+			<HistoricalDetail>
+				<AppID>602508604</AppID>
+				<CurrentBusinessApplicant>
+					<BusName>CADILLAC JACKS</BusName>
+					<TaxID>116024231</TaxID>
+					<PrimaryAddress>
+						<Addr>1402 E SOUTH MOUNTAIN AVE</Addr>
+						<City>PHOENIX</City>
+						<State>AZ</State>
+						<Zip>85042</Zip>
+					</PrimaryAddress>
+					<AlternateAddress>
+						<Addr>12798 RANCHO PENASQUITOS BLVD</Addr>
+						<City>SAN DIEGO</City>
+						<State>CA</State>
+						<Zip>92129</Zip>
+					</AlternateAddress>
+					<Phone>
+						<PhnNbr>6022434231</PhnNbr>
+					</Phone>
+				</CurrentBusinessApplicant>
+			</HistoricalDetail>
+			<BillingIndicator>F</BillingIndicator>
+			<BillingIndicatorMsg>Full Charge</BillingIndicatorMsg>
+		</CommercialFraudInsight>
+	</Products>
+</NetConnectResponse>

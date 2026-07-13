@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602506559</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/ICR INVESTMENTS;CA-363 N SAM HOUSTON PKWY E/HOUSTON TX 77060/IR/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>T02996577</ExperianFileNumber>
+				<ProfileType code="SCORE     ">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20080103</ProfileDate>
+				<ProfileTime>15:01:21</ProfileTime>
+				<TerminalNumber>-ADE</TerminalNumber>
+				<FileEstablishDate>19950100</FileEstablishDate>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>ICR INVESTMENTS                         </BusinessName>
+				<StreetAddress>363 N SAM HOUSTON PKWY E      </StreetAddress>
+				<City>HOUSTON                     </City>
+				<State>TX</State>
+				<Zip>77060</Zip>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00000000</AllTradelineBalance>
+				<AllTradelineCount>000</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+				<CurrentDBT>000</CurrentDBT>
+				<TaxID>001107226</TaxID>
+			</ExecutiveElements>
+			<BusinessSummary>
+				<RiskCategory code="C">Caution</RiskCategory>
+				<NumberOfTradeLines>00000</NumberOfTradeLines>
+				<JudgmentFlag code="N"/>
+				<TaxLienFlag code="N"/>
+				<BankruptcyFlag code="N"/>
+				<UCCFilingsFlag code="N"/>
+				<CollectionFlag code="N"/>
+				<BankFlag code="N"/>
+				<CorporateFilingStatus code="01 "/>
+				<DateOfIncorporation>00000000</DateOfIncorporation>
+				<NumberOfEmployees>0000000</NumberOfEmployees>
+				<TransactionNumber>Q602506559</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="A">Access Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

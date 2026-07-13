@@ -1,0 +1,4890 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\premierprofile\PPR.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>PPR INQF Experian</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<PremierProfile>
+			<InputSummary>
+				<SubscriberNumber>997193</SubscriberNumber>
+				<InquiryTransactionNumber>C309192648</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Comments>PPR INQF PROD - EXPERIAN</Comments>
+				<Inquiry>INQF/700007424/BUSP/CUST-EXPERIAN TS/M-PPR INQF PROD - EXPERIAN/V-00083B</Inquiry>
+			</InputSummary>
+			<ExpandedCreditSummary>
+				<BankruptcyFilingCount>0009</BankruptcyFilingCount>
+				<OldestBankruptcyDate>20080502</OldestBankruptcyDate>
+				<MostRecentBankruptcyDate>20080502</MostRecentBankruptcyDate>
+				<TaxLienFilingCount>0063</TaxLienFilingCount>
+				<OldestTaxLienDate>20060227</OldestTaxLienDate>
+				<MostRecentTaxLienDate>20101220</MostRecentTaxLienDate>
+				<JudgmentFilingCount>0005</JudgmentFilingCount>
+				<OldestJudgmentDate>20051122</OldestJudgmentDate>
+				<MostRecentJudgmentDate>20070606</MostRecentJudgmentDate>
+				<CollectionCount>0033</CollectionCount>
+				<CollectionBalance>00000500485</CollectionBalance>
+				<CollectionCountPast24Months>0007</CollectionCountPast24Months>
+				<LegalBalance>00001042612</LegalBalance>
+				<UCCFilings>0030</UCCFilings>
+				<UCCDerogCount>0022</UCCDerogCount>
+				<CurrentAccountBalance>00000007400</CurrentAccountBalance>
+				<CurrentTradelineCount>0037</CurrentTradelineCount>
+				<MonthlyAverageDBT>087</MonthlyAverageDBT>
+				<HighestDBT6Months>090</HighestDBT6Months>
+				<HighestDBT5Quarters>105</HighestDBT5Quarters>
+				<ActiveTradelineCount>0037</ActiveTradelineCount>
+				<AllTradelineBalance>00000175800</AllTradelineBalance>
+				<AllTradelineCount>0083</AllTradelineCount>
+				<AverageBalance5Quarters>00000037580</AverageBalance5Quarters>
+				<SingleHighCredit>00002730000</SingleHighCredit>
+				<LowBalance6Months>00000007400</LowBalance6Months>
+				<HighBalance6Months>00000010000</HighBalance6Months>
+				<OldestCollectionDate>20060800</OldestCollectionDate>
+				<MostRecentCollectionDate>20101200</MostRecentCollectionDate>
+				<CurrentDBT>090</CurrentDBT>
+				<OldestUCCFilingDate>20031229</OldestUCCFilingDate>
+				<MostRecentUCCFilingDate>20071025</MostRecentUCCFilingDate>
+				<BankruptcyFlag>Y</BankruptcyFlag>
+				<JudgmentFlag>Y</JudgmentFlag>
+				<TaxLienFlag>Y</TaxLienFlag>
+				<TradeCollectionCount>0116</TradeCollectionCount>
+				<TradeCollectionBalance>00000676285</TradeCollectionBalance>
+				<OpenCollectionCount>0020</OpenCollectionCount>
+				<OpenCollectionBalance>00000314258</OpenCollectionBalance>
+				<OFACMatch code=" ">No match to OFAC is performed</OFACMatch>
+				<VictimStatement code="N">This business does not have a Victim statement</VictimStatement>
+				<CommercialFraudRiskIndicatorCount>0000</CommercialFraudRiskIndicatorCount>
+			</ExpandedCreditSummary>
+			<ExpandedBusinessNameAndAddress>
+				<ExperianBIN>700007424</ExperianBIN>
+				<ProfileType code="BUSP">Business Premier Profile</ProfileType>
+				<ProfileDate>20120730</ProfileDate>
+				<ProfileTime>17:58:24</ProfileTime>
+				<TerminalNumber>-AOY</TerminalNumber>
+				<BusinessName>LINENS N THINGS, INC</BusinessName>
+				<StreetAddress>80 E  STATE RT 4 STE  290</StreetAddress>
+				<City>PARAMUS</City>
+				<State>NJ</State>
+				<Zip>07652</Zip>
+				<ZipExtension>2661</ZipExtension>
+				<PhoneNumber>201-940-7216</PhoneNumber>
+				<TaxID>XXXXX8430</TaxID>
+				<WebsiteURL>www.lnt.com</WebsiteURL>
+				<LegalName>
+					<LegalBusinessName>LINENS 'N THINGS, INC.</LegalBusinessName>
+				</LegalName>
+				<CorporateLink>
+					<CorporateLinkageIndicator>Y</CorporateLinkageIndicator>
+				</CorporateLink>
+			</ExpandedBusinessNameAndAddress>
+			<DoingBusinessAs>
+				<DBAName>LINENS N THINGS #508</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>LINENS N THINGS #542</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>LINENS N THINGS</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>LNT ORLANDO, INC</DBAName>
+			</DoingBusinessAs>
+			<ExecutiveSummary>
+				<BusinessDBT code="090"/>
+				<PredictedDBT>078</PredictedDBT>
+				<PredictedDBTDate>20120926</PredictedDBTDate>
+				<IndustryDBT>012</IndustryDBT>
+				<AllIndustryDBT>010</AllIndustryDBT>
+				<LowestTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000007400</Amount>
+				</LowestTotalAccountBalance>
+				<HighestTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000010000</Amount>
+				</HighestTotalAccountBalance>
+				<CurrentTotalAccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000007400</Amount>
+				</CurrentTotalAccountBalance>
+				<HighCreditAmountExtended>00002730000</HighCreditAmountExtended>
+				<MedianCreditAmountExtended>00000002750</MedianCreditAmountExtended>
+				<IndustryPaymentComparison code="L">Has paid slower than 70% of similar businesses</IndustryPaymentComparison>
+				<PaymentTrendIndicator code="L">Increasingly late</PaymentTrendIndicator>
+				<IndustryDescription>USED MERCH STORES   </IndustryDescription>
+				<CommonTerms>NET 30 </CommonTerms>
+				<CommonTerms2>CREDIT </CommonTerms2>
+				<CommonTerms3>REVOLVE</CommonTerms3>
+			</ExecutiveSummary>
+			<CollectionData>
+				<AccountStatus code="08">Closed, Bankruptcy</AccountStatus>
+				<DatePlacedForCollection>20080500</DatePlacedForCollection>
+				<DateClosed>20080500</DateClosed>
+				<AmountPlacedForCollection>00129484</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>JOHNSON MORGAN &amp; WHITE</AgencyName>
+					<PhoneNumber>8004419550</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="03">Paid in Full</AccountStatus>
+				<DatePlacedForCollection>20090800</DatePlacedForCollection>
+				<DateClosed>20090800</DateClosed>
+				<AmountPlacedForCollection>00000000</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLES PERFORMA</AgencyName>
+					<PhoneNumber>4259842252</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20101200</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000225</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLES PERFORMA</AgencyName>
+					<PhoneNumber>4259842252</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20101200</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000179</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLES PERFORMA</AgencyName>
+					<PhoneNumber>4259842252</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20101200</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000125</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLES PERFORMA</AgencyName>
+					<PhoneNumber>4259842252</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20080700</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00002662</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>0000000000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20060900</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000078</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>0000000000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20070200</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000131</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>0000000000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20070400</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00298216</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>4842424000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090300</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000029</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>4842424000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090300</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000175</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>4842424000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="04">Settlement Paid Full</AccountStatus>
+				<DatePlacedForCollection>20090300</DatePlacedForCollection>
+				<DateClosed>20090600</DateClosed>
+				<AmountPlacedForCollection>00001185</AmountPlacedForCollection>
+				<AmountPaid>00001164</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>4842424000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090400</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000052</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES</AgencyName>
+					<PhoneNumber>4842424000</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090700</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00003010</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>NORTH COAST COLLECTION SERVICE</AgencyName>
+					<PhoneNumber>7075284006</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="09">Closed, Creditors Request</AccountStatus>
+				<DatePlacedForCollection>20100600</DatePlacedForCollection>
+				<DateClosed>20101200</DateClosed>
+				<AmountPlacedForCollection>00000218</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CISCO</AgencyName>
+					<PhoneNumber>7134619407</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="09">Closed, Creditors Request</AccountStatus>
+				<DatePlacedForCollection>20100800</DatePlacedForCollection>
+				<DateClosed>20101100</DateClosed>
+				<AmountPlacedForCollection>00000244</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CISCO</AgencyName>
+					<PhoneNumber>7134619407</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="09">Closed, Creditors Request</AccountStatus>
+				<DatePlacedForCollection>20100900</DatePlacedForCollection>
+				<DateClosed>20110300</DateClosed>
+				<AmountPlacedForCollection>00000385</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CISCO</AgencyName>
+					<PhoneNumber>7134619407</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="09">Closed, Creditors Request</AccountStatus>
+				<DatePlacedForCollection>20090500</DatePlacedForCollection>
+				<DateClosed>20091100</DateClosed>
+				<AmountPlacedForCollection>00000415</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CISCO</AgencyName>
+					<PhoneNumber>7134619407</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20060800</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000300</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>ENVIRONMENTAL CONTROL BOARD</AgencyName>
+					<PhoneNumber>2123611400</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20070400</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000130</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>ENVIRONMENTAL CONTROL BOARD</AgencyName>
+					<PhoneNumber>2123611400</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20080500</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000315</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>ENVIRONMENTAL CONTROL BOARD</AgencyName>
+					<PhoneNumber>2123611400</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="03">Paid in Full</AccountStatus>
+				<DatePlacedForCollection>20071200</DatePlacedForCollection>
+				<DateClosed>20090300</DateClosed>
+				<AmountPlacedForCollection>00000000</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>TRANSWORLD SYSTEMS INC.</AgencyName>
+					<PhoneNumber>8882073081</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="09">Closed, Creditors Request</AccountStatus>
+				<DatePlacedForCollection>20061200</DatePlacedForCollection>
+				<DateClosed>20070100</DateClosed>
+				<AmountPlacedForCollection>00000216</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>VENGROFF, WILLIAMS &amp; ASSOC.</AgencyName>
+					<PhoneNumber>9492631300</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="06">Closed, Uncollected</AccountStatus>
+				<DatePlacedForCollection>20090300</DatePlacedForCollection>
+				<DateClosed>20090700</DateClosed>
+				<AmountPlacedForCollection>00005083</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>VENGROFF, WILLIAMS &amp; ASSOC.</AgencyName>
+					<PhoneNumber>9492631300</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090700</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000100</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CREDIT BUREAU OF YORK INC</AgencyName>
+					<PhoneNumber>7178438685</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="09">Closed, Creditors Request</AccountStatus>
+				<DatePlacedForCollection>20100900</DatePlacedForCollection>
+				<DateClosed>20101200</DateClosed>
+				<AmountPlacedForCollection>00047753</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>COFACE COLLECTIONS</AgencyName>
+					<PhoneNumber>8005096060</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20100100</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000929</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>IC SYSTEM COMMERCIAL</AgencyName>
+					<PhoneNumber>6514836333</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20100100</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00002099</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>IC SYSTEM COMMERCIAL</AgencyName>
+					<PhoneNumber>6514836333</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20101200</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000600</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>IC SYSTEM COMMERCIAL</AgencyName>
+					<PhoneNumber>6514836333</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="06">Closed, Uncollected</AccountStatus>
+				<DatePlacedForCollection>20080700</DatePlacedForCollection>
+				<DateClosed>20120600</DateClosed>
+				<AmountPlacedForCollection>00000194</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>ACCESS RECEIVABLES MANAGEMENT</AgencyName>
+					<PhoneNumber>4104941750</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="06">Closed, Uncollected</AccountStatus>
+				<DatePlacedForCollection>20090600</DatePlacedForCollection>
+				<DateClosed>20100100</DateClosed>
+				<AmountPlacedForCollection>00001050</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>ACCESS RECEIVABLES MANAGEMENT</AgencyName>
+					<PhoneNumber>4104941750</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090500</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00002395</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>DIVERSIFIED ADJUSTMENT SERVICE</AgencyName>
+					<PhoneNumber>7637832301</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090600</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00002508</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>DIVERSIFIED ADJUSTMENT SERVICE</AgencyName>
+					<PhoneNumber>7637832301</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>ACCT SVCS</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>02730000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00001800</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>AIR TRANS</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>OTHER  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00002800</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002800</Amount>
+				</AccountBalance>
+				<CurrentPercentage>001</CurrentPercentage>
+				<DBT30>002</DBT30>
+				<DBT60>003</DBT60>
+				<DBT90>012</DBT90>
+				<DBT90Plus>082</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>COMMUNICTN</BusinessCategory>
+				<DateReported>20120400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00002700</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002700</Amount>
+				</AccountBalance>
+				<CurrentPercentage>017</CurrentPercentage>
+				<DBT30>014</DBT30>
+				<DBT60>001</DBT60>
+				<DBT90>001</DBT90>
+				<DBT90Plus>067</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20080400</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20040200</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FRGHT FWRD</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20080900</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>FURNTR&amp;FIX</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>GENERAL</BusinessCategory>
+				<DateReported>20120400</DateReported>
+				<DateLastActivity>20080900</DateLastActivity>
+				<Terms>CASH   </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>GIFTWARE</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>20090700</DateLastActivity>
+				<Terms>NET 45 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00001100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>MACHINERY</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20120300</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000800</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>NEWSPAPERS</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00003200</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 14 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>NEWSPAPERS</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>DISCNT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  1 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>OFFC SUPPL</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20040600</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CHARGE OFF</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>OFFC SUPPL</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20061000</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<Comments>ACCTSOLD  </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>OFFC EQUIP</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20080200</DateLastActivity>
+				<Terms>REVOLVE</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CHARGE OFF</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PACKAGING</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>20101100</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 11 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 14 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>20070300</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20071100</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 13 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>20080200</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 16 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 14 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 13 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 13 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20080400</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 18 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PRNTG&amp;PUBL</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>PRNTG&amp;PUBL</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>RENTALS</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>TRANSPORTN</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>OTHER  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>TRANSPORTN</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20090100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00947100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>TRNS EQUIP</BusinessCategory>
+				<DateReported>20120500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>UTILITY</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>WAREHOUSE</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>ADVERTISNG</BusinessCategory>
+				<DateReported>20090700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  6 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>ADVERTISNG</BusinessCategory>
+				<DateReported>20110500</DateReported>
+				<DateLastActivity>20081000</DateLastActivity>
+				<Terms>NET 15 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00024700</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>ADV MEDIA</BusinessCategory>
+				<DateReported>20100500</DateReported>
+				<DateLastActivity>20080400</DateLastActivity>
+				<Terms>NET 60 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>AIR TRANS</BusinessCategory>
+				<DateReported>20090700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 13 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>AUTO RENTL</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>BANK CARD</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>REVOLVE</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00017300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>BUREAU</BusinessCategory>
+				<DateReported>20100100</DateReported>
+				<DateLastActivity>20100100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  4 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>BUS SERVCS</BusinessCategory>
+				<DateReported>20101000</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00007000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>CHEMICALS</BusinessCategory>
+				<DateReported>20100500</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00007000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>COMMUN SVC</BusinessCategory>
+				<DateReported>20100600</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>CRED CARD</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>REVOLVE</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00002700</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000100</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>EQUIP LEAS</BusinessCategory>
+				<DateReported>20110900</DateReported>
+				<DateLastActivity>20081200</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20100600</DateReported>
+				<DateLastActivity>20010100</DateLastActivity>
+				<Terms>VARIOUS</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20110600</DateReported>
+				<DateLastActivity>19991000</DateLastActivity>
+				<Terms>VARIOUS</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20110900</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20100100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  6 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20100100</DateReported>
+				<DateLastActivity>20070100</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20090800</DateReported>
+				<DateLastActivity>20080900</DateLastActivity>
+				<Terms>NET 90 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FACTOR</BusinessCategory>
+				<DateReported>20110600</DateReported>
+				<DateLastActivity>20000900</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20100800</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>SPECIAL</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FOOD DISTR</BusinessCategory>
+				<DateReported>20091000</DateReported>
+				<DateLastActivity>20050600</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  6 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>FREIGHT</BusinessCategory>
+				<DateReported>20101000</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00003500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00003500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>GENERAL</BusinessCategory>
+				<DateReported>20090900</DateReported>
+				<DateLastActivity>20080900</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>GENERAL</BusinessCategory>
+				<DateReported>20101100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000800</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>GENL MERCH</BusinessCategory>
+				<DateReported>20091000</DateReported>
+				<DateLastActivity>20050800</DateLastActivity>
+				<Terms>CREDIT </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>ACCTCLOSED</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>GIFTWARE</BusinessCategory>
+				<DateReported>20110100</DateReported>
+				<DateLastActivity>20080200</DateLastActivity>
+				<Terms>PREPAYM</Terms>
+				<RecentHighCredit>
+					<Modifier code="&lt;"/>
+					<Amount>00000100</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>GIFTWARE</BusinessCategory>
+				<DateReported>20090900</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>HOUSEWARES</BusinessCategory>
+				<DateReported>20090800</DateReported>
+				<DateLastActivity>20081000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>KITCHN EQP</BusinessCategory>
+				<DateReported>20100800</DateReported>
+				<DateLastActivity>20080900</DateLastActivity>
+				<Terms>NET 60 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 10 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>LEASING</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00028500</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00028500</Amount>
+				</AccountBalance>
+				<CurrentPercentage>007</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>079</DBT90>
+				<DBT90Plus>014</DBT90Plus>
+				<Comments>BANKRUPTCY</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>LEASING</BusinessCategory>
+				<DateReported>20120700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 10 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00011300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00011300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>NEWSPAPERS</BusinessCategory>
+				<DateReported>20100900</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>NEWSPAPERS</BusinessCategory>
+				<DateReported>20110400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 10 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>NEWSPAPERS</BusinessCategory>
+				<DateReported>20100100</DateReported>
+				<DateLastActivity>20081100</DateLastActivity>
+				<Terms>NET 21 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>PERSCOMPTR</BusinessCategory>
+				<DateReported>20091100</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>OTHER  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>SATSFTRY  </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20101200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>PLUMBING</BusinessCategory>
+				<DateReported>20110200</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 13 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>SAFTY PROD</BusinessCategory>
+				<DateReported>20110400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET30  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  3 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>SPORT GDS</BusinessCategory>
+				<DateReported>20120200</DateReported>
+				<DateLastActivity>20060600</DateLastActivity>
+				<Terms>OTHER  </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>RFC       </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>TOYS&amp;GAMES</BusinessCategory>
+				<DateReported>20110200</DateReported>
+				<DateLastActivity>20071100</DateLastActivity>
+				<Terms>NET 60 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>TRANSPORTN</BusinessCategory>
+				<DateReported>20100800</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 20 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 12 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>TRANSPORTN</BusinessCategory>
+				<DateReported>20110800</DateReported>
+				<DateLastActivity>20061200</DateLastActivity>
+				<Terms>NET 15 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>TRANSPORTN</BusinessCategory>
+				<DateReported>20100800</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>PROMPT    </Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>UTILITY</BusinessCategory>
+				<DateReported>20090800</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 16 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00095300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00095300</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>UTILITY</BusinessCategory>
+				<DateReported>20090700</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00002000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00002000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>UTILITY</BusinessCategory>
+				<DateReported>20100400</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00027600</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00027600</Amount>
+				</AccountBalance>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<PaymentTotals>
+				<NewlyReportedTradeLines>
+					<NumberOfLines>0000</NumberOfLines>
+					<DBT>000</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</NewlyReportedTradeLines>
+				<ContinouslyReportedTradeLines>
+					<NumberOfLines>0037</NumberOfLines>
+					<DBT>090</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00003687900</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000007400</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>007</CurrentPercentage>
+					<DBT30>006</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>005</DBT90>
+					<DBT120>081</DBT120>
+				</ContinouslyReportedTradeLines>
+				<CombinedTradeLines>
+					<NumberOfLines>0037</NumberOfLines>
+					<DBT>090</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00003687900</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000007400</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>007</CurrentPercentage>
+					<DBT30>006</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>005</DBT90>
+					<DBT120>081</DBT120>
+				</CombinedTradeLines>
+				<AdditionalTradeLines>
+					<NumberOfLines>0046</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000228600</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000168400</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>022</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>013</DBT90>
+					<DBT120>065</DBT120>
+				</AdditionalTradeLines>
+				<TradeLines>
+					<NumberOfLines>0083</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00003916500</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000175800</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>021</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>013</DBT90>
+					<DBT120>066</DBT120>
+				</TradeLines>
+			</PaymentTotals>
+			<PaymentTrends>
+				<CurrentMonth>
+					<Date>20120700</Date>
+					<DBT>090</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000007400</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>007</CurrentPercentage>
+					<DBT30>006</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>005</DBT90>
+					<DBT120>081</DBT120>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20120700</Date>
+					<DBT>090</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000008000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>007</CurrentPercentage>
+					<DBT30>006</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>005</DBT90>
+					<DBT120>081</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120600</Date>
+					<DBT>090</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000008500</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>007</CurrentPercentage>
+					<DBT30>006</DBT30>
+					<DBT60>001</DBT60>
+					<DBT90>005</DBT90>
+					<DBT120>081</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120500</Date>
+					<DBT>088</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000008700</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>007</CurrentPercentage>
+					<DBT30>006</DBT30>
+					<DBT60>005</DBT60>
+					<DBT90>004</DBT90>
+					<DBT120>078</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120400</Date>
+					<DBT>083</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000010000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>011</CurrentPercentage>
+					<DBT30>009</DBT30>
+					<DBT60>003</DBT60>
+					<DBT90>002</DBT90>
+					<DBT120>075</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120300</Date>
+					<DBT>083</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000009500</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>015</CurrentPercentage>
+					<DBT30>004</DBT30>
+					<DBT60>002</DBT60>
+					<DBT90>005</DBT90>
+					<DBT120>074</DBT120>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120200</Date>
+					<DBT>089</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000008300</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>006</CurrentPercentage>
+					<DBT30>005</DBT30>
+					<DBT60>006</DBT60>
+					<DBT90>007</DBT90>
+					<DBT120>076</DBT120>
+				</PriorMonth>
+			</PaymentTrends>
+			<IndustryPaymentTrends>
+				<SIC>571</SIC>
+				<CurrentMonth>
+					<Date>20120700</Date>
+					<DBT>019</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000017934</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>073</CurrentPercentage>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20120600</Date>
+					<DBT>020</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000017893</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>074</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120500</Date>
+					<DBT>020</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000017541</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>074</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120400</Date>
+					<DBT>019</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000017943</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>074</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120300</Date>
+					<DBT>019</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000018149</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>074</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20120200</Date>
+					<DBT>019</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000018278</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>073</CurrentPercentage>
+				</PriorMonth>
+			</IndustryPaymentTrends>
+			<QuarterlyPaymentTrends>
+				<MostRecentQuarter>
+					<DBT>090</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000007500</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>006</CurrentPercentage>
+					<DBT30>006</DBT30>
+					<DBT60>003</DBT60>
+					<DBT90>005</DBT90>
+					<DBT120>080</DBT120>
+					<QuarterWithinYear code="2">Second quarter (Apr, May &amp; Jun)</QuarterWithinYear>
+					<YearOfQuarter>20120000</YearOfQuarter>
+				</MostRecentQuarter>
+				<PriorQuarter>
+					<DBT>089</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000007700</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>008</CurrentPercentage>
+					<DBT30>005</DBT30>
+					<DBT60>004</DBT60>
+					<DBT90>004</DBT90>
+					<DBT120>079</DBT120>
+					<QuarterWithinYear code="1">First quarter (Jan, Feb &amp; Mar)</QuarterWithinYear>
+					<YearOfQuarter>20120000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>088</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000006900</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>005</CurrentPercentage>
+					<DBT30>009</DBT30>
+					<DBT60>003</DBT60>
+					<DBT90>007</DBT90>
+					<DBT120>076</DBT120>
+					<QuarterWithinYear code="4">Fourth quarter (Oct, Nov &amp; Dec)</QuarterWithinYear>
+					<YearOfQuarter>20110000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000109100</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>100</DBT120>
+					<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear>
+					<YearOfQuarter>20110000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>104</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000056700</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>001</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>099</DBT120>
+					<QuarterWithinYear code="2">Second quarter (Apr, May &amp; Jun)</QuarterWithinYear>
+					<YearOfQuarter>20110000</YearOfQuarter>
+				</PriorQuarter>
+			</QuarterlyPaymentTrends>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810833</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810834</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810837</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0810837</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810838</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0810839</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810839</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0810840</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810840</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0810841</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810841</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0810842</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810842</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810843</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<Bankruptcy>
+				<DateFiled>20080502</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0810843</DocumentNumber>
+				<FilingLocation>DELAWARE FEDERAL BANK COURT-WILMINGTON</FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</Bankruptcy>
+			<TaxLien>
+				<DateFiled>20110124</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>419388</DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE OF IDAHO</FilingLocation>
+				<Owner>STATE OF IDAHO</Owner>
+				<LiabilityAmount>00000000772</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090728</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>419388</DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE OF IDAHO</FilingLocation>
+				<Owner>STATE OF IDAHO</Owner>
+				<LiabilityAmount>00000000772</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20101220</DateFiled>
+				<LegalType code="02">Federal Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>B613P2293</DocumentNumber>
+				<FilingLocation>BERGEN COUNTY REG</FilingLocation>
+				<Owner>INTERNAL REVENUE SERVICE</Owner>
+				<LiabilityAmount>00000146647</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100325</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>10ST000885</DocumentNumber>
+				<FilingLocation>SHAWNEE COUNTY DISTRICT COURT</FilingLocation>
+				<Owner>STATE OF KANSAS</Owner>
+				<LiabilityAmount>00000011312</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100318</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>CJ10005059</DocumentNumber>
+				<FilingLocation>HAMILTON COUNTY COMMON PLEAS</FilingLocation>
+				<Owner>STATE OF OHIO</Owner>
+				<LiabilityAmount>00000040420</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>07544456</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002875</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100105</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07544456</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002875</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>07544505</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002835</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100105</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07544505</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002835</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>07544688</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002861</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100105</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07544688</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002861</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>07544689</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002848</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100105</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07544689</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002848</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>07544729</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002902</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100105</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07544729</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002902</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>07544774</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002889</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100105</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07544774</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002889</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100111</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>07544809</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002915</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20100105</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07544809</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002915</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20091216</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07502834</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001729</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20091028</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>06769486</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000002953</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090922</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>B211P690</DocumentNumber>
+				<FilingLocation>KANAWHA COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF WEST VIRGINIA</Owner>
+				<LiabilityAmount>00000001389</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090810</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07357491</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000004137</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090805</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07343708</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000005376</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090728</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>B90P323037</DocumentNumber>
+				<FilingLocation>RANKIN COUNTY CIRCUIT</FilingLocation>
+				<Owner>STATE OF MISSISSIPPI</Owner>
+				<LiabilityAmount>00000000747</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090610</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2009020698</DocumentNumber>
+				<FilingLocation>CLAY COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000102386</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090608</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2009E0055872</DocumentNumber>
+				<FilingLocation>JACKSON COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000093859</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090608</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>46096</DocumentNumber>
+				<FilingLocation>ST. CHARLES COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000002302</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090605</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2009061700022</DocumentNumber>
+				<FilingLocation>ST. LOUIS COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000102386</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090526</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>2009052600121</DocumentNumber>
+				<FilingLocation>ST. LOUIS COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000026850</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090518</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07282412</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001719</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090514</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>2009016643</DocumentNumber>
+				<FilingLocation>CLAY COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000026850</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090513</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>2009E0046393</DocumentNumber>
+				<FilingLocation>JACKSON COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000026850</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090413</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>20090946</DocumentNumber>
+				<FilingLocation>BOONE COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000102386</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090213</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2009021300083</DocumentNumber>
+				<FilingLocation>ST. LOUIS COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000019331</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090211</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2009004052</DocumentNumber>
+				<FilingLocation>CLAY COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000026850</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090210</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2009E0011955</DocumentNumber>
+				<FilingLocation>JACKSON COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000019332</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090206</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07235717</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000004058</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20090114</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07218478</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001766</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20081209</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07202983</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000000509</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20081204</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07196969</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001201</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20081202</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07194895</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000006383</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20081107</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07168158</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001561</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20081103</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07164316</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000000051</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20081001</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07119526</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001560</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080908</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>07069304</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001759</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080522</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>50924301</DocumentNumber>
+				<FilingLocation>RICHLAND COUNTY CIRCUIT COURT</FilingLocation>
+				<Owner>STATE OF SOUTH CAROLINA</Owner>
+				<LiabilityAmount>00000000830</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080507</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>06850154</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001412</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080506</DateFiled>
+				<LegalType code="04">County Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>20080237399</DocumentNumber>
+				<FilingLocation>RIVERSIDE COUNTY RECORDER</FilingLocation>
+				<Owner>COUNTY OF RIVERSIDE</Owner>
+				<LiabilityAmount>00000000514</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080430</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>20080030404</DocumentNumber>
+				<FilingLocation>LEON COUNTY FEDERAL COURT</FilingLocation>
+				<Owner>STATE OF FLORIDA</Owner>
+				<LiabilityAmount>00000002787</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080407</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2008M002263</DocumentNumber>
+				<FilingLocation>WAKE COUNTY DISTRICT CRT</FilingLocation>
+				<Owner>STATE OF NORTH CAROLINA</Owner>
+				<LiabilityAmount>00000002274</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080401</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>06804483</DocumentNumber>
+				<FilingLocation>MARION CNTY CIRCUIT/SUPERIOR/MUNICIPAL C</FilingLocation>
+				<Owner>STATE OF INDIANA</Owner>
+				<LiabilityAmount>00000001283</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080331</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>50909566</DocumentNumber>
+				<FilingLocation>RICHLAND COUNTY CIRCUIT COURT</FilingLocation>
+				<Owner>STATE OF SOUTH CAROLINA</Owner>
+				<LiabilityAmount>00000000768</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080324</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>086906463</DocumentNumber>
+				<FilingLocation>SALT LAKE DISTRICT COURT</FilingLocation>
+				<Owner>STATE OF UTAH</Owner>
+				<LiabilityAmount>00000008591</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080310</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>20080209495</DocumentNumber>
+				<FilingLocation>MARICOPA COUNTY RECORDER</FilingLocation>
+				<Owner>STATE OF ARIZONA</Owner>
+				<LiabilityAmount>00000001285</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080310</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>20080209500</DocumentNumber>
+				<FilingLocation>MARICOPA COUNTY RECORDER</FilingLocation>
+				<Owner>STATE OF ARIZONA</Owner>
+				<LiabilityAmount>00000001285</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080306</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>BX06P20173</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF NEW YORK</Owner>
+				<LiabilityAmount>00000007991</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080303</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>50902985</DocumentNumber>
+				<FilingLocation>RICHLAND COUNTY CIRCUIT COURT</FilingLocation>
+				<Owner>STATE OF SOUTH CAROLINA</Owner>
+				<LiabilityAmount>00000000683</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080219</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>50899483</DocumentNumber>
+				<FilingLocation>RICHLAND COUNTY CIRCUIT COURT</FilingLocation>
+				<Owner>STATE OF SOUTH CAROLINA</Owner>
+				<LiabilityAmount>00000000762</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080212</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>329644</DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE OF IDAHO</FilingLocation>
+				<Owner>STATE OF IDAHO</Owner>
+				<LiabilityAmount>00000007130</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20070717</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>329644</DocumentNumber>
+				<FilingLocation>SECRETARY OF STATE OF IDAHO</FilingLocation>
+				<Owner>STATE OF IDAHO</Owner>
+				<LiabilityAmount>00000007130</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080130</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>4077446</DocumentNumber>
+				<FilingLocation>RAMSEY COUNTY COURT</FilingLocation>
+				<Owner>STATE OF MINNESOTA</Owner>
+				<LiabilityAmount>00000016648</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20080107</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>010720080316</DocumentNumber>
+				<FilingLocation>ST. LOUIS CITY COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000005266</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20071203</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>20070100052</DocumentNumber>
+				<FilingLocation>LEON COUNTY FEDERAL COURT</FilingLocation>
+				<Owner>STATE OF FLORIDA</Owner>
+				<LiabilityAmount>00000008666</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20070918</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>20070080321</DocumentNumber>
+				<FilingLocation>LEON COUNTY FEDERAL COURT</FilingLocation>
+				<Owner>STATE OF FLORIDA</Owner>
+				<LiabilityAmount>00000008666</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20070911</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2007025336</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF NEW YORK</Owner>
+				<LiabilityAmount>00000007443</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20070510</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>9952965</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF NEW YORK</Owner>
+				<LiabilityAmount>00000027201</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20070426</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>000393072</DocumentNumber>
+				<FilingLocation>JEFFERSON COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF KENTUCKY</Owner>
+				<LiabilityAmount>00000026288</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061229</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>000393072</DocumentNumber>
+				<FilingLocation>JEFFERSON COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF KENTUCKY</Owner>
+				<LiabilityAmount>00000026288</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20070221</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>022120070180</DocumentNumber>
+				<FilingLocation>ST. LOUIS CITY COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000005266</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061227</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>108898</DocumentNumber>
+				<FilingLocation>ST. CHARLES COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000027379</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061226</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2006E0141598</DocumentNumber>
+				<FilingLocation>JACKSON COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000027379</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061226</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>20061072</DocumentNumber>
+				<FilingLocation>BOONE COUNTY RECORDER OF DEEDS</FilingLocation>
+				<Owner>STATE OF MISSOURI</Owner>
+				<LiabilityAmount>00000027379</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061206</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>000436086</DocumentNumber>
+				<FilingLocation>JEFFERSON COUNTY CLERK</FilingLocation>
+				<Owner>STATE OF KENTUCKY</Owner>
+				<LiabilityAmount>00000001639</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061120</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>569675S</DocumentNumber>
+				<FilingLocation>HINDS COUNTY CIRCUIT</FilingLocation>
+				<Owner>STATE OF MISSISSIPPI</Owner>
+				<LiabilityAmount>00000000747</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061120</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>602660S</DocumentNumber>
+				<FilingLocation>HINDS COUNTY CIRCUIT</FilingLocation>
+				<Owner>STATE OF MISSISSIPPI</Owner>
+				<LiabilityAmount>00000000812</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061113</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>X0631457</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<Owner>NYS TAX COMMISSION</Owner>
+				<LiabilityAmount>00000027201</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061024</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>06416215</DocumentNumber>
+				<FilingLocation>FAIRFAX COUNTY CIR CT</FilingLocation>
+				<Owner>COMMONWEALTH OF VIRGINIA</Owner>
+				<LiabilityAmount>00000002850</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061009</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>X0628477</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<Owner>NYS TAX COMMISSION</Owner>
+				<LiabilityAmount>00000092101</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20060626</DateFiled>
+				<LegalType code="04">County Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>061406015</DocumentNumber>
+				<FilingLocation>LOS ANGELES COUNTY CLERK</FilingLocation>
+				<Owner>COUNTY OF LOS ANGELES</Owner>
+				<LiabilityAmount>00000000346</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20060622</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>06160806</DocumentNumber>
+				<FilingLocation>MERCER COUNTY REG</FilingLocation>
+				<Owner>STATE OF NEW JERSEY</Owner>
+				<LiabilityAmount>00000010591</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20060227</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>06JG4158</DocumentNumber>
+				<FilingLocation>FRANKLIN COUNTY COMMON PLEAS</FilingLocation>
+				<Owner>STATE OF OHIO</Owner>
+				<LiabilityAmount>00000000694</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20060127</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>B20052P2189</DocumentNumber>
+				<FilingLocation>TRAVIS COUNTY CLERK-AUSTIN</FilingLocation>
+				<LiabilityAmount>00000007783</LiabilityAmount>
+			</TaxLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20070820</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>TT00172907</DocumentNumber>
+				<FilingLocation>WESTCHESTER COUNTY REG</FilingLocation>
+				<LiabilityAmount>00000000162</LiabilityAmount>
+				<PlaintiffName>SECKENDORF GARY</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20070606</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2278838</DocumentNumber>
+				<FilingLocation>NEW YORK SUPREME COURT CIVIL DIVISION</FilingLocation>
+				<LiabilityAmount>00000001434</LiabilityAmount>
+				<PlaintiffName>NYC DEPT OF FINANCE</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20060324</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>X0543000</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<LiabilityAmount>00000000747</LiabilityAmount>
+				<PlaintiffName>NYS COMMISSIONER OF LABOR</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20051122</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>X0543000</DocumentNumber>
+				<FilingLocation>ALBANY COUNTY CLERK</FilingLocation>
+				<LiabilityAmount>00000000747</LiabilityAmount>
+				<PlaintiffName>NYS COMMISSIONER OF LABOR</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20060322</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>05015602</DocumentNumber>
+				<FilingLocation>PASSAIC CNTY DIST COURT</FilingLocation>
+				<LiabilityAmount>00000003817</LiabilityAmount>
+				<PlaintiffName>THE  CERTO GROUP LLC</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20060302</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>05015602</DocumentNumber>
+				<FilingLocation>PASSAIC CNTY DIST COURT</FilingLocation>
+				<LiabilityAmount>00000003817</LiabilityAmount>
+				<PlaintiffName>THE  CERTO GROUP LLC</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20060214</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>05006825</DocumentNumber>
+				<FilingLocation>GLOUCESTER CO DIST CT</FilingLocation>
+				<LiabilityAmount>00000002138</LiabilityAmount>
+				<PlaintiffName>INDUSTRIAL VALLEY</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<JudgmentOrAttachmentLien>
+				<DateFiled>20051215</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>05002433</DocumentNumber>
+				<FilingLocation>ATLANTIC COUNTY DIS CT</FilingLocation>
+				<LiabilityAmount>00000000137</LiabilityAmount>
+				<PlaintiffName>HIMMELBERGER JOYCE L</PlaintiffName>
+			</JudgmentOrAttachmentLien>
+			<UCCFilingsSummaryCounts>
+				<UCCFilingsTotal>00064</UCCFilingsTotal>
+				<MostRecent6Months>
+					<StartDate>20120701</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</MostRecent6Months>
+				<Previous6Months>
+					<StartDate>20120101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20110701</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20110101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>001</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20100701</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>000</ContinuationsTotal>
+					<AmendedAndAssignedTotal>000</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20100701</StartDate>
+					<FilingsTotal>030</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>022</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>022</ContinuationsTotal>
+					<AmendedAndAssignedTotal>011</AmendedAndAssignedTotal>
+				</Previous6Months>
+			</UCCFilingsSummaryCounts>
+			<UCCFilings>
+				<DateFiled>20110330</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2011 1175754</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>6195617 6</DocumentNumber>
+					<DateFiled>20110330</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE INC.</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091020</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 3362669</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>5010898 6</DocumentNumber>
+					<DateFiled>20091020</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091020</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 3362651</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>5010895 2</DocumentNumber>
+					<DateFiled>20091020</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090814</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 2610340</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4334841 6</DocumentNumber>
+					<DateFiled>20090814</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090813</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 2608773</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4334835 8</DocumentNumber>
+					<DateFiled>20090813</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090723</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 2366273</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4288665 5</DocumentNumber>
+					<DateFiled>20090723</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090504</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 1407797</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4215659 6</DocumentNumber>
+					<DateFiled>20090504</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090504</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 1407789</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4215661 2</DocumentNumber>
+					<DateFiled>20090504</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090330</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 1003810</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4181754 5</DocumentNumber>
+					<DateFiled>20090330</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090330</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 1003786</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4181755 2</DocumentNumber>
+					<DateFiled>20090330</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090212</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>20090484888</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4142380 7</DocumentNumber>
+					<DateFiled>20090212</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090212</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>20090484896</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4142577 8</DocumentNumber>
+					<DateFiled>20090212</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090107</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 0049467</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4112905 7</DocumentNumber>
+					<DateFiled>20090107</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090107</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>2009 0049319</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>4112389 4</DocumentNumber>
+					<DateFiled>20090107</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2007 4050968</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2007 4050935</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2007 4050836</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2007 4050786</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2007 4050604</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>077134437632</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>07102571931</DocumentNumber>
+				<FilingLocation>SEC OF STATE VIRGINI</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20071025</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2007 4051149</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080313</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>2008 0901528</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>2007 40509</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080314</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>08031470589</DocumentNumber>
+				<FilingLocation>SEC OF STATE VIRGINI</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>VA</FilingState>
+					<DocumentNumber>0710257193</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080313</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>2008 0901494</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>2007 40509</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080313</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>2008 0901569</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>2007 40506</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080318</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>08031873747</DocumentNumber>
+				<FilingLocation>SEC OF STATE VIRGINI</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>VA</FilingState>
+					<DocumentNumber>0710257193</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080313</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>2008 0901593</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>2007 40508</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080313</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>2008 0901551</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>2007 40511</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080319</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>24423847</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>24423847</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, US CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080313</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>0871506856</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>CA</FilingState>
+					<DocumentNumber>0771344376</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS CT NORWALK 06851 40</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20080313</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="02">Amended</LegalAction>
+				<DocumentNumber>2008 0901502</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="02">AMENDED</LegalAction>
+					<FilingState>DE</FilingState>
+					<DocumentNumber>2007 40507</DocumentNumber>
+					<DateFiled>20071025</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>GENERAL ELECTRIC CAPITAL CORPORATION, AS</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20070720</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2007 3053245</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>IBM CREDIT LLC NY ARMONK 10504 1 NORTH CASTLE DRIVE</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20070716</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>24265638</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<SecuredParty>FOR LIFE PRODUCTS, INC. FL SUNRISE 33325 13087 NW 4 ST</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20060608</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>6195617 6</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE INC. CO SUPERIOR 80027 1000 S MCCASLIN</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20060216</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>067059950132</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20100406</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="03">Assigned</LegalAction>
+				<DocumentNumber>1072282062</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="03">ASSIGNED</LegalAction>
+					<FilingState>CA</FilingState>
+					<DocumentNumber>0670599501</DocumentNumber>
+					<DateFiled>20060216</DateFiled>
+				</OriginalUCCFilingsInfo>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20101229</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>1072562243</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>CA</FilingState>
+					<DocumentNumber>0670599501</DocumentNumber>
+					<DateFiled>20060216</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>WILMINGTON TRUST COMPANY, AS COLLATERAL  DE WILMINGTON 19890</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20091020</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>22773944</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>22773944</DocumentNumber>
+					<DateFiled>20050112</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20050111</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>5010895 2</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20050111</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>5010898 6</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041201</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>22699381</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090813</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>22699381</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>22699381</DocumentNumber>
+					<DateFiled>20041201</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041130</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4334835 8</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041130</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4334841 6</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20041014</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4288665 5</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040803</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>22511461</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090504</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>22511461</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>22511461</DocumentNumber>
+					<DateFiled>20040803</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040802</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4215661 2</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040802</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4215659 6</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040701</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>22455086</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090330</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>22455086</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>22455086</DocumentNumber>
+					<DateFiled>20040701</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040630</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4181755 2</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040630</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4181754 5</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040505</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4142577 8</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040505</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4142380 7</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090212</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>22350008</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>22350008</DocumentNumber>
+					<DateFiled>20040504</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE A DIVISION OF KEY  NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040406</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>22301017</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE A DIVISION OF KEY  NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040406</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4112905 7</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20040406</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>4112389 4</DocumentNumber>
+				<FilingLocation>SEC OF STATE DELAWAR</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+					<Collateral code="9 ">Hereafter Aquired Prop</Collateral>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<SecuredParty>KEY EQUIPMENT FINANCE, A DIVISION OF KEY NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20090107</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>22301017</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="4 ">Equip</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>22301017</DocumentNumber>
+					<DateFiled>20040406</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>KEY EQUIPMENT FINANCE A DIVISION OF KEY  NY ALBANY 12207 66</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20031229</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>0336560037</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20081203</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>0871802753</DocumentNumber>
+				<FilingLocation>SEC OF STATE CALIFOR</FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>CA</FilingState>
+					<DocumentNumber>0336560037</DocumentNumber>
+					<DateFiled>20031229</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>MONOGRAM CREDIT CARD BANK OF GEORGIA GA ATLANTA 30350 7840 R</SecuredParty>
+			</UCCFilings>
+			<UCCFilings>
+				<DateFiled>20081203</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>21950384</DocumentNumber>
+				<FilingLocation>SEC OF STATE NEW JER</FilingLocation>
+				<CollateralCodes>
+					<Collateral code="0 ">Undefined</Collateral>
+				</CollateralCodes>
+				<OriginalUCCFilingsInfo>
+					<LegalAction code="09">CONTINUED</LegalAction>
+					<FilingState>NJ</FilingState>
+					<DocumentNumber>21950384</DocumentNumber>
+					<DateFiled>20031222</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>MONOGRAM CREDIT CARD BANK OF GEORGIA GA ATLANTA 30350 7840 R</SecuredParty>
+			</UCCFilings>
+			<CorporateRegistration>
+				<StateOfOrigin>NY</StateOfOrigin>
+				<OriginalFilingDate>00000000</OriginalFilingDate>
+				<RecentFilingDate>00000000</RecentFilingDate>
+				<IncorporatedDate>19950510</IncorporatedDate>
+				<BusinessType code="I">Incorporated</BusinessType>
+				<StatusFlag code="A">Active</StatusFlag>
+				<ProfitFlag code="P">Profit</ProfitFlag>
+				<CharterNumber>1920695</CharterNumber>
+				<DomesticForeignIndicator code="D">Domestic Filing State</DomesticForeignIndicator>
+			</CorporateRegistration>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>TED                  DEJA</Name>
+				<Title>OWNER</Title>
+			</KeyPersonnelExecutiveInformation>
+			<CorporateLinkage>
+				<LinkageRecordType code="1">Ultimate Parent</LinkageRecordType>
+				<LinkageRecordBIN>701713741</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS HOLDING CO</LinkageCompanyName>
+				<LinkageCompanyCity>PARAMUS</LinkageCompanyCity>
+				<LinkageCompanyState>NJ</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>80 E  STATE RT 4 STE  290</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="2">Parent/Headquarters</LinkageRecordType>
+				<LinkageRecordBIN>701713741</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS HOLDING CO</LinkageCompanyName>
+				<LinkageCompanyCity>PARAMUS</LinkageCompanyCity>
+				<LinkageCompanyState>NJ</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="Y"/>
+				<LinkageCompanyAddress>80 E  STATE RT 4 STE  290</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>700096793</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>LOWELL</LinkageCompanyCity>
+				<LinkageCompanyState>MA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>900 CHELMSFORD ST</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>700272238</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>MILFORD</LinkageCompanyCity>
+				<LinkageCompanyState>CT</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>1574 BOSTON POST RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>700332417</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>FAIRFIELD</LinkageCompanyCity>
+				<LinkageCompanyState>CT</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>500 KINGS HIGHWAY CUTOFF</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>700818208</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>MARLBOROUGH</LinkageCompanyCity>
+				<LinkageCompanyState>MA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>601 DONALD LYNCH BLVD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>701381500</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>SALEM</LinkageCompanyCity>
+				<LinkageCompanyState>NH</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>290 S  BROADWAY STE  4</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>701430214</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>BEDFORD</LinkageCompanyCity>
+				<LinkageCompanyState>NH</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>73 S  RIVER RD  STE  35</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>703158656</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>NORTH WEYMOUTH</LinkageCompanyCity>
+				<LinkageCompanyState>MA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>729 BRIDGE ST</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>703248860</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>NEWTON</LinkageCompanyCity>
+				<LinkageCompanyState>MA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>260 NEEDHAM ST</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>703721885</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>STATEN ISLAND</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>2485 RICHMOND AVE</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>704762078</LinkageRecordBIN>
+				<LinkageCompanyName>LINENS N THINGS, INC</LinkageCompanyName>
+				<LinkageCompanyCity>PORT CHESTER</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>495 BOSTON POST RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<BusinessFacts>
+				<FileEstablishedDate>19810700</FileEstablishedDate>
+				<FileEstablishedFlag code=" "/>
+				<StateOfIncorporation>NY</StateOfIncorporation>
+				<DateOfIncorporation>19950510</DateOfIncorporation>
+				<BusinessTypeIndicator code="C">Corporation</BusinessTypeIndicator>
+				<YearsInBusinessIndicator code="F">Over 10 Years</YearsInBusinessIndicator>
+				<YearsInBusiness>0037</YearsInBusiness>
+				<SalesIndicator code="B">$500,000 - $999,999</SalesIndicator>
+				<SalesRevenue>000000800000</SalesRevenue>
+				<EmployeeSizeIndicator code="B">5-9</EmployeeSizeIndicator>
+				<EmployeeSize>000000007</EmployeeSize>
+				<PublicIndicator code=" ">Not Available</PublicIndicator>
+				<NonProfitIndicator code="P">Profit</NonProfitIndicator>
+			</BusinessFacts>
+			<SICCodes>
+				<SIC code="5719">HOMEFURNISHINGS STORES, MISC</SIC>
+			</SICCodes>
+			<SICCodes>
+				<SIC code="3589">SERVICE INDUSTRY MACHINERY, NEC</SIC>
+			</SICCodes>
+			<SICCodes>
+				<SIC code="5311">DEPARTMENT STORES</SIC>
+			</SICCodes>
+			<NAICSCodes>
+				<NAICS code="442299">All Other Home Furnishings Stores</NAICS>
+			</NAICSCodes>
+			<NAICSCodes>
+				<NAICS code="333319">Other Commercial and Service Industry Machinery Manufacturing</NAICS>
+			</NAICSCodes>
+			<NAICSCodes>
+				<NAICS code="452100">Department Stores</NAICS>
+			</NAICSCodes>
+			<CommercialFraudShieldSummary>
+				<MatchingBusinessIndicator code="P">Primary Business</MatchingBusinessIndicator>
+				<BusinessBIN>700007424</BusinessBIN>
+				<ActiveBusinessIndicator code="A">Active</ActiveBusinessIndicator>
+				<OFACMatchCode code="  ">Not Available</OFACMatchCode>
+				<BusinessVictimStatementIndicator code="N">No statement Present</BusinessVictimStatementIndicator>
+				<BusinessRiskTriggersIndicator code="N">Risk Trigger Not Present</BusinessRiskTriggersIndicator>
+				<NameAddressVerificationIndicator code="N">Verification was not performed</NameAddressVerificationIndicator>
+			</CommercialFraudShieldSummary>
+			<Inquiry>
+				<InquiryBusinessCategory>AIR TRANS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>APPAREL</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>GENERAL</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TOTALS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111200</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20111100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>2</Filler>
+				<ScoreInfo>
+					<Score>0000002000</Score>
+				</ScoreInfo>
+				<ProfileNumber>I309192648</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000223</ModelCode>
+					<ModelTitle>FINANCIAL STABILITY RISK</ModelTitle>
+				</ModelInformation>
+				<PercentileRanking>019</PercentileRanking>
+				<Action>TEST LOW-MEDIUM RISK</Action>
+				<RiskClass>3</RiskClass>
+			</IntelliscoreScoreInformation>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>L1</Filler>
+				<ScoreInfo>
+					<Score>0000000100</Score>
+				</ScoreInfo>
+				<ModelInformation>
+					<ModelCode>000215</ModelCode>
+					<ModelTitle>INTELLISCORE PLUS (SCORE ONLY)</ModelTitle>
+					<CustomModelCode>01</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>000</PercentileRanking>
+				<Action>HIGH RISK</Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="001 ">NUMBER OF COMMERCIAL COLLECTION ACCOUNTS</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="015 ">PERCENT OF TOTAL COMMERCIAL BALANCE SERIOUSLY DELINQUENT</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="011 ">PAST COMMERCIAL DEROGATORY BALANCE</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="005 ">NUMBER OF COMMERCIAL DEROGATORY PUBLIC RECORDS</ScoreFactor>
+				<ModelCode>000223</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="096 ">PERCENT OF TOTAL COMMERCIAL BALANCE SERIOUSLY DELINQUENT</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="091 ">BALANCE OF COMMERCIAL ACCOUNTS AT WORST DELINQUENCY</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="123 ">UNPAID COMMERCIAL COLLECTION ACCOUNTS</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="024 ">COMMERCIAL ACCOUNT DELINQUENCY IN LAST 6 MONTHS</ScoreFactor>
+				<ModelCode>000215</ModelCode>
+			</ScoreFactors>
+			<ScoreTrendsCreditLimit>
+				<MostRecentQuarter>
+					<Quarter>APR-JUN</Quarter>
+					<Score>001</Score>
+				</MostRecentQuarter>
+				<PriorQuarter>
+					<Quarter>JAN-MAR</Quarter>
+					<Score>001</Score>
+				</PriorQuarter>
+				<PriorQuarter>
+					<Quarter>OCT-DEC</Quarter>
+					<Score>001</Score>
+				</PriorQuarter>
+				<PriorQuarter>
+					<Quarter>JUL-SEP</Quarter>
+					<Score>001</Score>
+				</PriorQuarter>
+			</ScoreTrendsCreditLimit>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</PremierProfile>
+	</Products>
+</NetConnectResponse>

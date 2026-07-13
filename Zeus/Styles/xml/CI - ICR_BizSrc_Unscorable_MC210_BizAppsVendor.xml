@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>user1abc001</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>998709</SubscriberNumber>
+				<InquiryTransactionNumber>C906581888</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/794117411/MC-000210/IR/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>794117411</ExperianFileNumber>
+				<ProfileType code="SCORE">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20071212</ProfileDate>
+				<ProfileTime>22:59:11</ProfileTime>
+				<TerminalNumber>-AME</TerminalNumber>
+				<FileEstablishDate>19970500</FileEstablishDate>
+				<FileEstablishFlag code=""/>
+				<BusinessName>I. C. R. PRESSURE WASHING, INC</BusinessName>
+				<StreetAddress>1544 GESSNER DR APT 85</StreetAddress>
+				<City>HOUSTON</City>
+				<State>TX</State>
+				<Zip>77080</Zip>
+				<ZipExtension>7548</ZipExtension>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00000000</AllTradelineBalance>
+				<AllTradelineCount>000</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+				<CurrentDBT>000</CurrentDBT>
+				<TaxID>011774758</TaxID>
+			</ExecutiveElements>
+			<BusinessSummary>
+				<RiskCategory code="C">Caution</RiskCategory>
+				<NumberOfTradeLines>00000</NumberOfTradeLines>
+				<JudgmentFlag code="N"/>
+				<TaxLienFlag code="N"/>
+				<BankruptcyFlag code="N"/>
+				<UCCFilingsFlag code="N"/>
+				<CollectionFlag code="N"/>
+				<BankFlag code="N"/>
+				<CorporateFilingStatus code="031"/>
+				<DateOfIncorporation>00000000</DateOfIncorporation>
+				<NumberOfEmployees>0000000</NumberOfEmployees>
+				<TransactionNumber>Q906581888</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="A">Access Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

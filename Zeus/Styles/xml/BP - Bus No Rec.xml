@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businessprofile\BP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BPR</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessProfile>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602539657</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/XERTY;CA-/CRANSTON RI 02920/UCC/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileDate>20080226</ProfileDate>
+				<ProfileTime>22:56:51</ProfileTime>
+				<TerminalNumber>-ADE</TerminalNumber>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>XERTY                                   </BusinessName>
+				<City>CRANSTON                    </City>
+				<State>RI</State>
+				<Zip>02920</Zip>
+			</BusinessNameAndAddress>
+			<BillingIndicator code="A">Access Charge</BillingIndicator>
+		</BusinessProfile>
+	</Products>
+</NetConnectResponse>

@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businesssummary\BSUM.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BSUM</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessSummary>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508782</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/ICR INVESTMENTS;CA-363 N SAM HOUSTON PKWY E/HOUSTON TX 77060/BSUM/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>T02996577</ExperianFileNumber>
+				<ProfileType code="SUMMARY   "/>
+				<ProfileDate>20080212</ProfileDate>
+				<ProfileTime>14:39:17</ProfileTime>
+				<TerminalNumber>-ADQ</TerminalNumber>
+				<FileEstablishDate>19950100</FileEstablishDate>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>ICR INVESTMENTS                         </BusinessName>
+				<StreetAddress>363 N SAM HOUSTON PKWY E      </StreetAddress>
+				<City>HOUSTON                     </City>
+				<State>TX</State>
+				<Zip>77060</Zip>
+			</BusinessNameAndAddress>
+			<BusinessSummary>
+				<RiskCategory code="C">Caution</RiskCategory>
+				<NumberOfTradeLines>00000</NumberOfTradeLines>
+				<JudgmentFlag code="N"/>
+				<TaxLienFlag code="N"/>
+				<BankruptcyFlag code="N"/>
+				<UCCFilingsFlag code="N"/>
+				<CollectionFlag code="N"/>
+				<BankFlag code="N"/>
+				<CorporateFilingStatus code="01 "/>
+				<DateOfIncorporation>00000000</DateOfIncorporation>
+				<NumberOfEmployees>0000000</NumberOfEmployees>
+				<TransactionNumber>Q602508782</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="A">Access Charge</BillingIndicator>
+		</BusinessSummary>
+	</Products>
+</NetConnectResponse>

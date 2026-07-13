@@ -1,0 +1,102 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using Infragistics.WebUI.UltraWebNavigator;
+
+using PaymentXP.BusinessObjects;
+using PaymentXP.DataObjects;
+
+public partial class MasterPageMain : frmBaseMaster
+{
+
+    public UltraWebMenu MasterMenu
+    {
+        get { return mnuMain; }
+        set { mnuMain = value; }
+    }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        User user = UserSessions.CurrentUser;
+
+        lblBreadCrumbs.Text = UserSessions.CurrentPage;
+        if (!this.IsPostBack)
+        {
+
+            if (user != null)
+                lblWelcome.Text = "Welcome " + user.UserName + "!";
+
+
+            //Group grp = mnuMain.Groups.FromKey(user.UserRoles[0].Name);
+
+
+            //lblCurrentPage.Text = UserSessions.CurrentPage;
+            //Group grp = mnuMain.Groups.FromKey(UserSessions.CurrentModule);
+
+            //if (grp != null)
+            //    mnuMain.SelectedGroup = grp.Index;
+
+            //set item selected
+            //foreach (Control c1 in mnuMain.Controls)
+            //{
+            //    foreach (Control c2 in c1.Controls)
+            //    {
+            //        if (c2.GetType().Equals(typeof(UltraWebTree)))
+            //        {
+            //            UltraWebTree t = (UltraWebTree)c2;
+
+            //            Node node = t.Find(UserSessions.SelectedNode, false);
+            //            if (node != null)
+            //                node.Selected = true;
+            //        }
+            //    }
+            //}
+
+
+
+            //this.Image1.Attributes.Add("onclick", "javascript:OpenPanel();");
+
+            FormHandler.SetSecurity(this.Page.Master);
+
+            //foreach (Item item in mnuMain.Items)
+            //{
+            //    item.Enabled = false;
+            //}
+
+
+            //foreach (UserRole role in user.UserRoles)
+            //{
+            //    Item item = mnuMain.Find(role.Name);
+
+            //    if (item != null)
+            //        item.Enabled = role.Enabled;
+            //}
+
+        }
+
+        lblDate.Text = DateTime.Now.ToString();
+
+    }
+
+        //this.ToggleMenu();    }
+
+    protected void lnkLogOut_Click(object sender, EventArgs e)
+    {
+        Session.Clear();
+        FormsAuthentication.SignOut();
+        FormsAuthentication.RedirectToLoginPage();
+    }
+
+    protected void mnuMain_MenuItemClicked(object sender, WebMenuItemEventArgs e)
+    {
+
+        FormHandler.OpenItem(e.Item.Tag.ToString());
+    }
+    
+}

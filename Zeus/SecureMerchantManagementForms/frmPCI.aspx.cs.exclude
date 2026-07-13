@@ -1,0 +1,430 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Text;
+using System.Collections.Generic;
+
+using PaymentXP.BusinessObjects;
+using PaymentXP.DataObjects;
+using PaymentXP.Facade;
+using System.Drawing;
+using Infragistics.WebUI.WebDataInput;
+
+
+public partial class frmPCI : frmBaseDataEntry
+{
+    public Hashtable m_Prms
+    {
+        get
+        {
+            if (ViewState["m_Prms"] == null)
+                return null;
+            else
+                return (Hashtable)ViewState["m_Prms"];
+        }
+        set { ViewState["m_Prms"] = value; }
+    }
+
+    public string SortOrder
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"] == null)
+                return string.Empty;
+            else
+                return HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"].ToString();
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"] = value; }
+    }
+
+    public SortDirection SortDirectionSearch
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"] == null)
+                return SortDirection.Descending;
+            else
+                return (SortDirection)HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"];
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"] = value; }
+    }
+
+    public int CurrentPage
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"] == null)
+                return 1;
+            else
+                return Convert.ToInt32(HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"]);
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"] = value; }
+    }
+
+    public int PageSize
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_PageSize"] == null)
+                return 10;
+            else
+                return Convert.ToInt32(HttpContext.Current.Session[this.Page.ToString() + "_PageSize"]);
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_PageSize"] = value; }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        ((HyperLink)this.Master.FindControl("lnkMerchantTabPci")).CssClass = "active";
+
+        if (!this.IsPostBack)
+        {
+            LookupTableHandler.MerchantAppStatus(StatusUID, false, "PCI");
+            LookupTableHandler.LoadPCIVendors(VendorID, false);
+            FormShow("");
+        }
+    }
+
+    public override Label ErrorDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Label RecordDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel DetailPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel NavigationPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override void FormShow(string ID)
+    {
+        DataMerchantApp data = DataAccess.DataMerchantAppDao;
+        MerchantApp agreement = data.GetMerchantApp(UserSessions.CurrentMerchantApp.MerchantAppUID);
+
+        FormBinding.BindObjectToControls(agreement, WucBusinessInfo1);
+        FormHandler.SetControlEditMode(WucBusinessInfo1, false);
+        FormHandler.SetControlEditMode(pnlDetail, this.EditMode);
+        grd.Enabled = !this.EditMode;
+        VendorID.Enabled = false;
+
+        BindGrid();
+    }
+
+    public override void FormClear()
+    {
+        FormHandler.ClearAllControls(pnlDetail);
+    }
+
+    public override bool FormSave()
+    {
+        bool perform = false;
+        Hashtable prms = new Hashtable();
+        DataMerchantApp data = DataAccess.DataMerchantAppDao;
+        int rows = 0;
+
+        if (!this.FormDataCheck())
+            return false;
+
+        //save merchant
+        MerchantApp agreement = null;
+        agreement = (MerchantApp)UserSessions.CurrentMerchantApp;
+
+        prms.Add("@MerchantID", agreement.ID);
+        prms.Add("@VendorID", VendorID.SelectedValue);
+        prms.Add("@StatusUID", StatusUID.SelectedValue);
+        prms.Add("@RequestDate", Convert.ToDateTime(RequestDate.Value));
+        if (!string.IsNullOrEmpty(CompletedDate.Text))
+            prms.Add("@CompletedDate", DataLayer.Field2Date(CompletedDate.Value));
+
+        if (Adding)
+        {
+            prms.Add("@MerchantAppUID", agreement.MerchantAppUID);
+            rows = data.InsertMerchantPCI(prms);
+            if (rows > 0)
+                this.UID = string.Empty;
+        }
+        else
+        {
+            if (string.IsNullOrEmpty(this.UID))
+            {
+                lblError.Text = "Please select a record in the grid.";
+                return false;
+            }
+            prms.Add("@UID", this.UID);
+            rows = data.UpdateMerchantPCI(prms);
+        }
+
+        if (rows > 0)
+            perform = true;
+        else
+            lblError.Text = "Failed to save the data.";
+
+        return perform;
+    }
+
+    public override void FormNew()
+    {
+        this.FormClear();
+        this.Adding = true;
+        this.EditMode = true;
+        FormHandler.SetControlEditMode(pnlDetail, this.EditMode);
+        ListHandler.ListFindItem(VendorID, "3"); // Select self as vendor
+        grd.Enabled = false;
+        VendorID.Enabled = false;
+        this.ToggleButtons();
+    }
+
+    public override bool FormDelete()
+    {
+        throw new Exception("The method or operation is not implemented.");
+    }
+
+    public override bool FormDataCheck()
+    {
+        string message = string.Empty;
+
+        if (VendorID.SelectedIndex == 0)
+            message += "Please select a vendor.<BR>";
+
+        if (StatusUID.SelectedIndex == 0)
+            message += "Please select a status.<BR>";
+
+        if (string.IsNullOrEmpty(RequestDate.Text))
+            message += "Please select sent date.<BR>";
+
+        lblError.Text = message;
+
+        if (message == string.Empty)
+            return true;
+        else
+            return false;
+    }
+
+    public override void FormCancel()
+    {
+        this.EditMode = false;
+        this.Adding = false;
+        this.ToggleButtons();
+        FormShow("");
+        //if (!string.IsNullOrEmpty(this.UID))
+        //    BindForm();
+        //else
+        FormClear();
+        FormHandler.SetControlEditMode(pnlDetail, this.EditMode);
+        lblError.Text = "";
+    }
+
+    public override void ToggleButtons()
+    {
+        btnCancel.Enabled = !btnCancel.Enabled;
+        btnEdit.Enabled = !btnEdit.Enabled;
+        btnAdd.Enabled = !btnAdd.Enabled;
+        btnSave.Enabled = !btnSave.Enabled;
+        btnRefresh.Enabled = !btnRefresh.Enabled;
+    }
+
+    protected void tbrTools_ButtonClicked(object sender, Infragistics.WebUI.WebDataInput.ButtonEventArgs e)
+    {
+        WebImageButton btn = (WebImageButton)sender;
+
+        string url = string.Empty;
+        switch (btn.Text)
+        {
+            case "Add":
+                this.FormNew();
+                break;
+
+            case "Save":
+                if (this.FormSave())
+                {   // valid input values.
+                    this.EditMode = false;
+                    this.Adding = false;
+                    FormClear();
+                    FormShow("");
+                    ToggleButtons();
+                }
+                break;
+
+            case "Refresh":
+                UserSessions.CurrentMerchantApp = DataAccess.DataMerchantAppDao.GetMerchantApp(UserSessions.CurrentMerchantApp.MerchantAppUID);
+                FormShow("");
+                break;
+
+            case "Cancel":
+                this.FormCancel();
+                break;
+
+            case "Delete":
+                if (this.FormDelete())
+                    Response.Redirect("frmLeads.aspx");
+                break;
+
+            case "Edit":
+                if (grd.SelectedIndex > -1)
+                {
+                    this.EditMode = true;
+                    FormShow("");
+                    this.ToggleButtons();
+                }
+                break;
+
+            case "<<":
+                FormHandler.RecordNav(RecordNavigation.First, this, UserSessions.SearchResultsDataView, false);
+                break;
+
+            case "<":
+                FormHandler.RecordNav(RecordNavigation.Previous, this, UserSessions.SearchResultsDataView, false);
+                break;
+
+            case ">":
+                FormHandler.RecordNav(RecordNavigation.Next, this, UserSessions.SearchResultsDataView, false);
+                break;
+
+            case ">>":
+                FormHandler.RecordNav(RecordNavigation.Last, this, UserSessions.SearchResultsDataView, false);
+                break;
+        }
+    }
+
+    protected void grd_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        switch (e.Row.RowType)
+        {
+            case DataControlRowType.DataRow:
+
+                LinkButton btn = (LinkButton)e.Row.FindControl("lbtnZID");
+                btn.CommandArgument = DataBinder.Eval(e.Row.DataItem, "UID").ToString();
+                break;
+            case DataControlRowType.Footer:
+                break;
+            default:
+                break;
+        }
+    }
+
+    protected void grd_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        switch (e.CommandName)
+        {
+            case "MerchantID":
+                LinkButton btn = (LinkButton)e.CommandSource;
+                this.UID = btn.CommandArgument;
+                grd.SelectedIndex = ((GridViewRow)btn.NamingContainer).RowIndex;
+                BindForm();
+                break;
+        }
+    }
+
+    protected void grd_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        this.CurrentPage = 1;
+        this.SortOrder = e.SortExpression;
+        this.SortDirectionSearch = e.SortDirection;
+        BindGrid();
+    }
+
+    private int ConvertSortDirectionToSql(SortDirection direction)
+    {
+        int newSortDirection;
+
+        switch (direction)
+        {
+            case SortDirection.Descending:
+                newSortDirection = 1;
+                this.SortDirectionSearch = SortDirection.Descending;
+                break;
+
+            default:
+                newSortDirection = 0;
+                this.SortDirectionSearch = SortDirection.Ascending;
+                break;
+        }
+
+        return newSortDirection;
+    }
+
+    protected void grd_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        this.CurrentPage = e.NewPageIndex + 1;
+        BindGrid();
+    }
+
+    private void ClearGrid()
+    {
+        grd.DataSourceID = string.Empty;
+        grd.DataBind();
+    }
+
+    protected void odsTransactions_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)
+    {
+        e.InputParameters[0] = this.m_Prms;
+    }
+
+    private void BindGrid()
+    {
+        m_Prms = new Hashtable();
+        if (!m_Prms.ContainsKey("@PageSize"))
+            m_Prms.Add("@PageSize", this.PageSize);
+        else
+            m_Prms["@PageSize"] = this.PageSize;
+
+        if (!m_Prms.ContainsKey("@CurrentPage"))
+            m_Prms.Add("@CurrentPage", this.CurrentPage);
+        else
+            m_Prms["@CurrentPage"] = this.CurrentPage;
+
+        if (!m_Prms.ContainsKey("@SortOrder"))
+            m_Prms.Add("@SortOrder", "CustomerID");
+        else
+            m_Prms["@SortOrder"] = this.SortOrder;
+
+        if (!m_Prms.ContainsKey("@SortDirection"))
+            m_Prms.Add("@SortDirection", 0);
+        else
+            m_Prms["@SortDirection"] = this.ConvertSortDirectionToSql(this.SortDirectionSearch);
+
+        if (UserSessions.CurrentMerchantApp != null)
+            m_Prms.Add("@MerchantID", UserSessions.CurrentMerchantApp.ID);
+
+        grd.DataBind();
+
+        lblRecordCount.Text = "Total Records Found: " + DataMerchantAppPaging.GetMerchantPCIPagingRowCount(m_Prms, 0, 0).ToString();
+
+        pnlRecords.Visible = grd.Rows.Count > 0;
+        pnlNoRecords.Visible = grd.Rows.Count == 0;
+        grd.SelectedIndex = -1;
+    }
+
+    private void BindForm()
+    {
+        Hashtable prms = new Hashtable();
+        prms.Add("@UID", this.UID);
+
+        DataSet ds = DataAccess.DataMerchantAppDao.GetMerchantPCI(prms);
+
+        if (ds.Tables[0].Rows.Count > 0)
+        {
+            DataRow dr = ds.Tables[0].Rows[0];
+            ListHandler.ListFindItem(VendorID, dr["VendorID"].ToString());
+            ListHandler.ListFindItem(StatusUID, dr["StatusUID"].ToString());
+            RequestDate.Value = dr["RequestDate"].ToString();
+            CompletedDate.Value = dr["CompletedDate"].ToString();
+        }
+    }
+}

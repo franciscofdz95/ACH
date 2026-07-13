@@ -1,0 +1,70 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPageHome" CodeBehind="MasterPageHome.master.cs" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Src="UserControls/wucFooter.ascx" TagName="wucFooter" TagPrefix="uc1" %>
+<%@ Register Src="UserControls/wucTopMenu.ascx" TagName="wucTopMenu" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/wucCommonScripts.ascx" TagName="wucCommonScripts"
+    TagPrefix="uc3" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Zeus Home</title>
+    <uc3:wucCommonScripts ID="wucCommonScripts1" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server" AUTOCOMPLETE="off">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <uc2:wucTopMenu ID="wucTopMenu1" TopMenuSelect="Home" runat="server" />
+        <table id='zeuslayout'>
+            <tr>
+                <td class='zleft'>
+                    <div id="menuside">
+                        <asp:Panel ID="pnlSideMenu" CssClass="rounded" runat="server">
+                            <ul>
+                                <li>
+                                    <asp:HyperLink ID="lnkHomePage" runat="server" NavigateUrl="~/SecureHomeForms/frmHome.aspx">Home</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkQueueAP" runat="server" NavigateUrl="~/SecureHomeForms/frmQueueAP.aspx">Sales Support</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkQueueCU" runat="server" NavigateUrl="~/SecureHomeForms/frmQueueCU.aspx">Credit Underwriting</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkQueueDE" runat="server" NavigateUrl="~/SecureHomeForms/frmQueueDE.aspx">Operations</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkQueueDP" runat="server" NavigateUrl="~/SecureHomeForms/frmQueueDP.aspx">Deployment</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkQueueCS" runat="server" NavigateUrl="~/SecureHomeForms/frmQueueCS.aspx">Merchant Support</asp:HyperLink>
+                                </li>
+                                 <li>
+                                     <asp:HyperLink ID="lnkQueueRT" runat="server" NavigateUrl="~/SecureHomeForms/frmQueueRT.aspx">Retention</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkQueueOA" runat="server" NavigateUrl="~/SecureHomeForms/frmOnlineApps.aspx">Online Apps</asp:HyperLink>
+                                </li>
+                                 <li>
+                                    <asp:HyperLink ID="lnkDeptTickets" runat="server" NavigateUrl="~/SecureHomeForms/frmDepartmentTickets.aspx">Department Tickets</asp:HyperLink>
+                                </li>
+                            </ul>
+                        </asp:Panel>
+                    </div>
+
+
+                    <asp:ContentPlaceHolder ID="cphLeftBottom" runat="server"></asp:ContentPlaceHolder>
+                </td>
+                <td class='zmiddle'>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class='zright'></td>
+            </tr>
+        </table>
+        <uc1:wucFooter ID="wucFooter1" runat="server" />
+    </form>
+</body>
+</html>

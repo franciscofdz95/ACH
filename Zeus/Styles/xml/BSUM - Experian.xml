@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businesssummary\BSUM.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BSUM</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessSummary>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508779</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/EXPERIAN;CA-475 ANTON BLVD/COSTA MESA CA 92626/BSUM/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>C00453224</ExperianFileNumber>
+				<ProfileType code="SUMMARY   "/>
+				<ProfileDate>20080212</ProfileDate>
+				<ProfileTime>14:32:58</ProfileTime>
+				<TerminalNumber>-ACQ</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>EXPERIAN                                </BusinessName>
+				<StreetAddress>475 ANTON BLVD                </StreetAddress>
+				<City>COSTA MESA                  </City>
+				<State>CA</State>
+				<Zip>92626</Zip>
+				<PhoneNumber>714-830-7000</PhoneNumber>
+				<SIC code="7323">CREDIT REPORTING                      </SIC>
+			</BusinessNameAndAddress>
+			<BusinessSummary>
+				<RiskCategory code="S">Serious Risk</RiskCategory>
+				<NumberOfTradeLines>00059</NumberOfTradeLines>
+				<JudgmentFlag code="Y">This business has judgment filing(s)</JudgmentFlag>
+				<TaxLienFlag code="Y">This business has tax lien filings(s)</TaxLienFlag>
+				<BankruptcyFlag code="N"/>
+				<UCCFilingsFlag code="Y">This business has UCC filing(s)</UCCFilingsFlag>
+				<CollectionFlag code="Y">This business has collection filing(s)</CollectionFlag>
+				<BankFlag code="N"/>
+				<CorporateFilingStatus code="   "/>
+				<KeyPersonnel1>DON  ROBERT CEO                                   </KeyPersonnel1>
+				<KeyPersonnel2>CHRIS T CALLERO PRESIDENT                         </KeyPersonnel2>
+				<KeyPersonnel3>PAUL  BROOKS CFO                                  </KeyPersonnel3>
+				<NumberOfEmployees>0004500</NumberOfEmployees>
+				<TransactionNumber>Q602508779</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</BusinessSummary>
+	</Products>
+</NetConnectResponse>

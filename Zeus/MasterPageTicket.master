@@ -1,0 +1,62 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="MasterPageTicket" CodeBehind="MasterPageTicket.master.cs" %>
+
+<%@ Register Src="UserControls/wucMessage.ascx" TagName="wucMessage" TagPrefix="uc1" %>
+<%@ Register Src="UserControls/wucTopMenu.ascx" TagName="wucTopMenu" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/wucFooter.ascx" TagName="wucFooter" TagPrefix="uc3" %>
+<%@ Register Src="UserControls/wucCommonScripts.ascx" TagName="wucCommonScripts"
+    TagPrefix="uc4" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Ticket</title>
+    <uc4:wucCommonScripts ID="wucCommonScripts1" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+        
+        
+    <uc2:wucTopMenu ID="wucTopMenu1" TopMenuSelect="Tickets" runat="server" />
+    <table id='zeuslayout' cellpadding="2px" >
+        <tr>
+            <td class='zleft' style="width: 130px;">
+                <div id="menuside">
+                    <asp:Panel ID="pnlSideMenu" CssClass="rounded" runat="server">
+                        <ul>
+                            <li>
+                                <asp:HyperLink ID="lnkSearchTickets" NavigateUrl="~/SecureTicketForms/frmTicketSearch.aspx"
+                                    runat="server">Search Ticket</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink ID="lnkTicketDetails" NavigateUrl="~/SecureTicketForms/frmTicketDetail.aspx?Adding=false"
+                                    runat="server">Ticket Details</asp:HyperLink></li>
+                        </ul>
+                    </asp:Panel>
+                </div>
+            </td>
+            <td class='zmiddle'>
+                <uc1:wucMessage ID="WucMessage1" runat="server" />
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td class='zright'>
+                <asp:Panel runat="server" ID="pnlRecent">
+                    <fieldset style="width: 320px;">
+                        <legend>Recently Accessed Tickets</legend>
+                        <asp:Literal runat="server" ID="litRecent"></asp:Literal>
+                    </fieldset>
+                </asp:Panel>
+                <asp:Panel runat="server" ID="pnlLastViewed">
+                    <fieldset style="width: 320px;">
+                        <legend>Others Who Have Viewed</legend>
+                        <asp:Literal runat="server" ID="litUsers"></asp:Literal>
+                    </fieldset>
+                </asp:Panel>
+            </td>
+        </tr>
+    </table>
+    <uc3:wucFooter ID="wucFooter1" runat="server" />
+    </form>
+</body>
+</html>

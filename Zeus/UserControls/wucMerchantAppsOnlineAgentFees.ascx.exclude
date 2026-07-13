@@ -1,0 +1,670 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="wucMerchantAppsOnlineAgentFees.ascx.cs"
+    Inherits="UserControls_wucMerchantAppsOnlineAgentFees" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Assembly="Infragistics2.Web.v11.2, Version=11.2.20112.2055, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.Web.UI.EditorControls" TagPrefix="ig" %>
+<%@ Register Assembly="Infragistics2.WebUI.WebDataInput.v11.2, Version=11.2.20112.2055, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" Namespace="Infragistics.WebUI.WebDataInput" TagPrefix="igtxt" %>
+<asp:Panel runat="server" ID="pnlDetail">
+    <div class="AFGrid">
+        <table width="100%" cellpadding="5">
+            <tr>
+                <td style="width: 400px">
+                    Profile Name:</td>
+                <td>
+                    <asp:TextBox runat="server" ID="AgentName"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="ReqAgentName" runat="server" ControlToValidate="AgentName"
+                        ErrorMessage="Profile Name Required">*</asp:RequiredFieldValidator></td>
+            </tr>
+            <tr>
+                <td style="width: 400px">
+                    Send notification email to:</td>
+                <td>
+                    <asp:TextBox ID="AgentEmailAddress" runat="server" TextMode="MultiLine" Rows="3"
+                        Width="200px"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="AgentEmailAddress"
+                        ErrorMessage="Agent email is required">*</asp:RequiredFieldValidator></td>
+            </tr>
+            <tr>
+                <td>
+                    Bank:</td>
+                <td>
+                    <asp:DropDownList ID="MerchantAppTypeUID" runat="server">
+                    </asp:DropDownList></td>
+            </tr>
+            <tr>
+                <td>
+                    Include ACH:</td>
+                <td>
+                    <asp:CheckBox runat="server" ID="IncludeACH" Text="" /></td>
+            </tr>
+            <tr>
+                <td>
+                    Production Mode:</td>
+                <td>
+                    <asp:CheckBox runat="server" ID="Enabled" Text="" /></td>
+            </tr>
+            <tr>
+                <td>
+                    Email Agent</td>
+                <td>
+                    <asp:CheckBox runat="server" ID="EmailAgent" Checked="true" Text="" /></td>
+            </tr>
+            <tr>
+                <td>
+                    Email Merchant</td>
+                <td>
+                    <asp:CheckBox runat="server" ID="EmailMerchant" Checked="true" Text="" /></td>
+            </tr>
+            <tr id="trUrl" runat="server">
+                <td>
+                    Application URL
+                </td>
+                <td>
+                    <asp:HyperLink runat="server" Target="_blank" ID="hypURL"></asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+        <asp:HiddenField runat="server" ID="AgentUID" />
+        <asp:HiddenField runat="server" ID="UID" />
+        <asp:HiddenField runat="server" ID="AgentKey" />
+        <%--<asp:HiddenField runat="server" ID="AgentEmailAddress" />--%>
+        <asp:HiddenField runat="server" ID="AgentPhone" />
+        <br />
+        <div class="title">
+            &nbsp;&nbsp;Discount Rates
+            <hr class="line" />
+        </div>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <table width="100%" cellpadding="5">
+                    <tr>
+                        <td style="width: 400px">
+                            Type:
+                        </td>
+                        <td>
+                            <asp:RadioButtonList runat="server" ID="PricingType" RepeatDirection="Horizontal"
+                                RepeatLayout="Flow" AutoPostBack="true" OnSelectedIndexChanged="cbTieredPricing_SelectedIndexChanged">
+                                <asp:ListItem Value="t">Tiered Pricing</asp:ListItem>
+                                <asp:ListItem Value="i">Interchange</asp:ListItem>
+                                <asp:ListItem Value="e">ERR Rate</asp:ListItem>
+                            </asp:RadioButtonList></td>
+                    </tr>
+                </table>
+                <asp:Panel runat="server" ID="pnlCardType" Visible="false">
+                    <table width="100%" cellpadding="5">
+                        <tr>
+                            <td colspan="2">
+                                <b>Visa / Mastercard / Discover</b></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px">
+                                Qual Rate:</td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" AutoPostBack="true" ID="VisaQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px">
+                                Mid-Qual Increase:</td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="VisaMidQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px">
+                                Non-Qual Increase:</td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="VisaNonQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px">
+                                Transaction Fee:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="VisaQualFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%" class="cardtypegrid" style="display: none" border="0">
+                        <tr>
+                            <th>
+                            </th>
+                            <th>
+                                Qual Rate
+                            </th>
+                            <th>
+                                Mid-Qual Rate
+                            </th>
+                            <th>
+                                Non-Qual Rate
+                            </th>
+                            <th>
+                                Trans Fee
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Visa
+                            </td>
+                            <td>
+                                <asp:CustomValidator ID="ReqVisaQualRate" runat="server" ControlToValidate="VisaQualRate"
+                                    ErrorMessage="Visa Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <asp:CustomValidator ID="ReqVisaMidQualRate" runat="server" ControlToValidate="VisaMidQualRate"
+                                    ErrorMessage="Mid-Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <asp:CustomValidator ID="ReqVisaNonQualRate" runat="server" ControlToValidate="VisaNonQualRate"
+                                    ErrorMessage="Visa Non-Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <div class="mypadding">
+                                    <asp:Label runat="server" CssClass="required" Visible="false" ID="LabVisaQualFee"></asp:Label>
+                                </div>
+                                <ig:WebCurrencyEditor ID="VisaMidQualFee" runat="server" ValueText="0" Visible="false">
+                                </ig:WebCurrencyEditor>
+                                <ig:WebCurrencyEditor ID="VisaNonQualFee" runat="server" ValueText="0" Visible="false">
+                                </ig:WebCurrencyEditor>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mastercard
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="MCQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqMCQualRate" runat="server" ControlToValidate="MCQualRate"
+                                    ErrorMessage="Mastercard Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="MCMidQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqMCMidQualRate" runat="server" ControlToValidate="MCMidQualRate"
+                                    ErrorMessage="Mastercard Mid-Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="MCNonQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqMCNonQualRate" runat="server" ControlToValidate="MCNonQualRate"
+                                    ErrorMessage="Mastercard Non-Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <div class="mypadding">
+                                    <ig:WebCurrencyEditor ID="MCQualFee" runat="server" ValueText="0">
+                                    </ig:WebCurrencyEditor>
+                                    <asp:Label runat="server" CssClass="required" Visible="false" ID="LabMCQualFee"></asp:Label>
+                                </div>
+                                <ig:WebCurrencyEditor ID="MCMidQualFee" runat="server" ValueText="0" Visible="false">
+                                </ig:WebCurrencyEditor>
+                                <ig:WebCurrencyEditor ID="MCNonQualFee" runat="server" ValueText="0" Visible="false">
+                                </ig:WebCurrencyEditor>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Discover
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="DiscoverQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqDiscoverQualRate" runat="server" ControlToValidate="DiscoverQualRate"
+                                    ErrorMessage="Discover Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="DiscoverMidQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqDiscoverMidQualRate" runat="server" ControlToValidate="DiscoverMidQualRate"
+                                    ErrorMessage="Discover Mid-Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="DiscoverNonQualRate" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqDiscoverNonQualRate" runat="server" ControlToValidate="DiscoverNonQualRate"
+                                    ErrorMessage="Discover Non-Qual Rate must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                            <td>
+                                <div class="mypadding">
+                                    <ig:WebCurrencyEditor ID="DiscoverQualFee" runat="server" ValueText="0">
+                                    </ig:WebCurrencyEditor>
+                                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabDiscoverQualFee"></asp:Label>
+                                </div>
+                                <ig:WebCurrencyEditor ID="DiscoverMidQualFee" runat="server" ValueText="0" Visible="false">
+                                </ig:WebCurrencyEditor>
+                                <ig:WebCurrencyEditor ID="DiscoverNonQualFee" runat="server" ValueText="0" Visible="false">
+                                </ig:WebCurrencyEditor>
+                            </td>
+                        </tr>
+                    </table>
+                </asp:Panel>
+                <asp:Panel runat="server" ID="pnlInterchange" Visible="false">
+                    <table width="100%" cellpadding="5">
+                        <tr>
+                            <td style="width: 400px">
+                                Interchange Plus:</td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" ID="InterchangePlus" runat="server" ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqInterchangePlus" runat="server" ControlToValidate="InterchangePlus"
+                                    ErrorMessage="Interchange Plus must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                                <asp:Label runat="server" CssClass="required" Visible="false" ID="LabInterchangePlus"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Interchange Per Item:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="InterchangePerItem" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                                <asp:Label runat="server" CssClass="required" Visible="false" ID="LabInterchangePerItem"></asp:Label></td>
+                        </tr>
+                    </table>
+                </asp:Panel>
+                <asp:Panel ID="pnlErr" runat="server" Visible="false">
+                    <table width="100%" cellpadding="5">
+                        <tr>
+                            <td colspan="2">
+                                <b>Visa / Mastercard / Discover</b></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Discount Rate
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="ERRVisaDiscount" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqERRVisaDiscount" runat="server" ControlToValidate="ERRVisaDiscount"
+                                    ErrorMessage="Visa ERR Discount must be less than 10% and must be non-negative">*</asp:CustomValidator></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Non-Qualified Fee
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="ERRVisaNonQualFee" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqERRVisaNonQualFee" runat="server" ControlToValidate="ERRVisaNonQualFee"
+                                    ErrorMessage="Visa ERR Non-Qual Fee must be less than 10% and must be non-negative">*</asp:CustomValidator></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Authorization Fee
+                            </td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="ERRVisaAuthFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="display: none;">
+                        <tr>
+                            <td style="width: 400px;">
+                                Mastercard Discount Rate
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="ERRMCDiscount" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqERRMCDiscount" runat="server" ControlToValidate="ERRMCDiscount"
+                                    ErrorMessage="Mastercard ERR Discount must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Mastercard Non-Qualified Fee
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="ERRMCNonQualFee" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqERRMCNonQualFee" runat="server" ControlToValidate="ERRMCNonQualFee"
+                                    ErrorMessage="Mastercard ERR Non-Qual Fee must be less than 10% and must be non-negative">*</asp:CustomValidator></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Mastercard Authorization Fee
+                            </td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="ERRMCAuthFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Discover Discount Rate
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="ERRDiscoverDiscount" runat="server"
+                                    ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqERRDiscoverDiscount" runat="server" ControlToValidate="ERRDiscoverDiscount"
+                                    ErrorMessage="Discover ERR Discount must be less than 10% and must be non-negative">*</asp:CustomValidator>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Discover Non-Qualified Fee
+                            </td>
+                            <td>
+                                <ig:WebPercentEditor DataMode="decimal" MaxValue="9" ID="ERRDiscoverNonQualFee"
+                                    runat="server" ValueText="0">
+                                </ig:WebPercentEditor>
+                                <asp:CustomValidator ID="ReqERRDiscoverNonQualFee" runat="server" ControlToValidate="ERRDiscoverNonQualFee"
+                                    ErrorMessage="Discover ERR Non-Qual Fee must be less than 10% and must be non-negative">*</asp:CustomValidator></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 400px;">
+                                Discover Authorization Fee
+                            </td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="ERRDiscoverAuthFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                            </td>
+                        </tr>
+                    </table>
+                </asp:Panel>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <asp:Panel runat="server" ID="pnlHide" Visible="false">
+            <ig:WebDatePicker ID="EffectiveDate" runat="server" EnableAppStyling="False"
+                NullDateLabel="" BackColor="#EFF3FF" BorderStyle="Solid" BorderWidth="1px" TabIndex="109">
+            <CalendarAnimation FadeCloseDuration="1" FadeOpenDuration="1" SlideCloseDuration="1" SlideOpenDuration="1" /></ig:WebDatePicker>
+            <asp:RequiredFieldValidator ID="ReqEffectiveDate" runat="server" ControlToValidate="EffectiveDate"
+                ErrorMessage="Effective Date Required">*</asp:RequiredFieldValidator>
+        </asp:Panel>
+        <br />
+        <div class="title">
+            &nbsp;&nbsp;Payment Gateway Fees
+            <hr class="line" />
+        </div>
+        <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+            <ContentTemplate>
+                <table width="100%" cellpadding="5">
+                    <tr>
+                        <td style="width: 400px">
+                            Enable</td>
+                        <td>
+                            <asp:CheckBox runat="server" ID="cbEnableGateway" AutoPostBack="true" Text="" OnCheckedChanged="cbEnableGateway_CheckedChanged" />
+                        </td>
+                    </tr>
+                </table>
+                <asp:Panel runat="server" ID="pnlGateway" Visible="false">
+                    <table width="100%" cellpadding="5">
+                        <tr>
+                            <td style="width: 400px">
+                                Setup Fee:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="GatewaySetupFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                                <asp:HiddenField runat="server" ID="hidGatewaySetupFee" />
+                                <asp:Label runat="server" Visible="false" CssClass="required" ID="LabGatewaySetupFee"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Monthly Fee:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="GatewayMonthlyFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                                <asp:HiddenField runat="server" ID="hidGatewayMonthlyFee" />
+                                <asp:Label runat="server" Visible="false" CssClass="required" ID="LabGatewayMonthlyFee"></asp:Label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Transaction Fee:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="GatewayTransactionFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                                <asp:HiddenField runat="server" ID="hidGatewayTransactionFee" />
+                                <asp:Label runat="server" Visible="false" CssClass="required" ID="LabGatewayTransactionFee"></asp:Label></td>
+                        </tr>
+                    </table>
+                </asp:Panel>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <br />
+        <div class="title">
+            &nbsp;&nbsp;Wireless Fees
+            <hr class="line" />
+        </div>
+        <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+            <ContentTemplate>
+                <table width="100%" cellpadding="5">
+                    <tr>
+                        <td style="width: 400px">
+                            Enable</td>
+                        <td>
+                            <asp:CheckBox runat="server" ID="cbEnableWireless" AutoPostBack="true" Text="" OnCheckedChanged="cbEnableWireless_CheckedChanged" />
+                        </td>
+                    </tr>
+                </table>
+                <asp:Panel runat="server" ID="pnlWireless" Visible="false">
+                    <table width="100%" cellpadding="5">
+                        <tr>
+                            <td style="width: 400px">
+                                Setup Fee:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="WirelessSetupFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                                <asp:HiddenField runat="server" ID="hidWirelessSetupFee" />
+                                <asp:Label runat="server" Visible="false" CssClass="required" ID="LabWirelessSetupFee"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Data Monthly Fee:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="WirelessDataMonthlyFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                                <asp:HiddenField runat="server" ID="hidWirelessDataMonthlyFee" />
+                                <asp:Label runat="server" Visible="false" CssClass="required" ID="LabWirelessDataMonthlyFee"></asp:Label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Transaction Fee:</td>
+                            <td>
+                                <ig:WebCurrencyEditor ID="WirelessTransactionFee" runat="server" ValueText="0">
+                                </ig:WebCurrencyEditor>
+                                <asp:HiddenField runat="server" ID="hidWirelessTransactionFee" />
+                                <asp:Label runat="server" Visible="false" CssClass="required" ID="LabWirelessTransactionFee"></asp:Label></td>
+                        </tr>
+                    </table>
+                </asp:Panel>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <fieldset style="display: none;">
+            <legend>
+                <asp:CheckBox runat="server" ID="cbDebit" Text="Enable PIN-Debit Card Fees" AutoPostBack="true"
+                    OnCheckedChanged="cbDebit_CheckedChanged" /></legend>
+            <asp:Panel runat="server" ID="pnlDebit" Visible="false">
+                <div class="mylabel">
+                    Monthly Access Fee:
+                </div>
+                <table class="cardtypegrid">
+                    <tr>
+                        <td>
+                            <div class="myinput">
+                                <div class="mypadding">
+                                    <ig:WebCurrencyEditor ID="DebitAccessFee" runat="server" MaxLength="6" ValueText="0">
+                                    </ig:WebCurrencyEditor>
+                                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabDebitAccessFee"></asp:Label>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </table>
+                <div style="clear: both;">
+                    <!-- -->
+                </div>
+                <table class="cardtypegrid">
+                    <tr>
+                        <td>
+                            <asp:RadioButton ID="rblPIN1" runat="server" GroupName="group_pin" />
+                            Transaction Fee:
+                            <ig:WebCurrencyEditor ID="PINDebitTransactionFee1" runat="server" MaxLength="6"
+                                ValueText="0.00">
+                            </ig:WebCurrencyEditor>
+                            + Networks Fees (Default)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:RadioButton ID="rblPIN2" runat="server" GroupName="group_pin" />
+                            Transaction Fee:
+                            <ig:WebCurrencyEditor ID="PINDebitTransactionFee2" runat="server" MaxLength="6"
+                                ValueText="0.00">
+                            </ig:WebCurrencyEditor>
+                            +
+                            <ig:WebPercentEditor DataMode="decimal" ID="PINDebitPercentage2" runat="server"
+                                ValueText="0.00">
+                            </ig:WebPercentEditor>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:RadioButton ID="rblPIN3" runat="server" GroupName="group_pin" />
+                            <ig:WebPercentEditor DataMode="decimal" ID="PINDebitPercentage3" runat="server"
+                                ValueText="0.00">
+                            </ig:WebPercentEditor>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:RadioButton ID="rblPIN4" runat="server" GroupName="group_pin" />
+                            Transaction Fee:
+                            <ig:WebCurrencyEditor ID="PINDebitTransactionFee4" runat="server" MaxLength="6"
+                                ValueText="0.00">
+                            </ig:WebCurrencyEditor>
+                            +
+                            <ig:WebPercentEditor DataMode="decimal" ID="PINDebitPercentage4" runat="server"
+                                ValueText="0.00">
+                            </ig:WebPercentEditor>
+                            + Network Fees
+                        </td>
+                    </tr>
+                </table>
+            </asp:Panel>
+        </fieldset>
+        <br />
+        <div class="title">
+            &nbsp;&nbsp;Other Fees
+            <hr class="line" />
+        </div>
+        <table width="100%" cellpadding="5">
+            <tr>
+                <td style="width: 400px">
+                    Voice Auth Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="VoiceAuthorizationFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabVoiceAuthorizationFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    Chargeback Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="ChargebackFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabChargebackFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    Service Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="ServiceFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabServiceFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    Application Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="ApplicationFee" runat="server" MaxLength="6" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabApplicationFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    ACH Batch Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="ACHBatchFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabACHBatchFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    Retrieval Request Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="RetrievalRequestFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabRetrievalRequestFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    Monthly Minimum Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="MonthlyMinimumFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabMonthlyMinimumFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    Merchant Club Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="MerchantClubFee" runat="server" MaxLength="6" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabMerchantClubFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    AVS Voice Auth Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="AVSVoiceAuthorizationFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabAVSVoiceAuthorizationFee"></asp:Label></td>
+            </tr>
+            <tr>
+                <td>
+                    VruARU Fee:</td>
+                <td>
+                    <ig:WebCurrencyEditor ID="VruARUFee" runat="server" ValueText="0">
+                    </ig:WebCurrencyEditor>
+                    <asp:Label runat="server" Visible="false" CssClass="required" ID="LabVruARUFee"></asp:Label></td>
+            </tr>
+        </table>
+        <br />
+        <div class="title">
+            &nbsp;&nbsp;Special Requests
+            <hr class="line" />
+        </div>
+        <br />
+        <div style="font-size: 10pt;">
+            <i>Describe the equipment to be used here. Also, describe any special pricing or handling
+                instructions.</i></div>
+        <asp:TextBox runat="server" ID="SpecialRequests" TextMode="MultiLine" Width="100%"
+            MaxLength="5000" Height="50"></asp:TextBox>
+    </div>
+    <div style="clear: both;">
+        <!-- -->
+    </div>
+</asp:Panel>

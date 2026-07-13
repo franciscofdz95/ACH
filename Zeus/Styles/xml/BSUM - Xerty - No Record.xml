@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businesssummary\BSUM.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BSUM</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessSummary>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508771</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/XERTY;CA-/CRANSTON RI 02920/BSUM/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileDate>20080212</ProfileDate>
+				<ProfileTime>12:39:13</ProfileTime>
+				<TerminalNumber>-ADQ</TerminalNumber>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>XERTY                                   </BusinessName>
+				<City>CRANSTON                    </City>
+				<State>RI</State>
+				<Zip>02920</Zip>
+			</BusinessNameAndAddress>
+			<BillingIndicator code="A">Access Charge</BillingIndicator>
+		</BusinessSummary>
+	</Products>
+</NetConnectResponse>

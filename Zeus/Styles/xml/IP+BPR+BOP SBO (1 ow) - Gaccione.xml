@@ -1,0 +1,390 @@
+<?xml version="1.0" standalone="no"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Alejandro Rea (Experian Information Solutions) -->
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\IPBPRBOP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+<CompletionCode>0000</CompletionCode> 
+<ReferenceId>user1abc001</ReferenceId> 
+<Products xmlns="http://www.experian.com/ARFResponse">
+<Intelliscore>
+<InputSummary>
+<SubscriberNumber>563736</SubscriberNumber> 
+<InquiryTransactionNumber>C604768129</InquiryTransactionNumber> 
+<CPUVersion>CPU006</CPUVersion> 
+<Inquiry>INQF/700001532/MC-000214/IR/BP/BOP/V-000777/OWNR-GAMBLIN,JOHN;CA-667 PROVIDENCE PIKE/PUTNAM CT 06260</Inquiry> 
+</InputSummary>
+<BusinessNameAndAddress>
+<ProfileType code="NO RECORD" /> 
+<ProfileDate>20081204</ProfileDate> 
+<ProfileTime>18:24:54</ProfileTime> 
+<TerminalNumber>-ANJ</TerminalNumber> 
+<FileEstablishFlag code="" /> 
+<BusinessName>JOHN GACCIONE</BusinessName> 
+</BusinessNameAndAddress>
+<ExecutiveElements>
+<BankruptcyCount>000</BankruptcyCount> 
+<TaxLienCount>000</TaxLienCount> 
+<JudgmentCount>000</JudgmentCount> 
+<CollectionCount>000</CollectionCount> 
+<LegalBalance>00000000</LegalBalance> 
+<UCCFilings>000</UCCFilings> 
+<UCCDerogatoryCount>000</UCCDerogatoryCount> 
+<CurrentAccountBalance>00000000</CurrentAccountBalance> 
+<CurrentTradelineCount>000</CurrentTradelineCount> 
+<MonthlyAverageDBT>000</MonthlyAverageDBT> 
+<HighestDBT6Months>000</HighestDBT6Months> 
+<HighestDBT5Quarters>000</HighestDBT5Quarters> 
+<ActiveTradelineCount>000</ActiveTradelineCount> 
+<AllTradelineBalance>00000000</AllTradelineBalance> 
+<AllTradelineCount>000</AllTradelineCount> 
+<AverageBalance5Quarters>00000000</AverageBalance5Quarters> 
+<SingleLineHighCredit>00000000</SingleLineHighCredit> 
+<LowBalance6Months>00000000</LowBalance6Months> 
+<HighBalance6Months>00000000</HighBalance6Months> 
+</ExecutiveElements>
+<ProprietorNameAndAddress>
+<ProfileType code="SBI/OWNER" /> 
+<ProfileTime>18:24:54</ProfileTime> 
+<ProprietorName>JOHN GAMBLIN</ProprietorName> 
+<StreetAddress>667 PROVIDENCE PIKE</StreetAddress> 
+<City>PUTNAM</City> 
+<State>CT</State> 
+<Zip>06260</Zip> 
+<SSN>999990000</SSN> 
+</ProprietorNameAndAddress>
+<IntelliscoreScoreInformation>
+<PubliclyHeldCompany code="N" /> 
+<LimitedProfile code="N" /> 
+<Filler>07</Filler> 
+<ScoreInfo>
+<Score>0000007700</Score> 
+</ScoreInfo>
+<ModelInformation>
+<ModelCode>000214</ModelCode> 
+<ModelTitle>INTELLISCORE PLUS</ModelTitle> 
+<CustomModelCode>07</CustomModelCode> 
+</ModelInformation>
+<PercentileRanking>076</PercentileRanking> 
+<Action>LOW-MEDIUM RISK</Action> 
+</IntelliscoreScoreInformation>
+<ScoreFactors>
+<ScoreFactor code="047">AVAILABLE CREDIT ON ALL OPEN PERSONAL ACCTS RPTD LAST 6 MOS</ScoreFactor> 
+<ScoreFactor code="054">NUMBER OF PERSONAL AUTO ACCOUNTS DELINQUENT LAST 12 MONTHS</ScoreFactor> 
+</ScoreFactors>
+<SmallBusinessKeyModelElements>
+<ProprietorFirstName>JOHN</ProprietorFirstName> 
+<ProprietorSurname>GAMBLIN</ProprietorSurname> 
+<AgeOldestTradeline>000000382</AgeOldestTradeline> 
+<SatisfactoryTradesLast24Mos>000000003</SatisfactoryTradesLast24Mos> 
+<TradesPresentlyDelinquentOrPastDueLast6Mos>000000000</TradesPresentlyDelinquentOrPastDueLast6Mos> 
+<TotCollectionsLegalFilingsOrDerogAccts>000000000</TotCollectionsLegalFilingsOrDerogAccts> 
+<TotDerogPubRecsLast24Mos>000000000</TotDerogPubRecsLast24Mos> 
+<TotDerogPubRecsGT250>000000000</TotDerogPubRecsGT250> 
+<TotOpenBankcardTradesLast6Mos>000000000</TotOpenBankcardTradesLast6Mos> 
+<TotBankcardBalToLimitRatioLast6Mos>000000000</TotBankcardBalToLimitRatioLast6Mos> 
+<TotOpenRevTrades>000000002</TotOpenRevTrades> 
+<TotAvailableRevCreditLast6Mos>000001600</TotAvailableRevCreditLast6Mos> 
+<PctAutoLeaseTrades30PlusDPD>000000000</PctAutoLeaseTrades30PlusDPD> 
+<PctRealEstateTrades30PlusDPD>000000000</PctRealEstateTrades30PlusDPD> 
+<TotalCreditPurposeInquiriesLast6Mos>000000000</TotalCreditPurposeInquiriesLast6Mos> 
+</SmallBusinessKeyModelElements>
+<SmallBusinessAdvisorySummary>
+<ProprietorBirthDate>0 00000</ProprietorBirthDate> 
+<DwellingType>S</DwellingType> 
+<DerivedRisk>0766</DerivedRisk> 
+<RiskScoreFactorCode1>03</RiskScoreFactorCode1> 
+<RiskScoreFactorCode2>36</RiskScoreFactorCode2> 
+</SmallBusinessAdvisorySummary>
+<NonStandardRecord>
+<Type>CDS</Type> 
+</NonStandardRecord>
+<BillingIndicator code="" /> 
+</Intelliscore>
+<CreditProfile>
+<Header>
+<ReportDate>120408</ReportDate> 
+<ReportTime>182453</ReportTime> 
+<Preamble>TCTB</Preamble> 
+<ARFVersion>07</ARFVersion> 
+</Header>
+<RiskModel>
+<ModelIndicator code="[">Scorex PLUS Score for New Accounts</ModelIndicator> 
+<Score>0766</Score> 
+<ScoreFactorCodeOne>03</ScoreFactorCodeOne> 
+<ScoreFactorCodeTwo>36</ScoreFactorCodeTwo> 
+<ScoreFactorCodeThree /> 
+<ScoreFactorCodeFour /> 
+<Evaluation code="P">Positive number</Evaluation> 
+</RiskModel>
+<SSN>
+<VariationIndicator code="*">Different</VariationIndicator> 
+<Number>999997312</Number> 
+</SSN>
+<ConsumerIdentity>
+<Name>
+<Gen>JOHN GAMBLIN</Gen> 
+</Name>
+<YOB /> 
+</ConsumerIdentity>
+<AddressInformation>
+<FirstReportedDate>0406</FirstReportedDate> 
+<LastUpdatedDate>0406</LastUpdatedDate> 
+<Origination code="2">Reported via A/R Tape</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode>1323280</LastReportingSubcode> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>67 PROVIDENCE PIKE</StreetPrefix> 
+<StreetSuffix>667 PROVIDENCE PIKE</StreetSuffix> 
+<UnitID>667 PROVIDENCE PIKE</UnitID> 
+<State>667 PROVIDENCE PIKE</State> 
+<Zip>PUTNAM CT 062602517</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<AddressInformation>
+<FirstReportedDate>1281</FirstReportedDate> 
+<LastUpdatedDate>0306</LastUpdatedDate> 
+<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode /> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>77 PROVIDENCE PIKE</StreetPrefix> 
+<StreetSuffix>677 PROVIDENCE PIKE</StreetSuffix> 
+<UnitID>677 PROVIDENCE PIKE</UnitID> 
+<State>677 PROVIDENCE PIKE</State> 
+<Zip>PUTNAM CT 062602517</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<AddressInformation>
+<FirstReportedDate>0905</FirstReportedDate> 
+<LastUpdatedDate>0905</LastUpdatedDate> 
+<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode /> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>6900 S TAMIAMI TRL # B3</StreetPrefix> 
+<StreetSuffix>16900 S TAMIAMI TRL # B3</StreetSuffix> 
+<UnitID>16900 S TAMIAMI TRL # B3</UnitID> 
+<State>16900 S TAMIAMI TRL # B3</State> 
+<Zip>FORT MYERS FL 339084509</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0103</OpenDate> 
+<StatusDate>0804</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="25">VA Real Estate Loan</AccountType> 
+<TermsDuration code="360" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00064900</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>081604</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>1512385420</AccountNumber> 
+<MonthsHistory>15</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B-CCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>2991739</Subcode> 
+<KOB code="FM">Mortgage Companies</KOB> 
+<SubscriberDisplayName>CHASE MANHATTAN MTGE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0804</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="25" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0277</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000600</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000603</Value> 
+</Amount>
+<BalanceDate>120108</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>569724</AccountNumber> 
+<MonthsHistory>95</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NN00000000000000000000000</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>042403</LastPaymentDate> 
+<Subcode>3321860</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>GEMB/JCP</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0405</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00001000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>111908</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>604587015043</AccountNumber> 
+<MonthsHistory>44</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NN00000000000NNNNN0000000</PaymentProfile> 
+<Subcode>1355850</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>GEMB/DILLARDS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0704</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="25">VA Real Estate Loan</AccountType> 
+<TermsDuration code="180">One Hundred Eighty Months</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00060000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>091508</BalanceDate> 
+<BalanceAmount>00048941</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>1782080440</AccountNumber> 
+<MonthsHistory>49</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000662</MonthlyPaymentAmount> 
+<LastPaymentDate>090708</LastPaymentDate> 
+<Subcode>2991739</Subcode> 
+<KOB code="FM">Mortgage Companies</KOB> 
+<SubscriberDisplayName>CHASE MANHATTAN MTGE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="25" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<InformationalMessage>
+<MessageNumber>57</MessageNumber> 
+<MessageText>1202 NAME DOES NOT MATCH OFAC/PLC LIST</MessageText> 
+</InformationalMessage>
+<FraudServices>
+<Type code="99">Subsegment data only</Type> 
+<SIC code="" /> 
+<Text /> 
+<SocialDate>000000</SocialDate> 
+<SocialCount>0000</SocialCount> 
+<SocialErrorCode code="2">Not applicable</SocialErrorCode> 
+<AddressDate>090108</AddressDate> 
+<AddressCount>0000</AddressCount> 
+<AddressErrorCode code="0">No error conditions occur</AddressErrorCode> 
+</FraudServices>
+<ProfileSummary>
+<DisputedAccountsExcluded>000</DisputedAccountsExcluded> 
+<PublicRecordsCount>000</PublicRecordsCount> 
+<InstallmentBalance>N/A</InstallmentBalance> 
+<RealEstateBalance>00048941</RealEstateBalance> 
+<RevolvingBalance>00000000</RevolvingBalance> 
+<PastDueAmount>00000000</PastDueAmount> 
+<MonthlyPayment>00000000</MonthlyPayment> 
+<MonthlyPaymentPartialFlag code="">All tradelines included</MonthlyPaymentPartialFlag> 
+<RealEstatePayment>00000662</RealEstatePayment> 
+<RealEstatePaymentPartialFlag code="">All tradelines included</RealEstatePaymentPartialFlag> 
+<RevolvingAvailablePercent>100</RevolvingAvailablePercent> 
+<RevolvingAvailablePartialFlag code="">All tradelines included</RevolvingAvailablePartialFlag> 
+<TotalInquiries>000</TotalInquiries> 
+<InquiriesDuringLast6Months>000</InquiriesDuringLast6Months> 
+<TotalTradeItems>004</TotalTradeItems> 
+<PaidAccounts>001</PaidAccounts> 
+<SatisfactoryAccounts>004</SatisfactoryAccounts> 
+<NowDelinquentDerog>000</NowDelinquentDerog> 
+<WasDelinquentDerog>000</WasDelinquentDerog> 
+<OldestTradeOpenDate>0277</OldestTradeOpenDate> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+</ProfileSummary>
+</CreditProfile>
+</Products>
+</NetConnectResponse>
+<!--  Report ends here 
+--> 

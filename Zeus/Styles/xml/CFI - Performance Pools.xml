@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\cfi\CFI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CFI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<CommercialFraudInsight>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508656</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Comments>BUS TAXID TAG TEST</Comments>
+				<Inquiry>NARQ/PERFORMANCE POOLS;CA-2944 BROKEN ARROW ST/NORCO CA 92860/PH-9517355908/M-BUS TAXID TAG TEST/V-000777;01/USRID-BISQA8801</Inquiry>
+			</InputSummary>
+			<GeneralSummary type="Business" ident="B1A1">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-2B8-LMTHF33</AuditNbr>
+				<ResponseType>B1A1</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B1A1">
+				<AddrCode>UR</AddrCode>
+				<AddrMsg>Address residential - name match unavailable (Name/Address no match to primary residential database, but address can be classified as residential)</AddrMsg>
+				<PhnCode>U </PhnCode>
+				<PhnMsg>Phone unverifiable - not in database</PhnMsg>
+				<AddrTypeCode>S </AddrTypeCode>
+				<AddrTypeMsg>Residential</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode/>
+				<AddrUnitMismatchMsg>Data not available</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>1 </OFACCode>
+				<OFACMsg>No match</OFACMsg>
+				<TaxIDCode>M </TaxIDCode>
+				<TaxIDMsg>Tax ID missing (search information not received)</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B1A1">
+				<AddrCode>N </AddrCode>
+				<AddrMsg>No address high-risk information found</AddrMsg>
+				<PhnCode>N </PhnCode>
+				<PhnMsg>No phone high-risk information found</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B1A1">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0000</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0000</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>00</AddrBusRecs>
+				<AddrHiRiskCodes>00</AddrHiRiskCodes>
+				<AddrHiRiskDescs>01</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>00</PhnBusRecs>
+				<PhnHiRiskCodes>00</PhnHiRiskCodes>
+				<PhnHiRiskDescs>00</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>00</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>00</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B1A1"/>
+			<StdAddr type="Business" ident="B1A1">
+				<BusName>PERFORMANCE POOLS</BusName>
+				<Addr>2944 BROKEN ARROW ST</Addr>
+				<City>NORCO</City>
+				<State>CA</State>
+				<Zip>92860</Zip>
+				<Zip4>1833</Zip4>
+			</StdAddr>
+			<AddrHiRiskDescs type="Business" ident="B1A1">
+				<HighRiskDesc>No high risk business at address/phone</HighRiskDesc>
+			</AddrHiRiskDescs>
+			<ValidationDetail type="Business" ident="B1A1">
+				<OFACValidationResult>1 </OFACValidationResult>
+			</ValidationDetail>
+			<BillingIndicator>F</BillingIndicator>
+			<BillingIndicatorMsg>Full Charge</BillingIndicatorMsg>
+		</CommercialFraudInsight>
+	</Products>
+</NetConnectResponse>

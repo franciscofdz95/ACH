@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businesssummary\BSUM.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BSUM</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessSummary>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508776</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/ENRON;CA-PO BOX 4734/HOUSTON TX 77210/BSUM/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>T02377279</ExperianFileNumber>
+				<ProfileType code="SUMMARY   "/>
+				<ProfileDate>20080212</ProfileDate>
+				<ProfileTime>14:28:38</ProfileTime>
+				<TerminalNumber>-ACQ</TerminalNumber>
+				<FileEstablishDate>19860900</FileEstablishDate>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>ENRON                                   </BusinessName>
+				<StreetAddress>PO BOX 4734                   </StreetAddress>
+				<City>HOUSTON                     </City>
+				<State>TX</State>
+				<Zip>77210</Zip>
+				<PhoneNumber>713-853-5955</PhoneNumber>
+			</BusinessNameAndAddress>
+			<BusinessSummary>
+				<RiskCategory code="S">Serious Risk</RiskCategory>
+				<NumberOfTradeLines>00072</NumberOfTradeLines>
+				<JudgmentFlag code="Y">This business has judgment filing(s)</JudgmentFlag>
+				<TaxLienFlag code="Y">This business has tax lien filings(s)</TaxLienFlag>
+				<BankruptcyFlag code="Y">This business has bankruptcy filing(s)</BankruptcyFlag>
+				<UCCFilingsFlag code="Y">This business has UCC filing(s)</UCCFilingsFlag>
+				<CollectionFlag code="Y">This business has collection filing(s)</CollectionFlag>
+				<BankFlag code="Y">This business has bank data</BankFlag>
+				<CorporateFilingStatus code="058"/>
+				<DateOfIncorporation>19610719</DateOfIncorporation>
+				<KeyPersonnel1>  ANLEY TREASURER                                 </KeyPersonnel1>
+				<KeyPersonnel2>JAY  BERRIMAN PRESIDENT                           </KeyPersonnel2>
+				<KeyPersonnel3>ROBERT S BINGHAM TREASURER                        </KeyPersonnel3>
+				<NumberOfEmployees>0000002</NumberOfEmployees>
+				<TransactionNumber>Q602508776</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</BusinessSummary>
+	</Products>
+</NetConnectResponse>

@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\SBCS\SBCSScore.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>user1abc001</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<SmallBusinessCreditShare>
+			<InputSummary>
+				<SubscriberNumber>998709</SubscriberNumber>
+				<InquiryTransactionNumber>C906422250</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/GLENNS REFRIGERATION;CA-PO BOX 80786/BAKERSFIELD CA 93380/SBCS/V-000777/MC-000220/IR</Inquiry>
+			</InputSummary>
+			<SBCSBusinessNameAndAddress>
+				<ExperianBIN>812583192</ExperianBIN>
+				<ProfileType code="SCORE">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20100317</ProfileDate>
+				<ProfileTime>14:26:15</ProfileTime>
+				<TerminalNumber>-AM7</TerminalNumber>
+				<FileEstablishDate>19830900</FileEstablishDate>
+				<FileEstablishFlag code=""/>
+				<BusinessName>GLENN'S REFRIGERATION</BusinessName>
+				<StreetAddress>8912 GOLDEN STATE HWY # A</StreetAddress>
+				<City>BAKERSFIELD</City>
+				<State>CA</State>
+				<Zip>93308</Zip>
+				<ZipExtension>9532</ZipExtension>
+				<PhoneNumber>661-399-3318</PhoneNumber>
+				<MatchingNameAndAddress>
+					<MatchingBusinessName>GLENNS REFRIGERATION</MatchingBusinessName>
+					<MatchingStreetAddress>P. O. BOX 80786</MatchingStreetAddress>
+					<MatchingCity>BAKERSFIELD</MatchingCity>
+					<MatchingState>CA</MatchingState>
+					<MatchingZip>93380</MatchingZip>
+					<MatchingZipExtension>0786</MatchingZipExtension>
+				</MatchingNameAndAddress>
+				<SIC>
+					<SICIndicator>P</SICIndicator>
+					<SICCode code="50130000">Motor Vehicle Supplies &amp; New Parts</SICCode>
+				</SIC>
+				<SIC>
+					<SICIndicator>A</SICIndicator>
+					<SICCode code="75380000">Automotive Repair Shops, General</SICCode>
+				</SIC>
+			</SBCSBusinessNameAndAddress>
+			<SBCSExecutiveElements>
+				<BankruptcyFilingCount>00000</BankruptcyFilingCount>
+				<TaxLienCount>00000</TaxLienCount>
+				<JudgmentCount>00000</JudgmentCount>
+				<CollectionCount>00001</CollectionCount>
+				<CollectionCountPast24Months>00001</CollectionCountPast24Months>
+				<LegalBalance>00000000000</LegalBalance>
+				<UCCFilings>00000</UCCFilings>
+				<UCCDerogatoryCount>00000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000000</CurrentAccountBalance>
+				<CurrentTradelineCount>00003</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>0</HighestDBT6Months>
+				<HighestDBT5Quarters>0</HighestDBT5Quarters>
+				<ActiveTradelineCount>00003</ActiveTradelineCount>
+				<AllTradelineBalance>00000000000</AllTradelineBalance>
+				<AllTradelineCount>00006</AllTradelineCount>
+				<AverageBalance5Quarters>00000000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000006465</SingleLineHighCredit>
+				<LowBalance6Months>00000001210</LowBalance6Months>
+				<HighBalance6Months>00000012060</HighBalance6Months>
+				<EarliestCollectionDate>20080800</EarliestCollectionDate>
+				<MostRecentCollectionDate>20080800</MostRecentCollectionDate>
+				<CurrentDBT>000</CurrentDBT>
+				<AdditionalDataVariables>
+					<HighestDBTEver>000</HighestDBTEver>
+					<WorstNonFinancialTradePerformanceEver code="3">61-90 days past the due date</WorstNonFinancialTradePerformanceEver>
+					<WorstFinancialTradePerformanceEver code="1">1-30 days past due date</WorstFinancialTradePerformanceEver>
+					<NbrOfFinancialTradesGreaterThan100Utilized>00000</NbrOfFinancialTradesGreaterThan100Utilized>
+					<NbrOfAccountsCurrentlyDelinquent>00000</NbrOfAccountsCurrentlyDelinquent>
+					<InquiriesPrevious6Months>00000</InquiriesPrevious6Months>
+					<InquiriesPrevious12Months>00000</InquiriesPrevious12Months>
+					<SBCSNumberOfTradeLines>00000</SBCSNumberOfTradeLines>
+					<SBCSTotalBalance>00000000000</SBCSTotalBalance>
+					<SBCSCreditLimit>00000000000</SBCSCreditLimit>
+				</AdditionalDataVariables>
+			</SBCSExecutiveElements>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>06</Filler>
+				<ScoreInfo>
+					<Score>0000004200</Score>
+				</ScoreInfo>
+				<ProfileNumber>I906422250</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000220</ModelCode>
+					<ModelTitle>SBCS ACQUISITIONS (SCORE ONLY)</ModelTitle>
+					<CustomModelCode>06</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>041</PercentileRanking>
+				<Action>MEDIUM RISK</Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="264">PERCENT OF TOTAL FINANCIAL ACCTS TO TOTAL COMM ACCTS</ScoreFactor>
+				<ScoreFactor code="259">AVERAGE AGE OF ALL FINANCIAL ACCOUNTS</ScoreFactor>
+				<ScoreFactor code="251">BALANCE OF COMMERCIAL COLLECTION ACCOUNTS</ScoreFactor>
+				<ScoreFactor code="239">NUMBER OF RECENTLY ACTIVE ACCOUNTS</ScoreFactor>
+			</ScoreFactors>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</SmallBusinessCreditShare>
+	</Products>
+</NetConnectResponse>

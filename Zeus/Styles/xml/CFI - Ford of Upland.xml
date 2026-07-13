@@ -1,0 +1,141 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\cfi\CFI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CFI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<CommercialFraudInsight>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602507990</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Comments>GOOD BUSINESS</Comments>
+				<Inquiry>NARQ/FORD OF UPLAND;CA-555 W FOOTHILL BLVD/UPLAND CA 91786/M-GOOD BUSINESS/V-000777;01/USRID-BISQA8801</Inquiry>
+			</InputSummary>
+			<GeneralSummary type="Business" ident="B1A1">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-Z9R-CMMKKY33</AuditNbr>
+				<ResponseType>B1A1</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B1A1">
+				<AddrCode>UR</AddrCode>
+				<AddrMsg>Address residential - name match unavailable (Name/Address no match to primary residential database, but address can be classified as residential)</AddrMsg>
+				<PhnCode>M </PhnCode>
+				<PhnMsg>Phone missing (search information not received)</PhnMsg>
+				<AddrTypeCode>S </AddrTypeCode>
+				<AddrTypeMsg>Residential</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode/>
+				<AddrUnitMismatchMsg>Data not available</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>1 </OFACCode>
+				<OFACMsg>No match</OFACMsg>
+				<TaxIDCode>M </TaxIDCode>
+				<TaxIDMsg>Tax ID missing (search information not received)</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B1A1">
+				<AddrCode>N </AddrCode>
+				<AddrMsg>No address high-risk information found</AddrMsg>
+				<PhnCode>N </PhnCode>
+				<PhnMsg>No phone high-risk information found</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B1A1">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0000</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0000</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>00</AddrBusRecs>
+				<AddrHiRiskCodes>00</AddrHiRiskCodes>
+				<AddrHiRiskDescs>01</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>00</PhnBusRecs>
+				<PhnHiRiskCodes>00</PhnHiRiskCodes>
+				<PhnHiRiskDescs>00</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>00</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>02</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B1A1"/>
+			<StdAddr type="Business" ident="B1A1">
+				<BusName>FORD OF UPLAND</BusName>
+				<Addr>555 W FOOTHILL BLVD</Addr>
+				<City>UPLAND</City>
+				<State>CA</State>
+				<Zip>91786</Zip>
+				<Zip4>3853</Zip4>
+			</StdAddr>
+			<AddrHiRiskDescs type="Business" ident="B1A1">
+				<HighRiskDesc>No high risk business at address/phone</HighRiskDesc>
+			</AddrHiRiskDescs>
+			<ValidationDetail type="Business" ident="B1A1">
+				<OFACValidationResult>1 </OFACValidationResult>
+			</ValidationDetail>
+			<HistoricalValidation>
+				<AppID>602507967</AppID>
+				<CreationDate>20080129</CreationDate>
+				<SubCode>563736</SubCode>
+				<UserID>GREG.GUNAJI</UserID>
+				<RegionID>2</RegionID>
+				<PreviousBusinessApplicant>
+					<BusName>FORD OF UPLAND</BusName>
+					<PrimaryAddress>
+						<Addr>555 W FOOTHILL BLVD</Addr>
+						<City>UPLAND</City>
+						<State>CA</State>
+						<Zip>91786</Zip>
+					</PrimaryAddress>
+				</PreviousBusinessApplicant>
+				<MatchIndicators>
+					<BusNameMatch>Y</BusNameMatch>
+					<BusAddrMatch>Y</BusAddrMatch>
+					<AlternateNameMatch>N</AlternateNameMatch>
+					<AlternateAddrMatch>N</AlternateAddrMatch>
+					<BusPhnNbrMatch>N</BusPhnNbrMatch>
+					<TaxIDMatch>N</TaxIDMatch>
+					<BPNameMatch>N</BPNameMatch>
+					<BPAddrMatch>N</BPAddrMatch>
+					<BPSSNMatch>N</BPSSNMatch>
+					<BPPhnNbrMatch>N</BPPhnNbrMatch>
+					<SecondaryBPNameMatch>N</SecondaryBPNameMatch>
+					<SecondaryBPAddrMatch>N</SecondaryBPAddrMatch>
+					<SecondaryBPSSNMatch>N</SecondaryBPSSNMatch>
+					<SecondaryBPPhnNbrMatch>N</SecondaryBPPhnNbrMatch>
+					<AddlAddrMatch>N</AddlAddrMatch>
+				</MatchIndicators>
+			</HistoricalValidation>
+			<HistoricalDetail>
+				<AppID>602507990</AppID>
+				<CurrentBusinessApplicant>
+					<BusName>FORD OF UPLAND</BusName>
+					<PrimaryAddress>
+						<Addr>555 W FOOTHILL BLVD</Addr>
+						<City>UPLAND</City>
+						<State>CA</State>
+						<Zip>91786</Zip>
+					</PrimaryAddress>
+				</CurrentBusinessApplicant>
+			</HistoricalDetail>
+			<BillingIndicator>F</BillingIndicator>
+			<BillingIndicatorMsg>Full Charge</BillingIndicatorMsg>
+		</CommercialFraudInsight>
+	</Products>
+</NetConnectResponse>

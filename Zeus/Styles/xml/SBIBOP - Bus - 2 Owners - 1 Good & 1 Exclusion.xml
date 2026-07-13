@@ -1,0 +1,988 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\SBIBOP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>SBIBOP</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602541070</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/EXPERIAN;CA-/ORANGE CA 92868/MC-000212/IR/BOP/V-000777/OWNR-GOGGIN,ARLENE;CA-9840 S DELMONTE BLVD/STREETSBORO OH 44241/OWNR-GARCIA,DANIEL;CA-4190 HIGHWOOD RD/MOUND MN 55364</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>C00453224</ExperianFileNumber>
+				<ProfileType code="SBI/OWNER "/>
+				<ProfileDate>20080304</ProfileDate>
+				<ProfileTime>15:10:32</ProfileTime>
+				<TerminalNumber>-ADE</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>EXPERIAN                                </BusinessName>
+				<StreetAddress>475 ANTON BLVD                </StreetAddress>
+				<City>COSTA MESA                  </City>
+				<State>CA</State>
+				<Zip>92626</Zip>
+				<PhoneNumber>714-830-7000</PhoneNumber>
+				<SIC code="7323">CREDIT REPORTING                      </SIC>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>001</TaxLienCount>
+				<EarliestTaxLienDate>20041209</EarliestTaxLienDate>
+				<MostRecentTaxLienDate>20041209</MostRecentTaxLienDate>
+				<JudgmentCount>010</JudgmentCount>
+				<EarliestJudgmentDate>20010608</EarliestJudgmentDate>
+				<MostRecentJudgmentDate>20060605</MostRecentJudgmentDate>
+				<CollectionCount>012</CollectionCount>
+				<LegalBalance>00029566</LegalBalance>
+				<UCCFilings>102</UCCFilings>
+				<UCCDerogatoryCount>021</UCCDerogatoryCount>
+				<CurrentAccountBalance>00046200</CurrentAccountBalance>
+				<CurrentTradelineCount>029</CurrentTradelineCount>
+				<MonthlyAverageDBT>013</MonthlyAverageDBT>
+				<HighestDBT6Months>014</HighestDBT6Months>
+				<HighestDBT5Quarters>056</HighestDBT5Quarters>
+				<ActiveTradelineCount>028</ActiveTradelineCount>
+				<AllTradelineBalance>00084300</AllTradelineBalance>
+				<AllTradelineCount>059</AllTradelineCount>
+				<AverageBalance5Quarters>00048460</AverageBalance5Quarters>
+				<SingleLineHighCredit>00056600</SingleLineHighCredit>
+				<LowBalance6Months>00032300</LowBalance6Months>
+				<HighBalance6Months>00055100</HighBalance6Months>
+				<EarliestCollectionDate>20020300</EarliestCollectionDate>
+				<MostRecentCollectionDate>20060300</MostRecentCollectionDate>
+				<CurrentDBT>011</CurrentDBT>
+				<EarliestUCCDate>20021223</EarliestUCCDate>
+				<MostRecentUCCDate>20071210</MostRecentUCCDate>
+				<JudgmentFlag>Y</JudgmentFlag>
+			</ExecutiveElements>
+			<ProprietorNameAndAddress>
+				<ProfileType code="SBI/OWNER "/>
+				<ProfileTime>15:10:32</ProfileTime>
+				<ProprietorName>ARLENE  GOGGIN                                              </ProprietorName>
+				<StreetAddress>9840 S DELMONTE BLVD                                        </StreetAddress>
+				<City>STREETSBORO                 </City>
+				<State>OH</State>
+				<Zip>44241    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<ProprietorNameAndAddress>
+				<ProfileType code="SBI/OWNER "/>
+				<ProfileTime>15:10:32</ProfileTime>
+				<ProprietorName>DANIEL B GARCIA                                             </ProprietorName>
+				<StreetAddress>4190 HIGHWOOD RD                                            </StreetAddress>
+				<City>MOUND                       </City>
+				<State>MN</State>
+				<Zip>55364    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>09        </Filler>
+				<ScoreInfo>
+					<Score>0000000446</Score>
+				</ScoreInfo>
+				<ProfileNumber>I602541070</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000212</ModelCode>
+					<ModelTitle>SMALL BUSINESS III                      </ModelTitle>
+					<CustomModelCode>09</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>001</PercentileRanking>
+				<Action>        HIGH RISK                               </Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="010 ">NUMBER OF COLLECTION ACCOUNTS                               </ScoreFactor>
+				<ScoreFactor code="013 ">NUMBER OF DEROGATORY PUBLIC RECORD ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="018 ">NUMBER OF DELINQUENT OR DEROGATORY ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="026 ">BALANCES ON DELINQUENT OR DEROGATORY ACCOUNTS               </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<BankruptcyFilings>000</BankruptcyFilings>
+				<BankruptcyFilingsBalance>0000000000000</BankruptcyFilingsBalance>
+				<CollectionsCount>0012</CollectionsCount>
+				<CollectionsCountLast24Months>001</CollectionsCountLast24Months>
+				<EstablishedDate>19770101</EstablishedDate>
+				<OriginalJudgmentsCount>010</OriginalJudgmentsCount>
+				<OriginalJudgmentsAmount>000028620</OriginalJudgmentsAmount>
+				<SicCode>7323</SicCode>
+				<RegularTradesBalanceCurrentQuarter>00048200</RegularTradesBalanceCurrentQuarter>
+				<RegularTradesBalance1QuarterPrior>00043600</RegularTradesBalance1QuarterPrior>
+				<RegularTradesBalance2QuartersPrior>00038900</RegularTradesBalance2QuartersPrior>
+				<RegularTradesBalance3QuartersPrior>00083300</RegularTradesBalance3QuartersPrior>
+				<RegularTradesBalance4QuartersPrior>00028300</RegularTradesBalance4QuartersPrior>
+				<DBTRegularTrades>011</DBTRegularTrades>
+				<DBTRegularTradesCurrentMonth>013</DBTRegularTradesCurrentMonth>
+				<DBTRegularTrades1MonthPrior>014</DBTRegularTrades1MonthPrior>
+				<DBTRegularTrades2MonthsPrior>013</DBTRegularTrades2MonthsPrior>
+				<DBTRegularTrades3MonthsPrior>013</DBTRegularTrades3MonthsPrior>
+				<DBTRegularTrades4MonthsPrior>014</DBTRegularTrades4MonthsPrior>
+				<DBTRegularTrades5MonthsPrior>011</DBTRegularTrades5MonthsPrior>
+				<TotalTradesCount>059</TotalTradesCount>
+				<TotalAccountBalance>00084300</TotalAccountBalance>
+				<MaximumBalanceLast12Months>0000000304400</MaximumBalanceLast12Months>
+				<OriginalTaxLiensCount>001</OriginalTaxLiensCount>
+				<OriginalTaxLiensAmount>000000946</OriginalTaxLiensAmount>
+				<OriginalUCCFilingsCount>00102</OriginalUCCFilingsCount>
+				<DerogUCCFilingsCount>021</DerogUCCFilingsCount>
+			</KeyModelElements>
+			<SmallBusinessKeyModelElements>
+				<ProprietorFirstName>ARLENE    </ProprietorFirstName>
+				<ProprietorSurname>GOGGIN              </ProprietorSurname>
+				<ConsumerAdverseAction>
+					<Code>007</Code>
+					<Description>LACK OF OPEN REVOLVING ACCOUNTS</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>060</Code>
+					<Description>NUMBER OF CURRENT ACCOUNTS</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>006</Code>
+					<Description>LACK OF OPEN REAL ESTATE ACCOUNTS</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<TotalOpenTrades>01</TotalOpenTrades>
+				<TotalOpenTrades6Months>00</TotalOpenTrades6Months>
+				<TotalDelinquent6Months>00</TotalDelinquent6Months>
+				<TotalPresentCurrent6Months>001</TotalPresentCurrent6Months>
+				<TotalDerogatoryCollectionPublicRecord>00</TotalDerogatoryCollectionPublicRecord>
+				<BalanceOpenTrades6Months>000000018</BalanceOpenTrades6Months>
+				<MonthlyPayment6Months>000000000</MonthlyPayment6Months>
+				<BalanceLimitRatio6Months>00000021</BalanceLimitRatio6Months>
+				<AgeOldestTrade>0397</AgeOldestTrade>
+				<TotalInquiries6Months>00</TotalInquiries6Months>
+				<AvailableCreditBankcards6Months>000000000</AvailableCreditBankcards6Months>
+				<TotalRevolving6Months>00</TotalRevolving6Months>
+				<BalanceRevolving6Months>000000000</BalanceRevolving6Months>
+				<AvailableCreditRevolving6Months>000000000</AvailableCreditRevolving6Months>
+				<ScorexPlusValue>0715</ScorexPlusValue>
+			</SmallBusinessKeyModelElements>
+			<SmallBusinessKeyModelElements>
+				<ProprietorFirstName>DANIEL    </ProprietorFirstName>
+				<ProprietorSurname>GARCIA              </ProprietorSurname>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<TotalOpenTrades>00</TotalOpenTrades>
+				<TotalOpenTrades6Months>00</TotalOpenTrades6Months>
+				<TotalDelinquent6Months>04</TotalDelinquent6Months>
+				<TotalPresentCurrent6Months>000</TotalPresentCurrent6Months>
+				<TotalDerogatoryCollectionPublicRecord>07</TotalDerogatoryCollectionPublicRecord>
+				<BalanceOpenTrades6Months>000000000</BalanceOpenTrades6Months>
+				<MonthlyPayment6Months>000000000</MonthlyPayment6Months>
+				<BalanceLimitRatio6Months>00000000</BalanceLimitRatio6Months>
+				<AgeOldestTrade>0000</AgeOldestTrade>
+				<TotalInquiries6Months>02</TotalInquiries6Months>
+				<AvailableCreditBankcards6Months>000000000</AvailableCreditBankcards6Months>
+				<TotalRevolving6Months>00</TotalRevolving6Months>
+				<BalanceRevolving6Months>000000000</BalanceRevolving6Months>
+				<AvailableCreditRevolving6Months>000000000</AvailableCreditRevolving6Months>
+				<ScorexPlusValue>9003</ScorexPlusValue>
+			</SmallBusinessKeyModelElements>
+			<SmallBusinessAdvisorySummary>
+				<ProprietorBirthDate> 0 00000</ProprietorBirthDate>
+				<DwellingType>S</DwellingType>
+				<DerivedRisk>0715</DerivedRisk>
+				<RiskScoreFactorCode1>07</RiskScoreFactorCode1>
+				<RiskScoreFactorCode2>60</RiskScoreFactorCode2>
+				<RiskScoreFactorCode3>06</RiskScoreFactorCode3>
+			</SmallBusinessAdvisorySummary>
+			<SmallBusinessAdvisorySummary>
+				<ProprietorBirthDate>19720000</ProprietorBirthDate>
+				<DwellingType>S</DwellingType>
+				<DerivedRisk>9003</DerivedRisk>
+			</SmallBusinessAdvisorySummary>
+			<NonStandardRecord>
+				<Type>CDS</Type>
+			</NonStandardRecord>
+			<NonStandardRecord>
+				<Type>CDS</Type>
+			</NonStandardRecord>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+		<CreditProfile>
+			<Header>
+				<ReportDate>030408</ReportDate>
+				<ReportTime>151031</ReportTime>
+				<Preamble>TOH1</Preamble>
+				<ARFVersion>07</ARFVersion>
+			</Header>
+			<RiskModel>
+				<ModelIndicator code="[">Scorex PLUS Score for New Accounts</ModelIndicator>
+				<Score>0715</Score>
+				<ScoreFactorCodeOne>07</ScoreFactorCodeOne>
+				<ScoreFactorCodeTwo>60</ScoreFactorCodeTwo>
+				<ScoreFactorCodeThree>06</ScoreFactorCodeThree>
+				<ScoreFactorCodeFour/>
+				<Evaluation code="P">Positive number</Evaluation>
+			</RiskModel>
+			<SSN>
+				<VariationIndicator code="*">Different</VariationIndicator>
+				<Number>999997048</Number>
+			</SSN>
+			<ConsumerIdentity>
+				<Name>
+					<Gen>ARLENE GOGGIN</Gen>
+				</Name>
+				<YOB/>
+			</ConsumerIdentity>
+			<AddressInformation>
+				<FirstReportedDate>0291</FirstReportedDate>
+				<LastUpdatedDate>0907</LastUpdatedDate>
+				<Origination code="2">Reported via A/R Tape</Origination>
+				<TimesReported>01</TimesReported>
+				<LastReportingSubcode>2218220</LastReportingSubcode>
+				<DwellingType code="S">Single-family dwelling</DwellingType>
+				<HomeOwnership code=" ">Unknown</HomeOwnership>
+				<StreetPrefix>840 S DELMONTE BLVD</StreetPrefix>
+				<StreetSuffix>9840 S DELMONTE BLVD</StreetSuffix>
+				<UnitID>9840 S DELMONTE BLVD</UnitID>
+				<State>9840 S DELMONTE BLVD</State>
+				<Zip>STREETSBORO OH 442414814</Zip>
+				<CensusGeoCode/>
+			</AddressInformation>
+			<AddressInformation>
+				<FirstReportedDate>0207</FirstReportedDate>
+				<LastUpdatedDate>0307</LastUpdatedDate>
+				<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination>
+				<TimesReported>00</TimesReported>
+				<LastReportingSubcode/>
+				<DwellingType code="S">Single-family dwelling</DwellingType>
+				<HomeOwnership code=" ">Unknown</HomeOwnership>
+				<StreetPrefix>480 S DELMONTE BLVD</StreetPrefix>
+				<StreetSuffix>9480 S DELMONTE BLVD</StreetSuffix>
+				<UnitID>9480 S DELMONTE BLVD</UnitID>
+				<State>9480 S DELMONTE BLVD</State>
+				<Zip>STREETSBORO OH 44241</Zip>
+				<CensusGeoCode/>
+			</AddressInformation>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="P">No additional review is required</Evaluation>
+				<OpenDate>0498</OpenDate>
+				<StatusDate>0399</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="06">Installment Sales Contract</AccountType>
+				<TermsDuration code="018"/>
+				<ECOA code="2">Joint Account</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000668</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>031499</BalanceDate>
+				<BalanceAmount/>
+				<Status code="12">Account/paid satisfactorily</Status>
+				<AmountPastDue/>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>571523209491055</AccountNumber>
+				<MonthsHistory>11</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>00</DerogCounter>
+				<PaymentProfile>BCCCCCCCC-C</PaymentProfile>
+				<Subcode>0501670</Subcode>
+				<KOB code="FP">Personal Loan Companies</KOB>
+				<SubscriberDisplayName>KENTUCKY FINANCE COMPA</SubscriberDisplayName>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0399</InitialPaymentLevelDate>
+					<AccountCondition code="A2"/>
+					<PaymentStatus code="11"/>
+					<AccountType code="06"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="P">No additional review is required</Evaluation>
+				<OpenDate>0275</OpenDate>
+				<StatusDate>0108</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="31">Unknown - Credit Extension, Review, Or Collection</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000083</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>010508</BalanceDate>
+				<BalanceAmount>00000018</BalanceAmount>
+				<Status code="11">This is an account in good standing</Status>
+				<AmountPastDue/>
+				<OpenOrClosed code="O">Open</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>14817523</AccountNumber>
+				<MonthsHistory>05</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>00</DerogCounter>
+				<PaymentProfile>CCC0C</PaymentProfile>
+				<MonthlyPaymentAmount/>
+				<LastPaymentDate>121507</LastPaymentDate>
+				<Subcode>1945878</Subcode>
+				<KOB code="UT">Telephone Companies</KOB>
+				<SubscriberDisplayName>VERIZON WEST VIRGINIA</SubscriberDisplayName>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0108</InitialPaymentLevelDate>
+					<AccountCondition code="A1"/>
+					<PaymentStatus code="11"/>
+					<AccountType code="92"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<InformationalMessage>
+				<MessageNumber>57</MessageNumber>
+				<MessageText>1202 SPELLING OF NAME USED TO ACCESS REPORT DOES NOT MATCH OFAC/PLC LIST</MessageText>
+			</InformationalMessage>
+			<FraudServices>
+				<Type code="99">Subsegment data only</Type>
+				<SIC code="        "/>
+				<Text/>
+				<SocialDate>000000</SocialDate>
+				<SocialCount>0000</SocialCount>
+				<SocialErrorCode code="2">Not applicable</SocialErrorCode>
+				<AddressDate>120107</AddressDate>
+				<AddressCount>0000</AddressCount>
+				<AddressErrorCode code="0">No error conditions occur</AddressErrorCode>
+			</FraudServices>
+			<ProfileSummary>
+				<DisputedAccountsExcluded>000</DisputedAccountsExcluded>
+				<PublicRecordsCount>000</PublicRecordsCount>
+				<InstallmentBalance>00000018</InstallmentBalance>
+				<RealEstateBalance>N/A     </RealEstateBalance>
+				<RevolvingBalance>N/A     </RevolvingBalance>
+				<PastDueAmount>00000000</PastDueAmount>
+				<MonthlyPayment>00000000</MonthlyPayment>
+				<MonthlyPaymentPartialFlag code="*">Not all tradelines included</MonthlyPaymentPartialFlag>
+				<RealEstatePayment>N/A     </RealEstatePayment>
+				<RealEstatePaymentPartialFlag code=" ">All tradelines included</RealEstatePaymentPartialFlag>
+				<RevolvingAvailablePercent>N/A</RevolvingAvailablePercent>
+				<RevolvingAvailablePartialFlag code=" ">All tradelines included</RevolvingAvailablePartialFlag>
+				<TotalInquiries>000</TotalInquiries>
+				<InquiriesDuringLast6Months>000</InquiriesDuringLast6Months>
+				<TotalTradeItems>002</TotalTradeItems>
+				<PaidAccounts>001</PaidAccounts>
+				<SatisfactoryAccounts>002</SatisfactoryAccounts>
+				<NowDelinquentDerog>000</NowDelinquentDerog>
+				<WasDelinquentDerog>000</WasDelinquentDerog>
+				<OldestTradeOpenDate>0275</OldestTradeOpenDate>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>00</DerogCounter>
+			</ProfileSummary>
+		</CreditProfile>
+		<CreditProfile>
+			<Header>
+				<ReportDate>030408</ReportDate>
+				<ReportTime>151031</ReportTime>
+				<Preamble>TMN1</Preamble>
+				<ARFVersion>07</ARFVersion>
+			</Header>
+			<RiskModel>
+				<ModelIndicator code="[">Scorex PLUS Score for New Accounts</ModelIndicator>
+				<Score>9003</Score>
+				<ScoreFactorCodeOne/>
+				<ScoreFactorCodeTwo/>
+				<ScoreFactorCodeThree/>
+				<ScoreFactorCodeFour/>
+				<Evaluation code="P">Positive number</Evaluation>
+			</RiskModel>
+			<SSN>
+				<VariationIndicator code="*">Different</VariationIndicator>
+				<Number>999990063</Number>
+			</SSN>
+			<SSN>
+				<VariationIndicator code="*">Different</VariationIndicator>
+				<Number>999990063</Number>
+			</SSN>
+			<SSN>
+				<VariationIndicator code="*">Different</VariationIndicator>
+				<Number>999996063</Number>
+			</SSN>
+			<ConsumerIdentity>
+				<Name>
+					<Gen>DANIEL B GARCIA</Gen>
+				</Name>
+				<YOB>1972</YOB>
+			</ConsumerIdentity>
+			<ConsumerIdentity>
+				<Name>
+					<Type code="A">AKA</Type>
+					<Gen>DAN LIZAMA</Gen>
+				</Name>
+				<YOB/>
+			</ConsumerIdentity>
+			<ConsumerIdentity>
+				<Name>
+					<Gen>DAN GARCIA</Gen>
+				</Name>
+				<YOB/>
+			</ConsumerIdentity>
+			<AddressInformation>
+				<FirstReportedDate>1000</FirstReportedDate>
+				<LastUpdatedDate>0207</LastUpdatedDate>
+				<Origination code="2">Reported via A/R Tape</Origination>
+				<TimesReported>03</TimesReported>
+				<LastReportingSubcode>3276502</LastReportingSubcode>
+				<DwellingType code="S">Single-family dwelling</DwellingType>
+				<HomeOwnership code=" ">Unknown</HomeOwnership>
+				<StreetPrefix>190 HIGHWOOD RD</StreetPrefix>
+				<StreetSuffix>4190 HIGHWOOD RD</StreetSuffix>
+				<UnitID>4190 HIGHWOOD RD</UnitID>
+				<State>4190 HIGHWOOD RD</State>
+				<Zip>MOUND MN 553649752</Zip>
+				<CensusGeoCode/>
+			</AddressInformation>
+			<AddressInformation>
+				<FirstReportedDate>0995</FirstReportedDate>
+				<LastUpdatedDate>0505</LastUpdatedDate>
+				<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination>
+				<TimesReported>00</TimesReported>
+				<LastReportingSubcode/>
+				<DwellingType code="P">Post Office Box</DwellingType>
+				<HomeOwnership code=" ">Unknown</HomeOwnership>
+				<StreetPrefix>O BOX 365</StreetPrefix>
+				<StreetSuffix>PO BOX 365</StreetSuffix>
+				<UnitID>PO BOX 365</UnitID>
+				<State>PO BOX 365</State>
+				<Zip>SAINT BONIFACIUS MN 553750365</Zip>
+				<CensusGeoCode/>
+			</AddressInformation>
+			<AddressInformation>
+				<FirstReportedDate>0295</FirstReportedDate>
+				<LastUpdatedDate>1001</LastUpdatedDate>
+				<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination>
+				<TimesReported>00</TimesReported>
+				<LastReportingSubcode/>
+				<DwellingType code="1">Military</DwellingType>
+				<HomeOwnership code=" ">Unknown</HomeOwnership>
+				<StreetPrefix>53 UPTON AVE S</StreetPrefix>
+				<StreetSuffix>453 UPTON AVE S</StreetSuffix>
+				<UnitID>453 UPTON AVE S</UnitID>
+				<State>453 UPTON AVE S</State>
+				<Zip>MINNEAPOLIS MN 554051948</Zip>
+				<CensusGeoCode/>
+			</AddressInformation>
+			<EmploymentInformation>
+				<FirstReportedDate>1082</FirstReportedDate>
+				<LastUpdatedDate>1082</LastUpdatedDate>
+				<Origination code="2">Inquiry</Origination>
+				<Name>NGMAINT</Name>
+				<AddressFirstLine>FTGEORGEST</AddressFirstLine>
+				<AddressSecondLine>NWYDORK</AddressSecondLine>
+				<AddressExtraLine/>
+				<Zip/>
+			</EmploymentInformation>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="N">Closer review is required</Evaluation>
+				<OpenDate>0106</OpenDate>
+				<StatusDate>0106</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="48">Collection Department/Agency/Attorney</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000114</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>011008</BalanceDate>
+				<BalanceAmount>00000114</BalanceAmount>
+				<Status code="93">Account seriously past due date/account assigned to attorney, collection agency, or credit grantor&apos;s internal collection department</Status>
+				<AmountPastDue>00000114</AmountPastDue>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>24033576747</AccountNumber>
+				<MonthsHistory>25</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>13</DerogCounter>
+				<PaymentProfile>999999999999------------9</PaymentProfile>
+				<Subcode>1980931</Subcode>
+				<KOB code="YC">Other Collection Agencies</KOB>
+				<SubscriberDisplayName>CBCS</SubscriberDisplayName>
+				<OriginalCreditorName>DOMINION PEOPLE S PLUS</OriginalCreditorName>
+				<MaxPayment code=" "/>
+				<FirstDelinquencyDate>0108</FirstDelinquencyDate>
+				<SecondDelinquencyDate>1207</SecondDelinquencyDate>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0106</InitialPaymentLevelDate>
+					<AccountCondition code="  "/>
+					<PaymentStatus code="93"/>
+					<AccountType code="48"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="N">Closer review is required</Evaluation>
+				<OpenDate>1206</OpenDate>
+				<StatusDate>0107</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="48">Collection Department/Agency/Attorney</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000115</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>010308</BalanceDate>
+				<BalanceAmount>00000115</BalanceAmount>
+				<Status code="93">Account seriously past due date/account assigned to attorney, collection agency, or credit grantor&apos;s internal collection department</Status>
+				<AmountPastDue>00000115</AmountPastDue>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>5313637</AccountNumber>
+				<MonthsHistory>13</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>05</DerogCounter>
+				<PaymentProfile>9999--------9</PaymentProfile>
+				<Subcode>1986151</Subcode>
+				<KOB code="YC">Other Collection Agencies</KOB>
+				<SubscriberDisplayName>FFCC-COLUMBUS INC</SubscriberDisplayName>
+				<OriginalCreditorName>MEDICAL PAYMENT DATA</OriginalCreditorName>
+				<MaxPayment code=" "/>
+				<FirstDelinquencyDate>0108</FirstDelinquencyDate>
+				<SecondDelinquencyDate>1207</SecondDelinquencyDate>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0107</InitialPaymentLevelDate>
+					<AccountCondition code="  "/>
+					<PaymentStatus code="93"/>
+					<AccountType code="48"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="N">Closer review is required</Evaluation>
+				<OpenDate>0507</OpenDate>
+				<StatusDate>0707</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="48">Collection Department/Agency/Attorney</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000830</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>111807</BalanceDate>
+				<BalanceAmount>00000830</BalanceAmount>
+				<Status code="93">Account seriously past due date/account assigned to attorney, collection agency, or credit grantor&apos;s internal collection department</Status>
+				<AmountPastDue>00000830</AmountPastDue>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>36087868</AccountNumber>
+				<MonthsHistory>05</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>03</DerogCounter>
+				<PaymentProfile>9-9-9</PaymentProfile>
+				<Subcode>1981970</Subcode>
+				<KOB code="YC">Other Collection Agencies</KOB>
+				<SubscriberDisplayName>CBCS</SubscriberDisplayName>
+				<OriginalCreditorName>CINERGY OH</OriginalCreditorName>
+				<MaxPayment code=" "/>
+				<FirstDelinquencyDate>1107</FirstDelinquencyDate>
+				<SecondDelinquencyDate>0907</SecondDelinquencyDate>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0707</InitialPaymentLevelDate>
+					<AccountCondition code="  "/>
+					<PaymentStatus code="93"/>
+					<AccountType code="48"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="N">Closer review is required</Evaluation>
+				<OpenDate>0705</OpenDate>
+				<StatusDate>0905</StatusDate>
+				<MaxDelinquencyDate>0905</MaxDelinquencyDate>
+				<AccountType code="48">Collection Department/Agency/Attorney</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000129</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>111207</BalanceDate>
+				<BalanceAmount>00000129</BalanceAmount>
+				<Status code="93">Account seriously past due date/account assigned to attorney, collection agency, or credit grantor&apos;s internal collection department</Status>
+				<AmountPastDue>00000129</AmountPastDue>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>4144885</AccountNumber>
+				<MonthsHistory>27</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>02</DerogCounter>
+				<PaymentProfile>9------------------------</PaymentProfile>
+				<Subcode>0970328</Subcode>
+				<KOB code="YC">Other Collection Agencies</KOB>
+				<SubscriberDisplayName>ALLIANCEONE</SubscriberDisplayName>
+				<OriginalCreditorName>MEDICAL PAYMENT DATA</OriginalCreditorName>
+				<MaxPayment code="9"/>
+				<FirstDelinquencyDate>1107</FirstDelinquencyDate>
+				<SecondDelinquencyDate>0905</SecondDelinquencyDate>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0905</InitialPaymentLevelDate>
+					<AccountCondition code="  "/>
+					<PaymentStatus code="93"/>
+					<AccountType code="48"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="N">Closer review is required</Evaluation>
+				<OpenDate>1206</OpenDate>
+				<StatusDate>0107</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="48">Collection Department/Agency/Attorney</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000113</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>012007</BalanceDate>
+				<BalanceAmount>00000113</BalanceAmount>
+				<Status code="93">Account seriously past due date/account assigned to attorney, collection agency, or credit grantor&apos;s internal collection department</Status>
+				<AmountPastDue>00000113</AmountPastDue>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>137737454</AccountNumber>
+				<MonthsHistory>01</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>01</DerogCounter>
+				<PaymentProfile>9</PaymentProfile>
+				<Subcode>1984125</Subcode>
+				<KOB code="YC">Other Collection Agencies</KOB>
+				<SubscriberDisplayName>ALLIED INTERSTATE INC</SubscriberDisplayName>
+				<OriginalCreditorName>DIRECTV</OriginalCreditorName>
+				<MaxPayment code=" "/>
+				<FirstDelinquencyDate>0107</FirstDelinquencyDate>
+				<SecondDelinquencyDate/>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0107</InitialPaymentLevelDate>
+					<AccountCondition code="  "/>
+					<PaymentStatus code="93"/>
+					<AccountType code="48"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="N">Closer review is required</Evaluation>
+				<OpenDate>0304</OpenDate>
+				<StatusDate>0206</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="48">Collection Department/Agency/Attorney</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000105</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>022006</BalanceDate>
+				<BalanceAmount>00000105</BalanceAmount>
+				<Status code="93">Account seriously past due date/account assigned to attorney, collection agency, or credit grantor&apos;s internal collection department</Status>
+				<AmountPastDue>00000105</AmountPastDue>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>620411</AccountNumber>
+				<MonthsHistory>01</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>01</DerogCounter>
+				<PaymentProfile>9</PaymentProfile>
+				<Subcode>1981854</Subcode>
+				<KOB code="YC">Other Collection Agencies</KOB>
+				<SubscriberDisplayName>MEDICAL PAYMENT DATA</SubscriberDisplayName>
+				<OriginalCreditorName>MEDICAL PAYMENT DATA</OriginalCreditorName>
+				<MaxPayment code=" "/>
+				<FirstDelinquencyDate>0206</FirstDelinquencyDate>
+				<SecondDelinquencyDate/>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0206</InitialPaymentLevelDate>
+					<AccountCondition code="  "/>
+					<PaymentStatus code="93"/>
+					<AccountType code="48"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="N">Closer review is required</Evaluation>
+				<OpenDate>0106</OpenDate>
+				<StatusDate>0607</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="48">Collection Department/Agency/Attorney</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000831</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>060407</BalanceDate>
+				<BalanceAmount/>
+				<Status code="62">Paid account/was a collection account, insurance claim or government claim or was terminated for default</Status>
+				<AmountPastDue/>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>963095</AccountNumber>
+				<MonthsHistory>15</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>08</DerogCounter>
+				<PaymentProfile>B9-99--99--9-99</PaymentProfile>
+				<MonthlyPaymentAmount/>
+				<LastPaymentDate>060207</LastPaymentDate>
+				<Subcode>1981854</Subcode>
+				<KOB code="YC">Other Collection Agencies</KOB>
+				<SubscriberDisplayName>MEDICAL PAYMENT DATA</SubscriberDisplayName>
+				<OriginalCreditorName>CINCINNATI GAS  ELECTRIC CO</OriginalCreditorName>
+				<MaxPayment code=" "/>
+				<FirstDelinquencyDate>0507</FirstDelinquencyDate>
+				<SecondDelinquencyDate>0307</SecondDelinquencyDate>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0607</InitialPaymentLevelDate>
+					<AccountCondition code="A2"/>
+					<PaymentStatus code="93"/>
+					<AccountType code="48"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<Inquiry>
+				<Date>110907</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>4119790</Subcode>
+				<KOB code="BB">All Banks -- Non-Specific</KOB>
+				<SubscriberDisplayName>HSBC/TAX</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>102807</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>1217350</Subcode>
+				<KOB code="BC">Bank Credit Cards</KOB>
+				<SubscriberDisplayName>BANK OF AMERICA</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>072807</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>1217350</Subcode>
+				<KOB code="BC">Bank Credit Cards</KOB>
+				<SubscriberDisplayName>BANK OF AMERICA</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>072707</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>1224630</Subcode>
+				<KOB code="BC">Bank Credit Cards</KOB>
+				<SubscriberDisplayName>DISCOVER FINANCIAL SER</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>042707</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>1224630</Subcode>
+				<KOB code="BC">Bank Credit Cards</KOB>
+				<SubscriberDisplayName>DISCOVER FINANCIAL SER</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>022807</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="08">Real Estate Specific Type Unknown</Type>
+				<Subcode>1972900</Subcode>
+				<KOB code="FR">Mortgage Reporters</KOB>
+				<SubscriberDisplayName>ADVANTAGE CREDIT INC</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>022107</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="08">Real Estate Specific Type Unknown</Type>
+				<Subcode>3900614</Subcode>
+				<KOB code="FR">Mortgage Reporters</KOB>
+				<SubscriberDisplayName>KROLL FACTUAL DATA/060</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>120106</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="08">Real Estate Specific Type Unknown</Type>
+				<Subcode>3970740</Subcode>
+				<KOB code="FR">Mortgage Reporters</KOB>
+				<SubscriberDisplayName>KROLL FACTUAL DATA/060</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>112806</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="08">Real Estate Specific Type Unknown</Type>
+				<Subcode>1972900</Subcode>
+				<KOB code="FR">Mortgage Reporters</KOB>
+				<SubscriberDisplayName>ADVANTAGE CREDIT INC</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>112106</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="08">Real Estate Specific Type Unknown</Type>
+				<Subcode>3900614</Subcode>
+				<KOB code="FR">Mortgage Reporters</KOB>
+				<SubscriberDisplayName>KROLL FACTUAL DATA/060</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>101406</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>1217350</Subcode>
+				<KOB code="BC">Bank Credit Cards</KOB>
+				<SubscriberDisplayName>BANK OF AMERICA</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>090106</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="08">Real Estate Specific Type Unknown</Type>
+				<Subcode>3970740</Subcode>
+				<KOB code="FR">Mortgage Reporters</KOB>
+				<SubscriberDisplayName>KROLL FACTUAL DATA/060</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>071406</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>1217350</Subcode>
+				<KOB code="BC">Bank Credit Cards</KOB>
+				<SubscriberDisplayName>BANK OF AMERICA</SubscriberDisplayName>
+			</Inquiry>
+			<Inquiry>
+				<Date>022806</Date>
+				<Amount> UNKNOWN</Amount>
+				<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type>
+				<Subcode>3169840</Subcode>
+				<KOB code="BB">All Banks -- Non-Specific</KOB>
+				<SubscriberDisplayName>ICB/REFUND LENDING</SubscriberDisplayName>
+			</Inquiry>
+			<InformationalMessage>
+				<MessageNumber>57</MessageNumber>
+				<MessageText>1200 SPELLING OF NAME USED TO ACCESS REPORT MATCHES OFAC/PLC LIST</MessageText>
+			</InformationalMessage>
+			<FraudServices>
+				<Type code="99">Subsegment data only</Type>
+				<SIC code="        "/>
+				<Text/>
+				<SocialDate>000000</SocialDate>
+				<SocialCount>0000</SocialCount>
+				<SocialErrorCode code="2">Not applicable</SocialErrorCode>
+				<AddressDate>120107</AddressDate>
+				<AddressCount>0000</AddressCount>
+				<AddressErrorCode code="0">No error conditions occur</AddressErrorCode>
+			</FraudServices>
+			<ProfileSummary>
+				<DisputedAccountsExcluded>000</DisputedAccountsExcluded>
+				<PublicRecordsCount>000</PublicRecordsCount>
+				<InstallmentBalance>00001406</InstallmentBalance>
+				<RealEstateBalance>N/A     </RealEstateBalance>
+				<RevolvingBalance>N/A     </RevolvingBalance>
+				<PastDueAmount>00001406</PastDueAmount>
+				<MonthlyPayment>00000000</MonthlyPayment>
+				<MonthlyPaymentPartialFlag code=" ">All tradelines included</MonthlyPaymentPartialFlag>
+				<RealEstatePayment>N/A     </RealEstatePayment>
+				<RealEstatePaymentPartialFlag code=" ">All tradelines included</RealEstatePaymentPartialFlag>
+				<RevolvingAvailablePercent>N/A</RevolvingAvailablePercent>
+				<RevolvingAvailablePartialFlag code=" ">All tradelines included</RevolvingAvailablePartialFlag>
+				<TotalInquiries>014</TotalInquiries>
+				<InquiriesDuringLast6Months>002</InquiriesDuringLast6Months>
+				<TotalTradeItems>007</TotalTradeItems>
+				<PaidAccounts>001</PaidAccounts>
+				<SatisfactoryAccounts>000</SatisfactoryAccounts>
+				<NowDelinquentDerog>006</NowDelinquentDerog>
+				<WasDelinquentDerog>001</WasDelinquentDerog>
+				<OldestTradeOpenDate>0304</OldestTradeOpenDate>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>33</DerogCounter>
+			</ProfileSummary>
+		</CreditProfile>
+	</Products>
+</NetConnectResponse>

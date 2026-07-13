@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businesssummary\BSUM.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BSUM</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessSummary>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602508786</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/DAVOL INC;CA-700 E 22ND ST/LAWRENCE KS 66046/BSUM/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>V05613466</ExperianFileNumber>
+				<ProfileType code="SUMMARY   "/>
+				<ProfileDate>20080212</ProfileDate>
+				<ProfileTime>15:11:31</ProfileTime>
+				<TerminalNumber>-ACQ</TerminalNumber>
+				<FileEstablishDate>19861200</FileEstablishDate>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>DAVOL INC                               </BusinessName>
+				<StreetAddress>700 E 22ND ST                 </StreetAddress>
+				<City>LAWRENCE                    </City>
+				<State>KS</State>
+				<Zip>66046</Zip>
+				<PhoneNumber>785-843-7782</PhoneNumber>
+				<SIC code="3841">SURGICAL &amp; MEDICAL INSTRUMENTS        </SIC>
+			</BusinessNameAndAddress>
+			<BusinessSummary>
+				<RiskCategory code="A">Acceptable</RiskCategory>
+				<NumberOfTradeLines>00009</NumberOfTradeLines>
+				<JudgmentFlag code="N"/>
+				<TaxLienFlag code="N"/>
+				<BankruptcyFlag code="N"/>
+				<UCCFilingsFlag code="N"/>
+				<CollectionFlag code="N"/>
+				<BankFlag code="N"/>
+				<CorporateFilingStatus code="   "/>
+				<KeyPersonnel1>MIKE  AIKMAN                                      </KeyPersonnel1>
+				<KeyPersonnel2>CHARLES  GROM VICE PRESI                          </KeyPersonnel2>
+				<KeyPersonnel3>WILLIAM  LONGFIELD                                </KeyPersonnel3>
+				<NumberOfEmployees>0000406</NumberOfEmployees>
+				<TransactionNumber>Q602508786</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</BusinessSummary>
+	</Products>
+</NetConnectResponse>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://MDocWS/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://MDocWS/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://MDocWS/">
+      <s:element name="DeleteFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DocID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MerchantID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="AgentID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrimaryKeyID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteFileResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DocID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MerchantID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="AgentID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrimaryKeyID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFileResult" type="tns:MDoc" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MDoc">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="DocID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MerchantID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MerchantAppUID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DocTypeID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OrigName" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ContentSize" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DocDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ConditionID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PrimaryKeyUID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PrimaryKeyID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MimeType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AgentID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="AgentUID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FSPath" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocTypeName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocTypeDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Position" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocTypeGroupName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DocTypeGroupDescription" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DocTypeGroupID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="FileBinary" type="s:base64Binary" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsDeleted" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsExisting" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="ApprovalStatusID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MessageZeus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MessageAgent" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ApprovalEmailSent" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="MDocSourceID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserCreated" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="RefreshLookupTable">
+        <s:complexType />
+      </s:element>
+      <s:element name="RefreshLookupTableResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UploadFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="f" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="MerchantID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="MerchantAppUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AgentID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AgentUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="DocTypeID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrigName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ConditionID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PrimaryKeyUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrimaryKeyID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadFileResult" type="tns:UploadResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UploadResponse">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="DocID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusMessage" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadFileWithSource">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="f" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="MerchantID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="MerchantAppUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AgentID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AgentUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="DocTypeID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrigName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ConditionID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PrimaryKeyUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrimaryKeyID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MDocSourceID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadFileWithSourceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadFileWithSourceResult" type="tns:UploadResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadFileWithSourceAndUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="f" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="MerchantID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="MerchantAppUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AgentID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="AgentUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="DocTypeID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrigName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ConditionID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PrimaryKeyUID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="PrimaryKeyID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MDocSourceID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserCreated" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadFileWithSourceAndUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadFileWithSourceAndUserResult" type="tns:UploadResponse" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DeleteFileSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFile" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFile" />
+  </wsdl:message>
+  <wsdl:message name="GetFileSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="RefreshLookupTableSoapIn">
+    <wsdl:part name="parameters" element="tns:RefreshLookupTable" />
+  </wsdl:message>
+  <wsdl:message name="RefreshLookupTableSoapOut">
+    <wsdl:part name="parameters" element="tns:RefreshLookupTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadFile" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileWithSourceSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadFileWithSource" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileWithSourceSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadFileWithSourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileWithSourceAndUserSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadFileWithSourceAndUser" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileWithSourceAndUserSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadFileWithSourceAndUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FileUploadSoap">
+    <wsdl:operation name="DeleteFile">
+      <wsdl:input message="tns:DeleteFileSoapIn" />
+      <wsdl:output message="tns:DeleteFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <wsdl:input message="tns:GetFileSoapIn" />
+      <wsdl:output message="tns:GetFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RefreshLookupTable">
+      <wsdl:input message="tns:RefreshLookupTableSoapIn" />
+      <wsdl:output message="tns:RefreshLookupTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <wsdl:input message="tns:UploadFileSoapIn" />
+      <wsdl:output message="tns:UploadFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadFileWithSource">
+      <wsdl:input message="tns:UploadFileWithSourceSoapIn" />
+      <wsdl:output message="tns:UploadFileWithSourceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadFileWithSourceAndUser">
+      <wsdl:input message="tns:UploadFileWithSourceAndUserSoapIn" />
+      <wsdl:output message="tns:UploadFileWithSourceAndUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FileUploadSoap" type="tns:FileUploadSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DeleteFile">
+      <soap:operation soapAction="http://MDocWS/DeleteFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap:operation soapAction="http://MDocWS/GetFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshLookupTable">
+      <soap:operation soapAction="http://MDocWS/RefreshLookupTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <soap:operation soapAction="http://MDocWS/UploadFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFileWithSource">
+      <soap:operation soapAction="http://MDocWS/UploadFileWithSource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFileWithSourceAndUser">
+      <soap:operation soapAction="http://MDocWS/UploadFileWithSourceAndUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FileUploadSoap12" type="tns:FileUploadSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DeleteFile">
+      <soap12:operation soapAction="http://MDocWS/DeleteFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap12:operation soapAction="http://MDocWS/GetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RefreshLookupTable">
+      <soap12:operation soapAction="http://MDocWS/RefreshLookupTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <soap12:operation soapAction="http://MDocWS/UploadFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFileWithSource">
+      <soap12:operation soapAction="http://MDocWS/UploadFileWithSource" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFileWithSourceAndUser">
+      <soap12:operation soapAction="http://MDocWS/UploadFileWithSourceAndUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FileUpload">
+    <wsdl:port name="FileUploadSoap" binding="tns:FileUploadSoap">
+      <soap:address location="http://10.10.32.236/mdocws/fileupload.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FileUploadSoap12" binding="tns:FileUploadSoap12">
+      <soap12:address location="http://10.10.32.236/mdocws/fileupload.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

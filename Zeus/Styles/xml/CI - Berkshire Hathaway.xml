@@ -1,0 +1,431 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C605006282</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/924435215/MC-000210/IR/CRLK/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>924435215</ExperianFileNumber>
+				<ProfileType code="SCORE     ">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20100402</ProfileDate>
+				<ProfileTime>22:09:45</ProfileTime>
+				<TerminalNumber>-ANV</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>BERKSHIRE HATHAWAY INC                  </BusinessName>
+				<StreetAddress>1440 FARNAM ST  STE  1440     </StreetAddress>
+				<City>OMAHA                       </City>
+				<State>NE</State>
+				<Zip>68131</Zip>
+				<ZipExtension>3302</ZipExtension>
+				<PhoneNumber>402-346-1400</PhoneNumber>
+				<SIC code="6719">HOLDING COMPANIES, NEC                </SIC>
+				<CorporateLink>
+					<CorporateLinkageIndicator>Y</CorporateLinkageIndicator>
+				</CorporateLink>
+			</BusinessNameAndAddress>
+			<CorporateLinkage>
+				<LinkageRecordType code="1">Ultimate Parent</LinkageRecordType>
+				<LinkageRecordBIN>924435215</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="Y"/>
+				<LinkageCompanyAddress>1440 FARNAM ST  STE  1440</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>700731918</LinkageRecordBIN>
+				<LinkageCompanyName>GARAN, INCORPORATED</LinkageCompanyName>
+				<LinkageCompanyCity>NEW YORK</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>350 5TH AVE</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>708858000</LinkageRecordBIN>
+				<LinkageCompanyName>JORDAN'S FURNITURE, INC</LinkageCompanyName>
+				<LinkageCompanyCity>AVON</LinkageCompanyCity>
+				<LinkageCompanyState>MA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>100 STOCKWELL DR</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>712508863</LinkageRecordBIN>
+				<LinkageCompanyName>GEICO CORP</LinkageCompanyName>
+				<LinkageCompanyCity>WASHINGTON</LinkageCompanyCity>
+				<LinkageCompanyState>DC</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>1 GEICO PLZ</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>713237468</LinkageRecordBIN>
+				<LinkageCompanyName>THE BUFFALO NEWS</LinkageCompanyName>
+				<LinkageCompanyCity>BUFFALO</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>1 NEWS PLZ</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>713533959</LinkageRecordBIN>
+				<LinkageCompanyName>UNITED STATES LIABILITY INSURANCE CO</LinkageCompanyName>
+				<LinkageCompanyCity>WAYNE</LinkageCompanyCity>
+				<LinkageCompanyState>PA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>190 S  WARNER RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>724244621</LinkageRecordBIN>
+				<LinkageCompanyName>SHAW INDUSTRIES GROUP, INC</LinkageCompanyName>
+				<LinkageCompanyCity>DALTON</LinkageCompanyCity>
+				<LinkageCompanyState>GA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>P. O. BOX 2128RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>724798756</LinkageRecordBIN>
+				<LinkageCompanyName>ALBECCA INC</LinkageCompanyName>
+				<LinkageCompanyCity>NORCROSS</LinkageCompanyCity>
+				<LinkageCompanyState>GA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>3900 STEVE REYNOLDS BLVD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>736349198</LinkageRecordBIN>
+				<LinkageCompanyName>CLAYTON HOMES INC</LinkageCompanyName>
+				<LinkageCompanyCity>MARYVILLE</LinkageCompanyCity>
+				<LinkageCompanyState>TN</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>500 ALCOA TRL</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>747977888</LinkageRecordBIN>
+				<LinkageCompanyName>FOREST RIVER, INC</LinkageCompanyName>
+				<LinkageCompanyCity>ELKHART</LinkageCompanyCity>
+				<LinkageCompanyState>IN</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>55470 COUNTY ROAD 1</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>748087537</LinkageRecordBIN>
+				<LinkageCompanyName>THE FECHHEIMER BROTHERS CO</LinkageCompanyName>
+				<LinkageCompanyCity>CINCINNATI</LinkageCompanyCity>
+				<LinkageCompanyState>OH</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>4545 MALSBARY RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>772036782</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>9290 W  DODGE RD  STE  300</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>773539630</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>2962 HARNEY ST</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>774539970</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>3555 FARNAM ST  STE  1440</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>777772122</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>2840 S  123RD CT</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>888858168</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>3924 HARNEY ST</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>02490800</CurrentAccountBalance>
+				<CurrentTradelineCount>006</CurrentTradelineCount>
+				<MonthlyAverageDBT>005</MonthlyAverageDBT>
+				<HighestDBT6Months>009</HighestDBT6Months>
+				<HighestDBT5Quarters>009</HighestDBT5Quarters>
+				<ActiveTradelineCount>006</ActiveTradelineCount>
+				<AllTradelineBalance>02492300</AllTradelineBalance>
+				<AllTradelineCount>013</AllTradelineCount>
+				<AverageBalance5Quarters>02023880</AverageBalance5Quarters>
+				<SingleLineHighCredit>03930800</SingleLineHighCredit>
+				<LowBalance6Months>01392100</LowBalance6Months>
+				<HighBalance6Months>02908800</HighBalance6Months>
+				<CurrentDBT>005</CurrentDBT>
+				<YearofIncorporation>19730508</YearofIncorporation>
+			</ExecutiveElements>
+			<CustomHeader code="H">THE OBJECTIVE OF THE EXPERIAN INTELLISCORE MODEL IS TO PREDICT                  </CustomHeader>
+			<CustomHeader code="H">SERIOUSLY DEROGATORY PAYMENT BEHAVIOR.  SCORES RANGE FROM 0 TO 100              </CustomHeader>
+			<CustomHeader code="H">WHERE 0 REPRESENTS A HIGH RISK AND 100 REPRESENTS A LOW RISK.                   </CustomHeader>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="Y">Profile may contain data which for other businesses would be considered derogatory. Use caution in applying score.</PubliclyHeldCompany>
+				<LimitedProfile code="N"/>
+				<Filler>04        </Filler>
+				<ScoreInfo>
+					<Score>0000006036</Score>
+				</ScoreInfo>
+				<ProfileNumber>I605006282</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000210</ModelCode>
+					<ModelTitle>COMMERCIAL ALL-INDUSTRY II              </ModelTitle>
+					<CustomModelCode>04</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>043</PercentileRanking>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="109 ">NUMBER OF ACTIVE ACCOUNTS                                   </ScoreFactor>
+				<ScoreFactor code="041 ">RECENTLY DELINQUENT OR DEROGATORY AVG ACCOUNT BALANCES      </ScoreFactor>
+				<ScoreFactor code="018 ">NUMBER OF DELINQUENT OR DEROGATORY ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="025 ">NUMBER OF DELINQUENT ACCOUNTS                               </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<TotalAgedTrades>00006</TotalAgedTrades>
+				<TotalAgedTradesNoInfoLast4Months>00006</TotalAgedTradesNoInfoLast4Months>
+				<BalanceAgedTradesNoInfoLast4Months>0000000000700</BalanceAgedTradesNoInfoLast4Months>
+				<WeightedDBTAgedTradesNoInfoLast4Months>0000000000005</WeightedDBTAgedTradesNoInfoLast4Months>
+				<MaximumDBTAgedTradesNoInfoLast4Months>00015</MaximumDBTAgedTradesNoInfoLast4Months>
+				<CommercialBankAccounts>000</CommercialBankAccounts>
+				<CommercialBankAccountsPast6Months>00000</CommercialBankAccountsPast6Months>
+				<CommercialBankAccountsPast12Months>00000</CommercialBankAccountsPast12Months>
+				<NewestCommercialBankAccountAge>00000</NewestCommercialBankAccountAge>
+				<OldestCommercialBankAccountAge>00000</OldestCommercialBankAccountAge>
+				<CommercialBankAccountsAverageAge>000000000</CommercialBankAccountsAverageAge>
+				<AssetBasedCommercialBankAccounts>00000</AssetBasedCommercialBankAccounts>
+				<BankLoanAccounts>00000</BankLoanAccounts>
+				<CommercialBankAccountsBalance>0000000000000</CommercialBankAccountsBalance>
+				<CommercialBankAccountsBalancePast6Months>0000000000000</CommercialBankAccountsBalancePast6Months>
+				<CommercialBankAccountsBalancePast12Months>0000000000000</CommercialBankAccountsBalancePast12Months>
+				<BankruptcyFilings>000</BankruptcyFilings>
+				<BankruptcyFilingsLast24Months>000</BankruptcyFilingsLast24Months>
+				<NonFiledBankruptcyActions>00000</NonFiledBankruptcyActions>
+				<OpenBankruptcyFilingsLast24Months>000</OpenBankruptcyFilingsLast24Months>
+				<BankruptcyFilingsBalance>0000000000000</BankruptcyFilingsBalance>
+				<BankruptcyFilingsBalanceLast24Months>0000000000000</BankruptcyFilingsBalanceLast24Months>
+				<NonFiledBankruptcyActionsBalance>0000000000000</NonFiledBankruptcyActionsBalance>
+				<MostRecentBankruptcyFilingAge>00000</MostRecentBankruptcyFilingAge>
+				<MostRecentNonFiledBankruptcyActionAge>00000</MostRecentNonFiledBankruptcyActionAge>
+				<BusinessTypeCode>C</BusinessTypeCode>
+				<CollectionsCount>0000</CollectionsCount>
+				<CollectionsCountLast12Months>00000</CollectionsCountLast12Months>
+				<CollectionsCountLast24Months>000</CollectionsCountLast24Months>
+				<OpenCollectionsCount>0000</OpenCollectionsCount>
+				<AmountPlacedCollectionTrades>00000000</AmountPlacedCollectionTrades>
+				<AmountCollectedCollectionTrades>0000000000000</AmountCollectedCollectionTrades>
+				<AmountCollectedOpenCollectionTrades>0000000000000</AmountCollectedOpenCollectionTrades>
+				<MaximumAmountCollectedCollectionTrade>0000000000000</MaximumAmountCollectedCollectionTrade>
+				<MostRecentCollectionTradeAge>00000</MostRecentCollectionTradeAge>
+				<MostRecentOpenCollectionTradeAge>00000</MostRecentOpenCollectionTradeAge>
+				<CombinedTrades0PlusDBT>00001</CombinedTrades0PlusDBT>
+				<CombinedTrades30PlusDBT>00000</CombinedTrades30PlusDBT>
+				<CombinedTrades60PlusDBT>00000</CombinedTrades60PlusDBT>
+				<CombinedTrades90PlusDBT>00000</CombinedTrades90PlusDBT>
+				<CombinedTradesBalance>0000002490800</CombinedTradesBalance>
+				<CombinedTradesDBT>00005</CombinedTradesDBT>
+				<EmployeeSizeCode>1</EmployeeSizeCode>
+				<EstablishedDate>19770101</EstablishedDate>
+				<DBTUnkownComparedToAverage>00006</DBTUnkownComparedToAverage>
+				<DBTLowerThanAverage>000</DBTLowerThanAverage>
+				<DBTHigherThanAverage>00000</DBTHigherThanAverage>
+				<DBTSameAsAverage>00000</DBTSameAsAverage>
+				<InquiriesCountLast9Months>005</InquiriesCountLast9Months>
+				<InquiriesCountLast6Months>00005</InquiriesCountLast6Months>
+				<InquiriesCountLast3Months>00004</InquiriesCountLast3Months>
+				<OriginalJudgmentsCount>000</OriginalJudgmentsCount>
+				<JudgmentsCountLast24Months>000</JudgmentsCountLast24Months>
+				<NonFiledJudgmentActionsCount>00000</NonFiledJudgmentActionsCount>
+				<NonFiledJudgmentActionsAmount>0000000000000</NonFiledJudgmentActionsAmount>
+				<MostRecentJudgmentAge>00000</MostRecentJudgmentAge>
+				<MostRecentNonFiledJudgmentActionAge>00000</MostRecentNonFiledJudgmentActionAge>
+				<LegalFilingsCount>00000</LegalFilingsCount>
+				<LeasingTradesCount>000</LeasingTradesCount>
+				<VariableLeasingTradesCount>000</VariableLeasingTradesCount>
+			</KeyModelElements>
+			<KeyModelElements>
+				<LeasingTradesWithPeriodicalPayments>00000</LeasingTradesWithPeriodicalPayments>
+				<LeasingTradesWithSatisfactoryPayments>00000</LeasingTradesWithSatisfactoryPayments>
+				<LeasingTradesWithSlowPayments>000</LeasingTradesWithSlowPayments>
+				<VehicleLeasingTradesCount>00000</VehicleLeasingTradesCount>
+				<EquipmentLeasingTradesCount>00000</EquipmentLeasingTradesCount>
+				<FinanceLeasingTradesCount>00000</FinanceLeasingTradesCount>
+				<LeasingTrades1To12Months>00000</LeasingTrades1To12Months>
+				<LeasingTrades13To24Months>00000</LeasingTrades13To24Months>
+				<LeasingTrades25To60Months>00000</LeasingTrades25To60Months>
+				<LeasingTrades60PlusMonths>00000</LeasingTrades60PlusMonths>
+				<LeasingTradesWithScheduledExcludeLate>00000</LeasingTradesWithScheduledExcludeLate>
+				<LeasingTradesWithScheduledIncludeLate>00000</LeasingTradesWithScheduledIncludeLate>
+				<LeasingTradesWithOutstandingAmount>00000</LeasingTradesWithOutstandingAmount>
+				<LeasingTradesWithRemainingBalance>00000</LeasingTradesWithRemainingBalance>
+				<LeasingTradesOnTime>00000</LeasingTradesOnTime>
+				<LeasingTrades1To30DaysLate>00000</LeasingTrades1To30DaysLate>
+				<LeasingTrades31To60DaysLate>00000</LeasingTrades31To60DaysLate>
+				<LeasingTrades61To90DaysLate>00000</LeasingTrades61To90DaysLate>
+				<LeasingTrades91PlusDaysLate>00000</LeasingTrades91PlusDaysLate>
+				<LeasingTradesOriginalAmount>0000000000000</LeasingTradesOriginalAmount>
+				<LeasingTradesScheduledAmountExcludeLate>0000000000000</LeasingTradesScheduledAmountExcludeLate>
+				<LeasingTradesScheduledAmountIncludeLate>0000000000000</LeasingTradesScheduledAmountIncludeLate>
+				<LeasingTradesOutstandingAmount>0000000000000</LeasingTradesOutstandingAmount>
+				<LeasingTradesRemainingBalance>0000000000000</LeasingTradesRemainingBalance>
+				<LeasingTradesLatePaymentsCount>0000</LeasingTradesLatePaymentsCount>
+				<LeasingTradesCurrentPaymentsCount>0000</LeasingTradesCurrentPaymentsCount>
+				<LeasingTradesOutstandingPaymentsCount>00000</LeasingTradesOutstandingPaymentsCount>
+				<LeasingTradeMaximumOriginalAmount>0000000000000</LeasingTradeMaximumOriginalAmount>
+				<LeasingTradesMaximumScheduledAmountExcludeLate>0000000000000</LeasingTradesMaximumScheduledAmountExcludeLate>
+				<LeasingTradesMaximumScheduledAmountIncludeLate>0000000000000</LeasingTradesMaximumScheduledAmountIncludeLate>
+				<LeasingTradesMaximumRemainingBalance>0000000000000</LeasingTradesMaximumRemainingBalance>
+				<NewTradesCount>000</NewTradesCount>
+				<NewTradesDBT>00000</NewTradesDBT>
+				<NewTradeMaximumDBT>00000</NewTradeMaximumDBT>
+				<NewTradesMaskedToHighestRatio>00000</NewTradesMaskedToHighestRatio>
+				<OtherTradesCount>001</OtherTradesCount>
+				<OtherTradesCountLast4Months>001</OtherTradesCountLast4Months>
+				<OtherTradesMaskedBalanceLast4Months>0000000000800</OtherTradesMaskedBalanceLast4Months>
+				<OtherTradesMaskedToHighestRatio>00057</OtherTradesMaskedToHighestRatio>
+				<AllTradesMaskedToHighestRatio>00063</AllTradesMaskedToHighestRatio>
+				<OwnershipCode/>
+				<MostRecentPublicRecordAge>00000</MostRecentPublicRecordAge>
+				<OldestPublicRecordAge>00000</OldestPublicRecordAge>
+				<RegularTradesCount>006</RegularTradesCount>
+				<RegularTradesAverageBalanceCurrent>0000002168588</RegularTradesAverageBalanceCurrent>
+				<RegularTradesAverageBalance1To30DBT>0000000231746</RegularTradesAverageBalance1To30DBT>
+				<RegularTradesAverageBalance31To60DBT>0000000035746</RegularTradesAverageBalance31To60DBT>
+			</KeyModelElements>
+			<KeyModelElements>
+				<MaximumDBTRegularTrade>00005</MaximumDBTRegularTrade>
+				<RegularTradesCountCurrent>003</RegularTradesCountCurrent>
+				<RegularTradesCount1To30DBT>00000</RegularTradesCount1To30DBT>
+				<RegularTradesCount31To60DBT>000</RegularTradesCount31To60DBT>
+				<RegularTradesCount61To90DBT>000</RegularTradesCount61To90DBT>
+				<RegularTradesCount91PlusDBT>001</RegularTradesCount91PlusDBT>
+				<RegularTradesCountDerog>000</RegularTradesCountDerog>
+				<DBTChangeRegularTrades6MonthsPrior sign=" ">00000</DBTChangeRegularTrades6MonthsPrior>
+				<DBTChangeRegularTrades5QuartersPrior sign=" ">00000</DBTChangeRegularTrades5QuartersPrior>
+				<RegularTradesMaskedToHighestRatio>00063</RegularTradesMaskedToHighestRatio>
+				<BadTradesCount>000</BadTradesCount>
+				<BadTradesMaskedBalance>0000000000000</BadTradesMaskedBalance>
+				<GoodTradesCount>004</GoodTradesCount>
+				<GoodTradesMaskedBalance>0000002492200</GoodTradesMaskedBalance>
+				<IndeterminateTradesCount>00001</IndeterminateTradesCount>
+				<TotalTradesCount>013</TotalTradesCount>
+				<TotalActiveTradesCount>007</TotalActiveTradesCount>
+				<TradesCountBalanceToLoan70Plus>002</TradesCountBalanceToLoan70Plus>
+				<TotalTradesCountLast6Months>00008</TotalTradesCountLast6Months>
+				<TotalTradesCountLast12Months>00010</TotalTradesCountLast12Months>
+				<ActiveTradesCountLast6Months>001</ActiveTradesCountLast6Months>
+				<ActiveTradesCountLast12Months>002</ActiveTradesCountLast12Months>
+				<OldestTradeAge>00025</OldestTradeAge>
+				<TradesAverageAge>00007</TradesAverageAge>
+				<TradesCountDBT0Plus>003</TradesCountDBT0Plus>
+				<TradesCountDBT30Plus>00000</TradesCountDBT30Plus>
+				<TradesCountDBT60Plus>00000</TradesCountDBT60Plus>
+				<TradesCountDBT90Plus>000</TradesCountDBT90Plus>
+				<MaximumBalanceCurrent>0000002041964</MaximumBalanceCurrent>
+				<MaximumBalance91PlusDBT>0000000049804</MaximumBalance91PlusDBT>
+				<AccountBalanceCurrent>0000002043802</AccountBalanceCurrent>
+				<AccountBalance1To30DBT>0000000348890</AccountBalance1To30DBT>
+				<MaximumBalanceLast12Months>0000003930800</MaximumBalanceLast12Months>
+				<TradesCountMaskedBalanceGreaterThanHighCredit>00001</TradesCountMaskedBalanceGreaterThanHighCredit>
+				<TradesCountNet30>007</TradesCountNet30>
+				<TradesCountNet60>00000</TradesCountNet60>
+				<TradesCountNet61Plus>00000</TradesCountNet61Plus>
+			</KeyModelElements>
+			<KeyModelElements>
+				<TradesCountCash>00000</TradesCountCash>
+				<TradesCountContract>00002</TradesCountContract>
+				<TradesCountRevolvingCredit>002</TradesCountRevolvingCredit>
+				<TradesCountVaried>002</TradesCountVaried>
+				<TradesCountOther>00000</TradesCountOther>
+				<OriginalTaxLiensCount>000</OriginalTaxLiensCount>
+				<TaxLiensCountLast24Months>000</TaxLiensCountLast24Months>
+				<NonFiledTaxLiensCount>00000</NonFiledTaxLiensCount>
+				<TaxLiensAmountLast24Months>0000000000000</TaxLiensAmountLast24Months>
+				<NonFiledTaxLiensAmount>0000000000000</NonFiledTaxLiensAmount>
+				<MostRecentTaxLienAge>00000</MostRecentTaxLienAge>
+				<MostRecentNonFiledTaxLienAge>00000</MostRecentNonFiledTaxLienAge>
+				<ActiveTradesCountZeroBalance>00002</ActiveTradesCountZeroBalance>
+				<TradesCountZeroBalance>00008</TradesCountZeroBalance>
+				<UCCFilingsCountDetail>00000</UCCFilingsCountDetail>
+				<UCCFilingsCountSummary>000</UCCFilingsCountSummary>
+				<OpenUCCFilingsCountLast24Months>000</OpenUCCFilingsCountLast24Months>
+				<Original5YearUCCFilingsCountLast24Months>00000</Original5YearUCCFilingsCountLast24Months>
+				<OriginalUCCFilingsCount>00000</OriginalUCCFilingsCount>
+				<Original5YearUCCFilingsCount>00000</Original5YearUCCFilingsCount>
+				<UCCFilingsCountAmended>00000</UCCFilingsCountAmended>
+				<UCCFilingsCountAssigned>00000</UCCFilingsCountAssigned>
+				<UCCFilingsCountPatialRelease>00000</UCCFilingsCountPatialRelease>
+				<UCCFilingsCountFullRelease>00000</UCCFilingsCountFullRelease>
+				<UCCFilingsCountReleased>00000</UCCFilingsCountReleased>
+				<UCCFilingsCountTerminated>00000</UCCFilingsCountTerminated>
+				<UCCFilingsCountContinued>00000</UCCFilingsCountContinued>
+				<Original10YearUCCFilingsCount>00000</Original10YearUCCFilingsCount>
+				<DerogUCCFilingsCount>000</DerogUCCFilingsCount>
+				<DerogUCCFilingsCountLast24Months>00000</DerogUCCFilingsCountLast24Months>
+			</KeyModelElements>
+			<CustomFooter code="F">TERMS:_________________________  CREDIT LIMIT:________________________          </CustomFooter>
+			<CustomFooter code="F">COMMENTS:______________________  SIGNATURE:___________________________          </CustomFooter>
+			<CustomFooter code="F">DPL#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">PAM#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">CCID#____________________                                                       </CustomFooter>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

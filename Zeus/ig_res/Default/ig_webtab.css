@@ -1,0 +1,2979 @@
+.igtab_THControl
+{
+	overflow: hidden;
+}
+
+
+.igtab_THContent
+{
+	background-color:White;
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_THContentHolder
+{
+	background-color:#FFFFFF;
+	border:solid 1px #4679A6;
+	border-top-width:0px;
+	height: 80%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_THTab
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:top left ;
+	background-image: url(./images/igtab_thleft.gif);
+	border-bottom:solid 1px #4679A6;
+	margin:0px;
+	padding-left:7px;
+	display: inline;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 22px;
+}
+
+
+.igtab_THCenter
+{
+	background-color:#F0F0F0;
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_thcenter.jpg);
+	font-size:22px;
+	font-family:sans-serif ;
+	padding:0px 1px 0px 1px;
+	display: block;
+	position: relative;
+	white-space: nowrap;
+	line-height: 22px;
+	overflow: hidden;
+	text-align:center;
+}
+
+
+.igtab_THTail
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igtab_thright.gif);
+	margin:0px;
+	padding-right:7px;
+	padding-left:0px;
+	display: block;
+	height: 100%;
+}
+
+
+.igtab_THText
+{
+	font-size:11px;
+	font-family: Verdana;
+	border-width:0px;
+	padding:0px 1px 0px 1px;
+	white-space: nowrap;
+	line-height: 22px;
+	cursor:default;
+	vertical-align:middle;
+}
+
+
+.igtab_THMirror
+{
+}
+
+
+.igtab_THMirrorCenter
+{
+}
+
+
+.igtab_THOverlap
+{
+	margin-left:-5px;
+}
+
+
+.igtab_THImage
+{
+	vertical-align:middle;
+}
+
+
+.igtab_THClose
+{
+	margin-top:6px;
+	margin-left:-20px;
+	position: absolute;
+	left: 100%;
+	top: 0px;
+	cursor:pointer;
+}
+
+
+.igtab_THCloseSize
+{
+	padding-right:20px;
+}
+
+
+.igtab_THHolder
+{
+	background-repeat:repeat-x;
+	background-position:bottom left ;
+	background-image: url(./images/igtab_holderborder.gif);
+	margin:0px;
+	padding:0px;
+	position: relative;
+	display: block;
+	height: 23px;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.igtab_THHolderNoScroll
+{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+
+.igtab_THHolderScroll
+{
+	margin-left:-50px;
+	position: relative;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+
+.igtab_THHolderScrollInner
+{
+	position: relative;
+	display: block;
+	width: 9999px;
+	left: 50px;
+}
+
+
+.igtab_THScrollButton
+{
+	padding:1px;
+}
+
+
+.igtab_THScrollButtons
+{
+	font-size:1px;
+	margin-left:-50px;
+	padding-top:2px;
+	position: absolute;
+	left: 100%;
+	display: block;
+	width: 50px;
+	z-index: 20000;
+	text-align:right;
+}
+
+
+.igtab_THRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_troundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_THRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_troundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_THRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_troundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_THRoundedFill
+{
+	background-image: url(./images/igtab_troundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_THRoundedForScroll
+{
+	margin-left:-56px;
+}
+
+
+.igtab_THRoundedForHolder
+{
+	background-color: none;
+	margin-left:5px;
+	height: 22px;
+}
+
+
+.igtab_THRoundedForHolderScroll
+{
+}
+
+
+.igtab_THRoundedForHolderInner
+{
+}
+
+
+.igtab_THRoundedForHolderScrollInner
+{
+}
+
+
+.igtab_THContentHolderInner
+{
+}
+
+
+.igtab_THTabHov
+{
+	background-position:0px -50px ;
+}
+
+
+.igtab_THCenterHov
+{
+	background-color:#FF9E33;
+	background-position:0px -50px ;
+}
+
+
+.igtab_THTailHov
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igtab_thrighthov.gif);
+}
+
+
+.igtab_THTextHov
+{
+	color:White;
+}
+
+
+.igtab_THMirrorHov
+{
+}
+
+
+.igtab_THMirrorCenterHov
+{
+}
+
+
+.igtab_THTabSel
+{
+	background-position:0px -100px ;
+}
+
+
+.igtab_THCenterSel
+{
+	background-color:#8FC6EA;
+	background-position:0px -100px ;
+}
+
+
+.igtab_THTailSel
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igtab_thrightsel.gif);
+}
+
+
+.igtab_THTextSel
+{
+}
+
+
+.igtab_THMirrorSel
+{
+}
+
+
+.igtab_THMirrorCenterSel
+{
+}
+
+
+.igtab_THTabAct
+{
+}
+
+
+.igtab_THCenterAct
+{
+}
+
+
+.igtab_THTailAct
+{
+}
+
+
+.igtab_THTextAct
+{
+	border:dotted 1px #000000;
+	padding:0px;
+}
+
+
+.igtab_THMirrorAct
+{
+}
+
+
+.igtab_THMirrorCenterAct
+{
+}
+
+
+.igtab_THTabDis
+{
+	background-position:0px -150px ;
+}
+
+
+.igtab_THCenterDis
+{
+	background-color:#CCCCCC;
+	background-position:0px -150px ;
+}
+
+
+.igtab_THTailDis
+{
+	background-image: url(./images/igtab_thrightdis.gif);
+}
+
+
+.igtab_THTextDis
+{
+	color:#AAAAAA;
+}
+
+
+.igtab_THMirrorDis
+{
+}
+
+
+.igtab_THMirrorCenterDis
+{
+}
+
+
+.igtab_THTabMoving
+{
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.igtab_THTabMovingMarkUp
+{
+	filter: alpha(opacity : 70);
+	opacity: 0.7;
+}
+
+
+.igtab_LHImage
+{
+	margin-top:2px;
+	position: relative;
+	vertical-align:middle;
+}
+
+
+.igtab_LVRoundedForHolder
+{
+	top: -6px;
+}
+
+
+.igtab_BVCenterHov
+{
+}
+
+
+.igtab_LHScrollButtons
+{
+	font-size:1px;
+	margin-top:-47px;
+	margin-left:-21px;
+	position: absolute;
+	top: 100%;
+	z-index: 20000;
+}
+
+
+.igtab_BVTabSel
+{
+	background-image: url(./images/igtab_bvleftbotsel.gif);
+}
+
+
+.igtab_RVTail
+{
+	background-position:bottom right ;
+	background-image: url(./images/igtab_rvbot.gif);
+	padding-top:3px;
+	display: block;
+}
+
+
+.igtab_TVRoundedFill
+{
+	background-image: url(./images/igtab_troundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHMirrorHov
+{
+	background-image: url(./images/igtab_lhbotlefthov.gif);
+}
+
+
+.igtab_TVTailAct
+{
+}
+
+
+.igtab_RHMirrorCenterAct
+{
+}
+
+
+.igtab_BVMirror
+{
+	background-repeat:no-repeat;
+	background-position:bottom right ;
+	background-image: url(./images/igtab_bvrightbot.gif);
+	margin-left:8px;
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 100%;
+}
+
+
+.igtab_RHRoundedForHolderScroll
+{
+	top: -53px;
+}
+
+
+.igtab_LHCenterSel
+{
+	background-color:#8FC6EA;
+	background-image: url(./images/igtab_lhtopsel.gif);
+}
+
+
+.igtab_TVTextSel
+{
+}
+
+
+.igtab_TVTailDis
+{
+	background-position:-150px 0px ;
+}
+
+
+.igtab_BHRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_broundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_RHText
+{
+	font-size:11px;
+	font-family: Verdana;
+	line-height: 24px;
+	white-space: nowrap;
+	position: relative;
+	cursor:default;
+	vertical-align:middle;
+}
+
+
+.igtab_RVContentHolderInner
+{
+	border-left:solid 1px #4679A6;
+	margin-left:24px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+}
+
+
+.igtab_LVTab
+{
+	background-repeat:no-repeat;
+	background-position:top left ;
+	background-image: url(./images/igtab_lvtop.gif);
+	border-right:solid 1px #4679A6;
+	padding-top:3px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_LVRoundedForHolderInner
+{
+	top: 12px;
+}
+
+
+.igtab_BVTab
+{
+	background-repeat:no-repeat;
+	background-position:bottom left ;
+	background-image: url(./images/igtab_bvleftbot.gif);
+	border-top:solid 1px #4679A6;
+	margin:0px;
+	padding:0px;
+	display: inline;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 30px;
+}
+
+
+.igtab_RHRoundedForScroll
+{
+	margin-top:-53px;
+}
+
+
+.igtab_BVTailHov
+{
+	background-position:-50px 0px ;
+}
+
+
+.igtab_RHHolderScrollInner
+{
+	top: 47px;
+}
+
+
+.igtab_TVTabSel
+{
+	background-position:0px -38px ;
+}
+
+
+.igtab_LHTab
+{
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_RVCloseSize
+{
+	padding-bottom:14px;
+}
+
+
+.igtab_BHTab
+{
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	background-position:top left ;
+	background-image: url(./images/igtab_bhleft.gif);
+	border-top:solid 1px #4679A6;
+	margin:0px;
+	padding-left:7px;
+	display: inline;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 22px;
+}
+
+
+.igtab_LHHolderScrollInner
+{
+	top: 47px;
+}
+
+
+.igtab_TVCenter
+{
+	padding-top:5px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.igtab_TVMirrorSel
+{
+	background-image: url(./images/igtab_tvrighttopsel.gif);
+}
+
+
+.igtab_RHTextSel
+{
+}
+
+
+.igtab_LVRoundedForHolderScrollInner
+{
+	top: 59px;
+}
+
+
+.igtab_LHTextHov
+{
+}
+
+
+.igtab_TVControl
+{
+	overflow: hidden;
+}
+
+
+.igtab_BHTextSel
+{
+}
+
+
+.igtab_RHTextDis
+{
+}
+
+
+.igtab_TVHolderScrollInner
+{
+	position: relative;
+	display: block;
+	width: 9999px;
+	left: 50px;
+}
+
+
+.igtab_LHTabMoving
+{
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.igtab_LVScrollButtons
+{
+	font-size:1px;
+	margin-top:-47px;
+	margin-left:5px;
+	position: absolute;
+	top: 100%;
+	z-index: 20000;
+	left: 0px;
+}
+
+
+.igtab_BVMirrorCenterAct
+{
+}
+
+
+.igtab_BVClose
+{
+	margin-top:-16px;
+	margin-left:-18px;
+	position: absolute;
+	left: 100%;
+	top: 100%;
+	cursor:pointer;
+}
+
+
+.igtab_LHMirrorCenter
+{
+	background-repeat:repeat-x;
+	background-position:bottom left ;
+	background-image: url(./images/igtab_lhbot.gif);
+	font-size:1px;
+	font-family:verdana ;
+	display: block;
+	line-height: 1px;
+	height: 100%;
+}
+
+
+.igtab_BVMirrorHov
+{
+	background-image: url(./images/igtab_bvrightbothov.gif);
+}
+
+
+.igtab_BVMirrorSel
+{
+	background-image: url(./images/igtab_bvrightbotsel.gif);
+}
+
+
+.igtab_RVRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_troundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_TVMirrorCenterDis
+{
+	background-image: url(./images/igtab_tvrightdis.gif);
+}
+
+
+.igtab_RHRoundedForHolderInner
+{
+	top: 12px;
+}
+
+
+.igtab_BHRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_broundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_RHMirrorCenterHov
+{
+	background-image: url(./images/igtab_rhbothov.gif);
+}
+
+
+.igtab_TVContent
+{
+	background-color:#EFEFEF;
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_thcontentbackground.jpg);
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_LHMirrorCenterAct
+{
+}
+
+
+.igtab_RHImage
+{
+	margin-top:2px;
+	position: relative;
+	vertical-align:middle;
+}
+
+
+.igtab_TVHolderScroll
+{
+	margin-left:-50px;
+	position: relative;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+
+.igtab_TVTabDis
+{
+	background-position:0px -57px ;
+}
+
+
+.igtab_TVCenterAct
+{
+}
+
+
+.igtab_RVTailAct
+{
+}
+
+
+.igtab_LHMirrorCenterSel
+{
+	background-image: url(./images/igtab_lhbotsel.gif);
+}
+
+
+.igtab_RHControl
+{
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_LHTabHov
+{
+}
+
+
+.igtab_RVHolderScrollInner
+{
+	top: 47px;
+}
+
+
+.igtab_LVTabDis
+{
+	background-image: url(./images/igtab_lvtopdis.gif);
+}
+
+
+.igtab_BVHolder
+{
+	background-repeat:repeat-x;
+	background-position:top left ;
+	background-image: url(./images/igtab_holderborder.gif);
+	margin:0px;
+	padding:0px;
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.igtab_LHTailAct
+{
+}
+
+
+.igtab_LVRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_troundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LVHolderScrollInner
+{
+	top: 47px;
+}
+
+
+.igtab_RHRoundedFill
+{
+	background-image: url(./images/igtab_troundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHTailDis
+{
+	background-image: url(./images/igtab_lhtopleftdis.gif);
+}
+
+
+.igtab_BVMirrorDis
+{
+	background-image: url(./images/igtab_bvrightbotdis.gif);
+}
+
+
+.igtab_TVTail
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_tvleft.jpg);
+	margin-top:12px;
+	padding:0px;
+	display: block;
+	position: absolute;
+	width: 12px;
+	height: 100%;
+}
+
+
+.igtab_BVTailSel
+{
+	background-position:-100px 0px ;
+}
+
+
+.igtab_TVCenterDis
+{
+}
+
+
+.igtab_LHCenter
+{
+	background-color:#F0F0F0;
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_lhtop.gif);
+	font-size:1px;
+	font-family:verdana ;
+	display: block;
+	line-height: 1px;
+	height: 100%;
+}
+
+
+.igtab_RVHolderScroll
+{
+	top: -47px;
+}
+
+
+.igtab_LHMirrorSel
+{
+	background-image: url(./images/igtab_lhbotleftsel.gif);
+	border-right-color:#00D0D0;
+}
+
+
+.igtab_RHTabSel
+{
+}
+
+
+.igtab_TVScrollButtons
+{
+	font-size:1px;
+	margin-top:-23px;
+	margin-left:-50px;
+	padding-top:2px;
+	position: absolute;
+	left: 100%;
+	top: 100%;
+	display: block;
+	width: 50px;
+	z-index: 20000;
+	text-align:right;
+}
+
+
+.igtab_BHCloseSize
+{
+	padding-right:20px;
+}
+
+
+.igtab_BHHolderScroll
+{
+	margin-left:-50px;
+	position: relative;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+
+.igtab_BVRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_broundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_troundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_RHTailDis
+{
+	background-image: url(./images/igtab_rhtoprightdis.gif);
+}
+
+
+.igtab_TVMirrorCenterHov
+{
+	background-image: url(./images/igtab_tvrighthov.gif);
+}
+
+
+.igtab_BVRoundedForScroll
+{
+	margin-left:-56px;
+}
+
+
+.igtab_LVText
+{
+	font-size:11px;
+	font-family: Verdana;
+	padding-left:6px;
+	line-height: 14px;
+	display: block;
+	position: relative;
+	cursor:default;
+	vertical-align:middle;
+}
+
+
+.igtab_RHCenterAct
+{
+}
+
+
+.igtab_LHRoundedForHolderScroll
+{
+	top: -53px;
+}
+
+
+.igtab_LHTextSel
+{
+}
+
+
+.igtab_LVRoundedForHolderScroll
+{
+	top: -53px;
+}
+
+
+.igtab_LHTabAct
+{
+}
+
+
+.igtab_LVTextSel
+{
+}
+
+
+.igtab_LHTextDis
+{
+}
+
+
+.igtab_RHCenterDis
+{
+	background-color:#CCCCCC;
+	background-image: url(./images/igtab_rhtopdis.gif);
+}
+
+
+.igtab_BHTabMoving
+{
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.igtab_BVRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_broundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHMirrorCenterDis
+{
+	background-image: url(./images/igtab_lhbotdis.gif);
+}
+
+
+.igtab_TVMirrorCenterAct
+{
+}
+
+
+.igtab_BHContent
+{
+	background-color:#EFEFEF;
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_thcontentbackground.jpg);
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_RVCenter
+{
+	background-color:#F0F0F0;
+	background-repeat:repeat-y;
+	background-position:top right ;
+	background-image: url(./images/igtab_rvcenter.gif);
+	padding-left:1px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.igtab_LVRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_troundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_troundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_TVMirrorAct
+{
+}
+
+
+.igtab_RHRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_troundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHTailHov
+{
+	background-image: url(./images/igtab_lhtoplefthov.gif);
+}
+
+
+.igtab_BHTextHov
+{
+	color:White;
+}
+
+
+.igtab_BVRoundedFill
+{
+	background-image: url(./images/igtab_broundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LVHolderScroll
+{
+	top: -47px;
+}
+
+
+.igtab_BVMirrorCenterHov
+{
+	background-image: url(./images/igtab_bvrighthov.gif);
+}
+
+
+.igtab_LHCloseSize
+{
+	padding-right:10px;
+}
+
+
+.igtab_LVHolder
+{
+	overflow: hidden;
+	position: absolute;
+	z-index: 999;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 25px;
+}
+
+
+.igtab_BHRoundedForScroll
+{
+	margin-left:-56px;
+}
+
+
+.igtab_BHTabHov
+{
+	background-position:0px -27px ;
+}
+
+
+.igtab_RHTab
+{
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_BVTabDis
+{
+	background-image: url(./images/igtab_bvleftbotdis.gif);
+}
+
+
+.igtab_BHHolderNoScroll
+{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+
+.igtab_RHTextAct
+{
+	border:dotted 1px Blue;
+}
+
+
+.igtab_RHTailHov
+{
+	background-image: url(./images/igtab_rhtoprighthov.gif);
+}
+
+
+.igtab_RHHolder
+{
+	overflow: hidden;
+	position: absolute;
+	z-index: 999;
+	left: 100%;
+	top: 0px;
+	height: 100%;
+}
+
+
+.igtab_LHControl
+{
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_LVTailSel
+{
+	background-image: url(./images/igtab_lvbotsel.gif);
+	border-right-color:#00D0D0;
+}
+
+
+.igtab_RVContent
+{
+	background-color:White;
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_LVCenterHov
+{
+	background-color:#FF9E33;
+	background-image: url(./images/igtab_lvcenterhov.gif);
+}
+
+
+.igtab_BHOverlap
+{
+	margin-left:-5px;
+}
+
+
+.igtab_RVCenterAct
+{
+}
+
+
+.igtab_TVMirrorDis
+{
+	background-image: url(./images/igtab_tvrighttopdis.gif);
+}
+
+
+.igtab_BHTextDis
+{
+	color:#AAAAAA;
+}
+
+
+.igtab_LHContent
+{
+	background-color:White;
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_RHScrollButton
+{
+	margin-top:2px;
+	margin-left:3px;
+	display: block;
+}
+
+
+.igtab_RHClose
+{
+	margin-left:3px;
+	position: absolute;
+	top: 12px;
+	cursor:pointer;
+}
+
+
+.igtab_BVMirrorCenterSel
+{
+	background-image: url(./images/igtab_bvrightsel.gif);
+}
+
+
+.igtab_BHCenter
+{
+	background-color:#F0F0F0;
+	background-repeat:repeat-x;
+	background-position:top left ;
+	background-image: url(./images/igtab_bhcenter.gif);
+	font-size:22px;
+	font-family:sans-serif ;
+	display: block;
+	position: relative;
+	white-space: nowrap;
+	line-height: 22px;
+	overflow: hidden;
+	text-align:center;
+}
+
+
+.igtab_TVTab
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_tvlefttop.gif);
+	border-bottom:solid 1px #4679A6;
+	margin:0px;
+	padding:0px;
+	display: inline;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 30px;
+}
+
+
+.igtab_BHRoundedForHolder
+{
+	background-color: none;
+	margin-left:5px;
+	height: 22px;
+}
+
+
+.igtab_BHText
+{
+	font-size:11px;
+	font-family: Verdana;
+	border-width:0px;
+	padding:0px 1px 0px 1px;
+	white-space: nowrap;
+	line-height: 22px;
+	cursor:default;
+	vertical-align:middle;
+}
+
+
+.igtab_RVTabAct
+{
+}
+
+
+.igtab_BVTail
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_bvleft.jpg);
+	margin-top:-12px;
+	padding:0px;
+	display: block;
+	position: absolute;
+	width: 12px;
+	height: 100%;
+}
+
+
+.igtab_RHMirrorCenter
+{
+	background-repeat:repeat-x;
+	background-position:bottom left ;
+	background-image: url(./images/igtab_rhbot.gif);
+	font-size:1px;
+	font-family:verdana ;
+	display: block;
+	line-height: 1px;
+	height: 100%;
+}
+
+
+.igtab_RVCenterDis
+{
+	background-color:#CCCCCC;
+	background-image: url(./images/igtab_rvcenterdis.gif);
+}
+
+
+.igtab_LVClose
+{
+	margin-top:-15px;
+	margin-left:6px;
+	position: absolute;
+	cursor:pointer;
+}
+
+
+.igtab_TVClose
+{
+	margin-top:-13px;
+	position: absolute;
+	left: 12px;
+	top: 100%;
+	cursor:pointer;
+}
+
+
+.igtab_RHMirrorCenterSel
+{
+	background-image: url(./images/igtab_rhbotsel.gif);
+}
+
+
+.igtab_RVText
+{
+	font-size:11px;
+	font-family: Verdana;
+	padding-left:5px;
+	line-height: 14px;
+	display: block;
+	width: 13px;
+	position: relative;
+	cursor:default;
+	vertical-align:middle;
+}
+
+
+.igtab_BVTailAct
+{
+}
+
+
+.igtab_RVOverlap
+{
+	margin-top:-5px;
+}
+
+
+.igtab_LVImage
+{
+	position: relative;
+	display: block;
+	vertical-align:middle;
+}
+
+
+.igtab_BVMirrorCenterDis
+{
+	background-image: url(./images/igtab_bvrightdis.gif);
+}
+
+
+.igtab_BVContentHolder
+{
+	background-color:#FFFFFF;
+	border:solid 1px #4679A6;
+	border-bottom-width:0px;
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_RVRoundedForHolderInner
+{
+	top: 12px;
+}
+
+
+.igtab_BVCloseSize
+{
+	padding-bottom:14px;
+}
+
+
+.igtab_LHMirrorAct
+{
+}
+
+
+.igtab_BHTabAct
+{
+}
+
+
+.igtab_TVHolderNoScroll
+{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+
+.igtab_BHScrollButton
+{
+	padding:1px;
+}
+
+
+.igtab_RHHolderScroll
+{
+	top: -47px;
+}
+
+
+.igtab_BVTextDis
+{
+	color:#AAAAAA;
+}
+
+
+.igtab_RVTextSel
+{
+}
+
+
+.igtab_RHTextHov
+{
+}
+
+
+.igtab_LVTextHov
+{
+}
+
+
+.igtab_TVCenterHov
+{
+}
+
+
+.igtab_RHMirrorCenterDis
+{
+	background-image: url(./images/igtab_rhbotdis.gif);
+}
+
+
+.igtab_LHMirrorDis
+{
+	background-image: url(./images/igtab_lhbotleftdis.gif);
+}
+
+
+.igtab_BVTextSel
+{
+}
+
+
+.igtab_RVTextDis
+{
+}
+
+
+.igtab_LHTextAct
+{
+	border:dotted 1px Blue;
+}
+
+
+.igtab_BVRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_broundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_TVOverlap
+{
+	margin-left:-5px;
+}
+
+
+.igtab_LHTail
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_lhtopleft.gif);
+	border-right:solid 1px #4679A6;
+	padding-left:10px;
+	display: block;
+	white-space: nowrap;
+	height: 24px;
+}
+
+
+.igtab_LHTabSel
+{
+}
+
+
+.igtab_LVTailDis
+{
+	background-image: url(./images/igtab_lvbotdis.gif);
+}
+
+
+.igtab_LHMirror
+{
+	background-repeat:no-repeat;
+	background-position:bottom left ;
+	background-image: url(./images/igtab_lhbotleft.gif);
+	border-right:solid 1px #4679A6;
+	padding-left:10px;
+	display: block;
+	height: 3px;
+}
+
+
+.igtab_LVContentHolder
+{
+	background-color:#FFFFFF;
+	border:solid 1px #4679A6;
+	margin-left:24px;
+	height: 99%;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+}
+
+
+.igtab_LVContent
+{
+	background-color:White;
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_LVCenterSel
+{
+	background-color:#8FC6EA;
+	background-image: url(./images/igtab_lvcentersel.gif);
+}
+
+
+.igtab_RHTabDis
+{
+}
+
+
+.igtab_RHTailSel
+{
+	background-image: url(./images/igtab_rhtoprightsel.gif);
+	border-left-color:#00D0D0;
+}
+
+
+.igtab_RHCenterSel
+{
+	background-color:#8FC6EA;
+	background-image: url(./images/igtab_rhtopsel.gif);
+}
+
+
+.igtab_LHOverlap
+{
+	margin-top:-5px;
+}
+
+
+.igtab_BHImage
+{
+	vertical-align:middle;
+}
+
+
+.igtab_BHControl
+{
+	overflow: hidden;
+}
+
+
+.igtab_RHCenterHov
+{
+	background-color:#FF9E33;
+	background-image: url(./images/igtab_rhtophov.gif);
+}
+
+
+.igtab_RVControl
+{
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_BHTailDis
+{
+	background-image: url(./images/igtab_bhrightdis.gif);
+}
+
+
+.igtab_LVCloseSize
+{
+	padding-bottom:14px;
+}
+
+
+.igtab_TVTextDis
+{
+	color:#AAAAAA;
+}
+
+
+.igtab_RVImage
+{
+	position: relative;
+	display: block;
+	vertical-align:middle;
+}
+
+
+.igtab_LVCenterAct
+{
+}
+
+
+.igtab_LHRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_troundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_BVTabMovingMarkUp
+{
+	filter: alpha(opacity : 70);
+	opacity: 0.7;
+}
+
+
+.igtab_RVRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_troundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHScrollButton
+{
+	margin-top:2px;
+	display: block;
+}
+
+
+.igtab_LHRoundedForHolderInner
+{
+	top: 12px;
+}
+
+
+.igtab_LHHolderScroll
+{
+	top: -47px;
+}
+
+
+.igtab_LVCenter
+{
+	background-color:#F0F0F0;
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_lvcenter.gif);
+	padding-left:3px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.igtab_TVText
+{
+	font-size:11px;
+	font-family: Verdana;
+	border-width:0px;
+	margin-top:5px;
+	margin-bottom:6px;
+	margin-left:5px;
+	white-space: nowrap;
+	line-height: 11px;
+	display: block;
+	overflow: hidden;
+	width: 20px;
+	cursor:default;
+	text-align:center;
+}
+
+
+.igtab_RVTabSel
+{
+	background-image: url(./images/igtab_rvtopsel.gif);
+	border-left-color:#94C8EB;
+}
+
+
+.igtab_RHOverlap
+{
+	margin-top:-5px;
+}
+
+
+.igtab_LVTailAct
+{
+}
+
+
+.igtab_RVTabMoving
+{
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.igtab_RHRoundedForHolder
+{
+	top: -6px;
+}
+
+
+.igtab_LVCenterDis
+{
+	background-color:#CCCCCC;
+	background-image: url(./images/igtab_lvcenterdis.gif);
+}
+
+
+.igtab_RVContentHolder
+{
+	background-color:#FFFFFF;
+	border-top:solid 1px #4679A6;
+	border-right:solid 1px #4679A6;
+	border-bottom:solid 1px #4679A6;
+	margin-left:-24px;
+	height: 99%;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	z-index: 9;
+}
+
+
+.igtab_BHCenterAct
+{
+}
+
+
+.igtab_BVImage
+{
+	margin-top:2px;
+	margin-left:3px;
+	display: block;
+}
+
+
+.igtab_RHTail
+{
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igtab_rhtopright.gif);
+	border-left:solid 1px #4679A6;
+	padding-right:10px;
+	display: block;
+	white-space: nowrap;
+	height: 24px;
+}
+
+
+.igtab_TVMirrorHov
+{
+	background-image: url(./images/igtab_tvrighttophov.gif);
+}
+
+
+.igtab_TVContentHolder
+{
+	background-color:#FFFFFF;
+	border:solid 1px #4679A6;
+	border-top-width:0px;
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_TVCloseSize
+{
+	padding-bottom:12px;
+}
+
+
+.igtab_LVTextDis
+{
+}
+
+
+.igtab_RVRoundedForHolderScrollInner
+{
+	top: 59px;
+}
+
+
+.igtab_BHCenterDis
+{
+	background-color:#CCCCCC;
+	background-position:0px -81px ;
+}
+
+
+.igtab_RVTailDis
+{
+	background-image: url(./images/igtab_rvbotdis.gif);
+}
+
+
+.igtab_RHMirror
+{
+	background-repeat:no-repeat;
+	background-position:bottom right ;
+	background-image: url(./images/igtab_rhbotright.gif);
+	border-left:solid 1px #4679A6;
+	padding-right:10px;
+	display: block;
+	height: 3px;
+}
+
+
+.igtab_BHContentHolder
+{
+	background-color:#FFFFFF;
+	border:solid 1px #4679A6;
+	border-bottom-width:0px;
+	height: 60%;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_RHRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_troundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_BHTabSel
+{
+	background-position:0px -54px ;
+}
+
+
+.igtab_RVScrollButton
+{
+	margin-top:2px;
+	display: block;
+}
+
+
+.igtab_BHTailHov
+{
+	background-image: url(./images/igtab_bhrighthov.gif);
+}
+
+
+.igtab_TVRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_troundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_RVCenterHov
+{
+	background-color:#FF9E33;
+	background-image: url(./images/igtab_rvcenterhov.gif);
+}
+
+
+.igtab_LVTabAct
+{
+}
+
+
+.igtab_BVContent
+{
+	background-color:#EFEFEF;
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_thcontentbackground.jpg);
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_RHMirrorAct
+{
+}
+
+
+.igtab_TVTabMoving
+{
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.igtab_RVTab
+{
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igtab_rvtop.gif);
+	border-left:solid 1px #4679A6;
+	padding-top:3px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_BVTextAct
+{
+	border:dotted 1px #000000;
+	margin:2px 0px 0px 4px;
+}
+
+
+.igtab_BHCenterSel
+{
+	background-color:#8FC6EA;
+	background-position:0px -54px ;
+}
+
+
+.igtab_RHTailAct
+{
+}
+
+
+.igtab_RHMirrorHov
+{
+	background-image: url(./images/igtab_rhbotrighthov.gif);
+}
+
+
+.igtab_LHRoundedForHolderScrollInner
+{
+	top: 59px;
+}
+
+
+.igtab_RHMirrorDis
+{
+	background-image: url(./images/igtab_rhbotrightdis.gif);
+}
+
+
+.igtab_LVTabMoving
+{
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.igtab_TVRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_troundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHCenterHov
+{
+	background-color:#FF9E33;
+	background-image: url(./images/igtab_lhtophov.gif);
+}
+
+
+.igtab_TVMirrorCenterSel
+{
+	background-color:White;
+	background-image: url(./images/igtab_tvrightsel.gif);
+}
+
+
+.igtab_RVTextAct
+{
+	border:dotted 1px #000000;
+}
+
+
+.igtab_LHContentHolder
+{
+	background-color:#FFFFFF;
+	border:solid 1px #4679A6;
+	height: 99%;
+	left: -1px;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+}
+
+
+.igtab_BVCenterAct
+{
+}
+
+
+.igtab_LVTailHov
+{
+	background-image: url(./images/igtab_lvbothov.gif);
+}
+
+
+.igtab_LHRoundedForHolder
+{
+	top: -6px;
+}
+
+
+.igtab_BVScrollButton
+{
+	padding:1px;
+}
+
+
+.igtab_RVHolder
+{
+	margin-left:-24px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 999;
+	left: 100%;
+	top: 0px;
+	height: 100%;
+	width: 24px;
+}
+
+
+.igtab_BVOverlap
+{
+	margin-left:-5px;
+}
+
+
+.igtab_LVTabHov
+{
+	background-image: url(./images/igtab_lvtophov.gif);
+	color:White;
+}
+
+
+.igtab_TVImage
+{
+	margin-left:10%;
+	display: block;
+}
+
+
+.igtab_BHTextAct
+{
+	border:dotted 1px #000000;
+	padding:0px;
+}
+
+
+.igtab_LHClose
+{
+	margin-left:-17px;
+	position: absolute;
+	left: 100%;
+	top: 12px;
+	cursor:pointer;
+}
+
+
+.igtab_RVClose
+{
+	margin-top:-15px;
+	margin-left:4px;
+	position: absolute;
+	cursor:pointer;
+}
+
+
+.igtab_BHClose
+{
+	margin-top:5px;
+	margin-left:-20px;
+	position: absolute;
+	left: 100%;
+	top: 0px;
+	cursor:pointer;
+}
+
+
+.igtab_BVTabHov
+{
+	background-image: url(./images/igtab_bvleftbothov.gif);
+}
+
+
+.igtab_TVMirror
+{
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igtab_tvrighttop.gif);
+	margin-left:8px;
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 100%;
+}
+
+
+.igtab_BVText
+{
+	font-size:11px;
+	font-family: Verdana;
+	border-width:0px;
+	margin-top:3px;
+	margin-bottom:5px;
+	margin-left:4px;
+	white-space: nowrap;
+	line-height: 11px;
+	display: block;
+	overflow: hidden;
+	width: 20px;
+	cursor:default;
+	text-align:center;
+}
+
+
+.igtab_RVTailHov
+{
+	background-image: url(./images/igtab_rvbothov.gif);
+}
+
+
+.igtab_BVCenterDis
+{
+}
+
+
+.igtab_RVRoundedForHolder
+{
+	top: -6px;
+}
+
+
+.igtab_TVTabMovingMarkUp
+{
+	filter: alpha(opacity : 70);
+	opacity: 0.7;
+}
+
+
+.igtab_LHTabDis
+{
+}
+
+
+.igtab_BHHolder
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_holderborder.gif);
+	margin:0px;
+	padding:0px;
+	position: relative;
+	display: block;
+	height: 23px;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.igtab_TVTailSel
+{
+	background-position:-100px 0px ;
+}
+
+
+.igtab_BHTailSel
+{
+	background-image: url(./images/igtab_bhrightsel.gif);
+}
+
+
+.igtab_TVTextAct
+{
+	border:dotted 1px #000000;
+	margin-left:4px;
+}
+
+
+.igtab_RHRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_troundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_TVTailHov
+{
+	background-position:-50px 0px ;
+}
+
+
+.igtab_LVRoundedCorners
+{
+	background-repeat:no-repeat;
+	background-image: url(./images/igtab_troundcorners.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_BVTextHov
+{
+	color:White;
+}
+
+
+.igtab_BHHolderScrollInner
+{
+	position: relative;
+	display: block;
+	width: 9999px;
+	left: 50px;
+}
+
+
+.igtab_BVHolderNoScroll
+{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+
+.igtab_TVTabHov
+{
+	background-position:0px -19px ;
+}
+
+
+.igtab_RHContentHolder
+{
+	background-color:#FFFFFF;
+	border-top:solid 1px #4679A6;
+	border-right:solid 1px #4679A6;
+	border-bottom:solid 1px #4679A6;
+	height: 99%;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	z-index: 9;
+}
+
+
+.igtab_RVTextHov
+{
+}
+
+
+.igtab_RHScrollButtons
+{
+	font-size:1px;
+	margin-top:-47px;
+	position: absolute;
+	top: 100%;
+	z-index: 20000;
+	left: 100%;
+}
+
+
+.igtab_TVMirrorCenter
+{
+	background-repeat:repeat-y;
+	background-position:top right ;
+	background-image: url(./images/igtab_tvright.gif);
+	margin-top:12px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.igtab_RHContentHolderInner
+{
+	border-left:solid 1px #4679A6;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+}
+
+
+.igtab_BVMirrorAct
+{
+}
+
+
+.igtab_LVScrollButton
+{
+	margin-top:2px;
+	display: block;
+}
+
+
+.igtab_TVHolder
+{
+	background-repeat:repeat-x;
+	background-position:bottom left ;
+	background-image: url(./images/igtab_holderborder.gif);
+	margin:0px;
+	padding:0px;
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.igtab_LVTextAct
+{
+	border:dotted 1px #000000;
+}
+
+
+.igtab_RVTabMovingMarkUp
+{
+	filter: alpha(opacity : 70);
+	opacity: 0.7;
+}
+
+
+.igtab_LVTabSel
+{
+	background-image: url(./images/igtab_lvtopsel.gif);
+	border-right-color:#94C8EB;
+}
+
+
+.igtab_BHRoundedFill
+{
+	background-image: url(./images/igtab_broundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHMirrorCenterHov
+{
+	background-image: url(./images/igtab_lhbothov.gif);
+}
+
+
+.igtab_RHCloseSize
+{
+	padding-left:10px;
+}
+
+
+.igtab_BVCenter
+{
+	padding-bottom:5px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.igtab_LHRoundedFill
+{
+	background-image: url(./images/igtab_troundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHText
+{
+	font-size:11px;
+	font-family: Verdana;
+	line-height: 24px;
+	white-space: nowrap;
+	position: relative;
+	cursor:default;
+	vertical-align:middle;
+}
+
+
+.igtab_RVRoundedLeftRight
+{
+	background-repeat:repeat-y;
+	background-image: url(./images/igtab_troundleftright.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_LHTabMovingMarkUp
+{
+	filter: alpha(opacity : 70);
+	opacity: 0.7;
+}
+
+
+.igtab_BVMirrorCenter
+{
+	background-repeat:repeat-y;
+	background-position:top right ;
+	background-image: url(./images/igtab_bvright.gif);
+	margin-top:-12px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.igtab_BHCenterHov
+{
+	background-color:#FF9E33;
+	background-position:0px -27px ;
+}
+
+
+.igtab_TVRoundedForHolder
+{
+	background-color: none;
+	margin-left:5px;
+}
+
+
+.igtab_LVControl
+{
+	overflow: hidden;
+	position: relative;
+}
+
+
+.igtab_LHRoundedForScroll
+{
+	margin-top:-53px;
+}
+
+
+.igtab_LVOverlap
+{
+	margin-top:-5px;
+}
+
+
+.igtab_TVTabAct
+{
+}
+
+
+.igtab_BVControl
+{
+	overflow: hidden;
+}
+
+
+.igtab_LVTail
+{
+	background-position:bottom left ;
+	background-image: url(./images/igtab_lvbot.gif);
+	padding-top:3px;
+	display: block;
+}
+
+
+.igtab_TVTextHov
+{
+	color:White;
+}
+
+
+.igtab_RHTabHov
+{
+}
+
+
+.igtab_RVTabDis
+{
+	background-image: url(./images/igtab_rvtopdis.gif);
+}
+
+
+.igtab_BVHolderScrollInner
+{
+	position: relative;
+	display: block;
+	width: 9999px;
+	left: 50px;
+}
+
+
+.igtab_RHMirrorSel
+{
+	background-image: url(./images/igtab_rhbotrightsel.gif);
+	border-left-color:#00D0D0;
+}
+
+
+.igtab_BHScrollButtons
+{
+	font-size:1px;
+	margin-left:-50px;
+	padding-top:2px;
+	position: absolute;
+	left: 100%;
+	display: block;
+	width: 50px;
+	z-index: 20000;
+	text-align:right;
+}
+
+
+.igtab_RVCenterSel
+{
+	background-color:#8FC6EA;
+	background-image: url(./images/igtab_rvcentersel.gif);
+}
+
+
+.igtab_TVCenterSel
+{
+}
+
+
+.igtab_LVTabMovingMarkUp
+{
+	filter: alpha(opacity : 70);
+	opacity: 0.7;
+}
+
+
+.igtab_TVRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_troundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_RVTailSel
+{
+	background-image: url(./images/igtab_rvbotsel.gif);
+	border-left-color:#00D0D0;
+}
+
+
+.igtab_RVScrollButtons
+{
+	font-size:1px;
+	margin-top:-47px;
+	margin-left:-22px;
+	position: absolute;
+	top: 100%;
+	z-index: 20000;
+	left: 100%;
+}
+
+
+.igtab_RVRoundedForHolderScroll
+{
+	top: -53px;
+}
+
+
+.igtab_LHCenterAct
+{
+}
+
+
+.igtab_LHHolder
+{
+	overflow: hidden;
+	position: absolute;
+	z-index: 999;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+}
+
+
+.igtab_RHCenter
+{
+	background-color:#F0F0F0;
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_rhtop.gif);
+	font-size:22px;
+	font-family:sans-serif ;
+	display: block;
+	line-height: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align:right;
+}
+
+
+.igtab_LHCenterDis
+{
+	background-color:#CCCCCC;
+	background-image: url(./images/igtab_lhtopdis.gif);
+}
+
+
+.igtab_RVTabHov
+{
+	background-image: url(./images/igtab_rvtophov.gif);
+	color:White;
+}
+
+
+.igtab_BVTabMoving
+{
+	filter: alpha(opacity : 30);
+	opacity: 0.3;
+}
+
+
+.igtab_BVCenterSel
+{
+}
+
+
+.igtab_TVScrollButton
+{
+	padding:1px;
+}
+
+
+.igtab_BHTabDis
+{
+	background-position:0px -81px ;
+}
+
+
+.igtab_LHTailSel
+{
+	background-image: url(./images/igtab_lhtopleftsel.gif);
+	border-right-color:#00D0D0;
+}
+
+
+.igtab_BVTailDis
+{
+	background-position:-150px 0px ;
+}
+
+
+.igtab_BHTail
+{
+	background-repeat:no-repeat;
+	background-position:top right ;
+	background-image: url(./images/igtab_bhright.gif);
+	padding-right:7px;
+	padding-left:0px;
+	display: block;
+	height: 100%;
+}
+
+
+.igtab_LVRoundedFill
+{
+	background-image: url(./images/igtab_troundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_RHRoundedForHolderScrollInner
+{
+	top: 59px;
+}
+
+
+.igtab_RVRoundedForScroll
+{
+	margin-top:-53px;
+}
+
+
+.igtab_BVRoundedForHolder
+{
+	background-color: none;
+	margin-left:5px;
+}
+
+
+.igtab_RVRoundedFill
+{
+	background-image: url(./images/igtab_troundfill.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_BVHolderScroll
+{
+	margin-left:-50px;
+	position: relative;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+
+.igtab_LVRoundedForScroll
+{
+	margin-top:-53px;
+}
+
+
+.igtab_RHContent
+{
+	background-color:White;
+	height: 100%;
+	position: relative;
+}
+
+
+.igtab_RHTabAct
+{
+}
+
+
+.igtab_BHRoundedTopBottom
+{
+	background-repeat:repeat-x;
+	background-image: url(./images/igtab_broundtopbot.gif);
+	position: absolute;
+	display: block;
+}
+
+
+.igtab_BHTabMovingMarkUp
+{
+	filter: alpha(opacity : 70);
+	opacity: 0.7;
+}
+
+
+.igtab_BVScrollButtons
+{
+	font-size:1px;
+	margin-left:-50px;
+	padding-top:1px;
+	position: absolute;
+	left: 100%;
+	display: block;
+	width: 50px;
+	z-index: 20000;
+	text-align:right;
+}
+
+
+.igtab_TVRoundedForScroll
+{
+	margin-left:-56px;
+}
+
+
+.igtab_BHTailAct
+{
+}
+
+
+.igtab_BVTabAct
+{
+}
+
+

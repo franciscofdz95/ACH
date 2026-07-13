@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\SBI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>SBI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602540866</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/ICR INVESTMENTS;CA-/HOUSTON TX 77060/MC-000212/IR/V-000777/OWNR-BAGGINS,BOBO;CA-123 MAIN ST/ORANGE CA 92874</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileDate>20080303</ProfileDate>
+				<ProfileTime>11:42:48</ProfileTime>
+				<TerminalNumber>-ADQ</TerminalNumber>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>ICR INVESTMENTS                         </BusinessName>
+				<City>HOUSTON                     </City>
+				<State>TX</State>
+				<Zip>77060</Zip>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00000000</AllTradelineBalance>
+				<AllTradelineCount>000</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+			</ExecutiveElements>
+			<ProprietorNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileTime>11:42:48</ProfileTime>
+				<ProprietorName>BOBO  BAGGINS                                               </ProprietorName>
+				<StreetAddress>123 MAIN ST                                                 </StreetAddress>
+				<City>ORANGE                      </City>
+				<State>CA</State>
+				<Zip>92874    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<CustomHeader code="H">THE OBJECTIVE OF THE EXPERIAN INTELLISCORE MODEL IS TO PREDICT                  </CustomHeader>
+			<CustomHeader code="H">SERIOUSLY DEROGATORY PAYMENT BEHAVIOR.  SCORES RANGE FROM 0 TO 100              </CustomHeader>
+			<CustomHeader code="H">WHERE 0 REPRESENTS A HIGH RISK AND 100 REPRESENTS A LOW RISK.                   </CustomHeader>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>00        </Filler>
+				<ScoreInfo>
+					<Score>0000099900</Score>
+				</ScoreInfo>
+				<ProfileNumber>I602540866</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000210</ModelCode>
+					<ModelTitle>COMMERCIAL ALL-INDUSTRY II              </ModelTitle>
+					<CustomModelCode>00</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>000</PercentileRanking>
+			</IntelliscoreScoreInformation>
+			<BillingIndicator code=" "/>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

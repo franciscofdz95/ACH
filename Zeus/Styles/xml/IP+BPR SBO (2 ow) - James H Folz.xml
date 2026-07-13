@@ -1,0 +1,3515 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\IPBPR.xslt"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Alejandro Rea (Experian Information Solutions) -->
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+<CompletionCode>0000</CompletionCode> 
+<ReferenceId>user1abc001</ReferenceId> 
+<Products xmlns="http://www.experian.com/ARFResponse">
+<Intelliscore>
+<InputSummary>
+<SubscriberNumber>563736</SubscriberNumber> 
+<InquiryTransactionNumber>C604768114</InquiryTransactionNumber> 
+<CPUVersion>CPU006</CPUVersion> 
+<Inquiry>INQF/834023681/MC-000214/IR/BP/V-000777/OWNR-COLEMAN,PETE P;CA-PO BOX 1064/KOTZEBUE AK 99752/OWNR-SCOTT,LOLANDA I;CA-1171 RICKOVER LN/FOSTER CITY CA 94404</Inquiry> 
+</InputSummary>
+<BusinessNameAndAddress>
+<ProfileType code="NO RECORD" /> 
+<ProfileDate>20081204</ProfileDate> 
+<ProfileTime>16:46:05</ProfileTime> 
+<TerminalNumber>-AM7</TerminalNumber> 
+<FileEstablishFlag code="" /> 
+<BusinessName>JAMES H FOLZ</BusinessName> 
+</BusinessNameAndAddress>
+<ExecutiveElements>
+<BankruptcyCount>000</BankruptcyCount> 
+<TaxLienCount>000</TaxLienCount> 
+<JudgmentCount>000</JudgmentCount> 
+<CollectionCount>000</CollectionCount> 
+<LegalBalance>00000000</LegalBalance> 
+<UCCFilings>000</UCCFilings> 
+<UCCDerogatoryCount>000</UCCDerogatoryCount> 
+<CurrentAccountBalance>00000000</CurrentAccountBalance> 
+<CurrentTradelineCount>000</CurrentTradelineCount> 
+<MonthlyAverageDBT>000</MonthlyAverageDBT> 
+<HighestDBT6Months>000</HighestDBT6Months> 
+<HighestDBT5Quarters>000</HighestDBT5Quarters> 
+<ActiveTradelineCount>000</ActiveTradelineCount> 
+<AllTradelineBalance>00000000</AllTradelineBalance> 
+<AllTradelineCount>000</AllTradelineCount> 
+<AverageBalance5Quarters>00000000</AverageBalance5Quarters> 
+<SingleLineHighCredit>00000000</SingleLineHighCredit> 
+<LowBalance6Months>00000000</LowBalance6Months> 
+<HighBalance6Months>00000000</HighBalance6Months> 
+</ExecutiveElements>
+<ProprietorNameAndAddress>
+<ProfileType code="DISPUTE" /> 
+<ProfileTime>16:46:05</ProfileTime> 
+<ProprietorName>PETE P COLEMAN</ProprietorName> 
+<StreetAddress>PO BOX 1064</StreetAddress> 
+<City>KOTZEBUE</City> 
+<State>AK</State> 
+<Zip>99752</Zip> 
+<SSN>999990000</SSN> 
+</ProprietorNameAndAddress>
+<ProprietorNameAndAddress>
+<ProfileType code="DISPUTE" /> 
+<ProfileTime>16:46:05</ProfileTime> 
+<ProprietorName>LOLANDA I SCOTT</ProprietorName> 
+<StreetAddress>1171 RICKOVER LN</StreetAddress> 
+<City>FOSTER CITY</City> 
+<State>CA</State> 
+<Zip>94404</Zip> 
+<SSN>999990000</SSN> 
+</ProprietorNameAndAddress>
+<IntelliscoreScoreInformation>
+<PubliclyHeldCompany code="N" /> 
+<LimitedProfile code="N" /> 
+<Filler>07</Filler> 
+<ScoreInfo>
+<Score>0000005800</Score> 
+</ScoreInfo>
+<ModelInformation>
+<ModelCode>000214</ModelCode> 
+<ModelTitle>INTELLISCORE PLUS</ModelTitle> 
+<CustomModelCode>07</CustomModelCode> 
+</ModelInformation>
+<PercentileRanking>057</PercentileRanking> 
+<Action>MEDIUM RISK</Action> 
+</IntelliscoreScoreInformation>
+<ScoreFactors>
+<ScoreFactor code="077">NBR OPEN REVOLVING PERSONAL ACCTS W/90% UTILIZATION LST 6 MO</ScoreFactor> 
+<ScoreFactor code="002">AGE OF OLDEST PERSONAL ACCOUNT</ScoreFactor> 
+<ScoreFactor code="007">AVERAGE AGE OF ALL PERSONAL ACCOUNTS</ScoreFactor> 
+<ScoreFactor code="047">AVAILABLE CREDIT ON ALL OPEN PERSONAL ACCTS RPTD LAST 6 MOS</ScoreFactor> 
+</ScoreFactors>
+<SmallBusinessKeyModelElements>
+<ProprietorFirstName>PETE</ProprietorFirstName> 
+<ProprietorSurname>COLEMAN</ProprietorSurname> 
+<AgeOldestTradeline>000000124</AgeOldestTradeline> 
+<SatisfactoryTradesLast24Mos>000000018</SatisfactoryTradesLast24Mos> 
+<TradesPresentlyDelinquentOrPastDueLast6Mos>000000000</TradesPresentlyDelinquentOrPastDueLast6Mos> 
+<TotCollectionsLegalFilingsOrDerogAccts>000000001</TotCollectionsLegalFilingsOrDerogAccts> 
+<TotDerogPubRecsLast24Mos>000000000</TotDerogPubRecsLast24Mos> 
+<TotDerogPubRecsGT250>000000000</TotDerogPubRecsGT250> 
+<TotOpenBankcardTradesLast6Mos>000000001</TotOpenBankcardTradesLast6Mos> 
+<TotBankcardBalToLimitRatioLast6Mos>000000000</TotBankcardBalToLimitRatioLast6Mos> 
+<TotOpenRevTrades>000000009</TotOpenRevTrades> 
+<TotAvailableRevCreditLast6Mos>000020679</TotAvailableRevCreditLast6Mos> 
+<PctAutoLeaseTrades30PlusDPD>000000000</PctAutoLeaseTrades30PlusDPD> 
+<PctRealEstateTrades30PlusDPD>000000000</PctRealEstateTrades30PlusDPD> 
+<TotalCreditPurposeInquiriesLast6Mos>000000001</TotalCreditPurposeInquiriesLast6Mos> 
+</SmallBusinessKeyModelElements>
+<SmallBusinessKeyModelElements>
+<ProprietorFirstName>LOLANDA</ProprietorFirstName> 
+<ProprietorSurname>SCOTT</ProprietorSurname> 
+<AgeOldestTradeline>000000088</AgeOldestTradeline> 
+<SatisfactoryTradesLast24Mos>000000013</SatisfactoryTradesLast24Mos> 
+<TradesPresentlyDelinquentOrPastDueLast6Mos>000000000</TradesPresentlyDelinquentOrPastDueLast6Mos> 
+<TotCollectionsLegalFilingsOrDerogAccts>000000001</TotCollectionsLegalFilingsOrDerogAccts> 
+<TotDerogPubRecsLast24Mos>000000000</TotDerogPubRecsLast24Mos> 
+<TotDerogPubRecsGT250>000000000</TotDerogPubRecsGT250> 
+<TotOpenBankcardTradesLast6Mos>000000003</TotOpenBankcardTradesLast6Mos> 
+<TotBankcardBalToLimitRatioLast6Mos>000000047</TotBankcardBalToLimitRatioLast6Mos> 
+<TotOpenRevTrades>000000010</TotOpenRevTrades> 
+<TotAvailableRevCreditLast6Mos>000013875</TotAvailableRevCreditLast6Mos> 
+<PctAutoLeaseTrades30PlusDPD>000000000</PctAutoLeaseTrades30PlusDPD> 
+<PctRealEstateTrades30PlusDPD>000000000</PctRealEstateTrades30PlusDPD> 
+<TotalCreditPurposeInquiriesLast6Mos>000000000</TotalCreditPurposeInquiriesLast6Mos> 
+</SmallBusinessKeyModelElements>
+<SmallBusinessAdvisorySummary>
+<ProprietorBirthDate>19760000</ProprietorBirthDate> 
+<DwellingType>P</DwellingType> 
+</SmallBusinessAdvisorySummary>
+<SmallBusinessAdvisorySummary>
+<ProprietorBirthDate>19720000</ProprietorBirthDate> 
+<DwellingType>S</DwellingType> 
+<DerivedRisk>0732</DerivedRisk> 
+<RiskScoreFactorCode1>40</RiskScoreFactorCode1> 
+<RiskScoreFactorCode2>06</RiskScoreFactorCode2> 
+<RiskScoreFactorCode3>43</RiskScoreFactorCode3> 
+<RiskScoreFactorCode4>72</RiskScoreFactorCode4> 
+</SmallBusinessAdvisorySummary>
+<NonStandardRecord>
+<Type>CDS</Type> 
+</NonStandardRecord>
+<NonStandardRecord>
+<Type>CDS</Type> 
+</NonStandardRecord>
+<BillingIndicator code="" /> 
+</Intelliscore>
+<CreditProfile>
+<Header>
+<ReportDate>120408</ReportDate> 
+<ReportTime>164604</ReportTime> 
+<Preamble>TAK1</Preamble> 
+<ARFVersion>07</ARFVersion> 
+</Header>
+<SSN>
+<VariationIndicator code="*">Different</VariationIndicator> 
+<Number>999990114</Number> 
+</SSN>
+<ConsumerIdentity>
+<Name>
+<Gen>PETE P COLEMAN</Gen> 
+</Name>
+<YOB>1976</YOB> 
+</ConsumerIdentity>
+<ConsumerIdentity>
+<Name>
+<Type code="N">Nickname</Type> 
+<Gen>PETER P COLEMAN</Gen> 
+</Name>
+<YOB /> 
+</ConsumerIdentity>
+<ConsumerIdentity>
+<Name>
+<Type code="A">AKA</Type> 
+<Gen>ULMAN GARY</Gen> 
+</Name>
+<YOB /> 
+</ConsumerIdentity>
+<AddressInformation>
+<FirstReportedDate>1206</FirstReportedDate> 
+<LastUpdatedDate>0808</LastUpdatedDate> 
+<Origination code="2">Reported via A/R Tape</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode>2993685</LastReportingSubcode> 
+<DwellingType code="P">Post Office Box</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>O BOX 1064</StreetPrefix> 
+<StreetSuffix>PO BOX 1064</StreetSuffix> 
+<UnitID>PO BOX 1064</UnitID> 
+<State>PO BOX 1064</State> 
+<Zip>KOTZEBUE AK 997521064</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<AddressInformation>
+<FirstReportedDate>0708</FirstReportedDate> 
+<LastUpdatedDate>0808</LastUpdatedDate> 
+<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode /> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>69 SIXTH AV</StreetPrefix> 
+<StreetSuffix>869 SIXTH AV</StreetSuffix> 
+<UnitID>869 SIXTH AV</UnitID> 
+<State>869 SIXTH AV</State> 
+<Zip>KOTZEBUE AK 99752</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<AddressInformation>
+<FirstReportedDate>0406</FirstReportedDate> 
+<LastUpdatedDate>0406</LastUpdatedDate> 
+<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination> 
+<TimesReported>32</TimesReported> 
+<LastReportingSubcode /> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>535 BLUE HILL RD APT 34</StreetPrefix> 
+<StreetSuffix>3535 BLUE HILL RD APT 34</StreetSuffix> 
+<UnitID>3535 BLUE HILL RD APT 34</UnitID> 
+<State>3535 BLUE HILL RD APT 34</State> 
+<Zip>ROGERS AR 727589636</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0402</OpenDate> 
+<StatusDate>0603</StatusDate> 
+<MaxDelinquencyDate>0806</MaxDelinquencyDate> 
+<AccountType code="06">Installment Sales Contract</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00009635</Value> 
+</Amount>
+<Amount>
+<Qualifier code="C">Charge off amount</Qualifier> 
+<Value>00000487</Value> 
+</Amount>
+<BalanceDate>092008</BalanceDate> 
+<BalanceAmount>00000232</BalanceAmount> 
+<Status code="97">Unpaid balance reported as a loss by credit grantor</Status> 
+<AmountPastDue>00000232</AmountPastDue> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>1200145361</AccountNumber> 
+<MonthsHistory>65</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>63</DerogCounter> 
+<PaymentProfile>9999999999999999999999999</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>042008</LastPaymentDate> 
+<Subcode>2602030</Subcode> 
+<KOB code="FF">Sales Financing Company</KOB> 
+<SubscriberDisplayName>HSBC/RS CE</SubscriberDisplayName> 
+<MaxPayment code="9" /> 
+<FirstDelinquencyDate>0908</FirstDelinquencyDate> 
+<SecondDelinquencyDate>0808</SecondDelinquencyDate> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0603</InitialPaymentLevelDate> 
+<AccountCondition code="97" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="06" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="31">ACCOUNT TRANSFERRED TO ANOTHER LENDER</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0902</OpenDate> 
+<StatusDate>1002</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value>UNKNOWN</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>100102</BalanceDate> 
+<BalanceAmount /> 
+<Status code="05">Account transferred to another office</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>90235</AccountNumber> 
+<MonthsHistory>02</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BC</PaymentProfile> 
+<Subcode>0302450</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>GNB/STAGE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1002</InitialPaymentLevelDate> 
+<AccountCondition code="05" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="40" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="18">ACCOUNT CLOSED AT CREDIT GRANTOR'S REQUEST</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0401</OpenDate> 
+<StatusDate>0605</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00003169</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00003169</Value> 
+</Amount>
+<BalanceDate>061305</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>74316786854</AccountNumber> 
+<MonthsHistory>60</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>121401</LastPaymentDate> 
+<Subcode>2156646</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>HSBC/RS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0605</InitialPaymentLevelDate> 
+<AccountCondition code="A3" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="18" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="19">ACCOUNT CLOSED AT CONSUMER'S REQUEST</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>1201</OpenDate> 
+<StatusDate>0605</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="4">Joint Account</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00003396</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00003396</Value> 
+</Amount>
+<BalanceDate>061305</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>01000148774</AccountNumber> 
+<MonthsHistory>50</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>110802</LastPaymentDate> 
+<Subcode>2156646</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>HSBC/RS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0605</InitialPaymentLevelDate> 
+<AccountCondition code="A3" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="19" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="19">ACCOUNT CLOSED AT CONSUMER'S REQUEST</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0802</OpenDate> 
+<StatusDate>0703</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value>UNKNOWN</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>072803</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>601500029131</AccountNumber> 
+<MonthsHistory>12</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B----------0</PaymentProfile> 
+<Subcode>2580058</Subcode> 
+<KOB code="FP">Personal Loan Companies</KOB> 
+<SubscriberDisplayName>CONSECOFIN</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0703</InitialPaymentLevelDate> 
+<AccountCondition code="A3" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="19" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="19">ACCOUNT CLOSED AT CONSUMER'S REQUEST</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>1103</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00001000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000366</Value> 
+</Amount>
+<BalanceDate>092508</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>597018</AccountNumber> 
+<MonthsHistory>61</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B000000000000000000000000</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>041904</LastPaymentDate> 
+<Subcode>3321860</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>GEMB/JCP</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="19" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1205</OpenDate> 
+<StatusDate>0708</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00004000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00002945</Value> 
+</Amount>
+<BalanceDate>072808</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>603259014618</AccountNumber> 
+<MonthsHistory>32</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>052806</LastPaymentDate> 
+<Subcode>1138180</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>CITIFINANCIAL RETAIL S</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0708</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0406</OpenDate> 
+<StatusDate>0708</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="180">One Hundred Eighty Months</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00026902</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>072808</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>83510000000830276</AccountNumber> 
+<MonthsHistory>28</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>071708</LastPaymentDate> 
+<Subcode>2175090</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>REGIONS BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0708</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0407</OpenDate> 
+<StatusDate>0408</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="26">Conventional Real Estate Loan, Including Purchase Money First</AccountType> 
+<TermsDuration code="360" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00171550</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>042808</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>2317410</AccountNumber> 
+<MonthsHistory>12</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>032108</LastPaymentDate> 
+<Subcode>2108080</Subcode> 
+<KOB code="BM">Bank - Mortgage Department</KOB> 
+<SubscriberDisplayName>ARVEST MORTGAGE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0408</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="26" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0802</OpenDate> 
+<StatusDate>1107</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>111007</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>115000864</AccountNumber> 
+<MonthsHistory>63</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B000000000000000000000000</PaymentProfile> 
+<Subcode>1323300</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>SEARS/CBSD</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1107</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1106</OpenDate> 
+<StatusDate>0807</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="02">Secured Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00025000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>082807</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>852429801005556</AccountNumber> 
+<MonthsHistory>10</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCC</PaymentProfile> 
+<Subcode>1160571</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>STATE FARM FNCL SVCS F</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0807</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="02" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0507</OpenDate> 
+<StatusDate>0807</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="02">Secured Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00006400</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>082807</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>852493363805556</AccountNumber> 
+<MonthsHistory>04</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCC</PaymentProfile> 
+<Subcode>1160571</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>STATE FARM FNCL SVCS F</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0807</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="02" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0906</OpenDate> 
+<StatusDate>0807</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00006004</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>082807</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>39399459</AccountNumber> 
+<MonthsHistory>12</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCC-CCCCCC</PaymentProfile> 
+<Subcode>1609920</Subcode> 
+<KOB code="FA">Automobile Financing Company</KOB> 
+<SubscriberDisplayName>AMERICAN HONDA FINANCE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0807</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1206</OpenDate> 
+<StatusDate>0107</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="UNK">Unknown</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00038000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>012807</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>3925623</AccountNumber> 
+<MonthsHistory>02</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BC</PaymentProfile> 
+<Subcode>1100940</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>COMPASS BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0107</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0206</OpenDate> 
+<StatusDate>1106</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="072" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00034352</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>112806</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>1006634119</AccountNumber> 
+<MonthsHistory>12</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B---CCCCCCCC</PaymentProfile> 
+<Subcode>2630212</Subcode> 
+<KOB code="FA">Automobile Financing Company</KOB> 
+<SubscriberDisplayName>CHRYSLER FINANCIAL</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1106</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0705</OpenDate> 
+<StatusDate>0606</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="26">Conventional Real Estate Loan, Including Purchase Money First</AccountType> 
+<TermsDuration code="036" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00009200</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>061906</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>649193</AccountNumber> 
+<MonthsHistory>11</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCC</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0606</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="26" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0405</OpenDate> 
+<StatusDate>0506</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="26">Conventional Real Estate Loan, Including Purchase Money First</AccountType> 
+<TermsDuration code="360" /> 
+<ECOA code="2">Joint Account</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00113900</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>052806</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>47844</AccountNumber> 
+<MonthsHistory>14</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCC-CCCC-C</PaymentProfile> 
+<Subcode>2108080</Subcode> 
+<KOB code="BM">Bank - Mortgage Department</KOB> 
+<SubscriberDisplayName>ARVEST MORTGAGE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0506</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="26" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1105</OpenDate> 
+<StatusDate>0406</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="02">Secured Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00032000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>040106</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>852236338605556</AccountNumber> 
+<MonthsHistory>05</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCC</PaymentProfile> 
+<Subcode>1160571</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>STATE FARM FNCL SVCS F</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0406</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="02" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0204</OpenDate> 
+<StatusDate>0206</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00015644</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>022806</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>69275962</AccountNumber> 
+<MonthsHistory>26</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>1100940</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>COMPASS BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0206</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0103</OpenDate> 
+<StatusDate>0805</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="11">Recreational Merchandise</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00037848</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>082805</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>65099901120486</AccountNumber> 
+<MonthsHistory>32</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCC-CCC-CCCCCCCCCC</PaymentProfile> 
+<Subcode>1198830</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>BANK OF AMERICA</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0805</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="11" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0901</OpenDate> 
+<StatusDate>0705</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00002500</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>070405</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>084000</AccountNumber> 
+<MonthsHistory>46</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>1393030</Subcode> 
+<KOB code="ZR">Retail, Not Elsewhere Classified</KOB> 
+<SubscriberDisplayName>HSBC/HANKS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0705</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1101</OpenDate> 
+<StatusDate>0605</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value>UNKNOWN</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>062805</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>01000533180</AccountNumber> 
+<MonthsHistory>46</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>2156646</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>HSBC/RS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0605</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0404</OpenDate> 
+<StatusDate>1104</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00008968</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>112704</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>19277</AccountNumber> 
+<MonthsHistory>07</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCC</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1104</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1002</OpenDate> 
+<StatusDate>1004</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="025" /> 
+<ECOA code="2">Joint Account</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00003662</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>101704</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>209958121</AccountNumber> 
+<MonthsHistory>24</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCC-CCCCC</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1004</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0500</OpenDate> 
+<StatusDate>0404</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="19">Fha Real Estate Loan</AccountType> 
+<TermsDuration code="360" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00064900</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>042404</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>6855306292</AccountNumber> 
+<MonthsHistory>43</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>2991069</Subcode> 
+<KOB code="FM">Mortgage Companies</KOB> 
+<SubscriberDisplayName>WELLS FARGO HOME MORTG</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0404</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="19" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1101</OpenDate> 
+<StatusDate>0304</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="11">Recreational Merchandise</AccountType> 
+<TermsDuration code="144" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00018017</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>030204</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>9100742708</AccountNumber> 
+<MonthsHistory>26</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCC-CCCC</PaymentProfile> 
+<Subcode>1517490</Subcode> 
+<KOB code="FP">Personal Loan Companies</KOB> 
+<SubscriberDisplayName>DEUTSCHE FINANCIAL</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0304</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="11" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1203</OpenDate> 
+<StatusDate>0204</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00007678</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>020404</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>18217</AccountNumber> 
+<MonthsHistory>01</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0204</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0903</OpenDate> 
+<StatusDate>1003</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="049" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00007271</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>101903</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>18636</AccountNumber> 
+<MonthsHistory>02</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BC</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1003</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0503</OpenDate> 
+<StatusDate>0503</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="049" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00007270</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>052103</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>17715</AccountNumber> 
+<MonthsHistory>01</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0503</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0102</OpenDate> 
+<StatusDate>0702</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="024" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00003548</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>072102</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>209942713</AccountNumber> 
+<MonthsHistory>06</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCC</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0702</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0901</OpenDate> 
+<StatusDate>0602</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="048" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00029401</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>062802</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>19835317590956</AccountNumber> 
+<MonthsHistory>10</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCC</PaymentProfile> 
+<Subcode>1101969</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>CHASE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0602</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0699</OpenDate> 
+<StatusDate>0202</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00001378</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>022802</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>513</AccountNumber> 
+<MonthsHistory>33</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B------------------------</PaymentProfile> 
+<Subcode>2546260</Subcode> 
+<KOB code="FP">Personal Loan Companies</KOB> 
+<SubscriberDisplayName>A F S C I</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0202</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0201</OpenDate> 
+<StatusDate>0901</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="024" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00012064</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>092801</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>28256128045570</AccountNumber> 
+<MonthsHistory>08</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCC</PaymentProfile> 
+<Subcode>1101969</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>CHASE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0901</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0501</OpenDate> 
+<StatusDate>0801</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="024" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00019163</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>082801</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>19824013198860</AccountNumber> 
+<MonthsHistory>04</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCC</PaymentProfile> 
+<Subcode>1101969</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>CHASE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0801</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0900</OpenDate> 
+<StatusDate>0601</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="02">Secured Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00007801</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>062801</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>722588036</AccountNumber> 
+<MonthsHistory>09</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCC</PaymentProfile> 
+<Subcode>3822092</Subcode> 
+<KOB code="FS">Savings And Loan Companies</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0601</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="02" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1000</OpenDate> 
+<StatusDate>1200</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="048" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00004788</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>122900</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>209834503</AccountNumber> 
+<MonthsHistory>02</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BC</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1200</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1099</OpenDate> 
+<StatusDate>1100</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="06">Installment Sales Contract</AccountType> 
+<TermsDuration code="012" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00000856</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>110900</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>101109735352103</AccountNumber> 
+<MonthsHistory>13</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCC--CC</PaymentProfile> 
+<Subcode>3570070</Subcode> 
+<KOB code="FP">Personal Loan Companies</KOB> 
+<SubscriberDisplayName>WFFINANCE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1100</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="06" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0999</OpenDate> 
+<StatusDate>0500</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="024" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00006374</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>052800</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>33900160658565556</AccountNumber> 
+<MonthsHistory>09</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCC</PaymentProfile> 
+<Subcode>0153058</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>COMMERCE BK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0500</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0499</OpenDate> 
+<StatusDate>0300</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="11">Recreational Merchandise</AccountType> 
+<TermsDuration code="048" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00002542</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>032800</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>119300779401970</AccountNumber> 
+<MonthsHistory>12</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B-CCCCCCCCCC</PaymentProfile> 
+<Subcode>4125250</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>BANK OF AMERICA</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0300</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="11" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0799</OpenDate> 
+<StatusDate>0999</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00007883</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>092899</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>81145811</AccountNumber> 
+<MonthsHistory>03</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCC</PaymentProfile> 
+<Subcode>1100275</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>NATL BANK OF COMMERCE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0999</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0299</OpenDate> 
+<StatusDate>0799</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00007226</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>072899</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>81110080</AccountNumber> 
+<MonthsHistory>06</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCC</PaymentProfile> 
+<Subcode>1100275</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>NATL BANK OF COMMERCE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0799</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0199</OpenDate> 
+<StatusDate>0399</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="061" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00009089</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>032099</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>1010005629</AccountNumber> 
+<MonthsHistory>02</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BC</PaymentProfile> 
+<Subcode>9105310</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0399</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0998</OpenDate> 
+<StatusDate>0299</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="78">Installment Loan</AccountType> 
+<TermsDuration code="036" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00003914</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>021699</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>209527102</AccountNumber> 
+<MonthsHistory>06</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCC</PaymentProfile> 
+<Subcode>0102360</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>ARVEST BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0299</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="78" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0100</OpenDate> 
+<StatusDate>0701</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value>UNKNOWN</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>072801</BalanceDate> 
+<BalanceAmount /> 
+<Status code="13">Paid account/zero balance</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>44316786855</AccountNumber> 
+<MonthsHistory>01</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B</PaymentProfile> 
+<Subcode>2156646</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>HSBC/RS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0701</InitialPaymentLevelDate> 
+<AccountCondition code="" /> 
+<PaymentStatus code="A2" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0105</OpenDate> 
+<StatusDate>0307</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00002700</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00002672</Value> 
+</Amount>
+<BalanceDate>092808</BalanceDate> 
+<BalanceAmount>00000443</BalanceAmount> 
+<Status code="31">Current account/was 30 days past due date</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>798192304019</AccountNumber> 
+<MonthsHistory>45</MonthsHistory> 
+<DelinquenciesOver30Days>01</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCC000CCCCCCCCC1CC00C</PaymentProfile> 
+<MonthlyPaymentAmount>00000015</MonthlyPaymentAmount> 
+<LastPaymentDate>091908</LastPaymentDate> 
+<Subcode>1607340</Subcode> 
+<KOB code="LZ">Lumber/Building Material/Hardware -- Non-Specific</KOB> 
+<SubscriberDisplayName>GEMB/LOWES</SubscriberDisplayName> 
+<MaxPayment code="" /> 
+<FirstDelinquencyDate>0207</FirstDelinquencyDate> 
+<SecondDelinquencyDate /> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0307</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="31" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0603</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00004268</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>112208</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>305064</AccountNumber> 
+<MonthsHistory>66</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NN00000000000000000000000</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>111105</LastPaymentDate> 
+<Subcode>2300360</Subcode> 
+<KOB code="JA">Jewelers</KOB> 
+<SubscriberDisplayName>KAY JEWELERS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1100</OpenDate> 
+<StatusDate>1008</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00005460</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00002047</Value> 
+</Amount>
+<BalanceDate>112108</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>65475629</AccountNumber> 
+<MonthsHistory>97</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>N000000000000000000000000</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>120504</LastPaymentDate> 
+<Subcode>1323280</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>SEARS/CBSD</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1008</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1106</OpenDate> 
+<StatusDate>0507</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00001700</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000850</Value> 
+</Amount>
+<BalanceDate>111308</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>603525204655</AccountNumber> 
+<MonthsHistory>26</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NNNNNNNNNNNNNNNNNN000CCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>020107</LastPaymentDate> 
+<Subcode>1336810</Subcode> 
+<KOB code="ZR">Retail, Not Elsewhere Classified</KOB> 
+<SubscriberDisplayName>BB&amp;B/CBSD</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0507</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0607</OpenDate> 
+<StatusDate>0408</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00002000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000897</Value> 
+</Amount>
+<BalanceDate>103108</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>7945011902239</AccountNumber> 
+<MonthsHistory>17</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NNNNNN0CCCCN0CCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>041308</LastPaymentDate> 
+<Subcode>1616760</Subcode> 
+<KOB code="FF">Sales Financing Company</KOB> 
+<SubscriberDisplayName>CIT BANK/DFS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0408</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0807</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="UNK">Unknown</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00047283</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>092808</BalanceDate> 
+<BalanceAmount>00040209</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>4842676</AccountNumber> 
+<MonthsHistory>14</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000734</MonthlyPaymentAmount> 
+<LastPaymentDate>091908</LastPaymentDate> 
+<Subcode>1100940</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>COMPASS BANK</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0608</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="02">Secured Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00048000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>092808</BalanceDate> 
+<BalanceAmount>00047013</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>852701679105556</AccountNumber> 
+<MonthsHistory>03</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000976</MonthlyPaymentAmount> 
+<LastPaymentDate>090608</LastPaymentDate> 
+<Subcode>1160571</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>STATE FARM FNCL SVCS F</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="02" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0208</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00004000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>092808</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>601100651138</AccountNumber> 
+<MonthsHistory>08</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>00000000</PaymentProfile> 
+<Subcode>3276502</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>DISCOVER FIN SVCS LLC</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0898</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00002700</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00001996</Value> 
+</Amount>
+<BalanceDate>091808</BalanceDate> 
+<BalanceAmount>00001706</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>504994810716</AccountNumber> 
+<MonthsHistory>99</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCC00CCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000030</MonthlyPaymentAmount> 
+<LastPaymentDate>081308</LastPaymentDate> 
+<Subcode>1323190</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>SEARS/CBSD</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0408</OpenDate> 
+<StatusDate>0808</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="26">Conventional Real Estate Loan, Including Purchase Money First</AccountType> 
+<TermsDuration code="360" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00156750</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>082808</BalanceDate> 
+<BalanceAmount>00156937</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>108520820</AccountNumber> 
+<MonthsHistory>02</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CC</PaymentProfile> 
+<MonthlyPaymentAmount>00000812</MonthlyPaymentAmount> 
+<LastPaymentDate /> 
+<Subcode>3991532</Subcode> 
+<KOB code="FM">Mortgage Companies</KOB> 
+<SubscriberDisplayName>COUNTRYWIDE HOME LOANS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0808</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="26" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1203</OpenDate> 
+<StatusDate>1104</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00009000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>111304</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>91100028024</AccountNumber> 
+<MonthsHistory>13</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>0CCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>010304</LastPaymentDate> 
+<Subcode>2156646</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>HSBC/RS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1104</InitialPaymentLevelDate> 
+<AccountCondition code="A4" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0799</OpenDate> 
+<StatusDate>0202</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000900</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000424</Value> 
+</Amount>
+<BalanceDate>022002</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>7930277</AccountNumber> 
+<MonthsHistory>24</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>0CCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>122801</LastPaymentDate> 
+<Subcode>2316560</Subcode> 
+<KOB code="CS">Specialty Clothing Store</KOB> 
+<SubscriberDisplayName>WFNNB/SERVICE MERCH PR</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0202</InitialPaymentLevelDate> 
+<AccountCondition code="A4" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<Inquiry>
+<Date>072008</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type> 
+<Subcode>1220580</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>CAP ONE</SubscriberDisplayName> 
+</Inquiry>
+<Inquiry>
+<Date>030808</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="08">Real Estate Specific Type Unknown</Type> 
+<Subcode>3970658</Subcode> 
+<KOB code="FR">Mortgage Reporters</KOB> 
+<SubscriberDisplayName>LANDSAFECREDIT</SubscriberDisplayName> 
+</Inquiry>
+<Inquiry>
+<Date>022708</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type> 
+<Subcode>1224590</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>DISCOVER FINANCIAL SER</SubscriberDisplayName> 
+</Inquiry>
+<Inquiry>
+<Date>022608</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type> 
+<Subcode>1511850</Subcode> 
+<KOB code="FZ">Finance Companies -- Non-Specific</KOB> 
+<SubscriberDisplayName>PRIORITY ONE FINANCIAL</SubscriberDisplayName> 
+</Inquiry>
+<Inquiry>
+<Date>121507</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="00">Auto Loan</Type> 
+<Subcode>1972711</Subcode> 
+<KOB code="ZA">Auto Reseller</KOB> 
+<SubscriberDisplayName>FAC AUTO</SubscriberDisplayName> 
+</Inquiry>
+<Inquiry>
+<Date>080107</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type> 
+<Subcode>1622020</Subcode> 
+<KOB code="FA">Automobile Financing Company</KOB> 
+<SubscriberDisplayName>CAPITAL ONE AUTO FINAN</SubscriberDisplayName> 
+</Inquiry>
+<Inquiry>
+<Date>061507</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type> 
+<Subcode>3135860</Subcode> 
+<KOB code="BB">All Banks -- Non-Specific</KOB> 
+<SubscriberDisplayName>CIT BANK/DFS</SubscriberDisplayName> 
+</Inquiry>
+<Inquiry>
+<Date>022507</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="08">Real Estate Specific Type Unknown</Type> 
+<Subcode>2970658</Subcode> 
+<KOB code="FR">Mortgage Reporters</KOB> 
+<SubscriberDisplayName>DATA FACTS INC</SubscriberDisplayName> 
+</Inquiry>
+<InformationalMessage>
+<MessageNumber>57</MessageNumber> 
+<MessageText>1202 NAME DOES NOT MATCH OFAC/PLC LIST</MessageText> 
+</InformationalMessage>
+<FraudServices>
+<Type code="99">Subsegment data only</Type> 
+<SIC code="" /> 
+<Text /> 
+<SocialDate>000000</SocialDate> 
+<SocialCount>0000</SocialCount> 
+<SocialErrorCode code="2">Not applicable</SocialErrorCode> 
+<AddressDate>090108</AddressDate> 
+<AddressCount>0000</AddressCount> 
+<AddressErrorCode code="0">No error conditions occur</AddressErrorCode> 
+</FraudServices>
+<ProfileSummary>
+<DisputedAccountsExcluded>000</DisputedAccountsExcluded> 
+<PublicRecordsCount>000</PublicRecordsCount> 
+<InstallmentBalance>00087454</InstallmentBalance> 
+<RealEstateBalance>00156937</RealEstateBalance> 
+<RevolvingBalance>00002149</RevolvingBalance> 
+<PastDueAmount>00000232</PastDueAmount> 
+<MonthlyPayment>00001755</MonthlyPayment> 
+<MonthlyPaymentPartialFlag code="*">Not all tradelines included</MonthlyPaymentPartialFlag> 
+<RealEstatePayment>00000812</RealEstatePayment> 
+<RealEstatePaymentPartialFlag code="">All tradelines included</RealEstatePaymentPartialFlag> 
+<RevolvingAvailablePercent>093</RevolvingAvailablePercent> 
+<RevolvingAvailablePartialFlag code="">All tradelines included</RevolvingAvailablePartialFlag> 
+<TotalInquiries>008</TotalInquiries> 
+<InquiriesDuringLast6Months>001</InquiriesDuringLast6Months> 
+<TotalTradeItems>056</TotalTradeItems> 
+<PaidAccounts>043</PaidAccounts> 
+<SatisfactoryAccounts>054</SatisfactoryAccounts> 
+<NowDelinquentDerog>001</NowDelinquentDerog> 
+<WasDelinquentDerog>001</WasDelinquentDerog> 
+<OldestTradeOpenDate>0898</OldestTradeOpenDate> 
+<DelinquenciesOver30Days>01</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>63</DerogCounter> 
+</ProfileSummary>
+</CreditProfile>
+<CreditProfile>
+<Header>
+<ReportDate>120408</ReportDate> 
+<ReportTime>164604</ReportTime> 
+<Preamble>TCA2</Preamble> 
+<ARFVersion>07</ARFVersion> 
+</Header>
+<RiskModel>
+<ModelIndicator code="[">Scorex PLUS Score for New Accounts</ModelIndicator> 
+<Score>0732</Score> 
+<ScoreFactorCodeOne>40</ScoreFactorCodeOne> 
+<ScoreFactorCodeTwo>06</ScoreFactorCodeTwo> 
+<ScoreFactorCodeThree>43</ScoreFactorCodeThree> 
+<ScoreFactorCodeFour>72</ScoreFactorCodeFour> 
+<Evaluation code="P">Positive number</Evaluation> 
+</RiskModel>
+<SSN>
+<VariationIndicator code="*">Different</VariationIndicator> 
+<Number>999994657</Number> 
+</SSN>
+<SSN>
+<VariationIndicator code="*">Different</VariationIndicator> 
+<Number>999994697</Number> 
+</SSN>
+<ConsumerIdentity>
+<Name>
+<Gen>LOLANDA I SCOTT</Gen> 
+</Name>
+<YOB>1972</YOB> 
+</ConsumerIdentity>
+<AddressInformation>
+<FirstReportedDate>0807</FirstReportedDate> 
+<LastUpdatedDate>0808</LastUpdatedDate> 
+<Origination code="2">Reported via A/R Tape</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode>1340746</LastReportingSubcode> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>171 RICKOVER LN</StreetPrefix> 
+<StreetSuffix>1171 RICKOVER LN</StreetSuffix> 
+<UnitID>1171 RICKOVER LN</UnitID> 
+<State>1171 RICKOVER LN</State> 
+<Zip>FOSTER CITY CA 944043653</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<AddressInformation>
+<FirstReportedDate>0501</FirstReportedDate> 
+<LastUpdatedDate>0907</LastUpdatedDate> 
+<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode /> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>378 FOUR OAKS RD</StreetPrefix> 
+<StreetSuffix>1378 FOUR OAKS RD</StreetSuffix> 
+<UnitID>1378 FOUR OAKS RD</UnitID> 
+<State>1378 FOUR OAKS RD</State> 
+<Zip>SAN JOSE CA 951312612</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<AddressInformation>
+<FirstReportedDate>0904</FirstReportedDate> 
+<LastUpdatedDate>0106</LastUpdatedDate> 
+<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode /> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>07 PROMENADE LN</StreetPrefix> 
+<StreetSuffix>407 PROMENADE LN</StreetSuffix> 
+<UnitID>407 PROMENADE LN</UnitID> 
+<State>407 PROMENADE LN</State> 
+<Zip>REDWOOD CITY CA 940658419</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<EmploymentInformation>
+<FirstReportedDate>0597</FirstReportedDate> 
+<LastUpdatedDate>0597</LastUpdatedDate> 
+<Origination code="2">Inquiry</Origination> 
+<Name>U K</Name> 
+<AddressFirstLine /> 
+<AddressSecondLine /> 
+<AddressExtraLine /> 
+<Zip /> 
+</EmploymentInformation>
+<EmploymentInformation>
+<FirstReportedDate>0395</FirstReportedDate> 
+<LastUpdatedDate>0395</LastUpdatedDate> 
+<Origination code="2">Inquiry</Origination> 
+<Name>BERKELEY METHODIST</Name> 
+<AddressFirstLine /> 
+<AddressSecondLine /> 
+<AddressExtraLine /> 
+<Zip /> 
+</EmploymentInformation>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0801</OpenDate> 
+<StatusDate>1004</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="13">Lease</AccountType> 
+<TermsDuration code="006" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00000300</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>102204</BalanceDate> 
+<BalanceAmount>00000622</BalanceAmount> 
+<Status code="93">Account seriously past due date/account assigned to attorney, collection agency, or credit grantor's internal collection department</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>15050</AccountNumber> 
+<MonthsHistory>01</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>01</DerogCounter> 
+<PaymentProfile>9</PaymentProfile> 
+<Subcode>0952827</Subcode> 
+<KOB code="RA">Apartments</KOB> 
+<SubscriberDisplayName>LAS CRUCES APARTMENT</SubscriberDisplayName> 
+<MaxPayment code="" /> 
+<FirstDelinquencyDate>1004</FirstDelinquencyDate> 
+<SecondDelinquencyDate /> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1004</InitialPaymentLevelDate> 
+<AccountCondition code="" /> 
+<PaymentStatus code="93" /> 
+<AccountType code="13" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0404</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000150</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000007</Value> 
+</Amount>
+<BalanceDate>090908</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>601859604129</AccountNumber> 
+<MonthsHistory>54</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B000000000000000000000000</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>041904</LastPaymentDate> 
+<Subcode>3607370</Subcode> 
+<KOB code="CG">General Clothing Store</KOB> 
+<SubscriberDisplayName>GEMB/OLD NAVY</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0307</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00003000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000670</Value> 
+</Amount>
+<BalanceDate>090508</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>601918035713</AccountNumber> 
+<MonthsHistory>18</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0000000000000000C</PaymentProfile> 
+<Subcode>1241650</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>GEMB/CARE CREDIT</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="19">ACCOUNT CLOSED AT CONSUMER'S REQUEST</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0504</OpenDate> 
+<StatusDate>1205</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00001050</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000127</Value> 
+</Amount>
+<BalanceDate>122605</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>492681</AccountNumber> 
+<MonthsHistory>28</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0000000CC000CCCCCCC0CCCC</PaymentProfile> 
+<Subcode>3321470</Subcode> 
+<KOB code="DZ">Department And Variety Stores -- Non-Specific</KOB> 
+<SubscriberDisplayName>SPIEGEL</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1205</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="19" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0503</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00001100</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000939</Value> 
+</Amount>
+<BalanceDate>112408</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>603220741007</AccountNumber> 
+<MonthsHistory>78</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NN000000000CCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>121107</LastPaymentDate> 
+<Subcode>1327500</Subcode> 
+<KOB code="DV">Variety Stores</KOB> 
+<SubscriberDisplayName>GEMB/WALMART</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0804</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00003000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000952</Value> 
+</Amount>
+<BalanceDate>110908</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>435237339830</AccountNumber> 
+<MonthsHistory>50</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NN0CCCC00CCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>072508</LastPaymentDate> 
+<Subcode>2218220</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>TARGET NB</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0205</OpenDate> 
+<StatusDate>0508</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000900</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000825</Value> 
+</Amount>
+<BalanceDate>103108</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>100400500</AccountNumber> 
+<MonthsHistory>45</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NNNNNN0------------------</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>012806</LastPaymentDate> 
+<Subcode>8502070</Subcode> 
+<KOB code="FP">Personal Loan Companies</KOB> 
+<SubscriberDisplayName>CHASE-CHA</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0508</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0205</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00007300</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00003243</Value> 
+</Amount>
+<BalanceDate>092308</BalanceDate> 
+<BalanceAmount>00003243</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>601100017032</AccountNumber> 
+<MonthsHistory>44</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000065</MonthlyPaymentAmount> 
+<LastPaymentDate>091108</LastPaymentDate> 
+<Subcode>3276502</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>DISCOVER FIN SVCS LLC</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0503</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000500</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000460</Value> 
+</Amount>
+<BalanceDate>092208</BalanceDate> 
+<BalanceAmount>00000100</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>604589108655</AccountNumber> 
+<MonthsHistory>35</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000010</MonthlyPaymentAmount> 
+<LastPaymentDate>091808</LastPaymentDate> 
+<Subcode>1314989</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>GEMB/MERVYNS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1204</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="048" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00013142</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>091808</BalanceDate> 
+<BalanceAmount>00000756</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>30474781</AccountNumber> 
+<MonthsHistory>46</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000273</MonthlyPaymentAmount> 
+<LastPaymentDate>091208</LastPaymentDate> 
+<Subcode>1680876</Subcode> 
+<KOB code="FA">Automobile Financing Company</KOB> 
+<SubscriberDisplayName>MAZDA AMER CR</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1207</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00001500</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000097</Value> 
+</Amount>
+<BalanceDate>091608</BalanceDate> 
+<BalanceAmount>00000097</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>636799</AccountNumber> 
+<MonthsHistory>10</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>C000000CCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000015</MonthlyPaymentAmount> 
+<LastPaymentDate>021008</LastPaymentDate> 
+<Subcode>3321860</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>GEMB/JCP</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0303</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00002500</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000081</Value> 
+</Amount>
+<BalanceDate>091408</BalanceDate> 
+<BalanceAmount>00000035</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>490155894</AccountNumber> 
+<MonthsHistory>67</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCC00000000CCC000000</PaymentProfile> 
+<MonthlyPaymentAmount>00000005</MonthlyPaymentAmount> 
+<LastPaymentDate>090908</LastPaymentDate> 
+<Subcode>1362837</Subcode> 
+<KOB code="DZ">Department And Variety Stores -- Non-Specific</KOB> 
+<SubscriberDisplayName>MACYS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0103</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00003700</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00003456</Value> 
+</Amount>
+<BalanceDate>090708</BalanceDate> 
+<BalanceAmount>00003366</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>462120118065</AccountNumber> 
+<MonthsHistory>68</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000082</MonthlyPaymentAmount> 
+<LastPaymentDate>082508</LastPaymentDate> 
+<Subcode>3278165</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>CITI</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0206</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000500</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000284</Value> 
+</Amount>
+<BalanceDate>090208</BalanceDate> 
+<BalanceAmount>00000284</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>03655578</AccountNumber> 
+<MonthsHistory>31</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000014</MonthlyPaymentAmount> 
+<LastPaymentDate>082708</LastPaymentDate> 
+<Subcode>2310220</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>KOHLS/CHASE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0506</OpenDate> 
+<StatusDate>0808</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000080</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>082808</BalanceDate> 
+<BalanceAmount>00000080</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>R0880520</AccountNumber> 
+<MonthsHistory>28</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCC0000CCCCCCC00000000</PaymentProfile> 
+<MonthlyPaymentAmount>00000020</MonthlyPaymentAmount> 
+<LastPaymentDate>082108</LastPaymentDate> 
+<Subcode>3371559</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>ROBINSONS/MAY</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0808</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<InformationalMessage>
+<MessageNumber>57</MessageNumber> 
+<MessageText>1202 NAME DOES NOT MATCH OFAC/PLC LIST</MessageText> 
+</InformationalMessage>
+<FraudServices>
+<Type code="01">Inquiry address message</Type> 
+<SIC code="99999999" /> 
+<Text>CKPT: BUSINESS ON FACS+ FILE/DAVID L BARKER/1171 RICKOVER LN/SAN MATEO CA 94404</Text> 
+<SocialDate>000000</SocialDate> 
+<SocialCount>0000</SocialCount> 
+<SocialErrorCode code="2">Not applicable</SocialErrorCode> 
+<AddressDate>090108</AddressDate> 
+<AddressCount>0000</AddressCount> 
+<AddressErrorCode code="0">No error conditions occur</AddressErrorCode> 
+<Indicator>11</Indicator> 
+<Indicator /> 
+<Indicator /> 
+<Indicator /> 
+</FraudServices>
+<ProfileSummary>
+<DisputedAccountsExcluded>000</DisputedAccountsExcluded> 
+<PublicRecordsCount>000</PublicRecordsCount> 
+<InstallmentBalance>00001378</InstallmentBalance> 
+<RealEstateBalance>N/A</RealEstateBalance> 
+<RevolvingBalance>00007205</RevolvingBalance> 
+<PastDueAmount>00000000</PastDueAmount> 
+<MonthlyPayment>00000484</MonthlyPayment> 
+<MonthlyPaymentPartialFlag code="">All tradelines included</MonthlyPaymentPartialFlag> 
+<RealEstatePayment>N/A</RealEstatePayment> 
+<RealEstatePaymentPartialFlag code="">All tradelines included</RealEstatePaymentPartialFlag> 
+<RevolvingAvailablePercent>065</RevolvingAvailablePercent> 
+<RevolvingAvailablePartialFlag code="">All tradelines included</RevolvingAvailablePartialFlag> 
+<TotalInquiries>000</TotalInquiries> 
+<InquiriesDuringLast6Months>000</InquiriesDuringLast6Months> 
+<TotalTradeItems>015</TotalTradeItems> 
+<PaidAccounts>003</PaidAccounts> 
+<SatisfactoryAccounts>014</SatisfactoryAccounts> 
+<NowDelinquentDerog>001</NowDelinquentDerog> 
+<WasDelinquentDerog>000</WasDelinquentDerog> 
+<OldestTradeOpenDate>0801</OldestTradeOpenDate> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>01</DerogCounter> 
+</ProfileSummary>
+</CreditProfile>
+</Products>
+</NetConnectResponse>

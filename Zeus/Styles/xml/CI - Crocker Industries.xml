@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>998709</SubscriberNumber>
+				<InquiryTransactionNumber>C906332964</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/800914633/MC-000210/IR/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>800914633</ExperianFileNumber>
+				<ProfileType code="SCORE     ">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20080305</ProfileDate>
+				<ProfileTime>17:07:29</ProfileTime>
+				<TerminalNumber>-ANJ</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>CROCKER INDUSTRIES                      </BusinessName>
+				<StreetAddress>100 MAIN ST                   </StreetAddress>
+				<City>PHOENIX                     </City>
+				<State>AZ</State>
+				<Zip>85032</Zip>
+				<PhoneNumber>602-555-1234</PhoneNumber>
+				<SIC code="2043">CEREAL BREAKFAST FOODS                </SIC>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>001</TaxLienCount>
+				<EarliestTaxLienDate>20060801</EarliestTaxLienDate>
+				<MostRecentTaxLienDate>20060801</MostRecentTaxLienDate>
+				<JudgmentCount>003</JudgmentCount>
+				<EarliestJudgmentDate>20021016</EarliestJudgmentDate>
+				<MostRecentJudgmentDate>20050302</MostRecentJudgmentDate>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00002964</LegalBalance>
+				<UCCFilings>008</UCCFilings>
+				<UCCDerogatoryCount>004</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00049000</AllTradelineBalance>
+				<AllTradelineCount>005</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+				<CurrentDBT>000</CurrentDBT>
+				<EarliestUCCDate>20051120</EarliestUCCDate>
+				<MostRecentUCCDate>20061207</MostRecentUCCDate>
+				<BankruptcyFlag>Y</BankruptcyFlag>
+				<JudgmentFlag>Y</JudgmentFlag>
+			</ExecutiveElements>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>03        </Filler>
+				<ScoreInfo>
+					<Score>0000001254</Score>
+				</ScoreInfo>
+				<ProfileNumber>I906332964</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000210</ModelCode>
+					<ModelTitle>COMMERCIAL ALL-INDUSTRY II              </ModelTitle>
+					<CustomModelCode>03</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>007</PercentileRanking>
+				<Action>        HIGH RISK                               </Action>
+				<CustomerDispute>
+					<Statement code="Y">This data is disputed</Statement>
+				</CustomerDispute>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="013 ">NUMBER OF DEROGATORY PUBLIC RECORD ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="021 ">LACK OF RECENTLY REPORTED TRADES                            </ScoreFactor>
+				<ScoreFactor code="026 ">BALANCES ON DELINQUENT OR DEROGATORY ACCOUNTS               </ScoreFactor>
+				<ScoreFactor code="001 ">BALANCE ON DELINQUENT ACCOUNTS                              </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<BankruptcyFilings>000</BankruptcyFilings>
+				<BankruptcyFilingsBalance>0000000000000</BankruptcyFilingsBalance>
+				<CollectionsCount>0000</CollectionsCount>
+				<CollectionsCountLast24Months>000</CollectionsCountLast24Months>
+				<EstablishedDate>19770101</EstablishedDate>
+				<OriginalJudgmentsCount>003</OriginalJudgmentsCount>
+				<OriginalJudgmentsAmount>000001906</OriginalJudgmentsAmount>
+				<SicCode>2043</SicCode>
+				<RegularTradesBalanceCurrentQuarter>00000000</RegularTradesBalanceCurrentQuarter>
+				<RegularTradesBalance1QuarterPrior>00000000</RegularTradesBalance1QuarterPrior>
+				<RegularTradesBalance2QuartersPrior>00000000</RegularTradesBalance2QuartersPrior>
+				<RegularTradesBalance3QuartersPrior>00000000</RegularTradesBalance3QuartersPrior>
+				<RegularTradesBalance4QuartersPrior>00000000</RegularTradesBalance4QuartersPrior>
+				<DBTRegularTrades>000</DBTRegularTrades>
+				<DBTRegularTradesCurrentMonth>000</DBTRegularTradesCurrentMonth>
+				<DBTRegularTrades1MonthPrior>000</DBTRegularTrades1MonthPrior>
+				<DBTRegularTrades2MonthsPrior>000</DBTRegularTrades2MonthsPrior>
+				<DBTRegularTrades3MonthsPrior>000</DBTRegularTrades3MonthsPrior>
+				<DBTRegularTrades4MonthsPrior>000</DBTRegularTrades4MonthsPrior>
+				<DBTRegularTrades5MonthsPrior>000</DBTRegularTrades5MonthsPrior>
+				<TotalTradesCount>005</TotalTradesCount>
+				<TotalAccountBalance>00049000</TotalAccountBalance>
+				<MaximumBalanceLast12Months>0000000025000</MaximumBalanceLast12Months>
+				<OriginalTaxLiensCount>001</OriginalTaxLiensCount>
+				<OriginalTaxLiensAmount>000001058</OriginalTaxLiensAmount>
+				<OriginalUCCFilingsCount>00008</OriginalUCCFilingsCount>
+				<DerogUCCFilingsCount>004</DerogUCCFilingsCount>
+			</KeyModelElements>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

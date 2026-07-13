@@ -1,0 +1,1479 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using Infragistics.WebUI.WebDataInput;
+using PaymentXP.BusinessObjects;
+using PaymentXP.DataObjects;
+using System.Collections.Generic;
+using System.Text;
+using System.Text.RegularExpressions;
+using Infragistics.Web.UI.EditorControls;
+
+public partial class SecureAgentManagementForms_frmMerchantAppsOnlineAgentFees : frmBaseDataEntry
+{
+
+    public MerchantAppsOnlineAgentFees ObjMAOAF
+    {
+        get { return (MerchantAppsOnlineAgentFees)ViewState["ObjMAOAF"]; }
+        set { ViewState["ObjMAOAF"] = value; }
+    }
+
+    private int _agentID = 0;
+
+    public int AgentID
+    {
+        get { return _agentID; }
+        set { _agentID = value; }
+    }
+
+
+    public Dictionary<string, string> diFeeMapping
+    {
+        get
+        {
+            if (ViewState["diFeeMapping"] == null)
+            {
+                return null;
+            }
+            else
+            {
+                return (Dictionary<string, string>)ViewState["diFeeMapping"];
+            }
+        }
+        set { ViewState["diFeeMapping"] = value; }
+
+    }
+
+
+    public Dictionary<string, AgentFee> diFees
+    {
+        get
+        {
+            if (ViewState["diFees"] == null)
+            {
+                return null;
+            }
+            else
+            {
+                return (Dictionary<string, AgentFee>)ViewState["diFees"];
+            }
+        }
+        set { ViewState["diFees"] = value; }
+    }
+
+    public Dictionary<string, decimal> diDefaultFees
+    {
+        get
+        {
+            if (ViewState["diDefaultFees"] == null)
+            {
+                return null;
+            }
+            else
+            {
+                return (Dictionary<string, decimal>)ViewState["diDefaultFees"];
+            }
+        }
+        set { ViewState["diDefaultFees"] = value; }
+    }
+
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        if (UserSessions.CurrentAgent == null)
+        {
+            WucMessage1.AddMessageStatus("Please select an agent before proceeding");
+
+            // TOL: strip out
+
+            //pnlEdit.Visible = false;
+            //pnlToolbar.Visible = false;
+            //pnlSelect.Visible = false;
+            //btnDisable.Visible = false;
+            //btnEnable.Visible = false;
+            Response.Redirect("~/SecureAgentManagementForms/frmSearchAgents.aspx");
+
+        }
+
+        if (!Page.IsPostBack)
+        {
+            //if (UserSessions.CurrentAgent == null)
+            //{
+            //    WucMessage1.AddMessageStatus("Please select an agent from the Search Screen before proceeding");
+            //    pnlEdit.Visible = false;
+            //    pnlToolbar.Visible = false;
+            //}
+            //else
+            //{
+
+
+            this.ToggleButtonsEnableDisable();
+
+            this.init_default_fees();
+            this.init_fee_mapping();
+
+            if (UserSessions.CurrentAgent.EnableOnlineApp == true)
+            {
+                LoadOnlineAgents(ddlProfiles, UserSessions.CurrentAgent.AgentID);
+                ddlProfiles_SelectedIndexChanged(null, null);
+            }
+
+
+
+            //}
+        }
+
+    }
+
+    public void LoadBanks(ListControl lst)
+    {
+        Hashtable prms = new Hashtable();
+        DataMerchantApp data = DataAccess.DataMerchantAppDao;
+
+        prms.Add("@AgentUID", UserSessions.CurrentAgent.AgentUID);
+        prms.Add("@Enable", 1);
+        prms.Add("@EnableOnlineApp", 1);
+
+        IList<GenericListItem> banks = data.GetMerchantAppTypesOnline(prms);
+
+        lst.Items.Clear();
+
+        lst.Items.Add(new ListItem("--Select--", "-1"));
+
+        foreach (GenericListItem item in banks)
+        {
+            lst.Items.Add(new ListItem(item.ItemText, item.ItemValue));
+        }
+    }
+
+    protected void ddlProfiles_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (ddlProfiles.SelectedIndex != -1)
+        {
+            this.ObjMAOAF = DataAgent.GetMerchantAppsOnlineAgentFees(ddlProfiles.SelectedValue);
+            this.FormShow(this.ObjMAOAF.UID);
+        }
+
+
+        //if (ddlProfiles.SelectedValue != "" && ddlProfiles.SelectedValue != "-1")
+        //{
+
+
+
+
+
+        //    //SetButtons(eButtonSet.ReadOnly);
+
+        //    //lblTitle.Text = "Viewing Agent Fee Profile: " + objMAOAF.AgentName;
+        //    lblTitle.Text = "Viewing Agent Fee Profile";
+
+        //}
+        //else
+        //{
+        //    //pnlEdit.Visible = false;
+        //    this.FormClear();
+        //}
+    }
+
+    public void LoadOnlineAgents(ListControl lst, int AgentID)
+    {
+        Hashtable prms = new Hashtable();
+
+        if (AgentID != 0)
+        {
+            prms.Add("@AgentID", AgentID);
+        }
+
+        IList<GenericListItem> list = null;
+
+        DataAgent data = DataAccess.DataAgentDao;
+        list = data.GetOnlineAppAgents(prms);
+
+        lst.Items.Clear();
+
+
+
+        foreach (GenericListItem agent in list)
+        {
+            lst.Items.Add(new ListItem(agent.ItemText, agent.ItemValue));
+        }
+
+        if (lst.Items.Count > 0)
+            lst.SelectedIndex = 0;
+    }
+
+    protected void tbrTools_ButtonClicked(object sender, Infragistics.WebUI.WebDataInput.ButtonEventArgs e)
+    {
+        WebImageButton btn = (WebImageButton)sender;
+
+        string url = string.Empty;
+        switch (btn.Text)
+        {
+            case "Add":
+                this.FormNew();
+                break;
+            case "Save":
+
+                if (this.FormSave())
+                {
+                    this.EditMode = false;
+                    this.Adding = false;
+
+
+                    string agentkey = this.ObjMAOAF.AgentKey;
+                    LoadOnlineAgents(ddlProfiles, UserSessions.CurrentAgent.AgentID);
+                    ListHandler.ListFindItem(ddlProfiles, agentkey);
+                    this.FormShow(agentkey);
+
+                    this.ToggleButtons();
+
+
+
+
+
+                    //if (this.Adding)
+                    //{
+                    //    // add success
+                    //    WucMessage1.AddMessageStatus("New Agent Fee Profile Added. Profile Name: " + this.ObjMAOAF.AgentName);
+                    //    Response.Redirect("~/SecureAgentManagementForms/frmMerchantAppsOnlineAgentFees.aspx");
+                    //}
+                    //else
+                    //{
+                    //    if (this.ObjMAOAF != null && !string.IsNullOrEmpty(this.ObjMAOAF.UID))
+                    //    {
+                    //        // edit success
+                    //        this.FormShow(this.ObjMAOAF.UID);
+                    //        FormHandler.SetControlEditMode(this.pnlEdit, false);
+                    //        this.ToggleButtons();
+
+                    //        string agentkey = ddlProfiles.SelectedIndex 
+                    //        LoadOnlineAgents(ddlProfiles, UserSessions.CurrentAgent.AgentID);
+                    //    }
+                    //    else
+                    //    {
+                    //        WucMessage1.AddMessageStatus("Could not save Agent Fee Profile");
+                    //        Response.Redirect("~/SecureAgentManagementForms/frmMerchantAppsOnlineAgentFees.aspx");
+                    //    }
+                    //}
+                }
+
+                break;
+
+            case "Refresh":
+
+                if (this.ObjMAOAF != null && !string.IsNullOrEmpty(this.ObjMAOAF.UID))
+                {
+                    this.FormShow(this.ObjMAOAF.UID);
+                }
+
+                break;
+
+            case "Cancel":
+
+                this.EditMode = false;
+                FormHandler.ClearAllControls(pnlEdit);
+                this.FormClear();
+                this.ToggleButtons();
+
+
+                if (ddlProfiles.SelectedIndex != -1)
+                {
+                    this.ObjMAOAF = DataAgent.GetMerchantAppsOnlineAgentFees(ddlProfiles.SelectedValue);
+                    this.FormShow(this.ObjMAOAF.UID);
+                }
+
+                //if (this.Adding)
+                //{
+
+
+
+                //}
+                //else
+                //{
+                //    if (this.EditMode)
+                //    {
+                //        this.EditMode = false;
+                //        this.ToggleButtons();
+
+                //        // always pull a fresh copy.
+                //        MerchantAppsOnlineAgentFees objMAOAF = new MerchantAppsOnlineAgentFees();
+
+                //        if (ddlProfiles.SelectedValue != "-1")
+                //        {
+                //            objMAOAF = DataAgent.GetMerchantAppsOnlineAgentFees(ddlProfiles.SelectedValue);
+                //        }
+
+                //        this.FormShow(objMAOAF.UID);
+
+                //        FormHandler.SetControlEditMode(pnlEdit, false);
+                //    }
+                //    else
+                //    {
+                //        // go back to search mode.
+
+                //        pnlEdit.Visible = false;
+
+                //    }
+                //}
+
+                //pnlSelect.Visible = true;
+
+
+                break;
+
+            case "Edit":
+
+                this.EditMode = true;
+                this.Adding = false;
+                if (this.ObjMAOAF != null && !string.IsNullOrEmpty(this.ObjMAOAF.UID))
+                {
+                    this.FormShow(this.ObjMAOAF.UID);
+                    this.ToggleButtons();
+                }
+
+
+                break;
+        }
+    }
+
+
+    public void ToggleButtonsEnableDisable()
+    {
+        btnEnable.Visible = !UserSessions.CurrentAgent.EnableOnlineApp;
+        btnDisable.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+        pnlEdit.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+        pnlSelect.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+
+        btnEdit.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+        btnAdd.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+        btnSave.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+        btnCancel.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+        btnRefresh.Visible = UserSessions.CurrentAgent.EnableOnlineApp;
+
+
+    }
+
+
+    protected void btnEnable_Click(object sender, Infragistics.WebUI.WebDataInput.ButtonEventArgs e)
+    {
+        DataAgent data = DataAccess.DataAgentDao;
+
+        // get a FRESH COPY from the database of our agent objects. UserSessions.CurrentAgent might be tampered with.
+        Agent a = data.GetAgent(UserSessions.CurrentAgent.AgentUID);
+
+        if (a != null)
+        {
+            a.EnableOnlineApp = true;
+
+            if (data.UpdateAgent(a) > 0)
+            {
+                UserSessions.CurrentAgent = a;
+                this.ToggleButtonsEnableDisable();
+                WucMessage1.AddMessageStatus("Agent successfully enabled for Online Apps.");
+                LoadOnlineAgents(ddlProfiles, UserSessions.CurrentAgent.AgentID);
+            }
+            else
+            {
+                WucMessage1.AddMessageError("Could not update agent.");
+            }
+
+
+        }
+        else
+        {
+            WucMessage1.AddMessageError("Could not find agent.");
+        }
+    }
+
+    protected void btnDisable_Click(object sender, Infragistics.WebUI.WebDataInput.ButtonEventArgs e)
+    {
+        DataAgent data = DataAccess.DataAgentDao;
+
+        // get a FRESH COPY from the database of our agent objects. UserSessions.CurrentAgent might be tampered with.
+        Agent a = data.GetAgent(UserSessions.CurrentAgent.AgentUID);
+
+        if (a != null)
+        {
+            a.EnableOnlineApp = false;
+
+            if (data.UpdateAgent(a) > 0)
+            {
+                UserSessions.CurrentAgent = a;
+                this.ToggleButtonsEnableDisable();
+
+                WucMessage1.AddMessageStatus("Agent successfully disabled for Online Apps.");
+
+            }
+            else
+            {
+                WucMessage1.AddMessageError("Could not update agent.");
+            }
+
+
+
+        }
+        else
+        {
+            WucMessage1.AddMessageError("Could not find agent.");
+        }
+    }
+
+
+
+    ///////////////////////////////////////////////////
+
+
+    public string GetBuyRateSummary()
+    {
+        string ret = "";
+        int count = 0;
+        StringBuilder sb = new StringBuilder();
+        string subject = string.Format("AgentID: {0}, Agent Fee Profile Name: {1}, AgentKey: {2}", this.ObjMAOAF.AgentID.ToString(), this.ObjMAOAF.AgentName, this.ObjMAOAF.AgentKey);
+        string title = string.Format("AgentID: {0}<br /> Agent Fee Profile Name: {1}<br /> AgentKey: {2}", this.ObjMAOAF.AgentID.ToString(), this.ObjMAOAF.AgentName, this.ObjMAOAF.AgentKey);
+        string header = @"<table>
+            <tr>
+                <td>Fee Name</td>
+                <td>Value</td>
+                <td>Buy Rate</td>
+            </tr>";
+
+        // split this string on the pipe, and use [0] as the subject in the email.
+        sb.Append(string.Format("{0} |<p>{1}</p>{2}", subject, title, header));
+
+        foreach (KeyValuePair<string, string> kvp in this.diFeeMapping)
+        {
+            // only get them from the database.
+            if (kvp.Value != "" && kvp.Key != kvp.Value)
+            {
+
+                decimal dVal = this.ObjMAOAF[kvp.Key];
+                decimal dFee = this.GetFee(kvp.Key);
+
+                if (dVal < dFee)
+                {
+                    string template = @"
+                        <tr>
+                            <td>{0}</td>
+                            <td>{1:F2}</td>
+                            <td>{2:F2}</td>
+                        </tr>";
+
+                    sb.Append(string.Format(template, kvp.Key, dVal, dFee));
+
+                    count++;
+                }
+            }
+        }
+
+        if (count > 0)
+        {
+            ret = sb.ToString() + "</table>";
+        }
+
+        return ret;
+    }
+
+    protected void init_default_fees()
+    {
+        // these are default fee's that are to be displayed on screen. they're not stored in the DB. its just a helpful guide.
+
+        this.diDefaultFees = new Dictionary<string, decimal>();
+
+        this.diDefaultFees.Add("VisaQualRate", 0m);
+        this.diDefaultFees.Add("VisaQualFee", 0.25m);
+        this.diDefaultFees.Add("VisaMidQualRate", 0.85m);
+        this.diDefaultFees.Add("VisaMidQualFee", 0m);
+        this.diDefaultFees.Add("VisaNonQualRate", 1.80m);
+        this.diDefaultFees.Add("VisaNonQualFee", 0m);
+        this.diDefaultFees.Add("MCQualRate", 0m);
+        this.diDefaultFees.Add("MCQualFee", 0m);
+        this.diDefaultFees.Add("MCMidQualRate", 0m);
+        this.diDefaultFees.Add("MCMidQualFee", 0m);
+        this.diDefaultFees.Add("MCNonQualRate", 0m);
+        this.diDefaultFees.Add("MCNonQualFee", 0m);
+        this.diDefaultFees.Add("DiscoverQualRate", 0m);
+        this.diDefaultFees.Add("DiscoverQualFee", 0m);
+        this.diDefaultFees.Add("DiscoverMidQualRate", 0m);
+        this.diDefaultFees.Add("DiscoverMidQualFee", 0m);
+        this.diDefaultFees.Add("DiscoverNonQualRate", 0m);
+        this.diDefaultFees.Add("DiscoverNonQualFee", 0m);
+        this.diDefaultFees.Add("VoiceAuthorizationFee", 1.0m);
+        this.diDefaultFees.Add("AVSVoiceAuthorizationFee", 0.10m);
+        this.diDefaultFees.Add("VruARUFee", 0.75m);
+        this.diDefaultFees.Add("ChargebackFee", 35.0m);
+        this.diDefaultFees.Add("ACHBatchFee", 0.20m);
+        this.diDefaultFees.Add("MonthlyMinimumFee", 25.0m);
+        this.diDefaultFees.Add("ServiceFee", 10.0m);
+        this.diDefaultFees.Add("RetrievalRequestFee", 10.0m);
+        this.diDefaultFees.Add("MerchantClubFee", 0m);
+        this.diDefaultFees.Add("ApplicationFee", 0m);
+        this.diDefaultFees.Add("WirelessSetupFee", 35.0m);
+        this.diDefaultFees.Add("WirelessTransactionFee", 0.10m);
+        this.diDefaultFees.Add("WirelessDataMonthlyFee", 10.0m);
+        this.diDefaultFees.Add("GatewaySetupFee", 50.0m);
+        this.diDefaultFees.Add("GatewayMonthlyFee", 10.0m);
+        this.diDefaultFees.Add("GatewayTransactionFee", 0.10m);
+        this.diDefaultFees.Add("ERRVisaDiscount", 0m);
+        this.diDefaultFees.Add("ERRVisaNonQualFee", 0m);
+        this.diDefaultFees.Add("ERRVisaAuthFee", 0m);
+        this.diDefaultFees.Add("ERRMCDiscount", 0m);
+        this.diDefaultFees.Add("ERRMCNonQualFee", 0m);
+        this.diDefaultFees.Add("ERRMCAuthFee", 0m);
+        this.diDefaultFees.Add("ERRDiscoverDiscount", 0m);
+        this.diDefaultFees.Add("ERRDiscoverNonQualFee", 0m);
+        this.diDefaultFees.Add("ERRDiscoverAuthFee", 0m);
+        this.diDefaultFees.Add("InterchangePlus", 0m);
+        this.diDefaultFees.Add("InterchangePerItem", 0m);
+
+        this.diDefaultFees.Add("DebitAccessFee", 10.0m);
+        this.diDefaultFees.Add("DebitTransactionFee", 0m);
+        this.diDefaultFees.Add("DebitPercentage", 0m);
+
+
+        foreach (KeyValuePair<string, decimal> kvp in this.diDefaultFees)
+        {
+            if (kvp.Value != 0m)
+            {
+                string control_name = "hid" + kvp.Key;
+                HiddenField hf = (HiddenField)FindControl(control_name);
+
+                if (hf != null)
+                {
+                    hf.Value = kvp.Value.ToString();
+                }
+            }
+        }
+
+    }
+
+    protected void init_fee_mapping()
+    {
+
+        // we are mapping fields from table MerchantAppsOnlineAgentFees to sp_SelectAgentResidualReportItems 
+
+        this.diFeeMapping = new Dictionary<string, string>();
+
+        // fee mapping: NOTE: 
+        // if value is an empty string, then there is no mapping. 
+        // if value is a guid, then there is a mapping. 
+        // if value is the name of the key then we pull from the default.
+        this.diFeeMapping.Add("VisaQualRate", "");
+        this.diFeeMapping.Add("VisaQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("VisaMidQualRate", "");
+        this.diFeeMapping.Add("VisaMidQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("VisaNonQualRate", "");
+        this.diFeeMapping.Add("VisaNonQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("MCQualRate", "");
+        this.diFeeMapping.Add("MCQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("MCMidQualRate", "");
+        this.diFeeMapping.Add("MCMidQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("MCNonQualRate", "");
+        this.diFeeMapping.Add("MCNonQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("DiscoverQualRate", "");
+        this.diFeeMapping.Add("DiscoverQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("DiscoverMidQualRate", "");
+        this.diFeeMapping.Add("DiscoverMidQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("DiscoverNonQualRate", "");
+        this.diFeeMapping.Add("DiscoverNonQualFee", "CF5DA10D-13F6-4A9F-95C0-7553C23FAA9E");
+        this.diFeeMapping.Add("VoiceAuthorizationFee", "");
+        this.diFeeMapping.Add("AVSVoiceAuthorizationFee", "");
+        this.diFeeMapping.Add("VruARUFee", "");
+        this.diFeeMapping.Add("ChargebackFee", "BF736941-A28A-4FAA-8EA7-4212B494F7B2");
+        this.diFeeMapping.Add("ACHBatchFee", "27721C71-88F9-4865-8290-177F57822B97");
+        this.diFeeMapping.Add("MonthlyMinimumFee", "");
+        this.diFeeMapping.Add("ServiceFee", "E18A27AD-2C7C-44D8-9879-E5FE2CE0BA2F");
+        this.diFeeMapping.Add("RetrievalRequestFee", "C01F33FA-4BFF-475B-AB82-10B172D1F8DC");
+        this.diFeeMapping.Add("MerchantClubFee", "F04DE180-402C-49E4-B2FB-F261A0B0B84E");
+        this.diFeeMapping.Add("ApplicationFee", "C4956B39-E74C-4AE8-9DA6-A012C0BEE8D1");
+        this.diFeeMapping.Add("WirelessSetupFee", "WirelessSetupFee");
+        this.diFeeMapping.Add("WirelessTransactionFee", "WirelessTransactionFee");
+        this.diFeeMapping.Add("WirelessDataMonthlyFee", "WirelessDataMonthlyFee");
+        this.diFeeMapping.Add("GatewaySetupFee", "21C9AF94-F4E1-4845-99D8-A9FE30D9D987");
+        this.diFeeMapping.Add("GatewayMonthlyFee", "3BDD21EA-B69D-48F1-ACA9-F73598E031F2");
+        this.diFeeMapping.Add("GatewayTransactionFee", "979932D8-7E69-40E2-ADC0-08EE18A0BEF5");
+        this.diFeeMapping.Add("ERRVisaDiscount", "");
+        this.diFeeMapping.Add("ERRVisaNonQualFee", "");
+        this.diFeeMapping.Add("ERRVisaAuthFee", "");
+        this.diFeeMapping.Add("ERRMCDiscount", "");
+        this.diFeeMapping.Add("ERRMCNonQualFee", "");
+        this.diFeeMapping.Add("ERRMCAuthFee", "");
+        this.diFeeMapping.Add("ERRDiscoverDiscount", "");
+        this.diFeeMapping.Add("ERRDiscoverNonQualFee", "");
+        this.diFeeMapping.Add("ERRDiscoverAuthFee", "");
+        this.diFeeMapping.Add("InterchangePlus", "");
+        this.diFeeMapping.Add("InterchangePerItem", "");
+
+        this.diFeeMapping.Add("DebitAccessFee", "9F104D2B-90AF-4BB7-A551-40A4C652582D");
+        this.diFeeMapping.Add("DebitTransactionFee", "17204874-52E8-4CEF-9F4F-02AF1E560347");
+        this.diFeeMapping.Add("DebitPercentage", "");
+
+
+        DataAgent data = DataAccess.DataAgentDao;
+        DataSet ds = data.GetResidualReportItemsDS(UserSessions.CurrentAgent.AgentUID);
+
+        this.diFees = new Dictionary<string, AgentFee>();
+        if (ds != null && ds.Tables.Count == 1 && ds.Tables[0].Rows.Count > 0)
+        {
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                AgentFee objAF = new AgentFee();
+                objAF.AgentUID = dr["AgentUID"].ToString();
+                objAF.Cost = Convert.ToDecimal(dr["Cost"]);
+                objAF.Enabled = Convert.ToBoolean(dr["Enabled"]);
+                objAF.UID = dr["UID"].ToString().Trim().ToUpper();
+                this.diFees.Add(objAF.UID, objAF);
+            }
+
+        }
+
+        // run thru the default fees and set them into the mapping and the object.
+        foreach (KeyValuePair<string, decimal> kvp in this.diDefaultFees)
+        {
+            // only write to the mapping if its empty (in other words, database value has precedence then soft values)
+            if (kvp.Value != 0m && this.diFeeMapping.ContainsKey(kvp.Key) && this.diFeeMapping[kvp.Key] == "")
+            {
+                this.diFeeMapping[kvp.Key] = kvp.Key;
+                this.diFees.Add(kvp.Key, new AgentFee("", "", 0, kvp.Value, true, DateTime.Now, "", "", DateTime.Now));
+            }
+
+        }
+
+    }
+
+    // default return value is '0.0'
+    public decimal GetFee(string fee_name)
+    {
+        if (this.diFeeMapping == null || this.diFees == null)
+        {
+            this.init_fee_mapping();
+        }
+
+        decimal ret = 0.0m;
+        if (this.diFeeMapping.ContainsKey(fee_name))
+        {
+            string uid = this.diFeeMapping[fee_name];
+
+            if (uid != "" && this.diFees.ContainsKey(uid) && this.diFees[uid].Enabled == true)
+            {
+                ret = this.diFees[uid].Cost;
+            }
+        }
+
+        return ret;
+    }
+
+
+
+    //public void SetAgent(Agent a)
+    //{
+
+    //    if (a != null)
+    //    {
+    //        AgentUID.Value = a.AgentUID;
+    //        this.AgentID = a.AgentID;
+    //        //AgentEmailAddress.Value = a.Email.Trim();
+    //        AgentPhone.Value = a.Phone.Trim();
+    //    }
+
+    //}
+
+    public IEnumerable ValidateForm()
+    {
+        if (string.IsNullOrEmpty(AgentName.Text))
+        {
+            ReqAgentName.IsValid = false;
+            yield return ReqAgentName.ErrorMessage;
+        }
+
+        string[] str = AgentEmailAddress.Text.Replace(',', ';').Trim().Split(';');
+        string strEmails = string.Empty;
+
+        for (int i = 0; i < str.Length; i++)
+        {
+            if (!(Regex.IsMatch(str[i].Trim(), Constants.EmailRegex)) && str[i].Trim() != "")
+                strEmails += str[i].Trim() + ";";
+        }
+
+        if (strEmails.TrimEnd(';').Trim().Length > 0)
+            yield return "Notification email is invalid. Valid format example: (jdoe@yahoo.com;jdoe@gmail.com)";
+
+        if (PricingType.SelectedValue == "")
+        {
+            yield return "Please select either 'Tiered Pricing' or 'Interchange'";
+        }
+
+
+        if ((Decimal)VisaQualRate.Value >= 10.0m || (Decimal)VisaQualRate.Value < 0.0m)
+        {
+            ReqVisaQualRate.IsValid = false;
+            yield return ReqVisaQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)VisaMidQualRate.Value >= 10.0m || (Decimal)VisaMidQualRate.Value < 0.0m)
+        {
+            ReqVisaMidQualRate.IsValid = false;
+            yield return ReqVisaMidQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)VisaNonQualRate.Value >= 10.0m || (Decimal)VisaNonQualRate.Value < 0.0m)
+        {
+            ReqVisaNonQualRate.IsValid = false;
+            yield return ReqVisaNonQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)MCQualRate.Value >= 10.0m || (Decimal)MCQualRate.Value < 0.0m)
+        {
+            ReqMCQualRate.IsValid = false;
+            yield return ReqMCQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)MCMidQualRate.Value >= 10.0m || (Decimal)MCMidQualRate.Value < 0.0m)
+        {
+            ReqMCMidQualRate.IsValid = false;
+            yield return ReqMCMidQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)MCNonQualRate.Value >= 10.0m || (Decimal)MCNonQualRate.Value < 0.0m)
+        {
+            ReqMCNonQualRate.IsValid = false;
+            yield return ReqMCNonQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)DiscoverQualRate.Value >= 10.0m || (Decimal)DiscoverQualRate.Value < 0.0m)
+        {
+            ReqDiscoverQualRate.IsValid = false;
+            yield return ReqDiscoverQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)DiscoverMidQualRate.Value >= 10.0m || (Decimal)DiscoverMidQualRate.Value < 0.0m)
+        {
+            ReqDiscoverMidQualRate.IsValid = false;
+            yield return ReqDiscoverMidQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)DiscoverNonQualRate.Value >= 10.0m || (Decimal)DiscoverNonQualRate.Value < 0.0m)
+        {
+            ReqDiscoverNonQualRate.IsValid = false;
+            yield return ReqDiscoverNonQualRate.ErrorMessage;
+        }
+
+        if ((Decimal)ERRVisaDiscount.Value >= 10.0m || (Decimal)ERRVisaDiscount.Value < 0.0m)
+        {
+            ReqERRVisaDiscount.IsValid = false;
+            yield return ReqERRVisaDiscount.ErrorMessage;
+        }
+
+        if ((Decimal)ERRVisaNonQualFee.Value >= 10.0m || (Decimal)ERRVisaNonQualFee.Value < 0.0m)
+        {
+            ReqERRVisaNonQualFee.IsValid = false;
+            yield return ReqERRVisaNonQualFee.ErrorMessage;
+        }
+
+        if ((Decimal)ERRMCDiscount.Value >= 10.0m || (Decimal)ERRMCDiscount.Value < 0.0m)
+        {
+            ReqERRMCDiscount.IsValid = false;
+            yield return ReqERRMCDiscount.ErrorMessage;
+        }
+
+        if ((Decimal)ERRMCNonQualFee.Value >= 10.0m || (Decimal)ERRMCNonQualFee.Value < 0.0m)
+        {
+            ReqERRMCNonQualFee.IsValid = false;
+            yield return ReqERRMCNonQualFee.ErrorMessage;
+        }
+
+        if ((Decimal)ERRDiscoverDiscount.Value >= 10.0m || (Decimal)ERRDiscoverDiscount.Value < 0.0m)
+        {
+            ReqERRDiscoverDiscount.IsValid = false;
+            yield return ReqERRDiscoverDiscount.ErrorMessage;
+        }
+
+        if ((Decimal)ERRDiscoverNonQualFee.Value >= 10.0m || (Decimal)ERRDiscoverNonQualFee.Value < 0.0m)
+        {
+            ReqERRDiscoverNonQualFee.IsValid = false;
+            yield return ReqERRDiscoverNonQualFee.ErrorMessage;
+        }
+
+        if ((Decimal)InterchangePlus.Value >= 10.0m || (Decimal)InterchangePlus.Value < 0.0m)
+        {
+            ReqInterchangePlus.IsValid = false;
+            yield return ReqInterchangePlus.ErrorMessage;
+        }
+
+        if (cbDebit.Checked)
+        {
+            if (rblPIN1.Checked == false && rblPIN2.Checked == false && rblPIN3.Checked == false && rblPIN4.Checked == false)
+            {
+                yield return "PIN-Debit Card Fees enabled but you must select an option";
+            }
+
+        }
+
+        if (PricingType.SelectedValue == "t" && Convert.ToDecimal(VisaQualRate.Value) == 0.00m)
+        {
+            yield return "If Tiered Pricing is selected, a Qual Rate must be set";
+        }
+
+        if (MerchantAppTypeUID.SelectedValue == "-1")
+        {
+            yield return "Please select a Bank";
+        }
+
+
+    }
+
+
+
+
+    public void BindControlsToObject()
+    {
+        FormBinding.BindControlsToObject(this.ObjMAOAF, pnlEdit);
+
+        // since this is an integer, we cant store it has a hidden field becaue it expects it to be a string. so we manually set it.
+        this.ObjMAOAF.AgentID = UserSessions.CurrentAgent.AgentID;
+        this.ObjMAOAF.AgentUID = UserSessions.CurrentAgent.AgentUID;
+        this.ObjMAOAF.AgentDBAName = UserSessions.CurrentAgent.AgentDBA;
+
+        // set qual rates
+        this.ObjMAOAF.VisaQualRate = Convert.ToDecimal(VisaQualRate.Value);
+        VisaQualRate.Value = Convert.ToDecimal(VisaQualRate.Value);
+        this.ObjMAOAF.MCQualRate = Convert.ToDecimal(VisaQualRate.Value);
+        MCQualRate.Value = Convert.ToDecimal(VisaQualRate.Value);
+        this.ObjMAOAF.DiscoverQualRate = Convert.ToDecimal(VisaQualRate.Value);
+        DiscoverQualRate.Value = Convert.ToDecimal(VisaQualRate.Value);
+
+        // set mid qual
+        this.ObjMAOAF.VisaMidQualRate = Convert.ToDecimal(VisaMidQualRate.Value);
+        VisaMidQualRate.Value = Convert.ToDecimal(VisaMidQualRate.Value);
+        this.ObjMAOAF.MCMidQualRate = Convert.ToDecimal(VisaMidQualRate.Value);
+        MCMidQualRate.Value = Convert.ToDecimal(VisaMidQualRate.Value);
+        this.ObjMAOAF.DiscoverMidQualRate = Convert.ToDecimal(VisaMidQualRate.Value);
+        DiscoverMidQualRate.Value = Convert.ToDecimal(VisaMidQualRate.Value);
+
+        // set non qual
+        this.ObjMAOAF.VisaNonQualRate = Convert.ToDecimal(VisaNonQualRate.Value);
+        VisaNonQualRate.Value = Convert.ToDecimal(VisaNonQualRate.Value);
+        this.ObjMAOAF.MCNonQualRate = Convert.ToDecimal(VisaNonQualRate.Value);
+        MCNonQualRate.Value = Convert.ToDecimal(VisaNonQualRate.Value);
+        this.ObjMAOAF.DiscoverNonQualRate = Convert.ToDecimal(VisaNonQualRate.Value);
+        DiscoverNonQualRate.Value = Convert.ToDecimal(VisaNonQualRate.Value);
+
+        // set fees
+        this.ObjMAOAF.VisaQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        VisaQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+        this.ObjMAOAF.VisaMidQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        VisaMidQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+        this.ObjMAOAF.VisaNonQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        VisaNonQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+
+        this.ObjMAOAF.MCQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        MCQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+        this.ObjMAOAF.MCMidQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        MCMidQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+        this.ObjMAOAF.MCNonQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        MCNonQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+
+        this.ObjMAOAF.DiscoverQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        DiscoverQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+        this.ObjMAOAF.DiscoverMidQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        DiscoverMidQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+        this.ObjMAOAF.DiscoverNonQualFee = Convert.ToDecimal(VisaQualFee.Value);
+        DiscoverNonQualFee.Value = Convert.ToDecimal(VisaQualFee.Value);
+
+
+        // set err fee rates for MC and Discover
+
+        this.ObjMAOAF.ERRMCDiscount = Convert.ToDecimal(ERRVisaDiscount.Value);
+        this.ObjMAOAF.ERRMCNonQualFee = Convert.ToDecimal(ERRVisaNonQualFee.Value);
+        this.ObjMAOAF.ERRMCAuthFee = Convert.ToDecimal(ERRVisaAuthFee.Value);
+
+        ERRMCDiscount.Value = Convert.ToDecimal(ERRVisaDiscount.Value);
+        ERRMCNonQualFee.Value = Convert.ToDecimal(ERRVisaNonQualFee.Value);
+        ERRMCAuthFee.Value = Convert.ToDecimal(ERRVisaAuthFee.Value);
+
+        this.ObjMAOAF.ERRDiscoverDiscount = Convert.ToDecimal(ERRVisaDiscount.Value);
+        this.ObjMAOAF.ERRDiscoverNonQualFee = Convert.ToDecimal(ERRVisaNonQualFee.Value);
+        this.ObjMAOAF.ERRDiscoverAuthFee = Convert.ToDecimal(ERRVisaAuthFee.Value);
+
+        ERRDiscoverDiscount.Value = Convert.ToDecimal(ERRVisaDiscount.Value);
+        ERRDiscoverNonQualFee.Value = Convert.ToDecimal(ERRVisaNonQualFee.Value);
+        ERRDiscoverAuthFee.Value = Convert.ToDecimal(ERRVisaAuthFee.Value);
+
+
+
+        this.cbTieredPricing_SelectedIndexChanged(null, null);
+
+
+        if (cbDebit.Checked)
+        {
+            if (rblPIN1.Checked)
+            {
+                this.ObjMAOAF.PINDebitCardChoice = "DebitTransactionFee,Network";
+                this.ObjMAOAF.DebitTransactionFee = Convert.ToDecimal(PINDebitTransactionFee1.Value);
+                this.ObjMAOAF.DebitPercentage = 0m;
+            }
+            else if (rblPIN2.Checked)
+            {
+                this.ObjMAOAF.PINDebitCardChoice = "DebitTransactionFee,DebitPercentage";
+                this.ObjMAOAF.DebitTransactionFee = Convert.ToDecimal(PINDebitTransactionFee2.Value);
+                this.ObjMAOAF.DebitPercentage = Convert.ToDecimal(PINDebitPercentage2.Value);
+            }
+            else if (rblPIN3.Checked)
+            {
+                this.ObjMAOAF.PINDebitCardChoice = "DebitPercentage";
+                this.ObjMAOAF.DebitTransactionFee = 0m;
+                this.ObjMAOAF.DebitPercentage = Convert.ToDecimal(PINDebitPercentage3.Value);
+            }
+            else if (rblPIN4.Checked)
+            {
+                this.ObjMAOAF.PINDebitCardChoice = "DebitTransactionFee,DebitPercentage,Network";
+                this.ObjMAOAF.DebitTransactionFee = Convert.ToDecimal(PINDebitTransactionFee4.Value);
+                this.ObjMAOAF.DebitPercentage = Convert.ToDecimal(PINDebitPercentage4.Value);
+            }
+
+        }
+        else
+        {
+            this.ObjMAOAF.PINDebitCardChoice = "";
+            this.ObjMAOAF.DebitTransactionFee = 0m;
+            this.ObjMAOAF.DebitPercentage = 0m;
+        }
+
+        switch (this.ObjMAOAF.PricingType)
+        {
+            case "e":
+                this.SetZeros_Tiered();
+                this.SetZeros_Interchange();
+                break;
+
+            case "i":
+                this.SetZeros_Tiered();
+                this.SetZeros_ERR();
+                break;
+
+            case "t":
+                this.SetZeros_ERR();
+                this.SetZeros_Interchange();
+                break;
+        }
+
+        this.ObjMAOAF.BuyRateSummary = this.GetBuyRateSummary();
+    }
+
+    //protected void ValueChangeCurrency(object sender, Infragistics.WebUI.WebDataInput.ValueChangeEventArgs e)
+    //{
+
+    //    WebCurrencyEditor objWCE = (WebCurrencyEditor)sender;
+
+    //    decimal dFee = this.GetFee(objWCE.ID);
+    //    decimal dVal = Convert.ToDecimal(objWCE.Value);
+    //    string control_name = "Lab" + objWCE.ID;
+
+    //    Label li = (Label)FindControl(control_name);
+
+    //    if (li != null)
+    //    {
+    //        li.Text = dFee.ToString();
+    //        li.Visible = (dVal < dFee) ? true : false;
+    //    }
+
+    //}
+
+    //protected void ValueChangePercent(object sender, Infragistics.WebUI.WebDataInput.ValueChangeEventArgs e)
+    //{
+
+
+    //    WebPercentEditor objWCE = (WebPercentEditor)sender;
+
+    //    decimal dFee = this.GetFee(objWCE.ID);
+    //    decimal dVal = Convert.ToDecimal(objWCE.Value);
+    //    string control_name = "Lab" + objWCE.ID;
+
+    //    Label li = (Label)FindControl(control_name);
+
+    //    if (li != null)
+    //    {
+    //        li.Text = dFee.ToString();
+    //        li.Visible = (dVal < dFee) ? true : false;
+    //    }
+
+    //}
+
+    protected void RateBump(object sender, Infragistics.Web.UI.EditorControls.TextEditorValueChangedEventArgs e)
+    {
+        WebPercentEditor objWCE = (WebPercentEditor)sender;
+
+        Decimal visa_qual = Convert.ToDecimal(objWCE.Value);
+
+        Decimal mid_rate = 0.85m;
+        Decimal non_rate = 1.80m;
+
+        VisaMidQualRate.Value = visa_qual + mid_rate;
+        VisaNonQualRate.Value = visa_qual + non_rate;
+
+        MCQualRate.Value = visa_qual;
+        MCMidQualRate.Value = visa_qual + mid_rate;
+        MCNonQualRate.Value = visa_qual + non_rate;
+
+        DiscoverQualRate.Value = visa_qual;
+        DiscoverMidQualRate.Value = visa_qual + mid_rate;
+        DiscoverNonQualRate.Value = visa_qual + non_rate;
+
+    }
+
+    protected void init_buy_rates()
+    {
+
+        // we dont do this anymore. delete it when you're ready.
+
+
+        //// this is run once when the control loads. basically sets the labels by comparing the current buy rates with
+        //// the values in the controls.
+
+        //if (this.diFeeMapping == null || this.diFees == null)
+        //{
+        //    this.init_fee_mapping();
+        //}
+
+        //foreach (KeyValuePair<string, string> kvp in this.diFeeMapping)
+        //{
+        //    if (kvp.Value != "")
+        //    {
+        //        Control control = FindControl(kvp.Key);
+
+        //        if (control != null)
+        //        {
+        //            decimal dVal = 0m;
+
+
+        //            if (control is WebCurrencyEditor)
+        //            {
+        //                WebCurrencyEditor txt = (WebCurrencyEditor)control;
+        //                dVal = Convert.ToDecimal(txt.Value);
+        //            }
+        //            else if (control is WebPercentEditor)
+        //            {
+        //                WebPercentEditor txt = (WebPercentEditor)control;
+        //                dVal = Convert.ToDecimal(txt.Value);
+        //            }
+
+
+        //            decimal dFee = (Decimal)this.GetFee(kvp.Key);
+
+        //            Label li = (Label)FindControl("Lab" + kvp.Key);
+
+        //            if (li != null)
+        //            {
+        //                li.Text = dFee.ToString();
+        //                li.Visible = (dVal < dFee) ? true : false;
+        //            }
+        //        }
+        //    }
+        //}
+
+    }
+
+    public void SetControlEditMode(bool isEdit)
+    {
+        FormHandler.SetControlEditMode(pnlEdit, isEdit);
+    }
+
+    protected void cbTieredPricing_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        pnlCardType.Visible = false;
+        pnlInterchange.Visible = false;
+        pnlErr.Visible = false;
+
+        if (PricingType.SelectedValue == "t")
+        {
+            pnlCardType.Visible = true;
+
+        }
+        else if (PricingType.SelectedValue == "i")
+        {
+            pnlInterchange.Visible = true;
+
+        }
+        else if (PricingType.SelectedValue == "e")
+        {
+            pnlErr.Visible = true;
+
+        }
+
+    }
+
+    protected void SetZeros_Interchange()
+    {
+        this.ObjMAOAF.InterchangePlus = 0m;
+        this.ObjMAOAF.InterchangePerItem = 0m;
+
+        InterchangePlus.Value = 0m;
+        InterchangePerItem.Value = 0m;
+    }
+
+    protected void SetZeros_ERR()
+    {
+        this.ObjMAOAF.ERRVisaDiscount = 0m;
+        this.ObjMAOAF.ERRVisaNonQualFee = 0m;
+        this.ObjMAOAF.ERRVisaAuthFee = 0m;
+
+        this.ObjMAOAF.ERRMCDiscount = 0m;
+        this.ObjMAOAF.ERRMCNonQualFee = 0m;
+        this.ObjMAOAF.ERRMCAuthFee = 0m;
+
+        this.ObjMAOAF.ERRDiscoverDiscount = 0m;
+        this.ObjMAOAF.ERRDiscoverNonQualFee = 0m;
+        this.ObjMAOAF.ERRDiscoverAuthFee = 0m;
+
+        ERRVisaDiscount.Value = 0m;
+        ERRVisaNonQualFee.Value = 0m;
+        ERRVisaAuthFee.Value = 0m;
+
+        ERRMCDiscount.Value = 0m;
+        ERRMCNonQualFee.Value = 0m;
+        ERRMCAuthFee.Value = 0m;
+
+        ERRDiscoverDiscount.Value = 0m;
+        ERRDiscoverNonQualFee.Value = 0m;
+        ERRDiscoverAuthFee.Value = 0m;
+    }
+
+    protected void SetZeros_Tiered()
+    {
+        this.ObjMAOAF.VisaQualRate = 0m;
+        this.ObjMAOAF.VisaQualFee = 0m;
+        this.ObjMAOAF.VisaMidQualRate = 0m;
+        this.ObjMAOAF.VisaMidQualFee = 0m;
+        this.ObjMAOAF.VisaNonQualRate = 0m;
+        this.ObjMAOAF.VisaNonQualFee = 0m;
+        this.ObjMAOAF.MCQualRate = 0m;
+        this.ObjMAOAF.MCQualFee = 0m;
+        this.ObjMAOAF.MCMidQualRate = 0m;
+        this.ObjMAOAF.MCMidQualFee = 0m;
+        this.ObjMAOAF.MCNonQualRate = 0m;
+        this.ObjMAOAF.MCNonQualFee = 0m;
+        this.ObjMAOAF.DiscoverQualRate = 0m;
+        this.ObjMAOAF.DiscoverQualFee = 0m;
+        this.ObjMAOAF.DiscoverMidQualRate = 0m;
+        this.ObjMAOAF.DiscoverMidQualFee = 0m;
+        this.ObjMAOAF.DiscoverNonQualRate = 0m;
+        this.ObjMAOAF.DiscoverNonQualFee = 0m;
+
+        VisaQualRate.Value = 0m;
+        VisaQualFee.Value = 0m;
+        VisaMidQualRate.Value = 0m;
+        VisaMidQualFee.Value = 0m;
+        VisaNonQualRate.Value = 0m;
+        VisaNonQualFee.Value = 0m;
+        MCQualRate.Value = 0m;
+        MCQualFee.Value = 0m;
+        MCMidQualRate.Value = 0m;
+        MCMidQualFee.Value = 0m;
+        MCNonQualRate.Value = 0m;
+        MCNonQualFee.Value = 0m;
+        DiscoverQualRate.Value = 0m;
+        DiscoverQualFee.Value = 0m;
+        DiscoverMidQualRate.Value = 0m;
+        DiscoverMidQualFee.Value = 0m;
+        DiscoverNonQualRate.Value = 0m;
+        DiscoverNonQualFee.Value = 0m;
+
+    }
+
+
+    protected void cbDebit_CheckedChanged(object sender, EventArgs e)
+    {
+        if (cbDebit.Checked)
+        {
+            pnlDebit.Visible = true;
+        }
+        else
+        {
+            pnlDebit.Visible = false;
+        }
+    }
+
+    private void ShowApplicationUrl(bool isShow)
+    {
+        trUrl.Visible = isShow;
+
+        if (this.ObjMAOAF != null && this.ObjMAOAF.AgentKey != "")
+        {
+            string url = String.Format("https://merituspayment.com/applicationxp/applicationxp.aspx?key={0}", this.ObjMAOAF.AgentKey);
+            hypURL.NavigateUrl = url;
+            hypURL.Text = "Online application";
+        }
+    }
+
+
+    public override Label ErrorDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Label RecordDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel DetailPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel NavigationPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override void FormShow(string ID)
+    {
+
+        FormHandler.SetControlEditMode(this.pnlEdit, this.EditMode);
+
+        LoadBanks(MerchantAppTypeUID);
+
+        FormBinding.BindObjectToControls(this.ObjMAOAF, pnlEdit);
+
+        pnlCardType.Visible = false;
+        pnlInterchange.Visible = false;
+        if (this.ObjMAOAF.PricingType == "t")
+        {
+            pnlCardType.Visible = true;
+        }
+        else if (this.ObjMAOAF.PricingType == "i")
+        {
+            pnlInterchange.Visible = true;
+        }
+
+
+
+
+        this.init_buy_rates();
+
+        if (this.ObjMAOAF.PINDebitCardChoice == "")
+        {
+            pnlDebit.Visible = false;
+            cbDebit.Checked = false;
+
+            rblPIN1.Checked = false;
+            rblPIN2.Checked = false;
+            rblPIN3.Checked = false;
+            rblPIN4.Checked = false;
+
+            PINDebitPercentage2.Value = 0.00m;
+            PINDebitPercentage3.Value = 0.00m;
+            PINDebitPercentage4.Value = 0.00m;
+            PINDebitTransactionFee1.Value = 0.00m;
+            PINDebitTransactionFee2.Value = 0.00m;
+            PINDebitTransactionFee4.Value = 0.00m;
+        }
+        else
+        {
+            pnlDebit.Visible = true;
+            cbDebit.Checked = true;
+
+            string[] arrChoices = this.ObjMAOAF.PINDebitCardChoice.Split(new char[] { ',' });
+
+            List<string> li = new List<string>();
+            foreach (string str in arrChoices)
+            {
+                if (str != "")
+                {
+                    li.Add(str.ToLower().Trim());
+                }
+            }
+
+            rblPIN1.Checked = false;
+            rblPIN2.Checked = false;
+            rblPIN3.Checked = false;
+            rblPIN4.Checked = false;
+
+            PINDebitPercentage2.Value = 0.00m;
+            PINDebitPercentage3.Value = 0.00m;
+            PINDebitPercentage4.Value = 0.00m;
+            PINDebitTransactionFee1.Value = 0.00m;
+            PINDebitTransactionFee2.Value = 0.00m;
+            PINDebitTransactionFee4.Value = 0.00m;
+
+            if (li.Contains("DebitTransactionFee".ToLower()) && li.Contains("Network".ToLower()) && li.Count == 2)
+            {
+
+                rblPIN1.Checked = true;
+                PINDebitTransactionFee1.Value = Convert.ToDecimal(this.ObjMAOAF.DebitTransactionFee);
+            }
+            else if (li.Contains("DebitTransactionFee".ToLower()) && li.Contains("DebitPercentage".ToLower()) && li.Count == 2)
+            {
+                rblPIN2.Checked = true;
+                PINDebitTransactionFee2.Value = Convert.ToDecimal(this.ObjMAOAF.DebitTransactionFee);
+                PINDebitPercentage2.Value = Convert.ToDecimal(this.ObjMAOAF.DebitPercentage);
+            }
+            else if (li.Contains("DebitPercentage".ToLower()) && li.Count == 1)
+            {
+                rblPIN3.Checked = true;
+                PINDebitPercentage3.Value = Convert.ToDecimal(this.ObjMAOAF.DebitPercentage);
+            }
+            else if (li.Contains("DebitTransactionFee".ToLower()) && li.Contains("DebitPercentage".ToLower()) && li.Contains("Network".ToLower()) && li.Count == 3)
+            {
+                rblPIN4.Checked = true;
+                PINDebitTransactionFee4.Value = Convert.ToDecimal(this.ObjMAOAF.DebitTransactionFee);
+                PINDebitPercentage4.Value = Convert.ToDecimal(this.ObjMAOAF.DebitPercentage);
+            }
+        }
+
+        if (this.ObjMAOAF != null && this.ObjMAOAF.AgentKey != "")
+        {
+            this.ShowApplicationUrl(true);
+        }
+        else
+        {
+            this.ShowApplicationUrl(false);
+        }
+    }
+
+   
+    public override void FormClear()
+    {
+        PricingType.Items[0].Selected = false;
+        PricingType.Items[1].Selected = false;
+        pnlCardType.Visible = false;
+        pnlInterchange.Visible = false;
+        pnlDebit.Visible = false;
+
+        FormHandler.ClearAllControls(pnlEdit);
+        //this.ObjMAOAF = null;
+
+        //todo clear all here
+    }
+
+    public override bool FormDelete()
+    {
+        throw new Exception("The method or operation is not implemented.");
+    }
+
+    public override bool FormDataCheck()
+    {
+        bool perform = true;
+
+        foreach (string str in this.ValidateForm())
+        {
+            WucMessage1.AddMessageError(str);
+            perform = false;
+        }
+
+        return perform;
+    }
+
+    public override void FormCancel()
+    {
+        throw new Exception("The method or operation is not implemented.");
+    }
+
+    public override void ToggleButtons()
+    {
+        btnEdit.Enabled = !btnEdit.Enabled;
+        btnAdd.Enabled = !btnAdd.Enabled;
+        btnSave.Enabled = !btnSave.Enabled;
+        btnCancel.Enabled = !btnCancel.Enabled;
+        btnRefresh.Enabled = !btnRefresh.Enabled;
+        ddlProfiles.Enabled = !ddlProfiles.Enabled;
+
+
+    }
+
+    public override void FormNew()
+    {
+        this.Adding = true;
+        this.EditMode = true;
+        this.FormClear();
+        pnlEdit.Visible = true;
+        FormHandler.SetControlEditMode(this.pnlEdit, this.EditMode);
+        this.ObjMAOAF = new MerchantAppsOnlineAgentFees();
+        if (this.ObjMAOAF.AgentKey == "")
+        {
+            // this means its a new object. so we fill with default fee values from the soft defaults. IRREGARDLESS OF AGENT FEE VALUES from database.
+            foreach (KeyValuePair<string, decimal> kvp in this.diDefaultFees)
+            {
+                this.ObjMAOAF[kvp.Key] = kvp.Value;
+            }
+        }
+        FormBinding.BindObjectToControls(this.ObjMAOAF, pnlEdit);
+        LoadBanks(MerchantAppTypeUID);
+
+        this.WebTab1.SelectedIndex = 0;
+        this.ToggleButtons();
+    }
+
+    public override bool FormSave()
+    {
+        bool perform = false;
+
+
+        perform = this.FormDataCheck();
+
+
+        if (perform)
+        {
+
+            this.BindControlsToObject();
+
+            if (this.Adding)
+            {
+
+                int rowcount = DataAgent.InsertMerchantAppsOnlineAgentFees(this.ObjMAOAF);
+
+                if (rowcount == 1)
+                {
+                    WucMessage1.AddMessageStatus("Agent Fee Profile Added");
+                    perform = true;
+                }
+                else
+                {
+                    if (rowcount == DataAgent.ERRORNUM_EXISTING_PROFILENAME)
+                    {
+                        WucMessage1.AddMessageError("Profile Name already exists. Please Choose Another.");
+                    }
+                    else
+                    {
+                        WucMessage1.AddMessageError("Agent Fee Not Added");
+                    }
+
+
+                }
+
+            }
+            else
+            {
+                int rowcount = DataAgent.UpdateMerchantAppsOnlineAgentFees(this.ObjMAOAF);
+
+                if (rowcount == 1)
+                {
+                    WucMessage1.AddMessageStatus("Agent Fee Profile Update");
+                    perform = true;
+                }
+                else
+                {
+                    if (rowcount == DataAgent.ERRORNUM_EXISTING_PROFILENAME)
+                    {
+                        WucMessage1.AddMessageError("Profile Name already exists. Please Choose Another.");
+                    }
+                    else
+                    {
+                        WucMessage1.AddMessageError("Agent Fee Not Updated");
+                    }
+
+                }
+
+            }
+        }
+
+        return perform;
+    }
+}

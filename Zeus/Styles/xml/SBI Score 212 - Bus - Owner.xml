@@ -1,0 +1,160 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\SBI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>SBI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602540868</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/EXPERIAN;CA-/ORANGE CA 92868/MC-000212/IR/V-000777/OWNR-GOGGIN,ARLENE;CA-9840 S DELMONTE BLVD/STREETSBORO OH 44241</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>C00453224</ExperianFileNumber>
+				<ProfileType code="SBI       "/>
+				<ProfileDate>20080303</ProfileDate>
+				<ProfileTime>11:57:58</ProfileTime>
+				<TerminalNumber>-ADQ</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>EXPERIAN                                </BusinessName>
+				<StreetAddress>475 ANTON BLVD                </StreetAddress>
+				<City>COSTA MESA                  </City>
+				<State>CA</State>
+				<Zip>92626</Zip>
+				<PhoneNumber>714-830-7000</PhoneNumber>
+				<SIC code="7323">CREDIT REPORTING                      </SIC>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>001</TaxLienCount>
+				<EarliestTaxLienDate>20041209</EarliestTaxLienDate>
+				<MostRecentTaxLienDate>20041209</MostRecentTaxLienDate>
+				<JudgmentCount>010</JudgmentCount>
+				<EarliestJudgmentDate>20010608</EarliestJudgmentDate>
+				<MostRecentJudgmentDate>20060605</MostRecentJudgmentDate>
+				<CollectionCount>012</CollectionCount>
+				<LegalBalance>00029566</LegalBalance>
+				<UCCFilings>102</UCCFilings>
+				<UCCDerogatoryCount>021</UCCDerogatoryCount>
+				<CurrentAccountBalance>00046200</CurrentAccountBalance>
+				<CurrentTradelineCount>029</CurrentTradelineCount>
+				<MonthlyAverageDBT>013</MonthlyAverageDBT>
+				<HighestDBT6Months>014</HighestDBT6Months>
+				<HighestDBT5Quarters>056</HighestDBT5Quarters>
+				<ActiveTradelineCount>028</ActiveTradelineCount>
+				<AllTradelineBalance>00084300</AllTradelineBalance>
+				<AllTradelineCount>059</AllTradelineCount>
+				<AverageBalance5Quarters>00048460</AverageBalance5Quarters>
+				<SingleLineHighCredit>00056600</SingleLineHighCredit>
+				<LowBalance6Months>00032300</LowBalance6Months>
+				<HighBalance6Months>00055100</HighBalance6Months>
+				<EarliestCollectionDate>20020300</EarliestCollectionDate>
+				<MostRecentCollectionDate>20060300</MostRecentCollectionDate>
+				<CurrentDBT>011</CurrentDBT>
+				<EarliestUCCDate>20021223</EarliestUCCDate>
+				<MostRecentUCCDate>20071210</MostRecentUCCDate>
+				<JudgmentFlag>Y</JudgmentFlag>
+			</ExecutiveElements>
+			<ProprietorNameAndAddress>
+				<ProfileType code="SBI       "/>
+				<ProfileTime>11:57:58</ProfileTime>
+				<ProprietorName>ARLENE  GOGGIN                                              </ProprietorName>
+				<StreetAddress>9840 S DELMONTE BLVD                                        </StreetAddress>
+				<City>STREETSBORO                 </City>
+				<State>OH</State>
+				<Zip>44241    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>09        </Filler>
+				<ScoreInfo>
+					<Score>0000000446</Score>
+				</ScoreInfo>
+				<ProfileNumber>I602540868</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000212</ModelCode>
+					<ModelTitle>SMALL BUSINESS III                      </ModelTitle>
+					<CustomModelCode>09</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>001</PercentileRanking>
+				<Action>        HIGH RISK                               </Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="010 ">NUMBER OF COLLECTION ACCOUNTS                               </ScoreFactor>
+				<ScoreFactor code="013 ">NUMBER OF DEROGATORY PUBLIC RECORD ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="018 ">NUMBER OF DELINQUENT OR DEROGATORY ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="026 ">BALANCES ON DELINQUENT OR DEROGATORY ACCOUNTS               </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<BankruptcyFilings>000</BankruptcyFilings>
+				<BankruptcyFilingsBalance>0000000000000</BankruptcyFilingsBalance>
+				<CollectionsCount>0012</CollectionsCount>
+				<CollectionsCountLast24Months>001</CollectionsCountLast24Months>
+				<EstablishedDate>19770101</EstablishedDate>
+				<OriginalJudgmentsCount>010</OriginalJudgmentsCount>
+				<OriginalJudgmentsAmount>000028620</OriginalJudgmentsAmount>
+				<SicCode>7323</SicCode>
+				<RegularTradesBalanceCurrentQuarter>00048200</RegularTradesBalanceCurrentQuarter>
+				<RegularTradesBalance1QuarterPrior>00043600</RegularTradesBalance1QuarterPrior>
+				<RegularTradesBalance2QuartersPrior>00038900</RegularTradesBalance2QuartersPrior>
+				<RegularTradesBalance3QuartersPrior>00083300</RegularTradesBalance3QuartersPrior>
+				<RegularTradesBalance4QuartersPrior>00028300</RegularTradesBalance4QuartersPrior>
+				<DBTRegularTrades>011</DBTRegularTrades>
+				<DBTRegularTradesCurrentMonth>013</DBTRegularTradesCurrentMonth>
+				<DBTRegularTrades1MonthPrior>014</DBTRegularTrades1MonthPrior>
+				<DBTRegularTrades2MonthsPrior>013</DBTRegularTrades2MonthsPrior>
+				<DBTRegularTrades3MonthsPrior>013</DBTRegularTrades3MonthsPrior>
+				<DBTRegularTrades4MonthsPrior>014</DBTRegularTrades4MonthsPrior>
+				<DBTRegularTrades5MonthsPrior>011</DBTRegularTrades5MonthsPrior>
+				<TotalTradesCount>059</TotalTradesCount>
+				<TotalAccountBalance>00084300</TotalAccountBalance>
+				<MaximumBalanceLast12Months>0000000304400</MaximumBalanceLast12Months>
+				<OriginalTaxLiensCount>001</OriginalTaxLiensCount>
+				<OriginalTaxLiensAmount>000000946</OriginalTaxLiensAmount>
+				<OriginalUCCFilingsCount>00102</OriginalUCCFilingsCount>
+				<DerogUCCFilingsCount>021</DerogUCCFilingsCount>
+			</KeyModelElements>
+			<SmallBusinessKeyModelElements>
+				<ProprietorFirstName>ARLENE    </ProprietorFirstName>
+				<ProprietorSurname>GOGGIN              </ProprietorSurname>
+				<ConsumerAdverseAction>
+					<Code>007</Code>
+					<Description>LACK OF OPEN REVOLVING ACCOUNTS</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>060</Code>
+					<Description>NUMBER OF CURRENT ACCOUNTS</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>006</Code>
+					<Description>LACK OF OPEN REAL ESTATE ACCOUNTS</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<TotalOpenTrades>01</TotalOpenTrades>
+				<TotalOpenTrades6Months>00</TotalOpenTrades6Months>
+				<TotalDelinquent6Months>00</TotalDelinquent6Months>
+				<TotalPresentCurrent6Months>001</TotalPresentCurrent6Months>
+				<TotalDerogatoryCollectionPublicRecord>00</TotalDerogatoryCollectionPublicRecord>
+				<BalanceOpenTrades6Months>000000018</BalanceOpenTrades6Months>
+				<MonthlyPayment6Months>000000000</MonthlyPayment6Months>
+				<BalanceLimitRatio6Months>00000021</BalanceLimitRatio6Months>
+				<AgeOldestTrade>0397</AgeOldestTrade>
+				<TotalInquiries6Months>00</TotalInquiries6Months>
+				<AvailableCreditBankcards6Months>000000000</AvailableCreditBankcards6Months>
+				<TotalRevolving6Months>00</TotalRevolving6Months>
+				<BalanceRevolving6Months>000000000</BalanceRevolving6Months>
+				<AvailableCreditRevolving6Months>000000000</AvailableCreditRevolving6Months>
+				<ScorexPlusValue>0715</ScorexPlusValue>
+			</SmallBusinessKeyModelElements>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

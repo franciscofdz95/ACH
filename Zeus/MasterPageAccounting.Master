@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageAccounting.master.cs" Inherits="MasterPageAccounting" %>
+
+<%@ Register Src="UserControls/wucMessage.ascx" TagName="wucMessage" TagPrefix="uc1" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Src="UserControls/wucTopMenu.ascx" TagName="wucTopMenu" TagPrefix="uc2" %>
+<%@ Register Src="UserControls/wucFooter.ascx" TagName="wucFooter" TagPrefix="uc3" %>
+<%@ Register Src="UserControls/wucCommonScripts.ascx" TagName="wucCommonScripts" TagPrefix="uc4" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <uc4:wucCommonScripts ID="wucCommonScripts1" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <uc2:wucTopMenu ID="wucTopMenu1" TopMenuSelect="Accounting" runat="server" />
+        <table id='zeuslayout'>
+            <tr>
+                <td class='zleft'>
+                    <div id="menuside">
+                        <asp:Panel runat="server" CssClass="rounded" ID="pnlSideMenu">
+                            <ul>
+                                <li>
+                                    <asp:HyperLink ID="lnkInvoiceReport" runat="server" NavigateUrl="~/SecureReports/frmInvoiceReport.aspx">Billing</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkInvoiceConfirmation" runat="server" NavigateUrl="~/SecureReports/frmInvoiceConfirmation.aspx">Billing Confirmation</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkInvoiceHistory" runat="server" NavigateUrl="~/SecureReports/frmInvoiceHistory.aspx">Billing History</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="lnkBillingFees" runat="server" NavigateUrl="~/SecureReports/frmBillingFees.aspx">Billing Fees</asp:HyperLink>
+                                </li>
+                            </ul>
+                        </asp:Panel>
+                    </div>
+                </td>
+                <td class='zmiddle'>
+                    <uc1:wucMessage ID="WucMessage1" runat="server" />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class='zright'></td>
+            </tr>
+        </table>
+        <uc3:wucFooter ID="wucFooter1" runat="server" />
+    </form>
+</body>
+</html>

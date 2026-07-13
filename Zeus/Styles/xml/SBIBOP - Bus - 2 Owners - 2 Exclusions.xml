@@ -1,0 +1,391 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\SBIBOP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>SBIBOP</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602541074</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/EXPERIAN;CA-/ORANGE CA 92868/MC-000212/IR/BOP/V-000777/OWNR-GARCIA,DANIEL;CA-4190 HIGHWOOD RD/MOUND MN 55364/OWNR-GARCIA,DANIEL;CA-4190 HIGHWOOD RD/MOUND MN 55364</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>C00453224</ExperianFileNumber>
+				<ProfileType code="SBI/OWNER "/>
+				<ProfileDate>20080304</ProfileDate>
+				<ProfileTime>15:13:20</ProfileTime>
+				<TerminalNumber>-ADE</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>EXPERIAN                                </BusinessName>
+				<StreetAddress>475 ANTON BLVD                </StreetAddress>
+				<City>COSTA MESA                  </City>
+				<State>CA</State>
+				<Zip>92626</Zip>
+				<PhoneNumber>714-830-7000</PhoneNumber>
+				<SIC code="7323">CREDIT REPORTING                      </SIC>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>001</TaxLienCount>
+				<EarliestTaxLienDate>20041209</EarliestTaxLienDate>
+				<MostRecentTaxLienDate>20041209</MostRecentTaxLienDate>
+				<JudgmentCount>010</JudgmentCount>
+				<EarliestJudgmentDate>20010608</EarliestJudgmentDate>
+				<MostRecentJudgmentDate>20060605</MostRecentJudgmentDate>
+				<CollectionCount>012</CollectionCount>
+				<LegalBalance>00029566</LegalBalance>
+				<UCCFilings>102</UCCFilings>
+				<UCCDerogatoryCount>021</UCCDerogatoryCount>
+				<CurrentAccountBalance>00046200</CurrentAccountBalance>
+				<CurrentTradelineCount>029</CurrentTradelineCount>
+				<MonthlyAverageDBT>013</MonthlyAverageDBT>
+				<HighestDBT6Months>014</HighestDBT6Months>
+				<HighestDBT5Quarters>056</HighestDBT5Quarters>
+				<ActiveTradelineCount>028</ActiveTradelineCount>
+				<AllTradelineBalance>00084300</AllTradelineBalance>
+				<AllTradelineCount>059</AllTradelineCount>
+				<AverageBalance5Quarters>00048460</AverageBalance5Quarters>
+				<SingleLineHighCredit>00056600</SingleLineHighCredit>
+				<LowBalance6Months>00032300</LowBalance6Months>
+				<HighBalance6Months>00055100</HighBalance6Months>
+				<EarliestCollectionDate>20020300</EarliestCollectionDate>
+				<MostRecentCollectionDate>20060300</MostRecentCollectionDate>
+				<CurrentDBT>011</CurrentDBT>
+				<EarliestUCCDate>20021223</EarliestUCCDate>
+				<MostRecentUCCDate>20071210</MostRecentUCCDate>
+				<JudgmentFlag>Y</JudgmentFlag>
+			</ExecutiveElements>
+			<ProprietorNameAndAddress>
+				<ProfileType code="SBI/OWNER "/>
+				<ProfileTime>15:13:20</ProfileTime>
+				<ProprietorName>DANIEL B GARCIA                                             </ProprietorName>
+				<StreetAddress>4190 HIGHWOOD RD                                            </StreetAddress>
+				<City>MOUND                       </City>
+				<State>MN</State>
+				<Zip>55364    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<ProprietorNameAndAddress>
+				<ProfileType code="SBI/OWNER "/>
+				<ProfileTime>15:13:20</ProfileTime>
+				<ProprietorName>DANIEL B GARCIA                                             </ProprietorName>
+				<StreetAddress>4190 HIGHWOOD RD                                            </StreetAddress>
+				<City>MOUND                       </City>
+				<State>MN</State>
+				<Zip>55364    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<CustomHeader code="H">THE OBJECTIVE OF THE EXPERIAN INTELLISCORE MODEL IS TO PREDICT                  </CustomHeader>
+			<CustomHeader code="H">SERIOUSLY DEROGATORY PAYMENT BEHAVIOR.  SCORES RANGE FROM 0 TO 100              </CustomHeader>
+			<CustomHeader code="H">WHERE 0 REPRESENTS A HIGH RISK AND 100 REPRESENTS A LOW RISK.                   </CustomHeader>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>03        </Filler>
+				<ScoreInfo>
+					<Score>0000002428</Score>
+				</ScoreInfo>
+				<ProfileNumber>I602541074</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000210</ModelCode>
+					<ModelTitle>COMMERCIAL ALL-INDUSTRY II              </ModelTitle>
+					<CustomModelCode>03</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>012</PercentileRanking>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="018 ">NUMBER OF DELINQUENT OR DEROGATORY ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="013 ">NUMBER OF DEROGATORY PUBLIC RECORD ACCOUNTS                 </ScoreFactor>
+				<ScoreFactor code="045 ">BALANCE ON HIGH CREDIT                                      </ScoreFactor>
+				<ScoreFactor code="034 ">NUMBER OF TRADES WITH A HIGH BALANCE TO HIGH CREDIT RATIO   </ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<TotalAgedTrades>00025</TotalAgedTrades>
+				<TotalAgedTradesNoInfoLast4Months>00030</TotalAgedTradesNoInfoLast4Months>
+				<BalanceAgedTradesNoInfoLast4Months>0000000038100</BalanceAgedTradesNoInfoLast4Months>
+				<WeightedDBTAgedTradesNoInfoLast4Months>0000000000025</WeightedDBTAgedTradesNoInfoLast4Months>
+				<MaximumDBTAgedTradesNoInfoLast4Months>00105</MaximumDBTAgedTradesNoInfoLast4Months>
+				<CommercialBankAccounts>000</CommercialBankAccounts>
+				<CommercialBankAccountsPast6Months>00000</CommercialBankAccountsPast6Months>
+				<CommercialBankAccountsPast12Months>00000</CommercialBankAccountsPast12Months>
+				<NewestCommercialBankAccountAge>00000</NewestCommercialBankAccountAge>
+				<OldestCommercialBankAccountAge>00000</OldestCommercialBankAccountAge>
+				<CommercialBankAccountsAverageAge>000000000</CommercialBankAccountsAverageAge>
+				<AssetBasedCommercialBankAccounts>00000</AssetBasedCommercialBankAccounts>
+				<BankLoanAccounts>00000</BankLoanAccounts>
+				<CommercialBankAccountsBalance>0000000000000</CommercialBankAccountsBalance>
+				<CommercialBankAccountsBalancePast6Months>0000000000000</CommercialBankAccountsBalancePast6Months>
+				<CommercialBankAccountsBalancePast12Months>0000000000000</CommercialBankAccountsBalancePast12Months>
+				<BankruptcyFilings>000</BankruptcyFilings>
+				<BankruptcyFilingsLast24Months>000</BankruptcyFilingsLast24Months>
+				<NonFiledBankruptcyActions>00000</NonFiledBankruptcyActions>
+				<OpenBankruptcyFilingsLast24Months>000</OpenBankruptcyFilingsLast24Months>
+				<BankruptcyFilingsBalance>0000000000000</BankruptcyFilingsBalance>
+				<BankruptcyFilingsBalanceLast24Months>0000000000000</BankruptcyFilingsBalanceLast24Months>
+				<NonFiledBankruptcyActionsBalance>0000000000000</NonFiledBankruptcyActionsBalance>
+				<MostRecentBankruptcyFilingAge>00000</MostRecentBankruptcyFilingAge>
+				<MostRecentNonFiledBankruptcyActionAge>00000</MostRecentNonFiledBankruptcyActionAge>
+				<BusinessTypeCode>F</BusinessTypeCode>
+				<CollectionsCount>0012</CollectionsCount>
+				<CollectionsCountLast12Months>00000</CollectionsCountLast12Months>
+				<CollectionsCountLast24Months>001</CollectionsCountLast24Months>
+				<OpenCollectionsCount>0005</OpenCollectionsCount>
+				<AmountPlacedCollectionTrades>00006235</AmountPlacedCollectionTrades>
+				<AmountCollectedCollectionTrades>0000000000231</AmountCollectedCollectionTrades>
+				<AmountCollectedOpenCollectionTrades>0000000000000</AmountCollectedOpenCollectionTrades>
+				<MaximumAmountCollectedCollectionTrade>0000000000231</MaximumAmountCollectedCollectionTrade>
+				<MostRecentCollectionTradeAge>00024</MostRecentCollectionTradeAge>
+				<MostRecentOpenCollectionTradeAge>00042</MostRecentOpenCollectionTradeAge>
+				<CombinedTrades0PlusDBT>00008</CombinedTrades0PlusDBT>
+				<CombinedTrades30PlusDBT>00004</CombinedTrades30PlusDBT>
+				<CombinedTrades60PlusDBT>00002</CombinedTrades60PlusDBT>
+				<CombinedTrades90PlusDBT>00001</CombinedTrades90PlusDBT>
+				<CombinedTradesBalance>0000000046200</CombinedTradesBalance>
+				<CombinedTradesDBT>00011</CombinedTradesDBT>
+				<EmployeeSizeCode/>
+				<EstablishedDate>19770101</EstablishedDate>
+				<DBTUnkownComparedToAverage>00009</DBTUnkownComparedToAverage>
+				<DBTLowerThanAverage>006</DBTLowerThanAverage>
+				<DBTHigherThanAverage>00006</DBTHigherThanAverage>
+				<DBTSameAsAverage>00001</DBTSameAsAverage>
+				<InquiriesCountLast9Months>010</InquiriesCountLast9Months>
+				<InquiriesCountLast6Months>00004</InquiriesCountLast6Months>
+				<InquiriesCountLast3Months>00002</InquiriesCountLast3Months>
+				<OriginalJudgmentsCount>010</OriginalJudgmentsCount>
+				<JudgmentsCountLast24Months>001</JudgmentsCountLast24Months>
+				<NonFiledJudgmentActionsCount>00005</NonFiledJudgmentActionsCount>
+				<OriginalJudgmentsAmount>000028620</OriginalJudgmentsAmount>
+				<JudgmentsAmountLast24Months>000000100</JudgmentsAmountLast24Months>
+				<NonFiledJudgmentActionsAmount>0000000022727</NonFiledJudgmentActionsAmount>
+				<MostRecentJudgmentAge>00021</MostRecentJudgmentAge>
+				<MostRecentNonFiledJudgmentActionAge>00032</MostRecentNonFiledJudgmentActionAge>
+				<LegalFilingsCount>00011</LegalFilingsCount>
+				<LeasingTradesCount>000</LeasingTradesCount>
+				<VariableLeasingTradesCount>000</VariableLeasingTradesCount>
+			</KeyModelElements>
+			<KeyModelElements>
+				<LeasingTradesWithPeriodicalPayments>00000</LeasingTradesWithPeriodicalPayments>
+				<LeasingTradesWithSatisfactoryPayments>00000</LeasingTradesWithSatisfactoryPayments>
+				<LeasingTradesWithSlowPayments>000</LeasingTradesWithSlowPayments>
+				<VehicleLeasingTradesCount>00000</VehicleLeasingTradesCount>
+				<EquipmentLeasingTradesCount>00000</EquipmentLeasingTradesCount>
+				<FinanceLeasingTradesCount>00000</FinanceLeasingTradesCount>
+				<LeasingTrades1To12Months>00000</LeasingTrades1To12Months>
+				<LeasingTrades13To24Months>00000</LeasingTrades13To24Months>
+				<LeasingTrades25To60Months>00000</LeasingTrades25To60Months>
+				<LeasingTrades60PlusMonths>00000</LeasingTrades60PlusMonths>
+				<LeasingTradesWithScheduledExcludeLate>00000</LeasingTradesWithScheduledExcludeLate>
+				<LeasingTradesWithScheduledIncludeLate>00000</LeasingTradesWithScheduledIncludeLate>
+				<LeasingTradesWithOutstandingAmount>00000</LeasingTradesWithOutstandingAmount>
+				<LeasingTradesWithRemainingBalance>00000</LeasingTradesWithRemainingBalance>
+				<LeasingTradesOnTime>00000</LeasingTradesOnTime>
+				<LeasingTrades1To30DaysLate>00000</LeasingTrades1To30DaysLate>
+				<LeasingTrades31To60DaysLate>00000</LeasingTrades31To60DaysLate>
+				<LeasingTrades61To90DaysLate>00000</LeasingTrades61To90DaysLate>
+				<LeasingTrades91PlusDaysLate>00000</LeasingTrades91PlusDaysLate>
+				<LeasingTradesOriginalAmount>0000000000000</LeasingTradesOriginalAmount>
+				<LeasingTradesScheduledAmountExcludeLate>0000000000000</LeasingTradesScheduledAmountExcludeLate>
+				<LeasingTradesScheduledAmountIncludeLate>0000000000000</LeasingTradesScheduledAmountIncludeLate>
+				<LeasingTradesOutstandingAmount>0000000000000</LeasingTradesOutstandingAmount>
+				<LeasingTradesRemainingBalance>0000000000000</LeasingTradesRemainingBalance>
+				<LeasingTradesLatePaymentsCount>0000</LeasingTradesLatePaymentsCount>
+				<LeasingTradesCurrentPaymentsCount>0000</LeasingTradesCurrentPaymentsCount>
+				<LeasingTradesOutstandingPaymentsCount>00000</LeasingTradesOutstandingPaymentsCount>
+				<LeasingTradeMaximumOriginalAmount>0000000000000</LeasingTradeMaximumOriginalAmount>
+				<LeasingTradesMaximumScheduledAmountExcludeLate>0000000000000</LeasingTradesMaximumScheduledAmountExcludeLate>
+				<LeasingTradesMaximumScheduledAmountIncludeLate>0000000000000</LeasingTradesMaximumScheduledAmountIncludeLate>
+				<LeasingTradesMaximumRemainingBalance>0000000000000</LeasingTradesMaximumRemainingBalance>
+				<NewTradesCount>001</NewTradesCount>
+				<NewTradesBalance>00000000</NewTradesBalance>
+				<NewTradesDBT>00000</NewTradesDBT>
+				<NewTradeMaximumDBT>00000</NewTradeMaximumDBT>
+				<NewTradesMaskedToHighestRatio>00000</NewTradesMaskedToHighestRatio>
+				<OtherTradesCount>005</OtherTradesCount>
+				<OtherTradesCountLast4Months>000</OtherTradesCountLast4Months>
+				<OtherTradesMaskedBalanceLast4Months>0000000000000</OtherTradesMaskedBalanceLast4Months>
+				<AverageDBTOtherTradesLast4Months>00000000</AverageDBTOtherTradesLast4Months>
+				<MaximumDBTOtherTradesLast4Months>00000000</MaximumDBTOtherTradesLast4Months>
+				<OtherTradesMaskedToHighestRatio>00000</OtherTradesMaskedToHighestRatio>
+				<SicCode>7323</SicCode>
+				<AllTradesMaskedToHighestRatio>00025</AllTradesMaskedToHighestRatio>
+				<OwnershipCode/>
+				<MostRecentPublicRecordAge>00021</MostRecentPublicRecordAge>
+				<OldestPublicRecordAge>00021</OldestPublicRecordAge>
+				<PublicRecordsAverageAge>0021</PublicRecordsAverageAge>
+				<RegularTradesCount>028</RegularTradesCount>
+				<RegularTradesBalance>00046200</RegularTradesBalance>
+				<RegularTradesBalanceCurrentMonth>00048600</RegularTradesBalanceCurrentMonth>
+				<RegularTradesBalance1MonthPrior>00032300</RegularTradesBalance1MonthPrior>
+				<RegularTradesBalance2MonthsPrior>00036500</RegularTradesBalance2MonthsPrior>
+				<RegularTradesBalance3MonthsPrior>00053700</RegularTradesBalance3MonthsPrior>
+				<RegularTradesBalance4MonthsPrior>00055100</RegularTradesBalance4MonthsPrior>
+				<RegularTradesBalance5MonthsPrior>00047500</RegularTradesBalance5MonthsPrior>
+				<RegularTradesAverageBalanceCurrent>0000000032033</RegularTradesAverageBalanceCurrent>
+				<RegularTradesAverageBalance1To30DBT>0000000007306</RegularTradesAverageBalance1To30DBT>
+				<RegularTradesAverageBalance31To60DBT>0000000002132</RegularTradesAverageBalance31To60DBT>
+				<RegularTradesAverageBalance61To90DBT>00001790</RegularTradesAverageBalance61To90DBT>
+			</KeyModelElements>
+			<KeyModelElements>
+				<RegularTradesAverageBalance91PlusDBT>00002354</RegularTradesAverageBalance91PlusDBT>
+				<RegularTradesBalanceCurrentQuarter>00048200</RegularTradesBalanceCurrentQuarter>
+				<RegularTradesBalance1QuarterPrior>00043600</RegularTradesBalance1QuarterPrior>
+				<RegularTradesBalance2QuartersPrior>00038900</RegularTradesBalance2QuartersPrior>
+				<RegularTradesBalance3QuartersPrior>00083300</RegularTradesBalance3QuartersPrior>
+				<RegularTradesBalance4QuartersPrior>00028300</RegularTradesBalance4QuartersPrior>
+				<DBTRegularTrades>011</DBTRegularTrades>
+				<DBTRegularTradesCurrentMonth>013</DBTRegularTradesCurrentMonth>
+				<DBTRegularTrades1MonthPrior>014</DBTRegularTrades1MonthPrior>
+				<DBTRegularTrades2MonthsPrior>013</DBTRegularTrades2MonthsPrior>
+				<DBTRegularTrades3MonthsPrior>013</DBTRegularTrades3MonthsPrior>
+				<DBTRegularTrades4MonthsPrior>014</DBTRegularTrades4MonthsPrior>
+				<DBTRegularTrades5MonthsPrior>011</DBTRegularTrades5MonthsPrior>
+				<MaximumDBTRegularTrade>00105</MaximumDBTRegularTrade>
+				<DBTRegularTradesCurrentQuarter>014</DBTRegularTradesCurrentQuarter>
+				<DBTRegularTrades1QuarterPrior>009</DBTRegularTrades1QuarterPrior>
+				<DBTRegularTrades2QuartersPrior>043</DBTRegularTrades2QuartersPrior>
+				<DBTRegularTrades3QuartersPrior>014</DBTRegularTrades3QuartersPrior>
+				<DBTRegularTrades4QuartersPrior>056</DBTRegularTrades4QuartersPrior>
+				<RegularTradesCountCurrent>011</RegularTradesCountCurrent>
+				<RegularTradesCount1To30DBT>00003</RegularTradesCount1To30DBT>
+				<RegularTradesCount31To60DBT>003</RegularTradesCount31To60DBT>
+				<RegularTradesCount61To90DBT>001</RegularTradesCount61To90DBT>
+				<RegularTradesCount91PlusDBT>001</RegularTradesCount91PlusDBT>
+				<RegularTradesCountDerog>001</RegularTradesCountDerog>
+				<DBTChangeRegularTrades6MonthsPrior sign=" ">00000</DBTChangeRegularTrades6MonthsPrior>
+				<DBTChangeRegularTrades5QuartersPrior sign="-">00010</DBTChangeRegularTrades5QuartersPrior>
+				<RegularTradesMaskedToHighestRatio>00025</RegularTradesMaskedToHighestRatio>
+				<BadTradesCount>006</BadTradesCount>
+				<BadTradesMaskedBalance>0000000013800</BadTradesMaskedBalance>
+				<GoodTradesCount>007</GoodTradesCount>
+				<GoodTradesMaskedBalance>0000000050600</GoodTradesMaskedBalance>
+				<IndeterminateTradesCount>00005</IndeterminateTradesCount>
+				<TotalTradesCount>059</TotalTradesCount>
+				<TotalActiveTradesCount>027</TotalActiveTradesCount>
+				<TradesCountBalanceToLoan70Plus>003</TradesCountBalanceToLoan70Plus>
+				<TotalTradesCountLast6Months>00028</TotalTradesCountLast6Months>
+				<TotalTradesCountLast12Months>00031</TotalTradesCountLast12Months>
+				<ActiveTradesCountLast6Months>010</ActiveTradesCountLast6Months>
+				<ActiveTradesCountLast12Months>014</ActiveTradesCountLast12Months>
+				<MostRecentTradeAge>0003</MostRecentTradeAge>
+				<OldestTradeAge>00039</OldestTradeAge>
+				<TradesAverageAge>00014</TradesAverageAge>
+				<TradesCountDBT0Plus>013</TradesCountDBT0Plus>
+				<TradesCountDBT30Plus>00008</TradesCountDBT30Plus>
+				<TradesCountDBT60Plus>00006</TradesCountDBT60Plus>
+				<TradesCountDBT90Plus>003</TradesCountDBT90Plus>
+				<TotalAccountBalance>00084300</TotalAccountBalance>
+				<HighCreditBalance>00665100</HighCreditBalance>
+				<MaximumBalanceCurrent>0000000024672</MaximumBalanceCurrent>
+				<MaximumBalance1To30DBT>00016400</MaximumBalance1To30DBT>
+				<MaximumBalance31To60DBT>00002156</MaximumBalance31To60DBT>
+				<MaximumBalance61To90DBT>00005488</MaximumBalance61To90DBT>
+				<MaximumBalance91PlusDBT>0000000002156</MaximumBalance91PlusDBT>
+				<AccountBalanceCurrent>0000000048918</AccountBalanceCurrent>
+				<AccountBalance1To30DBT>0000000020690</AccountBalance1To30DBT>
+				<AccountBalance31To60DBT>00003240</AccountBalance31To60DBT>
+				<AccountBalance61To90DBT>00005688</AccountBalance61To90DBT>
+				<AccountBalance91PlusDBT>00005764</AccountBalance91PlusDBT>
+				<MonthsOnFile>0374</MonthsOnFile>
+				<MaximumBalanceLast12Months>0000000304400</MaximumBalanceLast12Months>
+				<TradesCountMaskedBalanceGreaterThanHighCredit>00004</TradesCountMaskedBalanceGreaterThanHighCredit>
+				<TradesCountNet30>035</TradesCountNet30>
+				<TradesCountNet60>00000</TradesCountNet60>
+				<TradesCountNet61Plus>00000</TradesCountNet61Plus>
+			</KeyModelElements>
+			<KeyModelElements>
+				<TradesCountCash>00004</TradesCountCash>
+				<TradesCountContract>00006</TradesCountContract>
+				<TradesCountRevolvingCredit>001</TradesCountRevolvingCredit>
+				<TradesCountVaried>009</TradesCountVaried>
+				<TradesCountOther>00004</TradesCountOther>
+				<OriginalTaxLiensCount>001</OriginalTaxLiensCount>
+				<TaxLiensCountLast24Months>000</TaxLiensCountLast24Months>
+				<NonFiledTaxLiensCount>00000</NonFiledTaxLiensCount>
+				<OriginalTaxLiensAmount>000000946</OriginalTaxLiensAmount>
+				<TaxLiensAmountLast24Months>0000000000000</TaxLiensAmountLast24Months>
+				<NonFiledTaxLiensAmount>0000000000000</NonFiledTaxLiensAmount>
+				<MostRecentTaxLienAge>00039</MostRecentTaxLienAge>
+				<MostRecentNonFiledTaxLienAge>00000</MostRecentNonFiledTaxLienAge>
+				<ActiveTradesCountZeroBalance>00009</ActiveTradesCountZeroBalance>
+				<TradesCountZeroBalance>00041</TradesCountZeroBalance>
+				<UCCFilingsCountDetail>00109</UCCFilingsCountDetail>
+				<UCCFilingsCountSummary>109</UCCFilingsCountSummary>
+				<OpenUCCFilingsCountLast24Months>006</OpenUCCFilingsCountLast24Months>
+				<Original5YearUCCFilingsCountLast24Months>00006</Original5YearUCCFilingsCountLast24Months>
+				<OriginalUCCFilingsCount>00102</OriginalUCCFilingsCount>
+				<Original5YearUCCFilingsCount>00102</Original5YearUCCFilingsCount>
+				<UCCFilingsCountAmended>00006</UCCFilingsCountAmended>
+				<UCCFilingsCountAssigned>00000</UCCFilingsCountAssigned>
+				<UCCFilingsCountPatialRelease>00000</UCCFilingsCountPatialRelease>
+				<UCCFilingsCountFullRelease>00000</UCCFilingsCountFullRelease>
+				<UCCFilingsCountReleased>00000</UCCFilingsCountReleased>
+				<UCCFilingsCountTerminated>00001</UCCFilingsCountTerminated>
+				<UCCFilingsCountContinued>00000</UCCFilingsCountContinued>
+				<Original10YearUCCFilingsCount>00000</Original10YearUCCFilingsCount>
+				<DerogUCCFilingsCount>021</DerogUCCFilingsCount>
+				<DerogUCCFilingsCountLast24Months>00000</DerogUCCFilingsCountLast24Months>
+			</KeyModelElements>
+			<SmallBusinessKeyModelElements>
+				<ProprietorFirstName>DANIEL    </ProprietorFirstName>
+				<ProprietorSurname>GARCIA              </ProprietorSurname>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ScorexPlusValue>9003</ScorexPlusValue>
+			</SmallBusinessKeyModelElements>
+			<SmallBusinessKeyModelElements>
+				<ProprietorFirstName>DANIEL    </ProprietorFirstName>
+				<ProprietorSurname>GARCIA              </ProprietorSurname>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ConsumerAdverseAction>
+					<Code>000</Code>
+					<Description>NO MESSAGE FOUND</Description>
+				</ConsumerAdverseAction>
+				<ScorexPlusValue>9003</ScorexPlusValue>
+			</SmallBusinessKeyModelElements>
+			<CustomFooter code="F">TERMS:_________________________  CREDIT LIMIT:________________________          </CustomFooter>
+			<CustomFooter code="F">COMMENTS:______________________  SIGNATURE:___________________________          </CustomFooter>
+			<CustomFooter code="F">DPL#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">PAM#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">CCID#____________________                                                       </CustomFooter>
+			<CustomFooter code="F">TERMS:_________________________  CREDIT LIMIT:________________________          </CustomFooter>
+			<CustomFooter code="F">COMMENTS:______________________  SIGNATURE:___________________________          </CustomFooter>
+			<CustomFooter code="F">DPL#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">PAM#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">CCID#____________________                                                       </CustomFooter>
+			<CustomFooter code="F">TERMS:_________________________  CREDIT LIMIT:________________________          </CustomFooter>
+			<CustomFooter code="F">COMMENTS:______________________  SIGNATURE:___________________________          </CustomFooter>
+			<CustomFooter code="F">DPL#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">PAM#_____________________ DATE OF RPT.________________ INITIALS_______          </CustomFooter>
+			<CustomFooter code="F">CCID#____________________                                                       </CustomFooter>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

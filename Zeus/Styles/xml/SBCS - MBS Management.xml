@@ -1,0 +1,3133 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\SBCS\SBCS.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>user1abc001</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<SmallBusinessCreditShare>
+			<InputSummary>
+				<SubscriberNumber>998708</SubscriberNumber>
+				<InquiryTransactionNumber>C807996993</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/MBS MANAGEMENT SERVICES;CA-1 GALLERIA BLVD STE 1950/METAIRIE LA 70001/SBCS/V-000777</Inquiry>
+			</InputSummary>
+			<SBCSBusinessNameAndAddress>
+				<ExperianBIN>771317698</ExperianBIN>
+				<ProfileType code="SBCSREPORT">Small Business Credit Share</ProfileType>
+				<ProfileDate>20091008</ProfileDate>
+				<ProfileTime>13:27:29</ProfileTime>
+				<TerminalNumber>-AM7</TerminalNumber>
+				<FileEstablishDate>19880200</FileEstablishDate>
+				<FileEstablishFlag code=" "/>
+				<BusinessName>MBS MANAGEMENT                          </BusinessName>
+				<StreetAddress>1 GALLERIA BLVD STE  1950     </StreetAddress>
+				<City>METAIRIE                    </City>
+				<State>LA</State>
+				<Zip>70001</Zip>
+				<ZipExtension>7580</ZipExtension>
+				<PhoneNumber>504-836-5075</PhoneNumber>
+				<SIC>
+					<SICIndicator>P</SICIndicator>
+					<SICCode code="651303  "/>
+				</SIC>
+				<SIC>
+					<SICIndicator>A</SICIndicator>
+					<SICCode code="65130000">Apartment Building Operators          </SICCode>
+				</SIC>
+				<CorporateInfo>
+					<StateOfOrigin code="TX">Texas</StateOfOrigin>
+					<DateIncorporated>19971009</DateIncorporated>
+					<StatusFlag code="I">Inactive</StatusFlag>
+				</CorporateInfo>
+				<FederalTaxID>XXXXX0324</FederalTaxID>
+			</SBCSBusinessNameAndAddress>
+			<AdditionalBusinessIdentity>
+				<BusinessName>MBS MANAGEMENT INC                      </BusinessName>
+				<AddressType code="PR"/>
+				<StreetAddress>2020 PLANTATION               </StreetAddress>
+				<City>METAIRIE                    </City>
+				<State>LA</State>
+				<Zip>70001</Zip>
+				<PhoneNumber>504-836-5075</PhoneNumber>
+			</AdditionalBusinessIdentity>
+			<AdditionalBusinessIdentity>
+				<BusinessName>MBS INVESTMENTS                         </BusinessName>
+				<AddressType code="PR"/>
+				<StreetAddress>3120 PALM VISTA DR            </StreetAddress>
+				<City>METAIRIE                    </City>
+				<State>LA</State>
+				<Zip>70003</Zip>
+				<ZipExtension>2513</ZipExtension>
+			</AdditionalBusinessIdentity>
+			<AdditionalBusinessIdentity>
+				<BusinessName>MBS STEEPLECREST LTD                    </BusinessName>
+				<AddressType code="PR"/>
+				<StreetAddress>11220 WEST RD                 </StreetAddress>
+				<City>HOUSTON                     </City>
+				<State>TX</State>
+				<Zip>77065</Zip>
+				<ZipExtension>4700</ZipExtension>
+				<PhoneNumber>281-890-0226</PhoneNumber>
+			</AdditionalBusinessIdentity>
+			<SBCSExecutiveElements>
+				<BankruptcyFilingCount>00022</BankruptcyFilingCount>
+				<EarliestBankruptcyDate>20071105</EarliestBankruptcyDate>
+				<MostRecentBankruptcyDate>20080129</MostRecentBankruptcyDate>
+				<TaxLienCount>00000</TaxLienCount>
+				<JudgmentCount>00031</JudgmentCount>
+				<EarliestJudgmentDate>20040422</EarliestJudgmentDate>
+				<MostRecentJudgmentDate>20080618</MostRecentJudgmentDate>
+				<CollectionCount>00014</CollectionCount>
+				<CollectionCountPast24Months>00000</CollectionCountPast24Months>
+				<LegalBalance>00000281879</LegalBalance>
+				<UCCFilings>00030</UCCFilings>
+				<UCCDerogatoryCount>00010</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000684</CurrentAccountBalance>
+				<CurrentTradelineCount>00007</CurrentTradelineCount>
+				<MonthlyAverageDBT>105</MonthlyAverageDBT>
+				<HighestDBT6Months>105</HighestDBT6Months>
+				<HighestDBT5Quarters>105</HighestDBT5Quarters>
+				<ActiveTradelineCount>00007</ActiveTradelineCount>
+				<AllTradelineBalance>00000001464</AllTradelineBalance>
+				<AllTradelineCount>00017</AllTradelineCount>
+				<AverageBalance5Quarters>00000000505</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000385</SingleLineHighCredit>
+				<LowBalance6Months>00000000299</LowBalance6Months>
+				<HighBalance6Months>00000017929</HighBalance6Months>
+				<EarliestCollectionDate>20040800</EarliestCollectionDate>
+				<MostRecentCollectionDate>20070800</MostRecentCollectionDate>
+				<CurrentDBT>105</CurrentDBT>
+				<YearofIncorporation>19971009</YearofIncorporation>
+				<TaxID>721320324</TaxID>
+				<EarliestUCCDate>20041102</EarliestUCCDate>
+				<MostRecentUCCDate>20081211</MostRecentUCCDate>
+				<BankruptcyFlag>Y</BankruptcyFlag>
+				<JudgmentFlag>Y</JudgmentFlag>
+				<AdditionalDataVariables>
+					<HighestDBTEver>105</HighestDBTEver>
+					<WorstNonFinancialTradePerformanceEver code="L">Uncollected / Charge-off</WorstNonFinancialTradePerformanceEver>
+					<WorstFinancialTradePerformanceEver code="L">Uncollected / Charge-off</WorstFinancialTradePerformanceEver>
+					<NbrOfFinancialTradesGreaterThan100Utilized>00000</NbrOfFinancialTradesGreaterThan100Utilized>
+					<NbrOfAccountsCurrentlyDelinquent>00007</NbrOfAccountsCurrentlyDelinquent>
+					<InquiriesPrevious6Months>00000</InquiriesPrevious6Months>
+					<InquiriesPrevious12Months>00000</InquiriesPrevious12Months>
+				</AdditionalDataVariables>
+			</SBCSExecutiveElements>
+			<SBCSKeyMetrics>
+				<RevolvingAccounts>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+					<PercentageUsed>000</PercentageUsed>
+				</RevolvingAccounts>
+				<AllAccountsTotal>
+					<PercentageUsed>068</PercentageUsed>
+					<PercentageUsed>069</PercentageUsed>
+					<PercentageUsed>070</PercentageUsed>
+					<PercentageUsed>072</PercentageUsed>
+					<PercentageUsed>073</PercentageUsed>
+					<PercentageUsed>074</PercentageUsed>
+					<PercentageUsed>076</PercentageUsed>
+					<PercentageUsed>077</PercentageUsed>
+					<PercentageUsed>078</PercentageUsed>
+					<PercentageUsed>080</PercentageUsed>
+					<PercentageUsed>081</PercentageUsed>
+					<PercentageUsed>083</PercentageUsed>
+					<PercentageUsed>084</PercentageUsed>
+					<PercentageUsed>085</PercentageUsed>
+					<PercentageUsed>087</PercentageUsed>
+					<PercentageUsed>088</PercentageUsed>
+					<PercentageUsed>090</PercentageUsed>
+					<PercentageUsed>091</PercentageUsed>
+					<PercentageUsed>092</PercentageUsed>
+					<PercentageUsed>094</PercentageUsed>
+					<PercentageUsed>095</PercentageUsed>
+					<PercentageUsed>096</PercentageUsed>
+					<PercentageUsed>098</PercentageUsed>
+					<PercentageUsed>044</PercentageUsed>
+					<PercentageUsed>055</PercentageUsed>
+					<PercentageUsed>056</PercentageUsed>
+					<PercentageUsed>053</PercentageUsed>
+					<PercentageUsed>056</PercentageUsed>
+					<PercentageUsed>056</PercentageUsed>
+					<PercentageUsed>062</PercentageUsed>
+					<PercentageUsed>060</PercentageUsed>
+					<PercentageUsed>066</PercentageUsed>
+					<PercentageUsed>068</PercentageUsed>
+					<PercentageUsed>070</PercentageUsed>
+					<PercentageUsed>068</PercentageUsed>
+					<PercentageUsed>069</PercentageUsed>
+				</AllAccountsTotal>
+				<FinancialAccounts>
+					<PercentageUsed>067</PercentageUsed>
+					<PercentageUsed>068</PercentageUsed>
+					<PercentageUsed>070</PercentageUsed>
+					<PercentageUsed>071</PercentageUsed>
+					<PercentageUsed>073</PercentageUsed>
+					<PercentageUsed>074</PercentageUsed>
+					<PercentageUsed>076</PercentageUsed>
+					<PercentageUsed>077</PercentageUsed>
+					<PercentageUsed>079</PercentageUsed>
+					<PercentageUsed>080</PercentageUsed>
+					<PercentageUsed>081</PercentageUsed>
+					<PercentageUsed>083</PercentageUsed>
+					<PercentageUsed>084</PercentageUsed>
+					<PercentageUsed>086</PercentageUsed>
+					<PercentageUsed>087</PercentageUsed>
+					<PercentageUsed>089</PercentageUsed>
+					<PercentageUsed>090</PercentageUsed>
+					<PercentageUsed>091</PercentageUsed>
+					<PercentageUsed>093</PercentageUsed>
+					<PercentageUsed>094</PercentageUsed>
+					<PercentageUsed>096</PercentageUsed>
+					<PercentageUsed>097</PercentageUsed>
+					<PercentageUsed>099</PercentageUsed>
+					<PercentageUsed>042</PercentageUsed>
+					<PercentageUsed>045</PercentageUsed>
+					<PercentageUsed>047</PercentageUsed>
+					<PercentageUsed>049</PercentageUsed>
+					<PercentageUsed>051</PercentageUsed>
+					<PercentageUsed>053</PercentageUsed>
+					<PercentageUsed>055</PercentageUsed>
+					<PercentageUsed>057</PercentageUsed>
+					<PercentageUsed>059</PercentageUsed>
+					<PercentageUsed>062</PercentageUsed>
+					<PercentageUsed>064</PercentageUsed>
+					<PercentageUsed>064</PercentageUsed>
+					<PercentageUsed>064</PercentageUsed>
+				</FinancialAccounts>
+				<PaymentStatus>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="4">91-120 days past the due date</Status>
+					<Status code="4">91-120 days past the due date</Status>
+					<Status code="4">91-120 days past the due date</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="4">91-120 days past the due date</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="4">91-120 days past the due date</Status>
+					<Status code="4">91-120 days past the due date</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+					<Status code="L">Uncollected / Charge-off</Status>
+				</PaymentStatus>
+				<DBTHistory>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+					<DBT>105</DBT>
+				</DBTHistory>
+				<AllTrades>
+					<TotalCurrentBalance>00000029455</TotalCurrentBalance>
+					<TotalCurrentCreditLimitOrLoanAmount>00000047139</TotalCurrentCreditLimitOrLoanAmount>
+					<TotalAccountPercentageUsed>062</TotalAccountPercentageUsed>
+				</AllTrades>
+				<RevolvingTrades>
+					<TotalCurrentBalance>00000000000</TotalCurrentBalance>
+					<TotalCurrentCreditLimitOrLoanAmount>00000000000</TotalCurrentCreditLimitOrLoanAmount>
+					<CurrentPercentageUsed>000</CurrentPercentageUsed>
+				</RevolvingTrades>
+				<FinancialTrades>
+					<TotalCurrentBalance>00000027991</TotalCurrentBalance>
+					<TotalCurrentCreditLimitOLoanAmount>00000041737</TotalCurrentCreditLimitOLoanAmount>
+					<TotalAccountPercentageUsed>067</TotalAccountPercentageUsed>
+				</FinancialTrades>
+				<CurrentDate>20091000</CurrentDate>
+			</SBCSKeyMetrics>
+			<SBCSPaymentTotals>
+				<NewlyReportedTradeLines>
+					<NumberOfLines>0000</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+				</NewlyReportedTradeLines>
+				<ContinuouslyReportedTradeLines>
+					<NumberOfLines>0007</NumberOfLines>
+					<DBT>105</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000001053</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</ContinuouslyReportedTradeLines>
+				<CombinedTradeLines>
+					<NumberOfLines>0007</NumberOfLines>
+					<DBT>105</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000001053</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</CombinedTradeLines>
+				<AdditionalTradeLines>
+					<NumberOfLines>0010</NumberOfLines>
+					<DBT>056</DBT>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000004360</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000780</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>022</CurrentPercentage>
+					<DBT30>026</DBT30>
+					<DBT60>004</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>048</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+				</AdditionalTradeLines>
+			</SBCSPaymentTotals>
+			<SBCSPaymentTrends>
+				<CurrentMonth>
+					<Date>20091000</Date>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20090900</Date>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090800</Date>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090700</Date>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090600</Date>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090500</Date>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090400</Date>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+				</PriorMonth>
+			</SBCSPaymentTrends>
+			<IndustryPaymentTrends>
+				<SIC>651</SIC>
+				<CurrentMonth>
+					<Date>20090900</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000020947</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>093</CurrentPercentage>
+				</CurrentMonth>
+				<PriorMonth>
+					<Date>20090800</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000021031</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>093</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090700</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000017370</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>092</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090600</Date>
+					<DBT>006</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000017470</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>093</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090500</Date>
+					<DBT>005</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000017826</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>093</CurrentPercentage>
+				</PriorMonth>
+				<PriorMonth>
+					<Date>20090400</Date>
+					<DBT>005</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000018507</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>093</CurrentPercentage>
+				</PriorMonth>
+			</IndustryPaymentTrends>
+			<SBCSQuarterlyPaymentTrends>
+				<MostRecentQuarter>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+					<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear>
+					<YearOfQuarter>20090000</YearOfQuarter>
+				</MostRecentQuarter>
+				<PriorQuarter>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000684</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>056</DBT120>
+					<DBT121Plus>044</DBT121Plus>
+					<QuarterWithinYear code="2">Second quarter (Apr, May &amp; Jun)</QuarterWithinYear>
+					<YearOfQuarter>20090000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000385</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>100</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+					<QuarterWithinYear code="1">First quarter (Jan, Feb &amp; Mar)</QuarterWithinYear>
+					<YearOfQuarter>20090000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000385</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>100</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+					<QuarterWithinYear code="4">Fourth quarter (Oct, Nov &amp; Dec)</QuarterWithinYear>
+					<YearOfQuarter>20080000</YearOfQuarter>
+				</PriorQuarter>
+				<PriorQuarter>
+					<DBT>105</DBT>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000385</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>100</DBT120>
+					<DBT121Plus>000</DBT121Plus>
+					<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear>
+					<YearOfQuarter>20080000</YearOfQuarter>
+				</PriorQuarter>
+			</SBCSQuarterlyPaymentTrends>
+			<SBCSFinancialSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="C">Commercial Credit Card</AccountCategory>
+					<NumberOfTradeLines>0000</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="I">Installment / Term Loan</AccountCategory>
+					<NumberOfTradeLines>0001</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="R">Line of Credit / Revolving Loan</AccountCategory>
+					<NumberOfTradeLines>0001</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="L">Commercial Lease</AccountCategory>
+					<NumberOfTradeLines>0003</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000027991</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000041737</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000009789</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code="+">More than amount reported</Modifier>
+						<Amount>00000000649</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="O">Other</AccountCategory>
+					<NumberOfTradeLines>0000</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000000000</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+				<AccountTypeSummary>
+					<AccountCategory code="T">Financial Line Totals</AccountCategory>
+					<NumberOfTradeLines>0005</NumberOfTradeLines>
+					<TotalBalance>
+						<Modifier code=" "/>
+						<Amount>00000027991</Amount>
+					</TotalBalance>
+					<HighCredit>
+						<Modifier code=" "/>
+						<Amount>00000041737</Amount>
+					</HighCredit>
+					<TotalPastDueAmount>00000009789</TotalPastDueAmount>
+					<MonthlyPayment>
+						<Modifier code="+">More than amount reported</Modifier>
+						<Amount>00000000649</Amount>
+					</MonthlyPayment>
+				</AccountTypeSummary>
+			</SBCSFinancialSummary>
+			<SBCSTradeData>
+				<RecordType code="F">Financial Trades</RecordType>
+				<FinancialTradeSubClassification code="L">Commercial Lease</FinancialTradeSubClassification>
+				<BusinessCategory>LEASING   </BusinessCategory>
+				<DateReported>20061231</DateReported>
+				<Terms>CONTRCT</Terms>
+				<PaymentStatusCode code="3 ">61-90 days past the due date</PaymentStatusCode>
+				<PaymentHistoryProfile>21                                  </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000013050</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000013050</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000003263</CurrentAmountDue>
+				<DBT1to30Amount>00000003263</DBT1to30Amount>
+				<DBT31to60Amount>00000003263</DBT31to60Amount>
+				<DBT61to90Amount>00000003263</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    8485</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<MonthlyPayment>
+					<Modifier code="+">More than amount reported</Modifier>
+					<Amount>00000000000</Amount>
+				</MonthlyPayment>
+				<TradeLinkKey>
+					<TradeClassificationCode>F</TradeClassificationCode>
+					<TradeSubClassCode>L</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="F">Financial Trades</RecordType>
+				<FinancialTradeSubClassification code="L">Commercial Lease</FinancialTradeSubClassification>
+				<BusinessCategory>AUTO LEASE</BusinessCategory>
+				<DateReported>20071130</DateReported>
+				<DateLastActivity>20071112</DateLastActivity>
+				<LastActivityType code="P">Payment</LastActivityType>
+				<Terms>MO     </Terms>
+				<PaymentFrequency code="M">Monthly</PaymentFrequency>
+				<TermsDuration>0036</TermsDuration>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>CCCCCCCCCCCCCCC--CCCCCC---CC        </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000043178</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    0338</AccountNumber>
+				<AccountTypeCode code="059">Business Lease - Vehicle</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<DateClosed>20071123</DateClosed>
+				<DateOfLastPayment>20071112</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>U</SecuredIndicator>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>AcctClosed</CommentCode1Description>
+				<CommentCode2Description>Spec Terms</CommentCode2Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<DateOfFirstDelinquency>20071130</DateOfFirstDelinquency>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="U">Unknown</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000043178</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<StatementBillingDate>20071115</StatementBillingDate>
+				<TradeLinkKey>
+					<TradeClassificationCode>F</TradeClassificationCode>
+					<TradeSubClassCode>L</TradeSubClassCode>
+					<SequenceNumber>00002</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="F">Financial Trades</RecordType>
+				<FinancialTradeSubClassification code="L">Commercial Lease</FinancialTradeSubClassification>
+				<BusinessCategory>AUTO LEASE</BusinessCategory>
+				<DateReported>20090930</DateReported>
+				<DateLastActivity>20090904</DateLastActivity>
+				<LastActivityType code="P">Payment</LastActivityType>
+				<Terms>MO     </Terms>
+				<PaymentFrequency code="M">Monthly</PaymentFrequency>
+				<TermsDuration>0048</TermsDuration>
+				<PaymentStatusCode code="C ">Current</PaymentStatusCode>
+				<PaymentHistoryProfile>CCCCCCCCCCCCCCCCCCCCCC--------------</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000028687</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000014941</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000014941</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    1773</AccountNumber>
+				<AccountTypeCode code="059">Business Lease - Vehicle</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<DateOfLastPayment>20090904</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>U</SecuredIndicator>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Satsftry  </CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="U">Unknown</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000028687</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000649</ScheduledPaymentAmount>
+				<StatementBillingDate>20090914</StatementBillingDate>
+				<MonthlyPayment>
+					<Modifier code=" "/>
+					<Amount>00000000649</Amount>
+				</MonthlyPayment>
+				<TradeLinkKey>
+					<TradeClassificationCode>F</TradeClassificationCode>
+					<TradeSubClassCode>L</TradeSubClassCode>
+					<SequenceNumber>00003</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="F">Financial Trades</RecordType>
+				<FinancialTradeSubClassification code="I">Installment / Term Loan</FinancialTradeSubClassification>
+				<BusinessCategory>FINCL SVCS</BusinessCategory>
+				<DateReported>20090801</DateReported>
+				<Terms>NET    </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>00000000000000000000000             </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    6763</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>F</TradeClassificationCode>
+					<TradeSubClassCode>I</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="F">Financial Trades</RecordType>
+				<FinancialTradeSubClassification code="R">Line of Credit / Revolving Loan</FinancialTradeSubClassification>
+				<BusinessCategory>OFFC EQUIP</BusinessCategory>
+				<DateReported>20091001</DateReported>
+				<DateLastActivity>20080104</DateLastActivity>
+				<LastActivityType code="S">Sale</LastActivityType>
+				<Terms>REV    </Terms>
+				<PaymentFrequency code="U">Unknown</PaymentFrequency>
+				<TermsDuration>REV </TermsDuration>
+				<PaymentStatusCode code="L ">Uncollected / Charge-off</PaymentStatusCode>
+				<PaymentHistoryProfile>LLLLLL                              </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000015800</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    4759</AccountNumber>
+				<AccountTypeCode code="004">Line of Credit / Revolving Loan</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<DateOpened>19970912</DateOpened>
+				<DateOfLastPayment>20080110</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>N</SecuredIndicator>
+				<ChargeOffAmount>00000012920</ChargeOffAmount>
+				<ChargeOffDate>20080307</ChargeOffDate>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Charge Off</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="U">Unknown</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>F</TradeClassificationCode>
+					<TradeSubClassCode>R</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>PAINTS    </BusinessCategory>
+				<DateReported>20090701</DateReported>
+				<DateLastActivity>20040800</DateLastActivity>
+				<Terms>VARIED </Terms>
+				<PaymentStatusCode code="L ">Uncollected / Charge-off</PaymentStatusCode>
+				<PaymentHistoryProfile>--LLLL---L-LL--LLLLLLLLL-LLLLLLLLLLL</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    6865</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Write Off </CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>OFFC SUPPL</BusinessCategory>
+				<DateReported>20090831</DateReported>
+				<DateLastActivity>19960613</DateLastActivity>
+				<LastActivityType code="P">Payment</LastActivityType>
+				<Terms>CREDIT </Terms>
+				<PaymentFrequency code="M">Monthly</PaymentFrequency>
+				<TermsDuration>AR  </TermsDuration>
+				<PaymentStatusCode code="7 ">181+ days past the due date</PaymentStatusCode>
+				<PaymentHistoryProfile>7777                                </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000300</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000299</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000299</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>100</DBT150>
+				<AccountNumber>                                    7449</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<DateOpened>19950601</DateOpened>
+				<DateClosed>19970128</DateClosed>
+				<DateOfLastPayment>19960613</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>N</SecuredIndicator>
+				<ChargeOffAmount>00000000299</ChargeOffAmount>
+				<ChargeOffDate>19970128</ChargeOffDate>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000299</TotalAmountPastDue>
+				<DateOfFirstDelinquency>19990112</DateOfFirstDelinquency>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="A">Active</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00002</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>OFFC SUPPL</BusinessCategory>
+				<DateReported>20090928</DateReported>
+				<DateLastActivity>20031000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="4 ">91-120 days past the due date</PaymentStatusCode>
+				<PaymentHistoryProfile>44444444444444444-4444444-44444--444</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000385</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000385</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000385</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>100</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    0258</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 06 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00003</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>PLUMBING  </BusinessCategory>
+				<DateReported>20090831</DateReported>
+				<Terms>NET30  </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>--0--0--0--0----0---0--0---0---0---0</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    0140</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 12 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00004</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>INDUS SUPL</BusinessCategory>
+				<DateReported>20090807</DateReported>
+				<DateLastActivity>20040700</DateLastActivity>
+				<Terms>COD    </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>00000000000000000000-000--0         </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000368</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    L577</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 09 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00005</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20090730</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>00000000000000-000--------------4   </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    1454</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 05 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00006</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="N">Trade Payment Account</RecordType>
+				<NonFinancialTradeSubClassification code="C">Continuously Reported Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20090730</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>000000000000                        </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    0011</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 01 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>N</TradeClassificationCode>
+					<TradeSubClassCode>C</TradeSubClassCode>
+					<SequenceNumber>00007</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>WHLSE TRAD</BusinessCategory>
+				<DateReported>20071117</DateReported>
+				<Terms>VARIED </Terms>
+				<PaymentStatusCode code="L ">Uncollected / Charge-off</PaymentStatusCode>
+				<PaymentHistoryProfile>LLLLL----------LLLLLLLL---LLLLLLLLLL</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000384</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000374</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000374</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>100</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    0591</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Write Off </CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00001</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20081031</DateReported>
+				<DateLastActivity>20081000</DateLastActivity>
+				<PaymentStatusCode code="2 ">31-60 days past the due date</PaymentStatusCode>
+				<PaymentHistoryProfile>122121211CCC21CCCCC--1CC1CC1-C-4    </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000003917</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000355</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000120</CurrentAmountDue>
+				<DBT1to30Amount>00000000199</DBT1to30Amount>
+				<DBT31to60Amount>00000000035</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>034</CurrentPercentage>
+				<DBT30>056</DBT30>
+				<DBT60>010</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    0565</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 21 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00002</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>TELECOM   </BusinessCategory>
+				<DateReported>20080703</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="1 ">1-30 days past due date</PaymentStatusCode>
+				<PaymentHistoryProfile>1321C1                              </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000016</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000008</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000003</CurrentAmountDue>
+				<DBT1to30Amount>00000000004</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>050</CurrentPercentage>
+				<DBT30>050</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    8936</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Dispute   </CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00003</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>TELECOM   </BusinessCategory>
+				<DateReported>20071205</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="1 ">1-30 days past due date</PaymentStatusCode>
+				<PaymentHistoryProfile>-CCCCCC-CCCCCC-CCCC-----------CCCC0 </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000008</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000008</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000006</CurrentAmountDue>
+				<DBT1to30Amount>00000000002</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>075</CurrentPercentage>
+				<DBT30>025</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    9194</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Dispute   </CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00004</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>OFFC SUPPL</BusinessCategory>
+				<DateReported>20081001</DateReported>
+				<DateLastActivity>19960717</DateLastActivity>
+				<LastActivityType code="P">Payment</LastActivityType>
+				<Terms>CREDIT </Terms>
+				<PaymentFrequency code="M">Monthly</PaymentFrequency>
+				<TermsDuration>AR  </TermsDuration>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>0000000000                          </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    7407</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<DateOpened>19950601</DateOpened>
+				<DateClosed>19980630</DateClosed>
+				<ReasonClosed code="02">Account closed at credit grantors request</ReasonClosed>
+				<DateOfLastPayment>19960717</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>N</SecuredIndicator>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>AcctClosed</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="I">Inactive</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00005</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>OFFC SUPPL</BusinessCategory>
+				<DateReported>20081001</DateReported>
+				<DateLastActivity>19961014</DateLastActivity>
+				<LastActivityType code="P">Payment</LastActivityType>
+				<Terms>CREDIT </Terms>
+				<PaymentFrequency code="M">Monthly</PaymentFrequency>
+				<TermsDuration>AR  </TermsDuration>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>0000000000                          </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    5643</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="C">Closed</AccountStatusIndicator>
+				<DateOpened>19960401</DateOpened>
+				<DateClosed>19980630</DateClosed>
+				<ReasonClosed code="02">Account closed at credit grantors request</ReasonClosed>
+				<DateOfLastPayment>19961014</DateOfLastPayment>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<SecuredIndicator>N</SecuredIndicator>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>AcctClosed</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PaymentType code="UN">Unknown</PaymentType>
+				<ActiveAccountIndicator code="I">Inactive</ActiveAccountIndicator>
+				<GovernmentGuaranteeProgramType code="UNK">Unknown</GovernmentGuaranteeProgramType>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00006</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20080730</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>00-000--------------0---------4     </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    3646</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 05 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00007</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>AIR TRANS </BusinessCategory>
+				<DateReported>20080730</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>00-000--------------0---------0000  </PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    0367</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<CommentCode1Description>Cust 05 Yr</CommentCode1Description>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00008</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>NEWSPAPERS</BusinessCategory>
+				<DateReported>20070930</DateReported>
+				<DateLastActivity>20060200</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="0 ">Zero balance and current account and update reported this month</PaymentStatusCode>
+				<PaymentHistoryProfile>00000000000-000000044--1C-------001C</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000000</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    5716</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00009</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<SBCSTradeData>
+				<RecordType code="A">Additional Payment Experiences</RecordType>
+				<NonFinancialTradeSubClassification code="A">Aged Trade</NonFinancialTradeSubClassification>
+				<BusinessCategory>TELECOM   </BusinessCategory>
+				<DateReported>20071107</DateReported>
+				<Terms>NET 30 </Terms>
+				<PaymentStatusCode code="C ">Current</PaymentStatusCode>
+				<PaymentHistoryProfile>CCCCC-CCCCCCCCCCC----C--CC-CCCC1-CCC</PaymentHistoryProfile>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000035</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000035</Amount>
+				</AccountBalance>
+				<CurrentCreditLimitOrLoanAmount>00000000000</CurrentCreditLimitOrLoanAmount>
+				<CurrentAmountDue>00000000035</CurrentAmountDue>
+				<DBT1to30Amount>00000000000</DBT1to30Amount>
+				<DBT31to60Amount>00000000000</DBT31to60Amount>
+				<DBT61to90Amount>00000000000</DBT61to90Amount>
+				<DBT91to120Amount>00000000000</DBT91to120Amount>
+				<DBT121to150Amount>00000000000</DBT121to150Amount>
+				<DBT151to180Amount>00000000000</DBT151to180Amount>
+				<DBT181PlusAmount>00000000000</DBT181PlusAmount>
+				<CurrentPercentage>100</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT120>000</DBT120>
+				<DBT150>000</DBT150>
+				<AccountNumber>                                    3433</AccountNumber>
+				<AccountTypeCode code="150">Account Receivable</AccountTypeCode>
+				<AccountStatusIndicator code="O">Open</AccountStatusIndicator>
+				<ActualPaymentAmount>00000000000</ActualPaymentAmount>
+				<NumberOfGuarantors>00</NumberOfGuarantors>
+				<ChargeOffAmount>00000000000</ChargeOffAmount>
+				<BalloonPaymentAmount>00000000000</BalloonPaymentAmount>
+				<TotalAmountPastDue>00000000000</TotalAmountPastDue>
+				<CollectionAmount>00000000000</CollectionAmount>
+				<PaymentAmountDue>00000000000</PaymentAmountDue>
+				<PercentOfLoanByGovGuarantee>000</PercentOfLoanByGovGuarantee>
+				<HighestCreditUtilized>00000000000</HighestCreditUtilized>
+				<OriginalAmountOrCreditLimit>00000000000</OriginalAmountOrCreditLimit>
+				<ScheduledPaymentAmount>00000000000</ScheduledPaymentAmount>
+				<TradeLinkKey>
+					<TradeClassificationCode>A</TradeClassificationCode>
+					<TradeSubClassCode>A</TradeSubClassCode>
+					<SequenceNumber>00010</SequenceNumber>
+				</TradeLinkKey>
+			</SBCSTradeData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20070800</DatePlacedForCollection>
+				<AmountPlacedForCollection>00000129</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>TRANSWORLD SYSTEMS INC             </AgencyName>
+					<PhoneNumber>8882073081</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="06">Closed, Uncollected</AccountStatus>
+				<DatePlacedForCollection>20060700</DatePlacedForCollection>
+				<DateClosed>20060700</DateClosed>
+				<AmountPlacedForCollection>00003911</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES     </AgencyName>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>ALLIED WASTE SERVICES                   </ClientName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20060500</DatePlacedForCollection>
+				<AmountPlacedForCollection>00007112</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>TRANSWORLD SYSTEMS INC             </AgencyName>
+					<PhoneNumber>8882073081</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20060200</DatePlacedForCollection>
+				<AmountPlacedForCollection>00007502</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>COFACT COLLECTION NORTH AMERICAN   </AgencyName>
+					<PhoneNumber>8005096060</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>RENT.COM                                </ClientName>
+					<PhoneNumber>3102643612    </PhoneNumber>
+					<ContactName>ROBERT AIELLO                                                                                       </ContactName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="05">Closed, Partial Payment</AccountStatus>
+				<DatePlacedForCollection>20060200</DatePlacedForCollection>
+				<DateClosed>20060600</DateClosed>
+				<AmountPlacedForCollection>00004038</AmountPlacedForCollection>
+				<AmountPaid>00002620</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES     </AgencyName>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>DHL                                     </ClientName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20060100</DatePlacedForCollection>
+				<AmountPlacedForCollection>00000832</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CREDIT MEDIATORS INC.              </AgencyName>
+					<PhoneNumber>6103525151</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>ARS - FLORIDA REGION - 8278             </ClientName>
+					<PhoneNumber>7274974960    </PhoneNumber>
+					<ContactName>ROB MCDONALD                                                                                        </ContactName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="01">Disputed</AccountStatus>
+				<DatePlacedForCollection>20051100</DatePlacedForCollection>
+				<AmountPlacedForCollection>00056505</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLE MANAGEMENT SERVICES     </AgencyName>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>BIRCH TELECOM, INC. COMM'L PL.          </ClientName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="06">Closed, Uncollected</AccountStatus>
+				<DatePlacedForCollection>20050700</DatePlacedForCollection>
+				<DateClosed>20060700</DateClosed>
+				<AmountPlacedForCollection>00005148</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>VENGROFF, WILLIAMS &amp; ASSOC.        </AgencyName>
+					<PhoneNumber>9492631300</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>RENT.COM                                </ClientName>
+					<PhoneNumber>3105869540    </PhoneNumber>
+					<ContactName>ROBERT AIELLO STE 40                                                                                </ContactName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20050700</DatePlacedForCollection>
+				<AmountPlacedForCollection>00001733</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>CREDIT MEDIATORS INC.              </AgencyName>
+					<PhoneNumber>6103525151</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>ARS - FLORIDA REGION - 8278             </ClientName>
+					<PhoneNumber>7274974960    </PhoneNumber>
+					<ContactName>ROB MCDONALD                                                                                        </ContactName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20050600</DatePlacedForCollection>
+				<AmountPlacedForCollection>00031573</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>COFACT COLLECTION NORTH AMERICAN   </AgencyName>
+					<PhoneNumber>8005096060</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>WEBB PEST CONTROL                       </ClientName>
+					<PhoneNumber>7139562522    </PhoneNumber>
+					<ContactName>MS WEBB                                                                                             </ContactName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20050200</DatePlacedForCollection>
+				<AmountPlacedForCollection>00000207</AmountPlacedForCollection>
+				<AmountPaid>00000207</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>JONATHAN NEIL &amp; ASSOCIATES INC     </AgencyName>
+					<PhoneNumber>8187053770</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>RICOH BUSINESS SYSTEMS                  </ClientName>
+					<PhoneNumber>9727454875    </PhoneNumber>
+					<ContactName>ATTN:  MALA BHATTACH                                                                                </ContactName>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20040800</DatePlacedForCollection>
+				<AmountPlacedForCollection>00003170</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>UNITED PORTFOLIO MANGEMENT         </AgencyName>
+					<PhoneNumber>6516461633</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>WELLS FARGO FINANCIAL LEASING           </ClientName>
+					<PhoneNumber>9528066009    </PhoneNumber>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20040800</DatePlacedForCollection>
+				<AmountPlacedForCollection>00002628</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>UNITED PORTFOLIO MANGEMENT         </AgencyName>
+					<PhoneNumber>6516461633</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>WELLS FARGO FINANCIAL LEASING           </ClientName>
+					<PhoneNumber>9528066009    </PhoneNumber>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20040800</DatePlacedForCollection>
+				<AmountPlacedForCollection>00001041</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>UNITED PORTFOLIO MANGEMENT         </AgencyName>
+					<PhoneNumber>6516461633</PhoneNumber>
+				</CollectionAgencyInfo>
+				<ClientOfCollectionAgency>
+					<ClientName>WELLS FARGO FINANCIAL LEASING           </ClientName>
+					<PhoneNumber>9528066009    </PhoneNumber>
+				</ClientOfCollectionAgency>
+			</CollectionData>
+			<SBCSBankruptcy>
+				<DateFiled>20090204</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="25">Chapter 11 Discharged</LegalAction>
+				<DocumentNumber>0712292                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071120</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712292                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20090204</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="25">Chapter 11 Discharged</LegalAction>
+				<DocumentNumber>0810163                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080129</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810163                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080625</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712155                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712155                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080625</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712156                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712156                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080625</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712363                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071130</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712363                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080521</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712153                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712153                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080521</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712154                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712154                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080430</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0745431                 </DocumentNumber>
+				<FilingLocation>TEXAS FED COURT-FORT WORTH              </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071204</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0745431                 </DocumentNumber>
+				<FilingLocation>TEXAS FED COURT-FORT WORTH              </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080206</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0745430                 </DocumentNumber>
+				<FilingLocation>TEXAS FED COURT-FORT WORTH              </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071204</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0745430                 </DocumentNumber>
+				<FilingLocation>TEXAS FED COURT-FORT WORTH              </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080129</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810160                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20080129</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0810162                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071227</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712399                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071203</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712399                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071227</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712401                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071203</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712401                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071227</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712402                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071203</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712402                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071203</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712398                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071203</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712400                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071115</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712151                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071115</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712151                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712151                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712151                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071115</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="23">Chapter 11 Dismissed</LegalAction>
+				<DocumentNumber>0712158                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712158                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSBankruptcy>
+				<DateFiled>20071105</DateFiled>
+				<LegalType code="01">Bankruptcy</LegalType>
+				<LegalAction code="17">Chapter 11</LegalAction>
+				<DocumentNumber>0712157                 </DocumentNumber>
+				<FilingLocation>US BANKRUPTCY COURT-EASTERN DIVISION    </FilingLocation>
+				<LiabilityAmount>00000000000</LiabilityAmount>
+				<AssetAmount>00000000000</AssetAmount>
+				<ExemptAmount>00000000000</ExemptAmount>
+			</SBCSBankruptcy>
+			<SBCSJudgment>
+				<DateFiled>20080618</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>CL105336                </DocumentNumber>
+				<FilingLocation>POLK COUNTY DISTRICT COURT              </FilingLocation>
+				<LiabilityAmount>00000112802</LiabilityAmount>
+				<PlaintiffName>WELLS FARGO FINANCIAL              </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20080325</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>116020                  </DocumentNumber>
+				<FilingLocation>TRAVIS JP CT 2 - AUSTIN                 </FilingLocation>
+				<LiabilityAmount>00000004215</LiabilityAmount>
+				<PlaintiffName>HOLLY FISKAAEN                     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20080211</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2006046172              </DocumentNumber>
+				<FilingLocation>TARRANT COUNTY COURT-FORT WORTH         </FilingLocation>
+				<LiabilityAmount>00000005000</LiabilityAmount>
+				<PlaintiffName>D ROWE GREGORY                     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20080117</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC52C0253680            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000000400</LiabilityAmount>
+				<PlaintiffName>APARTMENT NOW INC                  </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20080104</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>010995                  </DocumentNumber>
+				<FilingLocation>TRAVIS JP CT 1 - AUSTIN                 </FilingLocation>
+				<LiabilityAmount>00000000900</LiabilityAmount>
+				<PlaintiffName>BRET MARLER                        </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20070724</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>115276                  </DocumentNumber>
+				<FilingLocation>TRAVIS JP CT 2 - AUSTIN                 </FilingLocation>
+				<LiabilityAmount>00000000325</LiabilityAmount>
+				<PlaintiffName>MYRA PERALES                       </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20070517</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>115276                  </DocumentNumber>
+				<FilingLocation>TRAVIS JP CT 2 - AUSTIN                 </FilingLocation>
+				<LiabilityAmount>00000000325</LiabilityAmount>
+				<PlaintiffName>MYRA PERALES                       </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20070518</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>CV12C0049019            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 1-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000003100</LiabilityAmount>
+				<PlaintiffName>CONSUMER SOURCE INC                </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20070514</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC52C0241810            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000000599</LiabilityAmount>
+				<PlaintiffName>APARMENT NOW INC                   </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20070514</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC52C0241837            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000000449</LiabilityAmount>
+				<PlaintiffName>APARTMENT NOW INC                  </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20070514</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC52C0241837            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000000449</LiabilityAmount>
+				<PlaintiffName>APARTMENT NOW INC                  </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20070327</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>0007438SC               </DocumentNumber>
+				<FilingLocation>MONTGOMERY JP CT 4-NEW CANEY            </FilingLocation>
+				<LiabilityAmount>00000000775</LiabilityAmount>
+				<PlaintiffName>JUSTIN VANLANGEN                   </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20060918</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>C1CV06001896            </DocumentNumber>
+				<FilingLocation>TRAVIS COUNTY COURT-AUSTIN              </FilingLocation>
+				<LiabilityAmount>00000002598</LiabilityAmount>
+				<PlaintiffName>BHW OPERATING COMPANY LP           </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20060630</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>0603735D                </DocumentNumber>
+				<FilingLocation>DALLAS COUNTY COURT-DALLAS              </FilingLocation>
+				<LiabilityAmount>00000048838</LiabilityAmount>
+				<PlaintiffName>NATIONAL CONTRACTORS INC           </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20060420</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>11889SC                 </DocumentNumber>
+				<FilingLocation>MONTGOMERY                              </FilingLocation>
+				<LiabilityAmount>00000000850</LiabilityAmount>
+				<PlaintiffName>MICHAL PIERCE                      </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20051003</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC52C0213991            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000000944</LiabilityAmount>
+				<PlaintiffName>BETTER LIVING LOCATORS             </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050829</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC81C0017691            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 8-1 - PASADENA             </FilingLocation>
+				<LiabilityAmount>00000002202</LiabilityAmount>
+				<PlaintiffName>G O PLUMBING SERVICES              </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050815</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC52C0213633            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000000718</LiabilityAmount>
+				<PlaintiffName>G O PLUMBING SERVICES INC          </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050810</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>834753                  </DocumentNumber>
+				<FilingLocation>HARRIS COUNTY COURT-HOUSTON             </FilingLocation>
+				<LiabilityAmount>00000004122</LiabilityAmount>
+				<PlaintiffName>RELIASOURCE INC                    </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050715</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>SC52C0206106            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000004027</LiabilityAmount>
+				<PlaintiffName>MUELLER WATER CONDITIONING INC     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050705</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>SC52C0205443            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000004745</LiabilityAmount>
+				<PlaintiffName>MUELLER WATER CONDITIONING INC     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050614</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>C00005354               </DocumentNumber>
+				<FilingLocation>TARRANT JP CT 4 - FORT WORTH            </FilingLocation>
+				<LiabilityAmount>00000001947</LiabilityAmount>
+				<PlaintiffName>SEAGULL FLOORS INC                 </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050614</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>C00005355               </DocumentNumber>
+				<FilingLocation>TARRANT JP CT 4 - FORT WORTH            </FilingLocation>
+				<LiabilityAmount>00000003580</LiabilityAmount>
+				<PlaintiffName>SEAGULL FLOORS INC                 </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050614</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>C00005356               </DocumentNumber>
+				<FilingLocation>TARRANT JP CT 4 - FORT WORTH            </FilingLocation>
+				<LiabilityAmount>00000003094</LiabilityAmount>
+				<PlaintiffName>SEAGULL FLOORS INC                 </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050614</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>C00005357               </DocumentNumber>
+				<FilingLocation>TARRANT JP CT 4 - FORT WORTH            </FilingLocation>
+				<LiabilityAmount>00000002404</LiabilityAmount>
+				<PlaintiffName>SEAGULL FLOORS INC                 </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050614</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>GC200500630             </DocumentNumber>
+				<FilingLocation>DENTON COUNTY COURT-DENTON              </FilingLocation>
+				<LiabilityAmount>00000013178</LiabilityAmount>
+				<PlaintiffName>SEAGULL FLOORS INC                 </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050216</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>SC52C0205437            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000003985</LiabilityAmount>
+				<PlaintiffName>MUELLER WATER CONDITIONING INC     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050216</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>SC52C0205440            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000004720</LiabilityAmount>
+				<PlaintiffName>MUELLER WATER CONDITIONING INC     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050216</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>SC52C0206107            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000004377</LiabilityAmount>
+				<PlaintiffName>MUELLER WATER CONDITIONING INC     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20050121</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>822150                  </DocumentNumber>
+				<FilingLocation>HARRIS COUNTY COURT-HOUSTON             </FilingLocation>
+				<LiabilityAmount>00000033890</LiabilityAmount>
+				<PlaintiffName>TEXAS ENVIRONMENTS CO              </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20041206</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC52C0205438            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 5-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000005000</LiabilityAmount>
+				<PlaintiffName>MUELLER WATER CONDITIONING INC     </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040915</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>04LA07551               </DocumentNumber>
+				<FilingLocation>JOHNSON DISTRICT MAGISTRATE             </FilingLocation>
+				<LiabilityAmount>00000006359</LiabilityAmount>
+				<PlaintiffName>HIX HARDY                          </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040831</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>C00010502               </DocumentNumber>
+				<FilingLocation>TARRANT JP PCT 1 - FORT WORTH           </FilingLocation>
+				<LiabilityAmount>00000003445</LiabilityAmount>
+				<PlaintiffName>STONEHENGE CARPET CARE INC         </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040428</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>C00010502               </DocumentNumber>
+				<FilingLocation>TARRANT JP PCT 1 - FORT WORTH           </FilingLocation>
+				<LiabilityAmount>00000003445</LiabilityAmount>
+				<PlaintiffName>STONEHENGE CARPET CARE INC         </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040712</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="10">Satisfied</LegalAction>
+				<DocumentNumber>SC82C0011102            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 8-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000004986</LiabilityAmount>
+				<PlaintiffName>BAY AREA APARTMENT LOCATORS        </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040603</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC82C0011102            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 8-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000004986</LiabilityAmount>
+				<PlaintiffName>BAY AREA APARTMENT LOCATORS        </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040518</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2004022641              </DocumentNumber>
+				<FilingLocation>TARRANT COUNTY COURT-FORT WORTH         </FilingLocation>
+				<LiabilityAmount>00000004568</LiabilityAmount>
+				<PlaintiffName>STONEHENGE CARPET CARE INC         </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040517</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>2004022642              </DocumentNumber>
+				<FilingLocation>TARRANT COUNTY COURT-FORT WORTH         </FilingLocation>
+				<LiabilityAmount>00000006463</LiabilityAmount>
+				<PlaintiffName>STONEHENGE CARPET CARE INC         </PlaintiffName>
+			</SBCSJudgment>
+			<SBCSJudgment>
+				<DateFiled>20040422</DateFiled>
+				<LegalType code="05">Judgment</LegalType>
+				<LegalAction code="01">Filed</LegalAction>
+				<DocumentNumber>SC82C0010944            </DocumentNumber>
+				<FilingLocation>HARRIS JP CT 8-2 - HOUSTON              </FilingLocation>
+				<LiabilityAmount>00000003679</LiabilityAmount>
+				<PlaintiffName>BAY AREA APARTMENT LOCATORS        </PlaintiffName>
+			</SBCSJudgment>
+			<UCCFilingsSummaryCounts>
+				<UCCFilingsTotal>00030</UCCFilingsTotal>
+				<MostRecent6Months>
+					<StartDate>20090701</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>001</ContinuationsTotal>
+					<AmendedAndAssignedTotal>002</AmendedAndAssignedTotal>
+				</MostRecent6Months>
+				<Previous6Months>
+					<StartDate>20090101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>001</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>004</ContinuationsTotal>
+					<AmendedAndAssignedTotal>004</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20080701</StartDate>
+					<FilingsTotal>002</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>001</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>002</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>002</ContinuationsTotal>
+					<AmendedAndAssignedTotal>002</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20080101</StartDate>
+					<FilingsTotal>000</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>000</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>000</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>005</ContinuationsTotal>
+					<AmendedAndAssignedTotal>003</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20070701</StartDate>
+					<FilingsTotal>007</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>004</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>001</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>004</ContinuationsTotal>
+					<AmendedAndAssignedTotal>011</AmendedAndAssignedTotal>
+				</Previous6Months>
+				<Previous6Months>
+					<StartDate>20070701</StartDate>
+					<FilingsTotal>021</FilingsTotal>
+					<FilingsWithDerogatoryCollateral>005</FilingsWithDerogatoryCollateral>
+					<ReleasesAndTerminationsTotal>003</ReleasesAndTerminationsTotal>
+					<ContinuationsTotal>014</ContinuationsTotal>
+					<AmendedAndAssignedTotal>012</AmendedAndAssignedTotal>
+				</Previous6Months>
+			</UCCFilingsSummaryCounts>
+			<SBCSUCCFilings>
+				<DateFiled>20090908</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="03">Assigned</LegalAction>
+				<DocumentNumber>0900251442              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>575997                  </DocumentNumber>
+					<DateFiled>20000901</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>FUCMS 2000-C2 RED OAK DRIVE, LLC FL MIAMI BEACH 33139 1601 W</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090901</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="03">Assigned</LegalAction>
+				<DocumentNumber>0900245817              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>0300247174              </DocumentNumber>
+					<DateFiled>20030417</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>WACHOVIA BANK, NATIONAL ASSOCIATION F/K/ NC CHARLOTTE 28202 </SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090727</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>0900211104              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>0500015487              </DocumentNumber>
+					<DateFiled>20050114</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>PNC BANK, NATIONAL ASSOCIATION KS OVERLAND PARK 66210 10851 </SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090604</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="03">Assigned</LegalAction>
+				<DocumentNumber>0900158940              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>0300029881              </DocumentNumber>
+					<DateFiled>20020927</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>WELLS FARGO BANK MINNESOTA, N.A. AS TRUS MN MINNEAPOLIS 5541</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090603</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="08">Terminated</LegalAction>
+				<DocumentNumber>0900157124              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>632062                  </DocumentNumber>
+					<DateFiled>20001127</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>PNC BANK, NATIONAL ASSOCIATION MO KANSAS CITY 64105 210 W 10</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090505</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>0900127477              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>0400864105              </DocumentNumber>
+					<DateFiled>20041026</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>WELLS FARGO BANK, N.A., AS TRUSTEE FOR T KS OVERLAND PARK 66</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090501</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="03">Assigned</LegalAction>
+				<DocumentNumber>0900123621              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>560067                  </DocumentNumber>
+					<DateFiled>20000807</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>WELLS FARGO BANK MINNESOTA, N.A., AS TRU MN MINNEAPOLIS 5541</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090430</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="03">Assigned</LegalAction>
+				<DocumentNumber>0900123223              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>100038546               </DocumentNumber>
+					<DateFiled>20010302</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>U.S. BANK NATIONAL ASSOCIATION, AS TRUST IL CHICAGO 60604 20</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090413</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>0900102764              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>0400837488              </DocumentNumber>
+					<DateFiled>20041001</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>WELLS FARGO BANK, N.A., AS TRUSTEE FOR T KS OVERLAND PARK 66</SecuredParty>
+			</SBCSUCCFilings>
+			<SBCSUCCFilings>
+				<DateFiled>20090128</DateFiled>
+				<LegalType code="08">UCC</LegalType>
+				<LegalAction code="09">Continued</LegalAction>
+				<DocumentNumber>0900026386              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<OriginalUCCFilingsInfo>
+					<LegalAction/>
+					<DocumentNumber>0400750923              </DocumentNumber>
+					<DateFiled>20040716</DateFiled>
+				</OriginalUCCFilingsInfo>
+				<SecuredParty>WELLS FARGO BANK, N.A., AS TRUSTEE FOR T MD COLUMBIA 21045 9</SecuredParty>
+			</SBCSUCCFilings>
+			<UCCCoDebtor>
+				<DateFiled>20090727</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="09">CONTINUED</LegalAction>
+				<DocumentNumber>0900211104              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<Name>TT-LAS VENTANAS, LTD.                                       </Name>
+				<StreetAddress>14285 MIDWAY RD STE 300                           </StreetAddress>
+				<City>ADDISON                                           </City>
+				<State>TX</State>
+				<Zip>75001</Zip>
+				<SequenceNumber>0001</SequenceNumber>
+			</UCCCoDebtor>
+			<UCCCoDebtor>
+				<DateFiled>20090501</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="03">ASSIGNED</LegalAction>
+				<DocumentNumber>0900123621              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<Name>SHIELDS FAMILY, L.L.C. III                                  </Name>
+				<StreetAddress>1666 LAKEFRONT RD                                 </StreetAddress>
+				<City>LAKE OSWEGO                                       </City>
+				<State>OR</State>
+				<Zip>97034</Zip>
+				<SequenceNumber>0002</SequenceNumber>
+			</UCCCoDebtor>
+			<UCCCoDebtor>
+				<DateFiled>20090430</DateFiled>
+				<LegalType code="08">UNIFORM COMMERCIAL CODE (UCC) FINANCE STATEMENT</LegalType>
+				<LegalAction code="03">ASSIGNED</LegalAction>
+				<DocumentNumber>0900123223              </DocumentNumber>
+				<FilingLocation>SEC OF STATE TEXAS                      </FilingLocation>
+				<Name>CAMPUS VIEW HOUSTON, LP                                     </Name>
+				<StreetAddress>3333 LUELLA                                       </StreetAddress>
+				<City>PASADENA                                          </City>
+				<State>TX</State>
+				<Zip>77502</Zip>
+				<SequenceNumber>0003</SequenceNumber>
+			</UCCCoDebtor>
+			<CorporateInformation>
+				<StateOfOrigin>TX</StateOfOrigin>
+				<OriginalFilingDate>19971009</OriginalFilingDate>
+				<RecentFilingDate>00000000</RecentFilingDate>
+				<IncorporatedDate>19971009</IncorporatedDate>
+				<BusinessType code="I">Incorporated</BusinessType>
+				<StatusFlag code="I">Inactive</StatusFlag>
+				<ProfitFlag code="P">Profit</ProfitFlag>
+				<CharterNumber>0703013922</CharterNumber>
+				<StateTaxID>32000197510    </StateTaxID>
+				<AgentInformation>
+					<Name>C T CORPORATION SYSTEM                  </Name>
+					<StreetAddress>350 N SAINT PAUL ST                     </StreetAddress>
+					<City>DALLAS                        </City>
+					<State>TX</State>
+				</AgentInformation>
+			</CorporateInformation>
+			<DemographicInformation>
+				<PrimarySICCode>6513</PrimarySICCode>
+				<SecondarySICCode>6512</SecondarySICCode>
+				<SecondarySICDescription>Building Operators, Nonresidential</SecondarySICDescription>
+				<AdditionalSICCodes>
+					<SICCode>8742</SICCode>
+					<SICCode>7011</SICCode>
+				</AdditionalSICCodes>
+				<YearsInBusinessIndicator code="1">Actual Amount Provided</YearsInBusinessIndicator>
+				<YearsInBusinessOrLowRange>021</YearsInBusinessOrLowRange>
+				<HighRangeYears>000</HighRangeYears>
+				<SalesIndicator code="1">Actual Amount Provided</SalesIndicator>
+				<SalesRevenueOrLowRange>000000714000</SalesRevenueOrLowRange>
+				<HighRangeOfSales>000000000000</HighRangeOfSales>
+				<ProfitLossIndicator code=" ">Not Available</ProfitLossIndicator>
+				<ProfitLossCode code=" "/>
+				<ProfitAmountOrLowRange>000000000000</ProfitAmountOrLowRange>
+				<HighRangeOfProfit>000000000000</HighRangeOfProfit>
+				<NetWorthIndicator code=" ">Not Available</NetWorthIndicator>
+				<NetWorthAmountOrLowRange>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</NetWorthAmountOrLowRange>
+				<HighRangeOrNetWorth>
+					<Modifier code=" "/>
+					<Amount>00000000000</Amount>
+				</HighRangeOrNetWorth>
+				<EmployeeIndicator code="1">Actual Amount Provided</EmployeeIndicator>
+				<EmployeeSizeOrLowRange>000000007</EmployeeSizeOrLowRange>
+				<HighEmployeeRange>000000000</HighEmployeeRange>
+				<InBuildingDate>00000000</InBuildingDate>
+				<BuildingSize>0000000</BuildingSize>
+				<BuildingOwnership code=" "/>
+				<Ownership code=" "/>
+				<Location code=" ">Not Available</Location>
+				<BusinessType code=" ">Not Available</BusinessType>
+				<CustomerCount>0000000</CustomerCount>
+				<DateFounded>20060000</DateFounded>
+			</DemographicInformation>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>MARY                 GONZALEZ                                    </Name>
+				<Title>PRESIDENT           </Title>
+			</KeyPersonnelExecutiveInformation>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</SmallBusinessCreditShare>
+	</Products>
+</NetConnectResponse>

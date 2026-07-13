@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\businesssummary\BSUM.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BSUM with CRLK</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessSummary>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C605006197</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/924435215/BSUM/CRLK/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>924435215</ExperianFileNumber>
+				<ProfileType code="SUMMARY   "/>
+				<ProfileDate>20100401</ProfileDate>
+				<ProfileTime>23:08:20</ProfileTime>
+				<TerminalNumber>-ANU</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>BERKSHIRE HATHAWAY INC                  </BusinessName>
+				<StreetAddress>1440 FARNAM ST  STE  1440     </StreetAddress>
+				<City>OMAHA                       </City>
+				<State>NE</State>
+				<Zip>68131</Zip>
+				<ZipExtension>3302</ZipExtension>
+				<PhoneNumber>402-346-1400</PhoneNumber>
+				<SIC code="6719">HOLDING COMPANIES, NEC                </SIC>
+				<CorporateLink>
+					<CorporateLinkageIndicator>Y</CorporateLinkageIndicator>
+				</CorporateLink>
+			</BusinessNameAndAddress>
+			<CorporateLinkage>
+				<LinkageRecordType code="1">Ultimate Parent</LinkageRecordType>
+				<LinkageRecordBIN>924435215</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="Y"/>
+				<LinkageCompanyAddress>1440 FARNAM ST  STE  1440</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>700731918</LinkageRecordBIN>
+				<LinkageCompanyName>GARAN, INCORPORATED</LinkageCompanyName>
+				<LinkageCompanyCity>NEW YORK</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>350 5TH AVE</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>708858000</LinkageRecordBIN>
+				<LinkageCompanyName>JORDAN'S FURNITURE, INC</LinkageCompanyName>
+				<LinkageCompanyCity>AVON</LinkageCompanyCity>
+				<LinkageCompanyState>MA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>100 STOCKWELL DR</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>712508863</LinkageRecordBIN>
+				<LinkageCompanyName>GEICO CORP</LinkageCompanyName>
+				<LinkageCompanyCity>WASHINGTON</LinkageCompanyCity>
+				<LinkageCompanyState>DC</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>1 GEICO PLZ</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>713237468</LinkageRecordBIN>
+				<LinkageCompanyName>THE BUFFALO NEWS</LinkageCompanyName>
+				<LinkageCompanyCity>BUFFALO</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>1 NEWS PLZ</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>713533959</LinkageRecordBIN>
+				<LinkageCompanyName>UNITED STATES LIABILITY INSURANCE CO</LinkageCompanyName>
+				<LinkageCompanyCity>WAYNE</LinkageCompanyCity>
+				<LinkageCompanyState>PA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>190 S  WARNER RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>724244621</LinkageRecordBIN>
+				<LinkageCompanyName>SHAW INDUSTRIES GROUP, INC</LinkageCompanyName>
+				<LinkageCompanyCity>DALTON</LinkageCompanyCity>
+				<LinkageCompanyState>GA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>P. O. BOX 2128RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>724798756</LinkageRecordBIN>
+				<LinkageCompanyName>ALBECCA INC</LinkageCompanyName>
+				<LinkageCompanyCity>NORCROSS</LinkageCompanyCity>
+				<LinkageCompanyState>GA</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>3900 STEVE REYNOLDS BLVD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>736349198</LinkageRecordBIN>
+				<LinkageCompanyName>CLAYTON HOMES INC</LinkageCompanyName>
+				<LinkageCompanyCity>MARYVILLE</LinkageCompanyCity>
+				<LinkageCompanyState>TN</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>500 ALCOA TRL</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>747977888</LinkageRecordBIN>
+				<LinkageCompanyName>FOREST RIVER, INC</LinkageCompanyName>
+				<LinkageCompanyCity>ELKHART</LinkageCompanyCity>
+				<LinkageCompanyState>IN</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>55470 COUNTY ROAD 1</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="3">Subsidiary</LinkageRecordType>
+				<LinkageRecordBIN>748087537</LinkageRecordBIN>
+				<LinkageCompanyName>THE FECHHEIMER BROTHERS CO</LinkageCompanyName>
+				<LinkageCompanyCity>CINCINNATI</LinkageCompanyCity>
+				<LinkageCompanyState>OH</LinkageCompanyState>
+				<ReturnLimitExceeded code="Y"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>4545 MALSBARY RD</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>772036782</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>9290 W  DODGE RD  STE  300</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>773539630</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>2962 HARNEY ST</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>774539970</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>3555 FARNAM ST  STE  1440</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>777772122</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>2840 S  123RD CT</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>888858168</LinkageRecordBIN>
+				<LinkageCompanyName>BERKSHIRE HATHAWAY INC</LinkageCompanyName>
+				<LinkageCompanyCity>OMAHA</LinkageCompanyCity>
+				<LinkageCompanyState>NE</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>3924 HARNEY ST</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<BusinessSummary>
+				<RiskCategory code="A">Acceptable</RiskCategory>
+				<NumberOfTradeLines>00013</NumberOfTradeLines>
+				<JudgmentFlag code="N"/>
+				<TaxLienFlag code="N"/>
+				<BankruptcyFlag code="N"/>
+				<UCCFilingsFlag code="N"/>
+				<CollectionFlag code="N"/>
+				<BankFlag code="N"/>
+				<CorporateFilingStatus code="049"/>
+				<DateOfIncorporation>19730508</DateOfIncorporation>
+				<KeyPersonnel1>WARREN  BUFFETT CHIEF EXECUTIVE                   </KeyPersonnel1>
+				<KeyPersonnel2>ROD  ELDRED PRESIDENT                             </KeyPersonnel2>
+				<NumberOfEmployees>0246000</NumberOfEmployees>
+				<TransactionNumber>Q605006197</TransactionNumber>
+			</BusinessSummary>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</BusinessSummary>
+	</Products>
+</NetConnectResponse>

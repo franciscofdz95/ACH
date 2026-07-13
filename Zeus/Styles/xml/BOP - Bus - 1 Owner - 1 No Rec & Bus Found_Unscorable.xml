@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\ownerprofile\BOP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BOP</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessProfile>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602540320</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/ICR INVESTMENTS;CA-/HOUSTON TX 77060/V-000777/SBOP/OWNR-BAGGINS,BOBO;CA-123 MAIN ST/ORANGE CA 92874</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileDate>20080229</ProfileDate>
+				<ProfileTime>13:12:29</ProfileTime>
+				<TerminalNumber>-ADQ</TerminalNumber>
+				<FileEstablishFlag code=" "/>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00000000</AllTradelineBalance>
+				<AllTradelineCount>000</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+			</ExecutiveElements>
+			<ProprietorNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileTime>13:12:29</ProfileTime>
+				<ProprietorName>BOBO  BAGGINS                                               </ProprietorName>
+				<StreetAddress>123 MAIN ST                                                 </StreetAddress>
+				<City>ORANGE                      </City>
+				<State>CA</State>
+				<Zip>92874    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<SmallBusinessAdvisorySummary>
+				<ProprietorBirthDate>    0000</ProprietorBirthDate>
+			</SmallBusinessAdvisorySummary>
+			<BillingIndicator code="A">Access Charge</BillingIndicator>
+		</BusinessProfile>
+		<CreditProfile>
+			<Header>
+				<ReportDate>022908</ReportDate>
+				<ReportTime>131228</ReportTime>
+				<Preamble>TCA1</Preamble>
+				<ARFVersion>07</ARFVersion>
+			</Header>
+			<InformationalMessage>
+				<MessageNumber>57</MessageNumber>
+				<MessageText>1202 SPELLING OF NAME USED TO ACCESS REPORT DOES NOT MATCH OFAC/PLC LIST</MessageText>
+			</InformationalMessage>
+			<InformationalMessage>
+				<MessageNumber>07</MessageNumber>
+				<MessageText>0007 *****  NO RECORD FOUND  *****</MessageText>
+			</InformationalMessage>
+			<FraudServices>
+				<Type code="99">Subsegment data only</Type>
+				<SIC code="        "/>
+				<Text/>
+				<SocialDate>000000</SocialDate>
+				<SocialCount>0000</SocialCount>
+				<SocialErrorCode code="2">Not applicable</SocialErrorCode>
+				<AddressDate>110107</AddressDate>
+				<AddressCount>0000</AddressCount>
+				<AddressErrorCode code="0">No error conditions occur</AddressErrorCode>
+			</FraudServices>
+		</CreditProfile>
+	</Products>
+</NetConnectResponse>

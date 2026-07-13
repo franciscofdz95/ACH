@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Website Review - Risk Level 3</title>
+</head>
+<body>
+    <p>
+        Dear [[contactname]]:
+    </p>
+    <p>
+        In an ongoing effort to minimize cardholder disputes and ensure compliance with bankcard industry standards, the Paysafe Compliance Team conducts regularly scheduled website reviews for our clients that process credit card transactions for online orders.
+    </p>
+    <p>
+    Upon completion of a review on [[reviewdate]], we request that you make changes to your website [[websiteurl]] at this time in order to improve your level of compliance on the items below:
+    </p>
+
+    <ul>
+        [[lipink]]
+    </ul>
+    <p>
+        Attached to this email are the results of Paysafe' Website Compliance review that was conducted on your merchant account, which may contain notes that refer to specific sections of the website that have negatively impacted your rating.  Also included are screenshots of the website to help identify the areas of concern.
+    </p>
+    <p>
+        As a result of the Non-Compliant status of your website, beginning [[billingdate]], you will be assessed a $19.95, Website Non-Compliance Fee.  This fee will continue to be charged monthly until the non-compliant issue(s) have been resolved.  If you have any questions, please contact the Paysafe Compliance Team via e-mail at compliance_pp@paysafe.com.
+    </p>
+    <p>
+        Sincerely,<br />
+        Paysafe – Compliance Team
+    </p>
+    <p>
+        Review ID: [[ticketid]]
+    </p>
+</body>
+</html>
+<!-- 
+    contactname
+    businessdbaname
+    reviewdate
+    websiteurl
+    lipink
+    ratingpercent
+    billingdate
+    ticketid
+
+    note from tol: you can find these templates in the EmailTemplate table. i've included them in the project here to update them easier. otherwise you'd need to get the unformated versom from sql, format it, modify it, then strip out newlines again and spacing and escape again.
+
+-->

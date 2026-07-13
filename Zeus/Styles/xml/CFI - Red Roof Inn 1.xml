@@ -1,0 +1,650 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\cfi\CFI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>CFI</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<CommercialFraudInsight>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C602507992</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Comments>BUS ALL FIELDS TEST</Comments>
+				<Inquiry>NARQ/RED ROOF INN;CA-2443 E 27TH ST/VERNON CA 90058/TID-1;548603388/PH-3235855318/BN-RRI INC;3/CA-PO BOX 100/LOS ANGELES CA 90078/M-BUS ALL FIELDS TEST/V-000777;01/USRID-BISQA8801/HA-PO BOX 100/SANTA MONICA CA 90406/HA-PO BOX 100/SEAL BEACH CA 90740</Inquiry>
+			</InputSummary>
+			<GeneralSummary type="Business" ident="B1A1">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-Z9R-CM5FT733</AuditNbr>
+				<ResponseType>B1A1</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B1A1">
+				<AddrCode>BM</AddrCode>
+				<AddrMsg>Match to business name - mixed use address</AddrMsg>
+				<PhnCode>BB</PhnCode>
+				<PhnMsg>Match to business name and address - business phone</PhnMsg>
+				<AddrTypeCode>X </AddrTypeCode>
+				<AddrTypeMsg>Mixed use</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode/>
+				<AddrUnitMismatchMsg>Data not available</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>1 </OFACCode>
+				<OFACMsg>No match</OFACMsg>
+				<TaxIDCode>U </TaxIDCode>
+				<TaxIDMsg>Tax ID unverifiable - not in database</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B1A1">
+				<AddrCode>YA</AddrCode>
+				<AddrMsg>A high-risk business was identified at this address</AddrMsg>
+				<PhnCode>YP</PhnCode>
+				<PhnMsg>A high-risk business was identified for the address at this phone</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B1A1">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0001</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0001</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>01</AddrBusRecs>
+				<AddrHiRiskCodes>01</AddrHiRiskCodes>
+				<AddrHiRiskDescs>01</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>01</PhnBusRecs>
+				<PhnHiRiskCodes>01</PhnHiRiskCodes>
+				<PhnHiRiskDescs>01</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>00</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>06</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B1A1"/>
+			<StdAddr type="Business" ident="B1A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+			</StdAddr>
+			<BusAddr type="Business" ident="B1A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</BusAddr>
+			<AddrHiRiskCodes type="Business" ident="B1A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</AddrHiRiskCodes>
+			<AddrHiRiskDescs type="Business" ident="B1A1">
+				<HighRiskDesc>Motels Franchised</HighRiskDesc>
+			</AddrHiRiskDescs>
+			<BusPhn type="Business" ident="B1A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</BusPhn>
+			<PhnHiRiskCodes type="Business" ident="B1A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</PhnHiRiskCodes>
+			<PhnHiRiskDescs type="Business" ident="B1A1">
+				<HighRiskDesc>Motels Franchised</HighRiskDesc>
+			</PhnHiRiskDescs>
+			<ValidationDetail type="Business" ident="B1A1">
+				<OFACValidationResult>1 </OFACValidationResult>
+			</ValidationDetail>
+			<ProfileContinuation>
+				<ContinuationAction>008</ContinuationAction>
+			</ProfileContinuation>
+			<GeneralSummary type="Business" ident="B1A2">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-Z9R-CNDZNC13</AuditNbr>
+				<ResponseType>B1A2</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B1A2">
+				<AddrCode>U </AddrCode>
+				<AddrMsg>Address unverifiable - not in database (Address can standardize, but no other address verification return code is applicable)</AddrMsg>
+				<PhnCode>DB</PhnCode>
+				<PhnMsg>Match to business name - business address</PhnMsg>
+				<AddrTypeCode>P </AddrTypeCode>
+				<AddrTypeMsg>Post office box</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode/>
+				<AddrUnitMismatchMsg>Data not available</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>1 </OFACCode>
+				<OFACMsg>No match</OFACMsg>
+				<TaxIDCode>U </TaxIDCode>
+				<TaxIDMsg>Tax ID unverifiable - not in database</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B1A2">
+				<AddrCode>N </AddrCode>
+				<AddrMsg>No address high-risk information found</AddrMsg>
+				<PhnCode>YP</PhnCode>
+				<PhnMsg>A high-risk business was identified for the address at this phone</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B1A2">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0000</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0001</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>00</AddrBusRecs>
+				<AddrHiRiskCodes>00</AddrHiRiskCodes>
+				<AddrHiRiskDescs>00</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>01</PhnBusRecs>
+				<PhnHiRiskCodes>01</PhnHiRiskCodes>
+				<PhnHiRiskDescs>01</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>00</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>06</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B1A2"/>
+			<StdAddr type="Business" ident="B1A2">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>PO BOX 100</Addr>
+				<City>LOS ANGELES</City>
+				<State>CA</State>
+				<Zip>90078</Zip>
+				<Zip4>0100</Zip4>
+			</StdAddr>
+			<BusPhn type="Business" ident="B1A2">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</BusPhn>
+			<PhnHiRiskCodes type="Business" ident="B1A2">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</PhnHiRiskCodes>
+			<PhnHiRiskDescs type="Business" ident="B1A2">
+				<HighRiskDesc>Motels Franchised</HighRiskDesc>
+			</PhnHiRiskDescs>
+			<ValidationDetail type="Business" ident="B1A2">
+				<OFACValidationResult>1 </OFACValidationResult>
+			</ValidationDetail>
+			<ProfileContinuation>
+				<ContinuationAction>008</ContinuationAction>
+			</ProfileContinuation>
+			<GeneralSummary type="Business" ident="B2A1">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-Z9R-CNFCRN13</AuditNbr>
+				<ResponseType>B2A1</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B2A1">
+				<AddrCode>NM</AddrCode>
+				<AddrMsg>No match to name - mixed use address</AddrMsg>
+				<PhnCode>AB</PhnCode>
+				<PhnMsg>Match to address only - business phone</PhnMsg>
+				<AddrTypeCode>X </AddrTypeCode>
+				<AddrTypeMsg>Mixed use</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode/>
+				<AddrUnitMismatchMsg>Data not available</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>1 </OFACCode>
+				<OFACMsg>No match</OFACMsg>
+				<TaxIDCode>U </TaxIDCode>
+				<TaxIDMsg>Tax ID unverifiable - not in database</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B2A1">
+				<AddrCode>YA</AddrCode>
+				<AddrMsg>A high-risk business was identified at this address</AddrMsg>
+				<PhnCode>YP</PhnCode>
+				<PhnMsg>A high-risk business was identified for the address at this phone</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B2A1">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0001</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0001</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>01</AddrBusRecs>
+				<AddrHiRiskCodes>01</AddrHiRiskCodes>
+				<AddrHiRiskDescs>01</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>01</PhnBusRecs>
+				<PhnHiRiskCodes>01</PhnHiRiskCodes>
+				<PhnHiRiskDescs>01</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>00</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>06</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B2A1"/>
+			<StdAddr type="Business" ident="B2A1">
+				<BusName>RRI</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+			</StdAddr>
+			<BusAddr type="Business" ident="B2A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</BusAddr>
+			<AddrHiRiskCodes type="Business" ident="B2A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</AddrHiRiskCodes>
+			<AddrHiRiskDescs type="Business" ident="B2A1">
+				<HighRiskDesc>Motels Franchised</HighRiskDesc>
+			</AddrHiRiskDescs>
+			<BusPhn type="Business" ident="B2A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</BusPhn>
+			<PhnHiRiskCodes type="Business" ident="B2A1">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</PhnHiRiskCodes>
+			<PhnHiRiskDescs type="Business" ident="B2A1">
+				<HighRiskDesc>Motels Franchised</HighRiskDesc>
+			</PhnHiRiskDescs>
+			<ValidationDetail type="Business" ident="B2A1">
+				<OFACValidationResult>1 </OFACValidationResult>
+			</ValidationDetail>
+			<ProfileContinuation>
+				<ContinuationAction>008</ContinuationAction>
+			</ProfileContinuation>
+			<GeneralSummary type="Business" ident="B2A2">
+				<ProfileID>MMBIS01</ProfileID>
+				<PrimaryResultCode>00</PrimaryResultCode>
+				<PrimaryResultMsg>Data found for search request</PrimaryResultMsg>
+				<AuditNbr>CP-Z9R-CM5VQJ33</AuditNbr>
+				<ResponseType>B2A2</ResponseType>
+			</GeneralSummary>
+			<VerifySummary type="Business" ident="B2A2">
+				<AddrCode>U </AddrCode>
+				<AddrMsg>Address unverifiable - not in database (Address can standardize, but no other address verification return code is applicable)</AddrMsg>
+				<PhnCode>NB</PhnCode>
+				<PhnMsg>No match to name or address - business phone</PhnMsg>
+				<AddrTypeCode>P </AddrTypeCode>
+				<AddrTypeMsg>Post office box</AddrTypeMsg>
+				<COACode>NA</COACode>
+				<COAMsg>Data not available</COAMsg>
+				<SSNCode>NA</SSNCode>
+				<SSNMsg>Data not available</SSNMsg>
+				<AddrUnitMismatchCode/>
+				<AddrUnitMismatchMsg>Data not available</AddrUnitMismatchMsg>
+				<PhnUnitMismatchCode/>
+				<PhnUnitMismatchMsg>Data not available</PhnUnitMismatchMsg>
+				<DLResultCode>M </DLResultCode>
+				<DLResultMsg>Drivers license number not submitted on inquiry</DLResultMsg>
+				<DateOfBirthMatchCode>6</DateOfBirthMatchCode>
+				<DateOfBirthMatchMsg>DOB not provided on search request</DateOfBirthMatchMsg>
+				<OFACCode>1 </OFACCode>
+				<OFACMsg>No match</OFACMsg>
+				<TaxIDCode>U </TaxIDCode>
+				<TaxIDMsg>Tax ID unverifiable - not in database</TaxIDMsg>
+			</VerifySummary>
+			<HighRiskSummary type="Business" ident="B2A2">
+				<AddrCode>N </AddrCode>
+				<AddrMsg>No address high-risk information found</AddrMsg>
+				<PhnCode>YP</PhnCode>
+				<PhnMsg>A high-risk business was identified for the address at this phone</PhnMsg>
+			</HighRiskSummary>
+			<CountsSummary type="Business" ident="B2A2">
+				<AddrResMatches>0000</AddrResMatches>
+				<AddrBusMatches>0000</AddrBusMatches>
+				<PhnResMatches>0000</PhnResMatches>
+				<PhnBusMatches>0001</PhnBusMatches>
+				<StdAddrRecs>01</StdAddrRecs>
+				<AddrResRecs>00</AddrResRecs>
+				<AddrBusRecs>00</AddrBusRecs>
+				<AddrHiRiskCodes>00</AddrHiRiskCodes>
+				<AddrHiRiskDescs>00</AddrHiRiskDescs>
+				<PhnResRecs>00</PhnResRecs>
+				<PhnBusRecs>01</PhnBusRecs>
+				<PhnHiRiskCodes>01</PhnHiRiskCodes>
+				<PhnHiRiskDescs>01</PhnHiRiskDescs>
+				<SSNAddrRecs>00</SSNAddrRecs>
+				<ValidationRecs>01</ValidationRecs>
+				<DriverLicRecs>00</DriverLicRecs>
+				<OFACRecs>00</OFACRecs>
+				<AuditReqRecs>00</AuditReqRecs>
+				<COAAddrRecs>00</COAAddrRecs>
+				<PreviousSSNAddrRecs>00</PreviousSSNAddrRecs>
+				<SSNFinderRecs>00</SSNFinderRecs>
+				<HistoricalMatchRecs>06</HistoricalMatchRecs>
+				<TaxIDRecs>00</TaxIDRecs>
+			</CountsSummary>
+			<LevelOneModelSummary type="Business" ident="B2A2"/>
+			<StdAddr type="Business" ident="B2A2">
+				<BusName>RRI</BusName>
+				<Addr>PO BOX 100</Addr>
+				<City>LOS ANGELES</City>
+				<State>CA</State>
+				<Zip>90078</Zip>
+				<Zip4>0100</Zip4>
+			</StdAddr>
+			<BusPhn type="Business" ident="B2A2">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</BusPhn>
+			<PhnHiRiskCodes type="Business" ident="B2A2">
+				<BusName>RED ROOF INN</BusName>
+				<Addr>2443 E 27TH ST</Addr>
+				<City>VERNON</City>
+				<State>CA</State>
+				<Zip>90058</Zip>
+				<Zip4>1219</Zip4>
+				<AreaCode>323</AreaCode>
+				<PhnNbr>5855318</PhnNbr>
+			</PhnHiRiskCodes>
+			<PhnHiRiskDescs type="Business" ident="B2A2">
+				<HighRiskDesc>Motels Franchised</HighRiskDesc>
+			</PhnHiRiskDescs>
+			<ValidationDetail type="Business" ident="B2A2">
+				<OFACValidationResult>1 </OFACValidationResult>
+			</ValidationDetail>
+			<HistoricalValidation>
+				<AppID>602507978</AppID>
+				<CreationDate>20080129</CreationDate>
+				<SubCode>563736</SubCode>
+				<UserID>GREG.GUNAJI</UserID>
+				<RegionID>2</RegionID>
+				<PreviousBusinessApplicant>
+					<BusName>RED ROOF INN</BusName>
+					<PrimaryAddress>
+						<Addr>2443 E 27TH ST</Addr>
+						<City>VERNON</City>
+						<State>CA</State>
+						<Zip>90058</Zip>
+					</PrimaryAddress>
+				</PreviousBusinessApplicant>
+				<MatchIndicators>
+					<BusNameMatch>Y</BusNameMatch>
+					<BusAddrMatch>Y</BusAddrMatch>
+					<AlternateNameMatch>N</AlternateNameMatch>
+					<AlternateAddrMatch>N</AlternateAddrMatch>
+					<BusPhnNbrMatch>N</BusPhnNbrMatch>
+					<TaxIDMatch>N</TaxIDMatch>
+					<BPNameMatch>N</BPNameMatch>
+					<BPAddrMatch>N</BPAddrMatch>
+					<BPSSNMatch>N</BPSSNMatch>
+					<BPPhnNbrMatch>N</BPPhnNbrMatch>
+					<SecondaryBPNameMatch>N</SecondaryBPNameMatch>
+					<SecondaryBPAddrMatch>N</SecondaryBPAddrMatch>
+					<SecondaryBPSSNMatch>N</SecondaryBPSSNMatch>
+					<SecondaryBPPhnNbrMatch>N</SecondaryBPPhnNbrMatch>
+					<AddlAddrMatch>N</AddlAddrMatch>
+				</MatchIndicators>
+			</HistoricalValidation>
+			<HistoricalValidation>
+				<AppID>602507973</AppID>
+				<CreationDate>20080129</CreationDate>
+				<SubCode>563736</SubCode>
+				<UserID>GREG.GUNAJI</UserID>
+				<RegionID>2</RegionID>
+				<PreviousBusinessApplicant>
+					<BusName>APEX SERVICES</BusName>
+					<PrimaryAddress>
+						<Addr>1562 BLAKE ST</Addr>
+						<City>DENVER</City>
+						<State>CO</State>
+						<Zip>80202</Zip>
+					</PrimaryAddress>
+					<AlternateAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>LOS ANGELES</City>
+						<State>CA</State>
+						<Zip>90078</Zip>
+					</AlternateAddress>
+					<Phone>
+						<PhnNbr>3032990113</PhnNbr>
+					</Phone>
+				</PreviousBusinessApplicant>
+				<MatchIndicators>
+					<BusNameMatch>N</BusNameMatch>
+					<BusAddrMatch>N</BusAddrMatch>
+					<AlternateNameMatch>N</AlternateNameMatch>
+					<AlternateAddrMatch>Y</AlternateAddrMatch>
+					<BusPhnNbrMatch>N</BusPhnNbrMatch>
+					<TaxIDMatch>N</TaxIDMatch>
+					<BPNameMatch>N</BPNameMatch>
+					<BPAddrMatch>N</BPAddrMatch>
+					<BPSSNMatch>N</BPSSNMatch>
+					<BPPhnNbrMatch>N</BPPhnNbrMatch>
+					<SecondaryBPNameMatch>N</SecondaryBPNameMatch>
+					<SecondaryBPAddrMatch>N</SecondaryBPAddrMatch>
+					<SecondaryBPSSNMatch>N</SecondaryBPSSNMatch>
+					<SecondaryBPPhnNbrMatch>N</SecondaryBPPhnNbrMatch>
+					<AddlAddrMatch>N</AddlAddrMatch>
+				</MatchIndicators>
+			</HistoricalValidation>
+			<HistoricalValidation>
+				<AppID>602507970</AppID>
+				<CreationDate>20080129</CreationDate>
+				<SubCode>563736</SubCode>
+				<UserID>GREG.GUNAJI</UserID>
+				<RegionID>2</RegionID>
+				<PreviousBusinessApplicant>
+					<BusName>RED ROOF INN</BusName>
+					<TaxID>548603388</TaxID>
+					<PrimaryAddress>
+						<Addr>2443 E 27TH ST</Addr>
+						<City>VERNON</City>
+						<State>CA</State>
+						<Zip>90058</Zip>
+					</PrimaryAddress>
+					<AlternateAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>LOS ANGELES</City>
+						<State>CA</State>
+						<Zip>90078</Zip>
+					</AlternateAddress>
+					<Phone>
+						<PhnNbr>3235855318</PhnNbr>
+					</Phone>
+					<ThirdAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>SANTA MONICA</City>
+						<State>CA</State>
+						<Zip>90406</Zip>
+					</ThirdAddress>
+					<FourthAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>SEAL BEACH</City>
+						<State>CA</State>
+						<Zip>90740</Zip>
+					</FourthAddress>
+				</PreviousBusinessApplicant>
+				<MatchIndicators>
+					<BusNameMatch>Y</BusNameMatch>
+					<BusAddrMatch>Y</BusAddrMatch>
+					<AlternateNameMatch>N</AlternateNameMatch>
+					<AlternateAddrMatch>Y</AlternateAddrMatch>
+					<BusPhnNbrMatch>Y</BusPhnNbrMatch>
+					<TaxIDMatch>Y</TaxIDMatch>
+					<BPNameMatch>N</BPNameMatch>
+					<BPAddrMatch>N</BPAddrMatch>
+					<BPSSNMatch>N</BPSSNMatch>
+					<BPPhnNbrMatch>N</BPPhnNbrMatch>
+					<SecondaryBPNameMatch>N</SecondaryBPNameMatch>
+					<SecondaryBPAddrMatch>N</SecondaryBPAddrMatch>
+					<SecondaryBPSSNMatch>N</SecondaryBPSSNMatch>
+					<SecondaryBPPhnNbrMatch>N</SecondaryBPPhnNbrMatch>
+					<AddlAddrMatch>Y</AddlAddrMatch>
+				</MatchIndicators>
+			</HistoricalValidation>
+			<HistoricalDetail>
+				<AppID>602507992</AppID>
+				<CurrentBusinessApplicant>
+					<BusName>RED ROOF INN</BusName>
+					<PrimaryAddress>
+						<Addr>2443 E 27TH ST</Addr>
+						<City>VERNON</City>
+						<State>CA</State>
+						<Zip>90058</Zip>
+					</PrimaryAddress>
+				</CurrentBusinessApplicant>
+			</HistoricalDetail>
+			<HistoricalDetail>
+				<AppID>602507992</AppID>
+				<CurrentBusinessApplicant>
+					<AlternateAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>LOS ANGELES</City>
+						<State>CA</State>
+						<Zip>90078</Zip>
+					</AlternateAddress>
+				</CurrentBusinessApplicant>
+			</HistoricalDetail>
+			<HistoricalDetail>
+				<AppID>602507992</AppID>
+				<CurrentBusinessApplicant>
+					<BusName>RED ROOF INN</BusName>
+					<TaxID>548603388</TaxID>
+					<PrimaryAddress>
+						<Addr>2443 E 27TH ST</Addr>
+						<City>VERNON</City>
+						<State>CA</State>
+						<Zip>90058</Zip>
+					</PrimaryAddress>
+					<AlternateAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>LOS ANGELES</City>
+						<State>CA</State>
+						<Zip>90078</Zip>
+					</AlternateAddress>
+					<Phone>
+						<PhnNbr>3235855318</PhnNbr>
+					</Phone>
+					<ThirdAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>SANTA MONICA</City>
+						<State>CA</State>
+						<Zip>90406</Zip>
+					</ThirdAddress>
+					<FourthAddress>
+						<Addr>PO BOX 100</Addr>
+						<City>SEAL BEACH</City>
+						<State>CA</State>
+						<Zip>90740</Zip>
+					</FourthAddress>
+				</CurrentBusinessApplicant>
+			</HistoricalDetail>
+			<BillingIndicator>F</BillingIndicator>
+			<BillingIndicatorMsg>Full Charge</BillingIndicatorMsg>
+		</CommercialFraudInsight>
+	</Products>
+</NetConnectResponse>
+<!-- Report ends here -->

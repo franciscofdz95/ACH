@@ -1,0 +1,203 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageMain.master.cs"
+    Inherits="MasterPageMain" %>
+<%@ Register TagPrefix="ignav" Namespace="Infragistics.WebUI.UltraWebNavigator" Assembly="Infragistics2.WebUI.UltraWebNavigator.v8.1, Version=8.1.20081.2123, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Main</title>
+
+    <script type="text/javascript" src="../js/Session.js"></script>
+
+    <script language="javascript" type="text/javascript">
+
+    function CopyConfirmation_Click(oButton, oEvent)
+    {
+        if ( !window.confirm( "Are you sure you want to copy this record?"))
+           oEvent.cancel = true;
+    }
+        
+    function DeleteConfirmation_Click(oButton, oEvent)
+    {
+        if ( !window.confirm( "Are you sure you want to delete this record?"))
+           oEvent.cancel = true;
+    }
+    
+    function SaveConfirmation_Click(oButton, oEvent)
+    {
+        if ( !window.confirm( "Did you remember to update the lead status?"))
+           oEvent.cancel = true;
+    }
+
+    function AddNotesConfirmation_Click(oButton, oEvent)
+    {
+        if ( !window.confirm( "Please save Did you remember to update the lead status?"))
+           oEvent.cancel = true;
+    }
+    
+    function DisableEnterKey()
+    {
+        if (window.event.keyCode == 13) 
+        {
+            event.returnValue=false; 
+            event.cancel = true;
+        }
+    }
+
+
+    /* Function resolve bug with chart control
+    
+    http://forums.infragistics.com/forums/t/8970.aspx
+    */
+    function body_onload()
+    {
+        if (document.getElementById("theDiv") != null)
+            document.getElementById("theDiv").style.display = "";
+            startTimeoutTimer();
+    } 
+
+
+
+    </script>
+
+</head>
+<body onload="body_onload()">
+    <form id="form1" runat="server">
+        <div id="modalPage">
+            <div class="modalBackground">
+            </div>
+            <div class="modalContainer">
+                <div class="modal">
+                    <h3 style="margin: 0; padding: 0; border-bottom: 1px solid #777; font: 7px; height: 22px;">
+                        Your session is about to expire!</h3>
+                    <div class="modalTop">
+                        <br />
+                        <p>
+                            <span id="msg">There has been no server activity for an extended period of time. Your
+                                session will time out in <b><font color='red'>1 minute</font></b>.</span>
+                        </p>
+                        <p>
+                            Click OK to continue your session, or click logout to end it.
+                        </p>
+                        <p>
+                            If you do not respond within two minutes your session will be terminated and you
+                            will lose any unsaved work on the current page.
+                        </p>
+                        <p align="center">
+                            <a style="color: #00c7ff;" href="#" onclick="stillHere()">OK</a>&nbsp;&nbsp; <a style="color: #00c7ff;"
+                                href="#" onclick="goAway()">Logout</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <div id="header">
+                <div class="menulogo">
+                    <div class="leftcolumn">
+                        <asp:Image ID="Image1" ImageUrl="~/Images/Logo.jpg" runat="server" /></div>
+                    <div class="righcolumn" style="height: 100%; text-align: right; margin-top: 45px;
+                        margin-right: 5px">
+                        <asp:Label ID="lblWelcome" runat="server" Text="Label"></asp:Label>&nbsp;
+                        <asp:LinkButton ID="lnkLogOut" runat="server" CausesValidation="False" OnClick="lnkLogOut_Click">Log Out</asp:LinkButton>
+                    </div>
+                </div>
+                <div class="menubg">
+                    <div class="floatleftcolumn">
+                        <ignav:UltraWebMenu ID="mnuMain" runat="server" JavaScriptFilename="" JavaScriptFileNameCommon=""
+                            LeafItemImageUrl="" ParentItemImageUrl="" StyleSetName="" ForeColor="White" Height="33px"
+                            BorderStyle="None" Width="300px" OnMenuItemClicked="mnuMain_MenuItemClicked">
+                            <Images>
+                                <SubMenuImage Url="ig_menuTri.gif" />
+                                <BackgroundImage Url="~/App_Themes/Blue/Images/menubar2.gif" />
+                            </Images>
+                            <IslandStyle BackColor="#4B6BAD" BorderStyle="Outset" BorderWidth="1px" Cursor="Default">
+                            </IslandStyle>
+                            <HoverItemStyle BackColor="Transparent" Cursor="Default" ForeColor="#FA2F00">
+                            </HoverItemStyle>
+                            <Levels>
+                                <ignav:Level Index="0" />
+                                <ignav:Level Index="1" />
+                                <ignav:Level Index="2" />
+                            </Levels>
+                            <DisabledStyle Font-Names="MS Sans Serif" Font-Size="8pt" ForeColor="Gray">
+                            </DisabledStyle>
+                            <ItemStyle Cursor="Default" BackColor="Transparent" ForeColor="White" />
+                            <SeparatorStyle BackgroundImage="ig_menuSep.gif" CssClass="SeparatorClass" CustomRules="background-repeat:repeat-x; " />
+                            <ExpandEffects ShadowColor="75, 107, 173" />
+                            <Items>
+                                <ignav:Item TagString="Home" Text="Home">
+                                </ignav:Item>
+                                <ignav:Item TagString="Merchant" Text="Merchant">
+                                </ignav:Item>
+                                <ignav:Item TagString="Reports" Text="Reports">
+                                </ignav:Item>
+                                <ignav:Item TagString="Sales" Text="Sales">
+                                    <Items>
+                                        <ignav:Item TagString="Leads" Text="Leads">
+                                        </ignav:Item>
+                                        <ignav:Item TagString="Assign Leads" Text="Assign Leads">
+                                        </ignav:Item>
+                                        <ignav:Item TagString="Notes" Text="Notes">
+                                        </ignav:Item>
+                                        <ignav:Item TagString="Appointments" Text="Appointments">
+                                        </ignav:Item>
+                                        <ignav:Item TagString="Email" Text="Email">
+                                        </ignav:Item>
+                                        <ignav:Item Text="Reports" TagString="Reports">
+                                            <Items>
+                                                <ignav:Item TagString="Leads By Status" Text="Leads By Status">
+                                                </ignav:Item>
+                                                <ignav:Item TagString="Leads By Agent" Text="Leads By Agent">
+                                                </ignav:Item>
+                                                <ignav:Item TagString="Leads By Source" Text="Leads By Source">
+                                                </ignav:Item>
+                                            </Items>
+                                        </ignav:Item>
+                                    </Items>
+                                </ignav:Item>
+                                <ignav:Item TagString="Agent" Text="Agent">
+                                </ignav:Item>
+                                <ignav:Item Text="Admin" TagString="Admin">
+                                    <Items>
+                                        <ignav:Item TagString="Users" Text="Users">
+                                        </ignav:Item>
+                                        <ignav:Item TagString="Manage Roles" Text="Manage Roles">
+                                        </ignav:Item>
+                                    </Items>
+                                </ignav:Item>
+                                <ignav:Item Text="User" TagString="User">
+                                    <Items>
+                                        <ignav:Item TagString="Change Password" Text="Change Password">
+                                        </ignav:Item>
+                                    </Items>
+                                </ignav:Item>
+                            </Items>
+                            <LeafItemStyle BackColor="#4B6BAD" BorderStyle="None">
+                            </LeafItemStyle>
+                            <TopLevelLeafItemStyle BackColor="Transparent">
+                            </TopLevelLeafItemStyle>
+                            <TopLevelParentItemStyle BackColor="Transparent">
+                            </TopLevelParentItemStyle>
+                            <MenuClientSideEvents InitializeMenu="" ItemChecked="" ItemClick="" ItemHover=""
+                                SubMenuDisplay="" />
+                        </ignav:UltraWebMenu>
+                    </div>
+                    <div class="floatrightcolumn" style="color: White; margin-top: 8px; margin-right: 5px">
+                        <asp:Label ID="lblBreadCrumbs" runat="server" Text=""></asp:Label></div>
+                </div>
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer">
+                <div class="menubg">
+                    <div style="text-align: right; margin-top: 8px; margin-right: 5px">
+                        <asp:Label ID="lblDate" ForeColor="white" runat="server" Text=""></asp:Label>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </form>
+</body>
+</html>

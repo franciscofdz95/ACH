@@ -1,0 +1,163 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+using PaymentXP.BusinessObjects;
+using System.Text;
+using System.Collections;
+
+/// <summary>
+/// Summary description for FormAgentAlerts
+/// </summary>
+public static class FormAgentAlerts
+{
+    public static void SendApplicationEmail(MerchantApp app, string OrigStatus)
+    {
+        string AgentEmail = string.Empty, AlertNote = string.Empty, AlertTypeName = string.Empty, From = string.Empty;
+        string key = "95139323-aeb4-4cc4-92ef-4b7a450ffadd";
+        AgentAlerts objAlerts = null;
+        bool send = false;
+
+        if (app.AgentAlerts.TryGetValue(key, out objAlerts) && objAlerts.Checked)
+        {
+            AgentEmail = app.AgentEmail;
+        }
+
+        switch (app.StatusUID.ToUpper())
+        {
+            case Constants.QUEUESTATUS_AP_RECEIVED:
+
+                if (OrigStatus.ToUpper() != Constants.QUEUESTATUS_AP_RECEIVED) //Received Status
+                {
+                    AlertNote = "Thank you for choosing Meritus Payment Solutions.This is to inform you that this account has been received.If received before 12 p.m. you will have an update today.If the application has been received after 12 p.m. then you will have an update before 3 p.m. tomorrow.";
+                    AlertTypeName = " - Application Received";
+                    From = "irvine.applicationboarding@paysafe.com; Irvine.Application.Processing@paysafe.com";
+                    send = true;
+                }
+
+                break;
+
+            case Constants.QUEUESTATUS_CU_APPROVED: //Approved
+
+                if (OrigStatus.ToUpper() != Constants.QUEUESTATUS_CU_APPROVED) //Approved Status
+                {
+                    From = "irvine.creditunderwriting@paysafe.com";
+                    AlertNote = "Thank you for choosing Meritus Payment Solutions.This is to inform you that this account has been approved.The file will now be sent to Boarding and then to Deployment to set up.";
+                    AlertTypeName = " - Application Approved";
+                    send = true;
+                }
+
+                break;
+
+            case Constants.QUEUESTATUS_CU_DECLINED:
+
+                if (OrigStatus.ToUpper() != Constants.QUEUESTATUS_CU_DECLINED) //Declined Status
+                {
+                    From = "agentrelations@merituspayment.com";
+                    AlertNote = "Thank you for choosing Meritus Payment Solutions.This account was declined.For further information please contact Agent Relations.";
+                    AlertTypeName = " - Application Declined";
+                    send = true;
+                }
+
+                break;
+
+            case Constants.QUEUESTATUS_CS_CANCELLATION:
+
+                if (OrigStatus.ToUpper() != Constants.QUEUESTATUS_CS_CANCELLATION) //Closed Status
+                {
+                    key = "e6ed9e8a-0a63-4c0c-8153-8f2a0c0c7b6e";
+                    if (app.AgentAlerts.TryGetValue(key, out objAlerts) && objAlerts.Checked)
+                        AgentEmail = app.AgentEmail;
+                    else
+                        AgentEmail = "";
+
+                    From = "agentrelations@merituspayment.com";
+                    AlertNote = "Thank you for choosing Meritus Payment Solutions.This is to notify you that this merchant's account is now closed.";
+                    send = true;
+                }
+
+                break;
+
+            case Constants.QUEUESTATUS_CU_IN_REVIEW:
+
+                if (OrigStatus.ToUpper() != Constants.QUEUESTATUS_CU_IN_REVIEW) //Declined Status
+                {
+                    From = "agentrelations@merituspayment.com";
+                    AlertNote = "Thank you for choosing Meritus Payment Solutions.Underwriting needs more time to review the account and an update will be forthcoming before 3 p.m. tomorrow.";
+                    AlertTypeName = " - Application Under Further Review";
+                    send = true;
+                }
+
+                break;
+
+            case Constants.QUEUESTATUS_DP_MERCHANT_ACTIVE:
+
+                if (OrigStatus.ToUpper() != Constants.QUEUESTATUS_DP_MERCHANT_ACTIVE) //Merchant Dp_Active Status
+                {
+                    From = "ClientServices@paysafe.com";
+                    AlertNote = "Thank you for choosing Meritus Payment Solutions.Your Merchant Application is Active.";
+                    AlertTypeName = "Application Approved/Active";
+                    send = true;
+                }
+
+                break;
+
+            case Constants.QUEUESTATUS_CS_CONDUCTED_WELCOME_CALL:
+
+                if (OrigStatus.ToUpper() != Constants.QUEUESTATUS_CS_CONDUCTED_WELCOME_CALL) //CS welcome call
+                {
+                    From = "ClientServices@paysafe.com";
+                    AlertNote = "Thank you for choosing Meritus Payment Solutions.A Welcome call has been conducted for this account.";
+                    AlertTypeName = "Merchant Complete";
+                    send = true;
+                }
+
+                break;
+        }
+
+        if (send)
+            SendAlertNotification(From, app.MerchantAppUID, app.BusinessDBAName, app.BusinessLegalName, objAlerts.Name, AgentEmail, "", AlertNote, AlertTypeName, null);
+    }
+
+    public static void SendAlertNotification(string From, string MerchantAppUID, string MerchantName, string LegalName, string AlertName, string Email, string CC, string Note, string AlertTypeName, string AgentUID)
+    {
+        StringBuilder sb = new StringBuilder();
+
+        sb.Append("<p><span style='font-size:22.0pt;color:#024c8b'>Meritus Payment Solutions<o:p></o:p></span></p>");
+        sb.Append("<p><span style='font-size:18.0pt;color:brown;text-decoration: underline;'>Alert Notification</span></p>");
+        sb.Append("<p><b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>DATE:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif;'> " + DateTime.Today.ToString("MM/dd/yyyy") + "</span><br><br>");
+        sb.Append("<b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>ALERT TYPE:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'> " + AlertName + "</span><span style='color:#1F497D'></span><br><br>");
+        sb.Append("<b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>LEGAL NAME:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'> " + LegalName + "</span><span style='color:#1F497D'></span><br><br>");
+        sb.Append("<b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>DBA:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'> " + MerchantName + "</span><span style='color:#1F497D'></span><br><br>");
+        sb.Append("<b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>NOTE:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif;'> " + Note + "</span></p>");
+        sb.Append("<p style='margin:0in;margin-bottom:.0001pt;font-size:12.0pt;font-family:Times New Roman,serif;'><o:p>&nbsp;</o:p></p>");
+        sb.Append("<p><br><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>This is an auto generated alert. Please visit the Agent Portal at <a href='https://merituspayment.com/apex'>www.merituspayment.com/agents</a> to view your current Alert settings or to make any adjustments. </span><o:p></o:p></p>");
+        sb.Append("<p style='margin:0in;font-size:12.0pt;font-family:Times New Roman,serif;margin-bottom:12.0pt'><o:p>&nbsp;</o:p></p>");
+
+        FormHandler.SendEmail("MPS Alert: " + AlertName + AlertTypeName, "", sb.ToString(), From, Email, CC, "Irvine.developers@paysafe.com", new Hashtable(), MerchantAppUID);
+    }
+
+    public static void SendAlertReminder(string From, string AgentOffice, string AlertName, string Email, string CC, string Note, string AlertTypeName, string AgentUID)
+    {
+        StringBuilder sb = new StringBuilder();
+
+        sb.Append("<p><span style='font-size:22.0pt;color:#024c8b'>Meritus Payment Solutions<o:p></o:p></span></p>");
+        sb.Append("<p><span style='font-size:18.0pt;color:brown;text-decoration: underline;'>Alert Notification</span></p>");
+        sb.Append("<p><b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>DATE:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif;'> " + DateTime.Today.ToString("MM/dd/yyyy") + "</span><br><br>");
+        sb.Append("<b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>ALERT TYPE:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'> " + AlertName + "</span><span style='color:#1F497D'></span><br><br>");
+        sb.Append("<b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>AGENT OFFICE:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'> " + AgentOffice + "</span><span style='color:#1F497D'></span><br><br>");
+        sb.Append("<b><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>NOTE:</span></b><span style='font-size:10.0pt;font-family:Verdana,sans-serif;'> " + Note + "</span></p>");
+        sb.Append("<p style='margin:0in;margin-bottom:.0001pt;font-size:12.0pt;font-family:Times New Roman,serif;'><o:p>&nbsp;</o:p></p>");
+        sb.Append("<p><br><span style='font-size:10.0pt;font-family:Verdana,sans-serif'>This is an auto generated alert. Please visit the Agent Portal at <a href='https://merituspayment.com/apex'>www.merituspayment.com/agents</a> to view your current Alert settings or to make any adjustments. </span><o:p></o:p></p>");
+        sb.Append("<p style='margin:0in;font-size:12.0pt;font-family:Times New Roman,serif;margin-bottom:12.0pt'><o:p>&nbsp;</o:p></p>");
+
+        FormHandler.SendEmail("MPS Alert: " + AlertName + AlertTypeName, "", sb.ToString(), From, Email, CC, "Irvine.developers@paysafe.com", new Hashtable(), null,AgentUID);
+        //CommonUtility.Email.SendEmail("MPS Alert: " + AlertName + AlertTypeName, "", sb.ToString(), From, Email, CC, "Irvine.developers@paysafe.com", new Hashtable());
+    }
+}

@@ -1,0 +1,154 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\CI.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>user1abc001</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<Intelliscore>
+			<InputSummary>
+				<SubscriberNumber>998709</SubscriberNumber>
+				<InquiryTransactionNumber>C906581883</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>INQF/748159090/MC-000208/IR/V-000777</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ExperianFileNumber>748159090</ExperianFileNumber>
+				<ProfileType code="SCORE">Commercial Intelliscore</ProfileType>
+				<ProfileDate>20071212</ProfileDate>
+				<ProfileTime>22:42:12</ProfileTime>
+				<TerminalNumber>-AME</TerminalNumber>
+				<FileEstablishDate>19770100</FileEstablishDate>
+				<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag>
+				<BusinessName>FORD MOTOR VEHICLE ASSURANCE CO</BusinessName>
+				<StreetAddress>1 AMERICAN RD</StreetAddress>
+				<City>DEARBORN</City>
+				<State>MI</State>
+				<Zip>48126</Zip>
+				<ZipExtension>2701</ZipExtension>
+				<PhoneNumber>313-322-3000</PhoneNumber>
+				<SIC code="3711">MOTOR VEHICLES &amp; CAR BODIES</SIC>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>031</TaxLienCount>
+				<EarliestTaxLienDate>20020213</EarliestTaxLienDate>
+				<MostRecentTaxLienDate>20070905</MostRecentTaxLienDate>
+				<JudgmentCount>034</JudgmentCount>
+				<EarliestJudgmentDate>20010730</EarliestJudgmentDate>
+				<MostRecentJudgmentDate>20071102</MostRecentJudgmentDate>
+				<CollectionCount>008</CollectionCount>
+				<LegalBalance>01216244</LegalBalance>
+				<UCCFilings>820</UCCFilings>
+				<UCCDerogatoryCount>614</UCCDerogatoryCount>
+				<CurrentAccountBalance>01176100</CurrentAccountBalance>
+				<CurrentTradelineCount>070</CurrentTradelineCount>
+				<MonthlyAverageDBT>018</MonthlyAverageDBT>
+				<HighestDBT6Months>033</HighestDBT6Months>
+				<HighestDBT5Quarters>033</HighestDBT5Quarters>
+				<ActiveTradelineCount>069</ActiveTradelineCount>
+				<AllTradelineBalance>18996100</AllTradelineBalance>
+				<AllTradelineCount>130</AllTradelineCount>
+				<AverageBalance5Quarters>00967080</AverageBalance5Quarters>
+				<SingleLineHighCredit>00811400</SingleLineHighCredit>
+				<LowBalance6Months>00892700</LowBalance6Months>
+				<HighBalance6Months>01395900</HighBalance6Months>
+				<EarliestCollectionDate>20020800</EarliestCollectionDate>
+				<MostRecentCollectionDate>20070300</MostRecentCollectionDate>
+				<CurrentDBT>033</CurrentDBT>
+				<YearofIncorporation>19200315</YearofIncorporation>
+				<TaxID>380549190</TaxID>
+				<EarliestUCCDate>19950705</EarliestUCCDate>
+				<MostRecentUCCDate>20071017</MostRecentUCCDate>
+				<JudgmentFlag>Y</JudgmentFlag>
+				<TaxLienFlag>Y</TaxLienFlag>
+			</ExecutiveElements>
+			<CustomHeader code="H">THE OBJECTIVE OF THE LEASE DECISION SCORE IS TO PREDICT SERIOUSLY</CustomHeader>
+			<CustomHeader code="H">DEROGATORY PAYMENT BEHAVIOR. POSSIBLE SCORE RANGE FROM 0 TO 100,</CustomHeader>
+			<CustomHeader code="H">WHERE 0 IS A HIGH RISK AND 100 IS A LOW RISK. POSSIBLE SCORE CLASS</CustomHeader>
+			<CustomHeader code="H">RANGE FROM 1 TO 5, WHERE 1 IS VERY LOW RISK AND 5 IS AN EXTREME RISK.</CustomHeader>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="Y">Profile may contain data which for other businesses would be considered derogatory. Use caution in applying score.</PubliclyHeldCompany>
+				<LimitedProfile code="N"/>
+				<Filler>00</Filler>
+				<ScoreInfo>
+					<Score>0000005998</Score>
+				</ScoreInfo>
+				<ProfileNumber>I906581883</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000208</ModelCode>
+					<ModelTitle>COMMERCIAL LEASE DECISION ALL SEGMENTS</ModelTitle>
+					<CustomModelCode>00</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>067</PercentileRanking>
+				<Action>SCORECLASS = 3 MODERATE RISK</Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="0299">PRESENCE OF PUBLIC RECORD INFORMATION</ScoreFactor>
+				<ScoreFactor code="0306">PRESENCE OF UNSATISFIED TAX LIEN</ScoreFactor>
+				<ScoreFactor code="0313">PRESENCE OF UNSATISFIED JUDGEMENT</ScoreFactor>
+				<ScoreFactor code="0314">MORE THAN ONE DEROGATORY TRADE</ScoreFactor>
+			</ScoreFactors>
+			<KeyModelElements>
+				<DaysBeyondTerms>033</DaysBeyondTerms>
+				<ContinuousLinesDBT>033</ContinuousLinesDBT>
+				<NewLinesDBT>000</NewLinesDBT>
+				<IndustryDBT>008</IndustryDBT>
+				<HighestDBTInPast6Months>033</HighestDBTInPast6Months>
+				<HighestDBTInPast5Quarters>033</HighestDBTInPast5Quarters>
+				<Prevous6MonthsDBT>
+					<PreviousMonthsDBT>025</PreviousMonthsDBT>
+					<PreviousMonthsDBT>022</PreviousMonthsDBT>
+					<PreviousMonthsDBT>012</PreviousMonthsDBT>
+					<PreviousMonthsDBT>014</PreviousMonthsDBT>
+					<PreviousMonthsDBT>017</PreviousMonthsDBT>
+					<PreviousMonthsDBT>019</PreviousMonthsDBT>
+				</Prevous6MonthsDBT>
+				<Previous5QuartersDBT>
+					<PreviousQuartersDBT>016</PreviousQuartersDBT>
+					<PreviousQuartersDBT>020</PreviousQuartersDBT>
+					<PreviousQuartersDBT>021</PreviousQuartersDBT>
+					<PreviousQuartersDBT>026</PreviousQuartersDBT>
+					<PreviousQuartersDBT>030</PreviousQuartersDBT>
+				</Previous5QuartersDBT>
+				<MonthlyAverageDBT>018</MonthlyAverageDBT>
+				<PaymentTrendIndicator code="L">Increasingly late</PaymentTrendIndicator>
+				<ActiveAccounts>
+					<TotalActiveTradePaymentRecords>070</TotalActiveTradePaymentRecords>
+					<AccountBalance>01176100</AccountBalance>
+				</ActiveAccounts>
+				<AllAccounts>
+					<TotalActiveTradePaymentRecords>130</TotalActiveTradePaymentRecords>
+					<AccountBalance>18996100</AccountBalance>
+				</AllAccounts>
+				<TotalCreditAmount>03504100</TotalCreditAmount>
+				<SingleHighCreditAmount>00811400</SingleHighCreditAmount>
+				<MedianCredit>00012500</MedianCredit>
+				<GoodTradeLines>021</GoodTradeLines>
+				<BadTradeLines>009</BadTradeLines>
+				<ZeroBalanceTradeLines>082</ZeroBalanceTradeLines>
+				<OtherTradeLines>018</OtherTradeLines>
+				<Last5QuartersAverageBalance>00967080</Last5QuartersAverageBalance>
+				<BankruptcyLines>000</BankruptcyLines>
+				<JudgmentLiensCollectionLines>074</JudgmentLiensCollectionLines>
+				<JudgmentLines>034</JudgmentLines>
+				<TaxLiensLines>031</TaxLiensLines>
+				<CollectionLines>009</CollectionLines>
+				<OriginalUCCFilings>820</OriginalUCCFilings>
+				<UCCFilings>849</UCCFilings>
+				<DerogatoryUCCFilings>614</DerogatoryUCCFilings>
+				<TaxLienBalance>000531172</TaxLienBalance>
+				<JudgmentAmount>000685072</JudgmentAmount>
+				<LegalAmountTotal>001216244</LegalAmountTotal>
+				<NumberOfCollectionAccounts>000</NumberOfCollectionAccounts>
+				<CollectionAccountAmount>000000000</CollectionAccountAmount>
+				<Past6MonthsInquiries>003</Past6MonthsInquiries>
+				<Past9MonthsInquiries>003</Past9MonthsInquiries>
+				<BusinessRegion code="MW">Midwest</BusinessRegion>
+				<YearsInFile>030</YearsInFile>
+				<SIC code="3711">MOTOR VEHICLES &amp; CAR BODIES</SIC>
+				<AnnualSales>00164500</AnnualSales>
+			</KeyModelElements>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</Intelliscore>
+	</Products>
+</NetConnectResponse>

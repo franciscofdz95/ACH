@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\ownerprofile\BOP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BOP</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessProfile>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C605001879</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/DAVOL INC;CA-700 E 22ND ST/CRANSTON RI 02920/V-000777/SBOP/OWNR-BLANTON,BETHANY;CA-BYBEE DR D 12/MCMINNVILLE TN 37110</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileDate>20100309</ProfileDate>
+				<ProfileTime>17:13:11</ProfileTime>
+				<TerminalNumber>-AMT</TerminalNumber>
+				<FileEstablishFlag code=" "/>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00000000</AllTradelineBalance>
+				<AllTradelineCount>000</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+			</ExecutiveElements>
+			<ProprietorNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileTime>17:13:11</ProfileTime>
+				<ProprietorName>BETHANY  BLANTON                                            </ProprietorName>
+				<StreetAddress>BYBEE DR D 12                                               </StreetAddress>
+				<City>MCMINNVILLE                 </City>
+				<State>TN</State>
+				<Zip>37110    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<SmallBusinessAdvisorySummary>
+				<ProprietorBirthDate>    0000</ProprietorBirthDate>
+			</SmallBusinessAdvisorySummary>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</BusinessProfile>
+		<CreditProfile>
+			<Error>
+				<HostID>0</HostID>
+				<ApplicationID>C</ApplicationID>
+				<ReportDate>030910</ReportDate>
+				<ReportTime>171310</ReportTime>
+				<ReportType>X</ReportType>
+				<Preamble>TTN1</Preamble>
+				<RegionCode>W</RegionCode>
+				<ARFVersion>07</ARFVersion>
+				<Surname>BLANTON   </Surname>
+				<FirstName>BET</FirstName>
+				<ErrorCode>010</ErrorCode>
+				<ActionIndicator code="I">Informative</ActionIndicator>
+				<ModuleID>VEX</ModuleID>
+			</Error>
+		</CreditProfile>
+	</Products>
+</NetConnectResponse>

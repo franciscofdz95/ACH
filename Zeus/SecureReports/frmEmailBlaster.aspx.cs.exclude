@@ -1,0 +1,464 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using Infragistics.WebUI.WebDataInput;
+
+using PaymentXP.DataObjects;
+using PaymentXP.BusinessObjects;
+
+using Infragistics.WebUI.WebHtmlEditor;
+using System.Collections.Generic;
+
+public partial class frmEmailBlaster : frmBaseDataEntry
+{
+    public string SortOrder
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"] == null)
+                return string.Empty;
+            else
+                return HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"].ToString();
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"] = value; }
+    }
+
+    public SortDirection SortDirectionSearch
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"] == null)
+                return SortDirection.Descending;
+            else
+                return (SortDirection)HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"];
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"] = value; }
+    }
+
+    public int CurrentPage
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"] == null)
+                return 1;
+            else
+                return Convert.ToInt32(HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"]);
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"] = value; }
+    }
+
+    public int PageSize
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_PageSize"] == null)
+                return 10;
+            else
+                return Convert.ToInt32(HttpContext.Current.Session[this.Page.ToString() + "_PageSize"]);
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_PageSize"] = value; }
+    }
+
+    public override Label ErrorDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Label RecordDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel DetailPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel NavigationPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!this.IsPostBack)
+        {
+            //Set current page
+            UserSessions.CurrentPage = "> " + UserSessions.CurrentModule + " > Email Blaster";
+
+            //Primary key column name
+            this.UIDName = "CommunicationID";
+
+            //Set Adding flag
+            this.Adding = Convert.ToBoolean(Request["Adding"]);
+            if (this.Adding)
+            {
+                this.FormNew();
+            }
+            else
+            {
+                if (Request["CommunicationID"] != null)
+                    UID = Request["CommunicationID"].ToString();
+                else if (UserSessions.CurrentCommunication != null)
+                    UID = UserSessions.CurrentCommunication.CommunicationID;
+
+                this.FormShow(this.UID);
+                if (grdEmail.Rows.Count > 0)
+                    grdEmail.SelectedIndex = 0;
+            }
+        }
+    }
+
+    protected void grdEmail_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        switch (e.Row.RowType)
+        {
+            case DataControlRowType.Header:
+
+                break;
+            case DataControlRowType.DataRow:
+
+                e.Row.Cells[2].Attributes.Add("title", Server.HtmlDecode(e.Row.Cells[2].Text));
+                e.Row.Cells[2].Text = "<div style='width:270px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;'><NOBR>" + Server.HtmlDecode(e.Row.Cells[2].Text) + "</NOBR></div>";
+
+                ((Image)e.Row.FindControl("imgAtt")).Visible = DataLayer.Field2Bool(DataBinder.Eval(e.Row.DataItem, "HasAttachments"));
+
+                break;
+
+            case DataControlRowType.Footer:
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    protected void grdEmail_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        DataCommunication data = DataAccess.DataCommunicationDao;
+        GridViewRow grdRow = null;
+        if (e.CommandSource is LinkButton)
+        {
+            switch (e.CommandName)
+            {
+                case "View":
+
+                    grdRow = ((GridViewRow)((LinkButton)e.CommandSource).NamingContainer);
+
+                    Communication comm = data.GetCommunication(grdEmail.DataKeys[grdRow.RowIndex].Values["CommunicationID"].ToString());
+                    FormBinding.BindObjectToControls(comm, WucEmailBlaster1);
+
+                    grdEmail.SelectedIndex = grdRow.RowIndex;
+
+                    this.UID = comm.CommunicationID;
+                    UserSessions.CurrentCommunication = comm;
+                    UserSessions.CurrentCommunicationUID = this.UID;
+
+                    WucEmailBlaster1.LoadValues(comm);
+
+                    break;
+            }
+        }
+    }
+
+    protected void grd_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        this.CurrentPage = 1;
+        this.SortOrder = e.SortExpression;
+        this.SortDirectionSearch = e.SortDirection;
+        LoadEmails();
+    }
+
+    protected void grd_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        this.CurrentPage = e.NewPageIndex + 1;
+        LoadEmails();
+    }
+
+    protected void odsEmails_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)
+    {
+        //hash table is use to store parameters which will be passed to the stored procedure
+        DataCommunication data = DataAccess.DataCommunicationDao;
+        Hashtable prms = new Hashtable();
+
+        prms.Add("@PageSize", this.PageSize);
+        prms.Add("@CurrentPage", this.CurrentPage);
+        prms.Add("@EmailBlaster", true);
+
+        grdEmail.PageSize = this.PageSize;
+        grdEmail.PageIndex = this.CurrentPage - 1;
+
+        if (this.SortOrder == string.Empty)
+            prms["@SortOrder"] = "OutboxID";
+        else
+            prms["@SortOrder"] = this.SortOrder;
+
+        prms["@SortDirection"] = this.ConvertSortDirectionToSql(this.SortDirectionSearch);
+
+
+        e.InputParameters[0] = prms;
+        lblRecordCount.Text = "Total Records Found: " + DataMerchantAppPaging.GetCommunicationsPagingRowCount(prms, 0, 0).ToString();
+    }
+
+    protected void btnEmail_Click(object sender, EventArgs e)
+    {
+        WucEmailBlaster1.LoadValues(new Communication());
+    }
+
+    protected void btnRefresh_Click(object sender, EventArgs e)
+    {
+        FormShow(this.UID);
+    }
+
+    protected void cboPageSize_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        this.CurrentPage = 1;
+        this.PageSize = Convert.ToInt32(cboPageSize.SelectedItem.Value);
+        LoadEmails();
+    }
+
+    protected void tbrTools_ButtonClicked(object sender, Infragistics.WebUI.WebDataInput.ButtonEventArgs e)
+    {
+        WebImageButton btn = (WebImageButton)sender;
+        Communication comm = new Communication();
+        string url = string.Empty;
+
+        if (UserSessions.CurrentCommunication != null)
+        {
+            UserSessions.CurrentCommunication = DataAccess.DataCommunicationDao.GetCommunication(UserSessions.CurrentCommunication.CommunicationID);
+            this.UID = UserSessions.CurrentCommunication.CommunicationID;
+            comm = (Communication)UserSessions.CurrentCommunication;
+        }
+
+        switch (btn.Text)
+        {
+            case "Add":
+                this.FormNew();
+                break;
+
+            case "Save":
+                if (this.FormSave())
+                {
+                    this.Adding = false;
+                    this.EditMode = false;
+                    FormShow(this.UID);
+                    ToggleButtons();
+                }
+                break;
+
+            case "Refresh":
+                this.FormShow(this.UID);
+                break;
+
+            case "Cancel":
+                if (this.UID != string.Empty)
+                    this.FormCancel();
+                break;
+
+            case "Delete":
+                this.FormDelete();
+                break;
+
+            case "Edit":
+                this.EditMode = true;
+                this.FormShow(this.UID); 
+                this.ToggleButtons();
+                break;
+
+            case "Copy":
+                this.CopyCommunication();
+                break;
+
+            case "Send":
+                WucEmailBlaster1.SendEmails(false);
+                break;
+
+            case "Send Test":
+                WucEmailBlaster1.SendEmails(true);
+                break;
+        }
+    }
+
+    protected void btnExport_Click(object sender, EventArgs e)
+    {
+        if (rdExport.SelectedValue.Equals("1"))
+        {
+            this.PageSize = 5000;
+            this.CurrentPage = 1;
+        }
+        else
+        {
+            this.PageSize = Convert.ToInt32(cboPageSize.SelectedValue);
+            this.CurrentPage = grdEmail.PageIndex + 1;
+        }
+
+        LoadEmails();
+        this.PageSize = Convert.ToInt32(cboPageSize.SelectedValue);
+        FormHandler.Export2Excel("Emails.xls", grdEmail);
+    }
+
+    public override void FormShow(string ID)
+    {
+        Communication comm = new Communication();
+
+        this.LoadEmails();
+        if (ID != string.Empty)
+            comm = DataAccess.DataCommunicationDao.GetCommunication(ID);
+        else
+        {
+
+            if (grdEmail.Rows.Count > 0)
+            {
+                grdEmail.SelectedIndex = 0;
+                comm = DataAccess.DataCommunicationDao.GetCommunication(grdEmail.DataKeys[0].Values["CommunicationID"].ToString());
+            }
+            else
+                ToggleButtons();
+        }
+
+        this.UID = comm.CommunicationID;
+        UserSessions.CurrentCommunication = comm;
+        UserSessions.CurrentCommunicationUID = this.UID;
+
+        WucEmailBlaster1.LoadValues(comm);
+        FormHandler.SetControlEditMode(pnlDetail, this.EditMode);
+        grdEmail.Enabled = !this.EditMode;
+    }
+
+    public override void FormClear()
+    {
+        FormHandler.ClearAllControls(pnlDetail);
+        WucEmailBlaster1.LoadValues(new Communication());
+    }
+
+    public override bool FormSave()
+    {
+        bool perform = false;
+
+        if (!this.FormDataCheck())
+            return false;
+
+        Communication comm = null;
+
+        if (this.Adding)
+            comm = new Communication();
+        else
+        {
+            comm = (Communication)UserSessions.CurrentCommunication;
+        }
+
+        DataCommunication data = DataAccess.DataCommunicationDao;
+        User user = UserSessions.CurrentUser;
+
+        if (!this.Adding)
+        {
+            comm.UserUpdated = user.UserName;
+            comm.DateUpdated = DateTime.Now;
+        }
+        else
+        {
+            comm.DateCreated = DateTime.Now;
+            comm.UserCreated = user.UserName;
+        }
+
+        string uid = WucEmailBlaster1.SaveEmail(comm);
+
+        if (uid != "-1")
+        {
+            comm = data.GetCommunication(uid);
+            this.UID = comm.CommunicationID;
+            UserSessions.CurrentCommunication = comm;
+            perform = true;
+        }
+
+        return perform;
+    }
+
+    public override void FormNew()
+    {
+        this.FormClear();
+        this.Adding = true;
+        this.EditMode = true;
+        FormHandler.SetControlEditMode(pnlDetail, this.EditMode);
+
+        this.ToggleButtons();
+    }
+
+    public override bool FormDelete()
+    {
+        return false;
+    }
+
+    public override bool FormDataCheck()
+    {
+        return true;
+    }
+
+    public override void FormCancel()
+    {
+        this.EditMode = false;
+        FormShow(this.UID);
+        this.Adding = false;
+        this.ToggleButtons();
+    }
+
+    public override void ToggleButtons()
+    {
+        btnEdit.Enabled = !btnEdit.Enabled;
+        btnAdd.Enabled = !btnAdd.Enabled;
+        btnSave.Enabled = !btnSave.Enabled;
+        btnRefresh.Enabled = !btnRefresh.Enabled;
+        btnCancel.Enabled = !btnCancel.Enabled;
+        btnCopy.Enabled = !btnCopy.Enabled;
+        btnSend.Enabled = !btnSend.Enabled;
+        btnSendTest.Enabled = !btnSendTest.Enabled;
+    }
+
+    private void CopyCommunication()
+    {
+        DataCommunication data = DataAccess.DataCommunicationDao;
+        Communication comm = (Communication)UserSessions.CurrentCommunication;
+        comm.UserCreated = UserSessions.CurrentUser.UserName;
+        comm.CommunicationID = "";
+        comm.HasAttachments = false;
+
+        data.InsertCommunication(comm);
+        this.UID = comm.CommunicationID;
+
+        this.FormShow(this.UID);
+        grdEmail.SelectedIndex = 0;
+    }
+
+    public void LoadEmails()
+    {
+        grdEmail.DataBind();
+        lblEmail.Visible = (grdEmail.Rows.Count == 0);
+        pnlRecords.Visible = (grdEmail.Rows.Count > 0);
+    }
+
+    private int ConvertSortDirectionToSql(SortDirection direction)
+    {
+        int newSortDirection;
+
+        switch (direction)
+        {
+            case SortDirection.Descending:
+                newSortDirection = 1;
+                this.SortDirectionSearch = SortDirection.Descending;
+                break;
+
+            default:
+                newSortDirection = 0;
+                this.SortDirectionSearch = SortDirection.Ascending;
+                break;
+        }
+        return newSortDirection;
+    }
+}

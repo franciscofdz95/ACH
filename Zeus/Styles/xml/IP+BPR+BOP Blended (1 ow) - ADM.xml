@@ -1,0 +1,2700 @@
+<?xml version="1.0" standalone="no"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Alejandro Rea (Experian Information Solutions) -->
+<?xml-stylesheet type="text/xsl" href="..\intelliscore\IPBPRBOP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+<CompletionCode>0000</CompletionCode> 
+<ReferenceId>user1abc001</ReferenceId> 
+<Products xmlns="http://www.experian.com/ARFResponse">
+<Intelliscore>
+<InputSummary>
+<SubscriberNumber>563736</SubscriberNumber> 
+<InquiryTransactionNumber>C604768126</InquiryTransactionNumber> 
+<CPUVersion>CPU006</CPUVersion> 
+<Inquiry>INQF/849207874/MC-000214/IR/BP/BOP/V-000777/OWNR-RIENDFLIESCH,IRENE;CA-20 RUFFIN RD/WOODBURY TX 06798</Inquiry> 
+</InputSummary>
+<BusinessNameAndAddress>
+<ExperianFileNumber>849207874</ExperianFileNumber> 
+<ProfileType code="SBI/OWNER" /> 
+<ProfileDate>20081204</ProfileDate> 
+<ProfileTime>18:17:21</ProfileTime> 
+<TerminalNumber>-ANJ</TerminalNumber> 
+<FileEstablishDate>19770100</FileEstablishDate> 
+<FileEstablishFlag code="P">Business was added prior to Jan 1977</FileEstablishFlag> 
+<BusinessName>ADM INTERNATIONAL</BusinessName> 
+<StreetAddress>5565 N ELSTON AVE</StreetAddress> 
+<City>CHICAGO</City> 
+<State>IL</State> 
+<Zip>60630</Zip> 
+<ZipExtension>1314</ZipExtension> 
+<PhoneNumber>773-774-2400</PhoneNumber> 
+<SIC code="5021">FURNITURE WHOLESALING</SIC> 
+</BusinessNameAndAddress>
+<ExecutiveElements>
+<BankruptcyCount>000</BankruptcyCount> 
+<TaxLienCount>001</TaxLienCount> 
+<EarliestTaxLienDate>20051226</EarliestTaxLienDate> 
+<MostRecentTaxLienDate>20051226</MostRecentTaxLienDate> 
+<JudgmentCount>000</JudgmentCount> 
+<CollectionCount>003</CollectionCount> 
+<LegalBalance>00001399</LegalBalance> 
+<UCCFilings>000</UCCFilings> 
+<UCCDerogatoryCount>000</UCCDerogatoryCount> 
+<CurrentAccountBalance>00017500</CurrentAccountBalance> 
+<CurrentTradelineCount>016</CurrentTradelineCount> 
+<MonthlyAverageDBT>004</MonthlyAverageDBT> 
+<HighestDBT6Months>010</HighestDBT6Months> 
+<HighestDBT5Quarters>011</HighestDBT5Quarters> 
+<ActiveTradelineCount>016</ActiveTradelineCount> 
+<AllTradelineBalance>00042600</AllTradelineBalance> 
+<AllTradelineCount>034</AllTradelineCount> 
+<AverageBalance5Quarters>00036300</AverageBalance5Quarters> 
+<SingleLineHighCredit>00188800</SingleLineHighCredit> 
+<LowBalance6Months>00007200</LowBalance6Months> 
+<HighBalance6Months>00020800</HighBalance6Months> 
+<EarliestCollectionDate>20060800</EarliestCollectionDate> 
+<MostRecentCollectionDate>20060800</MostRecentCollectionDate> 
+<CurrentDBT>002</CurrentDBT> 
+<YearofIncorporation>20010105</YearofIncorporation> 
+<TaxLienFlag>Y</TaxLienFlag> 
+</ExecutiveElements>
+<ProprietorNameAndAddress>
+<ProfileType code="DISPUTE" /> 
+<ProfileTime>18:17:21</ProfileTime> 
+<ProprietorName>IRENE RIENDFLIESCH</ProprietorName> 
+<StreetAddress>20 RUFFIN RD</StreetAddress> 
+<City>WOODBURY</City> 
+<State>CT</State> 
+<Zip>06798</Zip> 
+<SSN>999990000</SSN> 
+</ProprietorNameAndAddress>
+<ExecutiveSummary>
+<BusinessDBT code="002" /> 
+<PredictedDBT>002</PredictedDBT> 
+<PredictedDBTDate>20090128</PredictedDBTDate> 
+<IndustryDBT>007</IndustryDBT> 
+<AllIndustryDBT>007</AllIndustryDBT> 
+<LowestTotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00007200</Amount> 
+</LowestTotalAccountBalance>
+<HighestTotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00020800</Amount> 
+</HighestTotalAccountBalance>
+<CurrentTotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00017500</Amount> 
+</CurrentTotalAccountBalance>
+<HighCreditAmountExtended>00749700</HighCreditAmountExtended> 
+<MedianCreditAmountExtended>00003700</MedianCreditAmountExtended> 
+<IndustryPaymentComparison code="F">sooner than 50% of</IndustryPaymentComparison> 
+<PaymentTrendIndicator code="N">No Trend Identifiable</PaymentTrendIndicator> 
+<IndustryDescription>FURN &amp; HOMEFURNISH</IndustryDescription> 
+<CommonTerms>NET 30</CommonTerms> 
+<CommonTerms2>CREDIT</CommonTerms2> 
+<CommonTerms3>0000000</CommonTerms3> 
+</ExecutiveSummary>
+<CollectionData>
+<AccountStatus code="00">Open Account</AccountStatus> 
+<DatePlacedForCollection>20060800</DatePlacedForCollection> 
+<DateClosed>00000000</DateClosed> 
+<AmountPlacedForCollection>00000255</AmountPlacedForCollection> 
+<AmountPaid>00000255</AmountPaid> 
+<CollectionAgencyInfo>
+<AgencyName>CLOVIS &amp; ROCHE, INC.</AgencyName> 
+<PhoneNumber>8002830909</PhoneNumber> 
+</CollectionAgencyInfo>
+</CollectionData>
+<CollectionData>
+<AccountStatus code="00">Open Account</AccountStatus> 
+<DatePlacedForCollection>20060800</DatePlacedForCollection> 
+<DateClosed>00000000</DateClosed> 
+<AmountPlacedForCollection>00000431</AmountPlacedForCollection> 
+<AmountPaid>00000431</AmountPaid> 
+<CollectionAgencyInfo>
+<AgencyName>CLOVIS &amp; ROCHE, INC.</AgencyName> 
+<PhoneNumber>8002830909</PhoneNumber> 
+</CollectionAgencyInfo>
+</CollectionData>
+<CollectionData>
+<AccountStatus code="00">Open Account</AccountStatus> 
+<DatePlacedForCollection>20060800</DatePlacedForCollection> 
+<DateClosed>00000000</DateClosed> 
+<AmountPlacedForCollection>00000367</AmountPlacedForCollection> 
+<AmountPaid>00000367</AmountPaid> 
+<CollectionAgencyInfo>
+<AgencyName>CLOVIS &amp; ROCHE, INC.</AgencyName> 
+<PhoneNumber>8002830909</PhoneNumber> 
+</CollectionAgencyInfo>
+</CollectionData>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>ACCT SVCS</BusinessCategory> 
+<DateReported>20081000</DateReported> 
+<DateLastActivity>20080900</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00025900</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00002400</Amount> 
+</AccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>AIR TRANS</BusinessCategory> 
+<DateReported>20081000</DateReported> 
+<DateLastActivity>20081000</DateLastActivity> 
+<Terms>0000000</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00001200</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000400</Amount> 
+</AccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 21 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>AIR TRANS</BusinessCategory> 
+<DateReported>20081000</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000700</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000200</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>100</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 12 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>DISTRIBUTR</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20050900</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00009200</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 15 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>FACTOR</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20050600</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>FINCL SVCS</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20070600</DateLastActivity> 
+<Terms>NET</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00008000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>FINCL SVCS</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20070500</DateLastActivity> 
+<Terms>CONTRCT</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00003700</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>FREIGHT</BusinessCategory> 
+<DateReported>20081000</DateReported> 
+<DateLastActivity>20080700</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00001300</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000200</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>100</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>FURNTR&amp;FIX</BusinessCategory> 
+<DateReported>20081000</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>NET30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00188800</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>FURNTR&amp;FIX</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>MANUFCTRNG</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20051200</DateLastActivity> 
+<Terms>OTHER</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>MANUFCTRNG</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20081100</DateLastActivity> 
+<Terms>NET 45</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00013100</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00013100</Amount> 
+</AccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>PACKAGING</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20081000</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00001900</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00001100</Amount> 
+</AccountBalance>
+<CurrentPercentage>041</CurrentPercentage> 
+<DBT30>059</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 18 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>TEXTILES</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20081000</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000200</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 18 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>TRANSPORTN</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>NET 15</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<TradePaymentExperiences>
+<PaymentIndicator code="">No Indicator</PaymentIndicator> 
+<BusinessCategory>TRUCK DLR</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>CONTRCT</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00001100</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000100</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>100</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</TradePaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>COMPUTERS</BusinessCategory> 
+<DateReported>20060600</DateReported> 
+<DateLastActivity>20060400</DateLastActivity> 
+<Terms>0000000</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00001100</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>CONST MACH</BusinessCategory> 
+<DateReported>20060900</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 7 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>CRED CARD</BusinessCategory> 
+<DateReported>20070600</DateReported> 
+<DateLastActivity>20070500</DateLastActivity> 
+<Terms>REVOLVE</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00001100</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000300</Amount> 
+</AccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 44 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>CRED CARD</BusinessCategory> 
+<DateReported>20081100</DateReported> 
+<DateLastActivity>20080300</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000600</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>SATSFTRY</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>FACTOR</BusinessCategory> 
+<DateReported>20070500</DateReported> 
+<DateLastActivity>20060600</DateLastActivity> 
+<Terms>NET 60</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00005200</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>FREIGHT</BusinessCategory> 
+<DateReported>20080300</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00022500</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000400</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>100</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>FREIGHT</BusinessCategory> 
+<DateReported>20051200</DateReported> 
+<DateLastActivity>20010900</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>FRGHT FWRD</BusinessCategory> 
+<DateReported>20060100</DateReported> 
+<DateLastActivity>20060100</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000100</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000100</Amount> 
+</AccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>FUEL DISTR</BusinessCategory> 
+<DateReported>20060200</DateReported> 
+<DateLastActivity>20060200</DateLastActivity> 
+<Terms>NET 25</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000200</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000200</Amount> 
+</AccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 6 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>FURNTR&amp;FIX</BusinessCategory> 
+<DateReported>20080200</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>1/10N30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00007700</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00001200</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>100</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>HOUSEWARES</BusinessCategory> 
+<DateReported>20060400</DateReported> 
+<DateLastActivity>20060300</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00005200</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00002400</Amount> 
+</AccountBalance>
+<CurrentPercentage>017</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>083</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>OFFC SUPPL</BusinessCategory> 
+<DateReported>20051100</DateReported> 
+<DateLastActivity>20030700</DateLastActivity> 
+<Terms>CREDIT</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 3 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>OFFC EQUIP</BusinessCategory> 
+<DateReported>20060400</DateReported> 
+<DateLastActivity>20060300</DateLastActivity> 
+<Terms>VARIED</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00749700</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00020000</Amount> 
+</AccountBalance>
+<CurrentPercentage>028</CurrentPercentage> 
+<DBT30>072</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 10 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>PHOTO EQP</BusinessCategory> 
+<DateReported>20060800</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00023700</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 4 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>SPORT GDS</BusinessCategory> 
+<DateReported>20060900</DateReported> 
+<DateLastActivity>20000900</DateLastActivity> 
+<Terms>NET 30</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>TEMP HELP</BusinessCategory> 
+<DateReported>20060800</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>NET 7</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00003500</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="&lt;" /> 
+<Amount>00000100</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>100</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>TELECOM</BusinessCategory> 
+<DateReported>20061000</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>ROI</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</AccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<Comments>CUST 3 YR</Comments> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<AdditionalPaymentExperiences>
+<BusinessCategory>TEXTILES</BusinessCategory> 
+<DateReported>20080200</DateReported> 
+<DateLastActivity>00000000</DateLastActivity> 
+<Terms>OTHER</Terms> 
+<RecentHighCredit>
+<Modifier code="" /> 
+<Amount>00000400</Amount> 
+</RecentHighCredit>
+<AccountBalance>
+<Modifier code="" /> 
+<Amount>00000400</Amount> 
+</AccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<TradeLineFlag code="" /> 
+<NewlyReportedIndicator code="" /> 
+</AdditionalPaymentExperiences>
+<PaymentTotals>
+<NewlyReportedTradeLines>
+<NumberOfLines>000</NumberOfLines> 
+<DBT>000</DBT> 
+<TotalHighCreditAmount>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</TotalHighCreditAmount>
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00000000</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>000</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</NewlyReportedTradeLines>
+<ContinouslyReportedTradeLines>
+<NumberOfLines>016</NumberOfLines> 
+<DBT>002</DBT> 
+<TotalHighCreditAmount>
+<Modifier code="" /> 
+<Amount>00255100</Amount> 
+</TotalHighCreditAmount>
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00017500</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>094</CurrentPercentage> 
+<DBT30>004</DBT30> 
+<DBT60>002</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</ContinouslyReportedTradeLines>
+<CombinedTradeLines>
+<NumberOfLines>016</NumberOfLines> 
+<DBT>002</DBT> 
+<TotalHighCreditAmount>
+<Modifier code="" /> 
+<Amount>00255100</Amount> 
+</TotalHighCreditAmount>
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00017500</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>094</CurrentPercentage> 
+<DBT30>004</DBT30> 
+<DBT60>002</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</CombinedTradeLines>
+</PaymentTotals>
+<PaymentTrends>
+<CurrentMonth>
+<Date>20081100</Date> 
+<DBT>006</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00007200</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>080</CurrentPercentage> 
+<DBT30>009</DBT30> 
+<DBT60>011</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</CurrentMonth>
+<PriorMonth>
+<Date>20081000</Date> 
+<DBT>010</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00012300</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>039</CurrentPercentage> 
+<DBT30>059</DBT30> 
+<DBT60>002</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080900</Date> 
+<DBT>002</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00010400</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>089</CurrentPercentage> 
+<DBT30>011</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080800</Date> 
+<DBT>000</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00016300</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080700</Date> 
+<DBT>004</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00015700</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>073</CurrentPercentage> 
+<DBT30>027</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080600</Date> 
+<DBT>007</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00020800</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>054</CurrentPercentage> 
+<DBT30>046</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+</PriorMonth>
+</PaymentTrends>
+<IndustryPaymentTrends>
+<SIC>502</SIC> 
+<CurrentMonth>
+<Date>20081100</Date> 
+<DBT>007</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00000022663</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>081</CurrentPercentage> 
+</CurrentMonth>
+<PriorMonth>
+<Date>20081000</Date> 
+<DBT>007</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00000021252</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>082</CurrentPercentage> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080900</Date> 
+<DBT>007</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00000021256</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>083</CurrentPercentage> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080800</Date> 
+<DBT>006</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00000021399</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>084</CurrentPercentage> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080700</Date> 
+<DBT>006</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00000021851</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>085</CurrentPercentage> 
+</PriorMonth>
+<PriorMonth>
+<Date>20080600</Date> 
+<DBT>006</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00000021926</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>084</CurrentPercentage> 
+</PriorMonth>
+</IndustryPaymentTrends>
+<QuarterlyPaymentTrends>
+<MostRecentQuarter>
+<DBT>004</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00013000</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>078</CurrentPercentage> 
+<DBT30>021</DBT30> 
+<DBT60>001</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear> 
+<YearOfQuarter>20080000</YearOfQuarter> 
+</MostRecentQuarter>
+<PriorQuarter>
+<DBT>004</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00015600</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>074</CurrentPercentage> 
+<DBT30>026</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<QuarterWithinYear code="2">Second quarter (Apr, May &amp; Jun)</QuarterWithinYear> 
+<YearOfQuarter>20080000</YearOfQuarter> 
+</PriorQuarter>
+<PriorQuarter>
+<DBT>011</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00018800</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>071</CurrentPercentage> 
+<DBT30>015</DBT30> 
+<DBT60>007</DBT60> 
+<DBT90>007</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<QuarterWithinYear code="1">First quarter (Jan, Feb &amp; Mar)</QuarterWithinYear> 
+<YearOfQuarter>20080000</YearOfQuarter> 
+</PriorQuarter>
+<PriorQuarter>
+<DBT>000</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00128500</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>100</CurrentPercentage> 
+<DBT30>000</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<QuarterWithinYear code="4">Fourth quarter (Oct, Nov &amp; Dec)</QuarterWithinYear> 
+<YearOfQuarter>20070000</YearOfQuarter> 
+</PriorQuarter>
+<PriorQuarter>
+<DBT>005</DBT> 
+<TotalAccountBalance>
+<Modifier code="" /> 
+<Amount>00005600</Amount> 
+</TotalAccountBalance>
+<CurrentPercentage>069</CurrentPercentage> 
+<DBT30>031</DBT30> 
+<DBT60>000</DBT60> 
+<DBT90>000</DBT90> 
+<DBT90Plus>000</DBT90Plus> 
+<QuarterWithinYear code="3">Third quarter (Jul, Aug &amp; Sep)</QuarterWithinYear> 
+<YearOfQuarter>20070000</YearOfQuarter> 
+</PriorQuarter>
+</QuarterlyPaymentTrends>
+<TaxLien>
+<DateFiled>20070816</DateFiled> 
+<LegalType code="03">STATE TAX</LegalType> 
+<LegalAction code="07">RELEASED</LegalAction> 
+<DocumentNumber>E022095066W0021</DocumentNumber> 
+<FilingLocation>ALBANY COUNTY CLERK</FilingLocation> 
+<LiabilityAmount>000000375</LiabilityAmount> 
+<TaxLienDescription code="" /> 
+</TaxLien>
+<TaxLien>
+<DateFiled>20051226</DateFiled> 
+<LegalType code="03">STATE TAX</LegalType> 
+<LegalAction code="06">LIEN</LegalAction> 
+<DocumentNumber>X0545229</DocumentNumber> 
+<FilingLocation>ALBANY COUNTY CLERK</FilingLocation> 
+<LiabilityAmount>000001399</LiabilityAmount> 
+<TaxLienDescription code="" /> 
+</TaxLien>
+<CorporateInformation>
+<StateOfOrigin>NY</StateOfOrigin> 
+<OriginalFilingDate>00000000</OriginalFilingDate> 
+<RecentFilingDate>00000000</RecentFilingDate> 
+<IncorporatedDate>20010105</IncorporatedDate> 
+<BusinessType code="I">Incorporated</BusinessType> 
+<StatusFlag code="">Not Available</StatusFlag> 
+<ProfitFlag code="P">Profit</ProfitFlag> 
+<CharterNumber>2590878</CharterNumber> 
+<AgentInformation>
+<Name>THE CORPORATION</Name> 
+<StreetAddress>5565 N ELSTON AVE</StreetAddress> 
+<City>CHICAGO</City> 
+<State>IL</State> 
+</AgentInformation>
+</CorporateInformation>
+<DemographicInformation>
+<PrimarySICCode>5021</PrimarySICCode> 
+<SICDescription>FURNITURE WHOLESALING</SICDescription> 
+<YearsInBusinessIndicator code="1">Actual Amount Provided</YearsInBusinessIndicator> 
+<YearsInBusinessOrLowRange>057</YearsInBusinessOrLowRange> 
+<HighRangeYears>000</HighRangeYears> 
+<SalesIndicator code="">Not Available</SalesIndicator> 
+<SalesRevenueOrLowRange>000000000000</SalesRevenueOrLowRange> 
+<HighRangeOfSales>000000000000</HighRangeOfSales> 
+<ProfitLossIndicator code="">Not Available</ProfitLossIndicator> 
+<ProfitLossCode code="" /> 
+<ProfitAmountOrLowRange>000000000000</ProfitAmountOrLowRange> 
+<HighRangeOfProfit>000000000000</HighRangeOfProfit> 
+<NetWorthIndicator code="">Not Available</NetWorthIndicator> 
+<NetWorthAmountOrLowRange>
+<Modifier code="" /> 
+<Amount>00000000000</Amount> 
+</NetWorthAmountOrLowRange>
+<HighRangeOrNetWorth>
+<Modifier code="" /> 
+<Amount>00000000000</Amount> 
+</HighRangeOrNetWorth>
+<EmployeeIndicator code="1">Actual Amount Provided</EmployeeIndicator> 
+<EmployeeSizeOrLowRange>000000020</EmployeeSizeOrLowRange> 
+<HighEmployeeRange>000000000</HighEmployeeRange> 
+<InBuildingDate>00000000</InBuildingDate> 
+<BuildingSize>0000000</BuildingSize> 
+<BuildingOwnership code="" /> 
+<Ownership code="" /> 
+<Location code="">Not Available</Location> 
+<BusinessType code="">Not Available</BusinessType> 
+<CustomerCount>0000000</CustomerCount> 
+<DateFounded>19510000</DateFounded> 
+</DemographicInformation>
+<KeyPersonnelExecutiveInformation>
+<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag> 
+<Name>GARY RAPHAEL</Name> 
+<Title>VICE PRESI</Title> 
+</KeyPersonnelExecutiveInformation>
+<KeyPersonnelExecutiveInformation>
+<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag> 
+<Name>TOM CHAPMAN</Name> 
+<Title>PRESIDENT</Title> 
+</KeyPersonnelExecutiveInformation>
+<KeyPersonnelExecutiveInformation>
+<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag> 
+<Name>GILBERT MRAPHAEL</Name> 
+<Title>CHAIRMAN O</Title> 
+</KeyPersonnelExecutiveInformation>
+<IntelliscoreScoreInformation>
+<PubliclyHeldCompany code="N" /> 
+<LimitedProfile code="N" /> 
+<Filler>06</Filler> 
+<ScoreInfo>
+<Score>0000003600</Score> 
+</ScoreInfo>
+<ModelInformation>
+<ModelCode>000214</ModelCode> 
+<ModelTitle>INTELLISCORE PLUS</ModelTitle> 
+<CustomModelCode>06</CustomModelCode> 
+</ModelInformation>
+<PercentileRanking>035</PercentileRanking> 
+<Action>MEDIUM-HIGH RISK</Action> 
+</IntelliscoreScoreInformation>
+<ScoreFactors>
+<ScoreFactor code="057">NUMBER OF DELINQUENT COMMERCIAL ACCOUNTS</ScoreFactor> 
+<ScoreFactor code="107">BALANCE OF COMMERCIAL ACCOUNTS RECENTLY DELINQUENT</ScoreFactor> 
+<ScoreFactor code="096">PERCENT OF TOTAL COMMERCIAL BALANCE SERIOUSLY DELINQUENT</ScoreFactor> 
+<ScoreFactor code="088">NUMBER OF COMMERCIAL ACCOUNTS WITH HIGH UTILIZATION</ScoreFactor> 
+</ScoreFactors>
+<KeyModelElements>
+<TotalAgedTrades>00016</TotalAgedTrades> 
+<TotalAgedTradesNoInfoLast4Months>00017</TotalAgedTradesNoInfoLast4Months> 
+<BalanceAgedTradesNoInfoLast4Months>0000025100</BalanceAgedTradesNoInfoLast4Months> 
+<WeightedDBTAgedTradesNoInfoLast4>00023</WeightedDBTAgedTradesNoInfoLast4> 
+<MaximumDBTAgedTradesNoInfoLast4>00105</MaximumDBTAgedTradesNoInfoLast4> 
+<CommercialBankAccounts>00000</CommercialBankAccounts> 
+<CommercialBankAccountsPast6Months>00000</CommercialBankAccountsPast6Months> 
+<CommercialBankAccountsPast12Months>00000</CommercialBankAccountsPast12Months> 
+<NewestCommercialBankAccountAge>00000</NewestCommercialBankAccountAge> 
+<OldestCommercialBankAccountAge>00000</OldestCommercialBankAccountAge> 
+<CommercialBankAccountsAverageAge>00000</CommercialBankAccountsAverageAge> 
+<AssetBasedCommercialBankAccounts>00000</AssetBasedCommercialBankAccounts> 
+<BankLoanAccounts>00000</BankLoanAccounts> 
+<CommercialBankAccountsBalance>0000000000</CommercialBankAccountsBalance> 
+<CommercialBankAccountsBalancePast6>0000000000</CommercialBankAccountsBalancePast6> 
+<CommercialBankAccountsBalancePast12>0000000000</CommercialBankAccountsBalancePast12> 
+<ActiveTradesCtPast12>00016</ActiveTradesCtPast12> 
+<ActiveTradesCtPast6>00013</ActiveTradesCtPast6> 
+<AgedTradesTotalBal>0000024800</AgedTradesTotalBal> 
+<AgedTrades1To30>0000014500</AgedTrades1To30> 
+<AgedTrades31To60>0000000400</AgedTrades31To60> 
+<AgedTrades61To90DBTBal>0000000000</AgedTrades61To90DBTBal> 
+<AgedTrades91>0000003192</AgedTrades91> 
+<AgedTradesCurrentDBTBal>0000006708</AgedTradesCurrentDBTBal> 
+<AgedTradesWorstDlqCurrentBal>0000000700</AgedTradesWorstDlqCurrentBal> 
+<AgedTradesWorstDlq1To30>0000020100</AgedTradesWorstDlq1To30> 
+<AgedTradesWorstDlq31To60>0000000400</AgedTradesWorstDlq31To60> 
+<AgedTradesWorstDlq61To90>0000000000</AgedTradesWorstDlq61To90> 
+<AgedTradesWorstDlq91>0000003600</AgedTradesWorstDlq91> 
+<AgedTradesWorstCurrentBal>0000000700</AgedTradesWorstCurrentBal> 
+<AgedTradesWorst1To30>0000020100</AgedTradesWorst1To30> 
+<AgedTradesWorstDerogBal>0000000000</AgedTradesWorstDerogBal> 
+<AgedTradesWorst31To60DPDBal>0000000400</AgedTradesWorst31To60DPDBal> 
+<AgedTradesWorst61To90DPDBal>0000000000</AgedTradesWorst61To90DPDBal> 
+<AgedTradesWorst91PlusDPDBal>0000003600</AgedTradesWorst91PlusDPDBal> 
+<AgedTradesHighBalPast12Mos>0000819300</AgedTradesHighBalPast12Mos> 
+<AgedTradesCt>00016</AgedTradesCt> 
+<AgedTradesWorstDlqCurrentCt>00011</AgedTradesWorstDlqCurrentCt> 
+<AgedTradesWorstDlq1To30DPDCt>00002</AgedTradesWorstDlq1To30DPDCt> 
+<AgedTradesWorstDlq31To60DPDCt>00001</AgedTradesWorstDlq31To60DPDCt> 
+<AgedTradesWorstDlq61To90DPDCt>00000</AgedTradesWorstDlq61To90DPDCt> 
+<AgedTradesWorstDlq91PlusDPDCt>00002</AgedTradesWorstDlq91PlusDPDCt> 
+<AgedTradesWorstCurrentCt>00011</AgedTradesWorstCurrentCt> 
+<AgedTradesWorst1To30DPDCt>00002</AgedTradesWorst1To30DPDCt> 
+<AgedTradesWorstDerogCt>00000</AgedTradesWorstDerogCt> 
+<AgedTradesWorst31To60DPDCt>00001</AgedTradesWorst31To60DPDCt> 
+<AgedTradesWorst61To90DPDCt>00000</AgedTradesWorst61To90DPDCt> 
+<AgedTradesWorst91PlusDPDCt>00002</AgedTradesWorst91PlusDPDCt> 
+<AgedTradesBalPctOfHighBalPast12Mos>00003</AgedTradesBalPctOfHighBalPast12Mos> 
+<AgedTradesPctOfAllTradesBal>00058</AgedTradesPctOfAllTradesBal> 
+<AgedTradesPctOfAllTradesCt>00047</AgedTradesPctOfAllTradesCt> 
+<BankingAssetTotalBal>0000000000</BankingAssetTotalBal> 
+<BankingAssetMaxBalPast6Mos>0000000000</BankingAssetMaxBalPast6Mos> 
+<BankingLiabTotalBal>0000000000</BankingLiabTotalBal> 
+<BankingLiabMaxBalPast6Mos>0000000000</BankingLiabMaxBalPast6Mos> 
+<BankingAssetTotalCt>00000</BankingAssetTotalCt> 
+<BankingLiabTotalCt>00000</BankingLiabTotalCt> 
+<BankingAssetPctOfAllTradesBal>0000000000</BankingAssetPctOfAllTradesBal> 
+<BankingLiabPctOfAllTradesBal>0000000000</BankingLiabPctOfAllTradesBal> 
+</KeyModelElements>
+<KeyModelElements>
+<BankruptcyFilings>00000</BankruptcyFilings> 
+<BankruptcyFilingsLast24Months>00000</BankruptcyFilingsLast24Months> 
+<NonFiledBankruptcyActions>00000</NonFiledBankruptcyActions> 
+<OpenBankruptcyFilingsLast24Months>0</OpenBankruptcyFilingsLast24Months> 
+<BankruptcyFilingsBalance>0000000000</BankruptcyFilingsBalance> 
+<BankruptcyFilingsBalanceLast24Months>0000000000</BankruptcyFilingsBalanceLast24Months> 
+<NonFiledBankruptcyActionsBalance>0000000000</NonFiledBankruptcyActionsBalance> 
+<MostRecentBankruptcyFilingAge>00000</MostRecentBankruptcyFilingAge> 
+<MostRecentNonFiledBankruptcyActionAge>00000</MostRecentNonFiledBankruptcyActionAge> 
+<CollectionsCount>00003</CollectionsCount> 
+<CollectionsCountLast12Months>00000</CollectionsCountLast12Months> 
+<CollectionsCountLast24Months>00000</CollectionsCountLast24Months> 
+<OpenCollectionsCount>00003</OpenCollectionsCount> 
+<AmountPlacedCollectionTrades>0000001053</AmountPlacedCollectionTrades> 
+<AmountCollectedCollectionTrades>0000001053</AmountCollectedCollectionTrades> 
+<AmountCollectedOpenCollectionTrades>0000001053</AmountCollectedOpenCollectionTrades> 
+<MaximumAmountCollectedCollectionTrade>0000000431</MaximumAmountCollectedCollectionTrade> 
+<MostRecentCollectionTradeAge>00028</MostRecentCollectionTradeAge> 
+<MostRecentOpenCollectionTradeAge>00028</MostRecentOpenCollectionTradeAge> 
+<CombinedTrades0PlusDBT>00004</CombinedTrades0PlusDBT> 
+<CombinedTrades30PlusDBT>00002</CombinedTrades30PlusDBT> 
+<CombinedTrades60PlusDBT>00000</CombinedTrades60PlusDBT> 
+<CombinedTrades90PlusDBT>00000</CombinedTrades90PlusDBT> 
+<CombinedTradesBalance>0000017500</CombinedTradesBalance> 
+<CombinedTradesDBT>00002</CombinedTradesDBT> 
+<BankingTotalPctOfAllTradesBal>0000000000</BankingTotalPctOfAllTradesBal> 
+<BankingAssetPctOfAllTradesCt>0000000000</BankingAssetPctOfAllTradesCt> 
+<BankingLiabPctOfAllTradesCt>0000000000</BankingLiabPctOfAllTradesCt> 
+<BankingTotalPctOfAllTradesCt>0000000000</BankingTotalPctOfAllTradesCt> 
+<BankruptFilingsCtPast12Mos>00000</BankruptFilingsCtPast12Mos> 
+<BankruptFilingsCtPast6Mos>00000</BankruptFilingsCtPast6Mos> 
+<CollectOpenAndUnpdBal>0000001053</CollectOpenAndUnpdBal> 
+<CollectOpenAndUnpdTradesCt>00003</CollectOpenAndUnpdTradesCt> 
+<CollectOpenCtPast12Mos>00000</CollectOpenCtPast12Mos> 
+<CollectOpenCtPast6Mos>00000</CollectOpenCtPast6Mos> 
+<CollectTotalCtPast6Mos>00000</CollectTotalCtPast6Mos> 
+<CollectUnpdPctOfTotalTradeBal>0000000002</CollectUnpdPctOfTotalTradeBal> 
+<CollectOpenPctOfTotalCollectCt>0000000100</CollectOpenPctOfTotalCollectCt> 
+<CollectOpenPctOfTotalTradeCt>0000000008</CollectOpenPctOfTotalTradeCt> 
+<CollectOpenAndUnpdPctOfTotalCollectCt>0000000100</CollectOpenAndUnpdPctOfTotalCollectCt> 
+<CombTradesTotalBal>0000017500</CombTradesTotalBal> 
+<CombTrades1To30DBTBal>0000000749</CombTrades1To30DBTBal> 
+<CombTrades31To60DBTBal>0000000400</CombTrades31To60DBTBal> 
+<CombTrades61To90DBTBal>0000000000</CombTrades61To90DBTBal> 
+<CombTrades91PlusDBTBal>0000000000</CombTrades91PlusDBTBal> 
+<CombTradesCurrentBal>0000016351</CombTradesCurrentBal> 
+<CombTradesWorstDlqCurrentBal>0000015900</CombTradesWorstDlqCurrentBal> 
+<CombTradesWorstDlq1To30DPDBal>0000001200</CombTradesWorstDlq1To30DPDBal> 
+<CombTradesWorstDlq31To60DPDBal>0000000400</CombTradesWorstDlq31To60DPDBal> 
+<CombTradesWorstDlq61To90DPDBal>0000000000</CombTradesWorstDlq61To90DPDBal> 
+<CombTradesWorstDlq91PlusDBDBal>0000000000</CombTradesWorstDlq91PlusDBDBal> 
+<CombTradesWorstCurrentBal>0000015900</CombTradesWorstCurrentBal> 
+<CombTradesWorst1To30DPDBal>0000001200</CombTradesWorst1To30DPDBal> 
+<CombTradesWorstLegalCommentsBal>0000000000</CombTradesWorstLegalCommentsBal> 
+<CombTradesWorst31To60DPDBal>0000000400</CombTradesWorst31To60DPDBal> 
+<CombTradesWorst61To90DPDBal>0000000000</CombTradesWorst61To90DPDBal> 
+</KeyModelElements>
+<KeyModelElements>
+<EmployeeSizeCode>D</EmployeeSizeCode> 
+<EstablishedDate>19770101</EstablishedDate> 
+<DBTUnkownComparedToAverage>00016</DBTUnkownComparedToAverage> 
+<DBTLowerThanAverage>00000</DBTLowerThanAverage> 
+<DBTHigherThanAverage>00000</DBTHigherThanAverage> 
+<DBTSameAsAverage>00000</DBTSameAsAverage> 
+<InquiriesCountLast9Months>00000</InquiriesCountLast9Months> 
+<InquiriesCountLast6Months>00000</InquiriesCountLast6Months> 
+<InquiriesCountLast3Months>00000</InquiriesCountLast3Months> 
+<JudgmentsCountLast24Months>00000</JudgmentsCountLast24Months> 
+<NonFiledJudgmentActionsCount>00000</NonFiledJudgmentActionsCount> 
+<OriginalJudgmentsAmount>00000</OriginalJudgmentsAmount> 
+<JudgmentsAmountLast24Months>0000000000</JudgmentsAmountLast24Months> 
+<NonFiledJudgmentActionsAmount>0000000000</NonFiledJudgmentActionsAmount> 
+<MostRecentJudgmentAge>0000000000</MostRecentJudgmentAge> 
+<MostRecentNonFiledJudgmentActionAge>00000</MostRecentNonFiledJudgmentActionAge> 
+<LegalFilingsCount>00001</LegalFilingsCount> 
+<LeasingTradesCount>00000</LeasingTradesCount> 
+<VariableLeasingTradesCount>00000</VariableLeasingTradesCount> 
+<LeasingTradesWithPeriodicalPayments>00000</LeasingTradesWithPeriodicalPayments> 
+<LeasingTradesWithSatisfactoryPayments>00000</LeasingTradesWithSatisfactoryPayments> 
+<LeasingTradesWithSlowPayments>00000</LeasingTradesWithSlowPayments> 
+<VehicleLeasingTradesCount>00000</VehicleLeasingTradesCount> 
+<EquipmentLeasingTradesCount>00000</EquipmentLeasingTradesCount> 
+<FinanceLeasingTradesCount>00000</FinanceLeasingTradesCount> 
+<LeasingTrades1To12Months>00000</LeasingTrades1To12Months> 
+<LeasingTrades13To24Months>00000</LeasingTrades13To24Months> 
+<LeasingTrades25To60Months>00000</LeasingTrades25To60Months> 
+<LeasingTrades60PlusMonths>00000</LeasingTrades60PlusMonths> 
+<LeasingTradesWithScheduledExcludeLate>00000</LeasingTradesWithScheduledExcludeLate> 
+<LeasingTradesWithScheduledIncludeLate>00000</LeasingTradesWithScheduledIncludeLate> 
+<LeasingTradesWithOutstandingAmount>00000</LeasingTradesWithOutstandingAmount> 
+<LeasingTradesWithRemainingBalance>00000</LeasingTradesWithRemainingBalance> 
+<LeasingTradesOnTime>00000</LeasingTradesOnTime> 
+<CombTradesWorst91PlusDPDBal>0000000000</CombTradesWorst91PlusDPDBal> 
+<CombTradesHighBalPast12Mos>0000255100</CombTradesHighBalPast12Mos> 
+<CombTradesTotalCt>00016</CombTradesTotalCt> 
+<CombTradesWorstDlqCurrentCt>00012</CombTradesWorstDlqCurrentCt> 
+<CombTradesWorstDlq1To30DPDCt>00002</CombTradesWorstDlq1To30DPDCt> 
+<CombTradesWorstDlq31To60DPDCt>00002</CombTradesWorstDlq31To60DPDCt> 
+<CombTradesWorstDlq61To90DPDCt>00000</CombTradesWorstDlq61To90DPDCt> 
+<CombTradesWorstDlq91PlusDPDCt>00000</CombTradesWorstDlq91PlusDPDCt> 
+<CombTradesWorstCurrentCt>00012</CombTradesWorstCurrentCt> 
+<CombTradesWorst1To30DPDCt>00002</CombTradesWorst1To30DPDCt> 
+<CombTradesWorstLegalCommentsCt>00000</CombTradesWorstLegalCommentsCt> 
+<CombTradesWorst31To60DPDCt>00002</CombTradesWorst31To60DPDCt> 
+<CombTradesWorst61To90DPDCt>00000</CombTradesWorst61To90DPDCt> 
+<CombTradesWorst91PlusDPDCt>00000</CombTradesWorst91PlusDPDCt> 
+<CombTradesBalPctOfHighBalPast12Mos>0000000006</CombTradesBalPctOfHighBalPast12Mos> 
+<CombTradesPctOfAllTradesBal>0000000041</CombTradesPctOfAllTradesBal> 
+<CombTradesPctOfAllTradesCt>0000000047</CombTradesPctOfAllTradesCt> 
+<JudgFilingsBalPast12Mos>0000000000</JudgFilingsBalPast12Mos> 
+<JudgFilingsBalPast24Mos>0000000000</JudgFilingsBalPast24Mos> 
+<JudgFilingsBalPast6Mos>0000000000</JudgFilingsBalPast6Mos> 
+<JudgFilingsCtPast12Mos>00000</JudgFilingsCtPast12Mos> 
+<JudgFilingsCtPast24Mos>00000</JudgFilingsCtPast24Mos> 
+<JudgFilingsCtPast6Mos>00000</JudgFilingsCtPast6Mos> 
+<JudgPast12MoPctOfTotalBal>0000000000</JudgPast12MoPctOfTotalBal> 
+<JudgPast24MoPctOfTotalBal>0000000000</JudgPast24MoPctOfTotalBal> 
+<JudgPast6MoPctOfTotalBal>0000000000</JudgPast6MoPctOfTotalBal> 
+<LegalFilingsCtPast12Mos>00000</LegalFilingsCtPast12Mos> 
+<LegalFilingsCtPast6Mos>00000</LegalFilingsCtPast6Mos> 
+</KeyModelElements>
+<KeyModelElements>
+<LeasingTrades1To30DaysLate>00000</LeasingTrades1To30DaysLate> 
+<LeasingTrades31To60DaysLate>00000</LeasingTrades31To60DaysLate> 
+<LeasingTrades61To90DaysLate>00000</LeasingTrades61To90DaysLate> 
+<LeasingTrades91PlusDaysLate>00000</LeasingTrades91PlusDaysLate> 
+<LeasingTradesOriginalAmount>0000000000</LeasingTradesOriginalAmount> 
+<LeasingTradesScheduledAmountExcludeLate>0000000000</LeasingTradesScheduledAmountExcludeLate> 
+<LeasingTradesScheduledAmountIncludeLate>0000000000</LeasingTradesScheduledAmountIncludeLate> 
+<LeasingTradesOutstandingAmount>0000000000</LeasingTradesOutstandingAmount> 
+<LeasingTradesRemainingBalance>0000000000</LeasingTradesRemainingBalance> 
+<LeasingTradesLatePaymentsCount>00000</LeasingTradesLatePaymentsCount> 
+<LeasingTradesCurrentPaymentsCount>00000</LeasingTradesCurrentPaymentsCount> 
+<LeasingTradesOutstandingPaymentsCount>00000</LeasingTradesOutstandingPaymentsCount> 
+<LeasingTradeMaximumOriginalAmount>0000000000</LeasingTradeMaximumOriginalAmount> 
+<LeasingTradesMaximumScheduledAmountExcludeLate>0000000000</LeasingTradesMaximumScheduledAmountExcludeLate> 
+<LeasingTradesMaximumScheduledAmountIncludeLate>0000000000</LeasingTradesMaximumScheduledAmountIncludeLate> 
+<LeasingTradesMaximumRemainingBalance>0000000000</LeasingTradesMaximumRemainingBalance> 
+<NewTradesCount>00000</NewTradesCount> 
+<NewTradesBalance>0000000000</NewTradesBalance> 
+<NewTradesDBT>00000</NewTradesDBT> 
+<NewTradeMaximumDBT>00000</NewTradeMaximumDBT> 
+<NewTradesMaskedToHighestRatio>00000</NewTradesMaskedToHighestRatio> 
+<OtherTradesCount>00002</OtherTradesCount> 
+<OtherTradesCountLast4Months>00001</OtherTradesCountLast4Months> 
+<LeaseTradesPctOfAllTradesBal>0000000000</LeaseTradesPctOfAllTradesBal> 
+<LeaseTradesPctOfAllTradesCt>0000000000</LeaseTradesPctOfAllTradesCt> 
+<NewTradesTotalBal>0000000000</NewTradesTotalBal> 
+<NewTrades1To30DBTBal>0000000000</NewTrades1To30DBTBal> 
+<NewTrades31To60DBTBal>0000000000</NewTrades31To60DBTBal> 
+<NewTrades61To90DBTBal>0000000000</NewTrades61To90DBTBal> 
+<NewTrades91PlusDBTBal>0000000000</NewTrades91PlusDBTBal> 
+<NewTradesCurrentBal>0000000000</NewTradesCurrentBal> 
+<NewTradesWorstDlqCurrentBal>0000000000</NewTradesWorstDlqCurrentBal> 
+<NewTradesWorstDlq1To30DPDBal>0000000000</NewTradesWorstDlq1To30DPDBal> 
+<NewTradesWorstDlq31To60DPDBal>0000000000</NewTradesWorstDlq31To60DPDBal> 
+<NewTradesWorstDlq61To90DPDBal>0000000000</NewTradesWorstDlq61To90DPDBal> 
+<NewTradesWorstDlq91PlusDPDBal>0000000000</NewTradesWorstDlq91PlusDPDBal> 
+<NewTradesWorstCurrentBal>0000000000</NewTradesWorstCurrentBal> 
+<NewTradesWorst1To30DPDBal>0000000000</NewTradesWorst1To30DPDBal> 
+<NewTradesWorstLegalCommentsBal>0000000000</NewTradesWorstLegalCommentsBal> 
+<NewTradesWorst31To60DPDBal>0000000000</NewTradesWorst31To60DPDBal> 
+<NewTradesWorst61To90DPDBal>0000000000</NewTradesWorst61To90DPDBal> 
+<NewTradesWorst91PlusDPDBal>0000000000</NewTradesWorst91PlusDPDBal> 
+<NewTradesHighBalPast12Mos>0000000000</NewTradesHighBalPast12Mos> 
+<NewTradesTotalCt>00000</NewTradesTotalCt> 
+<NewTradesWorstDlqCurrentCt>00000</NewTradesWorstDlqCurrentCt> 
+<NewTradesWorstDlq1To90DPDCt>00000</NewTradesWorstDlq1To90DPDCt> 
+<NewTradesWorstDlq31To60DPDCt>00000</NewTradesWorstDlq31To60DPDCt> 
+<NewTradesWorstDlq61To90DPDCt>00000</NewTradesWorstDlq61To90DPDCt> 
+<NewTradesWorstDlq91PlusDPDCt>00000</NewTradesWorstDlq91PlusDPDCt> 
+<NewTradesWorstCurrentCt>00000</NewTradesWorstCurrentCt> 
+<NewTradesWorst1To30DPDCt>00000</NewTradesWorst1To30DPDCt> 
+<NewTradesWorstLegalCommentsCt>00000</NewTradesWorstLegalCommentsCt> 
+<NewTradesWorst31To60DPDCt>00000</NewTradesWorst31To60DPDCt> 
+<NewTradesWorst61To90DPDCt>00000</NewTradesWorst61To90DPDCt> 
+<NewTradesWorst91PlusDPDCt>00000</NewTradesWorst91PlusDPDCt> 
+<NewTradesBalPctOfHighBalPast12Mo>00000</NewTradesBalPctOfHighBalPast12Mo> 
+<NewTradesPctOfAllTradesBal>00000</NewTradesPctOfAllTradesBal> 
+<NewTradesPctOfAllTradesCt>00000</NewTradesPctOfAllTradesCt> 
+</KeyModelElements>
+<KeyModelElements>
+<OtherTradesMaskedBalanceLast4Months>0000000000</OtherTradesMaskedBalanceLast4Months> 
+<AverageDBTOtherTradesLast4Months>00000</AverageDBTOtherTradesLast4Months> 
+<MaximumDBTOtherTradesLast4Months>00000</MaximumDBTOtherTradesLast4Months> 
+<OtherTradesMaskedToHighestRatio>00000</OtherTradesMaskedToHighestRatio> 
+<SicCode>5021</SicCode> 
+<AllTradesMaskedToHighestRatio>00006</AllTradesMaskedToHighestRatio> 
+<MostRecentPublicRecordAge>00000</MostRecentPublicRecordAge> 
+<OldestPublicRecordAge>00000</OldestPublicRecordAge> 
+<PublicRecordsAverageAge>00000</PublicRecordsAverageAge> 
+<OtherFinanceTradesBal>0000000000</OtherFinanceTradesBal> 
+<OtherLeasingTradesBal>0000000300</OtherLeasingTradesBal> 
+<OtherSupplementTradesBal>0000000000</OtherSupplementTradesBal> 
+<OtherTelecomTradesBal>0000000000</OtherTelecomTradesBal> 
+<OtherFinanceTradesCt>00000</OtherFinanceTradesCt> 
+<OtherLeasingTradesCt>00002</OtherLeasingTradesCt> 
+<OtherSupplementTradesCt>00000</OtherSupplementTradesCt> 
+<OtherTelecomTradesCt>00000</OtherTelecomTradesCt> 
+<OtherFinanceTradesPctOfAllTradesBal>00000</OtherFinanceTradesPctOfAllTradesBal> 
+<OtherFinanceTradesPctOfAllTradesCt>00000</OtherFinanceTradesPctOfAllTradesCt> 
+<OtherLeasingTradesPctOfAllTradesBal>00000</OtherLeasingTradesPctOfAllTradesBal> 
+<OtherLeasingTradesPctOfAllTradesCt>00005</OtherLeasingTradesPctOfAllTradesCt> 
+<OtherSupplementTradesPctOfAllTradesBal>00000</OtherSupplementTradesPctOfAllTradesBal> 
+<OtherSupplementTradesPctOfAllTradesCt>00000</OtherSupplementTradesPctOfAllTradesCt> 
+<OtherTelecomTradesPctOfAllTradesBal>00000</OtherTelecomTradesPctOfAllTradesBal> 
+<OtherTelecomTradesPctOfAllTradesCt>00000</OtherTelecomTradesPctOfAllTradesCt> 
+<RegTradesTotalBal>0000017500</RegTradesTotalBal> 
+<RegTrades1To30DBTBal>0000000749</RegTrades1To30DBTBal> 
+<RegTrades31To60DBTBal>0000000400</RegTrades31To60DBTBal> 
+<RegTrades61To90DBTBal>0000000000</RegTrades61To90DBTBal> 
+<RegTrades91PlusDBTBal>0000000000</RegTrades91PlusDBTBal> 
+<RegTradesCurrentBal>0000016351</RegTradesCurrentBal> 
+<RegTradesWorstDlqCurrentBal>0000015900</RegTradesWorstDlqCurrentBal> 
+<RegTradesWorstDlq1To30DPDBal>0000001200</RegTradesWorstDlq1To30DPDBal> 
+<RegTradesWorstDlq31To60DPDBal>0000000400</RegTradesWorstDlq31To60DPDBal> 
+<RegTradesWorstDlq61To90DPDBal>0000000000</RegTradesWorstDlq61To90DPDBal> 
+<RegTradesWorstDlq91PlusDPDBal>0000000000</RegTradesWorstDlq91PlusDPDBal> 
+<RegTradesWorstCurrentBal>0000015900</RegTradesWorstCurrentBal> 
+<RegTradesWorst1To30DPDBal>0000001200</RegTradesWorst1To30DPDBal> 
+<RegTradesWorstLegalCommentsBal>0000000000</RegTradesWorstLegalCommentsBal> 
+<RegTradesWorst31To60DPDBal>0000000400</RegTradesWorst31To60DPDBal> 
+<RegTradesWorst61To90DPDBal>0000000000</RegTradesWorst61To90DPDBal> 
+<RegTradesWorst91PlusDPDBal>0000000000</RegTradesWorst91PlusDPDBal> 
+<RegTradesHighBalPast12Mos>0000255100</RegTradesHighBalPast12Mos> 
+<RegTradesTotalCt>00016</RegTradesTotalCt> 
+<RegTradesWorstDlqCurrentCt>00012</RegTradesWorstDlqCurrentCt> 
+<RegTradesWorstDlq1To30DPDCt>00002</RegTradesWorstDlq1To30DPDCt> 
+<RegTradesWorstDlq31To60DPDCt>00002</RegTradesWorstDlq31To60DPDCt> 
+<RegTradesWorstDlq61To90DPDCt>00000</RegTradesWorstDlq61To90DPDCt> 
+<RegTradesWorstDlq91PlusDPDCt>00000</RegTradesWorstDlq91PlusDPDCt> 
+<RegTradesWorstCurrentCt>00012</RegTradesWorstCurrentCt> 
+<RegTradesWorst1To30DPDCt>00002</RegTradesWorst1To30DPDCt> 
+<RegTradesWorstLegalCommentsCt>00000</RegTradesWorstLegalCommentsCt> 
+<RegTradesWorst31To60DPDCt>00002</RegTradesWorst31To60DPDCt> 
+<RegTradesWorst61To90DPDCt>00000</RegTradesWorst61To90DPDCt> 
+<RegTradesWorst91PlusDPDCt>00000</RegTradesWorst91PlusDPDCt> 
+<RegTradesBalPctOfHighBalPast12Mos>0000000006</RegTradesBalPctOfHighBalPast12Mos> 
+<RegTradesPctOfAllTradesBal>0000000041</RegTradesPctOfAllTradesBal> 
+<RegTradesPctOfAllTradesCt>0000000047</RegTradesPctOfAllTradesCt> 
+</KeyModelElements>
+<KeyModelElements>
+<RegularTradesCount>00016</RegularTradesCount> 
+<RegularTradesBalance>0000017500</RegularTradesBalance> 
+<RegularTradesBalanceCurrentMonth>0000007200</RegularTradesBalanceCurrentMonth> 
+<RegularTradesBalance1MonthPrior>0000012300</RegularTradesBalance1MonthPrior> 
+<RegularTradesBalance2MonthsPrior>0000010400</RegularTradesBalance2MonthsPrior> 
+<RegularTradesBalance3MonthsPrior>0000016300</RegularTradesBalance3MonthsPrior> 
+<RegularTradesBalance4MonthsPrior>0000015700</RegularTradesBalance4MonthsPrior> 
+<RegularTradesBalance5MonthsPrior>0000020800</RegularTradesBalance5MonthsPrior> 
+<RegularTradesAverageBalanceCurrent>0000009801</RegularTradesAverageBalanceCurrent> 
+<RegularTradesAverageBalance1To30DBT>0000003809</RegularTradesAverageBalance1To30DBT> 
+<RegularTradesAverageBalance31To60DBT>0000000173</RegularTradesAverageBalance31To60DBT> 
+<RegularTradesAverageBalance61To90DBT>0000000000</RegularTradesAverageBalance61To90DBT> 
+<RegularTradesAverageBalance91PlusDBT>0000000000</RegularTradesAverageBalance91PlusDBT> 
+<RegularTradesBalanceCurrentQuarter>0000013000</RegularTradesBalanceCurrentQuarter> 
+<RegularTradesBalance1QuarterPrior>0000015600</RegularTradesBalance1QuarterPrior> 
+<RegularTradesBalance2QuartersPrior>0000018800</RegularTradesBalance2QuartersPrior> 
+<RegularTradesBalance3QuartersPrior>0000128500</RegularTradesBalance3QuartersPrior> 
+<RegularTradesBalance4QuartersPrior>0000005600</RegularTradesBalance4QuartersPrior> 
+<DBTRegularTrades>00002</DBTRegularTrades> 
+<DBTRegularTradesCurrentMonth>00006</DBTRegularTradesCurrentMonth> 
+<DBTRegularTrades1MonthPrior>00010</DBTRegularTrades1MonthPrior> 
+<DBTRegularTrades2MonthsPrior>00002</DBTRegularTrades2MonthsPrior> 
+<DBTRegularTrades3MonthsPrior>00000</DBTRegularTrades3MonthsPrior> 
+<DBTRegularTrades4MonthsPrior>00004</DBTRegularTrades4MonthsPrior> 
+<DBTRegularTrades5MonthsPrior>00007</DBTRegularTrades5MonthsPrior> 
+<MaximumDBTRegularTrade>00045</MaximumDBTRegularTrade> 
+<DBTRegularTradesCurrentQuarter>00004</DBTRegularTradesCurrentQuarter> 
+<DBTRegularTrades1QuarterPrior>00004</DBTRegularTrades1QuarterPrior> 
+<DBTRegularTrades2QuartersPrior>00011</DBTRegularTrades2QuartersPrior> 
+<DBTRegularTrades3QuartersPrior>00000</DBTRegularTrades3QuartersPrior> 
+<DBTRegularTrades4QuartersPrior>00005</DBTRegularTrades4QuartersPrior> 
+<RegularTradesCountCurrent>00008</RegularTradesCountCurrent> 
+<RegularTradesCount1To30DBT>00002</RegularTradesCount1To30DBT> 
+<RegularTradesCount31To60DBT>00002</RegularTradesCount31To60DBT> 
+<RegularTradesCount61To90DBT>00000</RegularTradesCount61To90DBT> 
+<RegularTradesCount91PlusDBT>00000</RegularTradesCount91PlusDBT> 
+<RegularTradesCountDerog>00000</RegularTradesCountDerog> 
+<DBTChangeRegularTrades6MonthsPrior>00000</DBTChangeRegularTrades6MonthsPrior> 
+<DBTChangeRegularTrades5QuartersPrior>00000</DBTChangeRegularTrades5QuartersPrior> 
+<RegularTradesMaskedToHighestRatio>00006</RegularTradesMaskedToHighestRatio> 
+<BadTradesCount>00002</BadTradesCount> 
+<BadTradesMaskedBalance>0000003600</BadTradesMaskedBalance> 
+<GoodTradesCount>00007</GoodTradesCount> 
+<GoodTradesMaskedBalance>0000016900</GoodTradesMaskedBalance> 
+<IndeterminateTradesCount>00007</IndeterminateTradesCount> 
+<TotalTradesCount>00034</TotalTradesCount> 
+<TotalActiveTradesCount>00022</TotalActiveTradesCount> 
+<TradesCountBalanceToLoan70Plus>00001</TradesCountBalanceToLoan70Plus> 
+<TotalTradesCountLast6Months>00017</TotalTradesCountLast6Months> 
+<TotalTradesCountLast12Months>00020</TotalTradesCountLast12Months> 
+<ActiveTradesCountLast6Months>00006</ActiveTradesCountLast6Months> 
+<ActiveTradesCountLast12Months>00007</ActiveTradesCountLast12Months> 
+<MostRecentTradeAge>00001</MostRecentTradeAge> 
+<OldestTradeAge>00037</OldestTradeAge> 
+<TradesAverageAge>00013</TradesAverageAge> 
+<TradesCountDBT0Plus>00009</TradesCountDBT0Plus> 
+<TradesCountDBT30Plus>00005</TradesCountDBT30Plus> 
+<TradesCountDBT60Plus>00002</TradesCountDBT60Plus> 
+<TradesCountDBT90Plus>00001</TradesCountDBT90Plus> 
+<AllTradesTotalCt>00034</AllTradesTotalCt> 
+<AllTradesWorstDlqCurrentCt>00025</AllTradesWorstDlqCurrentCt> 
+</KeyModelElements>
+<KeyModelElements>
+<TotalAccountBalance>0000042600</TotalAccountBalance> 
+<HighCreditBalance>0001076100</HighCreditBalance> 
+<MaximumBalanceCurrent>0000013100</MaximumBalanceCurrent> 
+<MaximumBalance1To30DBT>0000014400</MaximumBalance1To30DBT> 
+<MaximumBalance31To60DBT>0000000400</MaximumBalance31To60DBT> 
+<MaximumBalance61To90DBT>0000000000</MaximumBalance61To90DBT> 
+<MaximumBalance91PlusDBT>0000001992</MaximumBalance91PlusDBT> 
+<AccountBalanceCurrent>0000023359</AccountBalanceCurrent> 
+<AccountBalance1To30DBT>0000015249</AccountBalance1To30DBT> 
+<AccountBalance31To60DBT>0000000800</AccountBalance31To60DBT> 
+<AccountBalance61To90DBT>0000000000</AccountBalance61To90DBT> 
+<AccountBalance91PlusDBT>0000003192</AccountBalance91PlusDBT> 
+<MonthsOnFile>0383</MonthsOnFile> 
+<MaximumBalanceLast12Months>0000749700</MaximumBalanceLast12Months> 
+<TradesCountMaskedBalanceGreaterThanHighCredit>00004</TradesCountMaskedBalanceGreaterThanHighCredit> 
+<TradesCountNet30>00014</TradesCountNet30> 
+<TradesCountNet60>00002</TradesCountNet60> 
+<TradesCountNet61Plus>00000</TradesCountNet61Plus> 
+<TradesCountCash>00002</TradesCountCash> 
+<TradesCountContract>00002</TradesCountContract> 
+<TradesCountRevolvingCredit>00002</TradesCountRevolvingCredit> 
+<TradesCountVaried>00008</TradesCountVaried> 
+<TradesCountOther>00004</TradesCountOther> 
+<OriginalTaxLiensCount>00001</OriginalTaxLiensCount> 
+<TaxLiensCountLast24Months>00000</TaxLiensCountLast24Months> 
+<AllTradesTotalBal>0000042600</AllTradesTotalBal> 
+<AllTrades1To30DBTBal>0000015249</AllTrades1To30DBTBal> 
+<AllTrades31To60DBTBal>0000000800</AllTrades31To60DBTBal> 
+<AllTrades61To90DBTBal>0000000000</AllTrades61To90DBTBal> 
+<AllTrades91PlusDBTBal>0000003192</AllTrades91PlusDBTBal> 
+<AllTradesCurrentBal>0000023359</AllTradesCurrentBal> 
+<AllTradesWorstDlqCurrentBal>0000016900</AllTradesWorstDlqCurrentBal> 
+<AllTradesWorstDlq1To30DPDBal>0000021300</AllTradesWorstDlq1To30DPDBal> 
+<AllTradesWorstDlq31To60DPDBal>0000000800</AllTradesWorstDlq31To60DPDBal> 
+<AllTradesWorstDlq61To90DPDBal>0000000000</AllTradesWorstDlq61To90DPDBal> 
+<AllTradesWorstDlq91PlusDPDBal>0000003600</AllTradesWorstDlq91PlusDPDBal> 
+<AllTradesWorstCurrentBal>0000016900</AllTradesWorstCurrentBal> 
+<AllTradesWorst1To30DPDBal>0000021300</AllTradesWorst1To30DPDBal> 
+<AllTradesWorstLegalCommentsBal>0000000000</AllTradesWorstLegalCommentsBal> 
+<AllTradesWorst31To60DPDBal>0000000800</AllTradesWorst31To60DPDBal> 
+<AllTradesWorst61To90DPDBal>0000000000</AllTradesWorst61To90DPDBal> 
+<AllTradesWorst91PlusDPDBal>0000003600</AllTradesWorst91PlusDPDBal> 
+<AllTradesHighBalPast12Mos>0001076100</AllTradesHighBalPast12Mos> 
+<AllTradesWorstDlq1To30DPDCt>00004</AllTradesWorstDlq1To30DPDCt> 
+<AllTradesWorstDlq31To60DPDCt>00003</AllTradesWorstDlq31To60DPDCt> 
+<AllTradesWorstDlq61To90DPDCt>00000</AllTradesWorstDlq61To90DPDCt> 
+<AllTradesWorstDlq91PlusDPDCt>00002</AllTradesWorstDlq91PlusDPDCt> 
+<AllTradesWorstCurrentDPDCt>00025</AllTradesWorstCurrentDPDCt> 
+<AllTradesWorst1To30DPDCt>00004</AllTradesWorst1To30DPDCt> 
+<AllTradesWorstLegalCommentsCt>00000</AllTradesWorstLegalCommentsCt> 
+<AllTradesWorst31To60DPDCt>00003</AllTradesWorst31To60DPDCt> 
+<AllTradesWorst61To90DPDCt>00000</AllTradesWorst61To90DPDCt> 
+<AllTradesWorst91PlusDPDCt>00002</AllTradesWorst91PlusDPDCt> 
+<AllTradesBalPctOfHighBalPast12Mos>0000000003</AllTradesBalPctOfHighBalPast12Mos> 
+<AllTradesPctOfTotalBal>0000000100</AllTradesPctOfTotalBal> 
+<AllTradesPctOfTotalCt>0000000100</AllTradesPctOfTotalCt> 
+</KeyModelElements>
+<KeyModelElements>
+<NonFiledTaxLiensCount>00001</NonFiledTaxLiensCount> 
+<OriginalTaxLiensAmount>0000001399</OriginalTaxLiensAmount> 
+<TaxLiensAmountLast24Months>0000000000</TaxLiensAmountLast24Months> 
+<NonFiledTaxLiensAmount>0000000375</NonFiledTaxLiensAmount> 
+<MostRecentTaxLienAge>00036</MostRecentTaxLienAge> 
+<MostRecentNonFiledTaxLienAge>00016</MostRecentNonFiledTaxLienAge> 
+<ActiveTradesCountZeroBalance>00006</ActiveTradesCountZeroBalance> 
+<TradesCountZeroBalance>00018</TradesCountZeroBalance> 
+<UCCFilingsCountDetail>00000</UCCFilingsCountDetail> 
+<UCCFilingsCountSummary>00000</UCCFilingsCountSummary> 
+<OpenUCCFilingsCountLast24Months>00000</OpenUCCFilingsCountLast24Months> 
+<Original5YearUCCFilingsCountLast24>00000</Original5YearUCCFilingsCountLast24> 
+<OriginalUCCFilingsCount>00000</OriginalUCCFilingsCount> 
+<Original5YearUCCFilingsCount>00000</Original5YearUCCFilingsCount> 
+<UCCFilingsCountAmended>00000</UCCFilingsCountAmended> 
+<UCCFilingsCountAssigned>00000</UCCFilingsCountAssigned> 
+<UCCFilingsCountPatialRelease>00000</UCCFilingsCountPatialRelease> 
+<UCCFilingsCountFullRelease>00000</UCCFilingsCountFullRelease> 
+<UCCFilingsCountReleased>00000</UCCFilingsCountReleased> 
+<UCCFilingsCountTerminated>00000</UCCFilingsCountTerminated> 
+<UCCFilingsCountContinued>00000</UCCFilingsCountContinued> 
+<Original10YearUCCFilingsCount>00000</Original10YearUCCFilingsCount> 
+<DerogUCCFilingsCount>00000</DerogUCCFilingsCount> 
+<DerogUCCFilingsCountLast24Months>00000</DerogUCCFilingsCountLast24Months> 
+<TaxLiensBalPast12Mos>0000000000</TaxLiensBalPast12Mos> 
+<TaxLiensBalPast24Mos>0000000000</TaxLiensBalPast24Mos> 
+<TaxLiensBalPast6Mos>0000000000</TaxLiensBalPast6Mos> 
+<TaxLiensCtPast12Mos>00000</TaxLiensCtPast12Mos> 
+<TaxLiensCtPast24Mos>00000</TaxLiensCtPast24Mos> 
+<TaxLiensCtPast6Mos>00000</TaxLiensCtPast6Mos> 
+<TaxLiensPast12MoPctOfTotalBal>0000000000</TaxLiensPast12MoPctOfTotalBal> 
+<TaxLiensPast24MoPctOfTotalBal>0000000000</TaxLiensPast24MoPctOfTotalBal> 
+<TaxLiensPast6MoPctOfTotalBal>0000000000</TaxLiensPast6MoPctOfTotalBal> 
+</KeyModelElements>
+<SmallBusinessKeyModelElements>
+<ProprietorFirstName>IRENE</ProprietorFirstName> 
+<ProprietorSurname>RIENDFLIESCH</ProprietorSurname> 
+<AgeOldestTradeline>000000138</AgeOldestTradeline> 
+<SatisfactoryTradesLast24Mos>000000007</SatisfactoryTradesLast24Mos> 
+<TradesPresentlyDelinquentOrPastDueLast6Mos>000000001</TradesPresentlyDelinquentOrPastDueLast6Mos> 
+<TotCollectionsLegalFilingsOrDerogAccts>000000000</TotCollectionsLegalFilingsOrDerogAccts> 
+<TotDerogPubRecsLast24Mos>000000000</TotDerogPubRecsLast24Mos> 
+<TotDerogPubRecsGT250>000000000</TotDerogPubRecsGT250> 
+<TotOpenBankcardTradesLast6Mos>000000002</TotOpenBankcardTradesLast6Mos> 
+<TotBankcardBalToLimitRatioLast6Mos>000000005</TotBankcardBalToLimitRatioLast6Mos> 
+<TotOpenRevTrades>000000006</TotOpenRevTrades> 
+<TotAvailableRevCreditLast6Mos>000019643</TotAvailableRevCreditLast6Mos> 
+<PctAutoLeaseTrades30PlusDPD>000000000</PctAutoLeaseTrades30PlusDPD> 
+<PctRealEstateTrades30PlusDPD>000000000</PctRealEstateTrades30PlusDPD> 
+<TotalCreditPurposeInquiriesLast6Mos>000000000</TotalCreditPurposeInquiriesLast6Mos> 
+</SmallBusinessKeyModelElements>
+<SmallBusinessAdvisorySummary>
+<ProprietorBirthDate>19760000</ProprietorBirthDate> 
+<DwellingType>S</DwellingType> 
+<DerivedRisk>0751</DerivedRisk> 
+<RiskScoreFactorCode1>06</RiskScoreFactorCode1> 
+<RiskScoreFactorCode2>63</RiskScoreFactorCode2> 
+<RiskScoreFactorCode3>61</RiskScoreFactorCode3> 
+<RiskScoreFactorCode4>72</RiskScoreFactorCode4> 
+</SmallBusinessAdvisorySummary>
+<NonStandardRecord>
+<Type>CDS</Type> 
+</NonStandardRecord>
+<BillingIndicator code="F">Full Charge</BillingIndicator> 
+</Intelliscore>
+<CreditProfile>
+<Header>
+<ReportDate>120408</ReportDate> 
+<ReportTime>181720</ReportTime> 
+<Preamble>TCTA</Preamble> 
+<ARFVersion>07</ARFVersion> 
+</Header>
+<RiskModel>
+<ModelIndicator code="[">Scorex PLUS Score for New Accounts</ModelIndicator> 
+<Score>0751</Score> 
+<ScoreFactorCodeOne>06</ScoreFactorCodeOne> 
+<ScoreFactorCodeTwo>63</ScoreFactorCodeTwo> 
+<ScoreFactorCodeThree>61</ScoreFactorCodeThree> 
+<ScoreFactorCodeFour>72</ScoreFactorCodeFour> 
+<Evaluation code="P">Positive number</Evaluation> 
+</RiskModel>
+<SSN>
+<VariationIndicator code="*">Different</VariationIndicator> 
+<Number>999999527</Number> 
+</SSN>
+<ConsumerIdentity>
+<Name>
+<Gen>IRENE RIENDFLIESCH</Gen> 
+</Name>
+<YOB>1976</YOB> 
+</ConsumerIdentity>
+<ConsumerIdentity>
+<Name>
+<Type code="A">AKA</Type> 
+<Gen>IRENE V BURRELL</Gen> 
+</Name>
+<YOB /> 
+</ConsumerIdentity>
+<AddressInformation>
+<FirstReportedDate>1196</FirstReportedDate> 
+<LastUpdatedDate>0408</LastUpdatedDate> 
+<Origination code="2">Reported via A/R Tape</Origination> 
+<TimesReported>15</TimesReported> 
+<LastReportingSubcode>1270246</LastReportingSubcode> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>0 RUFFIN RD</StreetPrefix> 
+<StreetSuffix>20 RUFFIN RD</StreetSuffix> 
+<UnitID>20 RUFFIN RD</UnitID> 
+<State>20 RUFFIN RD</State> 
+<Zip>WOODBURY CT 067982027</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<AddressInformation>
+<FirstReportedDate>1001</FirstReportedDate> 
+<LastUpdatedDate>1001</LastUpdatedDate> 
+<Origination code="6">Reported via Inquiry, but different from inquiry</Origination> 
+<TimesReported>00</TimesReported> 
+<LastReportingSubcode /> 
+<DwellingType code="S">Single-family dwelling</DwellingType> 
+<HomeOwnership code="">Unknown</HomeOwnership> 
+<StreetPrefix>9 RUFFIN RD</StreetPrefix> 
+<StreetSuffix>29 RUFFIN RD</StreetSuffix> 
+<UnitID>29 RUFFIN RD</UnitID> 
+<State>29 RUFFIN RD</State> 
+<Zip>WOODBURY CT 067982028</Zip> 
+<CensusGeoCode /> 
+</AddressInformation>
+<TradeLine>
+<SpecialComment code="28">ACCOUNT CLOSED DUE TO TRANSFER OR REFINANCE</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0402</OpenDate> 
+<StatusDate>1105</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="06">Installment Sales Contract</AccountType> 
+<TermsDuration code="012" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00000378</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>112805</BalanceDate> 
+<BalanceAmount /> 
+<Status code="10">Account renewed or refinanced</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>44064860552</AccountNumber> 
+<MonthsHistory>01</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B</PaymentProfile> 
+<Subcode>0300750</Subcode> 
+<KOB code="PH">Health And Fitness Clubs</KOB> 
+<SubscriberDisplayName>BALLY TOTAL FITNESS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1105</InitialPaymentLevelDate> 
+<AccountCondition code="" /> 
+<PaymentStatus code="10" /> 
+<AccountType code="06" /> 
+<SpecialComment code="50" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="28">ACCOUNT CLOSED DUE TO TRANSFER OR REFINANCE</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0703</OpenDate> 
+<StatusDate>0807</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000350</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000214</Value> 
+</Amount>
+<BalanceDate>080707</BalanceDate> 
+<BalanceAmount /> 
+<Status code="05">Account transferred to another office</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>129561</AccountNumber> 
+<MonthsHistory>37</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0000000000-00000000000-0</PaymentProfile> 
+<Subcode>1232920</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>CITI/SHELL</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0807</InitialPaymentLevelDate> 
+<AccountCondition code="05" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="51" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0505</OpenDate> 
+<StatusDate>1205</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000169</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>122805</BalanceDate> 
+<BalanceAmount /> 
+<Status code="05">Account transferred to another office</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>784055</AccountNumber> 
+<MonthsHistory>08</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0000-CC</PaymentProfile> 
+<Subcode>1328140</Subcode> 
+<KOB code="DC">Complete Department Stores</KOB> 
+<SubscriberDisplayName>NBGL/SAKS 5TH AVE</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1205</InitialPaymentLevelDate> 
+<AccountCondition code="05" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="31">ACCOUNT TRANSFERRED TO ANOTHER LENDER</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0697</OpenDate> 
+<StatusDate>1003</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="116" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00001312</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>100503</BalanceDate> 
+<BalanceAmount /> 
+<Status code="05">Account transferred to another office</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>3266628302895042</AccountNumber> 
+<MonthsHistory>76</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>2990515</Subcode> 
+<KOB code="EZ">Education -- Non-Specific</KOB> 
+<SubscriberDisplayName>USA SERVICING COMPANY</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1003</InitialPaymentLevelDate> 
+<AccountCondition code="05" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="31" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="31">ACCOUNT TRANSFERRED TO ANOTHER LENDER</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0598</OpenDate> 
+<StatusDate>1003</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="116" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00001750</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>100503</BalanceDate> 
+<BalanceAmount /> 
+<Status code="05">Account transferred to another office</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>3266628303061492</AccountNumber> 
+<MonthsHistory>65</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>2990515</Subcode> 
+<KOB code="EZ">Education -- Non-Specific</KOB> 
+<SubscriberDisplayName>USA SERVICING COMPANY</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1003</InitialPaymentLevelDate> 
+<AccountCondition code="05" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="31" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="31">ACCOUNT TRANSFERRED TO ANOTHER LENDER</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0599</OpenDate> 
+<StatusDate>1003</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="116" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00002171</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>100503</BalanceDate> 
+<BalanceAmount /> 
+<Status code="05">Account transferred to another office</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>3266628304039624</AccountNumber> 
+<MonthsHistory>53</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>2990515</Subcode> 
+<KOB code="EZ">Education -- Non-Specific</KOB> 
+<SubscriberDisplayName>USA SERVICING COMPANY</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1003</InitialPaymentLevelDate> 
+<AccountCondition code="05" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="31" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="31">ACCOUNT TRANSFERRED TO ANOTHER LENDER</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0601</OpenDate> 
+<StatusDate>1003</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="116" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00002650</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>100503</BalanceDate> 
+<BalanceAmount /> 
+<Status code="05">Account transferred to another office</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>3266628305472798</AccountNumber> 
+<MonthsHistory>28</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>2990515</Subcode> 
+<KOB code="EZ">Education -- Non-Specific</KOB> 
+<SubscriberDisplayName>USA SERVICING COMPANY</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>1003</InitialPaymentLevelDate> 
+<AccountCondition code="05" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="31" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="18">ACCOUNT CLOSED AT CREDIT GRANTOR'S REQUEST</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0505</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000917</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>092108</BalanceDate> 
+<BalanceAmount>00000608</BalanceAmount> 
+<Status code="78">Account delinquent 60 days past due date</Status> 
+<AmountPastDue>00000041</AmountPastDue> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>784055</AccountNumber> 
+<MonthsHistory>33</MonthsHistory> 
+<DelinquenciesOver30Days>01</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>01</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>21CCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000053</MonthlyPaymentAmount> 
+<LastPaymentDate>052808</LastPaymentDate> 
+<Subcode>1579670</Subcode> 
+<KOB code="FZ">Finance Companies -- Non-Specific</KOB> 
+<SubscriberDisplayName>HSBC/SAKS</SubscriberDisplayName> 
+<MaxPayment code="" /> 
+<FirstDelinquencyDate>0908</FirstDelinquencyDate> 
+<SecondDelinquencyDate>0808</SecondDelinquencyDate> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A3" /> 
+<PaymentStatus code="78" /> 
+<AccountType code="07" /> 
+<SpecialComment code="18" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="19">ACCOUNT CLOSED AT CONSUMER'S REQUEST</SpecialComment> 
+<Evaluation code="N">Closer review is required</Evaluation> 
+<OpenDate>0507</OpenDate> 
+<StatusDate>0808</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00010000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>081608</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>518752020734</AccountNumber> 
+<MonthsHistory>16</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0C00000000000C0</PaymentProfile> 
+<Subcode>1240000</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>CITI</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0808</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="19" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0403</OpenDate> 
+<StatusDate>0404</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="UNK">Unknown</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00004343</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>042804</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>326662836571</AccountNumber> 
+<MonthsHistory>08</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0-CCCCC</PaymentProfile> 
+<Subcode>1993670</Subcode> 
+<KOB code="EL">Student Loans</KOB> 
+<SubscriberDisplayName>SALLIE MAE SERVICING</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0404</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0403</OpenDate> 
+<StatusDate>0404</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="UNK">Unknown</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00003500</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>042804</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>326662836581</AccountNumber> 
+<MonthsHistory>08</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0-CCCCC</PaymentProfile> 
+<Subcode>1993670</Subcode> 
+<KOB code="EL">Student Loans</KOB> 
+<SubscriberDisplayName>SALLIE MAE SERVICING</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0404</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0403</OpenDate> 
+<StatusDate>0404</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="UNK">Unknown</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00002625</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>042804</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>326662836591</AccountNumber> 
+<MonthsHistory>08</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0-CCCCC</PaymentProfile> 
+<Subcode>1993670</Subcode> 
+<KOB code="EL">Student Loans</KOB> 
+<SubscriberDisplayName>SALLIE MAE SERVICING</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0404</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0403</OpenDate> 
+<StatusDate>0404</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="12">Education Loan</AccountType> 
+<TermsDuration code="UNK">Unknown</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00005300</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>042804</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>326662836561</AccountNumber> 
+<MonthsHistory>08</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>B0-CCCCC</PaymentProfile> 
+<Subcode>1993670</Subcode> 
+<KOB code="EL">Student Loans</KOB> 
+<SubscriberDisplayName>SALLIE MAE SERVICING</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0404</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="12" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0702</OpenDate> 
+<StatusDate>0404</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="00">Auto Loan</AccountType> 
+<TermsDuration code="060" /> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="O">Original</Qualifier> 
+<Value>00022172</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>040204</BalanceDate> 
+<BalanceAmount /> 
+<Status code="12">Account/paid satisfactorily</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="C">Closed</OpenOrClosed> 
+<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>021236598024</AccountNumber> 
+<MonthsHistory>21</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>BCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<Subcode>3610037</Subcode> 
+<KOB code="FF">Sales Financing Company</KOB> 
+<SubscriberDisplayName>G M A C</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0404</InitialPaymentLevelDate> 
+<AccountCondition code="A2" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="00" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0506</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00004000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>111808</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>430851703279</AccountNumber> 
+<MonthsHistory>31</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>NN00N00000000000000000000</PaymentProfile> 
+<Subcode>1362836</Subcode> 
+<KOB code="DZ">Department And Variety Stores -- Non-Specific</KOB> 
+<SubscriberDisplayName>VISDSNB</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1097</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00008080</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00002814</Value> 
+</Amount>
+<BalanceDate>092008</BalanceDate> 
+<BalanceAmount>00000642</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>549113037884</AccountNumber> 
+<MonthsHistory>99</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCCCCCCCCCCCCCCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000020</MonthlyPaymentAmount> 
+<LastPaymentDate>091308</LastPaymentDate> 
+<Subcode>1211870</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>UNVL/CITI</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0506</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00002000</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000073</Value> 
+</Amount>
+<BalanceDate>091608</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>450321053</AccountNumber> 
+<MonthsHistory>28</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>00000000000000-00--000000</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>070806</LastPaymentDate> 
+<Subcode>1362837</Subcode> 
+<KOB code="DZ">Department And Variety Stores -- Non-Specific</KOB> 
+<SubscriberDisplayName>MACYS</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0903</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="18">Credit Card, Terms REV</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00004500</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00002058</Value> 
+</Amount>
+<BalanceDate>091608</BalanceDate> 
+<BalanceAmount>00000088</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>601100009076</AccountNumber> 
+<MonthsHistory>60</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCC0000000000CCCCCCCC</PaymentProfile> 
+<MonthlyPaymentAmount>00000010</MonthlyPaymentAmount> 
+<LastPaymentDate>051108</LastPaymentDate> 
+<Subcode>3276502</Subcode> 
+<KOB code="BC">Bank Credit Cards</KOB> 
+<SubscriberDisplayName>DISCOVER FIN SVCS LLC</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="18" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>0206</OpenDate> 
+<StatusDate>0908</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00001953</Value> 
+</Amount>
+<Amount>
+<Qualifier code="">Unknown</Qualifier> 
+<Value /> 
+</Amount>
+<BalanceDate>090108</BalanceDate> 
+<BalanceAmount>00000160</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>0503049993193</AccountNumber> 
+<MonthsHistory>31</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>CCCCCCC0CCCCCCCC0CCCC0000</PaymentProfile> 
+<MonthlyPaymentAmount>00000025</MonthlyPaymentAmount> 
+<LastPaymentDate>090108</LastPaymentDate> 
+<Subcode>3390247</Subcode> 
+<KOB code="DZ">Department And Variety Stores -- Non-Specific</KOB> 
+<SubscriberDisplayName>HSBC/NEIMN</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0908</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<TradeLine>
+<SpecialComment code="" /> 
+<Evaluation code="P">No additional review is required</Evaluation> 
+<OpenDate>1000</OpenDate> 
+<StatusDate>0307</StatusDate> 
+<MaxDelinquencyDate /> 
+<AccountType code="07">Revolving Charge Account</AccountType> 
+<TermsDuration code="REV">Revolving</TermsDuration> 
+<ECOA code="1">Individual</ECOA> 
+<Amount>
+<Qualifier code="L">Limit</Qualifier> 
+<Value>00000400</Value> 
+</Amount>
+<Amount>
+<Qualifier code="H">High balance</Qualifier> 
+<Value>00000236</Value> 
+</Amount>
+<BalanceDate>041207</BalanceDate> 
+<BalanceAmount>00000000</BalanceAmount> 
+<Status code="11">This is an account in good standing</Status> 
+<AmountPastDue /> 
+<OpenOrClosed code="O">Open</OpenOrClosed> 
+<RevolvingOrInstallment code="R">Revolving</RevolvingOrInstallment> 
+<ConsumerComment /> 
+<AccountNumber>3181380</AccountNumber> 
+<MonthsHistory>79</MonthsHistory> 
+<DelinquenciesOver30Days>00</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>00</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+<PaymentProfile>N000000000000000000000000</PaymentProfile> 
+<MonthlyPaymentAmount /> 
+<LastPaymentDate>110700</LastPaymentDate> 
+<Subcode>2305980</Subcode> 
+<KOB code="DZ">Department And Variety Stores -- Non-Specific</KOB> 
+<SubscriberDisplayName>PIER 1/NB</SubscriberDisplayName> 
+<EnhancedPaymentData>
+<InitialPaymentLevelDate>0307</InitialPaymentLevelDate> 
+<AccountCondition code="A1" /> 
+<PaymentStatus code="11" /> 
+<AccountType code="07" /> 
+<SpecialComment code="" /> 
+</EnhancedPaymentData>
+</TradeLine>
+<Inquiry>
+<Date>052808</Date> 
+<Amount>UNKNOWN</Amount> 
+<Type code="31">Unknown - Credit Extension, Review, Or Collection</Type> 
+<Subcode>8960193</Subcode> 
+<KOB code="AZ">Automotive -- Non-Specific</KOB> 
+<SubscriberDisplayName>WATSON CHEVROLET INC</SubscriberDisplayName> 
+</Inquiry>
+<InformationalMessage>
+<MessageNumber>57</MessageNumber> 
+<MessageText>1202 NAME DOES NOT MATCH OFAC/PLC LIST</MessageText> 
+</InformationalMessage>
+<FraudServices>
+<Type code="99">Subsegment data only</Type> 
+<SIC code="" /> 
+<Text /> 
+<SocialDate>000000</SocialDate> 
+<SocialCount>0000</SocialCount> 
+<SocialErrorCode code="2">Not applicable</SocialErrorCode> 
+<AddressDate>090108</AddressDate> 
+<AddressCount>0000</AddressCount> 
+<AddressErrorCode code="0">No error conditions occur</AddressErrorCode> 
+</FraudServices>
+<ProfileSummary>
+<DisputedAccountsExcluded>000</DisputedAccountsExcluded> 
+<PublicRecordsCount>000</PublicRecordsCount> 
+<InstallmentBalance>00000000</InstallmentBalance> 
+<RealEstateBalance>N/A</RealEstateBalance> 
+<RevolvingBalance>00001498</RevolvingBalance> 
+<PastDueAmount>00000041</PastDueAmount> 
+<MonthlyPayment>00000108</MonthlyPayment> 
+<MonthlyPaymentPartialFlag code="">All tradelines included</MonthlyPaymentPartialFlag> 
+<RealEstatePayment>N/A</RealEstatePayment> 
+<RealEstatePaymentPartialFlag code="">All tradelines included</RealEstatePaymentPartialFlag> 
+<RevolvingAvailablePercent>095</RevolvingAvailablePercent> 
+<RevolvingAvailablePartialFlag code="">All tradelines included</RevolvingAvailablePartialFlag> 
+<TotalInquiries>001</TotalInquiries> 
+<InquiriesDuringLast6Months>000</InquiriesDuringLast6Months> 
+<TotalTradeItems>020</TotalTradeItems> 
+<PaidAccounts>013</PaidAccounts> 
+<SatisfactoryAccounts>019</SatisfactoryAccounts> 
+<NowDelinquentDerog>001</NowDelinquentDerog> 
+<WasDelinquentDerog>000</WasDelinquentDerog> 
+<OldestTradeOpenDate>0697</OldestTradeOpenDate> 
+<DelinquenciesOver30Days>01</DelinquenciesOver30Days> 
+<DelinquenciesOver60Days>01</DelinquenciesOver60Days> 
+<DelinquenciesOver90Days>00</DelinquenciesOver90Days> 
+<DerogCounter>00</DerogCounter> 
+</ProfileSummary>
+</CreditProfile>
+</Products>
+</NetConnectResponse>
+<!--  Report ends here 
+--> 

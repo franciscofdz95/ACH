@@ -1,0 +1,623 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\premierprofile\PPR.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>PPR INQF</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<PremierProfile>
+			<InputSummary>
+				<SubscriberNumber>997193</SubscriberNumber>
+				<InquiryTransactionNumber>C307616850</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Comments>PPR INQF</Comments>
+				<Inquiry>INQF/700000657/MC-000214/BUSP/M-PPR INQF/V-000777</Inquiry>
+			</InputSummary>
+			<ExpandedCreditSummary>
+				<BankruptcyFilingCount>0000</BankruptcyFilingCount>
+				<TaxLienFilingCount>0001</TaxLienFilingCount>
+				<OldestTaxLienDate>20061011</OldestTaxLienDate>
+				<MostRecentTaxLienDate>20061011</MostRecentTaxLienDate>
+				<JudgmentFilingCount>0000</JudgmentFilingCount>
+				<CollectionCount>0001</CollectionCount>
+				<CollectionBalance>00000000071</CollectionBalance>
+				<CollectionCountPast24Months>0000</CollectionCountPast24Months>
+				<LegalBalance>00000000330</LegalBalance>
+				<UCCFilings>0000</UCCFilings>
+				<UCCDerogCount>0000</UCCDerogCount>
+				<CurrentAccountBalance>00000000000</CurrentAccountBalance>
+				<CurrentTradelineCount>0002</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>0002</ActiveTradelineCount>
+				<AllTradelineBalance>00000003700</AllTradelineBalance>
+				<AllTradelineCount>0005</AllTradelineCount>
+				<AverageBalance5Quarters>00000000000</AverageBalance5Quarters>
+				<SingleHighCredit>00000000000</SingleHighCredit>
+				<LowBalance6Months>00000000000</LowBalance6Months>
+				<HighBalance6Months>00000000000</HighBalance6Months>
+				<OldestCollectionDate>20090600</OldestCollectionDate>
+				<MostRecentCollectionDate>20090600</MostRecentCollectionDate>
+				<CurrentDBT>000</CurrentDBT>
+				<TaxLienFlag>Y</TaxLienFlag>
+				<TradeCollectionCount>0006</TradeCollectionCount>
+				<TradeCollectionBalance>00000003771</TradeCollectionBalance>
+				<OpenCollectionCount>0001</OpenCollectionCount>
+				<OpenCollectionBalance>00000000071</OpenCollectionBalance>
+				<OFACMatch code=" ">No match to OFAC is performed</OFACMatch>
+				<VictimStatement code="N">This business does not have a Victim statement</VictimStatement>
+				<CommercialFraudRiskIndicatorCount>0000</CommercialFraudRiskIndicatorCount>
+			</ExpandedCreditSummary>
+			<ExpandedBusinessNameAndAddress>
+				<ExperianBIN>700000657</ExperianBIN>
+				<ProfileType code="BUSP">Business Premier Profile</ProfileType>
+				<ProfileDate>20120904</ProfileDate>
+				<ProfileTime>17:39:23</ProfileTime>
+				<TerminalNumber>-AN7</TerminalNumber>
+				<BusinessName>THE CHASE MANHATTAN BANK AGENT</BusinessName>
+				<StreetAddress>4 CHASE METROTECH CTR</StreetAddress>
+				<City>BROOKLYN</City>
+				<State>NY</State>
+				<Zip>11245</Zip>
+				<ZipExtension>0003</ZipExtension>
+				<TaxID>XXXXX9562</TaxID>
+				<WebsiteURL>bearstearns.com</WebsiteURL>
+				<LegalName>
+					<LegalBusinessName>BEAR, STEARNS FUNDING, INC.</LegalBusinessName>
+				</LegalName>
+				<CorporateLink>
+					<CorporateLinkageIndicator>Y</CorporateLinkageIndicator>
+				</CorporateLink>
+			</ExpandedBusinessNameAndAddress>
+			<DoingBusinessAs>
+				<DBAName>CHASE H&amp;Q</DBAName>
+			</DoingBusinessAs>
+			<DoingBusinessAs>
+				<DBAName>BEAR STEARNS RESIDENTIAL MORTGAGE CORP</DBAName>
+			</DoingBusinessAs>
+			<CollectionData>
+				<AccountStatus code="00">Open Account</AccountStatus>
+				<DatePlacedForCollection>20090600</DatePlacedForCollection>
+				<DateClosed>00000000</DateClosed>
+				<AmountPlacedForCollection>00000071</AmountPlacedForCollection>
+				<AmountPaid>00000000</AmountPaid>
+				<CollectionAgencyInfo>
+					<AgencyName>RECEIVABLES PERFORMA</AgencyName>
+					<PhoneNumber>4259842252</PhoneNumber>
+				</CollectionAgencyInfo>
+			</CollectionData>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>OFFC EQUIP</BusinessCategory>
+				<DateReported>20120600</DateReported>
+				<DateLastActivity>20070500</DateLastActivity>
+				<Terms>REVOLVE</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<TradePaymentExperiences>
+				<PaymentIndicator code=" ">No Indicator</PaymentIndicator>
+				<BusinessCategory>TEXTILES</BusinessCategory>
+				<DateReported>20120800</DateReported>
+				<DateLastActivity>20120100</DateLastActivity>
+				<Terms>COD    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST 16 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</TradePaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>DP SERVCS</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>NET 30 </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>LEASING</BusinessCategory>
+				<DateReported>20120300</DateReported>
+				<DateLastActivity>00000000</DateLastActivity>
+				<Terms>CONTRCT</Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00003700</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00003700</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>100</DBT90Plus>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<AdditionalPaymentExperiences>
+				<BusinessCategory>SPORT GDS</BusinessCategory>
+				<DateReported>20101200</DateReported>
+				<DateLastActivity>20020900</DateLastActivity>
+				<Terms>COD    </Terms>
+				<RecentHighCredit>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</RecentHighCredit>
+				<AccountBalance>
+					<Modifier code=" "/>
+					<Amount>00000000</Amount>
+				</AccountBalance>
+				<CurrentPercentage>000</CurrentPercentage>
+				<DBT30>000</DBT30>
+				<DBT60>000</DBT60>
+				<DBT90>000</DBT90>
+				<DBT90Plus>000</DBT90Plus>
+				<Comments>CUST  8 YR</Comments>
+				<TradeLineFlag code=" "/>
+				<NewlyReportedIndicator code=" "/>
+			</AdditionalPaymentExperiences>
+			<PaymentTotals>
+				<NewlyReportedTradeLines>
+					<NumberOfLines>0000</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</NewlyReportedTradeLines>
+				<ContinouslyReportedTradeLines>
+					<NumberOfLines>0002</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</ContinouslyReportedTradeLines>
+				<CombinedTradeLines>
+					<NumberOfLines>0002</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000000000</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>000</DBT120>
+				</CombinedTradeLines>
+				<AdditionalTradeLines>
+					<NumberOfLines>0003</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000003700</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000003700</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>100</DBT120>
+				</AdditionalTradeLines>
+				<TradeLines>
+					<NumberOfLines>0005</NumberOfLines>
+					<TotalHighCreditAmount>
+						<Modifier code=" "/>
+						<Amount>00000003700</Amount>
+					</TotalHighCreditAmount>
+					<TotalAccountBalance>
+						<Modifier code=" "/>
+						<Amount>00000003700</Amount>
+					</TotalAccountBalance>
+					<CurrentPercentage>000</CurrentPercentage>
+					<DBT30>000</DBT30>
+					<DBT60>000</DBT60>
+					<DBT90>000</DBT90>
+					<DBT120>100</DBT120>
+				</TradeLines>
+			</PaymentTotals>
+			<TaxLien>
+				<DateFiled>20061228</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="07">Released</LegalAction>
+				<DocumentNumber>2263163</DocumentNumber>
+				<FilingLocation>KINGS COUNTY CLERK</FilingLocation>
+				<Owner>NYS TAX COMMISSION</Owner>
+				<LiabilityAmount>00000000330</LiabilityAmount>
+			</TaxLien>
+			<TaxLien>
+				<DateFiled>20061011</DateFiled>
+				<LegalType code="03">State Tax Lien</LegalType>
+				<LegalAction code="06">Lien</LegalAction>
+				<DocumentNumber>2263163</DocumentNumber>
+				<FilingLocation>KINGS COUNTY CLERK</FilingLocation>
+				<Owner>NYS TAX COMMISSION</Owner>
+				<LiabilityAmount>00000000330</LiabilityAmount>
+			</TaxLien>
+			<CorporateRegistration>
+				<StateOfOrigin>MS</StateOfOrigin>
+				<OriginalFilingDate>00000000</OriginalFilingDate>
+				<RecentFilingDate>20090326</RecentFilingDate>
+				<IncorporatedDate>20041109</IncorporatedDate>
+				<BusinessType code="I">Incorporated</BusinessType>
+				<StatusFlag code="I">Inactive</StatusFlag>
+				<ProfitFlag code="P">Profit</ProfitFlag>
+				<CharterNumber>863439</CharterNumber>
+				<DomesticForeignIndicator code="F">Foreign Filing State</DomesticForeignIndicator>
+				<AgentInformation>
+					<Name>C T CORPORATION SYSTEM</Name>
+					<StreetAddress>645 LAKELAND EAST DRIVE SUITE 101</StreetAddress>
+					<City>FLOWOOD</City>
+					<State>MS</State>
+				</AgentInformation>
+			</CorporateRegistration>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>JOE                  DWECK</Name>
+				<Title>PRESIDENT</Title>
+			</KeyPersonnelExecutiveInformation>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>PESO                 CHAVEZ</Name>
+				<Title>OWNER</Title>
+			</KeyPersonnelExecutiveInformation>
+			<KeyPersonnelExecutiveInformation>
+				<NameFlag code="0">Name Fielded into First, Middle and Last</NameFlag>
+				<Name>EDWARD               MOLLAHAN</Name>
+				<Title>SENIOR VIC</Title>
+			</KeyPersonnelExecutiveInformation>
+			<CorporateLinkage>
+				<LinkageRecordType code="1">Ultimate Parent</LinkageRecordType>
+				<LinkageRecordBIN>700001091</LinkageRecordBIN>
+				<LinkageCompanyName>J P MORGAN CHASE &amp; CO</LinkageCompanyName>
+				<LinkageCompanyCity>NEW YORK</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>270 PARK AVE S</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="2">Parent/Headquarters</LinkageRecordType>
+				<LinkageRecordBIN>700001091</LinkageRecordBIN>
+				<LinkageCompanyName>J P MORGAN CHASE &amp; CO</LinkageCompanyName>
+				<LinkageCompanyCity>NEW YORK</LinkageCompanyCity>
+				<LinkageCompanyState>NY</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="Y"/>
+				<LinkageCompanyAddress>270 PARK AVE S</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<CorporateLinkage>
+				<LinkageRecordType code="4">Branch</LinkageRecordType>
+				<LinkageRecordBIN>888343735</LinkageRecordBIN>
+				<LinkageCompanyName>THE CHASE MANHATTAN BANK AGENT</LinkageCompanyName>
+				<LinkageCompanyCity>NEWPORT BEACH</LinkageCompanyCity>
+				<LinkageCompanyState>CA</LinkageCompanyState>
+				<ReturnLimitExceeded code="N"/>
+				<MatchingBusinessIndicator code="N"/>
+				<LinkageCompanyAddress>660 NEWPORT CENTER DR  STE  750</LinkageCompanyAddress>
+			</CorporateLinkage>
+			<BusinessFacts>
+				<FileEstablishedDate>19770100</FileEstablishedDate>
+				<FileEstablishedFlag code="P">Business was added prior to Jan 1977</FileEstablishedFlag>
+				<StateOfIncorporation>DE</StateOfIncorporation>
+				<DateOfIncorporation>20041109</DateOfIncorporation>
+				<BusinessTypeIndicator code="C">Corporation</BusinessTypeIndicator>
+				<YearsInBusinessIndicator code="F">Over 10 Years</YearsInBusinessIndicator>
+				<YearsInBusiness>0108</YearsInBusiness>
+				<SalesIndicator code="C">$1,000,000 - $4,999,999</SalesIndicator>
+				<SalesRevenue>000003000000</SalesRevenue>
+				<EmployeeSizeIndicator code="C">10-19</EmployeeSizeIndicator>
+				<EmployeeSize>000000010</EmployeeSize>
+				<PublicIndicator code=" ">Not Available</PublicIndicator>
+				<NonProfitIndicator code="U">Unknown</NonProfitIndicator>
+			</BusinessFacts>
+			<SICCodes>
+				<SIC code="6021">NATIONAL COMMERCIAL BANKS</SIC>
+			</SICCodes>
+			<NAICSCodes>
+				<NAICS code="522110">Commercial Banking</NAICS>
+			</NAICSCodes>
+			<CommercialFraudShieldSummary>
+				<MatchingBusinessIndicator code="P">Primary Business</MatchingBusinessIndicator>
+				<BusinessBIN>700000657</BusinessBIN>
+				<ActiveBusinessIndicator code="A">Active</ActiveBusinessIndicator>
+				<OFACMatchCode code="  ">Not Available</OFACMatchCode>
+				<BusinessVictimStatementIndicator code="N">No statement Present</BusinessVictimStatementIndicator>
+				<BusinessRiskTriggersIndicator code="N">Risk Trigger Not Present</BusinessRiskTriggersIndicator>
+				<NameAddressVerificationIndicator code="N">Verification was not performed</NameAddressVerificationIndicator>
+			</CommercialFraudShieldSummary>
+			<Inquiry>
+				<InquiryBusinessCategory>FUEL DISTR</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>GENERAL</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>002</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TRANSPORTN</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>000</Count>
+				</InquiryCount>
+			</Inquiry>
+			<Inquiry>
+				<InquiryBusinessCategory>TOTALS</InquiryBusinessCategory>
+				<InquiryCount>
+					<Date>20120900</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120800</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120700</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120600</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120500</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120400</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120300</Date>
+					<Count>001</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120200</Date>
+					<Count>000</Count>
+				</InquiryCount>
+				<InquiryCount>
+					<Date>20120100</Date>
+					<Count>002</Count>
+				</InquiryCount>
+			</Inquiry>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>3</Filler>
+				<ScoreInfo>
+					<Score>0000000400</Score>
+				</ScoreInfo>
+				<ProfileNumber>I307616850</ProfileNumber>
+				<ModelInformation>
+					<ModelCode>000223</ModelCode>
+					<ModelTitle>FINANCIAL STABILITY RISK</ModelTitle>
+				</ModelInformation>
+				<PercentileRanking>003</PercentileRanking>
+				<Action>TEST LOW RISK</Action>
+				<RiskClass>4</RiskClass>
+			</IntelliscoreScoreInformation>
+			<IntelliscoreScoreInformation>
+				<PubliclyHeldCompany code="N"/>
+				<LimitedProfile code="N"/>
+				<Filler>02</Filler>
+				<ScoreInfo>
+					<Score>0000000400</Score>
+				</ScoreInfo>
+				<ModelInformation>
+					<ModelCode>000214</ModelCode>
+					<ModelTitle>INTELLISCORE PLUS</ModelTitle>
+					<CustomModelCode>02</CustomModelCode>
+				</ModelInformation>
+				<PercentileRanking>003</PercentileRanking>
+				<Action>TEST HIGH</Action>
+			</IntelliscoreScoreInformation>
+			<ScoreFactors>
+				<ScoreFactor code="001 ">NUMBER OF COMMERCIAL COLLECTION ACCOUNTS</ScoreFactor>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="015 ">PERCENT OF TOTAL COMMERCIAL BALANCE SERIOUSLY DELINQUENT</ScoreFactor>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="011 ">PAST COMMERCIAL DEROGATORY BALANCE</ScoreFactor>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="009 ">NUMBER OF ACTIVE COMMERCIAL ACCOUNTS</ScoreFactor>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="096 ">PERCENT OF TOTAL COMMERCIAL BALANCE SERIOUSLY DELINQUENT</ScoreFactor>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="040 ">NUMBER OF COMMERCIAL ACCOUNTS</ScoreFactor>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="095 ">PERCENT OF SERIOUSLY DELINQUENT COMMERCIAL ACCOUNTS</ScoreFactor>
+			</ScoreFactors>
+			<ScoreFactors>
+				<ScoreFactor code="057 ">NUMBER OF DELINQUENT COMMERCIAL ACCOUNTS</ScoreFactor>
+			</ScoreFactors>
+			<ScoreTrendsCreditLimit>
+				<CreditLimitAmount>00000000900</CreditLimitAmount>
+				<MostRecentQuarter>
+					<Quarter>JUN-AUG</Quarter>
+					<Score>005</Score>
+				</MostRecentQuarter>
+				<PriorQuarter>
+					<Quarter>MAR-MAY</Quarter>
+					<Score>011</Score>
+				</PriorQuarter>
+				<PriorQuarter>
+					<Quarter>DEC-FEB</Quarter>
+					<Score>017</Score>
+				</PriorQuarter>
+				<PriorQuarter>
+					<Quarter>SEP-NOV</Quarter>
+					<Score>019</Score>
+				</PriorQuarter>
+			</ScoreTrendsCreditLimit>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</PremierProfile>
+	</Products>
+</NetConnectResponse>

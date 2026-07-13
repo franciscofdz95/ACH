@@ -1,0 +1,247 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="..\ownerprofile\BOP.xslt"?>
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+	<CompletionCode>0000</CompletionCode>
+	<ReferenceId>BOP</ReferenceId>
+	<Products xmlns="http://www.experian.com/ARFResponse">
+		<BusinessProfile>
+			<InputSummary>
+				<SubscriberNumber>563736</SubscriberNumber>
+				<InquiryTransactionNumber>C604996101</InquiryTransactionNumber>
+				<CPUVersion>CPU006</CPUVersion>
+				<Inquiry>NARQ/FORD OF UPLAND;CA-555 W FOOTHILL BLVD/UPLAND CA 91786/V-00049B/SBOP/OWNR-GOGGIN,ARLENE;CA-9840 S DELMONTE BLVD/STREETSBORO OH 44241</Inquiry>
+			</InputSummary>
+			<BusinessNameAndAddress>
+				<ProfileType code="NO RECORD "/>
+				<ProfileDate>20100104</ProfileDate>
+				<ProfileTime>17:29:37</ProfileTime>
+				<TerminalNumber>-AM7</TerminalNumber>
+				<FileEstablishFlag code=" "/>
+			</BusinessNameAndAddress>
+			<ExecutiveElements>
+				<BankruptcyCount>000</BankruptcyCount>
+				<TaxLienCount>000</TaxLienCount>
+				<JudgmentCount>000</JudgmentCount>
+				<CollectionCount>000</CollectionCount>
+				<LegalBalance>00000000</LegalBalance>
+				<UCCFilings>000</UCCFilings>
+				<UCCDerogatoryCount>000</UCCDerogatoryCount>
+				<CurrentAccountBalance>00000000</CurrentAccountBalance>
+				<CurrentTradelineCount>000</CurrentTradelineCount>
+				<MonthlyAverageDBT>000</MonthlyAverageDBT>
+				<HighestDBT6Months>000</HighestDBT6Months>
+				<HighestDBT5Quarters>000</HighestDBT5Quarters>
+				<ActiveTradelineCount>000</ActiveTradelineCount>
+				<AllTradelineBalance>00000000</AllTradelineBalance>
+				<AllTradelineCount>000</AllTradelineCount>
+				<AverageBalance5Quarters>00000000</AverageBalance5Quarters>
+				<SingleLineHighCredit>00000000</SingleLineHighCredit>
+				<LowBalance6Months>00000000</LowBalance6Months>
+				<HighBalance6Months>00000000</HighBalance6Months>
+			</ExecutiveElements>
+			<ProprietorNameAndAddress>
+				<ProfileType code="OWNER     "/>
+				<ProfileTime>17:29:37</ProfileTime>
+				<ProprietorName>ARLENE  GOGGIN                                              </ProprietorName>
+				<StreetAddress>9840 S DELMONTE BLVD                                        </StreetAddress>
+				<City>STREETSBORO                 </City>
+				<State>OH</State>
+				<Zip>44241    </Zip>
+				<SSN>999990000</SSN>
+			</ProprietorNameAndAddress>
+			<SmallBusinessAdvisorySummary>
+				<ProprietorBirthDate> 0 00000</ProprietorBirthDate>
+				<DwellingType>S</DwellingType>
+				<DerivedRisk>0715</DerivedRisk>
+				<RiskScoreFactorCode1>07</RiskScoreFactorCode1>
+				<RiskScoreFactorCode2>60</RiskScoreFactorCode2>
+				<RiskScoreFactorCode3>06</RiskScoreFactorCode3>
+			</SmallBusinessAdvisorySummary>
+			<BillingIndicator code="F">Full Charge</BillingIndicator>
+		</BusinessProfile>
+		<CreditProfile>
+			<Header>
+				<ReportDate>010410</ReportDate>
+				<ReportTime>172935</ReportTime>
+				<Preamble>TOH1</Preamble>
+				<ARFVersion>07</ARFVersion>
+			</Header>
+			<RiskModel>
+				<ModelIndicator code="[">Scorex PLUS Score for New Accounts</ModelIndicator>
+				<Score>0715</Score>
+				<ScoreFactorCodeOne>07</ScoreFactorCodeOne>
+				<ScoreFactorCodeTwo>60</ScoreFactorCodeTwo>
+				<ScoreFactorCodeThree>06</ScoreFactorCodeThree>
+				<ScoreFactorCodeFour/>
+				<Evaluation code="P">Positive number</Evaluation>
+			</RiskModel>
+			<SSN>
+				<VariationIndicator code="*">Different</VariationIndicator>
+				<Number>999997048</Number>
+			</SSN>
+			<ConsumerIdentity>
+				<Name>
+					<Gen>ARLENE GOGGIN</Gen>
+				</Name>
+				<YOB/>
+			</ConsumerIdentity>
+			<AddressInformation>
+				<FirstReportedDate>1292</FirstReportedDate>
+				<LastUpdatedDate>0709</LastUpdatedDate>
+				<Origination code="2">Reported via A/R Tape</Origination>
+				<TimesReported>01</TimesReported>
+				<LastReportingSubcode>2218220</LastReportingSubcode>
+				<DwellingType code="S">Single-family dwelling</DwellingType>
+				<HomeOwnership code=" ">Unknown</HomeOwnership>
+				<StreetPrefix>840 S DELMONTE BLVD</StreetPrefix>
+				<StreetSuffix>9840 S DELMONTE BLVD</StreetSuffix>
+				<UnitID>9840 S DELMONTE BLVD</UnitID>
+				<State>9840 S DELMONTE BLVD</State>
+				<Zip>STREETSBORO OH 442414814</Zip>
+				<CensusGeoCode/>
+			</AddressInformation>
+			<AddressInformation>
+				<FirstReportedDate>1208</FirstReportedDate>
+				<LastUpdatedDate>0109</LastUpdatedDate>
+				<Origination code="1">Reported via A/R Tape, but different from inquiry</Origination>
+				<TimesReported>00</TimesReported>
+				<LastReportingSubcode/>
+				<DwellingType code="S">Single-family dwelling</DwellingType>
+				<HomeOwnership code=" ">Unknown</HomeOwnership>
+				<StreetPrefix>480 S DELMONTE BLVD</StreetPrefix>
+				<StreetSuffix>9480 S DELMONTE BLVD</StreetSuffix>
+				<UnitID>9480 S DELMONTE BLVD</UnitID>
+				<State>9480 S DELMONTE BLVD</State>
+				<Zip>STREETSBORO OH 44241</Zip>
+				<CensusGeoCode/>
+			</AddressInformation>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="P">No additional review is required</Evaluation>
+				<OpenDate>0200</OpenDate>
+				<StatusDate>0101</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="06">Installment Sales Contract</AccountType>
+				<TermsDuration code="018"/>
+				<ECOA code="2">Joint Account</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000668</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>011401</BalanceDate>
+				<BalanceAmount/>
+				<Status code="12">Account/paid satisfactorily</Status>
+				<AmountPastDue/>
+				<OpenOrClosed code="C">Closed</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>571523209491055</AccountNumber>
+				<MonthsHistory>11</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>00</DerogCounter>
+				<PaymentProfile>BCCCCCCCC-C</PaymentProfile>
+				<Subcode>0501670</Subcode>
+				<KOB code="FP">Personal Loan Companies</KOB>
+				<SubscriberDisplayName>KENTUCKY FINANCE COMPA</SubscriberDisplayName>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>0101</InitialPaymentLevelDate>
+					<AccountCondition code="A2"/>
+					<PaymentStatus code="11"/>
+					<AccountType code="06"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<TradeLine>
+				<SpecialComment code="  "/>
+				<Evaluation code="P">No additional review is required</Evaluation>
+				<OpenDate>1276</OpenDate>
+				<StatusDate>1109</StatusDate>
+				<MaxDelinquencyDate/>
+				<AccountType code="31">Unknown - Credit Extension, Review, Or Collection</AccountType>
+				<TermsDuration code="001">One Month</TermsDuration>
+				<ECOA code="1">Individual</ECOA>
+				<Amount>
+					<Qualifier code="O">Original</Qualifier>
+					<Value>00000083</Value>
+				</Amount>
+				<Amount>
+					<Qualifier code=" ">Unknown</Qualifier>
+					<Value/>
+				</Amount>
+				<BalanceDate>110509</BalanceDate>
+				<BalanceAmount>00000018</BalanceAmount>
+				<Status code="11">This is an account in good standing</Status>
+				<AmountPastDue/>
+				<OpenOrClosed code="O">Open</OpenOrClosed>
+				<RevolvingOrInstallment code="I">Installment</RevolvingOrInstallment>
+				<ConsumerComment/>
+				<AccountNumber>14817523</AccountNumber>
+				<MonthsHistory>05</MonthsHistory>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>00</DerogCounter>
+				<PaymentProfile>CCC0C</PaymentProfile>
+				<MonthlyPaymentAmount/>
+				<LastPaymentDate>101509</LastPaymentDate>
+				<Subcode>1945878</Subcode>
+				<KOB code="UT">Telephone Companies</KOB>
+				<SubscriberDisplayName>VERIZON WEST VIRGINIA</SubscriberDisplayName>
+				<EnhancedPaymentData>
+					<InitialPaymentLevelDate>1109</InitialPaymentLevelDate>
+					<AccountCondition code="A1"/>
+					<PaymentStatus code="11"/>
+					<AccountType code="92"/>
+					<SpecialComment code="  "/>
+				</EnhancedPaymentData>
+			</TradeLine>
+			<InformationalMessage>
+				<MessageNumber>57</MessageNumber>
+				<MessageText>1202 NAME DOES NOT MATCH OFAC/PLC LIST</MessageText>
+			</InformationalMessage>
+			<FraudServices>
+				<Type code="99">Subsegment data only</Type>
+				<SIC code="        "/>
+				<Text/>
+				<SocialDate>000000</SocialDate>
+				<SocialCount>0000</SocialCount>
+				<SocialErrorCode code="2">Not applicable</SocialErrorCode>
+				<AddressDate>100109</AddressDate>
+				<AddressCount>0000</AddressCount>
+				<AddressErrorCode code="0">No error conditions occur</AddressErrorCode>
+			</FraudServices>
+			<ProfileSummary>
+				<DisputedAccountsExcluded>000</DisputedAccountsExcluded>
+				<PublicRecordsCount>000</PublicRecordsCount>
+				<InstallmentBalance>00000018</InstallmentBalance>
+				<RealEstateBalance>N/A     </RealEstateBalance>
+				<RevolvingBalance>N/A     </RevolvingBalance>
+				<PastDueAmount>00000000</PastDueAmount>
+				<MonthlyPayment>00000000</MonthlyPayment>
+				<MonthlyPaymentPartialFlag code="*">Not all tradelines included</MonthlyPaymentPartialFlag>
+				<RealEstatePayment>N/A     </RealEstatePayment>
+				<RealEstatePaymentPartialFlag code=" ">All tradelines included</RealEstatePaymentPartialFlag>
+				<RevolvingAvailablePercent>N/A</RevolvingAvailablePercent>
+				<RevolvingAvailablePartialFlag code=" ">All tradelines included</RevolvingAvailablePartialFlag>
+				<TotalInquiries>000</TotalInquiries>
+				<InquiriesDuringLast6Months>000</InquiriesDuringLast6Months>
+				<TotalTradeItems>002</TotalTradeItems>
+				<PaidAccounts>001</PaidAccounts>
+				<SatisfactoryAccounts>002</SatisfactoryAccounts>
+				<NowDelinquentDerog>000</NowDelinquentDerog>
+				<WasDelinquentDerog>000</WasDelinquentDerog>
+				<OldestTradeOpenDate>1276</OldestTradeOpenDate>
+				<DelinquenciesOver30Days>00</DelinquenciesOver30Days>
+				<DelinquenciesOver60Days>00</DelinquenciesOver60Days>
+				<DelinquenciesOver90Days>00</DelinquenciesOver90Days>
+				<DerogCounter>00</DerogCounter>
+			</ProfileSummary>
+		</CreditProfile>
+	</Products>
+</NetConnectResponse>

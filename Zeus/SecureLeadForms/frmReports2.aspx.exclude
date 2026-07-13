@@ -1,0 +1,54 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPageMain.master" AutoEventWireup="true"
+    CodeFile="frmReports2.aspx.cs" Inherits="frmReports2" Title="Reports" %>
+
+<%@ Register Assembly="Microsoft.ReportViewer.WebForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+    Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
+<%@ Register TagPrefix="igtxt" Namespace="Infragistics.WebUI.WebDataInput" Assembly="Infragistics2.WebUI.WebDataInput.v8.1, Version=8.1.20081.2123, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div id="contentpage">
+        <br />
+        <div class="dialog" style="padding-right: 10px;">
+            <div class="bucket">
+                <div class="buckethdr">
+                    <div class="buckethdrleft">
+                        &nbsp;<asp:Label ID="lblTitle" runat="server" Text="Label"></asp:Label></div>
+                    <div class="buckethdright">
+                        &nbsp;</div>
+                </div>
+                <div class="bucketbdy">
+                    <div class="twocolumn">
+                        <div class="leftcolumn">
+                            <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+                        </div>
+                        <div class="rightcolunm">
+                            <igtxt:WebImageButton ID="btnViewReport" runat="server" OnClick="btnViewReport_Click"
+                                Text="View Report" UseBrowserDefaults="False">
+                                <RoundedCorners HeightOfBottomEdge="2" HoverImageUrl="ig_butCRM2.gif" ImageUrl="ig_butCRM1.gif"
+                                    MaxHeight="40" MaxWidth="400" PressedImageUrl="ig_butCRM2.gif" RenderingType="FileImages"
+                                    WidthOfRightEdge="2" />
+                            </igtxt:WebImageButton>
+                        </div>
+                    </div>
+                    <br />
+                    <center>
+                        <rsweb:ReportViewer ID="rptViewer" runat="server" Font-Names="Verdana" Font-Size="8pt"
+                            Height="600px" Width="100%">
+                            <LocalReport ReportPath="Reports\LeadsByStatus.rdlc">
+                                <DataSources>
+                                    <rsweb:ReportDataSource DataSourceId="SqlDataSource1" Name="DataSet1_sp_ReportLeadByStatus" />
+                                </DataSources>
+                            </LocalReport>
+                        </rsweb:ReportViewer>
+                    </center>
+                </div>
+            </div>
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:PrimusPaymentsConnectionString %>"
+                SelectCommand="sp_ReportLeadByStatus" SelectCommandType="StoredProcedure">
+                <SelectParameters>
+                    <asp:Parameter Name="AssignedStartDate" Type="DateTime" />
+                    <asp:Parameter Name="AssignedEndDate" Type="DateTime" />
+                </SelectParameters>
+            </asp:SqlDataSource>
+        </div>
+    </div>
+</asp:Content>

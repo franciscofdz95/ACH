@@ -1,0 +1,663 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using System.Text.RegularExpressions;
+using System.Collections.Generic;
+
+using Infragistics.WebUI.WebDataInput;
+
+using PaymentXP.BusinessObjects;
+using PaymentXP.DataObjects;
+using PaymentXP.Facade;
+
+public partial class frmETF : frmBaseDataEntry
+{
+    public string MerchantAppZID
+    {
+        get { return ViewState["MerchantAppZID"].ToString(); }
+        set { ViewState["MerchantAppZID"] = value; }
+    }
+
+    public string MerchantAppUID
+    {
+        get { return ViewState["MerchantAppUID"].ToString(); }
+        set { ViewState["MerchantAppUID"] = value; }
+    }
+
+    public string RoutingNumber
+    {
+        get { return ViewState["RoutingNumber"].ToString(); }
+        set { ViewState["RoutingNumber"] = value; }
+    }
+
+    public string AccountNumber
+    {
+        get { return ViewState["AccountNumber"].ToString(); }
+        set { ViewState["AccountNumber"] = value; }
+    }
+
+    public string ZID
+    {
+        get { if (ViewState["ID"] != null) return ViewState["ID"].ToString(); else return ""; }
+        set { ViewState["ID"] = value; }
+    }
+
+    public Hashtable m_Prms
+    {
+        get
+        {
+            if (ViewState["m_Prms"] == null)
+                return null;
+            else
+                return (Hashtable)ViewState["m_Prms"];
+        }
+        set { ViewState["m_Prms"] = value; }
+    }
+
+    public string SortOrder
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"] == null)
+                return string.Empty;
+            else
+                return HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"].ToString();
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_SortOrder"] = value; }
+    }
+
+    public SortDirection SortDirectionSearch
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"] == null)
+                return SortDirection.Descending;
+            else
+                return (SortDirection)HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"];
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_SortDirectionSearch"] = value; }
+    }
+
+    public int CurrentPage
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"] == null)
+                return 1;
+            else
+                return Convert.ToInt32(HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"]);
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_CurrentPage"] = value; }
+    }
+
+    public int PageSize
+    {
+        get
+        {
+            if (HttpContext.Current.Session[this.Page.ToString() + "_PageSize"] == null)
+                return 10;
+            else
+                return Convert.ToInt32(HttpContext.Current.Session[this.Page.ToString() + "_PageSize"]);
+        }
+        set { HttpContext.Current.Session[this.Page.ToString() + "_PageSize"] = value; }
+    }
+
+    public string PostBackURL
+    {
+        get
+        {
+            if (ViewState["PostBackURL"] == null)
+                return string.Empty;
+            else
+                return ViewState["PostBackURL"].ToString();
+        }
+        set { ViewState["PostBackURL"] = value; }
+
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        lblError.Text = "";
+        grdACH.DataSourceSelectCountMethod = "GetACHTransactionsPagingRowCount";
+        grdACH.DataSourceSelectMethod = "GetACHTransactionsPaging";
+
+        if (!this.IsPostBack)
+        {
+            LookupTableHandler.LoadMerchantClosureCodes(MerchantClosureCodeUID, true);
+            LookupTableHandler.MerchantAppStatus(StatusUID, true, "ETF");
+            LookupTableHandler.MerchantAppStatus(ETFStatusUID, false, "ETF");
+            LookupTableHandler.LoadAgents(AgentUID, false);
+            LookupTableHandler.LoadMerchantAdjustmentFeeItems(this.cboCategory, false);
+
+            DataAccess.DataMerchantAppDao.LoadCancelledAccounts();
+            BindGrid();
+        }
+        WebDialogWindow2.WindowState = Infragistics.Web.UI.LayoutControls.DialogWindowState.Hidden;
+    }
+
+    private void BindGrid()
+    {
+        if (m_Prms == null)
+            m_Prms = new Hashtable();
+
+        if (m_Prms.Count == 0)
+            m_Prms.Add("@ETFUID", "00000000-0000-0000-0000-000000000000");
+
+        grd.DataBind();
+
+        if (m_Prms.ContainsKey("@StatusUID") && m_Prms["@StatusUID"].ToString().ToUpper() == "4DF33BF2-25F5-4C67-B67E-267DE51DD3DB")
+        {
+            grd.Columns[0].Visible = false;
+        }
+
+        pnlRecords.Visible = grd.Rows.Count > 0;
+        pnlNoRecords.Visible = grd.Rows.Count == 0;
+
+        if (grd.SelectedIndex == -1)
+        {
+            pnlETF.Visible = false;
+            this.UID = "";
+        }
+    }
+
+    public void ClearGrid()
+    {
+        lblRecordCount.Text = "";
+        grd.Columns.Clear();
+        pnlRecords.Visible = false;
+        pnlNoRecords.Visible = true;
+        pnlETF.Visible = false;
+        this.UID = "";
+    }
+
+    public override Label ErrorDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Label RecordDisplay
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel DetailPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override Panel NavigationPanel
+    {
+        get { throw new Exception("The method or operation is not implemented."); }
+    }
+
+    public override void FormShow(string ID)
+    {
+        BindGrid();
+        DataMerchantApp data = DataAccess.DataMerchantAppDao;
+
+        ETF objETF = data.GetETFMerchant(ID, "");
+        MerchantApp agreement = data.GetMerchantApp(objETF.MerchantAppUID);
+        UserSessions.CurrentMerchantApp = agreement;
+
+        FormBinding.BindObjectToControls(agreement, pnlETF);
+        FormBinding.BindObjectToControls(objETF, pnlETF);
+
+        SuggestedETF.Text = objETF.SuggestedETF.ToString("c");
+        Balance.Text = objETF.Balance.ToString("c");
+
+        FormHandler.SetControlEditMode(pnlDetail, this.EditMode);
+        FormHandler.SetControlEditMode(pnlGrid, !this.EditMode);
+        FormHandler.SetControlEditMode(WucBusinessInfo1, false);
+
+        FormHandler.ShowClosureCodes(WucBusinessInfo1, agreement.StatusUID.ToUpper());
+
+        lblError.Text = string.Empty;
+        if (UserSessions.CurrentUser.AccessLevelUID.ToUpper() != "7B824322-B5A6-4ABF-8810-A29FF271D8B6") // AccessLevel as Manager
+            CompareValidator1.Enabled = pnlApprove.Visible = (objETF.ETFStatusUID.ToUpper() == "2835981F-E18D-4844-BC3F-DEA4B60F4081" || objETF.ETFStatusUID.ToUpper() == "A2B6211A-4F6E-4E5B-8A0E-143E4CB4686D");//EXECUTIVE_APPROVAL && MANAGER_APPROVAL
+
+        this.MerchantAppUID = agreement.MerchantAppUID;
+        this.MerchantAppZID = agreement.ID;
+        this.AccountNumber = agreement.AccountNumber;
+        this.RoutingNumber = agreement.RoutingNumber;
+
+        LoadETFStatus();
+        LoadInvoices();
+    }
+
+
+    private void LoadInvoices()
+    {
+        Hashtable prms = new Hashtable();
+        prms.Add("@ClientID", this.MerchantAppZID);
+        prms.Add("@AchID", ConfigurationManager.AppSettings["AggregatorAchID"]);
+
+        grdACH.SetDataSource(prms, Convert.ToInt32(10));
+    }
+
+
+    public override void FormClear()
+    {
+        FormHandler.ClearAllControls(pnlGrid);
+        ClearGrid();
+    }
+
+    public override bool FormSave()
+    {
+        bool perform = false;
+        try
+        {
+            if (!this.FormDataCheck())
+                return false;
+
+
+            ETF objETF = new ETF();
+            DataMerchantApp data = DataAccess.DataMerchantAppDao;
+            objETF = data.GetETFMerchant(this.UID, "");
+
+            FormBinding.BindControlsToObject(objETF, pnlETF);
+
+            if (ACHAmount.Text != String.Empty)
+                objETF.Balance = objETF.ActualETF - decimal.Parse(ACHAmount.Value.ToString());
+            else
+                objETF.Balance = objETF.ActualETF;
+
+            User user = UserSessions.CurrentUser;
+            objETF.UserUpdated = user.UserName;
+            objETF.DateUpdated = DateTime.Now;
+
+            data.UpdateETFMerchant(objETF);
+            this.UID = objETF.UID;
+
+            /*if (objETF.ETFStatusUID.ToUpper() == Constants.ETF_ETF_WAIVED)
+            {
+                MerchantApp app = data.GetMerchantApp(objETF.MerchantAppUID);
+                app.ETFAssessed = "W";
+
+                data.UpdateMerchantApp(app);
+            }*/
+
+            perform = true;
+        }
+        catch (Exception exc)
+        {
+            throw exc;
+        }
+
+        if (perform)
+        {
+            this.EditMode = false;
+            this.Adding = false;
+            this.ToggleButtons();
+            this.FormShow(this.UID);
+        }
+        else
+        {
+            lblError.Text = "Record failed to save.";
+        }
+
+        return perform;
+    }
+
+    public override void FormNew()
+    {
+        this.FormClear();
+        this.Adding = true;
+        this.EditMode = true;
+        FormHandler.SetControlEditMode(pnlDetail, this.EditMode);
+        this.ToggleButtons();
+    }
+
+    public override bool FormDelete()
+    {
+        throw new Exception("The method or operation is not implemented.");
+    }
+
+    public override bool FormDataCheck()
+    {
+        string error = string.Empty;
+
+        if (error == string.Empty)
+        {
+            return true;
+        }
+        else
+        {
+            lblError.Text = error;
+            return false;
+        }
+    }
+
+    public override void FormCancel()
+    {
+        this.EditMode = false;
+        FormShow(this.UID);
+        this.Adding = false;
+        this.ToggleButtons();
+    }
+
+    public override void ToggleButtons()
+    {
+        btnCancel.Enabled = !btnCancel.Enabled;
+        btnEdit.Enabled = !btnEdit.Enabled;
+        btnSave.Enabled = !btnSave.Enabled;
+        btnRefresh.Enabled = !btnRefresh.Enabled;
+    }
+
+    private int ConvertSortDirectionToSql(SortDirection direction)
+    {
+        int newSortDirection;
+
+        switch (direction)
+        {
+            case SortDirection.Descending:
+                newSortDirection = 1;
+                this.SortDirectionSearch = SortDirection.Descending;
+                break;
+
+            default:
+                newSortDirection = 0;
+                this.SortDirectionSearch = SortDirection.Ascending;
+                break;
+        }
+
+        return newSortDirection;
+    }
+
+    public bool CreateAchTransaction()
+    {
+        ArrayList prms = new ArrayList();
+
+        AchTransaction trans = new AchTransaction();
+        trans.PostedDate = DateTime.Now;
+        trans.MerchantID = ConfigurationManager.AppSettings["AggregatorAchMerchantID"];
+        trans.OriginID = 29;
+        trans.ClientID = this.MerchantAppZID;
+        trans.Description = cboCategory.SelectedItem.Text.Trim();
+        trans.CompanyName = "Meritus Merchant Invoicing";
+
+        if (cboType.SelectedItem.Value == "27")
+            trans.TransTypeID = TransTypeID.ACHCheckingDebit;
+        else
+            trans.TransTypeID = TransTypeID.ACHCheckingCredit;
+
+        trans.Secc = "CCD";
+        trans.RoutingNumber = this.RoutingNumber;
+        trans.AccountNumber = this.AccountNumber;
+        trans.AccountName = UserSessions.CurrentMerchantApp.BusinessDBAName;
+        trans.StatusID = 0;
+        trans.NextProcessDate = DateTime.Now.ToString();
+        trans.Amount = DataLayer.Decimal2Field(txtAmount.Value);
+        trans.ReferenceNumber = txtRefID.Text;
+        trans.UserCreated = UserSessions.CurrentUser.UserName;
+
+        DataAchTransaction data = DataAccess.DataAchTransactionDao;
+        bool perform = data.AddTransaction(trans);
+
+        if (trans.TransactionResponse.TransID != "-1")
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    private void LoadETFStatus()
+    {
+        Hashtable prms = new Hashtable();
+        prms.Add("@ETFUID", this.UID);
+        DataSet ds = DataAccess.DataMerchantAppDao.GetETFStatusHistory(prms);
+
+        grdStatus.DataSource = ds;
+        grdStatus.DataBind();
+    }
+
+    protected void tbrTools_ButtonClicked(object sender, Infragistics.WebUI.WebDataInput.ButtonEventArgs e)
+    {
+        WebImageButton btn = (WebImageButton)sender;
+        string url = string.Empty;
+
+        switch (btn.Text)
+        {
+            case "Add":
+                this.FormNew();
+                break;
+
+            case "Save":
+                this.FormSave();
+                break;
+
+            case "Refresh":
+                this.FormShow(this.UID);
+                break;
+
+            case "Cancel":
+                this.FormCancel();
+                break;
+
+            case "Close":
+                break;
+
+            case "Delete":
+                this.FormDelete();
+                break;
+
+            case "Edit":
+                if (!string.IsNullOrEmpty(this.UID))
+                {
+                    this.EditMode = true;
+                    this.FormShow(this.UID);
+                    this.ToggleButtons();
+                }
+                else
+                {
+                    lblError.Text = "Select an item from the search results.";
+                }
+                break;
+        }
+    }
+
+    protected void odsTransactions_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)
+    {
+        e.InputParameters[0] = this.m_Prms;
+    }
+
+    protected void odsEtf_Selecting(object sender, ObjectDataSourceSelectingEventArgs e)
+    {
+        //hash table is use to store parameters which will be passed to the stored procedure
+        DataMerchantApp data = DataAccess.DataMerchantAppDao;
+        if (m_Prms == null)
+            m_Prms = new Hashtable();
+
+        if (m_Prms.Contains("@PageSize"))
+            m_Prms["@PageSize"] = this.PageSize;
+        else
+            m_Prms.Add("@PageSize", this.PageSize);
+
+        if (m_Prms.Contains("@CurrentPage"))
+            m_Prms["@CurrentPage"] = this.CurrentPage;
+        else
+            m_Prms.Add("@CurrentPage", this.CurrentPage);
+
+        if (m_Prms.Contains("@SortOrder"))
+            m_Prms["@SortOrder"] = this.SortOrder;
+        else
+            m_Prms.Add("@SortOrder", this.SortOrder);
+
+        if (m_Prms.Contains("@SortDirection"))
+            m_Prms["@SortDirection"] = ConvertSortDirectionToSql(this.SortDirectionSearch);
+        else
+            m_Prms.Add("@SortDirection", ConvertSortDirectionToSql(this.SortDirectionSearch));
+
+
+        grd.PageSize = this.PageSize;
+        grd.PageIndex = this.CurrentPage - 1;
+
+        e.InputParameters[0] = m_Prms;
+        lblRecordCount.Text = "Total Records Found: " + DataMerchantAppPaging.GetETFMerchantsPagingRowCount(m_Prms, 0, 0).ToString();
+    }
+
+    protected void grd_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        this.CurrentPage = e.NewPageIndex + 1;
+        this.BindGrid();
+    }
+
+    protected void grd_RowDataBound(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            LinkButton lnkUID = (LinkButton)e.Row.FindControl("lnkUID");
+            lnkUID.CommandArgument = DataBinder.Eval(e.Row.DataItem, "UID").ToString();
+
+            e.Row.Cells[9].Attributes.Add("title", Server.HtmlDecode(e.Row.Cells[9].Text));
+            e.Row.Cells[9].Text = "<div style='width:100px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;'><NOBR>" + Server.HtmlDecode(e.Row.Cells[9].Text) + "</NOBR></div>";
+
+            if (m_Prms.ContainsKey("@StatusUID") == false || (m_Prms.ContainsKey("@StatusUID") && m_Prms["@StatusUID"].ToString().ToUpper() != "4DF33BF2-25F5-4C67-B67E-267DE51DD3DB"))
+            {
+                if (DataBinder.Eval(e.Row.DataItem, "StatusUID").ToString().ToUpper() == "4DF33BF2-25F5-4C67-B67E-267DE51DD3DB")
+                    e.Row.Cells[0].Enabled = false;
+            }
+        }
+    }
+
+    protected void grd_RowCommand(object sender, GridViewCommandEventArgs e)
+    {
+        LinkButton lnk = null;
+
+        if (e.CommandSource is LinkButton)
+            lnk = (LinkButton)e.CommandSource;
+        else
+            return;
+
+        string uid = e.CommandArgument.ToString();
+        if (e.CommandName == "UID")
+        {
+            this.UID = uid;
+            this.ZID = grd.Rows[((GridViewRow)lnk.NamingContainer).RowIndex].Cells[1].Text;
+            pnlETF.Visible = true;
+            grd.SelectedIndex = ((GridViewRow)lnk.NamingContainer).RowIndex;
+            this.FormShow(this.UID);
+        }
+    }
+
+    protected void grd_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        this.CurrentPage = 1;
+        this.SortOrder = e.SortExpression;
+        this.SortDirectionSearch = e.SortDirection;
+        this.BindGrid();
+    }
+
+    protected void cboPageSize_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        this.CurrentPage = 1;
+        this.PageSize = Convert.ToInt32(cboPageSize.SelectedItem.Value);
+        BindGrid();
+    }
+
+    protected void btnSearch_Click(object sender, EventArgs e)
+    {
+        m_Prms = new Hashtable();
+
+        if (txtZID.Text != string.Empty)
+            m_Prms.Add("@ZID", txtZID.Text);
+
+        if (txtDBA.Text != string.Empty)
+            m_Prms.Add("@DBAName", txtDBA.Text);
+
+        if (StatusUID.SelectedIndex > 0)
+            m_Prms.Add("@StatusUID", StatusUID.SelectedValue);
+
+        if (MerchantClosureCodeUID.SelectedIndex > 0)
+            m_Prms.Add("@ClosureCodeUID", MerchantClosureCodeUID.SelectedValue);
+
+        if (AgentUID.SelectedIndex > 0)
+            m_Prms.Add("@AgentUID", AgentUID.SelectedValue);
+
+        if (SearchBeginDate.Value != null)
+            m_Prms.Add("@BeginDate", SearchBeginDate.Value);
+
+        if (SearchEndDate.Value != null)
+            m_Prms.Add("@EndDate", SearchEndDate.Value);
+
+        grd.SelectedIndex = -1;
+        BindGrid();
+    }
+
+    protected void btnClear_Click(object sender, EventArgs e)
+    {
+        this.FormClear();
+    }
+
+    protected void btnApprove_Click(object sender, EventArgs e)
+    {
+        ETF objETF = new ETF();
+        DataMerchantApp data = DataAccess.DataMerchantAppDao;
+        objETF = data.GetETFMerchant(this.UID, "");
+
+        FormBinding.BindControlsToObject(objETF, pnlETF);
+
+        User user = UserSessions.CurrentUser;
+        objETF.UserUpdated = user.UserName;
+        objETF.DateUpdated = DateTime.Now;
+        objETF.ETFApprovedDate = DateTime.Now;
+
+        if (ACHAmount.Text != String.Empty)
+            objETF.Balance = objETF.ActualETF - decimal.Parse(ACHAmount.Value.ToString());
+
+        data.UpdateETFMerchant(objETF);
+        this.UID = objETF.UID;
+        FormShow(this.UID);
+    }
+
+    protected void btnCalculate_Click(object sender, EventArgs e)
+    {
+        DataMerchantApp data = new DataMerchantApp();
+        decimal etf = 0.0M;
+
+        if (ZID != string.Empty && ContractMonths.Text.Trim() != string.Empty)
+            etf = data.GetSuggestedEtf(Convert.ToInt32(ZID), Convert.ToInt32(ContractMonths.Text.Trim()));
+
+        FormShow(this.UID);
+        SuggestedETF.Text = etf.ToString("c");
+    }
+
+    protected void SuggestedETF_Click(object sender, EventArgs e)
+    {
+        WebDialogWindow2.WindowState = Infragistics.Web.UI.LayoutControls.DialogWindowState.Normal;
+
+        grdDetails.DataSource = DataAccess.DataMerchantAppDao.GetETFDetails(this.MerchantAppUID);
+        grdDetails.DataBind();
+        lblnodata.Visible = (grdDetails.Rows.Count == 0);
+    }
+
+    protected void btnAddinvoice_Click(object sender, EventArgs e)
+    {
+        if (this.RoutingNumber == string.Empty)
+            lblError.Text = "Routing Number is missing in the profile.\n";
+
+        if (this.RoutingNumber == string.Empty)
+            lblError.Text = "Account Number is missing in the profile.";
+
+        if (lblError.Text.Trim() == "")
+        {
+            if (this.CreateAchTransaction())
+            {
+                this.txtAmount.Value = 0;
+                cboCategory.SelectedIndex = 0;
+                cboType.SelectedIndex = 0;
+
+                this.LoadInvoices();
+            }
+        }
+    }
+}
