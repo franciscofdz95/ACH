@@ -1,0 +1,13 @@
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\SecureBlackbox.PGP.dll
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\SecureBlackbox.PKI.dll
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\SecureBlackbox.dll
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\AchRecurring.exe.config
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\AchRecurring.exe
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\AchRecurring.pdb
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\Nmc.Ach.Dal.dll
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\Nmc.Common.dll
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\Nmc.Ach.Dal.pdb
+C:\Dev\ACH\AchSystem\AchRecurring\bin\Debug\Nmc.Common.pdb
+C:\Dev\ACH\AchSystem\AchRecurring\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\ACH\AchSystem\AchRecurring\obj\Debug\AchRecurring.exe
+C:\Dev\ACH\AchSystem\AchRecurring\obj\Debug\AchRecurring.pdb

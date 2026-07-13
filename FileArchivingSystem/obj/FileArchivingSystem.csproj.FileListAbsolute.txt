@@ -1,0 +1,11 @@
+C:\Dev\ACH\AchSystem\FileArchivingSystem\bin\Debug\FileArchivingSystem.exe.config
+C:\Dev\ACH\AchSystem\FileArchivingSystem\bin\Debug\FileArchivingSystem.exe
+C:\Dev\ACH\AchSystem\FileArchivingSystem\bin\Debug\FileArchivingSystem.pdb
+C:\Dev\ACH\AchSystem\FileArchivingSystem\bin\Debug\Nmc.Common.dll
+C:\Dev\ACH\AchSystem\FileArchivingSystem\bin\Debug\Nmc.Common.pdb
+C:\Dev\ACH\AchSystem\FileArchivingSystem\bin\Debug\Interop.ADODB.dll
+C:\Dev\ACH\AchSystem\FileArchivingSystem\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\ACH\AchSystem\FileArchivingSystem\obj\Debug\Interop.ADODB.dll
+C:\Dev\ACH\AchSystem\FileArchivingSystem\obj\Debug\FileArchivingSystem.csproj.ResolveComReference.cache
+C:\Dev\ACH\AchSystem\FileArchivingSystem\obj\Debug\FileArchivingSystem.exe
+C:\Dev\ACH\AchSystem\FileArchivingSystem\obj\Debug\FileArchivingSystem.pdb

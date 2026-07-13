@@ -1,0 +1,10 @@
+C:\Dev\ACH\AchSystem\ACHDataLibrary\bin\Debug\Nmc.Ach.Dal.dll
+C:\Dev\ACH\AchSystem\ACHDataLibrary\bin\Debug\Nmc.Ach.Dal.pdb
+C:\Dev\ACH\AchSystem\ACHDataLibrary\bin\Debug\Nmc.Common.dll
+C:\Dev\ACH\AchSystem\ACHDataLibrary\bin\Debug\SecureBlackbox.PGP.dll
+C:\Dev\ACH\AchSystem\ACHDataLibrary\bin\Debug\SecureBlackbox.PKI.dll
+C:\Dev\ACH\AchSystem\ACHDataLibrary\bin\Debug\SecureBlackbox.dll
+C:\Dev\ACH\AchSystem\ACHDataLibrary\bin\Debug\Nmc.Common.pdb
+C:\Dev\ACH\AchSystem\ACHDataLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\ACH\AchSystem\ACHDataLibrary\obj\Debug\Nmc.Ach.Dal.dll
+C:\Dev\ACH\AchSystem\ACHDataLibrary\obj\Debug\Nmc.Ach.Dal.pdb

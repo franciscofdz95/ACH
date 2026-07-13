@@ -1,0 +1,13 @@
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\SecureBlackbox.PGP.dll
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\SecureBlackbox.PKI.dll
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\SecureBlackbox.dll
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\PRIReturnNotification.exe.config
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\PRIReturnNotification.exe
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\PRIReturnNotification.pdb
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\Nmc.Ach.Dal.dll
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\Nmc.Common.dll
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\Nmc.Ach.Dal.pdb
+C:\Dev\ACH\AchSystem\PRIReturnNotification\bin\Debug\Nmc.Common.pdb
+C:\Dev\ACH\AchSystem\PRIReturnNotification\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\ACH\AchSystem\PRIReturnNotification\obj\Debug\PRIReturnNotification.exe
+C:\Dev\ACH\AchSystem\PRIReturnNotification\obj\Debug\PRIReturnNotification.pdb

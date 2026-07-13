@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02B162AC-59EE-4165-A357-D04D8DFE81F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Meritus.Ach.Dal</RootNamespace>
+    <AssemblyName>Meritus.Ach.Dal</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataObjects\DataAccountBlock.cs" />
+    <Compile Include="DataObjects\DataAchProcess.cs" />
+    <Compile Include="DataObjects\DataBadReturn.cs" />
+    <Compile Include="DataObjects\DataBank.cs" />
+    <Compile Include="DataObjects\DataBankInfo.cs" />
+    <Compile Include="DataObjects\DataBaseClass.cs" />
+    <Compile Include="DataObjects\DataBatch.cs" />
+    <Compile Include="DataObjects\DataBatchDetail.cs" />
+    <Compile Include="DataObjects\DataBatchFileLog.cs" />
+    <Compile Include="DataObjects\DataGroupMerchant.cs" />
+    <Compile Include="DataObjects\DataHold.cs" />
+    <Compile Include="DataObjects\DataHoliday.cs" />
+    <Compile Include="DataObjects\DataJournal.cs" />
+    <Compile Include="DataLayer\DataLayer.cs" />
+    <Compile Include="DataObjects\DataLog.cs" />
+    <Compile Include="DataObjects\DataMerchant.cs" />
+    <Compile Include="DataObjects\DataMerchantType.cs" />
+    <Compile Include="DataObjects\DataOrigin.cs" />
+    <Compile Include="DataObjects\DataPayment.cs" />
+    <Compile Include="DataObjects\DataPendingJournal.cs" />
+    <Compile Include="DataObjects\DataProcessLog.cs" />
+    <Compile Include="DataObjects\DataReasonCode.cs" />
+    <Compile Include="DataObjects\DataRecurring.cs" />
+    <Compile Include="DataObjects\DataRefcode.cs" />
+    <Compile Include="DataObjects\DataReturn.cs" />
+    <Compile Include="DataObjects\DataSecc.cs" />
+    <Compile Include="DataObjects\DataSource.cs" />
+    <Compile Include="DataObjects\DataTransaction.cs" />
+    <Compile Include="DataObjects\DataTransStatus.cs" />
+    <Compile Include="DataObjects\DataTransType.cs" />
+    <Compile Include="DataObjects\DataUser.cs" />
+    <Compile Include="DataObjects\DataWallet.cs" />
+    <Compile Include="DataObjects\iData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\CommonUtility\CommonUtility.csproj">
+      <Project>{5E11485D-C802-4D56-951B-EFC1F4E05117}</Project>
+      <Name>CommonUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

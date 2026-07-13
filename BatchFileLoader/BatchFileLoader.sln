@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatchFileLoader", "BatchFileLoader.csproj", "{A9E66989-9C16-4807-B97F-12AD3CD10D18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentXP.BusinessObjects", "..\..\..\Library\BusinessObjects\PaymentXP.BusinessObjects.csproj", "{C303C360-6DDE-4EB0-8B1B-34B5CACF9DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentXP.DataObjects", "..\..\..\Library\DataObjects\PaymentXP.DataObjects.csproj", "{D8578F9A-B7BA-4723-9D30-90310312E3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonUtility", "..\..\..\Library\CommonUtility\CommonUtility.csproj", "{5E11485D-C802-4D56-951B-EFC1F4E05117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentXP.Facade", "..\..\..\Library\Facade\PaymentXP.Facade.csproj", "{B88D24FF-1177-4C8D-A163-5DF1A94382F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AchDataLibrary", "..\AchDataLibrary\AchDataLibrary.csproj", "{02B162AC-59EE-4165-A357-D04D8DFE81F1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://mpssand:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = BatchFileLoader.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = http://mpssand:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\..\\Library\\BusinessObjects\\PaymentXP.BusinessObjects.csproj
+		SccProjectName1 = ../../../Library/BusinessObjects
+		SccAuxPath1 = http://mpssand:8080/tfs/defaultcollection
+		SccLocalPath1 = ..\\..\\..\\Library\\BusinessObjects
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\..\\Library\\DataObjects\\PaymentXP.DataObjects.csproj
+		SccProjectName2 = ../../../Library/DataObjects
+		SccAuxPath2 = http://mpssand:8080/tfs/defaultcollection
+		SccLocalPath2 = ..\\..\\..\\Library\\DataObjects
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\..\\..\\Library\\CommonUtility\\CommonUtility.csproj
+		SccProjectName3 = ../../../Library/CommonUtility
+		SccAuxPath3 = http://mpssand:8080/tfs/defaultcollection
+		SccLocalPath3 = ..\\..\\..\\Library\\CommonUtility
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = ..\\..\\..\\Library\\Facade\\PaymentXP.Facade.csproj
+		SccProjectName4 = ../../../Library/Facade
+		SccAuxPath4 = http://mpssand:8080/tfs/defaultcollection
+		SccLocalPath4 = ..\\..\\..\\Library\\Facade
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = ..\\AchDataLibrary\\AchDataLibrary.csproj
+		SccProjectName5 = ../AchDataLibrary
+		SccAuxPath5 = http://mpssand:8080/tfs/defaultcollection
+		SccLocalPath5 = ..\\AchDataLibrary
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E66989-9C16-4807-B97F-12AD3CD10D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E66989-9C16-4807-B97F-12AD3CD10D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E66989-9C16-4807-B97F-12AD3CD10D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E66989-9C16-4807-B97F-12AD3CD10D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C303C360-6DDE-4EB0-8B1B-34B5CACF9DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C303C360-6DDE-4EB0-8B1B-34B5CACF9DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C303C360-6DDE-4EB0-8B1B-34B5CACF9DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C303C360-6DDE-4EB0-8B1B-34B5CACF9DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8578F9A-B7BA-4723-9D30-90310312E3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8578F9A-B7BA-4723-9D30-90310312E3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8578F9A-B7BA-4723-9D30-90310312E3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8578F9A-B7BA-4723-9D30-90310312E3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E11485D-C802-4D56-951B-EFC1F4E05117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E11485D-C802-4D56-951B-EFC1F4E05117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E11485D-C802-4D56-951B-EFC1F4E05117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E11485D-C802-4D56-951B-EFC1F4E05117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88D24FF-1177-4C8D-A163-5DF1A94382F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88D24FF-1177-4C8D-A163-5DF1A94382F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88D24FF-1177-4C8D-A163-5DF1A94382F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88D24FF-1177-4C8D-A163-5DF1A94382F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02B162AC-59EE-4165-A357-D04D8DFE81F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02B162AC-59EE-4165-A357-D04D8DFE81F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02B162AC-59EE-4165-A357-D04D8DFE81F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02B162AC-59EE-4165-A357-D04D8DFE81F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

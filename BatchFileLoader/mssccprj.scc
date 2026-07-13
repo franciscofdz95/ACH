@@ -1,0 +1,25 @@
+SCC = This is a Source Code Control file
+
+[Decrypt.csproj]
+SCC_Aux_Path = "\\cocopuff\VSS\"
+SCC_Project_Name = "$/ACH-2006/Decrypt", VRFBAAAA
+
+[Decrypt.sln]
+SCC_Aux_Path = "\\cocopuff\VSS\"
+SCC_Project_Name = "$/ACH-2006/Decrypt", VRFBAAAA
+
+[FileMove.csproj]
+SCC_Aux_Path = "\\cocopuff\VSS\"
+SCC_Project_Name = "$/ACH-2006/FileMove", HSFBAAAA
+
+[FileMove.sln]
+SCC_Aux_Path = "\\cocopuff\VSS\"
+SCC_Project_Name = "$/ACH-2006/FileMove", HSFBAAAA
+
+[BatchFileLoader.csproj]
+SCC_Aux_Path = "Z:\"
+SCC_Project_Name = "$/AchSystem/BatchFileLoader", DEZAAAAA
+
+[BatchFileLoader.sln]
+SCC_Aux_Path = "Z:\"
+SCC_Project_Name = "$/AchSystem/BatchFileLoader", DEZAAAAA

@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[EmailHandler.csproj]
+SCC_Aux_Path = "\\datacenter\vss"
+SCC_Project_Name = "$/nmc.apps.ach/AchSystem/EmailHandler", NTFAAAAA
+
+[Nmc.Common.csproj]
+SCC_Aux_Path = "\\datacenter\vss"
+SCC_Project_Name = "$/nmc.apps.ach/AchSystem/EmailHandler", NTFAAAAA
+
+[Common.csproj]
+SCC_Aux_Path = "Z:\"
+SCC_Project_Name = "$/AchSystem/Common", PHZAAAAA
