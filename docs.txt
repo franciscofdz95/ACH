@@ -1,0 +1,17 @@
+There are currently 3 Descriptors being used for ACH transactions from KORT/Paysafe. These are the ones where WE initiate a transaction on the merchant’s bank account. Finance user can change the last one below on their own by changing the DBA in the ZID they use, but the first two we need to know how to change them.
+
+Acceptance Criteria: We need the first TWO of the below ACH descriptors researched on how we can make the changes from ‘MERITUS PAYMENTS’ and ‘Paysafe’ text so we can update it to KORT Payments soon.
+
+Please check the ACH Desktop System and/or Zeus, but not limited to, for where we need to make the changes.
+
+MERITUS PAYMENTS ACCT DRAFT 200804 N13882366 Paysafe (Fees)
+
+We need to be able to replace ‘MERITUS PAYMENTS’ from the beginning and also ‘Paysafe’ before the word fees
+
+MERITUS PAYMENTS HOLD RELEA 200803 N13868695 Paysafe (Deposits)
+
+We need to be able to replace ‘MERITUS PAYMENTS’ from the beginning and also ‘Paysafe’ before the word deposits
+
+Paysafe Merchant  ACH FEES
+
+Comes from ZID 10234 and can be changed by finance user and doesn't need research.
