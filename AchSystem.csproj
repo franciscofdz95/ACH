@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56040423-0DDF-43EB-8271-4F5244EB1DE9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>AchSystem</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AchSystem</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ManifestCertificateThumbprint>6B88808E21F012086C148ECFFF334B398028D6F7</ManifestCertificateThumbprint>
+    <ManifestKeyFile>AchSystem_1_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\AchDeployment\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>ACH Management System</ProductName>
+    <PublisherName>Meritus Payment Solutions</PublisherName>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>166</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <ExcludeDeploymentUrl>true</ExcludeDeploymentUrl>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infragistics4.Documents.Core.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Documents.Excel.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Shared.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.Misc.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinExplorerBar.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinGrid.ExcelExport.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinGrid.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinSchedule.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinStatusBar.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.UltraWinToolbars.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics4.Win.v19.2, Version=19.2.20192.134, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\ThirdParty\log4net-1.2.11\bin\net\4.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SecureBlackbox, Version=9.1.212.39749, Culture=neutral, PublicKeyToken=5a62fa96d0ac431a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\ThirdParty\SecureBlackbox\SecureBlackbox.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SecureBlackbox.PGP, Version=9.1.212.39787, Culture=neutral, PublicKeyToken=5a62fa96d0ac431a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\ThirdParty\SecureBlackbox\SecureBlackbox.PGP.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SecureBlackbox.PKI, Version=9.1.212.39754, Culture=neutral, PublicKeyToken=5a62fa96d0ac431a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Library\ThirdParty\SecureBlackbox\SecureBlackbox.PKI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <None Include="AchSystem_1_TemporaryKey.pfx" />
+    <None Include="AchSystem_2_TemporaryKey.pfx" />
+    <None Include="AchSystem_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\export.gif" />
+    <None Include="Resources\UniqueConstraint.gif" />
+    <None Include="Resources\listview.gif" />
+    <None Include="Resources\View.gif" />
+    <None Include="Resources\forms1.gif" />
+    <None Include="Resources\panandzoom.gif" />
+    <None Include="Resources\restricted.gif" />
+    <Content Include="Resources\document_out.png" />
+    <Content Include="Resources\View.ico" />
+    <Content Include="SQL\test.SQL" />
+    <None Include="Resources\TaskVision.gif" />
+    <None Include="Resources\TASKDECS.ICO" />
+    <None Include="Resources\SCDRESNS.ICO" />
+    <None Include="Resources\Report.ico" />
+    <None Include="Resources\EXITEMS.ICO" />
+    <None Include="Resources\TASKACCS.ICO" />
+    <None Include="Resources\AnalysisServicesProject.ico" />
+    <None Include="Resources\ImportDatabaseProject.ico" />
+    <None Include="Resources\forms.gif" />
+    <None Include="Resources\highlightr.gif" />
+    <None Include="Resources\replycomments.gif" />
+    <None Include="Resources\ebookonline.gif" />
+    <None Include="Resources\RoundedBlueExplorer.gif" />
+    <None Include="Resources\GrayExplorer.gif" />
+    <None Include="Resources\BlueExplorer.gif" />
+    <None Include="Resources\OrangeExplorer.gif" />
+    <None Include="Resources\search.gif" />
+    <None Include="Resources\animated_nickelodeon_walker.gif" />
+    <Compile Include="Class\AchListItem.cs" />
+    <Compile Include="Class\Addenda.cs" />
+    <Compile Include="Class\AssemblyInfo.cs" />
+    <Compile Include="Class\Bank.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\BankAptPay.cs" />
+    <Compile Include="Class\BankGoldmanSachs.cs" />
+    <Compile Include="Class\BankMBFinancial.cs" />
+    <Compile Include="Class\BankChase.cs" />
+    <Compile Include="Class\BankFDR.cs" />
+    <Compile Include="Class\BankFifthThird.cs" />
+    <Compile Include="Class\BankNcal.cs" />
+    <Compile Include="Class\BankNct.cs" />
+    <Compile Include="Class\BankPayMyBill.cs" />
+    <Compile Include="Class\BankQuanComm.cs" />
+    <Compile Include="Class\BankWells.cs" />
+    <Compile Include="Class\Batch.cs" />
+    <Compile Include="Class\BankKBT.cs" />
+    <Compile Include="Class\BankFPS.cs" />
+    <Compile Include="Class\EventHandler.cs" />
+    <Compile Include="Class\FormHandler.cs" />
+    <Compile Include="Class\iFormData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\ImageHandler.cs" />
+    <Compile Include="Class\Journal.cs" />
+    <Compile Include="Class\ListHandler.cs" />
+    <Compile Include="Class\Logging.cs" />
+    <Compile Include="Class\LookUpTableHandler.cs" />
+    <Compile Include="Class\Merchant.cs" />
+    <Compile Include="Class\NachaBatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\NachaDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\NachaFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\PickerHandler.cs" />
+    <Compile Include="Class\Return.cs" />
+    <Compile Include="Class\ReturnAddenda.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\ReturnBatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\ReturnDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\ReturnFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\SettlementAddenda.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\SettlementBatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\SettlementDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\SettlementFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\TurnKey.cs" />
+    <Compile Include="Class\User.cs" />
+    <Compile Include="frmBalanceFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBalanceFee.Designer.cs">
+      <DependentUpon>frmBalanceFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportNew.Designer.cs">
+      <DependentUpon>frmReportNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplitFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplitFile.Designer.cs">
+      <DependentUpon>frmSplitFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest2.Designer.cs">
+      <DependentUpon>frmTest2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWallet.Designer.cs">
+      <DependentUpon>frmWallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAchRecurring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAchRecurring.Designer.cs">
+      <DependentUpon>frmAchRecurring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettleFileDetailsReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettleFileDetailsReport.Designer.cs">
+      <DependentUpon>frmSettleFileDetailsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettleFileSummaryReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettleFileSummaryReport.Designer.cs">
+      <DependentUpon>frmSettleFileSummaryReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransType.Designer.cs">
+      <DependentUpon>frmTransType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransStatus.Designer.cs">
+      <DependentUpon>frmTransStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSource.Designer.cs">
+      <DependentUpon>frmSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSecc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSecc.Designer.cs">
+      <DependentUpon>frmSecc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrigin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrigin.Designer.cs">
+      <DependentUpon>frmOrigin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGroupMerchant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGroupMerchant.Designer.cs">
+      <DependentUpon>frmGroupMerchant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReasonCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReasonCode.Designer.cs">
+      <DependentUpon>frmReasonCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonthEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonthEnd.Designer.cs">
+      <DependentUpon>frmMonthEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBatchDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBatchDetail.Designer.cs">
+      <DependentUpon>frmBatchDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoldRelease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoldRelease.Designer.cs">
+      <DependentUpon>frmHoldRelease.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMerchant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMerchant.designer.cs">
+      <DependentUpon>frmMerchant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPicture.Designer.cs">
+      <DependentUpon>frmPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoadReturns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadReturns.Designer.cs">
+      <DependentUpon>frmLoadReturns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRefcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRefcode.Designer.cs">
+      <DependentUpon>frmRefcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAchProcessEngine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAchProcessEngine.designer.cs">
+      <DependentUpon>frmAchProcessEngine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccountBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccountBlock.Designer.cs">
+      <DependentUpon>frmAccountBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase.designer.cs">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBatch.Designer.cs">
+      <DependentUpon>frmBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEFT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEFT.Designer.cs">
+      <DependentUpon>frmEFT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHold.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHold.Designer.cs">
+      <DependentUpon>frmHold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJournal.Designer.cs">
+      <DependentUpon>frmJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLog.Designer.cs">
+      <DependentUpon>frmLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReturn.Designer.cs">
+      <DependentUpon>frmReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScrubData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScrubData.Designer.cs">
+      <DependentUpon>frmScrubData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStatement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatement.Designer.cs">
+      <DependentUpon>frmStatement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransaction.Designer.cs">
+      <DependentUpon>frmTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MerchantCentralDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MerchantCentralDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchSettlementForecast.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchSettlementForecast.Designer.cs">
+      <DependentUpon>pnlSearchSettlementForecast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturnTotals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturnTotals.Designer.cs">
+      <DependentUpon>pnlSearchReturnTotals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchNegativeBalanceReturn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchNegativeBalanceReturn.Designer.cs">
+      <DependentUpon>pnlSearchNegativeBalanceReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchExceedMonthlyVolume.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchExceedMonthlyVolume.Designer.cs">
+      <DependentUpon>pnlSearchExceedMonthlyVolume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchExceedAverageTicket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchExceedAverageTicket.Designer.cs">
+      <DependentUpon>pnlSearchExceedAverageTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchUnauthorizedReturnRates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchUnauthorizedReturnRates.Designer.cs">
+      <DependentUpon>pnlSearchUnauthorizedReturnRates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchMonthlyActivityTotals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchMonthlyActivityTotals.Designer.cs">
+      <DependentUpon>pnlSearchMonthlyActivityTotals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchOTMonthlyActivityTotals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchOTMonthlyActivityTotals.Designer.cs">
+      <DependentUpon>pnlSearchOTMonthlyActivityTotals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturnSummary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturnSummary.Designer.cs">
+      <DependentUpon>pnlSearchReturnSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturnRates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturnRates.Designer.cs">
+      <DependentUpon>pnlSearchReturnRates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchAchRecurring.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchAchRecurring.Designer.cs">
+      <DependentUpon>pnlSearchAchRecurring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchHoliday.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchHoliday.Designer.cs">
+      <DependentUpon>pnlSearchHoliday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBadReturn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBadReturn.Designer.cs">
+      <DependentUpon>pnlSearchBadReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBatchFileLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBatchFileLog.Designer.cs">
+      <DependentUpon>pnlSearchBatchFileLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchProcessLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchProcessLog.Designer.cs">
+      <DependentUpon>pnlSearchProcessLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchGroupMerchant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchGroupMerchant.Designer.cs">
+      <DependentUpon>pnlSearchGroupMerchant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchMerchantBalance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchMerchantBalance.Designer.cs">
+      <DependentUpon>pnlSearchMerchantBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchOverTicketItems.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchOverTicketItems.Designer.cs">
+      <DependentUpon>pnlSearchOverTicketItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchTransType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchTransType.Designer.cs">
+      <DependentUpon>pnlSearchTransType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchSource.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchSource.Designer.cs">
+      <DependentUpon>pnlSearchSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchSecc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchSecc.Designer.cs">
+      <DependentUpon>pnlSearchSecc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchOrigin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchOrigin.Designer.cs">
+      <DependentUpon>pnlSearchOrigin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchRefcode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchRefcode.Designer.cs">
+      <DependentUpon>pnlSearchRefcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReturn.Designer.cs">
+      <DependentUpon>pnlSearchReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBank.Designer.cs">
+      <DependentUpon>pnlSearchBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBatch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBatch.Designer.cs">
+      <DependentUpon>pnlSearchBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBatchDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchBatchDetail.Designer.cs">
+      <DependentUpon>pnlSearchBatchDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchHold.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchHold.Designer.cs">
+      <DependentUpon>pnlSearchHold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchJournal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchJournal.Designer.cs">
+      <DependentUpon>pnlSearchJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchLog.Designer.cs">
+      <DependentUpon>pnlSearchLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchMerchant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchMerchant.Designer.cs">
+      <DependentUpon>pnlSearchMerchant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchPayment.Designer.cs">
+      <DependentUpon>pnlSearchPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReasonCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchReasonCode.Designer.cs">
+      <DependentUpon>pnlSearchReasonCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchTransStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchTransStatus.Designer.cs">
+      <DependentUpon>pnlSearchTransStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchUser.Designer.cs">
+      <DependentUpon>pnlSearchUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\SearchBase.cs" />
+    <Compile Include="frmBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBank.Designer.cs">
+      <DependentUpon>frmBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\main.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatePRIRoutingTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatePRIRoutingTable.Designer.cs">
+      <DependentUpon>frmUpdatePRIRoutingTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateTransaction.Designer.cs">
+      <DependentUpon>frmUpdateTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatus.Designer.cs">
+      <DependentUpon>frmStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\SearchFieldInfo.cs" />
+    <Compile Include="Search Class\pnlSearchTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchTransaction.Designer.cs">
+      <DependentUpon>pnlSearchTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchAccountBlock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchAccountBlock.Designer.cs">
+      <DependentUpon>pnlSearchAccountBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Class\SearchClasses.cs" />
+    <Compile Include="Search Class\pnlSearchPurgeBatch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search Class\pnlSearchPurgeBatch.Designer.cs">
+      <DependentUpon>pnlSearchPurgeBatch.cs</DependentUpon>
+    </Compile>
+    <Content Include="rptJournalReconReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rptSettlementFileBatchOffsets.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rptSettlementFileReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rptBatchReview.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="frmBalanceFee.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBalanceFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportNew.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReportNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplitFile.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplitFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTest2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransaction.resx">
+      <DependentUpon>frmTransaction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWallet.resx">
+      <DependentUpon>frmWallet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAchRecurring.resx">
+      <DependentUpon>frmAchRecurring.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="rptBatchPreview.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rptSettlementFileTotal.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="frmSettleFileDetailsReport.resx">
+      <DependentUpon>frmSettleFileDetailsReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettleFileSummaryReport.resx">
+      <DependentUpon>frmSettleFileSummaryReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransType.resx">
+      <DependentUpon>frmTransType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransStatus.resx">
+      <DependentUpon>frmTransStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSource.resx">
+      <DependentUpon>frmSource.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSecc.resx">
+      <DependentUpon>frmSecc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrigin.resx">
+      <DependentUpon>frmOrigin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGroupMerchant.resx">
+      <DependentUpon>frmGroupMerchant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReasonCode.resx">
+      <DependentUpon>frmReasonCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonthEnd.resx">
+      <DependentUpon>frmMonthEnd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBatchDetail.resx">
+      <DependentUpon>frmBatchDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoldRelease.resx">
+      <DependentUpon>frmHoldRelease.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMerchant.resx">
+      <DependentUpon>frmMerchant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPicture.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="frmLoadReturns.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoadReturns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRefcode.resx">
+      <DependentUpon>frmRefcode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAchProcessEngine.resx">
+      <DependentUpon>frmAchProcessEngine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccountBlock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAccountBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBank.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBatch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEFT.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEFT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHold.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJournal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReturn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScrubData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmScrubData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStatement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatePRIRoutingTable.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpdatePRIRoutingTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateTransaction.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpdateTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchSettlementForecast.resx">
+      <DependentUpon>pnlSearchSettlementForecast.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchReturnTotals.resx">
+      <DependentUpon>pnlSearchReturnTotals.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchNegativeBalanceReturn.resx">
+      <DependentUpon>pnlSearchNegativeBalanceReturn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchExceedMonthlyVolume.resx">
+      <DependentUpon>pnlSearchExceedMonthlyVolume.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchExceedAverageTicket.resx">
+      <DependentUpon>pnlSearchExceedAverageTicket.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchUnauthorizedReturnRates.resx">
+      <DependentUpon>pnlSearchUnauthorizedReturnRates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchMonthlyActivityTotals.resx">
+      <DependentUpon>pnlSearchMonthlyActivityTotals.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchOTMonthlyActivityTotals.resx">
+      <DependentUpon>pnlSearchOTMonthlyActivityTotals.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchReturnSummary.resx">
+      <DependentUpon>pnlSearchReturnSummary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchReturnRates.resx">
+      <DependentUpon>pnlSearchReturnRates.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchAchRecurring.resx">
+      <DependentUpon>pnlSearchAchRecurring.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchHoliday.resx">
+      <DependentUpon>pnlSearchHoliday.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchBadReturn.resx">
+      <DependentUpon>pnlSearchBadReturn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchBatchFileLog.resx">
+      <DependentUpon>pnlSearchBatchFileLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchProcessLog.resx">
+      <DependentUpon>pnlSearchProcessLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchGroupMerchant.resx">
+      <DependentUpon>pnlSearchGroupMerchant.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchMerchantBalance.resx">
+      <DependentUpon>pnlSearchMerchantBalance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchOverTicketItems.resx">
+      <DependentUpon>pnlSearchOverTicketItems.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchTransType.resx">
+      <DependentUpon>pnlSearchTransType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchSource.resx">
+      <DependentUpon>pnlSearchSource.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchSecc.resx">
+      <DependentUpon>pnlSearchSecc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchOrigin.resx">
+      <DependentUpon>pnlSearchOrigin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchRefcode.resx">
+      <DependentUpon>pnlSearchRefcode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchReturn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchBank.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchBatch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchBatchDetail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchBatchDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchReasonCode.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchReasonCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchTransaction.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchHold.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchHold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchJournal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchMerchant.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchMerchant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchPayment.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchPurgeBatch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchPurgeBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchAccountBlock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchAccountBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchTransStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchTransStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Class\pnlSearchUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>pnlSearchUser.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="MerchantCentralDataSet.xsc">
+      <DependentUpon>MerchantCentralDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MerchantCentralDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MerchantCentralDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MerchantCentralDataSet.xss">
+      <DependentUpon>MerchantCentralDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Data.Access.Components.2.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Data Access Components 2.8</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.8.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2005 Report Viewer</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Library\BusinessObjects\PaymentXP.BusinessObjects.csproj">
+      <Project>{c303c360-6dde-4eb0-8b1b-34b5cacf9da2}</Project>
+      <Name>PaymentXP.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Library\BusinessObjects\PaymentXP.BusinessObjects.csproj">
+      <Project>{c303c360-6dde-4eb0-8b1b-34b5cacf9da2}</Project>
+      <Name>PaymentXP.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Library\CommonUtility\CommonUtility.csproj">
+      <Project>{5E11485D-C802-4D56-951B-EFC1F4E05117}</Project>
+      <Name>CommonUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AchDataLibrary\AchDataLibrary.csproj">
+      <Project>{02B162AC-59EE-4165-A357-D04D8DFE81F1}</Project>
+      <Name>AchDataLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="ADODB">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Infragistics2.Documents.Core.v11.2">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.FTPS">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.PGP">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.PKI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.SFTP">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.SFTPCommon">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.SSHClient">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.SSHCommon">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.SSLClient">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="SecureBlackbox.SSLCommon">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
