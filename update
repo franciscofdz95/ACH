@@ -1,0 +1,2383 @@
+USE [PrimusPayments]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+/******************************************************************************************
+-- Procedure:		dbo.sp_InsertCopyMerchantApp
+-- Developer:		Vishal Patel
+-- Description:		This procedure creates a copy of an existing ZID
+-- Creation Date:	03/17/2015
+--
+-- Modification Log:
+-- Date			Developer			Comments
+-- ----------	----------------	----------------
+-- 3/17/2015	vpatel				init
+-- 3/17/2015	stol				added test agent to agentuid
+-- 5/08/2015	eluxa				removed hardcoded multilink = enabled
+-- 07/30/2015	ckumbaji			Added logic to insert the ChangeHistory for FrontMID,BackMID,BankEnd,FrontEnd,Bank fields
+-- 03/08/2017	vpatel				Added code to copy documents, descriptors, equipments, UW fields, special requests fields
+-- 05/03/2017	vpatel				Added logic to only copy documents, descriptors, equipments, UW fields, special requests fields for RollOver Accounts
+-- 07/04/2017   rthakur				Added logic to check if the user is a Sales Support user from Montreal office then don't copy SicCode(MCC code) in the new ZID
+-- 08/21/2017	Tushar				Added logic to add Phone extentions and country code to DBA Phone Number Customer Service phone number
+--06/21/2018	NPoldesai			Added logic to add  TinfoOffPremisePercent,TinfoTradeShowPercent,TinfoOtherPercent,Specify story PXP-4989 
+-- 06/21/2018	KSingh				Added logic for new columns BeneficialOwner,AuthorizedSignature, CBRWaived for PXP-4979 for copy owners and other remain new fields for copy ownership table 
+-- 06/29/2018	AKharait			Added logic for new columns TaxID, OwnerCategoryID for PXP-4997 for copy Corporate Business
+--09/23/2019	abarua				PXP-11315 Donot Copy username while copying app
+-- 10/21/2019	KSingh				Added new  field BillingMethodUID,BillingMethodUID,BillingMethodUID,WaiveOtherItemFee for PXP-11701 by koshlendra
+--02/10/2020	AmitPatne			Added VisaSicCode field to copy for PXP-12947	
+--05/26/2021	KSingh				Adding PrimaryContactUID in copy merchant funtionality for PXP-17195
+--10/01/2021	KSingh				Adding HighRiskMonitoringFee in copy merchant funtionality for PXP-17195
+--05/27/2022	Jorge				Adding AlternateEmail, AdditionalRecipients, IsPCCSSwitch, Deployment Notes in copy merchant for DM-1915
+--05/27/2022	Jorge				Adding original AgentUID in copy merchant for DM-1915
+--05/27/2022	Jorge				Removed HostPassword in copy merchant for DM-1915
+--05/27/2022	Jorge				Moved MerchantAppItem and MerchantAppSevices from IsRolloverAccount validation for DM-1915
+--06/22/2023	ckumbaji			DM-4369 Check for Authplatform update and update the APiVersion to 4 for Omaha and Nashville.
+******************************************************************************************/
+ALTER PROCEDURE [dbo].[sp_InsertCopyMerchantApp]
+(
+    @SourceZID   INT
+   ,@UserCreated VARCHAR(30)
+)
+AS
+    SET XACT_ABORT ON;
+    SET NOCOUNT ON;
+
+    BEGIN
+        BEGIN TRY
+            --BEGIN TRANSACTION --IMPORTANT: If the SP is modifying multiple tables, please use the transactions
+            DECLARE @SourceUID      UNIQUEIDENTIFIER,
+                    @NewZID         INT,
+                    @NewUID         UNIQUEIDENTIFIER,
+                    @NewMerchantKey UNIQUEIDENTIFIER,
+                    @ChangeHistory  UDT_CHANGEHISTORY
+            --Change History Code    
+            DECLARE @SettlePlatformMID            NVARCHAR(30),
+                    @AuthPlatformMID              NVARCHAR(30),
+                    @SettlePlatformUID            UNIQUEIDENTIFIER,
+                    @AuthPlatformUID              UNIQUEIDENTIFIER,
+                    @MerchantAppTypeUID           UNIQUEIDENTIFIER,
+                    @SicCode                      NVARCHAR(15),
+                    -- To Check OfficeId and Role
+                    @OfficeID                     INT,
+                    @DefaultRoleUID               UNIQUEIDENTIFIER,
+                    @BillingMethodUID             UNIQUEIDENTIFIER,
+                    @SuppressProcessingStatements BIT,
+                    @ChargebackExcessiveFeeWaived BIT,
+                    @WaiveOtherItemFee            BIT,
+                    @PrimaryContactUID            UNIQUEIDENTIFIER,
+                    @HighRiskMonitoringFee        INT,
+					@NewApiVersion INT
+
+            SELECT @NewMerchantKey = NEWID()
+
+            SELECT @SourceUID = UID
+            FROM   dbo.MerchantApps WITH (nolock)
+            WHERE  ID = @SourceZID
+
+            SELECT @HighRiskMonitoringFee = HighRiskMonitoringFee
+            FROM   dbo.MerchantFees
+            WHERE  MerchantAppsUID = @SourceUID
+
+            SELECT @SettlePlatformMID = SettlePlatformMID
+                  ,@AuthPlatformMID = AuthPlatformMID
+                  ,@SettlePlatformUID = SettlePlatformUID
+                  ,@AuthPlatformUID = AuthPlatformUID
+                  ,@MerchantAppTypeUID = MerchantAppTypeUID
+                  ,@SicCode = SicCode
+                  ,@BillingMethodUID = BillingMethodUID
+                  ,@SuppressProcessingStatements = SuppressProcessingStatements
+                  ,@ChargebackExcessiveFeeWaived = ChargebackExcessiveFeeWaived
+                  ,@WaiveOtherItemFee = WaiveOtherItemFee
+                  ,@PrimaryContactUID = PrimaryContactUID
+				  ,@NewApiVersion = NashvilleApiVersion
+            FROM   dbo.MerchantApps m WITH (nolock)
+            WHERE  m.[UID] = @SourceUID
+
+            SELECT @OfficeID = U.OfficeID
+                  ,@DefaultRoleUID = U.DefaultRoleUID
+            FROM   Users U WITH (NOLOCK)
+            WHERE  Username = @UserCreated
+
+            INSERT INTO dbo.MerchantApps
+                        (UID
+                        ,LeadsUID
+                        ,ParentID
+                        ,BusinessStructureUID
+                        ,ApplicationTypeUID
+                        ,RiskCategoryUID
+                        ,StatusUID
+                        ,ReasonChangesUID
+                        ,ReturnPoliciesUID
+                        ,MerchantAppTypeUID
+                        ,AgentUID
+                        ,BusinessLegalName
+                        ,BusinessDBAName
+                        ,BusinessAddress
+                        ,BusinessAddress2
+                        ,BusinessCity
+                        ,BusinessCounty
+                        ,BusinessState
+                        ,BusinessZip
+                        ,BusinessMailingAddress
+                        ,BusinessMailingCity
+                        ,BusinessMailingCounty
+                        ,BusinessMailingState
+                        ,BusinessMailingZip
+                        ,BusinessDBAPhone
+                        ,BusinessFax
+                        ,BusinessWebsite
+                        ,BusinessTaxID
+                        ,BusinessLicense
+                        ,BusinessStartDate
+                        ,BankName
+                        ,AccountName
+                        ,RoutingNumber
+                        ,AccountNumber
+                        ,EncryptAccountNumber3
+                        ,SicCode
+                        ,Notes
+                        ,MerchantSells
+                        ,DateCreated
+                        ,UserCreated
+                        ,DateUpdated
+                        ,UserUpdated
+                        ,RiskFlag
+                        ,TinfoGrossYearlySalesVolume
+                        ,TinfoAverageYearlyVMCVolume
+                        ,TinfoAverageMonthlyVMCVolume
+                        ,TinfoAverageVMCTicket
+                        ,TinfoHighestTicketAmount
+                        ,TinfoSesonalHighestVolume
+                        ,TinfoStoreFrontSwipedPercent
+                        ,TinfoInterntPercent
+                        ,TinfoMailOrderPercent
+                        ,TinfoTelephoneOrderPercent
+                        ,TinfoElectronicDataCaptureSwipedPercent
+                        ,TinfoManualEntryWithImprintPercent
+                        ,TinfoManualEntryNoCardNoImprintPercent
+                        ,TinfoVoiceAuthPercent
+                        ,AMEXDiscountRate
+                        ,JCBDiscountRate
+                        ,DiscoverDiscountRate
+                        ,JCBMID
+                        ,DiscoverMID
+                        ,AMEXMID
+                        ,AuthPlatformUID
+                        ,AuthPlatformMID
+                        ,SettlePlatformUID
+                        ,SettlePlatformMID
+                        ,SettlePlatformTermID
+                        ,AchID
+                        ,AchBatchUpload
+                        ,OtherFeeName1
+                        ,OtherFeeName2
+                        ,IEFSMID
+                        ,EBTFCSMID
+                        ,PetroleumWEXMid
+                        ,PetroleumVoyagerMid
+                        ,CheckServicesMID
+                        ,ChangeOfOwnership
+                        ,Reprogram
+                        ,StoredValuePrograms
+                        ,AdditionalLocation
+                        ,AddTerminal
+                        ,VisaMasterCard
+                        ,AtmDebit
+                        ,AmericanExpress
+                        ,DiscoverNovus
+                        ,Diners
+                        ,Jcb
+                        ,Voyager
+                        ,Ebt
+                        ,MediFAX
+                        ,WEX
+                        ,Checks
+                        ,NMCMerClub
+                        ,Internet
+                        ,GiftCards
+                        ,PrePaidPhone
+                        ,ACH_EFT
+                        ,Others
+                        ,OtherService
+                        ,EBTFoodStamps
+                        ,EBTCashback
+                        ,NMCGateway
+                        ,Wireless
+                        ,ACH
+                        ,AllowBlindCredits
+                        ,MerchantKey
+                        ,PrivateLabelUID
+                        ,NamePhoneVerification
+                        ,NameAddressTINVerification
+                        ,AddressSSNVerification
+                        ,BVIVerifcation
+                        ,InstantIDRiskCode
+                        ,NegativeConsumer
+                        ,DandB
+                        ,DelaysApproved
+                        ,PCILevel
+                        ,MonthendApproved
+                        ,AssignToUID
+                        ,DSCFeeAcctUID
+                        ,UWNotes
+                        ,IsDSC
+                        ,MerchantClosureCodeUID
+                        ,ReleaseMethodUID
+                        ,GatewayAllowCC
+                        ,GatewayAllowACH
+                        ,HostUserName
+                        ,HostPassword
+                        ,MerchantPin
+                        ,GatewayModeUID
+                        ,HighRisk
+                        ,FreeTerminal
+                        ,GatewayAllowC21
+                        ,ETFAssessed
+                        ,PlacedOnMATCH
+                        ,UWOverride
+                        ,TID
+                        ,SettlementSchedule
+                        ,Descriptor
+                        ,RetrievalID
+                        ,Referral
+                        ,Source
+                        ,ReceiptEmailCustomer
+                        ,ReceiptEmailMerchant
+                        ,MasterCard
+                        ,Visa
+                        ,NAICS
+                        ,UWMultOverride
+                        ,AdvPymtAgreement
+                        ,CrossCorpGty
+                        ,ReasonForDecline
+                        ,MultiAccLink
+                        ,MerchantTag
+                        ,DiscountMethod
+                        ,ETCTypeUID
+                        ,TrainingBy
+                        ,RescheduleTrainingDate
+                        ,NoEquipment
+                        ,ConditionalApproval
+                        ,ConditionalApprovalAP
+                        ,ConditionalDueDate
+                        ,HasConditions
+                        ,NotificationEmails
+                        ,MonthlyProfit
+                        ,LeadsID
+                        ,AltDescriptor
+                        ,FirstTeam
+                        ,zFirstTeamNotesOld
+                        ,Maestro
+                        ,ActivationCode
+                        ,EncryptAccountNumber
+                        ,AccountNumberHash
+                        ,OtherFeeName3
+                        ,OtherFeeName4
+                        ,AmexOP
+                        ,FuelManMID
+                        ,GiftCardMID
+                        ,CustomerServicePhone
+                        ,CustomerServiceEmail
+                        ,CancellationDate
+                        ,PinDebit
+                        ,BusinessCountry
+                        ,BusinessMailingCountry
+                        ,Currency
+                        ,CustomerServicePhoneCallingCode
+                        ,MerchantBrandID
+                        ,OfficeID
+                        ,Gatewayonly
+                        ,MonthlyTransCount
+                        ,DaysHoldTypeID
+                        ,VisaElectron
+                        ,LanguageID
+                        ,BusinessMailingAddress2
+                        ,LegalEntityID
+                        ,BankCurrency
+                        ,BusinessAddressLine2
+                        ,BusinessMailingAddressLine2
+                        ,FuelMan
+                        ,GETI
+                        ,Telecheck
+                        ,AmexOPID
+                        ,EBTFCS
+                        ,FirstTeamNotes
+                        ,BusinessDBAPhoneCountryCode
+                        ,BusinessDBAPhoneExt
+                        ,CustomerServicePhoneExt
+                        ,BusinessFaxCountryCode
+                        ,BusinessFaxExt
+                        ,EMVComplianceMerchant
+                        ,TinfoOffPremisePercent
+                        ,TinfoTradeShowPercent
+                        ,TinfoOtherPercent
+                        ,Specify
+                        ,AlternateEmail
+                        ,AdditionalRecipients
+                        ,BillingMethodUID
+                        ,SuppressProcessingStatements
+                        ,ChargebackExcessiveFeeWaived
+                        ,WaiveOtherItemFee
+                        ,VisaSicCode
+                        ,IsPCCSSwitch
+                        ,PrimaryContactUID
+						,NashvilleAPIVersion)
+            SELECT NEWID()                                AS UID
+                  ,LeadsUID
+                  ,ParentID
+                  ,BusinessStructureUID
+                  ,ApplicationTypeUID
+                  ,RiskCategoryUID
+                  ,'D96EC87C-CCB0-4C88-B9B8-2B497BA6E409' AS StatusUID--SELECT * FROM dbo.Status order by [order]
+                  ,ReasonChangesUID
+                  ,ReturnPoliciesUID
+                  ,MerchantAppTypeUID
+                  ,AgentUID
+                  ,BusinessLegalName
+                  ,BusinessDBAName
+                  ,BusinessAddress
+                  ,BusinessAddress2
+                  ,BusinessCity
+                  ,BusinessCounty
+                  ,BusinessState
+                  ,BusinessZip
+                  ,BusinessMailingAddress
+                  ,BusinessMailingCity
+                  ,BusinessMailingCounty
+                  ,BusinessMailingState
+                  ,BusinessMailingZip
+                  ,BusinessDBAPhone
+                  ,BusinessFax
+                  ,BusinessWebsite
+                  ,BusinessTaxID
+                  ,BusinessLicense
+                  ,BusinessStartDate
+                  ,BankName
+                  ,AccountName
+                  ,RoutingNumber
+                  ,AccountNumber
+                  ,EncryptAccountNumber3
+                  ,CASE
+                        WHEN (@OfficeID = 2
+                              AND @DefaultRoleUID = 'EBAAA779-DD46-486C-BA2E-CB5B8A9A477A') THEN NULL -- If DefaultRole is SalesSupport and Office is Montreal then don't copy SicCode, else copy it
+                        ELSE SicCode
+                    END                                   AS SicCode
+                  ,Notes
+                  ,MerchantSells
+                  ,GETDATE()                              AS DateCreated
+                  ,@UserCreated                           AS UserCreated
+                  ,NULL                                   AS DateUpdated
+                  ,NULL                                   AS UserUpdated
+                  ,RiskFlag
+                  ,TinfoGrossYearlySalesVolume
+                  ,TinfoAverageYearlyVMCVolume
+                  ,TinfoAverageMonthlyVMCVolume
+                  ,TinfoAverageVMCTicket
+                  ,TinfoHighestTicketAmount
+                  ,TinfoSesonalHighestVolume
+                  ,TinfoStoreFrontSwipedPercent
+                  ,TinfoInterntPercent
+                  ,TinfoMailOrderPercent
+                  ,TinfoTelephoneOrderPercent
+                  ,TinfoElectronicDataCaptureSwipedPercent
+                  ,TinfoManualEntryWithImprintPercent
+                  ,TinfoManualEntryNoCardNoImprintPercent
+                  ,TinfoVoiceAuthPercent
+                  ,AMEXDiscountRate
+                  ,JCBDiscountRate
+                  ,DiscoverDiscountRate
+                  ,NULL                                   AS JCBMID
+                  ,NULL                                   AS DiscoverMID
+                  ,NULL                                   AS AMEXMID
+                  ,AuthPlatformUID
+                  ,NULL                                   AS AuthPlatformMID
+                  ,SettlePlatformUID
+                  ,NULL                                   AS SettlePlatformMID
+                  ,SettlePlatformTermID
+                  ,NULL                                   AS AchID
+                  ,AchBatchUpload
+                  ,OtherFeeName1
+                  ,OtherFeeName2
+                  ,IEFSMID
+                  ,NULL                                   AS EBTFCSMID
+                  ,NULL                                   AS PetroleumWEXMid
+                  ,NULL                                   AS PetroleumVoyagerMid
+                  ,NULL                                   AS CheckServicesMID
+                  ,ChangeOfOwnership
+                  ,Reprogram
+                  ,StoredValuePrograms
+                  ,AdditionalLocation
+                  ,AddTerminal
+                  ,VisaMasterCard
+                  ,AtmDebit
+                  ,AmericanExpress
+                  ,DiscoverNovus
+                  ,Diners
+                  ,Jcb
+                  ,Voyager
+                  ,Ebt
+                  ,MediFAX
+                  ,WEX
+                  ,Checks
+                  ,NMCMerClub
+                  ,Internet
+                  ,GiftCards
+                  ,PrePaidPhone
+                  ,ACH_EFT
+                  ,Others
+                  ,OtherService
+                  ,EBTFoodStamps
+                  ,EBTCashback
+                  ,NMCGateway
+                  ,Wireless
+                  ,ACH
+                  ,AllowBlindCredits
+                  ,@NewMerchantKey                        AS MerchantKey
+                  ,PrivateLabelUID
+                  ,NamePhoneVerification
+                  ,NameAddressTINVerification
+                  ,AddressSSNVerification
+                  ,BVIVerifcation
+                  ,InstantIDRiskCode
+                  ,NegativeConsumer
+                  ,DandB
+                  ,DelaysApproved
+                  ,PCILevel
+                  ,MonthendApproved
+                  ,AssignToUID
+                  ,DSCFeeAcctUID
+                  ,UWNotes
+                  ,IsDSC
+                  ,MerchantClosureCodeUID
+                  ,ReleaseMethodUID
+                  ,GatewayAllowCC
+                  ,GatewayAllowACH
+                  ,NULL                                   AS HostUserName
+                  ,NULL                                   AS HostPassword
+                  ,MerchantPin
+                  ,GatewayModeUID
+                  ,HighRisk
+                  ,FreeTerminal
+                  ,GatewayAllowC21
+                  ,ETFAssessed
+                  ,PlacedOnMATCH
+                  ,UWOverride
+                  ,TID
+                  ,SettlementSchedule
+                  ,Descriptor
+                  ,RetrievalID
+                  ,Referral
+                  ,Source
+                  ,ReceiptEmailCustomer
+                  ,ReceiptEmailMerchant
+                  ,MasterCard
+                  ,Visa
+                  ,NAICS
+                  ,UWMultOverride
+                  ,AdvPymtAgreement
+                  ,CrossCorpGty
+                  ,ReasonForDecline
+                  ,MultiAccLink
+                  ,MerchantTag
+                  ,DiscountMethod
+                  ,ETCTypeUID
+                  ,TrainingBy
+                  ,RescheduleTrainingDate
+                  ,NoEquipment
+                  ,ConditionalApproval
+                  ,ConditionalApprovalAP
+                  ,ConditionalDueDate
+                  ,HasConditions
+                  ,NotificationEmails
+                  ,MonthlyProfit
+                  ,LeadsID
+                  ,AltDescriptor
+                  ,FirstTeam
+                  ,zFirstTeamNotesOld
+                  ,Maestro
+                  ,ActivationCode
+                  ,EncryptAccountNumber
+                  ,AccountNumberHash
+                  ,OtherFeeName3
+                  ,OtherFeeName4
+                  ,AmexOP
+                  ,NULL                                   AS FuelManMID
+                  ,NULL                                   AS GiftCardMID
+                  ,CustomerServicePhone
+                  ,CustomerServiceEmail
+                  ,CancellationDate
+                  ,PinDebit
+                  ,BusinessCountry
+                  ,BusinessMailingCountry
+                  ,Currency
+                  ,CustomerServicePhoneCallingCode
+                  ,MerchantBrandID
+                  ,OfficeID
+                  ,Gatewayonly
+                  ,MonthlyTransCount
+                  ,DaysHoldTypeID
+                  ,VisaElectron
+                  ,LanguageID
+                  ,BusinessMailingAddress2
+                  ,LegalEntityID
+                  ,BankCurrency
+                  ,BusinessAddressLine2
+                  ,BusinessMailingAddressLine2
+                  ,FuelMan
+                  ,GETI
+                  ,Telecheck
+                  ,NULL                                   AS AmexOPID
+                  ,EBTFCS
+                  ,FirstTeamNotes
+                  ,BusinessDBAPhoneCountryCode
+                  ,BusinessDBAPhoneExt
+                  ,CustomerServicePhoneExt
+                  ,BusinessFaxCountryCode
+                  ,BusinessFaxExt
+                  ,EMVComplianceMerchant
+                  ,TinfoOffPremisePercent
+                  ,TinfoTradeShowPercent
+                  ,TinfoOtherPercent
+                  ,Specify
+                  ,AlternateEmail
+                  ,AdditionalRecipients
+                  ,BillingMethodUID
+                  ,SuppressProcessingStatements
+                  ,ChargebackExcessiveFeeWaived
+                  ,WaiveOtherItemFee
+                  ,VisaSicCode
+                  ,IsPCCSSwitch
+                  ,PrimaryContactUID
+				  ,NashvilleAPIVersion
+            FROM   dbo.MerchantApps WITH (nolock)
+            WHERE  ID = @SourceZID
+
+            SELECT @NewZID = SCOPE_IDENTITY()
+
+            SELECT @NewUID = UID
+            FROM   dbo.MerchantApps WITH (nolock)
+            WHERE  ID = @NewZID
+
+            DECLARE @BillingMethod NVARCHAR(50)=NULL
+
+            IF (@BillingMethodUID = '436661DF-998D-4031-B3A1-DD15D5296733')
+                BEGIN
+                    SET @BillingMethod='Individual'
+                END
+
+            IF @BillingMethodUID = '17D8B7FA-19FF-49CF-A232-024A22668AEB'
+                BEGIN
+                    SET @BillingMethod='Combined'
+                END
+
+            IF @BillingMethodUID = 'F4D9E484-80D0-465B-93CA-B976F24232A8'
+                BEGIN
+                    SET @BillingMethod='Separate'
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    IF @SettlePlatformMid <> ''
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,@SettlePlatformMid
+                                        ,1
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF @AuthPlatformMID <> ''
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,@AuthPlatformMID
+                                        ,2
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF CAST(@SettlePlatformUID AS NVARCHAR(50)) <> ''
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CAST(@SettlePlatformUID AS NVARCHAR(50))
+                                        ,3
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF CAST(@AuthPlatformUID AS NVARCHAR(50)) <> ''
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CAST(@AuthPlatformUID AS NVARCHAR(50))
+                                        ,4
+                                        ,@UserCreated
+                                        ,GETDATE())
+
+                        END
+
+                    IF CAST(@MerchantAppTypeUID AS NVARCHAR(50)) <> ''
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CAST(@MerchantAppTypeUID AS NVARCHAR(50))
+                                        ,5
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF @BillingMethod <> ''
+                       AND @BillingMethod <> NULL
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CAST(@BillingMethod AS NVARCHAR(50))
+                                        ,69
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF @SuppressProcessingStatements <> NULL
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CASE
+                                              WHEN @SuppressProcessingStatements = 0 THEN 'False'
+                                              ELSE 'True'
+                                          END
+                                        ,70
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF @ChargebackExcessiveFeeWaived <> NULL
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CASE
+                                              WHEN @ChargebackExcessiveFeeWaived = 0 THEN 'False'
+                                              ELSE 'True'
+                                          END
+                                        ,71
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF @WaiveOtherItemFee <> NULL
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CASE
+                                              WHEN @WaiveOtherItemFee = 00 THEN 'False'
+                                              ELSE 'True'
+                                          END
+                                        ,72
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF @PrimaryContactUID <> NULL
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CAST((SELECT UserName
+                                                FROM   [dbo].Users WITH(nolock)
+                                                WHERE  UID = @PrimaryContactUID) AS NVARCHAR(50))
+                                        ,84
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF isnull(@HighRiskMonitoringFee, 0) <> 0
+                        BEGIN
+                            INSERT INTO @ChangeHistory
+                            VALUES      (@NewZID
+                                        ,''
+                                        ,CAST(@HighRiskMonitoringFee AS NVARCHAR(10))
+                                        ,131
+                                        ,@UserCreated
+                                        ,GETDATE())
+                        END
+
+                    IF EXISTS (SELECT 'x'
+                               FROM   @ChangeHistory)
+                        BEGIN
+                            EXEC dbo.sp_InsertChangeHistory
+                                @ChangeHistory
+                        END
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO dbo.MerchantFees
+                                (UID
+                                ,MerchantAppsUID
+                                ,SuppressNetworkFees
+                                ,SuppressACHFees
+                                ,AtmMthlyAccFee
+                                ,AtmTransFee
+                                ,AtmCashBackFee
+                                ,AtmMaxDollarFee
+                                ,AtmSurchargeFee
+                                ,EBTCashBackMax
+                                ,EBTTransFee
+                                ,DebitTransFee
+                                ,DebitAccessFee
+                                ,DebitMonthlyFee
+                                ,DebitCashBackMax
+                                ,ErrVisaDiscountRate
+                                ,ErrVisaNonQualRate
+                                ,ErrMCDiscountRate
+                                ,ErrMCNonQualRate
+                                ,PetroleumWEXTransFee
+                                ,PetroleumVoyagerTransFee
+                                ,VisaDiscountPercent
+                                ,VisaTransFee
+                                ,MCDiscountPercent
+                                ,MCTransFee
+                                ,AmexTransFee
+                                ,DiscoverTransFee
+                                ,JCBTransFee
+                                ,OtherFeeAmount1
+                                ,OtherFeeAmount2
+                                ,MonthlyVolumeBudget
+                                ,MonthlyVolumeActual
+                                ,AverageTicketBudget
+                                ,AverageTicketActual
+                                ,ACHBatchFee
+                                ,VoiceAuthFee
+                                ,AvsVoiceAuthFee
+                                ,AvsFee
+                                ,ChargeBackFee
+                                ,RetrievalRequestFee
+                                ,ReturnItemFee
+                                ,MonthlyMinimumFee
+                                ,StatementFee
+                                ,CustomizedStmtSetupFee
+                                ,CustomizedStmtMonthlyFee
+                                ,MidQualifyingRatePercent
+                                ,MidQualifyingRateFee
+                                ,NonQualifyingRatePercent
+                                ,NonQualifyingRateFee
+                                ,AnnualFee
+                                ,ApplicationFee
+                                ,MerchantClub
+                                ,MaintenanceFee
+                                ,GiftCardTransFeeLocal
+                                ,GiftCardTransFee800
+                                ,GiftCardAchFee
+                                ,GiftCardStatementFee
+                                ,CallCardTransFeeLocal
+                                ,CallCardAchFee
+                                ,CallCardStatementFee
+                                ,CallCardCommissionPercent
+                                ,InternetTransFee
+                                ,InternetGatewayFee
+                                ,InternetHostingFee
+                                ,InternetDesignFeeHr
+                                ,InternetShoppingCartFee
+                                ,InternetMonthlyFee
+                                ,LoyaltyTransactionFeeLocal
+                                ,LoyaltyTransFee800
+                                ,LoyaltyAchFee
+                                ,LoyaltyStatementFee
+                                ,PrivateCardDesignFee
+                                ,PrivateCardCostHr
+                                ,VisaIFAPercent
+                                ,VisaIFAFee
+                                ,MasterCardIFAPercent
+                                ,MasterCardIFAFee
+                                ,WirelessStmntFee
+                                ,EffectiveDate
+                                ,LastUpdatedBy
+                                ,LastUpdated
+                                ,GiftCardPerTransFee
+                                ,AmexDiscApprovedFee
+                                ,AmexDiscActivationFee
+                                ,AmexDiscMemberFee
+                                ,discoverDiscRate
+                                ,GiftCardReturnItemFee
+                                ,SVTransFeeActivate
+                                ,SVTransFeeRecharge
+                                ,SVTransFeeReturn
+                                ,SVTransFeeSales
+                                ,SVTransFeeBalInq
+                                ,SVTransFeeDeclines
+                                ,SuppressNmcIntFees
+                                ,GatewayFee
+                                ,MFServiceFee
+                                ,WirelessServiceFee
+                                ,WirelessPerTrans
+                                ,VerisignServiceFee
+                                ,VerisignPerTrans
+                                ,vmcDiscountReserve
+                                ,ReservePercent
+                                ,PCIFee
+                                ,InterchangePlus
+                                ,InterchangePerItem
+                                ,CheckCardDiscountRate
+                                ,CheckCardTransFee
+                                ,GatewayMonthlyFee
+                                ,GatewayTransFee
+                                ,GatewaySetupFee
+                                ,FraudXPTransFee
+                                ,FraudXPMonthlyFee
+                                ,FraudXPSetupFee
+                                ,DebitDiscount
+                                ,UpfrontReserve
+                                ,CBMSMonthly1
+                                ,CBMSMonthly2
+                                ,CBMSSetupFee
+                                ,OtherFeeAmount3
+                                ,OtherFeeAmount4
+                                ,VRUARUFee
+                                ,EarlyTerminationFee
+                                ,PricingTypeID
+                                ,CheckCardMCPercent
+                                ,CheckCardDiscPercent
+                                ,CBMSPlusMerchantCosts
+                                ,AdvReportMonthly
+                                ,QuickBooksMonthly
+                                ,RegulatoryFee
+                                ,ACHGuardTransFee
+                                ,ACHGuardMonthlyFee
+                                ,ACHGuardSetupFee
+                                ,AUTransFee
+                                ,AUTransFeePercent
+                                ,AUMonthlyFee
+                                ,AUSetupFee
+                                ,ACHGuardTransFeePercent
+                                ,GeneralInvoice
+                                ,SourceFeeID
+                                ,CBInsuFee
+                                ,PCIInsuFee
+                                ,PCINonComply
+                                --,ACHReturnFee
+                                ,BACSReturnFee
+                                ,BACSTransFee
+                                ,EFTReturnFee
+                                ,EFTTransFee
+                                ,PaymentReturnFee
+                                ,PaymentTransFee
+                                ,WIREReturnFee
+                                ,WIRETransFee
+                                ,GatewayMonthlyWaived
+                                ,GatewayTransWaived
+                                ,GatewaySetupWaived
+                                ,FraudXPTransWaived
+                                ,FraudXPMonthlyWaived
+                                ,FraudXPSetupWaived
+                                ,CBMSMonthly1Waived
+                                ,CBMSMonthly2Waived
+                                ,CBMSSetupWaived
+                                ,AUTransWaived
+                                ,AUTransPercentWaived
+                                ,AUMonthlyWaived
+                                ,AUSetupWaived
+                                ,CBMSPlusAlertWaived
+                                ,WirelessPerTransWaived
+                                ,WirelessServiceWaived
+                                ,WirelessStmntWaived
+                                ,IntAssessment
+                                ,DuesAssessment
+                                ,EarlyTerminationWaived
+                                ,MonthlyMinimumFeeTypeID
+                                ,StatementFeeWaived
+                                ,MonthlyMinimumFeeWaived
+                                ,CBInsuFeeWaived
+                                ,PCIInsuFeeWaived
+                                ,PCINonComplyWaived
+                                ,GeneralInvoiceCurrency
+                                ,HighRiskMonitoringFee
+                                ,UserCreated
+                                ,DateCreated)
+                    SELECT NEWID()      AS UID
+                          ,@NewUID      AS MerchantAppsUID
+                          ,SuppressNetworkFees
+                          ,SuppressACHFees
+                          ,AtmMthlyAccFee
+                          ,AtmTransFee
+                          ,AtmCashBackFee
+                          ,AtmMaxDollarFee
+                          ,AtmSurchargeFee
+                          ,EBTCashBackMax
+                          ,EBTTransFee
+                          ,DebitTransFee
+                          ,DebitAccessFee
+                          ,DebitMonthlyFee
+                          ,DebitCashBackMax
+                          ,ErrVisaDiscountRate
+                          ,ErrVisaNonQualRate
+                          ,ErrMCDiscountRate
+                          ,ErrMCNonQualRate
+                          ,PetroleumWEXTransFee
+                          ,PetroleumVoyagerTransFee
+                          ,VisaDiscountPercent
+                          ,VisaTransFee
+                          ,MCDiscountPercent
+                          ,MCTransFee
+                          ,AmexTransFee
+                          ,DiscoverTransFee
+                          ,JCBTransFee
+                          ,OtherFeeAmount1
+                          ,OtherFeeAmount2
+                          ,MonthlyVolumeBudget
+                          ,MonthlyVolumeActual
+                          ,AverageTicketBudget
+                          ,AverageTicketActual
+                          ,ACHBatchFee
+                          ,VoiceAuthFee
+                          ,AvsVoiceAuthFee
+                          ,AvsFee
+                          ,ChargeBackFee
+                          ,RetrievalRequestFee
+                          ,ReturnItemFee
+                          ,MonthlyMinimumFee
+                          ,StatementFee
+                          ,CustomizedStmtSetupFee
+                          ,CustomizedStmtMonthlyFee
+                          ,MidQualifyingRatePercent
+                          ,MidQualifyingRateFee
+                          ,NonQualifyingRatePercent
+                          ,NonQualifyingRateFee
+                          ,AnnualFee
+                          ,ApplicationFee
+                          ,MerchantClub
+                          ,MaintenanceFee
+                          ,GiftCardTransFeeLocal
+                          ,GiftCardTransFee800
+                          ,GiftCardAchFee
+                          ,GiftCardStatementFee
+                          ,CallCardTransFeeLocal
+                          ,CallCardAchFee
+                          ,CallCardStatementFee
+                          ,CallCardCommissionPercent
+                          ,InternetTransFee
+                          ,InternetGatewayFee
+                          ,InternetHostingFee
+                          ,InternetDesignFeeHr
+                          ,InternetShoppingCartFee
+                          ,InternetMonthlyFee
+                          ,LoyaltyTransactionFeeLocal
+                          ,LoyaltyTransFee800
+                          ,LoyaltyAchFee
+                          ,LoyaltyStatementFee
+                          ,PrivateCardDesignFee
+                          ,PrivateCardCostHr
+                          ,VisaIFAPercent
+                          ,VisaIFAFee
+                          ,MasterCardIFAPercent
+                          ,MasterCardIFAFee
+                          ,WirelessStmntFee
+                          ,EffectiveDate
+                          ,LastUpdatedBy
+                          ,LastUpdated
+                          ,GiftCardPerTransFee
+                          ,AmexDiscApprovedFee
+                          ,AmexDiscActivationFee
+                          ,AmexDiscMemberFee
+                          ,discoverDiscRate
+                          ,GiftCardReturnItemFee
+                          ,SVTransFeeActivate
+                          ,SVTransFeeRecharge
+                          ,SVTransFeeReturn
+                          ,SVTransFeeSales
+                          ,SVTransFeeBalInq
+                          ,SVTransFeeDeclines
+                          ,SuppressNmcIntFees
+                          ,GatewayFee
+                          ,MFServiceFee
+                          ,WirelessServiceFee
+                          ,WirelessPerTrans
+                          ,VerisignServiceFee
+                          ,VerisignPerTrans
+                          ,vmcDiscountReserve
+                          ,ReservePercent
+                          ,PCIFee
+                          ,InterchangePlus
+                          ,InterchangePerItem
+                          ,CheckCardDiscountRate
+                          ,CheckCardTransFee
+                          ,GatewayMonthlyFee
+                          ,GatewayTransFee
+                          ,GatewaySetupFee
+                          ,FraudXPTransFee
+                          ,FraudXPMonthlyFee
+                          ,FraudXPSetupFee
+                          ,DebitDiscount
+                          ,UpfrontReserve
+                          ,CBMSMonthly1
+                          ,CBMSMonthly2
+                          ,CBMSSetupFee
+                          ,OtherFeeAmount3
+                          ,OtherFeeAmount4
+                          ,VRUARUFee
+                          ,EarlyTerminationFee
+                          ,PricingTypeID
+                          ,CheckCardMCPercent
+                          ,CheckCardDiscPercent
+                          ,CBMSPlusMerchantCosts
+                          ,AdvReportMonthly
+                          ,QuickBooksMonthly
+                          ,RegulatoryFee
+                          ,ACHGuardTransFee
+                          ,ACHGuardMonthlyFee
+                          ,ACHGuardSetupFee
+                          ,AUTransFee
+                          ,AUTransFeePercent
+                          ,AUMonthlyFee
+                          ,AUSetupFee
+                          ,ACHGuardTransFeePercent
+                          ,GeneralInvoice
+                          ,SourceFeeID
+                          ,CBInsuFee
+                          ,PCIInsuFee
+                          ,PCINonComply
+                          --,ACHReturnFee
+                          ,BACSReturnFee
+                          ,BACSTransFee
+                          ,EFTReturnFee
+                          ,EFTTransFee
+                          ,PaymentReturnFee
+                          ,PaymentTransFee
+                          ,WIREReturnFee
+                          ,WIRETransFee
+                          ,GatewayMonthlyWaived
+                          ,GatewayTransWaived
+                          ,GatewaySetupWaived
+                          ,FraudXPTransWaived
+                          ,FraudXPMonthlyWaived
+                          ,FraudXPSetupWaived
+                          ,CBMSMonthly1Waived
+                          ,CBMSMonthly2Waived
+                          ,CBMSSetupWaived
+                          ,AUTransWaived
+                          ,AUTransPercentWaived
+                          ,AUMonthlyWaived
+                          ,AUSetupWaived
+                          ,CBMSPlusAlertWaived
+                          ,WirelessPerTransWaived
+                          ,WirelessServiceWaived
+                          ,WirelessStmntWaived
+                          ,IntAssessment
+                          ,DuesAssessment
+                          ,EarlyTerminationWaived
+                          ,MonthlyMinimumFeeTypeID
+                          ,StatementFeeWaived
+                          ,MonthlyMinimumFeeWaived
+                          ,CBInsuFeeWaived
+                          ,PCIInsuFeeWaived
+                          ,PCINonComplyWaived
+                          ,GeneralInvoiceCurrency
+                          ,HighRiskMonitoringFee
+                          ,@UserCreated AS UserCreated
+                          ,GETDATE()    AS DateCreated
+                    FROM   dbo.MerchantFees WITH (nolock)
+                    WHERE  MerchantAppsUID = @SourceUID
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO dbo.MerchantFeesCard
+                                (ZID
+                                ,CardTypeID
+                                ,AccountTypeID
+                                ,PricingTypeID
+                                ,BatchTypeID
+                                ,DiscountQual
+                                ,DiscountMidQual
+                                ,DiscountNonQual
+                                --,Reserve
+                                ,AuthApproved
+                                ,AuthReversal
+                                ,FailedRequests
+                                ,TDSEnrollments
+                                ,SettlementCompletedQual
+                                ,SettlementCompletedMidQual
+                                ,SettlementCompletedNonQual
+                                ,SettlementCancelled
+                                ,CreditCompleted
+                                ,CreditCancelled
+                                ,PaymentCompleted
+                                ,PaymentCancelled
+                                ,PaymentDeclined
+                                ,Chargebacks
+                                ,Reversal
+                                ,Retrieval
+                                ,UncollectedInsurance
+                                ,MisUseAuth
+                                ,DateCreated
+                                ,UserCreated
+                                ,DateUpdated
+                                ,UserUpdated
+                                ,PreAuthRate
+                                ,PreAuthMinimum
+                                ,MisUseOfFinalAuthRate
+                                ,MisUseOfFinalAuthMinimum
+                                ,TransactionFeeTypeID
+                                ,UncollectInsuranceFeeInd
+                                ,CreditInterchangeCost)
+                    SELECT @NewZID      AS ZID
+                          ,CardTypeID
+                          ,AccountTypeID
+                          ,PricingTypeID
+                          ,BatchTypeID
+                          ,DiscountQual
+                          ,DiscountMidQual
+                          ,DiscountNonQual
+                          --,Reserve
+                          ,AuthApproved
+                          ,AuthReversal
+                          ,FailedRequests
+                          ,TDSEnrollments
+                          ,SettlementCompletedQual
+                          ,SettlementCompletedMidQual
+                          ,SettlementCompletedNonQual
+                          ,SettlementCancelled
+                          ,CreditCompleted
+                          ,CreditCancelled
+                          ,PaymentCompleted
+                          ,PaymentCancelled
+                          ,PaymentDeclined
+                          ,Chargebacks
+                          ,Reversal
+                          ,Retrieval
+                          ,UncollectedInsurance
+                          ,MisUseAuth
+                          ,GETDATE()    AS DateCreated
+                          ,@UserCreated AS UserCreated
+                          ,NULL         AS DateUpdated
+                          ,NULL         AS UserUpdated
+                          ,PreAuthRate
+                          ,PreAuthMinimum
+                          ,MisUseOfFinalAuthRate
+                          ,MisUseOfFinalAuthMinimum
+                          ,TransactionFeeTypeID
+                          ,UncollectInsuranceFeeInd
+                          ,CreditInterchangeCost
+                    FROM   dbo.MerchantFeesCard WITH (nolock)
+                    WHERE  ZID = @SourceZID
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO dbo.Ownerships
+                                (UID
+                                ,MerchantAppsUID
+                                ,OwnershipType
+                                ,ChangeOfOwnership
+                                ,FullName
+                                ,LastName
+                                ,FirstName
+                                ,MiddleName
+                                ,SSN
+                                ,DOB
+                                ,Title
+                                ,PercentOwnership
+                                ,DriversLicense
+                                ,DriversLicenseState
+                                ,DriversLicenseExp
+                                ,OwnProperty
+                                ,RentProperty
+                                ,HowLongYrs
+                                ,HowLongMths
+                                ,Address1
+                                ,Address2
+                                ,City
+                                ,County
+                                ,[State]
+                                ,Zip
+                                ,HomePhone
+                                ,BusPhone
+                                ,BusPhoneExt
+                                ,CellPhone
+                                ,Fax
+                                ,Email
+                                ,Position
+                                ,NameAddressSSNSummary
+                                ,NameAddressPhoneSummary
+                                ,MATCH
+                                ,CreditScore
+                                ,UserCreated
+                                ,DateCreated
+                                ,UserUpdated
+                                ,DateUpdated
+                                ,TradeStatus
+                                ,NoofTrades
+                                ,OldestTrade
+                                ,CreditDate
+                                ,Inquiry
+                                ,TCreditScore
+                                ,TTradeStatus
+                                ,TNoofTrades
+                                ,TOldestTrade
+                                ,TCreditDate
+                                ,Country
+                                ,PassportNumber
+                                ,IDCardNumber
+                                ,IDNationality
+                                ,HomePhoneCountryCode
+                                ,HomePhoneExt
+                                ,Gender
+                                ,IDBusinessTax
+                                ,Prefix
+                                ,CellPhoneCountryCode
+                                ,CellPhoneExt
+                                ,Suffix
+                                ,BusPhoneCountryCode
+                                ,BeneficialOwner
+                                ,AuthorizedSignature
+                                ,CBRWaived
+                                ,TaxID
+                                ,OwnerCategoryID)
+                    SELECT NEWID()      AS UID
+                          ,@NewUID      AS MerchantAppsUID
+                          ,OwnershipType
+                          ,ChangeOfOwnership
+                          ,FullName
+                          ,LastName
+                          ,FirstName
+                          ,MiddleName
+                          ,SSN
+                          ,DOB
+                          ,Title
+                          ,PercentOwnership
+                          ,DriversLicense
+                          ,DriversLicenseState
+                          ,DriversLicenseExp
+                          ,OwnProperty
+                          ,RentProperty
+                          ,HowLongYrs
+                          ,HowLongMths
+                          ,Address1
+                          ,Address2
+                          ,City
+                          ,County
+                          ,[State]
+                          ,Zip
+                          ,HomePhone
+                          ,BusPhone
+                          ,BusPhoneExt
+                          ,CellPhone
+                          ,Fax
+                          ,Email
+                          ,Position
+                          ,NameAddressSSNSummary
+                          ,NameAddressPhoneSummary
+                          ,MATCH
+                          ,CreditScore
+                          ,@UserCreated AS UserCreated
+                          ,GETDATE()    AS DateCreated
+                          ,NULL         AS UserUpdated
+                          ,NULL         AS DateUpdated
+                          ,TradeStatus
+                          ,NoofTrades
+                          ,OldestTrade
+                          ,CreditDate
+                          ,Inquiry
+                          ,TCreditScore
+                          ,TTradeStatus
+                          ,TNoofTrades
+                          ,TOldestTrade
+                          ,TCreditDate
+                          ,Country
+                          ,PassportNumber
+                          ,IDCardNumber
+                          ,IDNationality
+                          ,HomePhoneCountryCode
+                          ,HomePhoneExt
+                          ,Gender
+                          ,IDBusinessTax
+                          ,Prefix
+                          ,CellPhoneCountryCode
+                          ,CellPhoneExt
+                          ,Suffix
+                          ,BusPhoneCountryCode
+                          ,BeneficialOwner
+                          ,AuthorizedSignature
+                          ,CBRWaived
+                          ,TaxID
+                          ,OwnerCategoryID
+                    FROM   dbo.Ownerships WITH (nolock)
+                    WHERE  MerchantAppsUID = @SourceUID
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO dbo.TradeReferences
+                                (UID
+                                ,MerchantAppsUID
+                                ,VendorName
+                                ,AccountNumber
+                                ,ContactName
+                                ,PhoneNumber
+                                ,Position
+                                ,UserCreated
+                                ,DateCreated
+                                ,UserUpdated
+                                ,DateUpdated
+                                ,[Address]
+                                ,PhoneNumberCountryCode
+                                ,PhoneNumberExt)
+                    SELECT NEWID()      AS UID
+                          ,@NewUID      AS MerchantAppsUID
+                          ,VendorName
+                          ,AccountNumber
+                          ,ContactName
+                          ,PhoneNumber
+                          ,Position
+                          ,@UserCreated AS UserCreated
+                          ,GETDATE()    AS DateCreated
+                          ,NULL         AS UserUpdated
+                          ,NULL         AS DateUpdated
+                          ,[Address]
+                          ,PhoneNumberCountryCode
+                          ,PhoneNumberExt
+                    FROM   dbo.TradeReferences WITH (nolock)
+                    WHERE  MerchantAppsUID = @SourceUID
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO dbo.MerchantAccountGroup
+                                (ZID
+                                ,AccountGroupID
+                                ,DateCreated
+                                ,UserCreated)
+                    SELECT @NewZID      AS ZID
+                          ,AccountGroupID
+                          ,GETDATE()    AS DateCreated
+                          ,@UserCreated AS UserCreated
+                    FROM   dbo.MerchantAccountGroup WITH (nolock)
+                    WHERE  ZID = @SourceZID
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO TransDB.dbo.MerchantApps
+                                (UID
+                                ,ID
+                                ,MerchantKey
+                                ,AuthPlatformUID
+                                ,AuthPlatformMID
+                                ,SettlePlatformUID
+                                ,SettlePlatformMID
+                                ,SettlePlatformTermID
+                                ,SicCode
+                                ,StatusUID
+                                ,GatewayModeUID
+                                ,HostUserName
+                                ,HostPassword
+                                ,BusinessDBAName
+                                ,BusinessLegalName
+                                ,BusinessAddress
+                                ,BusinessZip
+                                ,BusinessCity
+                                ,BusinessState
+                                ,BusinessDBAPhone
+                                ,TinfoHighestTicketAmount
+                                ,TinfoAverageMonthlyVMCVolume
+                                ,TinfoAverageVMCTicket
+                                ,GatewayAllowCC
+                                ,AllowBlindCredits
+                                ,AVSDeclineCodes
+                                ,CVVDeclineCodes
+                                ,VelocityCheck
+                                ,MerchantPin
+                                ,IsPrepaidCard
+                                ,DuplicateCheck
+                                ,DuplicateThreshold
+                                ,OverrideDuplicateCheck
+                                ,OverrideRequiredFields
+                                ,OverrideAVS
+                                ,OverrideCVV2
+                                ,AgentUID
+                                ,ParentID
+                                ,GatewayAllowACH
+                                ,TID
+                                ,SettlementSchedule
+                                ,URLReferrer
+                                ,URLReferrerValidate
+                                ,HostIPAddress
+                                ,HostIPAddressValidate
+                                ,URLPostback
+                                ,MeritusDeclineRule
+                                ,ShowMeritusDeclineRule
+                                ,ReceiptEmailCustomer
+                                ,ReceiptEmailMerchant
+                                ,BusinessEmailAddress
+                                ,AmericanExpress
+                                ,DiscoverNovus
+                                ,Diners
+                                ,Jcb
+                                ,ACH
+                                ,MasterCard
+                                ,Visa
+                                ,DeviceDeclineCodes
+                                ,EnableDuplicateDeviceThreshold
+                                ,DuplicateDeviceThreshold
+                                ,DeviceCheckOptions
+                                ,HighTicketDeviceThreshold
+                                ,HighTicketDeviceCheck
+                                ,EnableDeviceCheck
+                                ,EnableHighTicketDeviceCheck
+                                ,EnableCountryBINBlock
+                                ,IPGeoCheckOptions
+                                ,CountryNoMatch
+                                ,HighRiskCountry
+                                ,AnonymousProxy
+                                ,TransProxy
+                                ,FreeEmail
+                                ,CarderEmail
+                                ,HighRiskUserName
+                                ,HighRiskPassword
+                                ,CustPhoneInBillingLocOptions
+                                ,ShipForwardOptions
+                                ,CityPostalNoMatch
+                                ,ShipCityPostalNoMatch
+                                ,Score
+                                ,RiskScore
+                                ,ProxyScore
+                                ,HighTicketIPGeoThreshold
+                                ,EnableCountryIPBlock
+                                ,Classification
+                                ,EnableDuplicateIPThreshold
+                                ,DuplicateIPThreshold
+                                ,EnableIPBlocking
+                                ,EnableCardNumberBlocking
+                                ,EnableWebsiteMonitoring
+                                ,TCID
+                                ,EnableDeviceBlocking
+                                ,TransAmt
+                                ,DailyTransAmt
+                                ,DailyTransCnt
+                                ,WeeklyTransAmt
+                                ,WeeklyTransCnt
+                                ,IPDistance
+                                ,FraudXPSubscribedBy
+                                ,FraudXPSubscriberDate
+                                ,FraudXPOn
+                                ,PrivateLabelUID
+                                ,AllowCredits
+                                ,AllowSales
+                                ,URLSilentPost
+                                ,SearchField
+                                ,Maestro
+                                ,Tsys_MerchantNumber
+                                ,Tsys_AcquirerBin
+                                ,Tsys_StoreNumber
+                                ,Tsys_LocationNumber
+                                ,Tsys_TerminalNumber
+                                ,Tsys_AgentBank
+                                ,Tsys_AgentChain
+                                ,GatewayAllowPayPal
+                                ,PayPalEmail
+                                ,PayPalPermToken
+                                ,AllowTips
+                                ,AllowDescriptorOverride
+                                ,BusinessCountry
+                                ,CustomerServicePhone
+                                ,BusinessAddressLine2
+                                ,CustomerServicePhoneCountryCode
+                                ,CustomerServicePhoneExt
+                                ,BusinessDBAPhoneCountryCode
+                                ,BusinessDBAPhoneExt
+                                ,BusinessFaxCountryCode
+                                ,BusinessFaxExt
+                                ,TinfoOffPremisePercent
+                                ,TinfoTradeShowPercent
+                                ,TinfoOtherPercent
+                                ,Specify
+                                ,VisaSicCode
+								,NashvilleAPIVersion)
+                    SELECT @NewUID         AS UID
+                          ,@NewZID         AS ID
+                          ,@NewMerchantKey AS MerchantKey
+                          ,AuthPlatformUID
+                          ,AuthPlatformMID
+                          ,SettlePlatformUID
+                          ,SettlePlatformMID
+                          ,SettlePlatformTermID
+                          ,SicCode
+                          ,StatusUID
+                          ,GatewayModeUID
+                          ,HostUserName
+                          ,HostPassword
+                          ,BusinessDBAName
+                          ,BusinessLegalName
+                          ,BusinessAddress
+                          ,BusinessZip
+                          ,BusinessCity
+                          ,BusinessState
+                          ,BusinessDBAPhone
+                          ,TinfoHighestTicketAmount
+                          ,TinfoAverageMonthlyVMCVolume
+                          ,TinfoAverageVMCTicket
+                          ,GatewayAllowCC
+                          ,AllowBlindCredits
+                          ,AVSDeclineCodes
+                          ,CVVDeclineCodes
+                          ,VelocityCheck
+                          ,MerchantPin
+                          ,IsPrepaidCard
+                          ,DuplicateCheck
+                          ,DuplicateThreshold
+                          ,OverrideDuplicateCheck
+                          ,OverrideRequiredFields
+                          ,OverrideAVS
+                          ,OverrideCVV2
+                          ,AgentUID
+                          ,ParentID
+                          ,GatewayAllowACH
+                          ,TID
+                          ,SettlementSchedule
+                          ,URLReferrer
+                          ,URLReferrerValidate
+                          ,HostIPAddress
+                          ,HostIPAddressValidate
+                          ,URLPostback
+                          ,MeritusDeclineRule
+                          ,ShowMeritusDeclineRule
+                          ,ReceiptEmailCustomer
+                          ,ReceiptEmailMerchant
+                          ,BusinessEmailAddress
+                          ,AmericanExpress
+                          ,DiscoverNovus
+                          ,Diners
+                          ,Jcb
+                          ,ACH
+                          ,MasterCard
+                          ,Visa
+                          ,DeviceDeclineCodes
+                          ,EnableDuplicateDeviceThreshold
+                          ,DuplicateDeviceThreshold
+                          ,DeviceCheckOptions
+                          ,HighTicketDeviceThreshold
+                          ,HighTicketDeviceCheck
+                          ,EnableDeviceCheck
+                          ,EnableHighTicketDeviceCheck
+                          ,EnableCountryBINBlock
+                          ,IPGeoCheckOptions
+                          ,CountryNoMatch
+                          ,HighRiskCountry
+                          ,AnonymousProxy
+                          ,TransProxy
+                          ,FreeEmail
+                          ,CarderEmail
+                          ,HighRiskUserName
+                          ,HighRiskPassword
+                          ,CustPhoneInBillingLocOptions
+                          ,ShipForwardOptions
+                          ,CityPostalNoMatch
+                          ,ShipCityPostalNoMatch
+                          ,Score
+                          ,RiskScore
+                          ,ProxyScore
+                          ,HighTicketIPGeoThreshold
+                          ,EnableCountryIPBlock
+                          ,Classification
+                          ,EnableDuplicateIPThreshold
+                          ,DuplicateIPThreshold
+                          ,EnableIPBlocking
+                          ,EnableCardNumberBlocking
+                          ,EnableWebsiteMonitoring
+                          ,TCID
+                          ,EnableDeviceBlocking
+                          ,TransAmt
+                          ,DailyTransAmt
+                          ,DailyTransCnt
+                          ,WeeklyTransAmt
+                          ,WeeklyTransCnt
+                          ,IPDistance
+                          ,FraudXPSubscribedBy
+                          ,FraudXPSubscriberDate
+                          ,FraudXPOn
+                          ,PrivateLabelUID
+                          ,AllowCredits
+                          ,AllowSales
+                          ,URLSilentPost
+                          ,SearchField
+                          ,Maestro
+                          ,Tsys_MerchantNumber
+                          ,Tsys_AcquirerBin
+                          ,Tsys_StoreNumber
+                          ,Tsys_LocationNumber
+                          ,Tsys_TerminalNumber
+                          ,Tsys_AgentBank
+                          ,Tsys_AgentChain
+                          ,GatewayAllowPayPal
+                          ,PayPalEmail
+                          ,PayPalPermToken
+                          ,AllowTips
+                          ,AllowDescriptorOverride
+                          ,BusinessCountry
+                          ,CustomerServicePhone
+                          ,BusinessAddressLine2
+                          ,CustomerServicePhoneCountryCode
+                          ,CustomerServicePhoneExt
+                          ,BusinessDBAPhoneCountryCode
+                          ,BusinessDBAPhoneExt
+                          ,BusinessFaxCountryCode
+                          ,BusinessFaxExt
+                          ,TinfoOffPremisePercent
+                          ,TinfoTradeShowPercent
+                          ,TinfoOtherPercent
+                          ,Specify
+                          ,VisaSicCode
+						  ,NashvilleAPIVersion
+                    FROM   TransDB.dbo.MerchantApps WITH (nolock)
+                    WHERE  ID = @SourceZID
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO TransDB.dbo.MerchantRiskParameters
+                                (UID
+                                ,MerchantAppUID
+                                ,RiskID
+                                ,[Enable]
+                                ,Threshold
+                                ,UserUpdated
+                                ,DateUpdated)
+                    SELECT NEWID()      AS UID
+                          ,@NewUID      AS MerchantAppUID
+                          ,RiskID
+                          ,[Enable]
+                          ,Threshold
+                          ,@UserCreated AS UserUpdated
+                          ,GETDATE()    AS DateUpdated
+                    FROM   TransDB.dbo.MerchantRiskParameters WITH (nolock)
+                    WHERE  MerchantAppUID = @SourceUID
+                END
+
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO TransDB.dbo.GatewayPageSetting
+                                (GatewayPageFieldMappingID
+                                ,SourceID
+                                ,IsRequire
+                                ,OverrideFieldName
+                                ,DateCreated
+                                ,UserCreated
+                                ,DateModified
+                                ,UserModified
+                                ,DefaultValue
+                                ,IsDisplay)
+                    SELECT GatewayPageFieldMappingID
+                          ,@NewZID      AS SourceID
+                          ,IsRequire
+                          ,OverrideFieldName
+                          ,GETDATE()    AS DateCreated
+                          ,@UserCreated AS UserCreated
+                          ,NULL         AS DateModified
+                          ,NULL         AS UserModified
+                          ,DefaultValue
+                          ,IsDisplay
+                    FROM   TransDB.dbo.GatewayPageSetting WITH (nolock)
+                    WHERE  SourceID = @SourceZID
+                END
+
+            --AKT: START
+            IF @@ERROR = 0
+                BEGIN
+                    INSERT INTO dbo.MerchantFulfillment
+                                (ZID
+                                ,Period1Volume
+                                ,Period2Volume
+                                ,Period3Volume
+                                ,Period1NDXDays
+                                ,Period2NDXDays
+                                ,Period3NDXDays
+                                ,DateCreated
+                                ,UserUpdated)
+                    SELECT @NewZID      AS ZID
+                          ,Period1Volume
+                          ,Period2Volume
+                          ,Period3Volume
+                          ,Period1NDXDays
+                          ,Period2NDXDays
+                          ,Period3NDXDays
+                          ,GETDATE()    AS DateCreated
+                          ,@UserCreated AS UserCreated
+                    FROM   dbo.MerchantFulfillment WITH (nolock)
+                    WHERE  ZID = @SourceZID
+                END
+
+            --AKT: END
+            EXEC dbo.sp_InsertCopyMerchantContact
+                @CopyMerchantID = @SourceZID,
+                @NewMerchantID  = @NewZID
+
+
+
+            --Deployment Notes
+            INSERT INTO dbo.Note
+                        (SourceID
+                        ,NoteTypeID
+                        ,Note
+                        ,UserCreated
+                        ,DateCreated
+                        ,UserModified
+                        ,DateModified)
+            SELECT @NewZID AS SourceID
+                  ,NoteTypeID
+                  ,Note
+                  ,UserCreated
+                  ,DateCreated
+                  ,UserModified
+                  ,DateModified
+            FROM   dbo.Note n WITH (nolock)
+            WHERE  n.SourceID = @SourceZID
+                   AND n.NoteTypeID = 4
+
+            CREATE TABLE #Temp
+            (
+                 OldZID INT
+                ,NewZID INT
+            )
+
+            INSERT INTO #Temp
+            VALUES      (@SourceZID
+                        ,@NewZID)
+
+            INSERT INTO dbo.MerchantAppItem
+                        (UID
+                        ,MerchantAppsUID
+                        ,ItemsUID
+                        ,TerminalKey
+                        ,TerminalStatusUID
+                        ,EquipmentProviderUID
+                        ,TerminalDownloadContactUID
+                        ,TerminalOwnershipTypeUID
+                        ,TerminalFrequencyPaymentUID
+                        ,TerminalShippingsUID
+                        ,TerminalNumber
+                        ,ApplicationID
+                        ,DownloadNumber
+                        ,DownloadNumberPhone
+                        ,SerialNumber
+                        ,DeviceID
+                        ,PaymentAmount
+                        ,DateShipped
+                        ,ShippingTrackingNumber
+                        ,ShippingCost
+                        ,SpecialInstructions
+                        ,AuthPlatformTermNo
+                        ,TerminalTypeBuypassUID
+                        ,PosConditionCode
+                        ,PosConditionCodeDebit
+                        ,DateCreated
+                        ,UserCreated
+                        ,DateUpdated
+                        ,UserUpdated
+                        ,IsEnabled
+                        ,EMVCompliance
+                        ,DeployTypeID)
+            SELECT NEWID()   AS UID
+                  ,ma.UID    AS MerchantAppsUID
+                  ,ItemsUID
+                  ,TerminalKey
+                  ,TerminalStatusUID
+                  ,EquipmentProviderUID
+                  ,TerminalDownloadContactUID
+                  ,TerminalOwnershipTypeUID
+                  ,TerminalFrequencyPaymentUID
+                  ,TerminalShippingsUID
+                  ,TerminalNumber
+                  ,ApplicationID
+                  ,DownloadNumber
+                  ,DownloadNumberPhone
+                  ,SerialNumber
+                  ,DeviceID
+                  ,PaymentAmount
+                  ,DateShipped
+                  ,ShippingTrackingNumber
+                  ,ShippingCost
+                  ,SpecialInstructions
+                  ,AuthPlatformTermNo
+                  ,TerminalTypeBuypassUID
+                  ,PosConditionCode
+                  ,PosConditionCodeDebit
+                  ,GETDATE() AS DateCreated
+                  ,'sys'     AS UserCreated
+                  ,m.DateUpdated
+                  ,m.UserUpdated
+                  ,IsEnabled
+                  ,m.EMVCompliance
+                  ,m.DeployTypeID
+            FROM   #Temp t
+                   INNER JOIN dbo.MerchantApps old WITH (nolock) ON t.oldzid = old.id
+                   INNER JOIN dbo.MerchantAppItem m WITH (nolock) ON old.UID = m.MerchantAppsUID
+                   INNER JOIN dbo.MerchantApps ma WITH (nolock) ON t.NewZID = ma.ID
+
+            --Credit->Product Required			
+            INSERT INTO dbo.MerchantAppSevices
+                        (UID
+                        ,MerchantAppUID
+                        ,MerchantServiceUID
+                        ,Checked
+                        ,[Description]
+                        ,DateCreated
+                        ,UserCreated
+                        ,DateUpdated
+                        ,UserUpdated)
+            SELECT NEWID() AS UID
+                  ,@NewUID AS MerchantAppUID
+                  ,MerchantServiceUID
+                  ,Checked
+                  ,[Description]
+                  ,DateCreated
+                  ,UserCreated
+                  ,DateUpdated
+                  ,UserUpdated
+            FROM   dbo.MerchantAppSevices WITH (nolock)
+            WHERE  MerchantAppUID = @SourceUID
+
+
+            DECLARE @IsRolloverAccount BIT
+
+            SELECT @IsRolloverAccount = IsRolloverAccount
+            FROM   dbo.MerchantApps m WITH (nolock)
+            WHERE  ID = @SourceZID
+
+            IF @IsRolloverAccount = 1
+                BEGIN
+                    --Special Request
+                    INSERT INTO dbo.Note
+                                (SourceID
+                                ,NoteTypeID
+                                ,Note
+                                ,UserCreated
+                                ,DateCreated
+                                ,UserModified
+                                ,DateModified)
+                    SELECT @NewZID AS SourceID
+                          ,NoteTypeID
+                          ,Note
+                          ,UserCreated
+                          ,DateCreated
+                          ,UserModified
+                          ,DateModified
+                    FROM   dbo.Note n WITH (nolock)
+                    WHERE  n.SourceID = @SourceZID
+                           AND n.NoteTypeID = 5
+
+                    INSERT INTO dbo.MerchantVerticalMarket
+                                (MerchantID
+                                ,VerticalMarketID
+                                ,UserID
+                                ,DateCreated)
+                    SELECT @NewZID AS MerchantID
+                          ,VerticalMarketID
+                          ,UserID
+                          ,DateCreated
+                    FROM   dbo.MerchantVerticalMarket WITH (nolock)
+                    WHERE  MerchantID = @SourceZID
+
+                    INSERT INTO dbo.MerchantUWNotes
+                                (UID
+                                ,MerchantAppUID
+                                ,zNotesOld
+                                ,zConditionsEmailBodyOld
+                                ,AllInfoReceived
+                                ,[Type]
+                                ,HardCap
+                                ,HighRiskDescriptor
+                                ,zUWIssuesOld
+                                ,DivertUponBoarding
+                                ,BuyPassIndicator
+                                ,NotifyRiskDept
+                                ,AgentLevel
+                                ,RiskApproval
+                                ,RiskApprovalDate
+                                ,ExecutiveApproval
+                                ,ExecutiveApprovalDate
+                                ,ApprovalRequestedBy
+                                ,ApprovalRequestedOn
+                                ,BusinessStartDate
+                                ,EstimatedDeliveryDays
+                                ,EstimatedReturnDays
+                                ,UpfrontReserve
+                                ,FlagsOffUponBoarding
+                                ,ProductTag
+                                ,HighRiskRegistered
+                                ,PhysicalSiteVisit
+                                ,PhysicalVisitOn
+                                ,UWCBMS
+                                ,PaymentScheduleID
+                                ,PaymentFrequencyID
+                                ,UWIssues
+                                ,ConditionsEmailBody
+                                ,Notes)
+                    SELECT NEWID() AS UID
+                          ,@NewUID AS MerchantAppUID
+                          ,zNotesOld
+                          ,zConditionsEmailBodyOld
+                          ,AllInfoReceived
+                          ,[Type]
+                          ,HardCap
+                          ,HighRiskDescriptor
+                          ,zUWIssuesOld
+                          ,DivertUponBoarding
+                          ,BuyPassIndicator
+                          ,NotifyRiskDept
+                          ,AgentLevel
+                          ,RiskApproval
+                          ,RiskApprovalDate
+                          ,ExecutiveApproval
+                          ,ExecutiveApprovalDate
+                          ,ApprovalRequestedBy
+                          ,ApprovalRequestedOn
+                          ,BusinessStartDate
+                          ,EstimatedDeliveryDays
+                          ,EstimatedReturnDays
+                          ,UpfrontReserve
+                          ,FlagsOffUponBoarding
+                          ,ProductTag
+                          ,HighRiskRegistered
+                          ,PhysicalSiteVisit
+                          ,PhysicalVisitOn
+                          ,UWCBMS
+                          ,PaymentScheduleID
+                          ,PaymentFrequencyID
+                          ,UWIssues
+                          ,ConditionsEmailBody
+                          ,Notes
+                    FROM   dbo.MerchantUWNotes
+                    WHERE  MerchantAppUID = @SourceUID
+
+                    INSERT INTO dbo.MDoc
+                                (MerchantID
+                                ,MerchantAppUID
+                                ,DocTypeID
+                                ,DocName
+                                ,OrigName
+                                ,ContentSize
+                                ,DocDate
+                                ,[Source]
+                                ,ConditionID
+                                ,[Description]
+                                ,PrimaryKeyUID
+                                ,PrimaryKeyID
+                                ,MimeType
+                                ,AgentID
+                                ,AgentUID
+                                ,FSPath
+                                ,IsDeleted
+                                ,IsExisting
+                                ,ApprovalStatusID
+                                ,MessageZeus
+                                ,MessageAgent
+                                ,ApprovalEmailSent
+                                ,MDocSourceID
+                                ,UserCreated)
+                    SELECT ma.ID                                                                                                 AS MerchantID
+                          ,ma.UID                                                                                                AS MerchantAppUID
+                          ,DocTypeID
+                          ,DocName
+                          ,OrigName
+                          ,ContentSize
+                          ,DocDate
+                          ,m.[Source]
+                          ,ConditionID
+                          ,[Description]
+                          ,PrimaryKeyUID
+                          ,PrimaryKeyID
+                          ,MimeType
+                          ,AgentID
+                          ,m.AgentUID
+                          ,REPLACE(FSPath, '\' + CAST(t.OldZID AS VARCHAR(10)) + '\', '\' + CAST(t.NewZID AS VARCHAR(10)) + '\') AS FSPath
+                          ,IsDeleted
+                          ,IsExisting
+                          ,ApprovalStatusID
+                          ,MessageZeus
+                          ,MessageAgent
+                          ,ApprovalEmailSent
+                          ,MDocSourceID
+                          ,m.UserCreated
+                    FROM   #Temp t
+                           INNER JOIN dbo.MDoc m WITH (nolock) ON t.OldZID = m.MerchantID
+                           INNER JOIN dbo.MerchantApps ma WITH (nolock) ON t.NewZID = ma.ID
+                    WHERE  ma.OfficeID = 1--Only for Irvine Office
+
+                    INSERT INTO dbo.MerchantDescriptor
+                                (MerchantID
+                                ,Descriptor
+                                ,MerchantDescriptorTypeID
+                                ,UserCreated
+                                ,DateCreated
+                                ,UserModified
+                                ,DateModified
+                                ,Descriptor2)
+                    SELECT ma.ID     AS MerchantID
+                          ,m.Descriptor
+                          ,m.MerchantDescriptorTypeID
+                          ,'sys'     AS UserCreated
+                          ,GETDATE() AS DateCreated
+                          ,m.UserModified
+                          ,m.DateModified
+                          ,m.Descriptor2
+                    FROM   #Temp t
+                           INNER JOIN dbo.MerchantDescriptor m WITH (nolock) ON t.OldZID = m.MerchantID
+                           INNER JOIN dbo.MerchantApps ma WITH (nolock) ON t.NewZID = ma.ID
+                           LEFT OUTER JOIN MerchantDescriptor z WITH (nolock) ON t.NewZID = z.MerchantID
+                                                                                 AND m.MerchantDescriptorTypeID = z.MerchantDescriptorTypeID
+                    WHERE  z.MerchantDescriptorID IS NULL
+
+                    DROP TABLE #Temp
+                END
+
+            /*
+            DECLARE @NewMerchantKeyAch UNIQUEIDENTIFIER
+            
+            SELECT @NewMerchantKeyAch = NEWID()
+            
+            INSERT INTO Ach.dbo.Ach_Merchants
+            (MerchantID
+            ,GroupID
+            ,BankID
+            ,NechaID
+            ,AchCoName
+            ,AchDescrp
+            ,AchDiscrtn
+            ,Secc
+            ,AllowBlindCredits
+            ,Test
+            ,Reservepct
+            ,ReservePeriod
+            ,HoldPeriod
+            ,ItemFee
+            ,FileLoadFee
+            ,StatementFee
+            ,MonthlyMin
+            ,ReturnFee
+            ,OverDraftFee
+            ,InquiryFee
+            ,AdditionalFiles
+            ,NoStatementLimit
+            ,ISOCommID
+            ,RepCommID
+            ,FileFormatID
+            ,DailyLimitAmount
+            ,OverDailyAmtLimitTransFee
+            ,ItemLimitAmount
+            ,OverItemAmtLimitPCTFee
+            ,OverDailyAmountPct
+            ,Balance
+            ,MonthlyBase
+            ,ProcessFee
+            ,DeclineFee
+            ,LateReturnFee
+            ,ProduceRspFile
+            ,ProduceRtnFile
+            ,OkToProcessPayment
+            ,TransRoute
+            ,AccountNo
+            ,dfiAcctName
+            ,WithdrawTR
+            ,WithdrawAcctNo
+            ,WithdrawFees_AchID
+            ,WithdrawFunds_AchID
+            ,Active
+            ,TxReserve
+            ,SumBatch
+            ,PermRsrvPct
+            ,NoOfDays4Susp
+            ,StopEFTFrom
+            ,CreateHold
+            ,AutoRepresent
+            ,CreateMultiBatch
+            ,SettleBatchRightAway
+            ,MerchantTypeCode
+            ,PaidMultipleParty
+            ,PaidMethod
+            ,MonthlyMax
+            ,ReleaseLimit
+            ,MonthlyTotal
+            ,ItemFeeForPri
+            ,ItemFeeForBroker
+            ,DiscountFeeForPri
+            ,DiscountFeeForBroker
+            ,ReturnFeeForPri
+            ,ReturnFeeForBroker
+            ,Memo1
+            ,Memo2
+            ,Risk_WatchMerchant_Ind
+            ,Risk_SameDDANumber_Ind
+            ,Risk_SameDDANumber_Times
+            ,Risk_NextReviewDate_Ind
+            ,Risk_NextReviewDate_Date
+            ,Risk_NewMerchantDays_Ind
+            ,Risk_NewMerchantDays_Times
+            ,Risk_ItemLimitTicket_Ind
+            ,Risk_ItemLimitTicket_Amount
+            ,Risk_ItemLimitTicket_Times
+            ,Risk_BatchNetCreditAmount_Ind
+            ,Risk_BatchNetCreditAmount_Amount
+            ,Risk_BatchNetCreditAmount_Times
+            ,Risk_MonthlyLimit_Ind
+            ,Risk_MonthlyLimit_Amount
+            ,Risk_MonthlyLimit_Times
+            ,Risk_MonthlyTransactionLimit_Ind
+            ,Risk_MonthlyTransactionLimit_Count
+            ,Risk_MonthlyTransactionLimit_Times
+            ,Risk_BatchNetDollarWeekly_Ind
+            ,Risk_BatchNetDollarWeekly_Amount
+            ,Risk_BatchNetDollarWeekly_Times
+            ,Risk_BatchNetDollar_Ind
+            ,Risk_BatchNetDollar_Amount
+            ,Risk_BatchNetDollar_Times
+            ,Risk_BatchTotalTicket_Ind
+            ,Risk_BatchTotalTicket_Count
+            ,Risk_BatchTotalTicket_Times
+            ,Risk_NegativeBatch_Ind
+            ,Risk_NegativeBatch_Amount
+            ,Risk_NegativeBatch_Times
+            ,Risk_SeasonalMonths_Ind
+            ,Risk_SpecialHandling_Ind
+            ,Email
+            ,AddedBy
+            ,UpdatedBy
+            ,DateAdded
+            ,DateUpdated
+            ,OverrideSECC
+            ,CheckDuplicateTrans
+            ,MerchantKey
+            ,MerchantStatusID
+            ,MonthlyVolume
+            ,AverageTicket
+            ,DSCFeeTransRoute
+            ,DSCFeeAccountNo
+            ,MerchantStatusUID
+            ,SuppressScrubReturnFee
+            ,MerchantAppUID
+            ,LocationID
+            ,AgentUID
+            ,ParentID
+            ,NAICS
+            ,DiscountFeeCompletedPresentment
+            ,DiscountFeeCompletedCredit
+            ,DiscountFeeDeclinedPresentment
+            ,ReseveCompletedPresentment
+            ,CompletedVerify
+            ,CompletedPresentment
+            ,CompletedCredit
+            ,CompletedMandate
+            ,DeclinedVerify
+            ,DeclinedPresentment
+            ,DeclinedCredit
+            ,DeclinedMandate
+            ,ReturnedVerify
+            ,ReturnedPresentment
+            ,ReturnedCredit
+            ,ReturnedMandate
+            ,Chargeback
+            ,CompletedRepresentment
+            ,BacsFileSubmissionFee
+            ,AccountType)
+            SELECT t.NewZID                                AS MerchantID
+            ,OldAch.GroupID
+            ,OldAch.BankID
+            ,OldAch.NechaID
+            ,OldAch.AchCoName
+            ,OldAch.AchDescrp
+            ,OldAch.AchDiscrtn
+            ,OldAch.Secc
+            ,OldAch.AllowBlindCredits
+            ,OldAch.Test
+            ,OldAch.Reservepct
+            ,OldAch.ReservePeriod
+            ,OldAch.HoldPeriod
+            ,OldAch.ItemFee
+            ,OldAch.FileLoadFee
+            ,OldAch.StatementFee
+            ,OldAch.MonthlyMin
+            ,OldAch.ReturnFee
+            ,OldAch.OverDraftFee
+            ,OldAch.InquiryFee
+            ,OldAch.AdditionalFiles
+            ,OldAch.NoStatementLimit
+            ,OldAch.ISOCommID
+            ,OldAch.RepCommID
+            ,OldAch.FileFormatID
+            ,OldAch.DailyLimitAmount
+            ,OldAch.OverDailyAmtLimitTransFee
+            ,OldAch.ItemLimitAmount
+            ,OldAch.OverItemAmtLimitPCTFee
+            ,OldAch.OverDailyAmountPct
+            ,OldAch.Balance
+            ,OldAch.MonthlyBase
+            ,OldAch.ProcessFee
+            ,OldAch.DeclineFee
+            ,OldAch.LateReturnFee
+            ,OldAch.ProduceRspFile
+            ,OldAch.ProduceRtnFile
+            ,OldAch.OkToProcessPayment
+            ,OldAch.TransRoute
+            ,OldAch.AccountNo
+            ,OldAch.dfiAcctName
+            ,OldAch.WithdrawTR
+            ,OldAch.WithdrawAcctNo
+            ,OldAch.WithdrawFees_AchID
+            ,OldAch.WithdrawFunds_AchID
+            ,OldAch.Active
+            ,OldAch.TxReserve
+            ,OldAch.SumBatch
+            ,OldAch.PermRsrvPct
+            ,OldAch.NoOfDays4Susp
+            ,OldAch.StopEFTFrom
+            ,OldAch.CreateHold
+            ,OldAch.AutoRepresent
+            ,OldAch.CreateMultiBatch
+            ,OldAch.SettleBatchRightAway
+            ,OldAch.MerchantTypeCode
+            ,OldAch.PaidMultipleParty
+            ,OldAch.PaidMethod
+            ,OldAch.MonthlyMax
+            ,OldAch.ReleaseLimit
+            ,OldAch.MonthlyTotal
+            ,OldAch.ItemFeeForPri
+            ,OldAch.ItemFeeForBroker
+            ,OldAch.DiscountFeeForPri
+            ,OldAch.DiscountFeeForBroker
+            ,OldAch.ReturnFeeForPri
+            ,OldAch.ReturnFeeForBroker
+            ,OldAch.Memo1
+            ,OldAch.Memo2
+            ,OldAch.Risk_WatchMerchant_Ind
+            ,OldAch.Risk_SameDDANumber_Ind
+            ,OldAch.Risk_SameDDANumber_Times
+            ,OldAch.Risk_NextReviewDate_Ind
+            ,OldAch.Risk_NextReviewDate_Date
+            ,OldAch.Risk_NewMerchantDays_Ind
+            ,OldAch.Risk_NewMerchantDays_Times
+            ,OldAch.Risk_ItemLimitTicket_Ind
+            ,OldAch.Risk_ItemLimitTicket_Amount
+            ,OldAch.Risk_ItemLimitTicket_Times
+            ,OldAch.Risk_BatchNetCreditAmount_Ind
+            ,OldAch.Risk_BatchNetCreditAmount_Amount
+            ,OldAch.Risk_BatchNetCreditAmount_Times
+            ,OldAch.Risk_MonthlyLimit_Ind
+            ,OldAch.Risk_MonthlyLimit_Amount
+            ,OldAch.Risk_MonthlyLimit_Times
+            ,OldAch.Risk_MonthlyTransactionLimit_Ind
+            ,OldAch.Risk_MonthlyTransactionLimit_Count
+            ,OldAch.Risk_MonthlyTransactionLimit_Times
+            ,OldAch.Risk_BatchNetDollarWeekly_Ind
+            ,OldAch.Risk_BatchNetDollarWeekly_Amount
+            ,OldAch.Risk_BatchNetDollarWeekly_Times
+            ,OldAch.Risk_BatchNetDollar_Ind
+            ,OldAch.Risk_BatchNetDollar_Amount
+            ,OldAch.Risk_BatchNetDollar_Times
+            ,OldAch.Risk_BatchTotalTicket_Ind
+            ,OldAch.Risk_BatchTotalTicket_Count
+            ,OldAch.Risk_BatchTotalTicket_Times
+            ,OldAch.Risk_NegativeBatch_Ind
+            ,OldAch.Risk_NegativeBatch_Amount
+            ,OldAch.Risk_NegativeBatch_Times
+            ,OldAch.Risk_SeasonalMonths_Ind
+            ,OldAch.Risk_SpecialHandling_Ind
+            ,OldAch.Email
+            ,OldAch.AddedBy
+            ,OldAch.UpdatedBy
+            ,OldAch.DateAdded
+            ,OldAch.DateUpdated
+            ,OldAch.OverrideSECC
+            ,OldAch.CheckDuplicateTrans
+            ,@NewMerchantKeyAch                     AS MerchantKey--OldAch.MerchantKey
+            ,OldAch.MerchantStatusID
+            ,OldAch.MonthlyVolume
+            ,OldAch.AverageTicket
+            ,OldAch.DSCFeeTransRoute
+            ,OldAch.DSCFeeAccountNo
+            --,OldAch.MerchantStatusUID
+            ,'D96EC87C-CCB0-4C88-B9B8-2B497BA6E409' AS MerchantStatusUID
+            ,OldAch.SuppressScrubReturnFee
+            --,OldAch.MerchantAppUID
+            ,mNew.UID                               AS MerchantAppUID
+            ,OldAch.LocationID
+            ,OldAch.AgentUID
+            ,OldAch.ParentID
+            ,OldAch.NAICS
+            ,OldAch.DiscountFeeCompletedPresentment
+            ,OldAch.DiscountFeeCompletedCredit
+            ,OldAch.DiscountFeeDeclinedPresentment
+            ,OldAch.ReseveCompletedPresentment
+            ,OldAch.CompletedVerify
+            ,OldAch.CompletedPresentment
+            ,OldAch.CompletedCredit
+            ,OldAch.CompletedMandate
+            ,OldAch.DeclinedVerify
+            ,OldAch.DeclinedPresentment
+            ,OldAch.DeclinedCredit
+            ,OldAch.DeclinedMandate
+            ,OldAch.ReturnedVerify
+            ,OldAch.ReturnedPresentment
+            ,OldAch.ReturnedCredit
+            ,OldAch.ReturnedMandate
+            ,OldAch.Chargeback
+            ,OldAch.CompletedRepresentment
+            ,OldAch.BacsFileSubmissionFee
+            ,OldAch.AccountType
+            FROM   #Temp t
+            INNER JOIN Ach.dbo.Ach_Merchants OldAch WITH (nolock) ON t.OldZID = OldAch.MerchantID
+            LEFT OUTER JOIN Ach.dbo.Ach_Merchants NewAch WITH (nolock) ON t.NewZID = NewAch.MerchantID
+            LEFT OUTER JOIN PrimusPayments.dbo.MerchantApps mNew WITH (nolock) ON t.NewZID = mNew.ID
+            WHERE  NewAch.AchID IS NULL
+            
+            UPDATE mNew
+            SET    mNew.AchID = aNew.AchID--SELECT mNew.ID, aNew.AchID
+            FROM   #Temp t
+            INNER JOIN PrimusPayments.dbo.MerchantApps mNew WITH (nolock) ON t.NewZID = mNew.ID
+            INNER JOIN Ach.dbo.Ach_Merchants aNew WITH (nolock) ON t.NewZID = aNew.MerchantID
+            */
+            SELECT @NewUID
+        --COMMIT TRANSACTION
+        END TRY
+        BEGIN CATCH
+            --Must rollback transaction before error handling to log error
+            --IF Xact_state() <> 0
+            --  ROLLBACK TRANSACTION;
+            DECLARE @databasename  VARCHAR(128),
+                    @procedurename VARCHAR(128),
+                    @linenumber    INT,
+                    @errormessage  NVARCHAR(2000),
+                    @loginname     VARCHAR(128),
+                    @hostname      VARCHAR(128)
+
+            SET @databasename = DB_NAME()
+            SET @procedurename = ISNULL(OBJECT_NAME(@@PROCID), '')
+            SET @linenumber = ERROR_LINE()
+            SET @errormessage = ERROR_MESSAGE()
+            SET @loginname = SUSER_SNAME()
+            SET @hostname = HOST_NAME()
+
+            EXEC SQLP.ServerAdmin.dbo.usp_InsertErrorLog
+                @databasename  = @databasename,
+                @procedurename = @procedurename,
+                @linenumber    = @linenumber,
+                @errormessage  = @errormessage,
+                @loginname     = @loginname,
+                @hostname      = @hostname
+
+            RAISERROR(@errormessage,16,1)
+
+            SET XACT_ABORT OFF;
+        END CATCH
+    END
+
