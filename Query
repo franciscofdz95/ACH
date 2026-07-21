@@ -1,0 +1,12 @@
+SELECT c.name AS ColumnName, ty.name AS DataType, c.is_nullable
+  FROM sys.columns c
+  JOIN sys.types ty ON c.user_type_id = ty.user_type_id
+  WHERE c.object_id = OBJECT_ID('dbo.MerchantApps')
+    AND NOT EXISTS (
+          SELECT 1
+          FROM sys.sql_modules m
+          WHERE m.object_id = OBJECT_ID('dbo.sp_InsertCopyMerchantApp')
+            AND CHARINDEX(c.name COLLATE Latin1_General_CS_AS,
+                          m.definition COLLATE Latin1_General_CS_AS) > 0
+        )
+  ORDER BY c.column_id;
