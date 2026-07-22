@@ -1,0 +1,39 @@
+;WITH ColumnsAlreadyHandled AS (
+      SELECT value AS ColumnName
+      FROM STRING_SPLIT('UID,LeadsUID,ParentID,BusinessStructureUID,ApplicationTypeUID,RiskCategoryUID,StatusUID,ReasonC
+  hangesUID,ReturnPoliciesUID,MerchantAppTypeUID,AgentUID,BusinessLegalName,BusinessDBAName,BusinessAddress,BusinessAddr
+  ess2,BusinessCity,BusinessCounty,BusinessState,BusinessZip,BusinessMailingAddress,BusinessMailingCity,BusinessMailingC
+  ounty,BusinessMailingState,BusinessMailingZip,BusinessDBAPhone,BusinessFax,BusinessWebsite,BusinessTaxID,BusinessLicen
+  se,BusinessStartDate,BankName,AccountName,RoutingNumber,AccountNumber,EncryptAccountNumber3,SicCode,Notes,MerchantSell
+  s,DateCreated,UserCreated,DateUpdated,UserUpdated,RiskFlag,TinfoGrossYearlySalesVolume,TinfoAverageYearlyVMCVolume,Tin
+  foAverageMonthlyVMCVolume,TinfoAverageVMCTicket,TinfoHighestTicketAmount,TinfoSesonalHighestVolume,TinfoStoreFrontSwip
+  edPercent,TinfoInterntPercent,TinfoMailOrderPercent,TinfoTelephoneOrderPercent,TinfoElectronicDataCaptureSwipedPercent
+  ,TinfoManualEntryWithImprintPercent,TinfoManualEntryNoCardNoImprintPercent,TinfoVoiceAuthPercent,AMEXDiscountRate,JCBD
+  iscountRate,DiscoverDiscountRate,JCBMID,DiscoverMID,AMEXMID,AuthPlatformUID,AuthPlatformMID,SettlePlatformUID,SettlePl
+  atformMID,SettlePlatformTermID,AchID,AchBatchUpload,OtherFeeName1,OtherFeeName2,IEFSMID,EBTFCSMID,PetroleumWEXMid,Petr
+  oleumVoyagerMid,CheckServicesMID,ChangeOfOwnership,Reprogram,StoredValuePrograms,AdditionalLocation,AddTerminal,VisaMa
+  sterCard,AtmDebit,AmericanExpress,DiscoverNovus,Diners,Jcb,Voyager,Ebt,MediFAX,WEX,Checks,NMCMerClub,Internet,GiftCard
+  s,PrePaidPhone,ACH_EFT,Others,OtherService,EBTFoodStamps,EBTCashback,NMCGateway,Wireless,ACH,AllowBlindCredits,Merchan
+  tKey,PrivateLabelUID,NamePhoneVerification,NameAddressTINVerification,AddressSSNVerification,BVIVerifcation,InstantIDR
+  iskCode,NegativeConsumer,DandB,DelaysApproved,PCILevel,MonthendApproved,AssignToUID,DSCFeeAcctUID,UWNotes,IsDSC,Mercha
+  ntClosureCodeUID,ReleaseMethodUID,GatewayAllowCC,GatewayAllowACH,HostUserName,HostPassword,MerchantPin,GatewayModeUID,
+  HighRisk,FreeTerminal,GatewayAllowC21,ETFAssessed,PlacedOnMATCH,UWOverride,TID,SettlementSchedule,Descriptor,Retrieval
+  ID,Referral,Source,ReceiptEmailCustomer,ReceiptEmailMerchant,MasterCard,Visa,NAICS,UWMultOverride,AdvPymtAgreement,Cro
+  ssCorpGty,ReasonForDecline,MultiAccLink,MerchantTag,DiscountMethod,ETCTypeUID,TrainingBy,RescheduleTrainingDate,NoEqui
+  pment,ConditionalApproval,ConditionalApprovalAP,ConditionalDueDate,HasConditions,NotificationEmails,MonthlyProfit,Lead
+  sID,AltDescriptor,FirstTeam,zFirstTeamNotesOld,Maestro,ActivationCode,EncryptAccountNumber,AccountNumberHash,OtherFeeN
+  ame3,OtherFeeName4,AmexOP,FuelManMID,GiftCardMID,CustomerServicePhone,CustomerServiceEmail,CancellationDate,PinDebit,B
+  usinessCountry,BusinessMailingCountry,Currency,CustomerServicePhoneCallingCode,MerchantBrandID,OfficeID,Gatewayonly,Mo
+  nthlyTransCount,DaysHoldTypeID,VisaElectron,LanguageID,BusinessMailingAddress2,LegalEntityID,BankCurrency,BusinessAddr
+  essLine2,BusinessMailingAddressLine2,FuelMan,GETI,Telecheck,AmexOPID,EBTFCS,FirstTeamNotes,BusinessDBAPhoneCountryCode
+  ,BusinessDBAPhoneExt,CustomerServicePhoneExt,BusinessFaxCountryCode,BusinessFaxExt,EMVComplianceMerchant,TinfoOffPremi
+  sePercent,TinfoTradeShowPercent,TinfoOtherPercent,Specify,AlternateEmail,AdditionalRecipients,BillingMethodUID,Suppres
+  sProcessingStatements,ChargebackExcessiveFeeWaived,WaiveOtherItemFee,VisaSicCode,IsPCCSSwitch,PrimaryContactUID,Nashvi
+  lleAPIVersion', ',')
+  )
+  SELECT c.COLUMN_NAME, c.DATA_TYPE, c.IS_NULLABLE
+  FROM   PrimusPayments.INFORMATION_SCHEMA.COLUMNS c
+  LEFT JOIN ColumnsAlreadyHandled h ON h.ColumnName = c.COLUMN_NAME
+  WHERE  c.TABLE_NAME = 'MerchantApps'
+         AND h.ColumnName IS NULL
+  ORDER BY c.ORDINAL_POSITION;
