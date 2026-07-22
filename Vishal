@@ -1,0 +1,48 @@
+ Hi Vishal,
+
+  I'm working on the story to update sp_InsertCopyMerchantApp so the Copy button in Zeus carries over the fields that
+  have been added to MerchantApps since the SP was last updated (last touched 06/22/2023 per the changelog, DM-4369).
+
+  I diffed the current MerchantApps schema (both PrimusPayments.dbo.MerchantApps and TransDB.dbo.MerchantApps — same
+  result in both) against the columns the SP currently copies, and found the following columns are not referenced
+  anywhere in the SP, so they're silently dropped when a ZID is copied:
+
+  Flags/config — assuming these should just carry over as-is, confirm?
+  SalesFlag, IsNutraMerchant, IsNewVertical, MasterMRP, SendMRPRequest, MRPDateSubmitted, RegisteredURLs, MasterVIRP,
+  SendVIRPRequest, VIRPDateSubmitted, VIRPRegisteredURLs, DualPricing, IsWithAgency, AccountClosureRisk,
+  DisputeViaEResponse, IsOnlineRefundEnabled, IsPartialAuthEnabled, IsTilled
+
+  Business profile / delivery / return policy — assuming copy as-is:
+  WFReturnPoliciesUID, ReturnCancelPolicy, RefundPolicyAwareness, RefundPolicyAwarenessReason, Delivery07, Delivery08,
+  Delivery15, Delivery30, GeographicAreas, Deposit_FutureServices, Cash_Carry, BusinessLegalNameCleaned,
+  BusinessDBANameCleaned, AssociationNumber
+
+  Third-party integration fields — need your call, since the SP currently NULLs out credential-type fields on copy
+  (MIDs, HostUserName/Password, etc.) rather than copying them:
+  NetBanxUserName, NetBanxMerchantKey, PaysafeJsUserName, PaysafeJsKey, NMIVendorUID, NMIProviderName
+  → Should these be copied verbatim, or nulled/regenerated on the new ZID like the other MID/credential fields?
+
+  Secondary bank account block ("Deposit_*") — need your call:
+  DepositAccountName, DepositBankName, DepositRoutingNumber, DepositAccountNumber, DepositBankCurrency,
+  EncryptDepositAccountNumber
+  → Should this be treated like the primary bank fields (BankName/AccountName/RoutingNumber/AccountNumber, which ARE
+  copied today), or is it more sensitive and should be excluded/nulled?
+
+  Misc:
+  CRMID, SSQRep, UserEditing (this last one looks like an edit-lock field — should probably NOT carry over to the new
+  ZID, but confirming)
+
+  NOT NULL columns not in the SP's insert list today (meaning they currently fall back to whatever table default exists,
+  rather than the source ZID's actual value):
+  AllowAmount, MinAllowedAmount, IsCOFEnabled, IsInCollection, RiskStatus
+  → Is relying on the default acceptable, or should the copy carry the source's real value for these?
+
+  Separate bug I found while reviewing, not related to new columns:
+  IsRolloverAccount is read from the source ZID (@IsRolloverAccount) and used to decide whether to copy documents/UW
+  notes/descriptors, but it's never written into the new ZID's own row — so the copied merchant always ends up with the
+  column's default regardless of the source's actual value. Should this be added to the insert as well?
+
+  Let me know your calls on the items above (especially the credential/Deposit/NOT NULL ones — those affect what the SP
+  should actually do, not just which columns to add) and I'll get the SP and QA test cases updated.
+
+  Thanks!
