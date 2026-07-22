@@ -1,0 +1,12 @@
+Db: Update sp_InsertCopyMerchantApp to consider net-new fields in MerchantApps table
+
+Review logic and make sure Copy button in Zeus copies everything from old account to new
+
+Update SP to include the delta fields
+
+Work with Vishal to understand and update the fields
+
+For QA
+
+test the copy function to ensure the delta fields are included when copying in Db
+
