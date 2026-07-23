@@ -1,0 +1,38 @@
+SET NOCOUNT ON;
+
+  DECLARE @SPName SYSNAME = N'dbo.sp_InsertCopyMerchantApp';
+  DECLARE @Definition NVARCHAR(MAX) = OBJECT_DEFINITION(OBJECT_ID(@SPName));
+
+  -- Normaliza el texto del SP: reemplaza cualquier delimitador común por espacio
+  DECLARE @CleanText NVARCHAR(MAX) = @Definition;
+  SELECT @CleanText = REPLACE(@CleanText, c, ' ')
+  FROM (VALUES (','),('('),(')'),('.'),('''' ),('='),('<'),('>'),('@'),('['),(']'),
+               (';'),(':'),('+'),('-'),('*'),('/'),(CHAR(13)),(CHAR(10)),(CHAR(9))) AS d(c);
+
+  ;WITH Tokens AS (
+      SELECT DISTINCT UPPER(LTRIM(RTRIM(value))) AS Token
+      FROM STRING_SPLIT(@CleanText, ' ')
+      WHERE LTRIM(RTRIM(value)) <> ''
+  ),
+  TargetTables AS (
+      SELECT * FROM (VALUES
+          ('MerchantApps'), ('MerchantFees'), ('MerchantFeesCard'), ('Ownerships'),
+          ('TradeReferences'), ('MerchantAccountGroup'), ('MerchantFulfillment'),
+          ('Note'), ('MerchantAppItem'), ('MerchantAppSevices'),
+          ('MerchantVerticalMarket'), ('MerchantUWNotes'), ('MDoc'), ('MerchantDescriptor')
+      ) AS t(TableName)
+  )
+  SELECT
+      tt.TableName,
+      c.name          AS ColumnName,
+      ty.name         AS DataType,
+      c.is_nullable,
+      c.column_id
+  FROM TargetTables tt
+  JOIN sys.tables t   ON t.name = tt.TableName AND SCHEMA_NAME(t.schema_id) = 'dbo'
+  JOIN sys.columns c ON c.object_id = t.object_id
+  JOIN sys.types ty  ON ty.user_type_id = c.user_type_id
+  WHERE NOT EXISTS (
+      SELECT 1 FROM Tokens tk WHERE tk.Token = UPPER(c.name)
+  )
+  ORDER BY tt.TableName, c.column_id;
