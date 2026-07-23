@@ -1,0 +1,255 @@
+ MerchantApps
+
+  ┌──────────────┬─────────────────────────────┐
+  │  TableName   │         ColumnName          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ AmexOB                      │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ AmexOBID                    │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ SalesFlag                   │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsInCollection              │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ UserEditing                 │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ RiskStatus                  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ WFReturnPoliciesUID         │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ ReturnCancelPolicy          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ RefundPolicyAwareness       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ RefundPolicyAwarenessReason │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ Delivery07                  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ Delivery08                  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ Delivery15                  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ Delivery30                  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ GeographicAreas             │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ Deposit_FutureServices      │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ Cash_Carry                  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsNutraMerchant             │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ NMIVendorUID                │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ NMIProviderName             │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsNewVertical               │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ MasterMRP                   │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ SendMRPRequest              │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ MRPDateSubmitted            │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ RegisteredURLs              │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ AccountClosureRisk          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsWithAgency                │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ AllowAmount                 │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ MinAllowedAmount            │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ DisputeViaEResponse         │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ SSQRep                      │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ BusinessLegalNameCleaned    │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ BusinessDBANameCleaned      │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ CRMID                       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsCOFEnabled                │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsOnlineRefundEnabled       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsPartialAuthEnabled        │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ MasterVIRP                  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ SendVIRPRequest             │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ VIRPDateSubmitted           │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ VIRPRegisteredURLs          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ AssociationNumber           │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ DualPricing                 │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ DepositAccountName          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ DepositBankName             │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ DepositRoutingNumber        │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ DepositAccountNumber        │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ DepositBankCurrency         │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ EncryptDepositAccountNumber │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantApps │ IsTilled                    │
+  └──────────────┴─────────────────────────────┘
+
+  MerchantFees
+
+  ┌──────────────┬─────────────────────────────┐
+  │  TableName   │         ColumnName          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ WirelessPerDeviceFee        │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ WirelessPerDeviceWaived     │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ AUPerMatchFee               │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSGatewayMonthlyFee       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSGatewayTransFee         │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSGatewaySetupFee         │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSGatewayMonthlyFeeWaived │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSGatewayTransFeeWaived   │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSGatewaySetupFeeWaived   │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSTokenizationFee         │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ LBPSTokenizationFeeWaived   │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ ThirdPartyMonthlyFee        │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ ThirdPartyTransFee          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ ThirdPartySetupFee          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ ThirdPartyMonthlyWaived     │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ ThirdPartyTransWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ ThirdPartySetupWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ EarlyTerminationFeeWaived   │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ GatewayMonthlyFeeWaived     │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ GatewayTransFeeWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ GatewaySetupFeeWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ FraudXPTransFeeWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ FraudXPMonthlyFeeWaived     │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ FraudXPSetupFeeWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ CBMSMonthly1FeeWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ CBMSMonthly2FeeWaived       │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ CBMSSetupFeeWaived          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ AUTransFeeWaived            │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ AUTransFeePercentWaived     │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ AUMonthlyFeeWaived          │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ AUSetupFeeWaived            │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ CBMSPlusAlertFeeWaived      │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ WirelessPerTransFeeWaived   │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ WirelessServiceFeeWaived    │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ WirelessStmntFeeWaived      │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ WirelessPerDeviceFeeWaived  │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ AUPerMatchFeeWaived         │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ AUPerMatchWaived            │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRSetupFee                 │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRMonthlyFee               │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRTransFee                 │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRHandlingFee              │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRSetupWaived              │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRMonthlyWaived            │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRTransWaived              │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ RDRHandlingWaived           │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ HighRiskMonitoringFeeWaived │
+  ├──────────────┼─────────────────────────────┤
+  │ MerchantFees │ IsDMAllocation              │
+  └──────────────┴─────────────────────────────┘
+
+  Otras tablas
+
+  ┌─────────────────────┬────────────────────────────┐
+  │      TableName      │         ColumnName         │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantFeesCard    │ SettlementFee              │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantFeesCard    │ FraudDisputeFee            │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppItem     │ QIRVendorId                │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppItem     │ EquipmentRecordID          │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppItem     │ TerminalNumberVAR          │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppItem     │ StoreNumberVAR             │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppSevices  │ CRMVendorUID               │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppSevices  │ TPPCertifiedFlag           │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppSevices  │ AcceptTransactions         │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppSevices  │ RelationShipRecordId       │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantAppSevices  │ CRMID                      │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantFulfillment │ RefundVolume               │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantFulfillment │ RefundDays                 │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantFulfillment │ ChargebackVolume           │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantFulfillment │ ChargebackDays             │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantFulfillment │ RiskExposure               │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantUWNotes     │ HRMonitoringFee            │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantUWNotes     │ HighRiskRegistereddate     │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantUWNotes     │ VIRPHighRiskRegistered     │
+  ├─────────────────────┼────────────────────────────┤
+  │ MerchantUWNotes     │ VIRPHighRiskRegisteredDate │
+  ├─────────────────────┼────────────────────────────┤
+  │ Ownerships          │ PersonalGuarantor          │
+  └─────────────────────┴────────────────────────────┘
