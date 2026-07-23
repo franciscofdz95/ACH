@@ -1,0 +1,77 @@
+Let me send code
+ 
+Please
+ 
+                        ,CustomerServicePhoneExt
+                        ,BusinessFaxCountryCode
+                        ,BusinessFaxExt
+                        ,EMVComplianceMerchant
+                        ,TinfoOffPremisePercent
+                        ,TinfoTradeShowPercent
+                        ,TinfoOtherPercent
+                        ,Specify
+
+                        ,AlternateEmail
+
+                        ,AdditionalRecipients
+
+                        ,BillingMethodUID
+
+                        ,SuppressProcessingStatements
+
+                        ,ChargebackExcessiveFeeWaived
+
+                        ,WaiveOtherItemFee
+
+                        ,VisaSicCode
+
+                        ,IsPCCSSwitch
+
+                        ,PrimaryContactUID
+
+						,NashvilleAPIVersion)
+ 
+So, in SP, insert into merchantapp block has these columns
+ 
+Up to column Specify, the order of columns match with MerchantApps column
+ 
+BusinessFaxExt	nvarchar	no	16
+TinfoOffPremisePercent	decimal	no	5
+TinfoTradeShowPercent	decimal	no	5
+TinfoOtherPercent	decimal	no	5
+Specify	nvarchar	no	1000
+
+IsNutraMerchant	bit	no	1
+
+NMIVendorUID	uniqueidentifier	no	16
+
+NMIProviderName	varchar	no	100
+
+VisaSicCode	nvarchar	no	30
+
+IsPCCSSwitch	bit	no	1
+
+AllowAmount	bit	no	1
+
+MinAllowedAmount	money	no	8
+
+DisableVisaDesc	bit	no	1
+
+CRMID	int	no	4
+
+IsCOFEnabled	bit	no	1
+
+NashvilleAPIVersion	int	no	4
+
+IsOnlineRefundEnabled	bit	no	1
+
+IsPartialAuthEnabled	bit	no	1
+
+Tsys_TID	varchar	no	100
+ 
+And these above columns are from MerchantApps
+ 
+So, All columns after Specify column, simply add the missing ones in SP insert statement
+
+IsNutraMerchant	, NMIVendorUID	, NMIProviderName	, ......., ,IsPartialAuthEnabled	, Tsys_TID	
+ 
