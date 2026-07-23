@@ -1,0 +1,1 @@
+Ok. Basically,if MerchantApps has 100 columns, then insert block should have may be 90 columns (rest 10 columns could be API key, Password, etc. which we do not need to add to new copy ZID)
